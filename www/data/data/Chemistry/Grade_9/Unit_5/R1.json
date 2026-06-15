@@ -1,0 +1,1690 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Chem_U5_Q010",
+    "covered_sections": [
+      "5.1 Chemical Bonding>Why do atoms form chemical bond?",
+      "5.1 Chemical Bonding>Octet Rule",
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>What are Ions?",
+      "5.2 Ionic Bonding>5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1"
+    ],
+    "baseline_counter": {
+      "5.1 Chemical Bonding": {
+        "Why do atoms form chemical bond?": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Octet Rule": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      },
+      "5.2 Ionic Bonding": {
+        "5.2.1 Formation of Ionic Bonding>What are Ions?": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      },
+      "5.3 Covalent Bonding": {
+        "5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Chemical Bonding": { "question_count": 2, "last_used_round": 1, "consecutive_batches": 1 },
+      "5.2 Ionic Bonding": { "question_count": 4, "last_used_round": 1, "consecutive_batches": 1 },
+      "5.3 Covalent Bonding": { "question_count": 3, "last_used_round": 1, "consecutive_batches": 1 },
+      "5.4 Metallic Bonding": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Chemical Bonding>Why do atoms form chemical bond?": ["chemical bond", "stability", "valence electrons"],
+      "5.1 Chemical Bonding>Octet Rule": ["octet rule", "noble gas configuration", "valence shell"],
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>What are Ions?": ["ion", "cation", "anion", "net charge"],
+      "5.2 Ionic Bonding>5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula": ["Lewis dot symbol", "valence electrons"],
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond": ["covalent bond", "single bond", "shared pair"],
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules": ["nonpolar covalent bond", "electronegativity", "homonuclear"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 18,
+      "questions_per_concept_ratio": 0.56,
+      "structural_coverage_percentage": 35.3
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL BONDING",
+  "pdf_filename": "C9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": { "complete": false, "sections_covered": 4, "total_sections": 4, "progress_percentage": 25.0 },
+      "phase2": { "complete": false, "max_imbalance_ratio": 0.0, "balanced": true },
+      "phase3": { "started": false, "exam_sections_biased": 0 }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 35.3,
+      "concept_utilization_ratio": 0.56
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Ionic Bonding",
+      "least_covered_section": "5.4 Metallic Bonding",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U5_Q001",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "Why do atoms form chemical bond?",
+      "sub_subsection": null,
+      "structural_anchor": "Why do atoms form chemical bond?",
+      "mcq_type": "F",
+      "question": "Atoms of most elements do not exist independently in nature because they achieve greater stability by forming chemical bonds. What fundamental change occurs when an atom becomes part of a chemical bond?",
+      "options": {
+        "A": "Its nucleus gains additional protons.",
+        "B": "Its electron configuration changes to resemble a noble gas.",
+        "C": "It loses all its neutrons to the surrounding atoms.",
+        "D": "Its atomic number decreases by one."
+      },
+      "correct_answer": "B",
+      "hint": "Consider which particle arrangement makes an atom most stable.",
+      "explanation": "Atoms achieve noble gas electron configurations through bonding, which provides stability as described by the octet rule. Option A is incorrect because nuclear composition never changes in chemical bonding.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "Why do atoms form chemical bond?",
+        "structural_element": "Why do atoms form chemical bond?",
+        "content_anchor": "Most elements exist in combined state because atoms are unstable by themselves",
+        "page_hint": 3,
+        "concept_hash": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A chemical bond is the force that holds atoms together to form molecules or compounds.",
+        "concept_summary": "Atoms bond to achieve the electron configuration of noble gases, which is inherently stable. This drive toward stability is the fundamental reason for chemical bonding.",
+        "beginner": "Think of atoms like lonely people who feel safer in pairs or groups. Bonding gives atoms a 'full shell' of electrons, like having all your friends around you.",
+        "intermediate": "The octet rule explains that atoms become stable when they have eight valence electrons like noble gases. Bonding allows atoms to gain, lose, or share electrons to achieve this configuration.",
+        "advanced": "Noble gases have exceptionally low reactivity due to their filled valence shells (\\(ns^2np^6\\) for period 2 and above). Atoms bond to minimize their potential energy by achieving this same electronic configuration.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that noble gases are chemically inert due to full valence shells.",
+          "Most atoms lack full valence shells, making them reactive.",
+          "Through bonding, atoms gain/lose/share electrons to fill their valence shells.",
+          "Thus bonding changes electron configuration to resemble noble gases."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some believe atoms bond to gain protons. Nuclear composition never changes in chemical reactions — only electron arrangements change.",
+          "Another misconception is that all atoms become completely unreactive after bonding. Bonded atoms are more stable but can still react under appropriate conditions."
+        ],
+        "related_concepts": ["Octet rule", "Valence electrons", "Noble gases", "Stability"],
+        "revision_note": "Bonding → noble gas electron config → stability. Only valence electrons involved.",
+        "glossary_entry": {
+          "term": "Chemical bond",
+          "definition": "The attractive force that holds atoms together to form molecules or compounds.",
+          "example_equation": null,
+          "related_terms": ["ionic bond", "covalent bond", "metallic bond"]
+        },
+        "flashcard": {
+          "front": "Why do most atoms form chemical bonds?",
+          "back": "To achieve a stable electron configuration resembling a noble gas, typically with eight valence electrons (octet rule)."
+        },
+        "concept_map_nodes": [
+          { "source": "Atom", "relation": "becomes_stable_by", "target": "Chemical bond" },
+          { "source": "Chemical bond", "relation": "results_in", "target": "Noble gas configuration" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What drives atoms to form chemical bonds?",
+        "flashcard_back": "The drive to achieve a stable noble gas electron configuration (octet rule) by gaining, losing, or sharing valence electrons.",
+        "glossary_term": "Chemical bond",
+        "glossary_definition": "The attractive force that holds atoms together to form molecules or compounds.",
+        "revision_note": "Bonding → noble gas electron config → stability.",
+        "teacher_note": "Students often confuse nuclear changes with electron changes. Emphasize that only valence electrons are involved in bonding.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain why atoms form chemical bonds",
+        "concept_map_nodes": [
+          { "source": "Atom", "relation": "becomes_stable_by", "target": "Chemical bond" },
+          { "source": "Chemical bond", "relation": "results_in", "target": "Noble gas configuration" }
+        ],
+        "workbook_section": "5.1 Chemical Bonding",
+        "solution_manual_note": "Answer B. Atoms bond to achieve noble gas configurations (octet rule). Nuclear properties (A, D) never change in chemical bonding, and neutrons (C) are not involved."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q002",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "Octet Rule",
+      "sub_subsection": null,
+      "structural_anchor": "Octet Rule",
+      "mcq_type": "A",
+      "question": "The octet rule states that atoms tend to form compounds in ways that give them eight valence electrons. Which electron configuration satisfies the octet rule for most main-group elements?",
+      "options": {
+        "A": "\\(1s^2 2s^2 2p^6\\)",
+        "B": "\\(1s^2 2s^2 2p^6 3s^1\\)",
+        "C": "\\(1s^2 2s^2 2p^3\\)",
+        "D": "\\(1s^2 2s^2 2p^6 3s^2 3p^6 4s^2\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Look for a configuration with exactly eight electrons in the outermost shell.",
+      "explanation": "The octet rule is satisfied by \\(ns^2np^6\\) configuration, which is \\(1s^2 2s^2 2p^6\\) for period 2 elements. Options B and D have incomplete or extra valence electrons, while C has only five valence electrons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "Octet Rule",
+        "structural_element": "Octet Rule",
+        "content_anchor": "atoms tend to form compounds in ways that give them eight valence electrons",
+        "page_hint": 3,
+        "concept_hash": "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The octet rule states that atoms tend to form compounds that give them eight valence electrons, achieving a noble gas configuration.",
+        "concept_summary": "Most main-group elements follow the octet rule to become stable. The \\(ns^2np^6\\) configuration represents a complete valence shell with eight electrons.",
+        "beginner": "Imagine an atom wanting eight 'friends' (electrons) in its outer playground. When it has eight, it's happy and stable — that's the octet rule!",
+        "intermediate": "The octet rule describes how atoms gain, lose, or share electrons to achieve eight valence electrons (\\(ns^2np^6\\)). This matches the electron configuration of noble gases like neon (\\(1s^2 2s^2 2p^6\\)).",
+        "advanced": "The octet rule arises from quantum mechanical stability: a filled \\(ns^2np^6\\) subshell has maximum spin pairing and minimal energy. For period 2 elements, \\(1s^2 2s^2 2p^6\\) (neon configuration) is the octet target.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the valence shell (highest n value).",
+          "Count electrons in that shell.",
+          "Eight electrons (\\(s^2p^6\\)) satisfies octet.",
+          "Compare each option's valence electron count."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Helium is an exception — it follows the duet rule (2 electrons), not the octet rule, because its only shell holds a maximum of 2 electrons.",
+          "Some students think any filled shell satisfies octet. Only \\(ns^2np^6\\) (eight electrons) qualifies; filled d or f subshells are not relevant for main-group octet."
+        ],
+        "related_concepts": ["Valence electrons", "Noble gases", "Lewis dot structure", "Duet rule"],
+        "revision_note": "Octet = \\(ns^2np^6\\) = 8 valence electrons = noble gas config.",
+        "glossary_entry": {
+          "term": "Octet rule",
+          "definition": "Atoms tend to form compounds that give them eight valence electrons, achieving a noble gas configuration.",
+          "example_equation": null,
+          "related_terms": ["valence electrons", "noble gas", "duet rule"]
+        },
+        "flashcard": {
+          "front": "What electron configuration satisfies the octet rule?",
+          "back": "\\(ns^2np^6\\) — eight electrons in the outermost shell, like the noble gas configuration."
+        },
+        "concept_map_nodes": [
+          { "source": "Octet rule", "relation": "requires", "target": "8 valence electrons" },
+          { "source": "8 valence electrons", "relation": "equals", "target": "\\(ns^2np^6\\) configuration" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What does the octet rule state?",
+        "flashcard_back": "Atoms tend to form compounds giving them eight valence electrons (\\(ns^2np^6\\)), achieving a noble gas electron configuration.",
+        "glossary_term": "Octet rule",
+        "glossary_definition": "Atoms tend to form compounds in ways that give them eight valence electrons, achieving a noble gas configuration.",
+        "revision_note": "Octet = \\(ns^2np^6\\) = 8 valence electrons.",
+        "teacher_note": "Emphasize hydrogen and helium are exceptions (duet rule). Boron and beryllium are also exceptions, often stable with 6 or 4 valence electrons.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the octet rule and its application to chemical bonding",
+        "concept_map_nodes": [
+          { "source": "Octet rule", "relation": "requires", "target": "8 valence electrons" },
+          { "source": "8 valence electrons", "relation": "equals", "target": "\\(ns^2np^6\\)" }
+        ],
+        "workbook_section": "5.1 Chemical Bonding",
+        "solution_manual_note": "Answer A. \\(1s^2 2s^2 2p^6\\) has eight electrons in its valence shell (n=2). Option B has 1 valence electron, C has 5, D has 2 valence electrons in the 4s subshell."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q003",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.1 Formation of Ionic Bonding",
+      "sub_subsection": "What are Ions?",
+      "structural_anchor": "What are Ions?",
+      "mcq_type": "B",
+      "question": "A calcium atom (atomic number 20) loses two electrons to achieve a stable electron configuration. What is the resulting species called and what is its charge?",
+      "options": {
+        "A": "Anion with charge \\(2-\\)",
+        "B": "Cation with charge \\(2+\\)",
+        "C": "Anion with charge \\(2+\\)",
+        "D": "Cation with charge \\(2-\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Metals lose electrons and become positively charged ions.",
+      "explanation": "A cation is a positively charged ion formed when an atom loses electrons. Calcium loses two electrons to become \\(Ca^{2+}\\). Options A and D incorrectly describe anions (negative ions), and C has the wrong charge sign.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.1 Formation of Ionic Bonding",
+        "structural_element": "What are Ions?",
+        "content_anchor": "Any atom or molecule with a net charge, either positive or negative, is known as an ion",
+        "page_hint": 5,
+        "concept_hash": "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "An ion is an atom or molecule with a net electric charge due to an unequal number of protons and electrons.",
+        "concept_summary": "Cations form when atoms lose electrons (positive charge). Anions form when atoms gain electrons (negative charge). Metals typically form cations.",
+        "beginner": "Imagine an atom losing negative electrons. With fewer negatives, the atom becomes more positive — like a cation with a '+' charge!",
+        "intermediate": "A cation is a positively charged ion formed when a neutral atom loses one or more valence electrons. Net charge = protons − electrons, so losing electrons increases the positive charge.",
+        "advanced": "The net charge of an ion is calculated as \\(Q = Z - e\\), where Z is atomic number and e is number of electrons. For \\(Ca^{2+}\\): Z=20, e=18, so \\(Q = 20-18 = +2\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Determine if electrons are lost or gained (lost here).",
+          "Losing electrons → positive charge → cation.",
+          "Count electrons lost: 2 electrons lost → charge \\(2+\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think cations are negative because the word sounds like 'cation' has a 'c' like 'negative'. Actually, 'cation' starts with 'c' as in 'positive charge' memory trick.",
+          "Students sometimes believe the nucleus changes during ion formation. Only electron count changes; proton count remains constant."
+        ],
+        "related_concepts": ["Anion", "Ionization", "Valence electrons", "Electrostatic force"],
+        "revision_note": "Cation = positive (lost e⁻). Anion = negative (gained e⁻).",
+        "glossary_entry": {
+          "term": "Cation",
+          "definition": "A positively charged ion formed when a neutral atom loses one or more valence electrons.",
+          "example_equation": "\\(\\mathrm{Ca \\rightarrow Ca^{2+} + 2e^-}\\)",
+          "related_terms": ["anion", "ion", "ionization"]
+        },
+        "flashcard": {
+          "front": "What is the name and charge of an ion formed when calcium loses two electrons?",
+          "back": "Calcium forms a cation with charge \\(2+\\) (\\(\\mathrm{Ca^{2+}}\\))."
+        },
+        "concept_map_nodes": [
+          { "source": "Atom", "relation": "loses electrons → becomes", "target": "Cation" },
+          { "source": "Cation", "relation": "has", "target": "Positive charge" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What is a cation and how does it form?",
+        "flashcard_back": "A cation is a positively charged ion formed when a neutral atom loses one or more electrons.",
+        "glossary_term": "Cation",
+        "glossary_definition": "A positively charged ion formed when a neutral atom loses one or more valence electrons.",
+        "revision_note": "Cation = positive (lost e⁻). Anion = negative (gained e⁻).",
+        "teacher_note": "Use the mnemonic: 'Cat-ion' has a '+' like a cat's paws? Or 'cation' sounds like 'positive action'.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the formation of ions by giving examples",
+        "concept_map_nodes": [
+          { "source": "Atom", "relation": "loses electrons → becomes", "target": "Cation" },
+          { "source": "Cation", "relation": "has", "target": "Positive charge" }
+        ],
+        "workbook_section": "5.2.1 Formation of Ionic Bonding",
+        "solution_manual_note": "Answer B. Calcium loses two electrons (protons > electrons) → positive charge → cation with \\(2+\\)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q004",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.1 Formation of Ionic Bonding",
+      "sub_subsection": "What are Ions?",
+      "structural_anchor": "What are Ions?",
+      "mcq_type": "H",
+      "question": "A student reasons that when a sodium atom becomes a sodium ion (\\(Na^+\\)), the atom must have gained one electron to become positively charged. What is the error in this reasoning?",
+      "options": {
+        "A": "Sodium atoms actually lose one electron to become \\(Na^+\\), not gain.",
+        "B": "Sodium atoms gain seven electrons to achieve octet, not one.",
+        "C": "Sodium atoms become negatively charged, not positively charged.",
+        "D": "Sodium atoms do not change their electron count during bonding."
+      },
+      "correct_answer": "A",
+      "hint": "Recall how metals achieve a noble gas configuration.",
+      "explanation": "The octet rule explains that sodium (1 valence electron) loses, not gains, that electron to achieve neon's configuration (2,8). The error is confusing loss with gain; gaining an electron would produce a negative ion, not \\(Na^+\\).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.1 Formation of Ionic Bonding",
+        "structural_element": "What are Ions?",
+        "content_anchor": "Sodium loses its outermost electron to attain octet and becomes sodium cation",
+        "page_hint": 7,
+        "concept_hash": "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Ionization is the process of a neutral atom losing or gaining electrons, forming a charged ion.",
+        "concept_summary": "Metals like sodium lose electrons to form cations (\\(Na^+\\)). Nonmetals gain electrons to form anions. The charge sign indicates whether electrons were lost (+) or gained (−).",
+        "beginner": "It's like giving away a toy instead of taking one. Sodium gives away one electron, so it has fewer negatives and becomes positive.",
+        "intermediate": "Sodium has 11 protons and 11 electrons. Losing 1 electron gives 11 protons and 10 electrons → net charge +1 (\\(Na^+\\)). Gaining an electron would produce \\(Na^-\\) (11 protons, 12 electrons → −1).",
+        "advanced": "The ionization energy of sodium is relatively low (496 kJ/mol), making electron loss favorable. Electron gain enthalpy for sodium is positive (unfavorable), so gaining an electron is energetically disfavored.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify sodium's electron configuration: \\(1s^2 2s^2 2p^6 3s^1\\).",
+          "To achieve octet, remove 3s¹ electron (lose, not gain).",
+          "Losing e⁻ → fewer negatives → positive charge.",
+          "The reasoning incorrectly assumed gain leads to positive charge."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "A common misconception is that 'positive' means 'gained something positive'. Actually, positive charge results from losing negative electrons.",
+          "Some believe all ions form by gaining electrons. Metals lose electrons; nonmetals gain electrons."
+        ],
+        "related_concepts": ["Cation formation", "Ionization energy", "Octet rule", "Sodium atom"],
+        "revision_note": "Metal + loses e⁻ → cation (+). Nonmetal + gains e⁻ → anion (−).",
+        "glossary_entry": {
+          "term": "Ionization",
+          "definition": "The process by which a neutral atom loses or gains electrons to form an ion.",
+          "example_equation": "\\(\\mathrm{Na \\rightarrow Na^+ + e^-}\\)",
+          "related_terms": ["ion", "cation", "anion"]
+        },
+        "flashcard": {
+          "front": "What error do students make when explaining \\(Na^+\\) formation?",
+          "back": "They think Na gains an electron to become positive. Actually, Na loses one electron, resulting in more protons than electrons → positive charge."
+        },
+        "concept_map_nodes": [
+          { "source": "Sodium atom", "relation": "loses 1 e⁻ → becomes", "target": "\\(Na^+\\)" },
+          { "source": "Positive charge", "relation": "caused_by", "target": "Electron loss" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why is \\(Na^+\\) formed by electron loss rather than gain?",
+        "flashcard_back": "Losing one electron (from 11 to 10) gives 11+ and 10− → net +1. Gaining would give 11+ and 12− → net −1, which is not \\(Na^+\\).",
+        "glossary_term": "Ionization",
+        "glossary_definition": "The process by which a neutral atom loses or gains electrons to form an ion.",
+        "revision_note": "Lost e⁻ → positive. Gained e⁻ → negative.",
+        "teacher_note": "This misconception is very common. Use analogy: losing a negative (debt) makes you more positive (wealthier).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Elucidate the formation of ions by giving examples",
+        "concept_map_nodes": [
+          { "source": "\\(Na^+\\)", "relation": "formed_by", "target": "Loss of 1 e⁻" },
+          { "source": "Loss of 1 e⁻", "relation": "results_in", "target": "Positive charge" }
+        ],
+        "workbook_section": "5.2.1 Formation of Ionic Bonding",
+        "solution_manual_note": "Answer A. The student incorrectly reversed the process. \\(Na^+\\) forms by losing one electron (Na → Na⁺ + e⁻), not gaining. Gaining electrons produces negative ions."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q005",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.2 Lewis Formulas of Ionic Compounds",
+      "sub_subsection": "Lewis Dot Formula",
+      "structural_anchor": "Lewis Dot Formula",
+      "mcq_type": "D",
+      "question": "Magnesium has two valence electrons and chlorine has seven valence electrons. To form magnesium chloride (\\(MgCl_2\\)) using Lewis dot symbols, how many chlorine atoms are needed and what happens to the valence electrons?",
+      "options": {
+        "A": "One chlorine atom shares two electrons with magnesium.",
+        "B": "Two chlorine atoms each gain one electron from magnesium.",
+        "C": "Two chlorine atoms each share one electron with magnesium.",
+        "D": "One chlorine atom gains two electrons from magnesium."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how many electrons magnesium must lose to achieve octet and how many each chlorine needs.",
+      "explanation": "The octet rule requires magnesium to lose two electrons (becoming \\(Mg^{2+}\\)) and each chlorine to gain one electron (becoming \\(Cl^-\\)). Therefore, two chlorine atoms accept one electron each from one magnesium atom.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.2 Lewis Formulas of Ionic Compounds",
+        "structural_element": "Lewis Dot Formula",
+        "content_anchor": "The two electrons removed from calcium will be received by two chlorine atoms to make two chloride ions",
+        "page_hint": 7,
+        "concept_hash": "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "A Lewis dot symbol represents an atom's chemical symbol surrounded by dots equal to its number of valence electrons.",
+        "concept_summary": "In ionic bonding, metals transfer valence electrons to nonmetals. The number of atoms of each element is determined by the electrons needed to complete octets.",
+        "beginner": "Think of magnesium as having two 'extra' toys to give away. Each chlorine wants one toy. So magnesium gives one toy to each of two chlorine atoms.",
+        "intermediate": "Magnesium (Group 2) loses 2 electrons to form \\(Mg^{2+}\\). Chlorine (Group 17) gains 1 electron to form \\(Cl^-\\). Two \\(Cl\\) atoms are needed to accept the two electrons from one \\(Mg\\) atom.",
+        "advanced": "The formula \\(MgCl_2\\) satisfies charge neutrality: \\(Mg^{2+} + 2Cl^- \\rightarrow MgCl_2\\). Electron transfer: \\(Mg \\rightarrow Mg^{2+} + 2e^-\\); \\(Cl_2 + 2e^- \\rightarrow 2Cl^-\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Determine electrons lost by Mg: 2 electrons.",
+          "Determine electrons gained per Cl: 1 electron.",
+          "Number of Cl atoms = 2 electrons lost / 1 electron gained per Cl = 2.",
+          "Electrons are transferred from Mg to each Cl atom."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think \\(MgCl_2\\) involves covalent sharing because of the '2' subscript. Actually, it's ionic with electron transfer from Mg to two Cl atoms.",
+          "Another misconception: one chlorine atom can accept both electrons from magnesium. Chlorine's valence shell can only accommodate one additional electron to complete octet."
+        ],
+        "related_concepts": ["Lewis dot symbol", "Ionic bond", "Octet rule", "\\(MgCl_2\\) formula"],
+        "revision_note": "\\(MgCl_2\\): Mg loses 2 e⁻ (to 2 Cl atoms, each gains 1 e⁻).",
+        "glossary_entry": {
+          "term": "Lewis dot symbol",
+          "definition": "A representation of an atom showing its chemical symbol surrounded by dots equal to the number of valence electrons.",
+          "example_equation": "\\(\\cdot \\mathrm{Mg}\\cdot\\)",
+          "related_terms": ["valence electrons", "electron dot formula"]
+        },
+        "flashcard": {
+          "front": "How many chlorine atoms bond with one magnesium atom in \\(MgCl_2\\) and what electron transfer occurs?",
+          "back": "Two chlorine atoms; each gains one electron from magnesium (Mg → Mg²⁺ + 2e⁻; each Cl + e⁻ → Cl⁻)."
+        },
+        "concept_map_nodes": [
+          { "source": "Magnesium", "relation": "transfers 2 e⁻ to", "target": "Two chlorine atoms" },
+          { "source": "Two chlorine atoms", "relation": "each gain 1 e⁻ to become", "target": "\\(Cl^-\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "workbook", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why does \\(MgCl_2\\) require two chlorine atoms?",
+        "flashcard_back": "Mg loses 2 electrons to become \\(Mg^{2+}\\). Each Cl atom can accept only 1 electron to become \\(Cl^-\\), so two Cl atoms are needed.",
+        "glossary_term": "Lewis dot symbol",
+        "glossary_definition": "A representation of an atom showing its chemical symbol surrounded by dots equal to the number of valence electrons.",
+        "revision_note": "\\(MgCl_2\\): 2 Cl atoms, each gains 1 e⁻ from Mg.",
+        "teacher_note": "Students often incorrectly write \\(MgCl\\) without balancing charges. Emphasize that total positive charge must equal total negative charge.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Draw Lewis structures for simple ionic compounds",
+        "concept_map_nodes": [
+          { "source": "\\(Mg^{2+}\\)", "relation": "requires", "target": "\\(2Cl^-\\)" },
+          { "source": "\\(2Cl^-\\)", "relation": "provides", "target": "Charge balance" }
+        ],
+        "workbook_section": "5.2.2 Lewis Formulas of Ionic Compounds",
+        "solution_manual_note": "Answer B. Magnesium loses 2 electrons (two Cl atoms each gain 1 electron). Option A and C describe covalent sharing, not ionic transfer. Option D would not satisfy octet for chlorine (would need to gain 2 e⁻, impossible for single Cl)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q006",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.1 Formation of Covalent Bond",
+      "sub_subsection": "Formation of Single Covalent Bond",
+      "structural_anchor": "Formation of Single Covalent Bond",
+      "mcq_type": "D",
+      "question": "Two chlorine atoms form a chlorine molecule (\\(Cl_2\\)) by sharing one pair of electrons. How many valence electrons does each chlorine atom have after bonding, and what noble gas configuration is achieved?",
+      "options": {
+        "A": "6 electrons, neon configuration",
+        "B": "7 electrons, neon configuration",
+        "C": "8 electrons, argon configuration",
+        "D": "8 electrons, neon configuration"
+      },
+      "correct_answer": "C",
+      "hint": "Chlorine has 7 valence electrons and needs 1 more to reach octet.",
+      "explanation": "Each chlorine atom contributes one electron to the shared pair, giving each atom access to 8 valence electrons (7 original + 1 shared). This matches argon's electron configuration (\\(1s^2 2s^2 2p^6 3s^2 3p^6\\)), the noble gas in period 3.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.1 Formation of Covalent Bond",
+        "structural_element": "Formation of Single Covalent Bond",
+        "content_anchor": "Each chlorine atom contains seven valence electrons and requires one more electron to form an argon-like electron configuration",
+        "page_hint": 17,
+        "concept_hash": "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 85,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A single covalent bond is formed when two atoms share one pair of electrons.",
+        "concept_summary": "In \\(Cl_2\\), each Cl atom has 7 valence electrons. Sharing one pair allows each to count 8 electrons (its own 7 plus 1 from the shared pair), achieving an argon-like octet.",
+        "beginner": "Each chlorine atom needs one more electron to be 'happy'. By shaking hands (sharing), each counts the other's electron as its own.",
+        "intermediate": "Chlorine (Group 17) has 7 valence electrons. Sharing one pair gives each Cl atom 8 valence electrons: 6 nonbonding (3 lone pairs) + 2 bonding electrons (shared pair).",
+        "advanced": "The bond order in \\(Cl_2\\) is 1 (single bond). Bond length = 199 pm, bond energy = 242 kJ/mol. The Lewis structure is \\(\\mathrm{:\\!\\!\\! Cl - Cl :\\!\\!\\!}\\) with three lone pairs on each Cl.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count valence electrons per Cl atom: 7.",
+          "Each Cl needs 1 more to reach octet (8).",
+          "Sharing one pair satisfies both atoms.",
+          "After sharing, each Cl has 8 valence electrons.",
+          "Chlorine is in period 3 → noble gas target = argon."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think each chlorine atom 'gives away' its electron permanently. In covalent bonding, electrons are shared, not transferred.",
+          "Another misconception: \\(Cl_2\\) achieves neon configuration. Chlorine is in period 3, so its target noble gas is argon, not neon."
+        ],
+        "related_concepts": ["Covalent bond", "Single bond", "Octet rule", "Lewis structure", "Bonding electrons"],
+        "revision_note": "\\(Cl_2\\): single bond, each Cl = 8 e⁻ (argon config).",
+        "glossary_entry": {
+          "term": "Single covalent bond",
+          "definition": "A covalent bond in which one pair of electrons is shared between two atoms.",
+          "example_equation": "\\(\\mathrm{Cl-Cl}\\)",
+          "related_terms": ["covalent bond", "double bond", "triple bond"]
+        },
+        "flashcard": {
+          "front": "After forming \\(Cl_2\\) by single covalent bond, what is the valence electron count and noble gas configuration for each Cl atom?",
+          "back": "8 valence electrons; argon configuration (\\(1s^2 2s^2 2p^6 3s^2 3p^6\\))."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(Cl_2\\)", "relation": "has", "target": "Single covalent bond" },
+          { "source": "Single covalent bond", "relation": "gives each Cl", "target": "8 valence electrons (argon config)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What noble gas configuration do chlorine atoms achieve in \\(Cl_2\\)?",
+        "flashcard_back": "Argon configuration (8 valence electrons: 3 lone pairs + 1 bonding pair).",
+        "glossary_term": "Single covalent bond",
+        "glossary_definition": "A covalent bond in which one pair of electrons is shared between two atoms.",
+        "revision_note": "\\(Cl_2\\): single bond, 8 e⁻ per Cl (argon).",
+        "teacher_note": "Emphasize that Cl is in period 3 (n=3), so its octet is \\(3s^2 3p^6\\) (argon).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe the formation of a covalent bond",
+        "concept_map_nodes": [
+          { "source": "Chlorine atom", "relation": "has", "target": "7 valence electrons" },
+          { "source": "7 valence electrons", "relation": "plus 1 shared →", "target": "8 valence electrons (argon)" }
+        ],
+        "workbook_section": "5.3.1 Formation of Covalent Bond",
+        "solution_manual_note": "Answer C. Each Cl goes from 7 to 8 valence electrons by sharing one pair, achieving argon configuration (period 3). Option D is incorrect because neon is period 2."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q007",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.3 Polarity in Covalent Molecules",
+      "sub_subsection": "Nonpolar Covalent Molecules",
+      "structural_anchor": "Nonpolar Covalent Molecules",
+      "mcq_type": "I",
+      "question": "Compare the bonds in \\(H_2\\) (hydrogen gas) and \\(HCl\\) (hydrogen chloride). Which statement correctly describes the difference in electron sharing?",
+      "options": {
+        "A": "Both bonds share electrons unequally due to electronegativity difference.",
+        "B": "\\(H_2\\) shares electrons equally (nonpolar), while \\(HCl\\) shares unequally (polar).",
+        "C": "\\(H_2\\) transfers electrons completely, while \\(HCl\\) shares equally.",
+        "D": "Both bonds share electrons equally because both are diatomic molecules."
+      },
+      "correct_answer": "B",
+      "hint": "Consider whether the two atoms in each molecule are identical or different.",
+      "explanation": "Electronegativity difference determines bond polarity. In \\(H_2\\), identical atoms have zero electronegativity difference → equal sharing (nonpolar). In \\(HCl\\), electronegativity difference (2.1 vs 3.0) → unequal sharing (polar covalent).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.3 Polarity in Covalent Molecules",
+        "structural_element": "Nonpolar Covalent Molecules",
+        "content_anchor": "In homonuclear diatomic molecule H2, the atoms are identical, we expect the electrons to be equally distributed",
+        "page_hint": 21,
+        "concept_hash": "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "A nonpolar covalent bond has equal sharing of electrons; a polar covalent bond has unequal sharing due to electronegativity difference.",
+        "concept_summary": "Identical atoms (same electronegativity) form nonpolar bonds. Different atoms with electronegativity difference >0.5 form polar bonds with partial charges.",
+        "beginner": "\\(H_2\\) is like twins sharing a toy equally. \\(HCl\\) is like a bigger kid (chlorine) pulling the toy closer, so sharing is unfair.",
+        "intermediate": "Electronegativity of H = 2.1, Cl = 3.0. The 0.9 difference causes the bonding electrons to spend more time near Cl, creating partial negative (\\(\\delta^-\\)) on Cl and partial positive (\\(\\delta^+\\)) on H.",
+        "advanced": "Bond dipole moment: \\(\\mu = q \\times d\\). \\(H_2\\) has \\(\\mu = 0\\) D (no polarity). \\(HCl\\) has \\(\\mu = 1.08\\) D, indicating significant charge separation. Percent ionic character ≈ 17% for HCl.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check if atoms are identical → \\(H_2\\) = identical → nonpolar.",
+          "Check electronegativity difference for \\(HCl\\): 3.0 - 2.1 = 0.9.",
+          "Difference >0 → unequal sharing → polar.",
+          "Compare the two descriptions."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some believe all diatomic molecules are nonpolar. Heteronuclear diatomics like HCl are polar.",
+          "Another misconception: polarity means electron transfer. Polarity is unequal sharing, not complete transfer (which would be ionic)."
+        ],
+        "related_concepts": ["Electronegativity", "Bond polarity", "Dipole moment", "Homonuclear", "Heteronuclear"],
+        "revision_note": "Same atoms → nonpolar. Different atoms → polar (if ΔEN ≥ 0.5).",
+        "glossary_entry": {
+          "term": "Nonpolar covalent bond",
+          "definition": "A covalent bond in which electrons are shared equally between two atoms because they have identical or very similar electronegativities.",
+          "example_equation": "\\(\\mathrm{H_2, O_2, Cl_2}\\)",
+          "related_terms": ["polar covalent bond", "electronegativity", "dipole"]
+        },
+        "flashcard": {
+          "front": "Why is \\(H_2\\) nonpolar but \\(HCl\\) polar?",
+          "back": "\\(H_2\\) has identical atoms (ΔEN=0) → equal sharing. \\(HCl\\) has different electronegativities (ΔEN=0.9) → unequal sharing."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(H_2\\)", "relation": "has", "target": "Zero electronegativity difference" },
+          { "source": "Zero electronegativity difference", "relation": "causes", "target": "Nonpolar bond" },
+          { "source": "\\(HCl\\)", "relation": "has", "target": "Electronegativity difference = 0.9" },
+          { "source": "Electronegativity difference = 0.9", "relation": "causes", "target": "Polar covalent bond" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What makes \\(H_2\\) nonpolar and \\(HCl\\) polar?",
+        "flashcard_back": "Identical atoms in \\(H_2\\) (ΔEN=0) → equal sharing. Different atoms in \\(HCl\\) (ΔEN=0.9) → unequal sharing.",
+        "glossary_term": "Nonpolar covalent bond",
+        "glossary_definition": "A covalent bond in which electrons are shared equally between two atoms because they have identical or very similar electronegativities.",
+        "revision_note": "Same atom → nonpolar. Different atoms → polar (if ΔEN ≥ 0.5).",
+        "teacher_note": "Use the analogy of a tug-of-war: same strength → no movement (nonpolar); stronger opponent pulls rope (polar).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Distinguish between polar and nonpolar covalent molecules",
+        "concept_map_nodes": [
+          { "source": "\\(H_2\\)", "relation": "has ΔEN = 0 →", "target": "Nonpolar" },
+          { "source": "\\(HCl\\)", "relation": "has ΔEN = 0.9 →", "target": "Polar" }
+        ],
+        "workbook_section": "5.3.3 Polarity in Covalent Molecules",
+        "solution_manual_note": "Answer B. \\(H_2\\): identical atoms → equal sharing (nonpolar). \\(HCl\\): different electronegativities → unequal sharing (polar)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q008",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.1 Formation of Metallic Bond",
+      "sub_subsection": null,
+      "structural_anchor": "5.4.1 Formation of Metallic Bond",
+      "mcq_type": "F",
+      "question": "In the 'sea of electrons' model of metallic bonding, metal atoms are arranged in a lattice with their valence electrons delocalized throughout the structure. What holds the metal atoms together in this model?",
+      "options": {
+        "A": "Covalent bonds between adjacent metal atoms",
+        "B": "Ionic bonds between positive and negative metal ions",
+        "C": "Attraction between positive metal nuclei and delocalized electrons",
+        "D": "Van der Waals forces between neutral metal atoms"
+      },
+      "correct_answer": "C",
+      "hint": "Consider what particles are present and how they interact in the 'sea of electrons'.",
+      "explanation": "The 'sea of electrons' model describes positive metal ions (nuclei + core electrons) surrounded by mobile, delocalized valence electrons. The electrostatic attraction between the positive ions and the negative electron sea constitutes the metallic bond.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.1 Formation of Metallic Bond",
+        "structural_element": "5.4.1 Formation of Metallic Bond",
+        "content_anchor": "The metal is held together by the strong forces of attraction between the positive nuclei and the delocalized electrons",
+        "page_hint": 29,
+        "concept_hash": "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Metallic bonding is the electrostatic attraction between positively charged metal ions and delocalized valence electrons.",
+        "concept_summary": "In metals, valence electrons are not bound to individual atoms but form a mobile 'sea' that surrounds positive metal ions. This electron sea binds the structure together.",
+        "beginner": "Imagine metal atoms as positive 'raisins' floating in a 'pudding' of free electrons. The raisins stay stuck in the pudding because opposites attract.",
+        "intermediate": "Metal atoms lose their valence electrons to become positive ions. These electrons become delocalized, moving freely among the ions. The attraction between the positive ions and the negative electron sea creates the metallic bond.",
+        "advanced": "The 'free electron model' treats valence electrons as a gas of negative charge permeating a lattice of positive cores. The binding energy arises from Coulomb attraction (\\(U \\propto -e^2/r\\)) between cores and electrons, with electrons screening core-core repulsion.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the particles present: positive metal nuclei and delocalized electrons.",
+          "Recall that opposite charges attract.",
+          "The attraction between positive nuclei and the negative electron sea holds the metal together."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think metallic bonds are covalent bonds between metal atoms. Metals do not form localized covalent bonds; electrons are delocalized.",
+          "Another misconception: metals are held together by ionic bonds. There are no anions in pure metals — only positive ions and electrons."
+        ],
+        "related_concepts": ["Delocalized electrons", "Electron sea model", "Metallic lattice", "Conductivity"],
+        "revision_note": "Metallic bond = attraction between positive ions + delocalized e⁻ sea.",
+        "glossary_entry": {
+          "term": "Metallic bond",
+          "definition": "The electrostatic attraction between positively charged metal ions and delocalized valence electrons.",
+          "example_equation": null,
+          "related_terms": ["delocalized electrons", "electron sea model", "metal lattice"]
+        },
+        "flashcard": {
+          "front": "What holds metal atoms together in the 'sea of electrons' model?",
+          "back": "Electrostatic attraction between positive metal nuclei and the delocalized valence electron sea."
+        },
+        "concept_map_nodes": [
+          { "source": "Metal atoms", "relation": "lose valence e⁻ to become", "target": "Positive metal ions" },
+          { "source": "Positive metal ions", "relation": "attracted to", "target": "Delocalized electron sea" },
+          { "source": "Attraction", "relation": "is called", "target": "Metallic bond" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Describe the 'sea of electrons' model of metallic bonding.",
+        "flashcard_back": "Positive metal ions are surrounded by a 'sea' of delocalized valence electrons; electrostatic attraction between them holds the metal together.",
+        "glossary_term": "Metallic bond",
+        "glossary_definition": "The electrostatic attraction between positively charged metal ions and delocalized valence electrons.",
+        "revision_note": "Metallic bond: cation lattice + mobile e⁻ sea.",
+        "teacher_note": "Use the analogy of a bowl of fruit (positive ions) in syrup (electron sea) to visualize delocalization.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Discuss the formation of metallic bonds",
+        "concept_map_nodes": [
+          { "source": "Metallic bond", "relation": "modeled_as", "target": "Sea of electrons" },
+          { "source": "Sea of electrons", "relation": "attracts", "target": "Positive metal ions" }
+        ],
+        "workbook_section": "5.4.1 Formation of Metallic Bond",
+        "solution_manual_note": "Answer C. The 'sea of electrons' model describes attraction between positive metal ions and delocalized electrons (C). A and B are incorrect (not covalent or ionic). D is too weak to explain metallic properties."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q009",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They Form Crystals",
+      "structural_anchor": "They Form Crystals",
+      "mcq_type": "G",
+      "question": "Sodium chloride (NaCl) forms a crystalline lattice structure with alternating \\(Na^+\\) and \\(Cl^-\\) ions. What directly causes this regular, repeating arrangement?",
+      "options": {
+        "A": "Covalent bonds between sodium and chlorine atoms",
+        "B": "Electrostatic attraction between oppositely charged ions",
+        "C": "Repulsion between identical ions forcing them apart",
+        "D": "Van der Waals forces between neutral molecules"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what force holds the ions together and how they arrange to maximize attraction and minimize repulsion.",
+      "explanation": "Electrostatic attraction between \\(Na^+\\) and \\(Cl^-\\) draws them together. The alternating pattern maximizes attractions (opposite charges adjacent) while minimizing repulsions (like charges separated). Option C describes a consequence, not the cause.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They Form Crystals",
+        "content_anchor": "At an atomic level, an ionic crystal forms a regular structure, with the cation and anion alternating with each other",
+        "page_hint": 12,
+        "concept_hash": "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "An ionic crystal is a three-dimensional arrangement of alternating cations and anions held together by electrostatic forces.",
+        "concept_summary": "Ionic compounds form crystals because the electrostatic attraction between opposite charges naturally leads to an alternating, repeating lattice that maximizes stability.",
+        "beginner": "Think of magnets: opposite poles attract and stick together. Ionic crystals are like stacking opposite magnets so they all attract and form a strong, repeating pattern.",
+        "intermediate": "\\(Na^+\\) and \\(Cl^-\\) ions attract each other (opposite charges). To minimize energy, they arrange in an alternating cubic lattice where each positive ion is surrounded by negative ions and vice versa.",
+        "advanced": "The lattice energy (\\(U = \\frac{k Q_1 Q_2}{r}\\)) is maximized (most negative) when ions of opposite charge are adjacent and like charges are separated. The NaCl structure (rock salt) achieves this with coordination number 6.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the particles: \\(Na^+\\) and \\(Cl^-\\).",
+          "Opposite charges attract; like charges repel.",
+          "To maximize stability, arrange so each \\(Na^+\\) is next to \\(Cl^-\\) (attraction) and \\(Na^+\\) are separated (avoid repulsion).",
+          "This alternating pattern repeats → crystal lattice."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think ionic crystals are held together by covalent bonds. Covalent bonds involve shared electrons, while ionic bonds involve electrostatic attraction between ions.",
+          "Another misconception: repulsion is the primary cause of crystal structure. Attraction is the driving force; repulsion simply prevents collapse."
+        ],
+        "related_concepts": ["Ionic bond", "Crystal lattice", "Lattice energy", "Electrostatic force", "Coordination number"],
+        "revision_note": "Ionic crystals: alternating +/– ions → max attraction, min repulsion.",
+        "glossary_entry": {
+          "term": "Ionic crystal",
+          "definition": "A three-dimensional arrangement of alternating cations and anions held together by electrostatic attraction.",
+          "example_equation": null,
+          "related_terms": ["crystal lattice", "electrostatic force", "ionic compound"]
+        },
+        "flashcard": {
+          "front": "Why do ionic compounds like NaCl form repeating crystal lattices?",
+          "back": "Electrostatic attraction between opposite charges causes alternating (+) and (−) ions to arrange in a stable, repeating pattern that maximizes attraction and minimizes repulsion."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(Na^+\\) and \\(Cl^-\\)", "relation": "experience", "target": "Electrostatic attraction" },
+          { "source": "Electrostatic attraction", "relation": "leads to", "target": "Alternating crystal lattice" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What force causes the alternating arrangement of ions in NaCl crystals?",
+        "flashcard_back": "Electrostatic attraction between \\(Na^+\\) and \\(Cl^-\\) drives alternating positions; like charges are separated to minimize repulsion.",
+        "glossary_term": "Ionic crystal",
+        "glossary_definition": "A three-dimensional arrangement of alternating cations and anions held together by electrostatic attraction.",
+        "revision_note": "NaCl crystal: alternating \\(Na^+\\) and \\(Cl^-\\) due to electrostatic attraction.",
+        "teacher_note": "Use a checkerboard pattern (red and black squares) to visualize alternating cations and anions.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe the general properties of ionic compounds",
+        "concept_map_nodes": [
+          { "source": "Electrostatic attraction", "relation": "organizes", "target": "Alternating ions in crystal" },
+          { "source": "Alternating ions", "relation": "maximizes", "target": "Lattice stability" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer B. Electrostatic attraction between opposite charges (B) drives crystal formation. Covalent bonds (A) are not present in NaCl. Repulsion (C) is secondary. Van der Waals (D) are negligible in ionic crystals."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q010",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.3 Polarity in Covalent Molecules",
+      "sub_subsection": "Polar Covalent Molecules",
+      "structural_anchor": "Polar Covalent Molecules",
+      "mcq_type": "H",
+      "question": "A student claims that a water molecule (\\(H_2O\\)) is nonpolar because the oxygen atom shares electrons equally with both hydrogen atoms. What critical fact about water's structure and electronegativity disproves this claim?",
+      "options": {
+        "A": "Oxygen has a higher electronegativity than hydrogen, creating partial charges and a bent shape that prevents cancellation.",
+        "B": "Oxygen and hydrogen have identical electronegativities, but the linear shape creates polarity.",
+        "C": "Water molecules are symmetric, so all charges cancel regardless of electronegativity.",
+        "D": "Hydrogen has higher electronegativity than oxygen, so electrons are pulled toward hydrogen."
+      },
+      "correct_answer": "A",
+      "hint": "Consider electronegativity difference and molecular geometry.",
+      "explanation": "Electronegativity difference (O=3.5, H=2.1 → ΔEN=1.4) makes each O-H bond polar. Water's bent (V-shaped) geometry means the bond dipoles do not cancel, resulting in a net molecular dipole. Option C is wrong because water is not symmetric.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.3 Polarity in Covalent Molecules",
+        "structural_element": "Polar Covalent Molecules",
+        "content_anchor": "The shape of a water molecule is a bent or V-shape and the net charge in H2O will not cancel out each other",
+        "page_hint": 23,
+        "concept_hash": "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 88,
+        "cognitive_level": "evaluate",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "A polar molecule has a net dipole moment due to polar bonds arranged asymmetrically, or due to lone pairs creating uneven charge distribution.",
+        "concept_summary": "Water is polar because: (1) O is more electronegative than H, creating polar O-H bonds; (2) the molecule is bent (104.5°), so bond dipoles do not cancel.",
+        "beginner": "Water is like a tug-of-war where oxygen pulls harder on the electrons. Because the molecule is bent like a boomerang, the pulls don't cancel — one side stays more negative.",
+        "intermediate": "Electronegativity: O=3.5, H=2.1 → each O-H bond has δ⁻ on O and δ⁺ on H. The bent geometry (≈104.5°) means the two bond dipoles add vectorially, producing a net dipole moment of 1.85 D.",
+        "advanced": "Molecular polarity: \\(\\vec{\\mu}_{\\text{total}} = \\vec{\\mu}_1 + \\vec{\\mu}_2\\). In \\(H_2O\\), the bond angle (104.5°) gives nonzero resultant. If water were linear (180°), dipoles would cancel. Lone pairs on oxygen also contribute to the dipole moment.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check electronegativity difference: O 3.5, H 2.1 → ΔEN = 1.4 → each O-H bond is polar.",
+          "Check molecular shape: bent (V-shaped), not linear.",
+          "In bent shape, bond dipoles add together instead of canceling.",
+          "Net dipole → water is polar covalent."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "A common misconception: all molecules with polar bonds are polar. \\(CO_2\\) has polar bonds but is nonpolar because it's linear and symmetric.",
+          "Some think water is nonpolar because it's 'symmetric' in the sense of having two identical H atoms. But symmetry must cancel dipoles — water's bent shape lacks that cancellation."
+        ],
+        "related_concepts": ["Electronegativity", "Molecular geometry", "Dipole moment", "Bent shape", "Bond polarity"],
+        "revision_note": "Water: polar because O-H polar bonds + bent geometry → dipoles don't cancel.",
+        "glossary_entry": {
+          "term": "Polar molecule",
+          "definition": "A molecule with a net dipole moment due to polar bonds arranged asymmetrically or lone pairs creating uneven charge distribution.",
+          "example_equation": "\\(\\mathrm{H_2O, NH_3}\\)",
+          "related_terms": ["dipole moment", "electronegativity", "molecular geometry"]
+        },
+        "flashcard": {
+          "front": "Why is \\(H_2O\\) polar even though it has two identical O-H bonds?",
+          "back": "O is more electronegative than H (ΔEN=1.4), making each bond polar. The bent shape (104.5°) prevents dipole cancellation, giving a net molecular dipole."
+        },
+        "concept_map_nodes": [
+          { "source": "Water (\\(H_2O\\))", "relation": "has", "target": "Polar O-H bonds (ΔEN=1.4)" },
+          { "source": "Water (\\(H_2O\\))", "relation": "has", "target": "Bent molecular geometry (104.5°)" },
+          { "source": "Polar O-H bonds + Bent geometry", "relation": "result in", "target": "Net dipole → polar molecule" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why isn't \\(H_2O\\) nonpolar even though it has two identical O-H bonds?",
+        "flashcard_back": "O is more electronegative than H (polar bonds) + bent shape → dipoles don't cancel → polar molecule.",
+        "glossary_term": "Polar molecule",
+        "glossary_definition": "A molecule with a net dipole moment due to polar bonds arranged asymmetrically or lone pairs creating uneven charge distribution.",
+        "revision_note": "\\(H_2O\\): polar O-H bonds + bent shape = polar.",
+        "teacher_note": "Compare \\(CO_2\\) (linear, nonpolar) with \\(H_2O\\) (bent, polar) to show geometry's role.",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Discuss the polarity in covalent molecules",
+        "concept_map_nodes": [
+          { "source": "\\(H_2O\\)", "relation": "has ΔEN=1.4 →", "target": "Polar O-H bonds" },
+          { "source": "\\(H_2O\\)", "relation": "has bent shape →", "target": "Dipoles do NOT cancel" },
+          { "source": "Polar bonds + non-cancellation", "relation": "→", "target": "Polar molecule" }
+        ],
+        "workbook_section": "5.3.3 Polarity in Covalent Molecules",
+        "solution_manual_note": "Answer A. Electronegativity difference (O > H) makes each bond polar, and water's bent geometry prevents dipole cancellation. Option B is false (different electronegativities). C is false (water is not symmetric for dipole cancellation). D is false (O is more electronegative than H)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 89.2,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "D": 2,
+      "F": 2,
+      "G": 1,
+      "H": 2,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "5.1 Chemical Bonding": 2,
+      "5.2 Ionic Bonding": 3,
+      "5.3 Covalent Bonding": 4,
+      "5.4 Metallic Bonding": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

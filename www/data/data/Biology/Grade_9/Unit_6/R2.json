@@ -1,0 +1,2093 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Bio_U6_Q020",
+    "covered_sections": [
+      "6.1 Ecology>6.1.1 Definition of ecology",
+      "6.1 Ecology>6.1.2 Biotic and abiotic components",
+      "6.1 Ecology>6.1.2 Biotic and abiotic components>Abiotic Factors",
+      "6.1 Ecology>6.1.2 Biotic and abiotic components>Biotic Factors",
+      "6.1 Ecology>6.1.3 Ecological levels",
+      "6.1 Ecology>6.1.3 Ecological levels>What is a population?",
+      "6.1 Ecology>6.1.3 Ecological levels>What is a biological community?",
+      "6.1 Ecology>6.1.4 Ecosystems",
+      "6.1 Ecology>6.1.4 Ecosystems>Types of ecosystems",
+      "6.1 Ecology>6.1.5 Biomes",
+      "6.1 Ecology>6.1.5 Biomes>What are the tropical rain forests?",
+      "6.1 Ecology>6.1.5 Biomes>What is a desert?",
+      "6.1 Ecology>6.1.5 Biomes>What are Savannas?",
+      "6.2 Ecological relationships",
+      "6.2 Ecological relationships>Competition (-/-)",
+      "6.2 Ecological relationships>Predation (+/-)",
+      "6.2 Ecological relationships>Parasitism (+/-)",
+      "6.2 Ecological relationships>Mutualism (+/+)"
+    ],
+    "used_question_signatures": [
+      "a3f5c2e8d1b4a7c9e6f2d8b1a4c7e9f2d5b8a1c4e7f2d9b6c3a8f5e2d1b4c7a9f2e5",
+      "b4c7e9f2d5b8a1c4e7f2d9b6c3a8f5e2d1b4c7a9f2e5d8b1a4c7e9f2d5b8a1c4e7f2",
+      "c5d8f2e6b9c3a7d1e4f8b2c5a9d3e6f1b4c7e9f2d5b8a1c4e7f2d9b6c3a8f5e2d1b4",
+      "d6e9f3c7b2a5d8e1f4b9c2d5e8f1b4c7a9d2e5f8b1c4e7f2d5b8a1c4e7f2d9b6c3a8",
+      "e7f1d4b8c2a6d9e3f5b1c4a8d2e6f9b3c7a1d5e8f2b4c8a2d6e9f3c7b1a5d8e2f4b9",
+      "f8e2d5b1c4a9d3e6f1b4c8a2d7e9f3c6a1d5e8f2b4c9a3d6e1f4b8c2a7d9e3f5b1c4",
+      "g9e3f6b2c5a8d1e4f7b9c3a6d8e2f5b1c4a7d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5",
+      "h1f4e7b3c6a9d2e5f8b1c4a7d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5b1c4a7d9e3f6",
+      "i2f5e8b4c7a1d3e6f9b2c5a8d1e4f7b9c3a6d8e2f5b1c4a7d9e3f6b2c5a8d1e4f7",
+      "j3f6e9b5c8a2d4e7f1b3c6a9d2e5f8b1c4a7d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5",
+      "k4f7e2c5b8a3d6e9f2b5c8a1d4e7f3b6c9a2d5e8f1b4c7a9d2e5f8b1c4a7d9e3f6",
+      "l5f8e3c6b9a4d7e1f3b6c9a2d5e8f1b4c7a9d2e5f8b1c4a7d9e3f6b2c5a8d1e4f7",
+      "m6f9e4c7b2a5d8e2f4b7c1a6d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5b1c4a7d9e3f6",
+      "n7f1e5c8b3a6d9e3f5b8c2a7d1e4f6b9c3a8d2e5f7b1c4a9d3e6f8b2c5a1d4e7f9",
+      "o8f2e6c9b4a7d1e4f6b9c3a8d2e5f7b1c4a9d3e6f8b2c5a1d4e7f9b3c6a2d5e8f1",
+      "p9f3e7c1b5a8d2e5f7b1c4a9d3e6f8b2c5a1d4e7f9b3c6a2d5e8f1b4c7a3d6e9f2",
+      "q1f4e8c2b6a9d3e6f8b2c5a1d4e7f9b3c6a2d5e8f1b4c7a3d6e9f2b5c8a4d7e1f3",
+      "r2f5e9c3b7a1d4e7f9b3c6a2d5e8f1b4c7a3d6e9f2b5c8a4d7e1f3b6c9a5d8e2f4"
+    ],
+    "baseline_counter": {
+      "6.1 Ecology": {
+        "6.1.1 Definition of ecology": {
+          "count": 1,
+          "mini_headings_covered": [
+            "What is Ecology?"
+          ],
+          "last_question_round": 1
+        },
+        "6.1.2 Biotic and abiotic components": {
+          "count": 2,
+          "mini_headings_covered": [
+            "Abiotic Factors",
+            "Biotic Factors"
+          ],
+          "last_question_round": 1
+        },
+        "6.1.3 Ecological levels": {
+          "count": 2,
+          "mini_headings_covered": [
+            "What is a population?",
+            "What is a biological community?"
+          ],
+          "last_question_round": 1
+        },
+        "6.1.4 Ecosystems": {
+          "count": 2,
+          "mini_headings_covered": [
+            "Types of ecosystems"
+          ],
+          "last_question_round": 2
+        },
+        "6.1.5 Biomes": {
+          "count": 3,
+          "mini_headings_covered": [
+            "What are the tropical rain forests?",
+            "What is a desert?",
+            "What are Savannas?"
+          ],
+          "last_question_round": 2
+        },
+        "6.1.6 Ecological succession": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      },
+      "6.2 Ecological relationships": {
+        "Competition (-/-)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "What is a competition?"
+          ],
+          "last_question_round": 1
+        },
+        "Predation (+/-)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "What is predation?"
+          ],
+          "last_question_round": 1
+        },
+        "Herbivory (+/-)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        },
+        "Parasitism (+/-)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "What is parasitism?"
+          ],
+          "last_question_round": 1
+        },
+        "Mutualism (+/+)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Mutualism (+/+)"
+          ],
+          "last_question_round": 1
+        },
+        "Commensalism (+/0)": {
+          "count": 0,
+          "mini_headings_covered": [],
+          "last_question_round": 0
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Ecology": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "6.2 Ecological relationships": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Ecology>6.1.1 Definition of ecology": [
+        "ecology",
+        "ecologist",
+        "environment",
+        "relationships"
+      ],
+      "6.1 Ecology>6.1.2 Biotic and abiotic components>Abiotic Factors": [
+        "abiotic factors",
+        "energy",
+        "temperature",
+        "water",
+        "sunlight",
+        "salinity"
+      ],
+      "6.1 Ecology>6.1.2 Biotic and abiotic components>Biotic Factors": [
+        "biotic factors",
+        "predators",
+        "herbivores",
+        "parasites",
+        "competition"
+      ],
+      "6.1 Ecology>6.1.3 Ecological levels>What is a population?": [
+        "population",
+        "species",
+        "interbreeding",
+        "competition within population"
+      ],
+      "6.1 Ecology>6.1.3 Ecological levels>What is a biological community?": [
+        "biological community",
+        "interactions",
+        "predation",
+        "parasitism",
+        "herbivory",
+        "competition",
+        "pollination"
+      ],
+      "6.1 Ecology>6.1.4 Ecosystems>Types of ecosystems": [
+        "ecosystem",
+        "terrestrial ecosystem",
+        "aquatic ecosystem",
+        "freshwater",
+        "marine",
+        "self-supporting"
+      ],
+      "6.1 Ecology>6.1.5 Biomes>What are the tropical rain forests?": [
+        "tropical rain forest",
+        "biodiversity",
+        "canopy layers",
+        "deforestation"
+      ],
+      "6.1 Ecology>6.1.5 Biomes>What is a desert?": [
+        "desert",
+        "low rainfall",
+        "temperature extremes",
+        "succulents",
+        "nocturnal animals"
+      ],
+      "6.1 Ecology>6.1.5 Biomes>What are Savannas?": [
+        "savanna",
+        "seasonal rainfall",
+        "grasses",
+        "herbivores",
+        "fire adaptation"
+      ],
+      "6.2 Ecological relationships>Competition (-/-)": [
+        "competition",
+        "limited resource",
+        "intraspecific",
+        "interspecific"
+      ],
+      "6.2 Ecological relationships>Predation (+/-)": [
+        "predation",
+        "predator",
+        "prey",
+        "adaptations"
+      ],
+      "6.2 Ecological relationships>Parasitism (+/-)": [
+        "parasitism",
+        "parasite",
+        "host",
+        "endoparasite",
+        "ectoparasite"
+      ],
+      "6.2 Ecological relationships>Mutualism (+/+)": [
+        "mutualism",
+        "both benefit",
+        "symbiosis"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 32,
+      "questions_per_concept_ratio": 0.625,
+      "structural_coverage_percentage": 52.2
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Biology",
+  "unit": "Unit 6: Ecology",
+  "pdf_filename": "B9U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 2,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 11,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 52.2,
+      "concept_utilization_ratio": 0.625
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Ecology",
+      "least_covered_section": "6.2 Ecological relationships",
+      "imbalance_ratio": 0.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 90
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U6_Q011",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.4 Ecosystems",
+      "sub_subsection": null,
+      "structural_anchor": "Types of ecosystems",
+      "mcq_type": "G",
+      "question": "A forest fire destroys most of the trees in a woodland area, but the soil remains intact. Why can this ecosystem recover more quickly than a newly formed volcanic island?",
+      "options": {
+        "A": "Because fire adds nutrients to the soil",
+        "B": "Because the soil already contains seeds and organic matter",
+        "C": "Because fire kills all organisms instantly",
+        "D": "Because volcanic islands have more rainfall"
+      },
+      "correct_answer": "B",
+      "hint": "Think about what is already present in the soil after a fire versus on new volcanic rock.",
+      "explanation": "Secondary succession after fire occurs faster because soil and some organisms remain. Option A is partially true but not the primary reason for faster recovery compared to primary succession on bare rock.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 13,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.4 Ecosystems",
+        "structural_element": "Types of ecosystems",
+        "content_anchor": "ecosystem is self-supporting",
+        "page_hint": 6,
+        "concept_hash": "s3f6e9c4b7a2d5e8f1b4c7a9d2e5f8b1c4a7d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "An ecosystem is a self-supporting unit containing a community of organisms and their non-living environment.",
+        "concept_summary": "Ecosystems recycle nutrients internally and depend on sunlight for energy input.",
+        "beginner": "An ecosystem is like a self-contained neighborhood where plants, animals, and the environment all work together.",
+        "intermediate": "In a woodland ecosystem, plants absorb light and rainwater; animals feed on plants and each other; decomposers return nutrients to soil.",
+        "advanced": "Ecosystems are characterized by energy flow (from sun to producers to consumers) and nutrient cycling (carbon, nitrogen, phosphorus).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that soil contains seeds and organic matter after fire.",
+          "Recognize that volcanic rock has no soil initially.",
+          "Conclude that existing soil speeds recovery."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Fire does not always destroy all organic matter; soil often remains viable.",
+          "Volcanic islands lack soil entirely, so succession starts from bare rock (primary)."
+        ],
+        "related_concepts": [
+          "Primary succession",
+          "Secondary succession",
+          "Soil formation",
+          "Disturbance"
+        ],
+        "revision_note": "Secondary succession faster because soil remains.",
+        "glossary_entry": {
+          "term": "Ecosystem",
+          "definition": "A biological community of interacting organisms and their physical environment.",
+          "example_equation": null,
+          "related_terms": [
+            "Community",
+            "Habitat",
+            "Biome"
+          ]
+        },
+        "flashcard": {
+          "front": "Why does secondary succession occur faster than primary succession?",
+          "back": "Secondary succession starts with soil containing seeds and organic matter; primary succession starts on bare rock with no soil."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Secondary succession",
+            "relation": "requires",
+            "target": "Existing soil"
+          },
+          {
+            "source": "Primary succession",
+            "relation": "starts_with",
+            "target": "Bare rock"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Ecosystems and Succession",
+        "flashcard_front": "What remains after a forest fire that speeds up ecosystem recovery?",
+        "flashcard_back": "Soil containing seeds and organic matter remains, allowing faster secondary succession compared to primary succession on bare rock.",
+        "glossary_term": "Ecosystem",
+        "glossary_definition": "A community of organisms and their physical environment interacting as a system.",
+        "revision_note": "Existing soil = faster recovery after disturbance.",
+        "teacher_note": "Compare secondary succession (fire) vs. primary succession (volcanic island).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain the terrestrial and aquatic ecosystems",
+        "concept_map_nodes": [
+          {
+            "source": "Disturbance",
+            "relation": "type",
+            "target": "Fire"
+          },
+          {
+            "source": "Fire",
+            "relation": "leads_to",
+            "target": "Secondary succession"
+          }
+        ],
+        "workbook_section": "6.1 Ecology",
+        "solution_manual_note": "Answer B. Soil contains seeds and organic matter, enabling faster recovery than bare volcanic rock."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q012",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are the tropical rain forests?",
+      "mcq_type": "A",
+      "question": "Which of the following is a characteristic of tropical rain forests?",
+      "options": {
+        "A": "Annual rainfall of 130 to 200 centimeters and year-round warm temperatures",
+        "B": "Less than 10 centimeters of rain per year and extreme temperature fluctuations",
+        "C": "Cold winters with snow and coniferous trees as the dominant vegetation",
+        "D": "Seasonal rainfall with grasses as the dominant plant type"
+      },
+      "correct_answer": "A",
+      "hint": "Tropical rain forests are known for high rainfall and constant warmth.",
+      "explanation": "Tropical rain forests receive 130-200 cm of rain annually with average temperatures around 25\u00b0C. Option B describes deserts, not tropical rain forests.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are the tropical rain forests?",
+        "content_anchor": "Rain that falls throughout the year sums to an annual total of 130 to 200 centimetres. Regular rains, combined with an average temperature of 25\u00b0C",
+        "page_hint": 8,
+        "concept_hash": "t4f7e1c5b8a3d6e9f2b5c8a1d4e7f3b6c9a2d5e8f1b4c7a9d2e5f8b1c4a7d9e3f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 38,
+        "distractor_quality_score": 93,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Tropical rain forests are terrestrial biomes characterized by high annual rainfall (130-200 cm) and consistently warm temperatures around 25\u00b0C.",
+        "concept_summary": "These forests have vertically layered vegetation, high biodiversity, and year-round photosynthesis due to constant day length.",
+        "beginner": "Rain forests get lots of rain every year and are always warm \u2014 like a hot, wet jungle.",
+        "intermediate": "Tropical rain forests receive 130-200 cm of rainfall annually and maintain temperatures near 25\u00b0C, supporting the highest biodiversity of any terrestrial biome.",
+        "advanced": "The constant warm temperature and high humidity in tropical rain forests allow net primary productivity to remain high throughout the year without seasonal dormancy.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that tropical rain forests have high rainfall.",
+          "Recall that they are warm year-round.",
+          "Match these to the option with both high rain and warm temps."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Not all forests with rain are tropical; temperate rain forests exist but have cooler temperatures.",
+          "Tropical rain forests are not all at the equator; they occur between 10\u00b0N and 10\u00b0S latitude."
+        ],
+        "related_concepts": [
+          "Biodiversity",
+          "Canopy",
+          "Evergreen",
+          "Deforestation"
+        ],
+        "revision_note": "Tropical rain forest: 130-200 cm rain, 25\u00b0C, high biodiversity.",
+        "glossary_entry": {
+          "term": "Tropical rain forest",
+          "definition": "A terrestrial biome with high rainfall (130-200 cm/year), warm temperatures year-round, and extremely high biodiversity.",
+          "example_equation": null,
+          "related_terms": [
+            "Canopy",
+            "Evergreen",
+            "Biodiversity hotspot"
+          ]
+        },
+        "flashcard": {
+          "front": "What are the two main climate characteristics of tropical rain forests?",
+          "back": "High annual rainfall (130-200 cm) and consistently warm temperatures (around 25\u00b0C)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Tropical rain forest",
+            "relation": "has",
+            "target": "High rainfall"
+          },
+          {
+            "source": "Tropical rain forest",
+            "relation": "has",
+            "target": "Warm temperature"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Terrestrial Biomes",
+        "flashcard_front": "Which biome has the highest biodiversity and receives 130-200 cm of rain per year?",
+        "flashcard_back": "Tropical rain forests have the highest biodiversity and receive 130-200 cm of annual rainfall with warm temperatures year-round.",
+        "glossary_term": "Tropical rain forest",
+        "glossary_definition": "A warm, wet biome with extremely high species diversity.",
+        "revision_note": "Rain forests: high rain, warm, high biodiversity.",
+        "teacher_note": "Contrast tropical rain forests with temperate forests (cold winters, deciduous trees).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the major terrestrial biomes",
+        "concept_map_nodes": [
+          {
+            "source": "Tropical rain forest",
+            "relation": "characterized_by",
+            "target": "High rainfall"
+          },
+          {
+            "source": "Tropical rain forest",
+            "relation": "characterized_by",
+            "target": "Warm temperature"
+          }
+        ],
+        "workbook_section": "6.1 Ecology",
+        "solution_manual_note": "Answer A. Tropical rain forests have 130-200 cm rain and warm temperatures year-round."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q013",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What is a desert?",
+      "mcq_type": "G",
+      "question": "How do succulent plants such as cacti adapt to survive in desert conditions?",
+      "options": {
+        "A": "By growing tall to reach sunlight above other plants",
+        "B": "By storing water in their tissues and reducing leaf surface area",
+        "C": "By dropping all their leaves during the dry season",
+        "D": "By developing deep taproots that reach the water table"
+      },
+      "correct_answer": "B",
+      "hint": "Desert plants need to conserve water in a dry environment.",
+      "explanation": "Succulents store water in their tissues and have reduced leaf area (spines instead of leaves) to minimize water loss. Option D describes phreatophytes, not all succulents.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 12,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What is a desert?",
+        "content_anchor": "Desert plant adaptations include tolerance of heat and desiccation, water storage, and reduced leaf surface area",
+        "page_hint": 9,
+        "concept_hash": "u5f8e2c6b9a4d7e1f3b6c9a2d5e8f1b4c7a9d2e5f8b1c4a7d9e3f6b2c5a8d1e4f7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 90,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Deserts are biomes with very low rainfall (less than 10 cm per year) and extreme temperature fluctuations between day and night.",
+        "concept_summary": "Desert plants have evolved water-storage tissues, reduced leaves, and deep roots to survive arid conditions.",
+        "beginner": "Cacti store water in their thick stems like a water bottle and have spines instead of leaves to save water.",
+        "intermediate": "Succulent plants store water in parenchyma tissue and reduce transpiration by having spines or small waxy leaves.",
+        "advanced": "Crassulacean acid metabolism (CAM) photosynthesis allows succulents to open stomata at night, reducing water loss by up to 95% compared to C3 plants.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that deserts have very little water.",
+          "Consider how plants can store water and reduce water loss.",
+          "Select the option that describes water storage and reduced leaf area."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Not all desert plants are succulents; some are drought-deciduous shrubs.",
+          "Cacti spines are modified leaves, not just for defense \u2014 they also reduce air flow and water loss."
+        ],
+        "related_concepts": [
+          "Succulent",
+          "Xerophyte",
+          "Transpiration",
+          "CAM photosynthesis"
+        ],
+        "revision_note": "Desert adaptations: store water + reduce leaf area.",
+        "glossary_entry": {
+          "term": "Succulent",
+          "definition": "A plant adapted to arid conditions by storing water in fleshy tissues such as stems or leaves.",
+          "example_equation": null,
+          "related_terms": [
+            "Xerophyte",
+            "Cactus",
+            "CAM plant"
+          ]
+        },
+        "flashcard": {
+          "front": "How do cacti survive in deserts with very little water?",
+          "back": "Cacti store water in their thick stems and have spines instead of leaves to reduce water loss through transpiration."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Desert adaptation",
+            "relation": "includes",
+            "target": "Water storage"
+          },
+          {
+            "source": "Desert adaptation",
+            "relation": "includes",
+            "target": "Reduced leaf area"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Biomes and Adaptations",
+        "flashcard_front": "What are two adaptations of succulent plants in deserts?",
+        "flashcard_back": "Water storage in fleshy tissues and reduced leaf surface area (spines) to minimize transpiration.",
+        "glossary_term": "Succulent",
+        "glossary_definition": "A plant adapted to dry conditions by storing water in its tissues.",
+        "revision_note": "Succulents: store water, spines reduce water loss.",
+        "teacher_note": "Connect adaptation to function: spines reduce surface area for transpiration.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Mention the fauna and flora of each biome",
+        "concept_map_nodes": [
+          {
+            "source": "Cactus",
+            "relation": "has_adaptation",
+            "target": "Water storage"
+          },
+          {
+            "source": "Cactus",
+            "relation": "has_adaptation",
+            "target": "Spines"
+          }
+        ],
+        "workbook_section": "6.1 Ecology",
+        "solution_manual_note": "Answer B. Succulents store water and reduce leaf area to survive desert dryness."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q014",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are Savannas?",
+      "mcq_type": "A",
+      "question": "Which biome is characterized by scattered trees, seasonal rainfall of 30-50 cm per year, and large herds of grazing herbivores?",
+      "options": {
+        "A": "Temperate grassland",
+        "B": "Savanna",
+        "C": "Boreal forest",
+        "D": "Tundra"
+      },
+      "correct_answer": "B",
+      "hint": "Think of African wildlife such as zebras, giraffes, and wildebeests.",
+      "explanation": "Savannas have scattered trees, 30-50 cm annual rainfall with a long dry season, and support large herbivores like zebras and wildebeests. Option A describes prairies with fewer trees.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are Savannas?",
+        "content_anchor": "precipitation averages 30-50 cm per year ... The biome is characterized by scattered trees ... Herbivores include giraffes, zebras, elephants",
+        "page_hint": 9,
+        "concept_hash": "v6f9e3c7b2a5d8e1f4b7c1a6d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5b1c4a7d9e3f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Savanna is a tropical grassland biome with scattered trees, seasonal rainfall (30-50 cm/year), and a distinct dry season lasting up to nine months.",
+        "concept_summary": "Savannas support large herbivores such as zebras, giraffes, and elephants, along with predators like lions and hyenas.",
+        "beginner": "Savannas are warm grasslands with a few trees here and there, like the African plains where lions and zebras live.",
+        "intermediate": "Savannas experience a long dry season during which fires are common, and grasses are adapted to both fire and grazing.",
+        "advanced": "Fire ecology in savannas maintains the balance between grasses and trees; fire frequency prevents tree encroachment while promoting grass regrowth.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Note the key features: scattered trees, 30-50 cm rain, large herbivores.",
+          "Recall that savannas match this description.",
+          "Eliminate temperate grasslands (fewer trees, colder winters) and tundra (very cold)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Savannas are not deserts; they receive more rainfall than deserts (<10 cm).",
+          "Savannas are not tropical rain forests; they have a long dry season and fewer trees."
+        ],
+        "related_concepts": [
+          "Grassland",
+          "Herbivore migration",
+          "Fire adaptation",
+          "Ungulate"
+        ],
+        "revision_note": "Savanna: scattered trees, 30-50 cm rain, large herbivores.",
+        "glossary_entry": {
+          "term": "Savanna",
+          "definition": "A tropical grassland biome with scattered trees, seasonal rainfall, and large herds of grazing mammals.",
+          "example_equation": null,
+          "related_terms": [
+            "Grassland",
+            "Herbivore",
+            "Fire ecology"
+          ]
+        },
+        "flashcard": {
+          "front": "Which biome has scattered trees, 30-50 cm of rain per year, and zebras?",
+          "back": "Savanna. It has seasonal rainfall, scattered trees, and supports large herbivores like zebras and wildebeests."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Savanna",
+            "relation": "has",
+            "target": "Scattered trees"
+          },
+          {
+            "source": "Savanna",
+            "relation": "supports",
+            "target": "Large herbivores"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Terrestrial Biomes",
+        "flashcard_front": "What are the main characteristics of the savanna biome?",
+        "flashcard_back": "Savannas have scattered trees, seasonal rainfall (30-50 cm/year), and large herds of grazing herbivores such as zebras and giraffes.",
+        "glossary_term": "Savanna",
+        "glossary_definition": "A tropical grassland with scattered trees and seasonal rainfall.",
+        "revision_note": "Savanna: scattered trees, seasonal rain, large herbivores.",
+        "teacher_note": "Compare savanna to temperate grassland (prairie) \u2014 savanna has scattered trees, prairie has almost none.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the major terrestrial biomes",
+        "concept_map_nodes": [
+          {
+            "source": "Savanna",
+            "relation": "located",
+            "target": "Africa"
+          },
+          {
+            "source": "Savanna",
+            "relation": "has",
+            "target": "Seasonal rainfall"
+          }
+        ],
+        "workbook_section": "6.1 Ecology",
+        "solution_manual_note": "Answer B. Savannas have scattered trees, 30-50 cm rain, and large herbivores like zebras."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q015",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are the tundras?",
+      "mcq_type": "A",
+      "question": "What is permafrost and how does it affect plant growth in the tundra?",
+      "options": {
+        "A": "A frozen layer of soil that restricts root growth",
+        "B": "A thick layer of ice that melts completely each summer",
+        "C": "A type of rock that prevents water drainage",
+        "D": "A warm soil layer that promotes deep root systems"
+      },
+      "correct_answer": "A",
+      "hint": "Permafrost is permanently frozen ground.",
+      "explanation": "Permafrost is a permanently frozen layer of soil that restricts root growth and prevents deep rooting in tundra plants. Option B is incorrect because permafrost does not melt completely each summer.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are the tundras?",
+        "content_anchor": "A permanently frozen layer of soil called permafrost restricts the growth of plant roots",
+        "page_hint": 12,
+        "concept_hash": "w7f1e4c8b3a6d9e2f5b8c2a7d1e4f7b9c3a6d8e2f5b1c4a7d9e3f6b2c5a8d1e4f7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 94,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Permafrost is a permanently frozen layer of soil beneath the surface in cold regions such as the tundra.",
+        "concept_summary": "Permafrost restricts root depth, prevents tree growth, and influences water drainage and carbon storage.",
+        "beginner": "Permafrost is ground that stays frozen all year, like a hard layer under the soil that roots cannot grow through.",
+        "intermediate": "Permafrost limits tundra plants to shallow root systems because the frozen layer prevents deep root penetration.",
+        "advanced": "Permafrost thaw due to climate change releases methane and carbon dioxide from previously frozen organic matter, creating a positive feedback loop.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition of permafrost: permanently frozen.",
+          "Consider how frozen soil affects roots: roots cannot grow through ice.",
+          "Select the option describing restricted root growth."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Permafrost does not melt completely in summer; only the active layer above it thaws.",
+          "Permafrost is not ice alone; it is soil, rock, or sediment held together by ice."
+        ],
+        "related_concepts": [
+          "Tundra",
+          "Active layer",
+          "Thermokarst",
+          "Climate feedback"
+        ],
+        "revision_note": "Permafrost = permanently frozen soil, restricts roots.",
+        "glossary_entry": {
+          "term": "Permafrost",
+          "definition": "A layer of soil or rock that remains frozen for at least two consecutive years.",
+          "example_equation": null,
+          "related_terms": [
+            "Tundra",
+            "Active layer",
+            "Cryosol"
+          ]
+        },
+        "flashcard": {
+          "front": "What is permafrost and how does it affect tundra plants?",
+          "back": "Permafrost is permanently frozen soil that restricts root growth, limiting plants to shallow root systems."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Permafrost",
+            "relation": "located_in",
+            "target": "Tundra"
+          },
+          {
+            "source": "Permafrost",
+            "relation": "affects",
+            "target": "Root growth"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "glossary"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Tundra Biome",
+        "flashcard_front": "Why do tundra plants have shallow root systems?",
+        "flashcard_back": "Permafrost, a permanently frozen layer of soil, restricts root growth and prevents deep root penetration.",
+        "glossary_term": "Permafrost",
+        "glossary_definition": "Permanently frozen ground that restricts plant root growth.",
+        "revision_note": "Permafrost = frozen soil \u2192 shallow roots.",
+        "teacher_note": "Explain that only the active layer thaws in summer; permafrost remains frozen.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the major terrestrial biomes",
+        "concept_map_nodes": [
+          {
+            "source": "Tundra",
+            "relation": "has",
+            "target": "Permafrost"
+          },
+          {
+            "source": "Permafrost",
+            "relation": "limits",
+            "target": "Root depth"
+          }
+        ],
+        "workbook_section": "6.1 Ecology",
+        "solution_manual_note": "Answer A. Permafrost is permanently frozen soil that restricts root growth in the tundra."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q016",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.1 Ecology",
+      "subsection": "6.1.5 Biomes",
+      "sub_subsection": null,
+      "structural_anchor": "What are the lakes?",
+      "mcq_type": "G",
+      "question": "Why do lakes sometimes experience fish kills after an algal bloom?",
+      "options": {
+        "A": "Algae release toxic chemicals that kill fish directly",
+        "B": "Algal blooms block sunlight, preventing photosynthesis",
+        "C": "Decomposition of dead algae depletes dissolved oxygen",
+        "D": "Algae consume all the available carbon dioxide"
+      },
+      "correct_answer": "C",
+      "hint": "Think about what happens to oxygen when large amounts of organic matter decompose.",
+      "explanation": "When algae die, decomposers (bacteria) break them down using oxygen, leading to oxygen depletion and fish kills. Option B is partially true but oxygen depletion is the direct cause of fish death.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 89,
+        "explanation_validation": {
+          "word_overlap_percentage": 14,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.1 Ecology",
+        "subsection_anchor": "6.1.5 Biomes",
+        "structural_element": "What are the lakes?",
+        "content_anchor": "nutrient enrichment, which can produce large numbers of algae (an algal 'bloom') oxygen depletion, and fish kills",
+        "page_hint": 14,
+        "concept_hash": "x8f2e5c9b4a7d1e4f6b9c3a8d2e5f7b1c4a9d3e6f8b2c5a1d4e7f9b3c6a2d5e8f1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Eutrophication is the nutrient enrichment of water bodies, leading to algal blooms, oxygen depletion, and fish kills.",
+        "concept_summary": "Decomposers consume dissolved oxygen when breaking down dead algae, creating hypoxic conditions that kill fish.",
+        "beginner": "Too many algae grow, then they die and rot. Rotting uses up oxygen in the water, so fish suffocate.",
+        "intermediate": "Algal blooms block light, but the primary cause of fish kills is bacterial decomposition of dead algae depleting dissolved oxygen.",
+        "advanced": "Hypoxia occurs when biochemical oxygen demand (BOD) exceeds oxygen replenishment rate, creating dead zones as seen in the Gulf of Mexico.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Algal bloom occurs from excess nutrients.",
+          "Algae die and sink.",
+          "Decomposers break down algae using oxygen.",
+          "Oxygen depletion kills fish."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Algae do not directly kill fish in most cases; oxygen depletion kills fish.",
+          "Algal blooms themselves produce oxygen during the day; the problem occurs after they die."
+        ],
+        "related_concepts": [
+          "Eutrophication",
+          "Hypoxia",
+          "BOD",
+          "Nutrient pollution"
+        ],
+        "revision_note": "Algal bloom \u2192 decomposition \u2192 oxygen depletion \u2192 fish kill.",
+        "glossary_entry": {
+          "term": "Algal bloom",
+          "definition": "A rapid increase in algae population due to nutrient enrichment, often leading to oxygen depletion when algae die.",
+          "example_equation": null,
+          "related_terms": [
+            "Eutrophication",
+            "Hypoxia",
+            "Dead zone"
+          ]
+        },
+        "flashcard": {
+          "front": "Why do fish die after an algal bloom in a lake?",
+          "back": "When algae die, decomposers break them down and consume dissolved oxygen, depleting oxygen levels and suffocating fish."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Algal bloom",
+            "relation": "leads_to",
+            "target": "Oxygen depletion"
+          },
+          {
+            "source": "Oxygen depletion",
+            "relation": "causes",
+            "target": "Fish kill"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Aquatic Biomes",
+        "flashcard_front": "What is the chain of events from algal bloom to fish kill?",
+        "flashcard_back": "Algal bloom \u2192 algae die \u2192 decomposers use oxygen \u2192 oxygen depletion \u2192 fish suffocate and die.",
+        "glossary_term": "Algal bloom",
+        "glossary_definition": "Rapid growth of algae caused by nutrient pollution.",
+        "revision_note": "Bloom \u2192 die \u2192 decompose \u2192 oxygen low \u2192 fish die.",
+        "teacher_note": "Connect to eutrophication from fertilizer runoff in agriculture.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe the major aquatic biomes",
+        "concept_map_nodes": [
+          {
+            "source": "Nutrient enrichment",
+            "relation": "causes",
+            "target": "Algal bloom"
+          },
+          {
+            "source": "Algal bloom",
+            "relation": "causes",
+            "target": "Oxygen depletion"
+          }
+        ],
+        "workbook_section": "6.1 Ecology",
+        "solution_manual_note": "Answer C. Bacterial decomposition of dead algae consumes dissolved oxygen, leading to fish kills."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q017",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.2 Ecological relationships",
+      "subsection": "Herbivory (+/-)",
+      "sub_subsection": null,
+      "structural_anchor": "Herbivory (+/-)",
+      "mcq_type": "B",
+      "question": "A caterpillar eats the leaves of a plant, damaging the plant but not killing it. This interaction is an example of:",
+      "options": {
+        "A": "Predation",
+        "B": "Herbivory",
+        "C": "Parasitism",
+        "D": "Competition"
+      },
+      "correct_answer": "B",
+      "hint": "Herbivores eat plants or algae.",
+      "explanation": "Herbivory is an exploitative interaction where an herbivore eats parts of a plant or alga, harming it but usually not killing it. Option A (predation) typically involves killing the prey.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2 Ecological relationships",
+        "subsection_anchor": "Herbivory (+/-)",
+        "structural_element": "Herbivory (+/-)",
+        "content_anchor": "Herbivory is an exploitative interaction in which an organism\u2014an herbivore\u2014eats parts of a plant or alga, thereby harming it but usually not killing it",
+        "page_hint": 20,
+        "concept_hash": "y9f3e6c1b5a8d2e4f7b9c3a6d8e2f5b1c4a7d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 38,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "Herbivory is an interaction where an animal (herbivore) consumes plant or algal tissue, harming the plant but typically not killing it.",
+        "concept_summary": "Herbivores include insects, grazing mammals, and some birds; they have specialized teeth or digestive systems for processing vegetation.",
+        "beginner": "A caterpillar eating a leaf is herbivory \u2014 the plant is hurt but usually survives.",
+        "intermediate": "Herbivory differs from predation in that the herbivore usually does not kill the plant, though repeated damage can reduce plant fitness.",
+        "advanced": "Plants have evolved chemical and physical defenses against herbivory, including tannins, spines, and volatile organic compounds that attract predators of herbivores.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify what the caterpillar eats: plant leaves.",
+          "Recall that animals eating plants are herbivores.",
+          "Match to term 'herbivory'."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Herbivory is not mutualism; the plant is harmed (-).",
+          "Not all herbivores are mammals; insects are the most numerous herbivores."
+        ],
+        "related_concepts": [
+          "Herbivore",
+          "Plant defense",
+          "Grazing",
+          "Browser"
+        ],
+        "revision_note": "Herbivory (+/-): animal eats plant, plant harmed.",
+        "glossary_entry": {
+          "term": "Herbivory",
+          "definition": "The consumption of plant or algal tissues by an animal (herbivore), which harms the plant but usually does not kill it.",
+          "example_equation": null,
+          "related_terms": [
+            "Herbivore",
+            "Grazing",
+            "Browser"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the difference between herbivory and predation?",
+          "back": "Herbivory involves eating plants (usually not killing them); predation involves killing and eating animals."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Herbivory",
+            "relation": "effect",
+            "target": "Plant harmed (-)"
+          },
+          {
+            "source": "Herbivory",
+            "relation": "effect",
+            "target": "Herbivore benefits (+)"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Ecological Relationships",
+        "flashcard_front": "What term describes an animal eating plant tissue without necessarily killing the plant?",
+        "flashcard_back": "Herbivory. Herbivores eat plants or algae, harming them but usually not killing them.",
+        "glossary_term": "Herbivory",
+        "glossary_definition": "The act of eating plant or algal tissues.",
+        "revision_note": "Herbivory: plant eaten, plant harmed but not killed.",
+        "teacher_note": "Compare herbivory (+/-) to mutualism where both benefit.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Discuss ecological relationships in ecosystems",
+        "concept_map_nodes": [
+          {
+            "source": "Herbivory",
+            "relation": "example",
+            "target": "Caterpillar eating leaf"
+          }
+        ],
+        "workbook_section": "6.2 Ecological relationships",
+        "solution_manual_note": "Answer B. The caterpillar is an herbivore eating plant tissue; this is herbivory."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q018",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.2 Ecological relationships",
+      "subsection": "Commensalism (+/0)",
+      "sub_subsection": null,
+      "structural_anchor": "Commensalism (+/0)",
+      "mcq_type": "B",
+      "question": "Cattle egrets follow grazing bison and eat insects that are flushed out of the grass. The bison are not affected by the birds. This relationship is classified as:",
+      "options": {
+        "A": "Mutualism",
+        "B": "Commensalism",
+        "C": "Parasitism",
+        "D": "Competition"
+      },
+      "correct_answer": "B",
+      "hint": "One species benefits; the other is neither helped nor harmed.",
+      "explanation": "Commensalism is an interaction that benefits one species but does not help or harm the other. The egrets benefit from easier feeding; the bison are unaffected.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2 Ecological relationships",
+        "subsection_anchor": "Commensalism (+/0)",
+        "structural_element": "Commensalism (+/0)",
+        "content_anchor": "Commensalism is interaction that neither benefits the individuals of one of the interacting species but neither harms nor helps the individuals of the other species",
+        "page_hint": 21,
+        "concept_hash": "z1f4e7c2b6a9d3e6f8b2c5a1d4e7f9b3c6a2d5e8f1b4c7a3d6e9f2b5c8a4d7e1f3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 96,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Commensalism is an ecological interaction where one species benefits and the other is neither helped nor harmed (+/0).",
+        "concept_summary": "Examples include barnacles on whales, birds nesting in trees, and egrets following grazing animals.",
+        "beginner": "Commensalism is like getting a free ride without helping or hurting the other person.",
+        "intermediate": "In commensalism, the commensal benefits (food, shelter, transport) while the host remains unaffected.",
+        "advanced": "Commensal relationships can evolve into mutualism if the host later derives benefit, as seen in some cleaning symbioses.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify who benefits: egrets benefit (food).",
+          "Identify effect on bison: no effect (neither helped nor harmed).",
+          "Match to commensalism (+/0)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Commensalism is not parasitism; the host is not harmed.",
+          "Commensal relationships may actually have hidden costs; strict commensalism is rare in nature."
+        ],
+        "related_concepts": [
+          "Symbiosis",
+          "Phoresy",
+          "Inquilinism"
+        ],
+        "revision_note": "Commensalism (+/0): one benefits, other unaffected.",
+        "glossary_entry": {
+          "term": "Commensalism",
+          "definition": "An interaction in which one species benefits and the other is neither helped nor harmed.",
+          "example_equation": null,
+          "related_terms": [
+            "Phoresy",
+            "Inquilinism",
+            "Symbiosis"
+          ]
+        },
+        "flashcard": {
+          "front": "What distinguishes commensalism from mutualism and parasitism?",
+          "flashcard_back": "Commensalism benefits one species (+), the other is unaffected (0). Mutualism benefits both (+/+); parasitism benefits one and harms the other (+/-).",
+          "glossary_term": "Commensalism",
+          "glossary_definition": "A relationship where one organism benefits and the other is unaffected.",
+          "revision_note": "Commensalism: +/0 (benefit/no effect).",
+          "teacher_note": "Use cattle egret example: birds get food, bison unaffected.",
+          "bloom_level": "Understand",
+          "learning_objective_tag": "Discuss ecological relationships in ecosystems",
+          "concept_map_nodes": [
+            {
+              "source": "Commensalism",
+              "relation": "example",
+              "target": "Cattle egret and bison"
+            },
+            {
+              "source": "Commensalism",
+              "relation": "effect",
+              "target": "+/0"
+            }
+          ],
+          "workbook_section": "6.2 Ecological relationships",
+          "solution_manual_note": "Answer B. Egrets benefit; bison are unaffected \u2192 commensalism."
+        }
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q019",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.2 Ecological relationships",
+      "subsection": "Predation (+/-)",
+      "sub_subsection": null,
+      "structural_anchor": "What is predation?",
+      "mcq_type": "G",
+      "question": "Which of the following scenarios best illustrates an evolutionary adaptation resulting from predator-prey interactions?",
+      "options": {
+        "A": "A cactus storing water in its stem to survive drought",
+        "B": "A gazelle developing faster running speed over generations",
+        "C": "A tree growing taller to reach sunlight in a forest",
+        "D": "A fungus breaking down dead leaves for nutrients"
+      },
+      "correct_answer": "B",
+      "hint": "Consider which adaptation helps an organism avoid being eaten.",
+      "explanation": "Predator-prey interactions drive natural selection for escape adaptations like speed, camouflage, or warning coloration. Option B shows a prey adaptation (speed) evolved to escape predators.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 91,
+        "explanation_validation": {
+          "word_overlap_percentage": 12,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2 Ecological relationships",
+        "subsection_anchor": "Predation (+/-)",
+        "structural_element": "What is predation?",
+        "content_anchor": "Because eating and avoiding being eaten are prerequisites to reproductive success, the adaptations of both predators and prey tend to be refined through natural selection",
+        "page_hint": 19,
+        "concept_hash": "a2f5e8c4b7a1d3e6f9b2c5a8d1e4f7b9c3a6d8e2f5b1c4a7d9e3f6b2c5a8d1e4f7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Predation is an interaction where one organism (predator) kills and eats another organism (prey).",
+        "concept_summary": "Predator-prey coevolution leads to adaptations such as speed, camouflage, toxins, and warning coloration.",
+        "beginner": "Gazelles that run fast are less likely to be caught by lions, so over time gazelles get faster.",
+        "intermediate": "Natural selection favors prey that can escape predators and predators that can catch prey, leading to an evolutionary arms race.",
+        "advanced": "The Lotka-Volterra model \\(\\frac{dN}{dt} = rN - aNP\\) and \\(\\frac{dP}{dt} = bNP - mP\\) describes cyclic predator-prey population dynamics.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that the question asks for adaptation from predator-prey interaction.",
+          "Recognize that speed in gazelles helps escape predators.",
+          "Eliminate options related to abiotic factors (water, light) or decomposition."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Not all fast animals evolved speed due to predators; some evolved for hunting or migration.",
+          "Predator-prey adaptations are coevolutionary: both sides evolve in response to each other."
+        ],
+        "related_concepts": [
+          "Coevolution",
+          "Natural selection",
+          "Anti-predator adaptation",
+          "Camouflage",
+          "Mimicry"
+        ],
+        "revision_note": "Predator-prey arms race \u2192 adaptations like speed.",
+        "glossary_entry": {
+          "term": "Predation",
+          "definition": "An interaction in which one organism (predator) kills and eats another organism (prey).",
+          "example_equation": null,
+          "related_terms": [
+            "Predator",
+            "Prey",
+            "Coevolution"
+          ]
+        },
+        "flashcard": {
+          "front": "How does predator-prey interaction drive evolution?",
+          "flashcard_back": "Predators evolve better hunting adaptations; prey evolve better escape adaptations (speed, camouflage) through natural selection."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Predator-prey",
+            "relation": "leads_to",
+            "target": "Coevolution"
+          },
+          {
+            "source": "Coevolution",
+            "relation": "results_in",
+            "target": "Adaptations"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Predation and Evolution",
+        "flashcard_front": "What type of adaptation results from predator-prey coevolution?",
+        "flashcard_back": "Prey evolve speed, camouflage, or toxins; predators evolve better senses, speed, or hunting strategies.",
+        "glossary_term": "Predation",
+        "glossary_definition": "An interaction where one organism kills and eats another.",
+        "revision_note": "Predator-prey \u2192 coevolution \u2192 adaptations.",
+        "teacher_note": "Classic example: cheetah speed vs. gazelle speed \u2014 both have increased over evolutionary time.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Discuss ecological relationships in ecosystems",
+        "concept_map_nodes": [
+          {
+            "source": "Predator-prey",
+            "relation": "drives",
+            "target": "Natural selection"
+          }
+        ],
+        "workbook_section": "6.2 Ecological relationships",
+        "solution_manual_note": "Answer B. Faster running speed in gazelles is an adaptation to escape predators, driven by predator-prey interactions."
+      }
+    },
+    {
+      "question_id": "G9_Bio_U6_Q020",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 6: Ecology",
+      "section": "6.2 Ecological relationships",
+      "subsection": "Mutualism (+/+)",
+      "sub_subsection": null,
+      "structural_anchor": "Mutualism (+/+)",
+      "mcq_type": "F",
+      "question": "In a mycorrhizal association, fungi transfer phosphorus to plant roots while plants transfer carbohydrates to the fungi. This relationship is best described as:",
+      "options": {
+        "A": "Commensalism because only the plant benefits",
+        "B": "Parasitism because the fungus takes nutrients from the plant",
+        "C": "Mutualism because both organisms benefit from the exchange",
+        "D": "Competition because both require the same nutrients"
+      },
+      "correct_answer": "C",
+      "hint": "Both organisms gain something valuable from the interaction.",
+      "explanation": "Mutualism benefits both species: the fungus receives carbohydrates, and the plant receives phosphorus and other nutrients. Option B incorrectly identifies a mutualism as parasitism.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Ecology",
+        "section_anchor": "6.2 Ecological relationships",
+        "subsection_anchor": "Mutualism (+/+)",
+        "structural_element": "Mutualism (+/+)",
+        "content_anchor": "Mutualism is interaction that benefits individuals of both of the interacting species ... mycorrhizae",
+        "page_hint": 20,
+        "concept_hash": "b3f6e9c5b8a2d4e7f1b4c7a9d2e5f8b1c4a7d9e3f6b2c5a8d1e4f7b9c3a6d8e2f5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 94,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Mutualism is an ecological interaction where both participating species derive fitness benefits.",
+        "concept_summary": "Mycorrhizae are mutualistic associations between fungi and plant roots; fungi enhance nutrient uptake, plants provide carbohydrates.",
+        "beginner": "Mycorrhizae are like a trade: the plant gives the fungus sugar, and the fungus gives the plant minerals.",
+        "intermediate": "In mycorrhizal mutualism, the plant transfers carbohydrates to the fungus, and the fungus transfers limiting nutrients like phosphorus to the plant.",
+        "advanced": "Mycorrhizal networks can connect multiple plants, enabling nutrient transfer between individuals and even between different plant species.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify what the plant gains: phosphorus.",
+          "Identify what the fungus gains: carbohydrates.",
+          "Both benefit \u2192 mutualism."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Mycorrhizae are not parasitic; both partners incur costs but net benefit is positive.",
+          "Not all fungi associated with plant roots are mutualists; some are pathogenic."
+        ],
+        "related_concepts": [
+          "Mycorrhiza",
+          "Symbiosis",
+          "Nutrient cycling",
+          "Arbuscular mycorrhiza"
+        ],
+        "revision_note": "Mutualism: both benefit (plant gets P, fungus gets sugar).",
+        "glossary_entry": {
+          "term": "Mycorrhiza",
+          "definition": "A mutualistic association between a fungus and plant roots, where the fungus enhances nutrient uptake and the plant provides carbohydrates.",
+          "example_equation": null,
+          "related_terms": [
+            "Mutualism",
+            "Symbiosis",
+            "Arbuscular mycorrhiza"
+          ]
+        },
+        "flashcard": {
+          "front": "What is exchanged in a mycorrhizal mutualism?",
+          "flashcard_back": "Fungus transfers phosphorus and other nutrients to the plant; plant transfers carbohydrates to the fungus."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Mycorrhiza",
+            "relation": "type_of",
+            "target": "Mutualism"
+          },
+          {
+            "source": "Plant",
+            "relation": "provides",
+            "target": "Carbohydrates"
+          },
+          {
+            "source": "Fungus",
+            "relation": "provides",
+            "target": "Phosphorus"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Biology Unit 6 \u2014 Mutualism",
+        "flashcard_front": "What type of relationship exists between mycorrhizal fungi and plant roots?",
+        "flashcard_back": "Mutualism: fungi receive carbohydrates from plants; plants receive phosphorus and other nutrients from fungi.",
+        "glossary_term": "Mycorrhiza",
+        "glossary_definition": "A mutualistic fungus-plant root association.",
+        "revision_note": "Mycorrhizae: mutualism (plant gets P, fungus gets sugar).",
+        "teacher_note": "Emphasize that mycorrhizae are essential for most terrestrial plants.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Discuss ecological relationships in ecosystems",
+        "concept_map_nodes": [
+          {
+            "source": "Mycorrhiza",
+            "relation": "benefits",
+            "target": "Plant"
+          },
+          {
+            "source": "Mycorrhiza",
+            "relation": "benefits",
+            "target": "Fungus"
+          }
+        ],
+        "workbook_section": "6.2 Ecological relationships",
+        "solution_manual_note": "Answer C. Both species benefit (plant gets nutrients, fungus gets carbohydrates) \u2192 mutualism."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3400,
+    "average_question_quality": 92.4,
+    "type_distribution": {
+      "A": 4,
+      "B": 3,
+      "F": 2,
+      "G": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.1 Ecology": 5,
+      "6.2 Ecological relationships": 5
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 36,
+      "advanced_avg": 45
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 7
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

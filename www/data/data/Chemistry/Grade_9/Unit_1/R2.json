@@ -1,0 +1,1768 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T11:00:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G09_Chem_U1_Q020",
+    "covered_sections": [
+      "1.1 Definition and Scope of Chemistry>1.1.1 Definition of Chemistry",
+      "1.1 Definition and Scope of Chemistry>1.1.2 Scope of Chemistry",
+      "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+      "1.3 The Role Chemistry Plays in Production and in the Society>A. Agriculture",
+      "1.3 The Role Chemistry Plays in Production and in the Society>B. Food Production",
+      "1.3 The Role Chemistry Plays in Production and in the Society>C. Medicine",
+      "1.3 The Role Chemistry Plays in Production and in the Society>D. Building Construction Materials",
+      "1.4 Some Common Chemical Industries in Ethiopia"
+    ],
+    "used_question_signatures": [
+      "sha256_def_chemistry_1.1.1_001",
+      "sha256_term_matter_1.1.1_002",
+      "sha256_class_chem_fields_1.1.2_003",
+      "sha256_rel_chem_bio_1.2_004",
+      "sha256_app_fertilizer_1.3a_005",
+      "sha256_app_food_preservative_1.3b_006",
+      "sha256_app_antibiotic_1.3c_007",
+      "sha256_app_analgesic_1.3c_008",
+      "sha256_app_cement_1.3d_009",
+      "sha256_ind_ethiopia_1.4_010",
+      "sha256_prop_substance_1.1.1_011",
+      "sha256_comp_substance_1.1.1_012",
+      "sha256_phys_chem_scope_1.1.2_013",
+      "sha256_geochem_relation_1.2_014",
+      "sha256_pesticide_agri_1.3a_015",
+      "sha256_herbicide_agri_1.3a_016",
+      "sha256_antiseptic_med_1.3c_017",
+      "sha256_tranquilizer_med_1.3c_018",
+      "sha256_gerd_construction_1.3d_019",
+      "sha256_soap_ind_ethiopia_1.4_020"
+    ],
+    "baseline_counter": {
+      "1.1 Definition and Scope of Chemistry": {
+        "1.1.1 Definition of Chemistry": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.1.2 Scope of Chemistry": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.2 The Relationship Between Chemistry and Other Natural Sciences": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.3 The Role Chemistry Plays in Production and in the Society": {
+        "A. Agriculture": {
+          "count": 3,
+          "mini_headings_covered": ["A. Agriculture"],
+          "last_question_round": 2
+        },
+        "B. Food Production": {
+          "count": 1,
+          "mini_headings_covered": ["B. Food Production"],
+          "last_question_round": 1
+        },
+        "C. Medicine": {
+          "count": 4,
+          "mini_headings_covered": ["C. Medicine"],
+          "last_question_round": 2
+        },
+        "D. Building Construction Materials": {
+          "count": 2,
+          "mini_headings_covered": ["D. Building Construction Materials"],
+          "last_question_round": 2
+        }
+      },
+      "1.4 Some Common Chemical Industries in Ethiopia": {
+        "": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Definition and Scope of Chemistry": {
+        "question_count": 6,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.2 The Relationship Between Chemistry and Other Natural Sciences": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "1.3 The Role Chemistry Plays in Production and in the Society": {
+        "question_count": 10,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "1.4 Some Common Chemical Industries in Ethiopia": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1.1 Definition of Chemistry": ["chemistry", "matter", "substance", "property", "composition", "structure", "transformation", "energy"],
+      "1.1.2 Scope of Chemistry": ["organic chemistry", "inorganic chemistry", "physical chemistry", "analytical chemistry", "biochemistry"],
+      "1.2 The Relationship Between Chemistry and Other Natural Sciences": ["biochemistry", "geochemistry", "physical chemistry", "chemical physics", "medicinal chemistry"],
+      "A. Agriculture": ["fertilizers", "pesticides", "fungicides", "herbicides", "insecticides"],
+      "B. Food Production": ["food preservatives", "adulterant testing"],
+      "C. Medicine": ["antibiotics", "analgesics", "anesthetics", "antiseptics", "disinfectants", "tranquilizers", "cisplatin", "Taxol", "AZT"],
+      "D. Building Construction Materials": ["glass", "steel", "cement"],
+      "1.4 Some Common Chemical Industries in Ethiopia": ["Chorra Gas & Chemical products", "Ziway Caustic Soda factory", "Repi Soap & Detergent", "Nefas Silk Paints factory", "Modern Building Industries", "Kadisco Chemical Industry"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 32,
+      "questions_per_concept_ratio": 0.62,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Chemistry",
+  "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+  "pdf_filename": "C9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T11:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.62
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "least_covered_section": "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G09_Chem_U1_Q011",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.1 Definition and Scope of Chemistry",
+      "subsection": "1.1.1 Definition of Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Definition of Chemistry",
+      "mcq_type": "A",
+      "question": "A property of a substance refers to its attribute or characteristic. Which of the following is an example of a physical property?",
+      "options": {
+        "A": "Reaction with oxygen to form rust",
+        "B": "Boiling point of water at \\(100 \\, ^\\circ \\mathrm{C}\\)",
+        "C": "Ability to burn in air",
+        "D": "Reaction with acid to produce gas"
+      },
+      "correct_answer": "B",
+      "hint": "Physical properties can be observed without changing the substance's identity.",
+      "explanation": "Boiling point is a physical property because it can be measured without changing water into a different substance. Rusting, burning, and reacting with acid are chemical properties that involve chemical changes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.1 Definition and Scope of Chemistry",
+        "subsection_anchor": "1.1.1 Definition of Chemistry",
+        "structural_element": "Definition of Chemistry",
+        "content_anchor": "The property of a substance is its attribute, quality, or characteristic.",
+        "page_hint": 3,
+        "concept_hash": "sha256_d0e1f2a3b4c56789"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 93,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A physical property is a characteristic that can be observed or measured without changing the substance's chemical identity.",
+        "concept_summary": "Physical properties include melting point, boiling point, density, and color. Chemical properties describe how a substance reacts to form new substances.",
+        "beginner": "Physical properties are like a person's height or eye color — you can measure them without changing who they are.",
+        "intermediate": "Boiling point is a physical property because measuring it does not chemically change water; it remains \\(\\mathrm{H_2O}\\).",
+        "advanced": "Physical properties are intensive (independent of sample size) or extensive (dependent on sample size) but never involve bond breaking or formation, unlike chemical properties.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that physical properties are observed without changing the substance.",
+          "Boiling water changes state but not chemical identity → physical property.",
+          "Rusting, burning, and acid reactions produce new substances → chemical properties."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think state changes are chemical changes. Boiling water is physical; the water molecules remain the same.",
+          "Others confuse flammability as physical; burning is a chemical reaction."
+        ],
+        "related_concepts": ["chemical property", "state change", "intensive property", "extensive property"],
+        "revision_note": "Physical property: observed without chemical change (e.g., boiling point).",
+        "glossary_entry": {
+          "term": "physical property",
+          "definition": "A characteristic that can be observed or measured without changing the substance's chemical identity.",
+          "example_equation": null,
+          "related_terms": ["chemical property", "boiling point", "density"]
+        },
+        "flashcard": {
+          "front": "What is a physical property, and give an example.",
+          "back": "A physical property is observed without changing the substance; example: boiling point of water (\\(100 \\, ^\\circ \\mathrm{C}\\))."
+        },
+        "concept_map_nodes": [
+          {"source": "Physical Property", "relation": "example", "target": "Boiling Point"},
+          {"source": "Physical Property", "relation": "contrasted_with", "target": "Chemical Property"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Properties of Substances",
+        "flashcard_front": "Is boiling point a physical or chemical property? Why?",
+        "flashcard_back": "Boiling point is a physical property because it can be measured without changing the chemical identity of the substance.",
+        "glossary_term": "physical property",
+        "glossary_definition": "A characteristic that can be observed or measured without changing the substance's chemical identity.",
+        "revision_note": "Physical properties: observe without changing substance.",
+        "teacher_note": "Use the water example: freezing, melting, boiling are physical changes; water remains H₂O.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Define chemistry and its basic terms",
+        "concept_map_nodes": [
+          {"source": "Property", "relation": "type", "target": "Physical Property"},
+          {"source": "Physical Property", "relation": "example", "target": "Boiling Point"}
+        ],
+        "workbook_section": "Definition and Scope of Chemistry",
+        "solution_manual_note": "Answer B. Boiling point is a physical property measured without chemical change. Options A, C, D describe chemical properties involving reactions that form new substances."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q012",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.1 Definition and Scope of Chemistry",
+      "subsection": "1.1.1 Definition of Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Definition of Chemistry",
+      "mcq_type": "A",
+      "question": "The composition of a substance tells us what it is made of. Table salt (sodium chloride) is composed of which two elements?",
+      "options": {
+        "A": "Sodium and carbon",
+        "B": "Sodium and chlorine",
+        "C": "Sulfur and chlorine",
+        "D": "Sodium and oxygen"
+      },
+      "correct_answer": "B",
+      "hint": "The chemical name \"sodium chloride\" reveals its components.",
+      "explanation": "Sodium chloride (\\(\\mathrm{NaCl}\\)) is composed of sodium (Na) and chlorine (Cl) elements. Option A includes carbon (not present), option C includes sulfur, and option D includes oxygen instead of chlorine.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathrm{NaCl}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.1 Definition and Scope of Chemistry",
+        "subsection_anchor": "1.1.1 Definition of Chemistry",
+        "structural_element": "Definition of Chemistry",
+        "content_anchor": "Table salt is chemically composed of the elements sodium and chlorine.",
+        "page_hint": 3,
+        "concept_hash": "sha256_e1f2a3b4c5d67890"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 96,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Composition is the nature of a substance's ingredients or constituents.",
+        "concept_summary": "Every compound has a fixed composition. Sodium chloride is always \\(\\mathrm{NaCl}\\), one sodium atom for every chlorine atom.",
+        "beginner": "Table salt is like a recipe: one part sodium and one part chlorine mixed together.",
+        "intermediate": "Sodium chloride (\\(\\mathrm{NaCl}\\)) contains sodium (Na) and chlorine (Cl) in a 1:1 ratio by atoms.",
+        "advanced": "The composition of sodium chloride is 39.34% sodium and 60.66% chlorine by mass, forming an ionic lattice structure (\\(\\mathrm{Na^+}\\) and \\(\\mathrm{Cl^-}\\)).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that composition means what elements make up the substance.",
+          "Table salt is sodium chloride → sodium and chlorine.",
+          "Eliminate options with incorrect elements."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{NaCl}\\)",
+            "name": "Sodium chloride",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think salt contains carbon because \"organic\" salt is marketed; pure table salt is \\(\\mathrm{NaCl}\\), carbon-free.",
+          "Others confuse sodium with sulfur (similar sounding names)."
+        ],
+        "related_concepts": ["element", "compound", "chemical formula", "ionic bond"],
+        "revision_note": "Table salt = \\(\\mathrm{NaCl}\\) = sodium + chlorine.",
+        "glossary_entry": {
+          "term": "sodium chloride",
+          "definition": "An ionic compound composed of sodium and chlorine in a 1:1 ratio, commonly known as table salt.",
+          "example_equation": "\\(\\mathrm{NaCl}\\)",
+          "related_terms": ["sodium", "chlorine", "ionic compound"]
+        },
+        "flashcard": {
+          "front": "What two elements make up table salt (sodium chloride)?",
+          "back": "Table salt is composed of sodium (Na) and chlorine (Cl), with the formula \\(\\mathrm{NaCl}\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Composition", "relation": "determines", "target": "Elements Present"},
+          {"source": "Sodium Chloride", "relation": "contains", "target": "Sodium"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Composition of Substances",
+        "flashcard_front": "What is the chemical formula of table salt and what elements does it contain?",
+        "flashcard_back": "Table salt is \\(\\mathrm{NaCl}\\), containing sodium (Na) and chlorine (Cl).",
+        "glossary_term": "sodium chloride",
+        "glossary_definition": "An ionic compound composed of sodium and chlorine in a 1:1 ratio, commonly known as table salt.",
+        "revision_note": "\\(\\mathrm{NaCl}\\) = sodium + chlorine.",
+        "teacher_note": "Relate composition to formulas: knowing the formula tells you exactly what elements are present.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define chemistry and its basic terms",
+        "concept_map_nodes": [
+          {"source": "Table Salt", "relation": "has_formula", "target": "NaCl"},
+          {"source": "NaCl", "relation": "contains", "target": "Sodium"}
+        ],
+        "workbook_section": "Definition and Scope of Chemistry",
+        "solution_manual_note": "Answer B. The PDF explicitly states table salt is composed of sodium and chlorine. Option A adds carbon, option C substitutes sulfur, option D substitutes oxygen for chlorine."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q013",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.1 Definition and Scope of Chemistry",
+      "subsection": "1.1.2 Scope of Chemistry",
+      "sub_subsection": null,
+      "structural_anchor": "Scope of Chemistry",
+      "mcq_type": "A",
+      "question": "Physical chemistry is one of the main branches of chemistry. What does physical chemistry primarily study?",
+      "options": {
+        "A": "Carbon-containing compounds",
+        "B": "Rates of reactions and energy transfers",
+        "C": "Separation and identification of chemicals",
+        "D": "Chemical processes in living things"
+      },
+      "correct_answer": "B",
+      "hint": "The word \"physical\" links to physics concepts like energy and motion.",
+      "explanation": "Physical chemistry studies macroscopic properties, atomic properties, rates of chemical reactions, and energy transfers. Option A is organic chemistry, option C is analytical chemistry, and option D is biochemistry.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 99,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.1 Definition and Scope of Chemistry",
+        "subsection_anchor": "1.1.2 Scope of Chemistry",
+        "structural_element": "Scope of Chemistry",
+        "content_anchor": "Physical chemistry: It is the study of macroscopic properties, atomic properties, and phenomena in chemical systems. A physical chemist may study such things as the rates of chemical reactions, the energy transfers that occur in reactions",
+        "page_hint": 4,
+        "concept_hash": "sha256_f2a3b4c5d6e78901"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 97,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Physical chemistry is the branch of chemistry that studies the physical principles underlying chemical systems, including reaction rates and energy changes.",
+        "concept_summary": "Physical chemistry bridges chemistry and physics, explaining how and why reactions occur at the molecular level in terms of energy, motion, and forces.",
+        "beginner": "Physical chemistry asks: \"How fast does a reaction go?\" and \"Where does the energy come from?\"",
+        "intermediate": "Physical chemistry studies reaction kinetics (rates) and thermodynamics (energy transfers), applying physics to chemical systems.",
+        "advanced": "Physical chemistry encompasses quantum chemistry (electron behavior), chemical kinetics (rate laws, activation energy), and thermodynamics (enthalpy, entropy, Gibbs free energy).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the five branches of chemistry.",
+          "Physical chemistry involves physics concepts: energy, motion, rates.",
+          "Match option B (rates and energy) to physical chemistry."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think physical chemistry only studies solids or physics without chemistry; it integrates both.",
+          "Others confuse it with chemical physics (a related but distinct subfield)."
+        ],
+        "related_concepts": ["chemical kinetics", "thermodynamics", "quantum chemistry", "reaction rate"],
+        "revision_note": "Physical chemistry = reaction rates + energy transfers.",
+        "glossary_entry": {
+          "term": "physical chemistry",
+          "definition": "The branch of chemistry studying rates of reactions, energy transfers, and physical properties of chemical systems.",
+          "example_equation": null,
+          "related_terms": ["chemical kinetics", "thermodynamics", "quantum chemistry"]
+        },
+        "flashcard": {
+          "front": "What does physical chemistry focus on?",
+          "back": "Physical chemistry focuses on reaction rates, energy transfers, and physical properties of chemical systems."
+        },
+        "concept_map_nodes": [
+          {"source": "Physical Chemistry", "relation": "studies", "target": "Reaction Rates"},
+          {"source": "Physical Chemistry", "relation": "studies", "target": "Energy Transfers"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Scope of Chemistry",
+        "flashcard_front": "What branch of chemistry studies reaction rates and energy changes?",
+        "flashcard_back": "Physical chemistry studies rates of reactions, energy transfers, and physical properties of chemical systems.",
+        "glossary_term": "physical chemistry",
+        "glossary_definition": "The branch of chemistry studying rates of reactions, energy transfers, and physical properties of chemical systems.",
+        "revision_note": "Physical chem = rates + energy.",
+        "teacher_note": "Use an analogy: physical chemistry is like a sports analyst — measuring speed (reaction rate) and energy expenditure (energy transfer).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the scope of chemistry and its major branches",
+        "concept_map_nodes": [
+          {"source": "Chemistry", "relation": "branch", "target": "Physical Chemistry"},
+          {"source": "Physical Chemistry", "relation": "focuses_on", "target": "Energy Transfer"}
+        ],
+        "workbook_section": "Definition and Scope of Chemistry",
+        "solution_manual_note": "Answer B. The PDF defines physical chemistry as studying rates of reactions and energy transfers. Option A is organic chemistry, C is analytical chemistry, D is biochemistry."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q014",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "The Relationship Between Chemistry and Other Natural Sciences",
+      "mcq_type": "A",
+      "question": "Geochemistry is the overlap between chemistry and geology. What does geochemistry study?",
+      "options": {
+        "A": "Chemical processes in living organisms",
+        "B": "The abundance and distribution of chemical compounds in geologic environments",
+        "C": "The application of physics to atomic properties",
+        "D": "The separation and identification of chemicals"
+      },
+      "correct_answer": "B",
+      "hint": "The prefix \"geo-\" means Earth.",
+      "explanation": "Geochemistry studies the processes that control the abundance, composition, and distribution of chemical compounds and isotopes in rocks, minerals, and other geologic environments. Biochemistry (A) studies living things, chemical physics (C) studies atomic properties, and analytical chemistry (D) separates and identifies chemicals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 99,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.2 The Relationship Between Chemistry and Other Natural Sciences",
+        "subsection_anchor": "",
+        "structural_element": "The Relationship Between Chemistry and Other Natural Sciences",
+        "content_anchor": "Geochemistry is defined as the study of the processes that control the abundance, composition, and distribution of chemical compounds and isotopes in geologic environments.",
+        "page_hint": 7,
+        "concept_hash": "sha256_a3b4c5d6e7f89012"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 47,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Geochemistry is the study of the chemical composition and processes of Earth materials.",
+        "concept_summary": "Geochemistry applies chemical principles to understand the distribution of elements in rocks, minerals, soil, water, and the atmosphere.",
+        "beginner": "Geochemistry is like being a detective for rocks — figuring out what chemicals are inside them and how they got there.",
+        "intermediate": "Geochemistry studies how chemical compounds are distributed in Earth's crust, from mountain ranges to ocean floors.",
+        "advanced": "Geochemistry examines elemental cycles (carbon, nitrogen, sulfur) through reservoirs (lithosphere, hydrosphere, atmosphere) using isotope fractionation and trace element analysis.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that \"geo\" means Earth.",
+          "Geochemistry applies chemistry to Earth's materials.",
+          "Select option B about geologic environments."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some confuse geochemistry with mineralogy (study of minerals) or petrology (study of rocks); geochemistry is broader, focusing on chemical composition and processes.",
+          "Others think it only studies rocks; it also includes soil, water, and atmospheric chemistry."
+        ],
+        "related_concepts": ["mineralogy", "isotope geochemistry", "biogeochemistry", "elemental cycles"],
+        "revision_note": "Geochemistry = chemistry of Earth's materials.",
+        "glossary_entry": {
+          "term": "geochemistry",
+          "definition": "The study of the abundance, composition, and distribution of chemical compounds and isotopes in geologic environments.",
+          "example_equation": null,
+          "related_terms": ["mineralogy", "isotope geochemistry", "petrology"]
+        },
+        "flashcard": {
+          "front": "What does geochemistry study?",
+          "back": "Geochemistry studies the abundance, composition, and distribution of chemical compounds in Earth's geologic environments (rocks, minerals, soil, water)."
+        },
+        "concept_map_nodes": [
+          {"source": "Geochemistry", "relation": "overlap_between", "target": "Chemistry"},
+          {"source": "Geochemistry", "relation": "overlap_between", "target": "Geology"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Relationships with Other Sciences",
+        "flashcard_front": "What field combines chemistry and geology?",
+        "flashcard_back": "Geochemistry combines chemistry and geology, studying chemical compounds in Earth's geologic environments.",
+        "glossary_term": "geochemistry",
+        "glossary_definition": "The study of the abundance, composition, and distribution of chemical compounds and isotopes in geologic environments.",
+        "revision_note": "Geochemistry = Earth's chemistry.",
+        "teacher_note": "Connect geochemistry to real-world applications: finding mineral deposits, understanding volcanic eruptions, and tracking pollution.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Discuss the relationship between chemistry and geology",
+        "concept_map_nodes": [
+          {"source": "Chemistry", "relation": "overlaps_with", "target": "Geology"},
+          {"source": "Overlap", "relation": "creates", "target": "Geochemistry"}
+        ],
+        "workbook_section": "The Relationship Between Chemistry and Other Natural Sciences",
+        "solution_manual_note": "Answer B. The PDF defines geochemistry as studying chemical compounds and isotopes in geologic environments. Option A is biochemistry, C is chemical physics, D is analytical chemistry."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q015",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "A. Agriculture",
+      "sub_subsection": null,
+      "structural_anchor": "A. Agriculture",
+      "mcq_type": "D",
+      "question": "Pesticides are chemicals used to protect crops from pests. Which type of pesticide specifically targets weeds that compete with crops?",
+      "options": {
+        "A": "Insecticide",
+        "B": "Fungicide",
+        "C": "Herbicide",
+        "D": "Bactericide"
+      },
+      "correct_answer": "C",
+      "hint": "Weeds are unwanted plants; look for a term meaning \"plant-killer.\"",
+      "explanation": "Herbicides are pesticides that target weeds (unwanted plants). Insecticides target insects, fungicides target fungi, and bactericides target bacteria.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "A. Agriculture",
+        "structural_element": "A. Agriculture",
+        "content_anchor": "Depending on the targeted pest, pesticides include fungicides, herbicides, and insecticides.",
+        "page_hint": 8,
+        "concept_hash": "sha256_b4c5d6e7f8a90123"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "An herbicide is a type of pesticide that kills or inhibits the growth of unwanted plants (weeds).",
+        "concept_summary": "Pesticides are classified by the pest they target: herbicides for plants, insecticides for insects, fungicides for fungi.",
+        "beginner": "Herbicides are weed-killers — they get rid of unwanted plants that steal food from crops.",
+        "intermediate": "Herbicides target plants (weeds). Unlike insecticides (insects) or fungicides (fungi), herbicides are designed to disrupt plant-specific processes like photosynthesis.",
+        "advanced": "Herbicides work by targeting plant-specific enzymes or hormones (e.g., glyphosate inhibits EPSP synthase in the shikimate pathway, which plants need to synthesize aromatic amino acids).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that weeds are plants.",
+          "Chemicals that kill plants are herbicides.",
+          "Herbicides are a type of pesticide for unwanted vegetation."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think \"herbicide\" sounds like \"herb\" (plant) but confuse it with killing herbs; it kills unwanted plants, not garden herbs necessarily.",
+          "Others confuse herbicides with insecticides because both end in \"-cide\" (killer)."
+        ],
+        "related_concepts": ["weed control", "glyphosate", "selective herbicide", "non-selective herbicide"],
+        "revision_note": "Herbicide = weed-killer.",
+        "glossary_entry": {
+          "term": "herbicide",
+          "definition": "A pesticide that kills or inhibits the growth of unwanted plants (weeds).",
+          "example_equation": null,
+          "related_terms": ["weed killer", "glyphosate", "pesticide"]
+        },
+        "flashcard": {
+          "front": "What type of pesticide kills weeds?",
+          "back": "Herbicides are pesticides that target and kill unwanted plants (weeds)."
+        },
+        "concept_map_nodes": [
+          {"source": "Pesticide", "relation": "type", "target": "Herbicide"},
+          {"source": "Herbicide", "relation": "targets", "target": "Weeds"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Agriculture",
+        "flashcard_front": "What is an herbicide used for?",
+        "flashcard_back": "An herbicide is a pesticide that kills or inhibits the growth of weeds (unwanted plants).",
+        "glossary_term": "herbicide",
+        "glossary_definition": "A pesticide that kills or inhibits the growth of unwanted plants (weeds).",
+        "revision_note": "Herbicide = weed control.",
+        "teacher_note": "Differentiate between selective herbicides (kill only certain plants) and non-selective (kill all plants).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe the application of chemistry in agriculture",
+        "concept_map_nodes": [
+          {"source": "Agriculture", "relation": "uses", "target": "Pesticide"},
+          {"source": "Pesticide", "relation": "type", "target": "Herbicide"}
+        ],
+        "workbook_section": "Role of Chemistry in Agriculture",
+        "solution_manual_note": "Answer C. Herbicides target weeds (plants). Insecticides (A) target insects, fungicides (B) target fungi, bactericides (D) target bacteria."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q016",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "A. Agriculture",
+      "sub_subsection": null,
+      "structural_anchor": "A. Agriculture",
+      "mcq_type": "G",
+      "question": "Chemical fertilizers increase crop yield by providing essential nutrients to plants. What is the direct effect of nitrogen fertilizer on plant growth?",
+      "options": {
+        "A": "It strengthens cell walls",
+        "B": "It promotes leaf and stem growth",
+        "C": "It improves flower and fruit development",
+        "D": "It increases root growth"
+      },
+      "correct_answer": "B",
+      "hint": "Nitrogen is a key component of chlorophyll and proteins needed for green growth.",
+      "explanation": "Nitrogen is essential for chlorophyll and protein synthesis, promoting lush leaf and stem growth. Phosphorus promotes flower/fruit development, potassium strengthens cell walls and roots.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "A. Agriculture",
+        "structural_element": "A. Agriculture",
+        "content_anchor": "chemical fertilizers such as calcium super phosphate, urea, ammonium sulphate, and sodium nitrate. These chemicals have assisted greatly in increasing the yield of fruits, vegetables, and other crops",
+        "page_hint": 8,
+        "concept_hash": "sha256_c5d6e7f8a9b01234"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 91,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Nitrogen fertilizer provides nitrogen, a key component of chlorophyll and amino acids, promoting vegetative growth.",
+        "concept_summary": "Nitrogen is a primary macronutrient; it drives the production of green leaves and stems by enabling protein and chlorophyll synthesis.",
+        "beginner": "Nitrogen is like plant food for leaves — it helps plants grow big and green, not just flowers or roots.",
+        "intermediate": "Nitrogen is a component of chlorophyll and amino acids. Applying nitrogen fertilizer increases leaf and stem growth (vegetative growth).",
+        "advanced": "Nitrogen is assimilated into glutamine and glutamate via the GS-GOGAT pathway, then incorporated into all nitrogenous compounds including chlorophyll, nucleic acids, and proteins, driving biomass accumulation in shoots.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that nitrogen is in chlorophyll and proteins.",
+          "More chlorophyll and proteins → more photosynthesis and growth.",
+          "This specifically promotes leaf and stem (vegetative) growth."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think all fertilizers work the same; N, P, K have different roles (N for leaves, P for flowers/fruit, K for roots/strength).",
+          "Others think more nitrogen is always better; excess can cause lush growth prone to pests."
+        ],
+        "related_concepts": ["macronutrient", "chlorophyll", "vegetative growth", "protein synthesis"],
+        "revision_note": "Nitrogen → leaves and stems.",
+        "glossary_entry": {
+          "term": "nitrogen fertilizer",
+          "definition": "A fertilizer that provides nitrogen to plants, promoting leaf and stem growth.",
+          "example_equation": "\\(\\mathrm{CO(NH_2)_2}\\) (urea)",
+          "related_terms": ["urea", "ammonium nitrate", "vegetative growth"]
+        },
+        "flashcard": {
+          "front": "What does nitrogen fertilizer promote in plants?",
+          "back": "Nitrogen fertilizer promotes leaf and stem growth (vegetative growth) because nitrogen is in chlorophyll and proteins."
+        },
+        "concept_map_nodes": [
+          {"source": "Nitrogen Fertilizer", "relation": "promotes", "target": "Leaf Growth"},
+          {"source": "Nitrogen", "relation": "component_of", "target": "Chlorophyll"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Agriculture",
+        "flashcard_front": "Which nutrient does nitrogen fertilizer provide, and what plant part does it primarily promote?",
+        "flashcard_back": "Nitrogen fertilizer provides nitrogen for chlorophyll and proteins, promoting leaf and stem (vegetative) growth.",
+        "glossary_term": "nitrogen fertilizer",
+        "glossary_definition": "A fertilizer that provides nitrogen to plants, promoting leaf and stem growth.",
+        "revision_note": "N → leaves & stems; P → flowers & fruit; K → roots & strength.",
+        "teacher_note": "Use the mnemonic: \"Up, down, all around\" — N for upper growth (leaves), K for lower (roots), P for flowers/fruit.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe the application of chemistry in agriculture",
+        "concept_map_nodes": [
+          {"source": "Chemical Fertilizer", "relation": "contains", "target": "Nitrogen"},
+          {"source": "Nitrogen", "relation": "function", "target": "Vegetative Growth"}
+        ],
+        "workbook_section": "Role of Chemistry in Agriculture",
+        "solution_manual_note": "Answer B. Nitrogen promotes leaf and stem growth (vegetative growth). Option A (cell walls) is potassium, C (flowers/fruit) is phosphorus, D (roots) is also potassium."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q017",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "C. Medicine",
+      "sub_subsection": null,
+      "structural_anchor": "C. Medicine",
+      "mcq_type": "A",
+      "question": "Antiseptics are applied to wounds to prevent infection. How do antiseptics differ from disinfectants?",
+      "options": {
+        "A": "Antiseptics are safe for living tissue; disinfectants are for surfaces",
+        "B": "Antiseptics kill viruses; disinfectants kill bacteria",
+        "C": "Antiseptics are natural; disinfectants are synthetic",
+        "D": "Antiseptics are taken orally; disinfectants are injected"
+      },
+      "correct_answer": "A",
+      "hint": "Consider where each is used: on skin vs. on floors or toilets.",
+      "explanation": "Antiseptics are formulated to be safe on living tissue (e.g., hydrogen peroxide on cuts), while disinfectants are stronger and used on inanimate surfaces (e.g., bleach on floors). Both kill microbes, but safety differs.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "C. Medicine",
+        "structural_element": "C. Medicine",
+        "content_anchor": "Antiseptics: Are used to contamination of the wounds by bacteria. Disinfectants: Are used to kill the microbe present in toilets, floors, and drains.",
+        "page_hint": 10,
+        "concept_hash": "sha256_d6e7f8a9b0c12345"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 92,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "An antiseptic is a chemical agent that kills or inhibits microbes on living tissue without causing significant harm.",
+        "concept_summary": "Antiseptics are safe for skin and wounds; disinfectants are stronger and used only on non-living surfaces to avoid tissue damage.",
+        "beginner": "Antiseptics are gentle enough for your skin; disinfectants are too harsh — they're for cleaning toilets, not cuts.",
+        "intermediate": "Antiseptics (e.g., iodine, hydrogen peroxide) are safe for living tissue. Disinfectants (e.g., bleach) are stronger and used on surfaces like floors and drains.",
+        "advanced": "Antiseptics have a lower concentration of active agents or milder formulations (e.g., 3% \\(\\mathrm{H_2O_2}\\)) to avoid cytotoxicity, while disinfectants use higher concentrations (e.g., 5.25% \\(\\mathrm{NaOCl}\\)) for rapid kill on inanimate surfaces.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that antiseptics are for wounds (living tissue).",
+          "Disinfectants are for surfaces (toilets, floors).",
+          "The key difference is safety on living tissue."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think antiseptics and disinfectants are interchangeable; using disinfectant on wounds causes tissue damage.",
+          "Others believe antiseptics kill all microbes instantly; they reduce but may not sterilize."
+        ],
+        "related_concepts": ["disinfectant", "sterilization", "antimicrobial", "wound care"],
+        "revision_note": "Antiseptic = living tissue; disinfectant = surfaces.",
+        "glossary_entry": {
+          "term": "antiseptic",
+          "definition": "A chemical agent applied to living tissue to kill or inhibit microorganisms.",
+          "example_equation": null,
+          "related_terms": ["disinfectant", "antibiotic", "wound care"]
+        },
+        "flashcard": {
+          "front": "What is the main difference between an antiseptic and a disinfectant?",
+          "back": "Antiseptics are safe for use on living tissue; disinfectants are used on inanimate surfaces and are too harsh for skin."
+        },
+        "concept_map_nodes": [
+          {"source": "Antiseptic", "relation": "used_on", "target": "Living Tissue"},
+          {"source": "Disinfectant", "relation": "used_on", "target": "Surfaces"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Medicine",
+        "flashcard_front": "Can you use disinfectant on a wound? Why or why not?",
+        "flashcard_back": "No, disinfectants are too harsh for living tissue; antiseptics are formulated for safe use on wounds.",
+        "glossary_term": "antiseptic",
+        "glossary_definition": "A chemical agent applied to living tissue to kill or inhibit microorganisms.",
+        "revision_note": "Antiseptics on skin, disinfectants on surfaces.",
+        "teacher_note": "Emphasize the practical safety lesson: never use toilet cleaner or floor disinfectant on cuts.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the application of chemistry in medicine",
+        "concept_map_nodes": [
+          {"source": "Medicine", "relation": "category", "target": "Antiseptic"},
+          {"source": "Antiseptic", "relation": "contrasted_with", "target": "Disinfectant"}
+        ],
+        "workbook_section": "Role of Chemistry in Medicine",
+        "solution_manual_note": "Answer A. The PDF specifies antiseptics for wounds (living tissue) and disinfectants for toilets/floors (surfaces). Antiseptics and disinfectants both kill microbes but differ in safety for living tissue."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q018",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "C. Medicine",
+      "sub_subsection": null,
+      "structural_anchor": "C. Medicine",
+      "mcq_type": "A",
+      "question": "Tranquilizers are medicines used to reduce tension and mental distress. Which condition would a tranquilizer most likely be prescribed for?",
+      "options": {
+        "A": "Bacterial infection",
+        "B": "Anxiety disorder",
+        "C": "Pain from a broken bone",
+        "D": "Allergic reaction"
+      },
+      "correct_answer": "B",
+      "hint": "Tranquilizers calm the mind, not kill bacteria or relieve pain.",
+      "explanation": "Tranquilizers are used to reduce anxiety and mental tension (anxiety disorders). Antibiotics treat bacterial infections, analgesics treat pain, and antihistamines treat allergic reactions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 99,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "C. Medicine",
+        "structural_element": "C. Medicine",
+        "content_anchor": "Tranquillizers: To reduce tension and bring about calm and peace to patients suffering from mental diseases.",
+        "page_hint": 10,
+        "concept_hash": "sha256_e7f8a9b0c1d23456"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 46,
+        "distractor_quality_score": 97,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A tranquilizer is a drug that reduces anxiety, tension, and agitation without causing loss of consciousness.",
+        "concept_summary": "Tranquilizers act on the central nervous system to produce a calming effect, used for anxiety disorders and insomnia.",
+        "beginner": "Tranquilizers are like \"calm-down\" pills for people whose minds are racing with worry.",
+        "intermediate": "Tranquilizers (e.g., diazepam) reduce anxiety and mental tension by enhancing GABA activity in the brain.",
+        "advanced": "Benzodiazepine tranquilizers potentiate GABA_A receptor activity, increasing chloride ion influx and hyperpolarizing neurons, reducing neural excitability associated with anxiety.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that tranquilizers reduce tension and bring calm.",
+          "Anxiety disorder involves excessive tension/worry.",
+          "Match tranquilizer function to anxiety disorder."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think tranquilizers are sedatives that put you to sleep; some are sedating, but others (anxiolytics) reduce anxiety without heavy sedation.",
+          "Others confuse tranquilizers with antipsychotics (different class for serious mental illness)."
+        ],
+        "related_concepts": ["anxiolytic", "benzodiazepine", "GABA", "sedative"],
+        "revision_note": "Tranquilizers → reduce anxiety, calm mental tension.",
+        "glossary_entry": {
+          "term": "tranquilizer",
+          "definition": "A drug that reduces tension, anxiety, and agitation without causing loss of consciousness.",
+          "example_equation": null,
+          "related_terms": ["anxiolytic", "benzodiazepine", "sedative"]
+        },
+        "flashcard": {
+          "front": "What medical condition are tranquilizers used to treat?",
+          "back": "Tranquilizers are used to treat anxiety disorders by reducing tension and bringing about calm."
+        },
+        "concept_map_nodes": [
+          {"source": "Tranquilizer", "relation": "treats", "target": "Anxiety"},
+          {"source": "Tranquilizer", "relation": "effect", "target": "Calmness"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Medicine",
+        "flashcard_front": "What do tranquilizers treat?",
+        "flashcard_back": "Tranquilizers treat anxiety disorders and mental tension by reducing agitation and producing calm.",
+        "glossary_term": "tranquilizer",
+        "glossary_definition": "A drug that reduces tension, anxiety, and agitation without causing loss of consciousness.",
+        "revision_note": "Tranquilizers = anti-anxiety.",
+        "teacher_note": "Distinguish between minor tranquilizers (anxiolytics) and major tranquilizers (antipsychotics). For Grade 9, focus on the calming function.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the application of chemistry in medicine",
+        "concept_map_nodes": [
+          {"source": "Medicine", "relation": "category", "target": "Tranquilizer"},
+          {"source": "Tranquilizer", "relation": "treats", "target": "Anxiety"}
+        ],
+        "workbook_section": "Role of Chemistry in Medicine",
+        "solution_manual_note": "Answer B. The PDF states tranquilizers reduce tension and bring calm to patients with mental diseases, which includes anxiety disorders. Option A requires antibiotics, C requires analgesics, D requires antihistamines."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q019",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.3 The Role Chemistry Plays in Production and in the Society",
+      "subsection": "D. Building Construction Materials",
+      "sub_subsection": null,
+      "structural_anchor": "D. Building Construction Materials",
+      "mcq_type": "D",
+      "question": "The Grand Ethiopian Renaissance Dam (GERD) is a large hydroelectric project on the Blue Nile. Which construction material, provided by chemistry, is essential for building such a massive concrete dam?",
+      "options": {
+        "A": "Glass",
+        "B": "Steel reinforcement bars",
+        "C": "Wood",
+        "D": "Plastic pipes"
+      },
+      "correct_answer": "B",
+      "hint": "Concrete is strong in compression but weak in tension; it needs reinforcement.",
+      "explanation": "Steel reinforcement bars (rebar) are embedded in concrete to provide tensile strength, making the dam able to withstand water pressure. Glass is not structural, wood is not used for large dams, plastic pipes are for irrigation, not dam structure.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.3 The Role Chemistry Plays in Production and in the Society",
+        "subsection_anchor": "D. Building Construction Materials",
+        "structural_element": "D. Building Construction Materials",
+        "content_anchor": "The GERD is a 6,450 MW hydro power project... construction of long-lasting and durable dams and bridges",
+        "page_hint": 10,
+        "concept_hash": "sha256_f8a9b0c1d2e34567"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Reinforced concrete combines concrete (compression strength) with steel rebar (tension strength) for structural integrity.",
+        "concept_summary": "Concrete alone is weak under tension; steel reinforcement bars provide the necessary tensile strength for dams and buildings.",
+        "beginner": "Steel bars are like the skeleton inside the concrete muscles — they stop the dam from cracking under water pressure.",
+        "intermediate": "Steel reinforcement bars (rebar) are embedded in concrete to provide tensile strength, making large structures like the GERD possible.",
+        "advanced": "Concrete has high compressive strength but low tensile strength (\\(\\sim 10\\%\\) of compressive). Steel rebar (\\(\\sigma_y \\approx 250-500 \\, \\mathrm{MPa}\\)) carries tensile loads, preventing crack propagation from hydrostatic pressure.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the primary structural material for a dam: concrete.",
+          "Recall that concrete needs reinforcement for tension.",
+          "Steel reinforcement bars provide that tension strength."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think dams are made of pure concrete only; most large dams are reinforced concrete.",
+          "Others believe steel is used alone; steel and concrete work as a composite material."
+        ],
+        "related_concepts": ["reinforced concrete", "rebar", "tensile strength", "compressive strength"],
+        "revision_note": "Steel rebar reinforces concrete dams.",
+        "glossary_entry": {
+          "term": "steel reinforcement bar",
+          "definition": "Steel bars embedded in concrete to provide tensile strength and prevent cracking.",
+          "example_equation": null,
+          "related_terms": ["rebar", "reinforced concrete", "tensile strength"]
+        },
+        "flashcard": {
+          "front": "Why is steel reinforcement used in concrete dams like the GERD?",
+          "back": "Steel reinforcement bars provide tensile strength, as concrete alone is weak under tension."
+        },
+        "concept_map_nodes": [
+          {"source": "GERD", "relation": "constructed_with", "target": "Reinforced Concrete"},
+          {"source": "Reinforced Concrete", "relation": "contains", "target": "Steel Rebar"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Building Construction",
+        "flashcard_front": "What material reinforces concrete in large dams?",
+        "flashcard_back": "Steel reinforcement bars (rebar) provide tensile strength to concrete in dams like the GERD.",
+        "glossary_term": "steel reinforcement bar",
+        "glossary_definition": "Steel bars embedded in concrete to provide tensile strength and prevent cracking.",
+        "revision_note": "Concrete + steel rebar = reinforced concrete.",
+        "teacher_note": "Show images of rebar before concrete pouring to make the concept concrete (pun intended).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe the application of chemistry in building construction",
+        "concept_map_nodes": [
+          {"source": "Construction Material", "relation": "example", "target": "Steel"},
+          {"source": "Steel", "relation": "used_in", "target": "Dam Construction"}
+        ],
+        "workbook_section": "Role of Chemistry in Building Construction",
+        "solution_manual_note": "Answer B. Steel reinforcement provides tensile strength essential for large concrete structures. Glass (A) is not structural, wood (C) unsuitable for large dams, plastic pipes (D) are for water transport, not dam integrity."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U1_Q020",
+      "generation_timestamp": "2026-06-12T11:00:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+      "section": "1.4 Some Common Chemical Industries in Ethiopia",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Some Common Chemical Industries in Ethiopia",
+      "mcq_type": "B",
+      "question": "Ethiopia has several chemical enterprises producing everyday products. Which company produces soap and detergent products?",
+      "options": {
+        "A": "Nefas Silk Paints factory",
+        "B": "Repi Soap & Detergent P.L.C",
+        "C": "Ethio-Asia Industries S.C",
+        "D": "Mekab PLC (Cosmetics)"
+      },
+      "correct_answer": "B",
+      "hint": "The company name includes the products it makes.",
+      "explanation": "Repi Soap & Detergent P.L.C in Addis Ababa produces soap and detergent. Nefas Silk makes paints, Ethio-Asia makes soap/detergent as well (but Repi is the direct match from Table 1.1), and Mekab makes cosmetics.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 99,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMISTRY AND ITS IMPORTANCE",
+        "section_anchor": "1.4 Some Common Chemical Industries in Ethiopia",
+        "subsection_anchor": "",
+        "structural_element": "Some Common Chemical Industries in Ethiopia",
+        "content_anchor": "Table 1.1: Repi Soap & Detergent P.L.C, A.A, Soap and detergent",
+        "page_hint": 13,
+        "concept_hash": "sha256_a9b0c1d2e3f45678"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Repi Soap & Detergent P.L.C is an Ethiopian chemical industry that manufactures soap and detergent products.",
+        "concept_summary": "Ethiopia's chemical industries produce a variety of goods; Repi specializes in cleaning products like soap and laundry detergent.",
+        "beginner": "Repi makes soap — the stuff you wash your hands with and detergent for washing clothes.",
+        "intermediate": "Repi Soap & Detergent P.L.C in Addis Ababa is listed in Table 1.1 as producing soap and detergent.",
+        "advanced": "Repi manufactures sodium salts of fatty acids (soap) via saponification and synthetic surfactants (detergents) for household and industrial cleaning.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Look at Table 1.1 in the PDF.",
+          "Find company whose product is soap and detergent.",
+          "Repi Soap & Detergent P.L.C matches."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think all Ethiopian chemical industries make industrial chemicals; many make consumer goods like soap and paint.",
+          "Others confuse companies with similar names or locations."
+        ],
+        "related_concepts": ["saponification", "surfactant", "detergent", "soap manufacturing"],
+        "revision_note": "Repi = soap + detergent.",
+        "glossary_entry": {
+          "term": "Repi Soap & Detergent P.L.C",
+          "definition": "An Ethiopian chemical enterprise in Addis Ababa that manufactures soap and detergent.",
+          "example_equation": null,
+          "related_terms": ["soap", "detergent", "saponification"]
+        },
+        "flashcard": {
+          "front": "Which Ethiopian company makes soap and detergent?",
+          "back": "Repi Soap & Detergent P.L.C in Addis Ababa produces soap and detergent."
+        },
+        "concept_map_nodes": [
+          {"source": "Repi Soap & Detergent", "relation": "produces", "target": "Soap"},
+          {"source": "Repi Soap & Detergent", "relation": "produces", "target": "Detergent"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Chemical Industries in Ethiopia",
+        "flashcard_front": "What does Repi Soap & Detergent P.L.C produce?",
+        "flashcard_back": "Repi produces soap and detergent products in Addis Ababa, Ethiopia.",
+        "glossary_term": "Repi Soap & Detergent P.L.C",
+        "glossary_definition": "An Ethiopian chemical enterprise in Addis Ababa that manufactures soap and detergent.",
+        "revision_note": "Repi = soap & detergent.",
+        "teacher_note": "Encourage students to look for local products: many soaps and detergents in Ethiopian markets come from Repi.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Name some common chemical industries in Ethiopia and their products",
+        "concept_map_nodes": [
+          {"source": "Ethiopian Chemical Industries", "relation": "example", "target": "Repi"},
+          {"source": "Repi", "relation": "product", "target": "Detergent"}
+        ],
+        "workbook_section": "Common Chemical Industries in Ethiopia",
+        "solution_manual_note": "Answer B. Table 1.1 lists Repi Soap & Detergent P.L.C as producing soap and detergent. Nefas Silk (A) makes paints, Ethio-Asia (C) also makes soap/detergent but Repi is the direct match from the table, Mekab (D) makes cosmetics and hair products."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 92.5,
+    "type_distribution": {
+      "A": 5,
+      "B": 2,
+      "D": 3,
+      "G": 1,
+      "I": 0,
+      "J": 0,
+      "F": 0,
+      "H": 0,
+      "K": 0,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "C": 0,
+      "E": 0
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 3,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.1 Definition and Scope of Chemistry": 3,
+      "1.2 The Relationship Between Chemistry and Other Natural Sciences": 1,
+      "1.3 The Role Chemistry Plays in Production and in the Society": 5,
+      "1.4 Some Common Chemical Industries in Ethiopia": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 49
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

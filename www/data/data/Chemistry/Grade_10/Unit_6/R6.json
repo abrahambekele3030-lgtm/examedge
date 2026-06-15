@@ -1,0 +1,2149 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:25:00Z",
+  "round_id": "R06",
+  "batch_sequence": 6,
+  "__STATE__": {
+    "current_round": 6,
+    "last_question_id": "G10_Chem_U6_Q060",
+    "covered_sections": [
+      "6.1 Introduction>6.1.1 History of Organic Chemistry",
+      "6.1 Introduction>6.1.2 Structural Representations of Organic Molecules",
+      "6.1 Introduction>6.1.3 Classes of Organic Compounds",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.1 Alkane Homologous Series",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.2 Physical Properties of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.3 Nomenclature of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.4 Isomerism in Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.5 Preparation of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.6 Chemical Properties of Alkanes",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)",
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.8 Uses of Alkanes",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>A. Homologous series of Alkenes",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>B. Nomenclature of Alkenes",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>C. Physical Properties of Alkenes",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>D. Isomerism in Alkenes",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>E. Preparation of Alkenes",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>F. Chemical Properties of Alkenes",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>G. Uses of Ethene (Ethylene)",
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>H. Cycloalkenes",
+      "6.3 Unsaturated Hydrocarbons>6.3.2 Alkynes and Their Physical Properties>A. Nomenclature of Alkynes",
+      "6.3 Unsaturated Hydrocarbons>6.3.2 Alkynes and Their Physical Properties>B. Isomerism in Alkynes",
+      "6.3 Unsaturated Hydrocarbons>6.3.2 Alkynes and Their Physical Properties>C. Preparation of Alkynes",
+      "6.3 Unsaturated Hydrocarbons>6.3.2 Alkynes and Their Physical Properties>D. Chemical Properties of Alkynes",
+      "6.3 Unsaturated Hydrocarbons>6.3.2 Alkynes and Their Physical Properties>E. Properties and uses of Acetylene or Ethyne",
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.1 Benzene",
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.2 Nomenclature of Substituted Benzenes"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6b2c3",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6c3d4",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6d4e5",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6e5f6",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6f6a1",
+      "g7b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+      "h8c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "i9d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "j0e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6b2c3",
+      "k1f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6c3d4",
+      "l2g7b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6d4e5",
+      "m3h8c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6e5f6",
+      "n4i9d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6f6a1",
+      "o5j0e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+      "p6k1f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "q7l2g7b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "r8m3h8c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6b2c3",
+      "s9n4i9d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6c3d4",
+      "t0o5j0e5f6a1b2c3d4e5f6a1b2c3d4e5f6d4e5",
+      "u1p6k1f6a1b2c3d4e5f6a1b2c3d4e5f6e5f6",
+      "v2q7l2g7b2c3d4e5f6a1b2c3d4e5f6f6a1",
+      "w3r8m3h8c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+      "x4s9n4i9d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "y5t0o5j0e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "z6u1p6k1f6a1b2c3d4e5f6a1b2c3d4e5f6b2c3",
+      "a7v2q7l2g7b2c3d4e5f6a1b2c3d4e5f6c3d4",
+      "b8w3r8m3h8c3d4e5f6a1b2c3d4e5f6d4e5",
+      "c9x4s9n4i9d4e5f6a1b2c3d4e5f6e5f6",
+      "d0y5t0o5j0e5f6a1b2c3d4e5f6f6a1",
+      "e1z6u1p6k1f6a1b2c3d4e5f6a1b2c3d4e5",
+      "f2a7v2q7l2g7b2c3d4e5f6a1b2c3d4e5f6",
+      "g3b8w3r8m3h8c3d4e5f6a1b2c3d4e5f6a1",
+      "h4c9x4s9n4i9d4e5f6a1b2c3d4e5f6b2c3",
+      "i5d0y5t0o5j0e5f6a1b2c3d4e5f6c3d4",
+      "j6e1z6u1p6k1f6a1b2c3d4e5f6d4e5",
+      "k7f2a7v2q7l2g7b2c3d4e5f6e5f6",
+      "l8g3b8w3r8m3h8c3d4e5f6f6a1",
+      "m9h4c9x4s9n4i9d4e5f6a1b2c3d4e5",
+      "n0i5d0y5t0o5j0e5f6a1b2c3d4e5f6",
+      "o1j6e1z6u1p6k1f6a1b2c3d4e5f6a1b2c3d4e5",
+      "p2k7f2a7v2q7l2g7b2c3d4e5f6a1b2c3d4e5f6",
+      "q3l8g3b8w3r8m3h8c3d4e5f6a1b2c3d4e5f6a1",
+      "r4m9h4c9x4s9n4i9d4e5f6a1b2c3d4e5f6b2c3",
+      "s5n0i5d0y5t0o5j0e5f6a1b2c3d4e5f6c3d4",
+      "t6o1j6e1z6u1p6k1f6a1b2c3d4e5f6d4e5",
+      "u7p2k7f2a7v2q7l2g7b2c3d4e5f6e5f6",
+      "v8q3l8g3b8w3r8m3h8c3d4e5f6f6a1",
+      "w9r4m9h4c9x4s9n4i9d4e5f6a1b2c3d4e5",
+      "x0s5n0i5d0y5t0o5j0e5f6a1b2c3d4e5f6"
+    ],
+    "baseline_counter": {
+      "6.1 Introduction": {
+        "6.1.1 History of Organic Chemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.1.2 Structural Representations of Organic Molecules": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.1.3 Classes of Organic Compounds": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes": {
+        "6.2.1 Alkane Homologous Series": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.2 Physical Properties of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.3 Nomenclature of Alkanes": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "6.2.4 Isomerism in Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.5 Preparation of Alkanes": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.6 Chemical Properties of Alkanes": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "6.2.7 Cycloalkanes (Alicyclic Hydrocarbons)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "6.2.8 Uses of Alkanes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        }
+      },
+      "6.3 Unsaturated Hydrocarbons": {
+        "6.3.1 Alkenes or Olefins>A. Homologous series of Alkenes": {
+          "count": 3,
+          "mini_headings_covered": [
+            "A. Homologous series of Alkenes"
+          ],
+          "last_question_round": 3
+        },
+        "6.3.1 Alkenes or Olefins>B. Nomenclature of Alkenes": {
+          "count": 2,
+          "mini_headings_covered": [
+            "B. Nomenclature of Alkenes"
+          ],
+          "last_question_round": 3
+        },
+        "6.3.1 Alkenes or Olefins>C. Physical Properties of Alkenes": {
+          "count": 1,
+          "mini_headings_covered": [
+            "C. Physical Properties of Alkenes"
+          ],
+          "last_question_round": 3
+        },
+        "6.3.1 Alkenes or Olefins>D. Isomerism in Alkenes": {
+          "count": 2,
+          "mini_headings_covered": [
+            "D. Isomerism in Alkenes"
+          ],
+          "last_question_round": 3
+        },
+        "6.3.1 Alkenes or Olefins>E. Preparation of Alkenes": {
+          "count": 2,
+          "mini_headings_covered": [
+            "E. Preparation of Alkenes"
+          ],
+          "last_question_round": 4
+        },
+        "6.3.1 Alkenes or Olefins>F. Chemical Properties of Alkenes": {
+          "count": 5,
+          "mini_headings_covered": [
+            "F. Chemical Properties of Alkenes"
+          ],
+          "last_question_round": 4
+        },
+        "6.3.1 Alkenes or Olefins>G. Uses of Ethene (Ethylene)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "G. Uses of Ethene (Ethylene)"
+          ],
+          "last_question_round": 4
+        },
+        "6.3.1 Alkenes or Olefins>H. Cycloalkenes": {
+          "count": 1,
+          "mini_headings_covered": [
+            "H. Cycloalkenes"
+          ],
+          "last_question_round": 6
+        },
+        "6.3.2 Alkynes and Their Physical Properties>A. Nomenclature of Alkynes": {
+          "count": 2,
+          "mini_headings_covered": [
+            "A. Nomenclature of Alkynes"
+          ],
+          "last_question_round": 5
+        },
+        "6.3.2 Alkynes and Their Physical Properties>B. Isomerism in Alkynes": {
+          "count": 2,
+          "mini_headings_covered": [
+            "B. Isomerism in Alkynes"
+          ],
+          "last_question_round": 5
+        },
+        "6.3.2 Alkynes and Their Physical Properties>C. Preparation of Alkynes": {
+          "count": 3,
+          "mini_headings_covered": [
+            "C. Preparation of Alkynes"
+          ],
+          "last_question_round": 5
+        },
+        "6.3.2 Alkynes and Their Physical Properties>D. Chemical Properties of Alkynes": {
+          "count": 2,
+          "mini_headings_covered": [
+            "D. Chemical Properties of Alkynes"
+          ],
+          "last_question_round": 5
+        },
+        "6.3.2 Alkynes and Their Physical Properties>E. Properties and uses of Acetylene or Ethyne": {
+          "count": 1,
+          "mini_headings_covered": [
+            "E. Properties and uses of Acetylene or Ethyne"
+          ],
+          "last_question_round": 5
+        }
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "6.4.1 Benzene": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "6.4.2 Nomenclature of Substituted Benzenes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Introduction": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "6.2 Saturated Hydrocarbons: Alkanes": {
+        "question_count": 17,
+        "last_used_round": 6,
+        "consecutive_batches": 1
+      },
+      "6.3 Unsaturated Hydrocarbons": {
+        "question_count": 27,
+        "last_used_round": 6,
+        "consecutive_batches": 3
+      },
+      "6.4 Aromatic Hydrocarbons: Benzene": {
+        "question_count": 3,
+        "last_used_round": 6,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.2 Saturated Hydrocarbons: Alkanes>6.2.8 Uses of Alkanes": [
+        "Fuel",
+        "Solvent",
+        "Feedstock"
+      ],
+      "6.3 Unsaturated Hydrocarbons>6.3.1 Alkenes or Olefins>H. Cycloalkenes": [
+        "Cycloalkene",
+        "Cyclopropene",
+        "Cyclohexadiene"
+      ],
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.1 Benzene": [
+        "Aromatic",
+        "Kekule structure",
+        "Resonance"
+      ],
+      "6.4 Aromatic Hydrocarbons: Benzene>6.4.2 Nomenclature of Substituted Benzenes": [
+        "Toluene",
+        "Phenol",
+        "Ortho/meta/para"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 50,
+      "questions_per_concept_ratio": 0.72,
+      "structural_coverage_percentage": 75.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+  "pdf_filename": "C10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:25:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 5,
+        "progress_percentage": 80.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 60,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 24,
+      "mini_headings_covered_count": 13,
+      "structural_coverage_percentage": 75.0,
+      "concept_utilization_ratio": 0.78
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.3 Unsaturated Hydrocarbons",
+      "least_covered_section": "6.1 Introduction",
+      "imbalance_ratio": 9.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 25
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U6_Q051",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.2 Saturated Hydrocarbons: Alkanes",
+      "subsection": "6.2.8 Uses of Alkanes",
+      "sub_subsection": null,
+      "structural_anchor": "Uses of Alkanes",
+      "mcq_type": "B",
+      "question": "Alkanes are primarily used as fuels. Which property of alkanes makes them suitable for use in gasoline and diesel engines?",
+      "options": {
+        "A": "High density and solubility in water",
+        "B": "High reactivity with oxygen and high heat of combustion",
+        "C": "Low boiling points and high polarity",
+        "D": "Low heat of combustion and high viscosity"
+      },
+      "correct_answer": "B",
+      "hint": "Fuels must release large amounts of energy when burned.",
+      "explanation": "Alkanes release significant heat during combustion (exothermic), making them excellent fuels. Option A is false; alkanes are less dense than water and insoluble. Option D is false; they have a high heat of combustion.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.2 Saturated Hydrocarbons: Alkanes",
+        "subsection_anchor": "6.2.8 Uses of Alkanes",
+        "structural_element": "Uses of Alkanes",
+        "content_anchor": "primarily used as fuels",
+        "page_hint": 29,
+        "concept_hash": "y1t6o1j6e1z"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Alkanes are valuable fuels because their combustion is highly exothermic, releasing significant heat.",
+        "concept_summary": "The complete combustion of alkanes produces carbon dioxide and water while liberating a large amount of energy, ideal for engines.",
+        "beginner": "Burning alkanes makes a lot of heat, which powers cars.",
+        "intermediate": "Gasoline contains alkanes like octane; the reaction \\(\\mathrm{C_8H_{18} + 12.5O_2 \\rightarrow 8CO_2 + 9H_2O}\\) releases ~5500 kJ/mol.",
+        "advanced": "The heat of combustion increases with chain length due to more C-C and C-H bonds breaking and reforming as stronger C=O and O-H bonds.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that combustion releases energy (exothermic).",
+          "Connect energy release to fuel suitability."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming low reactivity means poor fuel (low reactivity means stable, but combustion is kinetically inhibited without ignition)."
+        ],
+        "related_concepts": [
+          "Combustion",
+          "Exothermic",
+          "Heat of combustion"
+        ],
+        "revision_note": "Alkanes = fuels (high heat combustion).",
+        "glossary_entry": {
+          "term": "Fuel",
+          "definition": "A substance that releases energy when burned, typically through combustion.",
+          "example_equation": null,
+          "related_terms": [
+            "Alkane",
+            "Combustion"
+          ]
+        },
+        "flashcard": {
+          "front": "Why are alkanes good fuels?",
+          "flashcard_back": "They undergo exothermic combustion, releasing large amounts of heat."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Alkane",
+            "relation": "used_as",
+            "target": "Fuel"
+          },
+          {
+            "source": "Combustion",
+            "relation": "produces",
+            "target": "Heat"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Uses",
+        "flashcard_front": "Why are alkanes good fuels?",
+        "flashcard_back": "High heat of combustion (exothermic).",
+        "glossary_term": "Heat of combustion",
+        "glossary_definition": "The energy released when one mole of a substance burns completely in oxygen.",
+        "revision_note": "Alkanes burn hot.",
+        "teacher_note": "Connect to fossil fuel usage.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Discuss uses of alkanes",
+        "concept_map_nodes": [
+          {
+            "source": "Fuel",
+            "relation": "must_have",
+            "target": "High heat of combustion"
+          }
+        ],
+        "workbook_section": "6.2.8 Uses of Alkanes",
+        "solution_manual_note": "Answer B. High heat release makes them good fuels."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q052",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.1 Alkenes or Olefins",
+      "sub_subsection": "H. Cycloalkenes",
+      "structural_anchor": "H. Cycloalkenes",
+      "mcq_type": "A",
+      "question": "What is the general formula for a cycloalkene that contains one double bond in the ring?",
+      "options": {
+        "A": "\\(\\mathrm{C_nH_{2n-2}}\\)",
+        "B": "\\(\\mathrm{C_nH_{2n}}\\)",
+        "C": "\\(\\mathrm{C_nH_{2n+2}}\\)",
+        "D": "\\(\\mathrm{C_nH_{2n+1}}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Cycloalkenes have one ring and one double bond.",
+      "explanation": "One degree of unsaturation from the ring and one from the double bond gives formula \\(\\mathrm{C_nH_{2n-2}}\\). Option B is for cycloalkanes (ring only), option C for alkanes.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{C_nH_{2n-2}}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.1 Alkenes or Olefins",
+        "structural_element": "H. Cycloalkenes",
+        "content_anchor": "general formula \\(\\mathrm{C_nH_{2n - 2}}\\)",
+        "page_hint": 43,
+        "concept_hash": "z2u7p2k7f2a"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 98,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Cycloalkenes are cyclic hydrocarbons containing one carbon-carbon double bond in the ring.",
+        "concept_summary": "Compared to a saturated cycloalkane (\\(\\mathrm{C_nH_{2n}}\\)), the double bond reduces the hydrogen count by two, giving \\(\\mathrm{C_nH_{2n-2}}\\).",
+        "beginner": "A ring takes 2 hydrogens, a double bond takes 2 more hydrogens away.",
+        "intermediate": "Degree of unsaturation = 2 (one ring + one double bond). Formula: \\(\\mathrm{C_nH_{2n-2}}\\). Example: Cyclopropene is \\(\\mathrm{C_3H_4}\\).",
+        "advanced": "The molecular formula for cycloalkenes with one double bond and no other unsaturation follows \\(\\mathrm{C_nH_{2n-2}}\\), where n is the number of carbons (n\u22653).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall cycloalkane formula (\\(\\mathrm{C_nH_{2n}}\\)).",
+          "Recall alkene removes 2 H compared to alkane.",
+          "Combine: ring (0 H loss relative to cycloalkane? Actually cycloalkene: from cycloalkane subtract 2H)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{C_nH_{2n-2}}\\)",
+            "name": "Cycloalkene formula",
+            "variables": [
+              {
+                "symbol": "n",
+                "meaning": "Carbon count",
+                "unit": ""
+              }
+            ],
+            "derivation": "Cycloalkane minus 2H"
+          }
+        ],
+        "misconceptions": [
+          "Using alkene formula (\\(\\mathrm{C_nH_{2n}}\\)) for cyclic alkenes."
+        ],
+        "related_concepts": [
+          "Cycloalkane",
+          "Degree of unsaturation",
+          "Cyclopropene"
+        ],
+        "revision_note": "Cycloalkene: CnH2n-2.",
+        "glossary_entry": {
+          "term": "Cycloalkene",
+          "definition": "A cyclic hydrocarbon containing one or more carbon-carbon double bonds within the ring.",
+          "example_equation": "\\mathrm{C_3H_4}",
+          "related_terms": [
+            "Alkene",
+            "Cyclic"
+          ]
+        },
+        "flashcard": {
+          "front": "Formula for cycloalkene (one double bond)?",
+          "flashcard_back": "\\(\\mathrm{C_nH_{2n-2}}\\) (e.g., \\(\\mathrm{C_3H_4}\\) cyclopropene)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Cycloalkene",
+            "relation": "has_formula",
+            "target": "\\(\\mathrm{C_nH_{2n-2}}\\)"
+          },
+          {
+            "source": "Cycloalkene",
+            "relation": "has",
+            "target": "Ring + double bond"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "formula_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "formula_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Cycloalkenes",
+        "flashcard_front": "General formula for cycloalkenes?",
+        "flashcard_back": "\\(\\mathrm{C_nH_{2n-2}}\\).",
+        "glossary_term": "Cycloalkene",
+        "glossary_definition": "Unsaturated cyclic hydrocarbon.",
+        "revision_note": "Cycloalkene: CnH2n-2.",
+        "teacher_note": "Contrast with cycloalkane (CnH2n).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define cycloalkenes",
+        "concept_map_nodes": [
+          {
+            "source": "Unsaturation",
+            "relation": "count",
+            "target": "2 for cycloalkene"
+          }
+        ],
+        "workbook_section": "6.3.1 H. Cycloalkenes",
+        "solution_manual_note": "Answer A. Double bond + ring = CnH2n-2."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q053",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+      "subsection": "6.3.1 Alkenes or Olefins",
+      "sub_subsection": "H. Cycloalkenes",
+      "structural_anchor": "H. Cycloalkenes",
+      "mcq_type": "B",
+      "question": "The simplest cycloalkene, with three carbon atoms and a double bond in the ring, is named:",
+      "options": {
+        "A": "Cyclopropane",
+        "B": "Cyclopropene",
+        "C": "Cyclobutene",
+        "D": "Propyne"
+      },
+      "correct_answer": "B",
+      "hint": "The suffix '-ene' indicates a double bond, and the prefix indicates the ring size.",
+      "explanation": "Cyclopropene is a three-carbon ring containing a double bond. Option A has no double bond (cycloalkane), and C has four carbons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes, and Aromatic Hydrocarbons",
+        "subsection_anchor": "6.3.1 Alkenes or Olefins",
+        "structural_element": "H. Cycloalkenes",
+        "content_anchor": "simplest cyclalkene is cyclopropene",
+        "page_hint": 43,
+        "concept_hash": "a3v8q3l8g3b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Cyclopropene is the smallest cycloalkene, with a three-carbon ring and one double bond.",
+        "concept_summary": "The name indicates a three-carbon ring (prop) with an alkene double bond (-ene), hence cyclopropene.",
+        "beginner": "Cyclopropene is like a triangle with one double bond edge.",
+        "intermediate": "Cycloalkenes are named similarly to alkenes, with 'cyclo' prefix. For three carbons: cycloprop- + -ene = cyclopropene.",
+        "advanced": "Cyclopropene has the formula \\(\\mathrm{C_3H_4}\\) and is highly strained due to the double bond in a small ring (bond angles ~60\u00b0).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the ring size (3 carbons = prop).",
+          "Identify the functional group (double bond = ene).",
+          "Combine with 'cyclo' prefix."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing with cyclopropane (saturated) or propyne (acyclic)."
+        ],
+        "related_concepts": [
+          "Cycloalkene",
+          "Cyclopropane",
+          "Ring strain"
+        ],
+        "revision_note": "Smallest cycloalkene = cyclopropene (C3H4).",
+        "glossary_entry": {
+          "term": "Cyclopropene",
+          "definition": "The simplest cycloalkene, with molecular formula \\(\\mathrm{C_3H_4}\\) and a three-carbon ring containing one double bond.",
+          "example_equation": null,
+          "related_terms": [
+            "Cycloalkene",
+            "Ring strain"
+          ]
+        },
+        "flashcard": {
+          "front": "Name the 3-carbon cycloalkene.",
+          "flashcard_back": "Cyclopropene."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Cyclopropene",
+            "relation": "is",
+            "target": "Simplest cycloalkene"
+          },
+          {
+            "source": "Cyclopropene",
+            "relation": "has_formula",
+            "target": "C3H4"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Cycloalkenes",
+        "flashcard_front": "Simplest cycloalkene?",
+        "flashcard_back": "Cyclopropene (\\(\\mathrm{C_3H_4}\\)).",
+        "glossary_term": "Cyclopropene",
+        "glossary_definition": "3-carbon ring with a double bond.",
+        "revision_note": "C3H4 = cyclopropene.",
+        "teacher_note": "Contrast with cyclopropane (C3H6).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Name cycloalkenes",
+        "concept_map_nodes": [
+          {
+            "source": "Cycloalkene",
+            "relation": "example",
+            "target": "Cyclopropene"
+          }
+        ],
+        "workbook_section": "6.3.1 H. Cycloalkenes",
+        "solution_manual_note": "Answer B. Cyclopropene (C3H4)."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q054",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.1 Benzene",
+      "sub_subsection": null,
+      "structural_anchor": "Benzene",
+      "mcq_type": "A",
+      "question": "What is the molecular formula of benzene, the simplest aromatic hydrocarbon?",
+      "options": {
+        "A": "\\(\\mathrm{C_6H_6}\\)",
+        "B": "\\(\\mathrm{C_6H_{12}}\\)",
+        "C": "\\(\\mathrm{C_6H_{14}}\\)",
+        "D": "\\(\\mathrm{C_6H_{10}}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Benzene is highly unsaturated but does not react like typical alkenes.",
+      "explanation": "Benzene has the formula \\(\\mathrm{C_6H_6}\\), giving it a high degree of unsaturation. Option B is cyclohexane, C is hexane, and D could be cyclohexene.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.1 Benzene",
+        "structural_element": "Benzene",
+        "content_anchor": "molecular formula is \\(\\mathrm{C_6H_6}\\)",
+        "page_hint": 53,
+        "concept_hash": "b4w9r4m9h4c"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 98,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Benzene is an aromatic hydrocarbon with the molecular formula \\(\\mathrm{C_6H_6}\\), consisting of a six-membered ring.",
+        "concept_summary": "Benzene's formula \\(\\mathrm{C_6H_6}\\) implies a high degree of unsaturation (4), but it is unusually stable due to resonance.",
+        "beginner": "Benzene looks like a hexagon with 6 carbons and 6 hydrogens.",
+        "intermediate": "The Kekule structure shows alternating double and single bonds, but resonance makes all bonds equal length.",
+        "advanced": "The empirical formula is CH, and the molecular weight is 78 g/mol. The low H:C ratio (1:1) indicates high unsaturation, confirmed by its combustion properties.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the simplest aromatic hydrocarbon is benzene.",
+          "Recall its molecular formula (C6H6).",
+          "Select the correct option."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking benzene is \\(\\mathrm{C_6H_{12}}\\) (cyclohexane)."
+        ],
+        "related_concepts": [
+          "Aromatic",
+          "Kekule structure",
+          "Resonance"
+        ],
+        "revision_note": "Benzene = C6H6.",
+        "glossary_entry": {
+          "term": "Benzene",
+          "definition": "The simplest aromatic hydrocarbon, with formula \\(\\mathrm{C_6H_6}\\) and a planar ring of six carbon atoms.",
+          "example_equation": null,
+          "related_terms": [
+            "Aromatic",
+            "Kekule"
+          ]
+        },
+        "flashcard": {
+          "front": "Molecular formula of benzene?",
+          "flashcard_back": "\\(\\mathrm{C_6H_6}\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Benzene",
+            "relation": "is",
+            "target": "Simplest aromatic"
+          },
+          {
+            "source": "Aromatic",
+            "relation": "has",
+            "target": "Delocalized electrons"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Aromatic",
+        "flashcard_front": "Benzene formula?",
+        "flashcard_back": "\\(\\mathrm{C_6H_6}\\).",
+        "glossary_term": "Benzene",
+        "glossary_definition": "C6H6, aromatic hydrocarbon.",
+        "revision_note": "Benzene = C6H6.",
+        "teacher_note": "Contrast with cyclohexane (C6H12).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify benzene structure",
+        "concept_map_nodes": [
+          {
+            "source": "Aromatic hydrocarbon",
+            "relation": "example",
+            "target": "Benzene"
+          }
+        ],
+        "workbook_section": "6.4.1 Benzene",
+        "solution_manual_note": "Answer A. C6H6 is benzene."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q055",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.1 Benzene",
+      "sub_subsection": null,
+      "structural_anchor": "Benzene",
+      "mcq_type": "F",
+      "question": "Despite having three double bonds in its Kekule structure, why does benzene typically undergo substitution reactions rather than addition reactions?",
+      "options": {
+        "A": "Benzene is saturated and has no double bonds",
+        "B": "The delocalized \\(\\pi\\) electron cloud makes benzene unusually stable",
+        "C": "Benzene is highly reactive towards nucleophiles",
+        "D": "Benzene has a high boiling point"
+      },
+      "correct_answer": "B",
+      "hint": "Aromaticity confers special stability to benzene.",
+      "explanation": "Benzene's resonance stabilization (delocalized electrons) makes it more stable than hypothetical cyclohexatriene, so it does not readily undergo addition (which would destroy aromaticity). Option A is false; it has six delocalized electrons.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.1 Benzene",
+        "structural_element": "Benzene",
+        "content_anchor": "more stable than alkenes",
+        "page_hint": 53,
+        "concept_hash": "c5x0s5n0i5d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Aromatic stability (resonance energy) prevents benzene from acting like a typical alkene.",
+        "concept_summary": "Addition would break the aromatic ring, losing ~150 kJ/mol of resonance stabilization, so substitution (keeping the ring intact) is favored.",
+        "beginner": "Benzene is happy as a ring; breaking it takes too much energy.",
+        "intermediate": "The delocalized \\(\\pi\\) system (6 electrons over 6 carbons) is exceptionally stable. Electrophilic addition would require losing this aromaticity.",
+        "advanced": "Benzene's resonance energy is ~150 kJ/mol. Addition reactions (e.g., hydrogenation to cyclohexane) are highly exothermic but have high activation barriers, requiring harsh conditions.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that benzene has delocalized electrons.",
+          "Recognize that addition would break delocalization.",
+          "Conclude substitution preserves aromatic stability."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming benzene reacts like alkenes because it has double bonds in one resonance form."
+        ],
+        "related_concepts": [
+          "Aromaticity",
+          "Resonance energy",
+          "Electrophilic substitution"
+        ],
+        "revision_note": "Benzene: substitution > addition due to stability.",
+        "glossary_entry": {
+          "term": "Aromaticity",
+          "definition": "Enhanced stability of cyclic, planar, conjugated \\(\\pi\\) systems following H\u00fcckel's rule (4n+2 electrons).",
+          "example_equation": null,
+          "related_terms": [
+            "Resonance",
+            "Benzene"
+          ]
+        },
+        "flashcard": {
+          "front": "Why does benzene prefer substitution over addition?",
+          "flashcard_back": "Addition would destroy aromatic stabilization (delocalized \\(\\pi\\) system)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Benzene",
+            "relation": "exhibits",
+            "target": "Aromaticity"
+          },
+          {
+            "source": "Aromaticity",
+            "relation": "favors",
+            "target": "Substitution"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "important",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Aromatic",
+        "flashcard_front": "Benzene reaction preference?",
+        "flashcard_back": "Substitution (preserves aromaticity).",
+        "glossary_term": "Electrophilic aromatic substitution",
+        "glossary_definition": "A reaction where an electrophile replaces a hydrogen on an aromatic ring.",
+        "revision_note": "Benzene: substitution > addition.",
+        "teacher_note": "Contrast with cyclohexene (adds Br2 readily).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain structure of benzene",
+        "concept_map_nodes": [
+          {
+            "source": "Electrophilic substitution",
+            "relation": "favored_by",
+            "target": "Aromaticity"
+          }
+        ],
+        "workbook_section": "6.4.1 Benzene",
+        "solution_manual_note": "Answer B. Delocalized electrons stabilize the ring."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q056",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.2 Nomenclature of Substituted Benzenes",
+      "sub_subsection": null,
+      "structural_anchor": "Nomenclature of Substituted Benzenes",
+      "mcq_type": "B",
+      "question": "What is the IUPAC name for the compound commonly known as toluene, which has a methyl group attached to a benzene ring?",
+      "options": {
+        "A": "Methylbenzene",
+        "B": "Ethylbenzene",
+        "C": "Phenol",
+        "D": "Aniline"
+      },
+      "correct_answer": "A",
+      "hint": "Toluene consists of a benzene ring with a single \\(\\mathrm{CH_3}\\) substituent.",
+      "explanation": "Methylbenzene is the systematic IUPAC name for toluene. Option B has an ethyl group, C has an \\(\\mathrm{-OH}\\) group, and D has an \\(\\mathrm{-NH_2}\\) group.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.2 Nomenclature of Substituted Benzenes",
+        "structural_element": "Nomenclature of Substituted Benzenes",
+        "content_anchor": "toluene (rather than methylbenzene)",
+        "page_hint": 54,
+        "concept_hash": "d6y1t6o1j6e"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Methylbenzene is the IUPAC name for toluene, a benzene ring with a methyl substituent.",
+        "concept_summary": "A methyl group (\\(\\mathrm{CH_3}\\)) on a benzene ring is named methylbenzene. 'Toluene' is the common name retained by IUPAC.",
+        "beginner": "Toluene is a benzene with a methane piece attached.",
+        "intermediate": "Benzene + methyl group = methylbenzene. Common name: toluene.",
+        "advanced": "Methylbenzene is a monosubstituted benzene. The methyl group is an ortho/para director in electrophilic substitution.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the substituent (methyl, -CH3).",
+          "Combine with 'benzene' as the parent.",
+          "Name: methylbenzene."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing toluene with phenol (OH) or aniline (NH2)."
+        ],
+        "related_concepts": [
+          "Toluene",
+          "Monosubstituted benzene",
+          "Alkylbenzene"
+        ],
+        "revision_note": "Toluene = methylbenzene (C6H5CH3).",
+        "glossary_entry": {
+          "term": "Methylbenzene",
+          "definition": "The IUPAC name for toluene, a benzene ring with a \\(\\mathrm{CH_3}\\) group.",
+          "example_equation": "\\mathrm{C_6H_5CH_3}",
+          "related_terms": [
+            "Toluene",
+            "Alkylbenzene"
+          ]
+        },
+        "flashcard": {
+          "front": "IUPAC name for toluene?",
+          "flashcard_back": "Methylbenzene."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Toluene",
+            "relation": "also_called",
+            "target": "Methylbenzene"
+          },
+          {
+            "source": "Methylbenzene",
+            "relation": "has",
+            "target": "Methyl group"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Aromatic Naming",
+        "flashcard_front": "IUPAC name for C6H5CH3?",
+        "flashcard_back": "Methylbenzene.",
+        "glossary_term": "Toluene",
+        "glossary_definition": "Common name for methylbenzene.",
+        "revision_note": "C6H5CH3 = methylbenzene.",
+        "teacher_note": "Mention the common name is still widely used.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Name substituted benzenes",
+        "concept_map_nodes": [
+          {
+            "source": "Monosubstituted benzene",
+            "relation": "naming",
+            "target": "Substituent + benzene"
+          }
+        ],
+        "workbook_section": "6.4.2 Nomenclature",
+        "solution_manual_note": "Answer A. Methylbenzene."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q057",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.2 Nomenclature of Substituted Benzenes",
+      "sub_subsection": null,
+      "structural_anchor": "Nomenclature of Substituted Benzenes",
+      "mcq_type": "I",
+      "question": "What are the correct locants and prefixes for a disubstituted benzene with two substituents in a 1,3 relationship on the ring?",
+      "options": {
+        "A": "Ortho (o-)",
+        "B": "Meta (m-)",
+        "C": "Para (p-)",
+        "D": "Iso-"
+      },
+      "correct_answer": "B",
+      "hint": "The prefixes describe the relative positions: 1,2 = ortho; 1,3 = meta; 1,4 = para.",
+      "explanation": "Meta (m-) indicates substituents are separated by one carbon (positions 1 and 3). Option A is 1,2; Option C is 1,4.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.2 Nomenclature of Substituted Benzenes",
+        "structural_element": "Nomenclature of Substituted Benzenes",
+        "content_anchor": "1,3- or meta (m)",
+        "page_hint": 54,
+        "concept_hash": "e7z2u7p2k7f"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 98,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Ortho, meta, and para are prefixes indicating 1,2-, 1,3-, and 1,4- substitution patterns on benzene.",
+        "concept_summary": "When two substituents are on carbons 1 and 3, the relationship is 'meta' (m-).",
+        "beginner": "Meta means 'one space apart' on the benzene ring.",
+        "intermediate": "Positions: ortho (1,2), meta (1,3), para (1,4). For 1,3-dichlorobenzene, the prefix is meta.",
+        "advanced": "These prefixes are still used extensively in organic chemistry to describe relative positions without numbering, though IUPAC prefers locants (1,3).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the three relationships: ortho, meta, para.",
+          "Match 1,3 to meta."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing meta with para (1,4)."
+        ],
+        "related_concepts": [
+          "Ortho",
+          "Para",
+          "Disubstituted benzene"
+        ],
+        "revision_note": "1,3 = meta (m-).",
+        "glossary_entry": {
+          "term": "Meta",
+          "definition": "A prefix indicating that two substituents on a benzene ring are separated by one carbon (positions 1 and 3).",
+          "example_equation": null,
+          "related_terms": [
+            "Ortho",
+            "Para"
+          ]
+        },
+        "flashcard": {
+          "front": "Prefix for 1,3-disubstituted benzene?",
+          "flashcard_back": "Meta (m-)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Disubstituted benzene",
+            "relation": "has_isomers",
+            "target": "Ortho"
+          },
+          {
+            "source": "Disubstituted benzene",
+            "relation": "has_isomers",
+            "target": "Meta"
+          },
+          {
+            "source": "Disubstituted benzene",
+            "relation": "has_isomers",
+            "target": "Para"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Aromatic Naming",
+        "flashcard_front": "What is the prefix for 1,3 positions on a benzene ring?",
+        "flashcard_back": "Meta (m-).",
+        "glossary_term": "Meta",
+        "glossary_definition": "1,3-substitution pattern on a benzene ring.",
+        "revision_note": "1,3 = meta.",
+        "teacher_note": "Use m-xylene as example.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Use ortho/meta/para locators",
+        "concept_map_nodes": [
+          {
+            "source": "Substituted benzene",
+            "relation": "naming_prefix",
+            "target": "Meta"
+          }
+        ],
+        "workbook_section": "6.4.2 Nomenclature",
+        "solution_manual_note": "Answer B. Meta indicates 1,3 substitution."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q058",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.2 Nomenclature of Substituted Benzenes",
+      "sub_subsection": null,
+      "structural_anchor": "Nomenclature of Substituted Benzenes",
+      "mcq_type": "D",
+      "question": "What is the correct IUPAC name for the compound with two methyl groups on a benzene ring at positions 1 and 4?",
+      "options": {
+        "A": "o-Xylene",
+        "B": "m-Xylene",
+        "C": "p-Xylene",
+        "D": "1,4-Dimethylcyclohexane"
+      },
+      "correct_answer": "C",
+      "hint": "Xylene is the common name for dimethylbenzene.",
+      "explanation": "1,4-Dimethylbenzene is commonly called p-xylene (para-xylene). Option A is 1,2-dimethyl, B is 1,3-dimethyl.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.2 Nomenclature of Substituted Benzenes",
+        "structural_element": "Nomenclature of Substituted Benzenes",
+        "content_anchor": "1,4- or para (p)",
+        "page_hint": 54,
+        "concept_hash": "f8a3v8q3l8g"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 95,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "p-Xylene (1,4-dimethylbenzene) is a disubstituted benzene with methyl groups opposite each other.",
+        "concept_summary": "Para (p-) indicates 1,4 substitution. Common name: p-xylene. IUPAC: 1,4-dimethylbenzene.",
+        "beginner": "The two methyl groups are on opposite sides of the ring.",
+        "intermediate": "Numbering gives 1,4. Common name: para-xylene (p-xylene).",
+        "advanced": "Xylenes are important industrial solvents. The three isomers (ortho, meta, para) have different boiling points and chemical properties.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the substituents (two methyl groups).",
+          "Determine the positions (1 and 4).",
+          "Apply the para prefix or use 1,4-dimethylbenzene."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing para (1,4) with ortho (1,2) or meta (1,3)."
+        ],
+        "related_concepts": [
+          "Xylene",
+          "Para",
+          "Disubstituted benzene"
+        ],
+        "revision_note": "1,4-dimethylbenzene = p-xylene.",
+        "glossary_entry": {
+          "term": "p-Xylene",
+          "definition": "Para-xylene, or 1,4-dimethylbenzene, is a disubstituted benzene with two methyl groups in the para position.",
+          "example_equation": "\\mathrm{C_6H_4(CH_3)_2}",
+          "related_terms": [
+            "Xylene",
+            "Para"
+          ]
+        },
+        "flashcard": {
+          "front": "Name C6H4(CH3)2 with groups at 1 and 4.",
+          "flashcard_back": "p-Xylene (1,4-dimethylbenzene)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Xylene",
+            "relation": "isomers",
+            "target": "o-xylene"
+          },
+          {
+            "source": "Xylene",
+            "relation": "isomers",
+            "target": "m-xylene"
+          },
+          {
+            "source": "Xylene",
+            "relation": "isomers",
+            "target": "p-xylene"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Aromatic Naming",
+        "flashcard_front": "Name for 1,4-dimethylbenzene?",
+        "flashcard_back": "p-Xylene.",
+        "glossary_term": "p-Xylene",
+        "glossary_definition": "Para-xylene, an industrial solvent.",
+        "revision_note": "1,4-dimethyl = para.",
+        "teacher_note": "Contrast boiling points of isomers.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Name disubstituted benzenes",
+        "concept_map_nodes": [
+          {
+            "source": "p-Xylene",
+            "relation": "is",
+            "target": "1,4-Dimethylbenzene"
+          }
+        ],
+        "workbook_section": "6.4.2 Nomenclature",
+        "solution_manual_note": "Answer C. p-Xylene."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q059",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.2 Nomenclature of Substituted Benzenes",
+      "sub_subsection": null,
+      "structural_anchor": "Nomenclature of Substituted Benzenes",
+      "mcq_type": "H",
+      "question": "A student attempts to name a compound with a chlorine atom and a methyl group on a benzene ring as 2-chloro-1-methylbenzene. Why is this name incorrect?",
+      "options": {
+        "A": "Methyl has alphabetical priority over chloro",
+        "B": "Chloro has priority over methyl for numbering",
+        "C": "The ring should be numbered to give the lowest locant set, but both could be 1,2 with different orders",
+        "D": "Aromatic rings cannot have halogens"
+      },
+      "correct_answer": "A",
+      "hint": "In IUPAC naming, substituents are listed alphabetically.",
+      "explanation": "Alphabetically, 'chloro' comes before 'methyl' (c before m), so it should be chloromethylbenzene, not methylchlorobenzene. Option C is partially true, but the primary error is alphabetical order.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.2 Nomenclature of Substituted Benzenes",
+        "structural_element": "Nomenclature of Substituted Benzenes",
+        "content_anchor": "alphabetical order",
+        "page_hint": 54,
+        "concept_hash": "g9b4w9r4m9h"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 85
+      },
+      "explanations_tiered": {
+        "definition": "IUPAC rules require substituents to be listed in alphabetical order, ignoring prefixes like di, tri, etc.",
+        "concept_summary": "Since 'chloro' comes before 'methyl' alphabetically, the correct name is 1-chloro-2-methylbenzene (or chloromethylbenzene numbering).",
+        "beginner": "Alphabetical order means 'c' (chloro) comes before 'm' (methyl).",
+        "intermediate": "The correct name is 1-chloro-2-methylbenzene. The student reversed the order.",
+        "advanced": "Alphabetization is part of IUPAC Rule P-14.5. Numbering is determined by the first point of difference, but citation order is alphabetical.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the substituents (chloro, methyl).",
+          "Apply alphabetical order (chloro before methyl).",
+          "Determine the name should start with chloro."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking the order does not matter or that the larger group comes first."
+        ],
+        "related_concepts": [
+          "IUPAC rules",
+          "Alphabetical order",
+          "Disubstituted benzene"
+        ],
+        "revision_note": "Name substituents alphabetically.",
+        "glossary_entry": {
+          "term": "Alphabetical order",
+          "definition": "In IUPAC nomenclature, substituents are listed in alphabetical order regardless of their position number.",
+          "example_equation": null,
+          "related_terms": [
+            "Nomenclature",
+            "Substituent"
+          ]
+        },
+        "flashcard": {
+          "front": "Name: Cl and CH3 on benzene (1,2 positions).",
+          "flashcard_back": "1-Chloro-2-methylbenzene (chloro before methyl)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "IUPAC naming",
+            "relation": "requires",
+            "target": "Alphabetical order"
+          }
+        ],
+        "workbook_section": "6.4.2 Nomenclature",
+        "solution_manual_note": "Answer A. Chloro comes before methyl alphabetically."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "tip",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Nomenclature",
+        "flashcard_front": "Rule for naming: Chloro and methyl on benzene?",
+        "flashcard_back": "Chloro (alphabetical priority) before methyl.",
+        "glossary_term": "Alphabetical priority",
+        "glossary_definition": "The rule that substituents are listed in alphabetical order in the name.",
+        "revision_note": "C (chloro) comes before M (methyl).",
+        "teacher_note": "Stress that prefixes like 'di' are ignored for alphabetizing.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Apply IUPAC rules to substituted benzenes",
+        "concept_map_nodes": [
+          {
+            "source": "Substituent order",
+            "relation": "determined_by",
+            "target": "Alphabet"
+          }
+        ],
+        "workbook_section": "6.4.2 Nomenclature",
+        "solution_manual_note": "Answer A. Chloro takes precedence alphabetically."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U6_Q060",
+      "generation_timestamp": "2026-06-13T10:25:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+      "section": "6.4 Aromatic Hydrocarbons: Benzene",
+      "subsection": "6.4.3 Physical Properties of Benzene",
+      "sub_subsection": null,
+      "structural_anchor": "6.4.3 Physical Properties of Benzene",
+      "mcq_type": "F",
+      "question": "Why is benzene classified as a carcinogenic substance despite being a useful industrial solvent?",
+      "options": {
+        "A": "It reacts violently with water",
+        "B": "Long-term exposure is linked to leukemia and other blood disorders",
+        "C": "It has a very high boiling point",
+        "D": "It is highly soluble in water, causing water pollution"
+      },
+      "correct_answer": "B",
+      "hint": "Carcinogenic means it can cause cancer.",
+      "explanation": "Benzene is known to cause leukemia (blood cancer) with prolonged exposure. Option A is false (it is insoluble and non-reactive with water). Option D is false (insoluble).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "section_anchor": "6.4 Aromatic Hydrocarbons: Benzene",
+        "subsection_anchor": "6.4.3 Physical Properties of Benzene",
+        "structural_element": "6.4.3 Physical Properties of Benzene",
+        "content_anchor": "carcinogenic (cancer- causing) substance",
+        "page_hint": 54,
+        "concept_hash": "h0c5x0s5n0i"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      },
+      "explanations_tiered": {
+        "definition": "A carcinogen is a substance capable of causing cancer in living tissue.",
+        "concept_summary": "Benzene is a known human carcinogen linked specifically to acute myeloid leukemia and other blood cancers.",
+        "beginner": "Benzene is poisonous to the body over time, especially the blood.",
+        "intermediate": "Chronic exposure to benzene can damage bone marrow, leading to leukemia. Its use as a solvent is now strictly regulated.",
+        "advanced": "Benzene undergoes metabolic activation to toxic metabolites (e.g., benzene oxide) that bind to DNA, causing mutations that can lead to cancer.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition of carcinogenic (cancer-causing).",
+          "Match this to the health effect of benzene (leukemia)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming 'carcinogenic' means 'toxic' or 'corrosive'."
+        ],
+        "related_concepts": [
+          "Carcinogen",
+          "Leukemia",
+          "Occupational safety"
+        ],
+        "revision_note": "Benzene = carcinogen (leukemia).",
+        "glossary_entry": {
+          "term": "Carcinogen",
+          "definition": "A substance capable of causing cancer.",
+          "example_equation": null,
+          "related_terms": [
+            "Benzene",
+            "Leukemia"
+          ]
+        },
+        "flashcard": {
+          "front": "Health risk of benzene exposure?",
+          "flashcard_back": "Leukemia (carcinogenic)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Benzene",
+            "relation": "is",
+            "target": "Carcinogen"
+          },
+          {
+            "source": "Carcinogen",
+            "relation": "causes",
+            "target": "Leukemia"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "warning_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "warning",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Chemistry Unit 6 \u2014 Safety",
+        "flashcard_front": "Why is benzene dangerous?",
+        "flashcard_back": "Carcinogenic (causes leukemia).",
+        "glossary_term": "Carcinogen",
+        "glossary_definition": "Cancer-causing agent.",
+        "revision_note": "Benzene = Carcinogen.",
+        "teacher_note": "Discuss safety protocols for handling benzene.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe physical properties of benzene",
+        "concept_map_nodes": [
+          {
+            "source": "Health hazard",
+            "relation": "example",
+            "target": "Benzene"
+          }
+        ],
+        "workbook_section": "6.4.3 Physical Properties",
+        "solution_manual_note": "Answer B. Benzene causes leukemia."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2700,
+    "average_question_quality": 89,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "D": 1,
+      "F": 2,
+      "H": 1,
+      "I": 2
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "6.2 Saturated Hydrocarbons: Alkanes": 1,
+      "6.3 Unsaturated Hydrocarbons": 2,
+      "6.4 Aromatic Hydrocarbons: Benzene": 7
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

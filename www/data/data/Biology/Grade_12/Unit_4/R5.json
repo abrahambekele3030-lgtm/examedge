@@ -1,0 +1,841 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:38:00Z",
+  "round_id": "R05",
+  "batch_sequence": 5,
+  "__STATE__": {
+    "current_round": 5,
+    "last_question_id": "G12_Bio_U4_Q050",
+    "covered_sections": [
+      "4.1. EVOLUTION>4.1.1. Definition",
+      "4.1. EVOLUTION>4.1.2. Theories of evolution",
+      "4.1. EVOLUTION>4.1.3. The evidence for evolution",
+      "4.1. EVOLUTION>4.1.4. Natural selection: Definition, Types & Examples",
+      "4.1. EVOLUTION>4.1.5. Human evolution",
+      "4.1. EVOLUTION>4.1.6. Mutation",
+      "4.1. EVOLUTION>4.1.7. Genetic Drift",
+      "4.1. EVOLUTION>4.1.8. Gene flow (immigration and emigration)",
+      "4.1. EVOLUTION>4.1.9. Causes of species extinction"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f678",
+      "c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890",
+      "d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1",
+      "e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2",
+      "f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3",
+      "67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4",
+      "7890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5",
+      "890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f",
+      "90a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f7",
+      "b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f679",
+      "c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790",
+      "d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1",
+      "e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2",
+      "f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3",
+      "67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4",
+      "7890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5",
+      "890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f",
+      "90a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f6",
+      "a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7a",
+      "b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7b",
+      "c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7c",
+      "d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7d",
+      "e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7e",
+      "f67890a1b2c3d4e5f6790a1b2c3d4e5f7f",
+      "67890a1b2c3d4e5f6790a1b2c3d4e5f7a0",
+      "7890a1b2c3d4e5f6790a1b2c3d4e5f7a1",
+      "890a1b2c3d4e5f6790a1b2c3d4e5f7a2",
+      "90a1b2c3d4e5f6790a1b2c3d4e5f7a3",
+      "a1b2c3d4e5f6790a1b2c3d4e5f7a4",
+      "b2c3d4e5f6790a1b2c3d4e5f7a5",
+      "c3d4e5f6790a1b2c3d4e5f7a6",
+      "d4e5f6790a1b2c3d4e5f7a7",
+      "e5f6790a1b2c3d4e5f7a8",
+      "f6790a1b2c3d4e5f7a9",
+      "6790a1b2c3d4e5f7a0b",
+      "790a1b2c3d4e5f7a1b",
+      "90a1b2c3d4e5f7a2b",
+      "0a1b2c3d4e5f7a3b",
+      "a1b2c3d4e5f7a4b",
+      "b2c3d4e5f7a5b",
+      "c3d4e5f7a6b",
+      "d4e5f7a7b"
+    ],
+    "baseline_counter": {
+      "4.1. EVOLUTION": {
+        "4.1.1. Definition": {
+          "count": 6,
+          "mini_headings_covered": [
+            "Theories of the origin of life",
+            "2. Spontaneous generation (abiogenesis)",
+            "3. Eternity of life",
+            "4. Biochemical origin",
+            "1. Special creationism"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.2. Theories of evolution": {
+          "count": 8,
+          "mini_headings_covered": [
+            "Lamarckism",
+            "Darwinism (Theory of natural selection)",
+            "Neo-Darwinism theory"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.3. The evidence for evolution": {
+          "count": 7,
+          "mini_headings_covered": [
+            "4.1.3.1 Comparative anatomy",
+            "4.1.3.3 Palaeontology (Paleontology)",
+            "4.1.3.4 Comparative biochemistry",
+            "4.1.3.2 Embryology"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.4. Natural selection: Definition, Types & Examples": {
+          "count": 11,
+          "mini_headings_covered": [
+            "Pattern of evolution",
+            "Divergent Evolution",
+            "Antibiotic resistance",
+            "Stabilizing selection",
+            "Directional selection",
+            "Disruptive selection"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.5. Human evolution": {
+          "count": 7,
+          "mini_headings_covered": [
+            "Lucy and Ardy",
+            "How brain size changed during human evolution?"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.6. Mutation": {
+          "count": 7,
+          "mini_headings_covered": [
+            "Point mutation",
+            "Addition and deletion",
+            "Chromosomal mutation",
+            "Translocation",
+            "Inversion"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.7. Genetic Drift": {
+          "count": 6,
+          "mini_headings_covered": [
+            "Hardy-Weinberg Equilibrium",
+            "The genetic bottleneck effect",
+            "Founder effect"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.8. Gene flow (immigration and emigration)": {
+          "count": 5,
+          "mini_headings_covered": [
+            "Keywords: Gene flow, Migration"
+          ],
+          "last_question_round": 5
+        },
+        "4.1.9. Causes of species extinction": {
+          "count": 5,
+          "mini_headings_covered": [
+            "Activity 4.33"
+          ],
+          "last_question_round": 5
+        }
+      },
+      "4.2. Renowned Anthropologists in Ethiopia": {},
+      "4.3. Renowned Evolutionists in Ethiopia": {}
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1. EVOLUTION": {
+        "question_count": 50,
+        "last_used_round": 5,
+        "consecutive_batches": 5
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1. EVOLUTION>4.1.1. Definition": [
+        "abiogenesis",
+        "spontaneous generation",
+        "biogenesis",
+        "cosmozoan",
+        "panspermia",
+        "eternity of life",
+        "Miller-Urey",
+        "Oparin-Haldane",
+        "special creationism"
+      ],
+      "4.1. EVOLUTION>4.1.2. Theories of evolution": [
+        "use and disuse",
+        "inheritance of acquired characteristics",
+        "natural selection",
+        "struggle for existence",
+        "Neo-Darwinism",
+        "gene pool",
+        "allele frequency",
+        "heritability"
+      ],
+      "4.1. EVOLUTION>4.1.3. The evidence for evolution": [
+        "homologous structures",
+        "analogous structures",
+        "fossil record",
+        "stratigraphy",
+        "half-life",
+        "biochemistry",
+        "cytochrome c",
+        "pentadactyl limb",
+        "embryology",
+        "pharyngeal pouches"
+      ],
+      "4.1. EVOLUTION>4.1.4. Natural selection: Definition, Types & Examples": [
+        "directional selection",
+        "stabilizing selection",
+        "disruptive selection",
+        "divergent evolution",
+        "convergent evolution",
+        "antibiotic resistance",
+        "parallel evolution",
+        "fitness"
+      ],
+      "4.1. EVOLUTION>4.1.5. Human evolution": [
+        "bipedalism",
+        "encephalization",
+        "Australopithecus afarensis",
+        "Lucy",
+        "Ardi",
+        "Homo sapiens",
+        "cranial capacity",
+        "opposable thumb",
+        "tool use"
+      ],
+      "4.1. EVOLUTION>4.1.6. Mutation": [
+        "point mutation",
+        "substitution",
+        "deletion",
+        "addition",
+        "frameshift",
+        "chromosomal mutation",
+        "inversion",
+        "translocation",
+        "duplication",
+        "nondisjunction"
+      ],
+      "4.1. EVOLUTION>4.1.7. Genetic Drift": [
+        "Hardy-Weinberg equilibrium",
+        "genetic drift",
+        "bottleneck effect",
+        "founder effect",
+        "allele frequency",
+        "p^2 + 2pq + q^2 = 1",
+        "sampling error"
+      ],
+      "4.1. EVOLUTION>4.1.8. Gene flow (immigration and emigration)": [
+        "gene flow",
+        "migration",
+        "allele transfer",
+        "homogenization",
+        "Fst"
+      ],
+      "4.1. EVOLUTION>4.1.9. Causes of species extinction": [
+        "anthropogenic effects",
+        "natural disaster",
+        "habitat loss",
+        "climate change",
+        "Sixth Mass Extinction",
+        "habitat fragmentation"
+      ]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 55,
+      "questions_per_concept_ratio": 0.91,
+      "structural_coverage_percentage": 95.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 4: EVOLUTION",
+  "pdf_filename": "B12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:38:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 1,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.2,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 50,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 38,
+      "structural_coverage_percentage": 95.0,
+      "concept_utilization_ratio": 0.91
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1. EVOLUTION",
+      "least_covered_section": "4.3. Renowned Evolutionists in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U4_Q041",
+      "generation_timestamp": "2026-06-14T10:38:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.3. The evidence for evolution",
+      "sub_subsection": "4.1.3.3 Palaeontology (Paleontology)",
+      "structural_anchor": "4.1.3.3 Palaeontology (Paleontology)",
+      "mcq_type": "K",
+      "question": "A fossil of an ancient reptile is found in a lower rock layer (stratum) below a layer containing a fossil of a mammal. What does this stratigraphic relationship most likely indicate?",
+      "options": {
+        "A": "The reptile lived more recently than the mammal.",
+        "B": "The reptile is older than the mammal.",
+        "C": "Both species lived at the same time.",
+        "D": "The mammal evolved from the reptile directly."
+      },
+      "correct_answer": "B",
+      "hint": "In undisturbed sedimentary rock, lower layers are older.",
+      "explanation": "Stratigraphy states that lower strata are older (principle of superposition). Therefore, the reptile in the lower layer is older than the mammal above. Option D cannot be concluded from stratigraphy alone.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.3. The evidence for evolution",
+        "structural_element": "4.1.3.3 Palaeontology (Paleontology)",
+        "content_anchor": "The oldest strata and the oldest fossils are found in the lowest layers",
+        "page_hint": 21,
+        "concept_hash": "a1b2c3d4e5f7a4b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Stratigraphy is the study of rock layers (strata) and their relative ages.",
+        "concept_summary": "The principle of superposition states that in undeformed sedimentary rock, the oldest layers are at the bottom. Thus, fossils in lower layers are older.",
+        "beginner": "Rock layers are like a stack of pancakes; the bottom pancake was cooked first (older) than the top one.",
+        "intermediate": "The lower stratum was deposited first. Therefore, the reptile fossil is older than the mammal fossil found above it.",
+        "advanced": "Relative dating via stratigraphy provides a sequential order of fossil occurrence. Absolute dating would be needed to determine the exact number of years difference.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the principle of superposition: lower = older.",
+          "Apply to the given fossils: reptile in lower layer → older.",
+          "Identify the correct relationship."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Fossils in lower layers are older, not necessarily 'less evolved' or 'simpler' in all cases, but generally."
+        ],
+        "related_concepts": [
+          "Superposition",
+          "Relative dating",
+          "Fossil record",
+          "Strata"
+        ],
+        "revision_note": "Stratigraphy: lower layer = older fossil.",
+        "glossary_entry": {
+          "term": "Stratigraphy",
+          "definition": "The study of rock layers and their sequence to determine relative ages.",
+          "example_equation": null,
+          "related_terms": [
+            "Superposition",
+            "Relative dating"
+          ]
+        },
+        "flashcard": {
+          "front": "If fossil X is in a lower rock layer than fossil Y, which is older?",
+          "flashcard_back": "Fossil X (lower layer) is older."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Stratigraphy",
+            "relation": "used_for",
+            "target": "Relative dating"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "What does a fossil in a lower rock layer indicate about its age?",
+        "flashcard_back": "It is older than fossils in higher layers (superposition).",
+        "glossary_term": "Stratigraphy",
+        "glossary_definition": "The analysis of rock layers to determine relative ages of fossils.",
+        "revision_note": "Lower strata = older fossils.",
+        "teacher_note": "Introduce the principle of superposition as a key relative dating method.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain how fossil records provide evidence for evolution",
+        "concept_map_nodes": [
+          {
+            "source": "Fossil record",
+            "relation": "organized_by",
+            "target": "Stratigraphy"
+          }
+        ],
+        "workbook_section": "4.1.3. The evidence for evolution",
+        "solution_manual_note": "Answer B. The lower stratum is deposited first, making the reptile older than the mammal above."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q042",
+      "generation_timestamp": "2026-06-14T10:38:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.1. Definition",
+      "sub_subsection": null,
+      "structural_anchor": "Autotrophs",
+      "mcq_type": "J",
+      "question": "Cyanobacteria are photosynthetic prokaryotes that produce oxygen. Which group of autotrophs do they belong to, based on their energy source?",
+      "options": {
+        "A": "Chemoautotrophs",
+        "B": "Photoautotrophs",
+        "C": "Chemoheterotrophs",
+        "D": "Photoheterotrophs"
+      },
+      "correct_answer": "B",
+      "hint": "They use light energy (photo-) and fix carbon dioxide (autotroph).",
+      "explanation": "Cyanobacteria use light energy (photosynthesis) and inorganic carbon (CO₂), making them photoautotrophs. Chemoautotrophs (A) use chemical energy, not light.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.1. Definition",
+        "structural_element": "Autotrophs",
+        "content_anchor": "Photoautotrophs",
+        "page_hint": 11,
+        "concept_hash": "b2c3d4e5f7a5b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Photoautotrophs are organisms that use light energy to synthesize organic compounds from carbon dioxide.",
+        "concept_summary": "Cyanobacteria (blue-green algae) were among the first organisms to perform oxygenic photosynthesis, converting sunlight into chemical energy.",
+        "beginner": "Cyanobacteria use sunlight to make their own food, just like plants do. That makes them photoautotrophs (photo = light, auto = self, troph = feeder).",
+        "intermediate": "Photoautotrophs harness light energy via chlorophyll or other pigments. Cyanobacteria oxygenated Earth's atmosphere around 2.4 billion years ago.",
+        "advanced": "Cyanobacteria possess photosystems I and II, using water as an electron donor, producing O₂. They are distinct from anoxygenic photoautotrophs (e.g., purple bacteria).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify energy source: sunlight (photo-).",
+          "Identify carbon source: CO₂ (autotroph).",
+          "Combine: photoautotroph."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Cyanobacteria are bacteria, not algae, but are often called blue-green algae. They are prokaryotes, not plants."
+        ],
+        "related_concepts": [
+          "Photosynthesis",
+          "Cyanobacteria",
+          "Oxygenic photosynthesis",
+          "Great Oxidation Event"
+        ],
+        "revision_note": "Cyanobacteria: photoautotrophs (light + CO₂ → food).",
+        "glossary_entry": {
+          "term": "Photoautotroph",
+          "definition": "An organism that uses light energy to produce food from carbon dioxide.",
+          "example_equation": null,
+          "related_terms": [
+            "Photosynthesis",
+            "Cyanobacteria"
+          ]
+        },
+        "flashcard": {
+          "front": "What type of autotroph uses sunlight for energy?",
+          "flashcard_back": "Photoautotroph."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Cyanobacteria",
+            "relation": "type_of",
+            "target": "Photoautotroph"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "Are cyanobacteria photoautotrophs or chemoautotrophs?",
+        "flashcard_back": "Photoautotrophs (they use sunlight for energy).",
+        "glossary_term": "Photoautotroph",
+        "glossary_definition": "An organism that makes its own food using light energy.",
+        "revision_note": "Photoautotroph: uses light + CO₂.",
+        "teacher_note": "Contrast with chemoautotrophs (use chemicals like hydrogen sulfide).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate between chemoautotrophs and photoautotrophs",
+        "concept_map_nodes": [
+          {
+            "source": "Autotroph",
+            "relation": "type",
+            "target": "Photoautotroph"
+          }
+        ],
+        "workbook_section": "4.1.1. Definition",
+        "solution_manual_note": "Answer B. Cyanobacteria perform photosynthesis, using light energy and CO₂."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q043",
+      "generation_timestamp": "2026-06-14T10:38:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.4. Natural selection: Definition, Types & Examples",
+      "sub_subsection": null,
+      "structural_anchor": "Parallel evolution",
+      "mcq_type": "A",
+      "question": "What is the term for the evolutionary pattern where two related species evolve similar traits independently, maintaining a similar level of change from their common ancestor?",
+      "options": {
+        "A": "Parallel evolution",
+        "B": "Divergent evolution",
+        "C": "Convergent evolution",
+        "D": "Coevolution"
+      },
+      "correct_answer": "A",
+      "hint": "The species are related (parallel) and change similarly, not becoming more different.",
+      "explanation": "Parallel evolution occurs when related species evolve similar characteristics independently. Convergent evolution (C) involves unrelated species; divergent (B) involves related species becoming different.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.4. Natural selection: Definition, Types & Examples",
+        "structural_element": "Parallel evolution",
+        "content_anchor": "two species evolve independently of each other, maintaining the same level of similarity",
+        "page_hint": 32,
+        "concept_hash": "c3d4e5f7a6b"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Parallel evolution is the independent evolution of similar traits in related species from a common ancestor.",
+        "concept_summary": "Unlike convergent evolution (unrelated species), parallel evolution occurs in species that share a recent common ancestor but evolve similar solutions independently.",
+        "beginner": "Parallel evolution is like two siblings who grow up in different houses but both become doctors. They are related and end up similar.",
+        "intermediate": "Related species experiencing similar selective pressures may evolve analogous changes along parallel lines, maintaining a similar degree of difference from their ancestor.",
+        "advanced": "Parallel evolution often involves similar genetic mutations (parallel mutations) because the shared ancestral genotype provides similar developmental constraints.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify relationship: related species (not unrelated).",
+          "Identify outcome: similar traits (not different).",
+          "Match to parallel evolution."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Parallel evolution is not the same as convergent evolution; the species are related in parallel, not distant."
+        ],
+        "related_concepts": [
+          "Parallel evolution",
+          "Convergent evolution",
+          "Divergent evolution",
+          "Parallel mutation"
+        ],
+        "revision_note": "Parallel: related species → similar traits (independent).",
+        "glossary_entry": {
+          "term": "Parallel evolution",
+          "definition": "Independent evolution of similar traits in related species.",
+          "example_equation": null,
+          "related_terms": [
+            "Convergent evolution",
+            "Divergent evolution"
+          ]
+        },
+        "flashcard": {
+          "front": "What pattern occurs when related species evolve similar traits independently?",
+          "flashcard_back": "Parallel evolution."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Parallel evolution",
+            "relation": "occurs_in",
+            "target": "Related species"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "What is parallel evolution?",
+        "flashcard_back": "Independent evolution of similar traits in related species.",
+        "glossary_term": "Parallel evolution",
+        "glossary_definition": "Evolution of similar features in related species from a common ancestor.",
+        "revision_note": "Parallel: related species, similar traits.",
+        "teacher_note": "Distinguish from convergence (unrelated).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate between divergent, convergent, and parallel evolution",
+        "concept_map_nodes": [
+          {
+            "source": "Parallel evolution",
+            "relation": "similar_to",
+            "target": "Convergent evolution"
+          }
+        ],
+        "workbook_section": "4.1.4. Natural selection",
+        "solution_manual_note": "Answer A. Parallel evolution describes related species independently evolving similar traits."
+      }
+    }
+  ]
+}

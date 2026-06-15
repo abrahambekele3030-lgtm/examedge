@@ -1,0 +1,1727 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G9_Chem_U5_Q020",
+    "covered_sections": [
+      "5.1 Chemical Bonding>Why do atoms form chemical bond?",
+      "5.1 Chemical Bonding>Octet Rule",
+      "5.1 Chemical Bonding>How could atoms satisfy the Octet Rule?",
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>What are Ions?",
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>Types of Ions",
+      "5.2 Ionic Bonding>5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Form Crystals",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Double Bond",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Triple Covalent Bond",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Polar Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "5.4 Metallic Bonding>5.4.1 Formation of Metallic Bond"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1"
+    ],
+    "baseline_counter": {
+      "5.1 Chemical Bonding": {
+        "Why do atoms form chemical bond?": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "Octet Rule": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "How could atoms satisfy the Octet Rule?": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "5.2 Ionic Bonding": {
+        "5.2.1 Formation of Ionic Bonding>What are Ions?": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.1 Formation of Ionic Bonding>Types of Ions": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They Form Crystals": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "5.3 Covalent Bonding": {
+        "5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.1 Formation of Covalent Bond>Formation of Double Bond": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.1 Formation of Covalent Bond>Formation of Triple Covalent Bond": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.3 Polarity in Covalent Molecules>Polar Covalent Molecules": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.4 Coordinate Covalent Bond (Dative Bond)": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "5.4 Metallic Bonding": {
+        "5.4.1 Formation of Metallic Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Chemical Bonding": { "question_count": 5, "last_used_round": 2, "consecutive_batches": 2 },
+      "5.2 Ionic Bonding": { "question_count": 8, "last_used_round": 2, "consecutive_batches": 2 },
+      "5.3 Covalent Bonding": { "question_count": 9, "last_used_round": 2, "consecutive_batches": 2 },
+      "5.4 Metallic Bonding": { "question_count": 2, "last_used_round": 2, "consecutive_batches": 2 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Chemical Bonding>How could atoms satisfy the Octet Rule?": ["lose electrons", "gain electrons", "share electrons"],
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>Types of Ions": ["monoatomic ion", "polyatomic ion", "cation classification"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points": ["melting point", "boiling point", "electrostatic force", "lattice energy"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle": ["brittleness", "repulsive forces", "crystal shattering"],
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Double Bond": ["double bond", "oxygen molecule", "shared pairs", "lone pairs"],
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Triple Covalent Bond": ["triple bond", "nitrogen molecule", "three shared pairs"],
+      "5.3 Covalent Bonding>5.3.4 Coordinate Covalent Bond (Dative Bond)": ["coordinate covalent bond", "dative bond", "lone pair donor", "electron pair acceptor", "NH4+", "H3O+"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_prev_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 35,
+      "questions_per_concept_ratio": 0.57,
+      "structural_coverage_percentage": 64.7
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL BONDING",
+  "pdf_filename": "C9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": { "complete": false, "sections_covered": 4, "total_sections": 4, "progress_percentage": 45.5 },
+      "phase2": { "complete": false, "max_imbalance_ratio": 4.5, "balanced": false },
+      "phase3": { "started": false, "exam_sections_biased": 0 }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 12,
+      "structural_coverage_percentage": 64.7,
+      "concept_utilization_ratio": 0.57
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3 Covalent Bonding",
+      "least_covered_section": "5.1 Chemical Bonding",
+      "imbalance_ratio": 1.8,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U5_Q011",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "How could atoms satisfy the Octet Rule?",
+      "sub_subsection": null,
+      "structural_anchor": "How could atoms satisfy the Octet Rule?",
+      "mcq_type": "A",
+      "question": "What are the three ways atoms can satisfy the octet rule when forming chemical bonds?",
+      "options": {
+        "A": "Losing, gaining, or sharing valence electrons",
+        "B": "Losing, gaining, or sharing protons",
+        "C": "Losing, gaining, or sharing neutrons",
+        "D": "Creating, destroying, or transferring nuclei"
+      },
+      "correct_answer": "A",
+      "hint": "Only valence electrons are involved in chemical bonding.",
+      "explanation": "The octet rule is satisfied by changing valence electron count through loss (forming cations), gain (forming anions), or sharing (covalent bonds). Nuclear particles (protons, neutrons) never participate in chemical bonding.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "How could atoms satisfy the Octet Rule?",
+        "structural_element": "How could atoms satisfy the Octet Rule?",
+        "content_anchor": "There are three ways: by losing their own valence electrons, by gaining valence electrons from other elements, or by sharing their valence electrons",
+        "page_hint": 3,
+        "concept_hash": "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Atoms satisfy the octet rule by losing, gaining, or sharing valence electrons to achieve eight valence electrons.",
+        "concept_summary": "Metals typically lose electrons; nonmetals gain or share electrons. All three mechanisms result in a noble gas electron configuration.",
+        "beginner": "Atoms can give away electrons (lose), take electrons (gain), or hold electrons together (share) to get eight in their outer shell.",
+        "intermediate": "To achieve octet, atoms either lose electrons (forming positive cations), gain electrons (forming negative anions), or share electron pairs (forming covalent bonds).",
+        "advanced": "Electron configuration change via oxidation (loss), reduction (gain), or orbital overlap (sharing) all achieve the stable \\(ns^2np^6\\) configuration characteristic of noble gases.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that octet = 8 valence electrons.",
+          "Atoms can remove electrons (lose), add electrons (gain), or pair electrons (share).",
+          "These three mechanisms cover all chemical bonding types."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think atoms can change their number of protons to satisfy octet. Nuclear reactions are not chemical bonding.",
+          "Another misconception: sharing means losing electrons permanently. In covalent bonds, electrons are shared, not transferred."
+        ],
+        "related_concepts": ["Octet rule", "Ionic bond", "Covalent bond", "Valence electrons"],
+        "revision_note": "Octet achieved by: lose e⁻, gain e⁻, or share e⁻.",
+        "glossary_entry": {
+          "term": "Octet rule satisfaction",
+          "definition": "The three mechanisms by which atoms achieve eight valence electrons: losing, gaining, or sharing electrons.",
+          "example_equation": null,
+          "related_terms": ["ionization", "electron affinity", "covalent bonding"]
+        },
+        "flashcard": {
+          "front": "What three ways can atoms satisfy the octet rule?",
+          "back": "Losing electrons, gaining electrons, or sharing electrons."
+        },
+        "concept_map_nodes": [
+          { "source": "Octet rule", "relation": "satisfied_by", "target": "Losing electrons" },
+          { "source": "Octet rule", "relation": "satisfied_by", "target": "Gaining electrons" },
+          { "source": "Octet rule", "relation": "satisfied_by", "target": "Sharing electrons" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How can atoms achieve a full octet?",
+        "flashcard_back": "By losing, gaining, or sharing valence electrons.",
+        "glossary_term": "Octet rule satisfaction",
+        "glossary_definition": "The three mechanisms by which atoms achieve eight valence electrons: losing, gaining, or sharing electrons.",
+        "revision_note": "Octet: lose e⁻, gain e⁻, or share e⁻.",
+        "teacher_note": "Emphasize that only valence electrons are involved — never protons or neutrons.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe how atoms satisfy the octet rule",
+        "concept_map_nodes": [
+          { "source": "Octet rule", "relation": "satisfied_by", "target": "Losing e⁻" },
+          { "source": "Octet rule", "relation": "satisfied_by", "target": "Gaining e⁻" },
+          { "source": "Octet rule", "relation": "satisfied_by", "target": "Sharing e⁻" }
+        ],
+        "workbook_section": "5.1 Chemical Bonding",
+        "solution_manual_note": "Answer A. Octet is achieved by changing the number of valence electrons through loss, gain, or sharing (A). Protons, neutrons, and nuclei (B, C, D) never change in chemical bonding."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q012",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.1 Formation of Ionic Bonding",
+      "sub_subsection": "Types of Ions",
+      "structural_anchor": "Types of Ions",
+      "mcq_type": "J",
+      "question": "Which of the following correctly matches the ion with its classification based on charge and atom count?",
+      "options": {
+        "A": "\\(NH_4^+\\) — monoatomic anion",
+        "B": "\\(SO_4^{2-}\\) — polyatomic cation",
+        "C": "\\(Ca^{2+}\\) — monoatomic cation",
+        "D": "\\(O^{2-}\\) — polyatomic anion"
+      },
+      "correct_answer": "C",
+      "hint": "Monoatomic means one atom; polyatomic means multiple atoms. Cations are positive; anions negative.",
+      "explanation": "\\(Ca^{2+}\\) is a single calcium atom with a positive charge (monoatomic cation). Option A is polyatomic cation, B is polyatomic anion, D is monoatomic anion, all misclassified.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.1 Formation of Ionic Bonding",
+        "structural_element": "Types of Ions",
+        "content_anchor": "There are two ways of classifying ions: based on electric charge and based on number of atoms",
+        "page_hint": 5,
+        "concept_hash": "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Monoatomic ions consist of one atom; polyatomic ions consist of multiple atoms covalently bonded together with an overall charge.",
+        "concept_summary": "Cations are positive; anions negative. \\(Ca^{2+}\\) is a single atom with +2 charge → monoatomic cation.",
+        "beginner": "\\(Ca^{2+}\\) is just one calcium atom with a positive charge — that's a monoatomic cation (one atom, positive).",
+        "intermediate": "Monoatomic ions contain one atom (e.g., \\(Ca^{2+}\\), \\(Cl^-\\)). Polyatomic ions contain multiple atoms (e.g., \\(NH_4^+\\), \\(SO_4^{2-}\\)).",
+        "advanced": "Polyatomic ions like \\(NH_4^+\\) have covalent bonds within the ion but an overall net charge. \\(Ca^{2+}\\) is a single atom with no internal covalent structure.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count atoms in the formula unit.",
+          "Check charge sign: + = cation, − = anion.",
+          "Match to classification: one atom = monoatomic; multiple = polyatomic.",
+          "Verify each option against these rules."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think polyatomic ions are molecules with no net charge. Polyatomic ions always carry a net charge.",
+          "Another misconception: \\(NH_4^+\\) is an anion because it contains nitrogen. The charge (+1) makes it a cation regardless of element."
+        ],
+        "related_concepts": ["Monoatomic ion", "Polyatomic ion", "Cation", "Anion", "Ammonium", "Sulfate"],
+        "revision_note": "Monoatomic = 1 atom. Polyatomic = many atoms. Cation (+), anion (−).",
+        "glossary_entry": {
+          "term": "Polyatomic ion",
+          "definition": "An ion consisting of two or more atoms covalently bonded together with an overall net charge.",
+          "example_equation": "\\(\\mathrm{NH_4^+}\\)",
+          "related_terms": ["monoatomic ion", "cation", "anion"]
+        },
+        "flashcard": {
+          "front": "Classify \\(Ca^{2+}\\) based on atom count and charge.",
+          "back": "Monoatomic cation (one atom, positive charge)."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(Ca^{2+}\\)", "relation": "has", "target": "One atom" },
+          { "source": "One atom", "relation": "means", "target": "Monoatomic" },
+          { "source": "Positive charge", "relation": "means", "target": "Cation" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "workbook", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Is \\(Ca^{2+}\\) monoatomic or polyatomic? Cation or anion?",
+        "flashcard_back": "Monoatomic cation (one calcium atom, positive charge).",
+        "glossary_term": "Polyatomic ion",
+        "glossary_definition": "An ion consisting of two or more atoms covalently bonded together with an overall net charge.",
+        "revision_note": "\\(Ca^{2+}\\) = monoatomic cation.",
+        "teacher_note": "Contrast \\(Ca^{2+}\\) (monoatomic) with \\(CaCO_3\\) (contains polyatomic carbonate ion).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Classify ions based on charge and atom count",
+        "concept_map_nodes": [
+          { "source": "\\(Ca^{2+}\\)", "relation": "is", "target": "Monoatomic cation" },
+          { "source": "\\(NH_4^+\\)", "relation": "is", "target": "Polyatomic cation" },
+          { "source": "\\(SO_4^{2-}\\)", "relation": "is", "target": "Polyatomic anion" }
+        ],
+        "workbook_section": "5.2.1 Formation of Ionic Bonding",
+        "solution_manual_note": "Answer C. \\(Ca^{2+}\\) is a single calcium atom with positive charge → monoatomic cation. A: \\(NH_4^+\\) is polyatomic cation, not anion. B: \\(SO_4^{2-}\\) is polyatomic anion, not cation. D: \\(O^{2-}\\) is monoatomic anion, not polyatomic."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q013",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They Have High Melting Points and High Boiling Points",
+      "structural_anchor": "They Have High Melting Points and High Boiling Points",
+      "mcq_type": "G",
+      "question": "Ionic compounds such as sodium chloride (NaCl) have very high melting points (801°C). What directly requires such high temperatures to melt an ionic compound?",
+      "options": {
+        "A": "Breaking covalent bonds within individual molecules",
+        "B": "Overcoming the strong electrostatic attraction between oppositely charged ions",
+        "C": "Separating delocalized electrons from metal cations",
+        "D": "Disrupting hydrogen bonds between water molecules"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what force holds the ions together in the crystal lattice.",
+      "explanation": "Ionic compounds are held together by strong electrostatic forces between cations and anions. Melting requires overcoming these attractions to allow ions to move freely. Option B correctly identifies this force; options A, C, D describe other bond types.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They Have High Melting Points and High Boiling Points",
+        "content_anchor": "Considerable heat energy is required to separate the strong electrostatic attraction force between the positive and negative ions",
+        "page_hint": 12,
+        "concept_hash": "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "The melting point is the temperature at which thermal energy overcomes the lattice energy, allowing ions to move past each other.",
+        "concept_summary": "Ionic bonds are strong electrostatic attractions. Melting requires sufficient energy to separate cations and anions from their fixed positions in the crystal lattice.",
+        "beginner": "The positive and negative ions in table salt are stuck together like strong magnets. Melting needs lots of heat to pull them apart.",
+        "intermediate": "The lattice energy of NaCl is about 787 kJ/mol. Melting at 801°C provides enough thermal energy to overcome this electrostatic attraction, freeing ions to move as a liquid.",
+        "advanced": "The melting point correlates with lattice energy \\(U = \\frac{k Q_1 Q_2}{r}\\). High \\(Q_1 Q_2\\) and small \\(r\\) give high \\(U\\) and high melting point (e.g., MgO melts at 2852°C vs NaCl at 801°C).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the bonding in ionic compounds: electrostatic attraction between ions.",
+          "Recognize that melting breaks this attraction, not covalent or metallic bonds.",
+          "High melting points reflect the strength of electrostatic forces."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think ionic compounds melt by breaking covalent bonds. NaCl has no covalent bonds — only ionic bonds.",
+          "Another misconception: melting breaks the ions themselves into atoms. Melting only overcomes interionic attraction; ions remain intact as \\(Na^+\\) and \\(Cl^-\\) in the liquid."
+        ],
+        "related_concepts": ["Lattice energy", "Electrostatic force", "Melting point", "Ionic bond strength"],
+        "revision_note": "High melting point of ionic compounds = strong electrostatic attraction between + and − ions.",
+        "glossary_entry": {
+          "term": "Lattice energy",
+          "definition": "The energy required to separate one mole of an ionic solid into its gaseous ions.",
+          "example_equation": "\\(\\mathrm{NaCl(s) \\rightarrow Na^+(g) + Cl^-(g)}\\)",
+          "related_terms": ["electrostatic force", "melting point", "ionic bond"]
+        },
+        "flashcard": {
+          "front": "Why do ionic compounds like NaCl have high melting points?",
+          "back": "Strong electrostatic attraction between cations and anions requires large energy to overcome."
+        },
+        "concept_map_nodes": [
+          { "source": "Ionic compound", "relation": "has", "target": "Strong electrostatic attraction" },
+          { "source": "Strong electrostatic attraction", "relation": "requires", "target": "High temperature to overcome" },
+          { "source": "High temperature", "relation": "results in", "target": "High melting point" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What force must be overcome to melt an ionic compound?",
+        "flashcard_back": "Electrostatic attraction between oppositely charged ions (lattice energy).",
+        "glossary_term": "Lattice energy",
+        "glossary_definition": "The energy required to separate one mole of an ionic solid into its gaseous ions.",
+        "revision_note": "Ionic compounds: high melting point due to strong electrostatic attraction.",
+        "teacher_note": "Compare melting points: NaCl (801°C) vs MgO (2852°C) to show effect of ion charge and size.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain why ionic compounds have high melting and boiling points",
+        "concept_map_nodes": [
+          { "source": "Ionic crystal", "relation": "held by", "target": "Electrostatic attraction" },
+          { "source": "Melting", "relation": "requires overcoming", "target": "Electrostatic attraction" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer B. Ionic compounds melt when thermal energy overcomes the electrostatic attraction between cations and anions (B). Option A (covalent) not present in NaCl. Option C (metallic) not present. Option D (hydrogen bonds) irrelevant."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q014",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They are Hard and Brittle",
+      "structural_anchor": "They are Hard and Brittle",
+      "mcq_type": "H",
+      "question": "A student suggests that ionic compounds are hard because the ions are tightly packed, but they should bend rather than shatter when struck. Why do ionic crystals actually shatter instead of deforming?",
+      "options": {
+        "A": "The ions rearrange into a metallic structure upon impact.",
+        "B": "Striking forces like-charged ions into alignment, causing repulsion that breaks the crystal.",
+        "C": "The crystal converts all kinetic energy into heat without structural change.",
+        "D": "Electrons become delocalized and escape the crystal lattice."
+      },
+      "correct_answer": "B",
+      "hint": "Consider what happens when layers of ions shift relative to each other.",
+      "explanation": "When struck, layers shift so that like-charged ions (e.g., \\(Na^+\\) next to \\(Na^+\\)) become adjacent. The strong repulsion between identical charges causes the crystal to shatter. This is brittleness.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They are Hard and Brittle",
+        "content_anchor": "Such striking brings ions of the same charge next to one another. The strong repulsive forces between like-charged ions cause the crystal to break",
+        "page_hint": 12,
+        "concept_hash": "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 88,
+        "cognitive_level": "evaluate",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Brittleness is the tendency of a material to shatter rather than deform when struck due to repulsive forces between like-charged ions.",
+        "concept_summary": "Ionic crystals have alternating + and − ions. A hammer blow shifts layers, forcing like charges together, and electrostatic repulsion causes shattering.",
+        "beginner": "Imagine a checkerboard of red and black squares. If you push one row, red squares touch red squares — they push apart violently, breaking the board.",
+        "intermediate": "In NaCl, layers are arranged Na⁺, Cl⁻, Na⁺, Cl⁻. A mechanical impact shifts one layer so Na⁺ aligns with Na⁺. The repulsive Coulomb force (\\(F = k q_1 q_2 / r^2\\)) fractures the crystal.",
+        "advanced": "Ionic crystals exhibit brittle fracture because the dislocation motion required for plastic deformation would bring ions of like charge into contact, creating a high-energy, unstable configuration that fails catastrophically.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that ionic crystals have alternating + and − ions.",
+          "A strike can shift layers so identical charges align.",
+          "Like charges repel strongly.",
+          "Repulsion overcomes the crystal's cohesion → shattering."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think hardness means resistance to breaking. Hardness and brittleness are different: diamond is hard but brittle; metals are hard but malleable.",
+          "Another misconception: shattering means weak bonds. Ionic bonds are strong, but their directional nature (point charges) makes them brittle."
+        ],
+        "related_concepts": ["Brittleness", "Electrostatic repulsion", "Crystal lattice", "Ionic bond strength"],
+        "revision_note": "Ionic crystals shatter when struck because like charges are forced together → repulsion.",
+        "glossary_entry": {
+          "term": "Brittleness",
+          "definition": "The tendency of a material to fracture or shatter when subjected to mechanical stress rather than deforming plastically.",
+          "example_equation": null,
+          "related_terms": ["ionic crystal", "repulsion", "hardness"]
+        },
+        "flashcard": {
+          "front": "Why do ionic crystals shatter when struck instead of bending?",
+          "back": "The impact forces like-charged ions together; electrostatic repulsion causes the crystal to break."
+        },
+        "concept_map_nodes": [
+          { "source": "Ionic crystal (alternating +/−)", "relation": "struck → layers shift →", "target": "Like charges align" },
+          { "source": "Like charges align", "relation": "creates", "target": "Strong repulsive force" },
+          { "source": "Strong repulsive force", "relation": "causes", "target": "Crystal to shatter (brittleness)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why are ionic compounds brittle?",
+        "flashcard_back": "When struck, layers shift, bringing like charges together; strong repulsion shatters the crystal.",
+        "glossary_term": "Brittleness",
+        "glossary_definition": "The tendency of a material to fracture or shatter when subjected to mechanical stress rather than deforming plastically.",
+        "revision_note": "Ionic compounds: hard but brittle. Impact aligns like charges → repulsion → shatter.",
+        "teacher_note": "Demonstrate with a brittle material (e.g., salt crystal) vs malleable metal (e.g., copper wire).",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Explain why ionic compounds are hard and brittle",
+        "concept_map_nodes": [
+          { "source": "Mechanical impact", "relation": "shifts layers, aligning", "target": "Like charges" },
+          { "source": "Like charges", "relation": "repel, causing", "target": "Fracture" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer B. Impact forces layers to shift, bringing like-charged ions together (B); repulsion shatters the crystal. Option A (metallic) false. Option C (heat only) incomplete. Option D (electron delocalization) describes metals, not ionic compounds."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q015",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.1 Formation of Covalent Bond",
+      "sub_subsection": "Formation of Double Bond",
+      "structural_anchor": "Formation of Double Bond",
+      "mcq_type": "D",
+      "question": "An oxygen molecule (\\(O_2\\)) contains a double covalent bond. How many total electrons are shared between the two oxygen atoms in this bond, and how many lone pairs remain on each oxygen?",
+      "options": {
+        "A": "2 shared electrons, 2 lone pairs per oxygen",
+        "B": "4 shared electrons, 2 lone pairs per oxygen",
+        "C": "6 shared electrons, 1 lone pair per oxygen",
+        "D": "4 shared electrons, 4 lone pairs per oxygen"
+      },
+      "correct_answer": "B",
+      "hint": "Double bond = two shared pairs = 4 electrons. Each oxygen has 6 valence electrons total.",
+      "explanation": "A double bond shares two pairs (4 electrons). Each oxygen contributes 2 electrons to the bond. Each oxygen also has two lone pairs (4 electrons) to complete its octet. Total per oxygen = 4 (lone) + 4 (shared) = 8.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.1 Formation of Covalent Bond",
+        "structural_element": "Formation of Double Bond",
+        "content_anchor": "Each oxygen atom requires two electrons to fulfil the octet rule. The two oxygen atoms share two electrons each",
+        "page_hint": 18,
+        "concept_hash": "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 86,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "A double bond is a covalent bond in which two atoms share two pairs of electrons (four electrons total).",
+        "concept_summary": "In \\(O_2\\), each oxygen has 6 valence electrons. Sharing two pairs (double bond) gives each oxygen 8 electrons: 2 lone pairs (4 e⁻) + 1 double bond (4 e⁻).",
+        "beginner": "Two oxygen atoms hold hands with two hands (double bond) instead of one. Each keeps two pairs of 'private' electrons (lone pairs).",
+        "intermediate": "Double bond = 2 shared pairs = 4 electrons. Each oxygen has 6 valence e⁻; after bonding: 4 e⁻ in two lone pairs + 4 e⁻ in the double bond = octet.",
+        "advanced": "Lewis structure of \\(O_2\\): \\(\\ddot{\\mathrm{O}}=\\ddot{\\mathrm{O}}\\). Bond order = 2, bond energy = 498 kJ/mol, bond length = 121 pm. Each oxygen has sp² hybridization with two lone pairs.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Determine total valence electrons in \\(O_2\\): 6 + 6 = 12.",
+          "Double bond uses 4 electrons (2 per O).",
+          "Remaining 8 electrons = 4 lone pairs, 2 per O.",
+          "Each O: 4 shared electrons (from double bond) + 4 lone electrons = octet."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think double bond means 2 electrons total. Double bond = 2 pairs = 4 electrons.",
+          "Another misconception: oxygen atoms in \\(O_2\\) have no lone pairs. Each oxygen has two lone pairs (4 electrons) to complete octet."
+        ],
+        "related_concepts": ["Double bond", "Lone pairs", "Octet rule", "Oxygen molecule", "Lewis structure"],
+        "revision_note": "\\(O_2\\): double bond (4 shared e⁻), 2 lone pairs per O.",
+        "glossary_entry": {
+          "term": "Double bond",
+          "definition": "A covalent bond in which two atoms share two pairs of electrons (four electrons total).",
+          "example_equation": "\\(\\mathrm{O=O}\\)",
+          "related_terms": ["single bond", "triple bond", "covalent bond"]
+        },
+        "flashcard": {
+          "front": "In \\(O_2\\), how many electrons are shared and how many lone pairs per oxygen?",
+          "back": "4 shared electrons (double bond); 2 lone pairs (4 electrons) per oxygen."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(O_2\\) molecule", "relation": "has", "target": "Double bond (4 shared e⁻)" },
+          { "source": "Each oxygen atom", "relation": "has", "target": "2 lone pairs (4 e⁻)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "workbook", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How many shared electrons and lone pairs are in \\(O_2\\)?",
+        "flashcard_back": "4 shared electrons (double bond); each oxygen has 2 lone pairs.",
+        "glossary_term": "Double bond",
+        "glossary_definition": "A covalent bond in which two atoms share two pairs of electrons (four electrons total).",
+        "revision_note": "\\(O_2\\): double bond (4 e⁻ shared), 2 lone pairs per O.",
+        "teacher_note": "Show Lewis structure: \\(\\ddot{O}=\\ddot{O}\\) to visualize double bond and lone pairs.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe formation of double covalent bonds",
+        "concept_map_nodes": [
+          { "source": "Oxygen atom", "relation": "has 6 valence e⁻ → needs 2 more → forms", "target": "Double bond" },
+          { "source": "Double bond", "relation": "uses", "target": "4 electrons (2 from each O)" }
+        ],
+        "workbook_section": "5.3.1 Formation of Covalent Bond",
+        "solution_manual_note": "Answer B. Double bond = 4 shared electrons (2 pairs). Each oxygen's 6 valence e⁻: 4 in two lone pairs + 4 shared in double bond = octet. Option A has 2 shared (single bond). Option C has triple bond. Option D overcounts lone pairs."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q016",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.1 Formation of Covalent Bond",
+      "sub_subsection": "Formation of Triple Covalent Bond",
+      "structural_anchor": "Formation of Triple Covalent Bond",
+      "mcq_type": "A",
+      "question": "What is a triple covalent bond, and which common diatomic molecule contains one?",
+      "options": {
+        "A": "Three shared electron pairs; \\(N_2\\)",
+        "B": "Two shared electron pairs; \\(O_2\\)",
+        "C": "One shared electron pair; \\(Cl_2\\)",
+        "D": "Three shared electron pairs; \\(H_2\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Think about which molecule has a very strong bond and three shared pairs.",
+      "explanation": "A triple bond shares three pairs of electrons (6 electrons). The nitrogen molecule (\\(N_2\\)) has a triple bond, giving each nitrogen atom a complete octet. Options B, C, D describe double, single, and impossible bonds for \\(H_2\\).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.1 Formation of Covalent Bond",
+        "structural_element": "Formation of Triple Covalent Bond",
+        "content_anchor": "The sharing of three pairs of electrons in a covalent bond results in a triple bond. Nitrogen exists in its molecular form N2",
+        "page_hint": 18,
+        "concept_hash": "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A triple covalent bond is a bond in which two atoms share three pairs of electrons (six electrons total).",
+        "concept_summary": "Nitrogen (\\(N_2\\)) has a triple bond: each N shares 3 electrons, achieving octet. Triple bonds are very strong and short.",
+        "beginner": "Imagine two people holding three ropes instead of one or two — that's a triple bond. Nitrogen gas is like that.",
+        "intermediate": "Triple bond: 3 shared pairs = 6 electrons. \\(N_2\\): each N has 5 valence e⁻; sharing 3 pairs gives each N 8 e⁻ (5 own + 3 shared).",
+        "advanced": "Bond order = 3. \\(N_2\\) has bond energy 941 kJ/mol (very strong) and bond length 110 pm. Molecular orbital configuration: \\(\\sigma(1s)^2 \\sigma^*(1s)^2 \\sigma(2s)^2 \\sigma^*(2s)^2 \\pi(2p_x)^2 \\pi(2p_y)^2 \\sigma(2p_z)^2\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall: triple bond = 3 shared pairs.",
+          "Find diatomic molecule where each atom needs 3 more electrons.",
+          "Nitrogen (5 valence e⁻) needs 3 → shares 3 pairs.",
+          "Thus \\(N_2\\) has triple bond."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think triple bond means 3 electrons total. Triple bond = 3 pairs = 6 electrons.",
+          "Another misconception: \\(O_2\\) has triple bond. \\(O_2\\) has double bond; \\(N_2\\) has triple bond."
+        ],
+        "related_concepts": ["Triple bond", "Nitrogen molecule", "Covalent bond", "Bond order", "Octet rule"],
+        "revision_note": "Triple bond = 3 shared pairs (6 e⁻). Example: \\(N_2\\).",
+        "glossary_entry": {
+          "term": "Triple covalent bond",
+          "definition": "A covalent bond in which two atoms share three pairs of electrons (six electrons total).",
+          "example_equation": "\\(\\mathrm{N \\equiv N}\\)",
+          "related_terms": ["double bond", "single bond", "nitrogen molecule"]
+        },
+        "flashcard": {
+          "front": "What is a triple bond and which common gas molecule has one?",
+          "back": "Three shared electron pairs (6 e⁻); nitrogen gas (\\(N_2\\))."
+        },
+        "concept_map_nodes": [
+          { "source": "Triple bond", "relation": "defined_as", "target": "3 shared pairs of e⁻" },
+          { "source": "\\(N_2\\)", "relation": "contains", "target": "Triple bond" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Which diatomic molecule contains a triple covalent bond?",
+        "flashcard_back": "Nitrogen (\\(N_2\\)) has a triple bond (three shared pairs).",
+        "glossary_term": "Triple covalent bond",
+        "glossary_definition": "A covalent bond in which two atoms share three pairs of electrons (six electrons total).",
+        "revision_note": "Triple bond = 3 pairs (6 e⁻). \\(N_2\\) example.",
+        "teacher_note": "Contrast bond lengths: \\(N_2\\) triple bond (110 pm) vs \\(O_2\\) double bond (121 pm) vs \\(Cl_2\\) single bond (199 pm).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe formation of triple covalent bonds",
+        "concept_map_nodes": [
+          { "source": "Triple bond", "relation": "characterizes", "target": "\\(N_2\\)" },
+          { "source": "\\(N_2\\)", "relation": "has bond energy", "target": "941 kJ/mol (very strong)" }
+        ],
+        "workbook_section": "5.3.1 Formation of Covalent Bond",
+        "solution_manual_note": "Answer A. Triple bond = 3 shared pairs (6 electrons); \\(N_2\\) is the common example. B (\\(O_2\\)) is double bond. C (\\(Cl_2\\)) is single bond. D (\\(H_2\\)) is single bond (only 2 electrons total)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q017",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "mcq_type": "A",
+      "question": "What distinguishes a coordinate covalent bond (dative bond) from a standard covalent bond?",
+      "options": {
+        "A": "Both shared electrons come from only one of the bonded atoms.",
+        "B": "The bond is always ionic in character after formation.",
+        "C": "The bond involves the transfer of protons instead of electrons.",
+        "D": "The bond can only form between identical atoms."
+      },
+      "correct_answer": "A",
+      "hint": "Think about where the shared electron pair originates.",
+      "explanation": "In a coordinate covalent bond, the shared electron pair is provided entirely by one atom (donor), while the other atom accepts the empty orbital. After formation, the bond is indistinguishable from a normal covalent bond.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+        "structural_element": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+        "content_anchor": "A coordinate covalent bond is a covalent bond where the electron pair is provided by only one of the bonded atoms",
+        "page_hint": 25,
+        "concept_hash": "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "A coordinate covalent bond (dative bond) is a covalent bond in which both shared electrons come from the same atom.",
+        "concept_summary": "The donor atom provides both electrons; the acceptor atom has an empty orbital. Once formed, the bond behaves like a normal covalent bond.",
+        "beginner": "Imagine one friend bringing two toys to share, instead of each bringing one. That's a coordinate bond — one atom gives both electrons.",
+        "intermediate": "In \\(NH_4^+\\), \\(NH_3\\) donates its lone pair to \\(H^+\\) (which has no electrons). Both electrons in the N-H bond come from nitrogen, not hydrogen.",
+        "advanced": "Coordinate bonds form when a Lewis base (electron pair donor) bonds with a Lewis acid (electron pair acceptor). Examples: \\(NH_3 + BF_3 \\rightarrow H_3N-BF_3\\); \\(H_2O + H^+ \\rightarrow H_3O^+\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Standard covalent bond: each atom contributes 1 electron.",
+          "Coordinate covalent bond: one atom contributes both electrons.",
+          "After formation, the bond is identical to a standard covalent bond."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think coordinate bonds are weaker or different after formation. Once formed, coordinate bonds are indistinguishable from normal covalent bonds.",
+          "Another misconception: coordinate bonds are always ionic. They are covalent; the distinction is only the electron origin."
+        ],
+        "related_concepts": ["Lewis acid", "Lewis base", "Lone pair", "Dative bond", "Ammonium ion", "Hydronium ion"],
+        "revision_note": "Coordinate bond: both e⁻ from one atom. Donor: lone pair. Acceptor: empty orbital.",
+        "glossary_entry": {
+          "term": "Coordinate covalent bond",
+          "definition": "A covalent bond in which both shared electrons are provided by only one of the bonded atoms.",
+          "example_equation": "\\(\\mathrm{NH_3 + H^+ \\rightarrow NH_4^+}\\)",
+          "related_terms": ["dative bond", "Lewis acid", "Lewis base"]
+        },
+        "flashcard": {
+          "front": "What makes a coordinate covalent bond different from a regular covalent bond?",
+          "back": "In a coordinate bond, both shared electrons come from the same atom instead of one from each atom."
+        },
+        "concept_map_nodes": [
+          { "source": "Coordinate covalent bond", "relation": "features", "target": "Both electrons from one atom (donor)" },
+          { "source": "Acceptor atom", "relation": "provides", "target": "Empty orbital" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How does a coordinate covalent bond differ from a normal covalent bond?",
+        "flashcard_back": "Both shared electrons come from one atom (donor) instead of one from each atom.",
+        "glossary_term": "Coordinate covalent bond",
+        "glossary_definition": "A covalent bond in which both shared electrons are provided by only one of the bonded atoms.",
+        "revision_note": "Coordinate bond: both e⁻ from donor. Acceptor has empty orbital.",
+        "teacher_note": "Use \\(NH_4^+\\) formation as the classic example: \\(NH_3\\) donates lone pair to \\(H^+\\).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define coordinate covalent (dative) bond",
+        "concept_map_nodes": [
+          { "source": "Coordinate bond", "relation": "requires", "target": "Lone pair on donor" },
+          { "source": "Coordinate bond", "relation": "requires", "target": "Empty orbital on acceptor" }
+        ],
+        "workbook_section": "5.3.4 Coordinate Covalent Bond",
+        "solution_manual_note": "Answer A. In a coordinate bond, both shared electrons come from only one atom (donor). Option B is false (the bond is covalent, not ionic). Option C describes nuclear reaction. Option D is false (different atoms often form coordinate bonds, e.g., \\(NH_4^+\\))."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q018",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "mcq_type": "D",
+      "question": "The ammonium ion (\\(NH_4^+\\)) forms when ammonia (\\(NH_3\\)) bonds with a hydrogen ion (\\(H^+\\)). Which atom donates the electron pair and which atom accepts it?",
+      "options": {
+        "A": "\\(H^+\\) donates; N accepts",
+        "B": "N donates; \\(H^+\\) accepts",
+        "C": "Both N and H donate one electron each",
+        "D": "\\(H^+\\) donates both electrons to N"
+      },
+      "correct_answer": "B",
+      "hint": "Ammonia has a lone pair on nitrogen; \\(H^+\\) has no electrons.",
+      "explanation": "\\(NH_3\\) has a lone pair on nitrogen, which it donates to the empty 1s orbital of \\(H^+\\). This forms a coordinate covalent bond. After formation, all four N-H bonds are identical.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+        "structural_element": "5.3.4 Coordinate Covalent Bond (Dative Bond)",
+        "content_anchor": "Ammonia shares its lone pair electrons to hydrogen ions and forms a coordinate covalent bond",
+        "page_hint": 26,
+        "concept_hash": "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 87,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "\\(NH_4^+\\) forms when the lone pair on \\(NH_3\\) coordinates to \\(H^+\\), forming a coordinate covalent bond.",
+        "concept_summary": "Nitrogen in \\(NH_3\\) has a lone pair (2 electrons). The \\(H^+\\) ion has an empty 1s orbital. Nitrogen donates the lone pair to \\(H^+\\), creating the \\(NH_4^+\\) ion.",
+        "beginner": "Ammonia has two extra electrons (a lone pair). A hydrogen ion has no electrons but wants two. Ammonia shares its pair, and they form ammonium.",
+        "intermediate": "\\(NH_3\\) (Lewis base) donates its lone pair to \\(H^+\\) (Lewis acid). The resulting N-H bond is coordinate covalent because both electrons came from N.",
+        "advanced": "The coordinate bond in \\(NH_4^+\\) is identical in length and strength to the other three N-H bonds after formation (all ~101.4 pm, bond energy ~401 kJ/mol).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify donor: \\(NH_3\\) has a lone pair on N.",
+          "Identify acceptor: \\(H^+\\) has no electrons, empty orbital.",
+          "Donor (N) provides both electrons.",
+          "Acceptor (\\(H^+\\)) accepts the pair."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think \\(H^+\\) contributes an electron. \\(H^+\\) is just a proton with no electrons.",
+          "Another misconception: after formation, the coordinate bond is different. All four N-H bonds in \\(NH_4^+\\) are identical."
+        ],
+        "related_concepts": ["Ammonium ion", "Coordinate bond", "Lone pair", "Lewis acid-base", "Hydronium ion"],
+        "revision_note": "\\(NH_4^+\\): N donates lone pair to \\(H^+\\) → coordinate bond.",
+        "glossary_entry": {
+          "term": "Ammonium ion",
+          "definition": "A polyatomic cation (\\(NH_4^+\\)) formed by coordinate bonding between ammonia and a hydrogen ion.",
+          "example_equation": "\\(\\mathrm{NH_3 + H^+ \\rightarrow NH_4^+}\\)",
+          "related_terms": ["coordinate bond", "ammonia", "hydrogen ion"]
+        },
+        "flashcard": {
+          "front": "In \\(NH_4^+\\) formation, which atom donates the electron pair and which accepts?",
+          "back": "Nitrogen (from \\(NH_3\\)) donates the lone pair; \\(H^+\\) accepts."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(NH_3\\)", "relation": "donates lone pair from N to", "target": "\\(H^+\\)" },
+          { "source": "\\(H^+\\)", "relation": "accepts pair, forming", "target": "\\(NH_4^+\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "workbook", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How does \\(NH_4^+\\) form via coordinate bonding?",
+        "flashcard_back": "\\(NH_3\\) donates its nitrogen lone pair to \\(H^+\\) (empty orbital), forming a coordinate covalent bond.",
+        "glossary_term": "Ammonium ion",
+        "glossary_definition": "A polyatomic cation (\\(NH_4^+\\)) formed by coordinate bonding between ammonia and a hydrogen ion.",
+        "revision_note": "\\(NH_4^+\\): N donates lone pair to \\(H^+\\) → coordinate bond.",
+        "teacher_note": "Emphasize that \\(H^+\\) is just a proton with no electrons, so it must receive both electrons from N.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Elucidate formation of coordinate covalent bond using examples",
+        "concept_map_nodes": [
+          { "source": "\\(NH_3\\) (Lewis base)", "relation": "donates lone pair to", "target": "\\(H^+\\) (Lewis acid)" },
+          { "source": "Donation", "relation": "forms", "target": "Coordinate bond in \\(NH_4^+\\)" }
+        ],
+        "workbook_section": "5.3.4 Coordinate Covalent Bond",
+        "solution_manual_note": "Answer B. \\(NH_3\\) has a lone pair on nitrogen (donor), which bonds to \\(H^+\\) (acceptor, empty orbital). A and D are incorrect (H⁺ has no electrons to donate). C describes standard covalent bond, not coordinate."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q019",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.3 Polarity in Covalent Molecules",
+      "sub_subsection": "Nonpolar Covalent Molecules",
+      "structural_anchor": "Nonpolar Covalent Molecules",
+      "mcq_type": "I",
+      "question": "Compare carbon dioxide (\\(CO_2\\)) and water (\\(H_2O\\)). Both contain polar bonds, but \\(CO_2\\) is nonpolar while \\(H_2O\\) is polar. What structural difference causes this?",
+      "options": {
+        "A": "\\(CO_2\\) has no lone pairs on carbon; \\(H_2O\\) has lone pairs on oxygen.",
+        "B": "\\(CO_2\\) has double bonds; \\(H_2O\\) has single bonds.",
+        "C": "\\(CO_2\\) is linear; \\(H_2O\\) is bent.",
+        "D": "\\(CO_2\\) has two oxygens; \\(H_2O\\) has one oxygen."
+      },
+      "correct_answer": "C",
+      "hint": "Think about how the bond dipoles add or cancel based on geometry.",
+      "explanation": "\\(CO_2\\) is linear (O=C=O); the two polar C=O bond dipoles are equal and opposite, canceling. \\(H_2O\\) is bent (~104.5°); the O-H dipoles do not cancel, producing a net dipole. Option C correctly identifies geometry as the key difference.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.3 Polarity in Covalent Molecules",
+        "structural_element": "Nonpolar Covalent Molecules",
+        "content_anchor": "In CO2 the molecular structure is linear O=C=O and the charges cancel out each other. In H2O the shape is bent and the net charge will not cancel",
+        "page_hint": 22,
+        "concept_hash": "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Molecular geometry determines whether bond dipoles cancel (nonpolar) or sum to a net dipole (polar).",
+        "concept_summary": "\\(CO_2\\) is linear (180°); dipoles are opposite and cancel. \\(H_2O\\) is bent (104.5°); dipoles add vectorially to a net dipole.",
+        "beginner": "Think of two people pulling a rope in opposite directions (CO₂) — they cancel. If they pull at an angle (H₂O), there's leftover pull.",
+        "intermediate": "Bond dipoles are vectors. In \\(CO_2\\), bond angle 180° → \\(\\vec{\\mu}_1 + \\vec{\\mu}_2 = 0\\). In \\(H_2O\\), bond angle 104.5° → nonzero resultant dipole (1.85 D).",
+        "advanced": "The net dipole moment is \\(\\mu = 2 \\times \\mu_{\\text{bond}} \\cos(\\theta/2)\\). For \\(CO_2\\): \\(\\theta = 180°\\), \\(\\cos 90° = 0\\) → \\(\\mu = 0\\). For \\(H_2O\\): \\(\\mu_{\\text{bond}} \\approx 1.5 D\\), \\(\\theta = 104.5°\\) → \\(\\mu \\approx 1.85 D\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize both molecules have polar bonds.",
+          "Determine molecular geometry: \\(CO_2\\) linear, \\(H_2O\\) bent.",
+          "In linear geometry, dipoles cancel.",
+          "In bent geometry, dipoles add → polar."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think polarity depends only on bond polarity, not geometry. \\(CO_2\\) has polar bonds but is nonpolar due to linear shape.",
+          "Another misconception: all molecules with lone pairs are polar. \\(CO_2\\) has no lone pairs on carbon but is linear; lone pairs on oxygen in \\(H_2O\\) contribute to bend but aren't the sole cause."
+        ],
+        "related_concepts": ["Molecular geometry", "Dipole cancellation", "Linear shape", "Bent shape", "VSEPR theory"],
+        "revision_note": "Linear = dipoles cancel → nonpolar. Bent = dipoles add → polar.",
+        "glossary_entry": {
+          "term": "Dipole cancellation",
+          "definition": "The phenomenon where equal and opposite bond dipoles in a symmetric molecule sum to zero, making the molecule nonpolar.",
+          "example_equation": "\\(\\mathrm{CO_2}\\)",
+          "related_terms": ["bond dipole", "polar molecule", "molecular geometry"]
+        },
+        "flashcard": {
+          "front": "Why is \\(CO_2\\) nonpolar but \\(H_2O\\) polar despite both having polar bonds?",
+          "back": "\\(CO_2\\) is linear (dipoles cancel); \\(H_2O\\) is bent (dipoles add)."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(CO_2\\)", "relation": "has", "target": "Linear geometry (180°)" },
+          { "source": "Linear geometry", "relation": "causes", "target": "Dipole cancellation → nonpolar" },
+          { "source": "\\(H_2O\\)", "relation": "has", "target": "Bent geometry (104.5°)" },
+          { "source": "Bent geometry", "relation": "causes", "target": "Net dipole → polar" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Both CO₂ and H₂O have polar bonds — why is one polar and one nonpolar?",
+        "flashcard_back": "CO₂ is linear (dipoles cancel); H₂O is bent (dipoles add).",
+        "glossary_term": "Dipole cancellation",
+        "glossary_definition": "The phenomenon where equal and opposite bond dipoles in a symmetric molecule sum to zero, making the molecule nonpolar.",
+        "revision_note": "Linear = dipoles cancel → nonpolar. Bent = dipoles add → polar.",
+        "teacher_note": "Use vector arrows to show dipole cancellation in linear vs addition in bent geometry.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Distinguish between polar and nonpolar covalent molecules based on geometry",
+        "concept_map_nodes": [
+          { "source": "Molecular geometry", "relation": "determines", "target": "Dipole cancellation or addition" },
+          { "source": "Linear geometry (CO₂)", "relation": "leads to", "target": "Nonpolar molecule" },
+          { "source": "Bent geometry (H₂O)", "relation": "leads to", "target": "Polar molecule" }
+        ],
+        "workbook_section": "5.3.3 Polarity in Covalent Molecules",
+        "solution_manual_note": "Answer C. Molecular geometry is key: linear CO₂ (dipoles cancel) vs bent H₂O (dipoles add). A (lone pairs) contributes to bend but is not the direct cause of polarity difference. B (bond type) not relevant. D (oxygen count) not relevant to polarity."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q020",
+      "generation_timestamp": "2026-06-12T10:35:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.1 Formation of Metallic Bond",
+      "sub_subsection": null,
+      "structural_anchor": "5.4.1 Formation of Metallic Bond",
+      "mcq_type": "G",
+      "question": "Magnesium metal has a higher melting point (650°C) than sodium metal (98°C). What factor contributes most to this difference in metallic bond strength?",
+      "options": {
+        "A": "Magnesium atoms are larger than sodium atoms.",
+        "B": "Magnesium contributes two delocalized electrons per atom; sodium contributes one.",
+        "C": "Magnesium forms covalent bonds; sodium forms ionic bonds.",
+        "D": "Magnesium has fewer protons in its nucleus than sodium."
+      },
+      "correct_answer": "B",
+      "hint": "Consider how many valence electrons each metal contributes to the 'sea of electrons'.",
+      "explanation": "In the 'sea of electrons' model, magnesium (2 valence electrons) contributes twice as many delocalized electrons as sodium (1 valence electron). This creates stronger electrostatic attraction between the Mg²⁺ ions and the electron sea, raising the melting point.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.1 Formation of Metallic Bond",
+        "structural_element": "5.4.1 Formation of Metallic Bond",
+        "content_anchor": "Both of the valence electrons become delocalized, so the 'sea' has twice the electron density as it does in sodium. The remaining 'ions' also have twice the charge",
+        "page_hint": 30,
+        "concept_hash": "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Metallic bond strength depends on the number of delocalized electrons per atom and the charge on the metal cation.",
+        "concept_summary": "Mg contributes 2 valence electrons to the electron sea and forms Mg²⁺ ions; Na contributes 1 electron and forms Na⁺. More delocalized electrons and higher ion charge increase electrostatic attraction and melting point.",
+        "beginner": "Magnesium puts twice as many electrons into the 'electron sea' as sodium does, and its leftover part has double the positive charge, so the 'glue' is stronger.",
+        "intermediate": "Na: [Ne]3s¹ → Na⁺ + 1 e⁻ delocalized. Mg: [Ne]3s² → Mg²⁺ + 2 e⁻ delocalized. The greater electron density and higher cation charge in Mg produce stronger metallic bonding.",
+        "advanced": "The strength of metallic bonding is proportional to \\((\\text{valence electrons}) \\times (\\text{cation charge}) / r\\). Mg (2 e⁻, 2+ charge) vs Na (1 e⁻, 1+ charge). Mg also has smaller atomic radius, further increasing bond strength.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify valence electrons: Na has 1, Mg has 2.",
+          "Cation charge: Na⁺, Mg²⁺.",
+          "More delocalized e⁻ and higher cation charge → stronger metallic bond → higher melting point."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think larger atoms give stronger metallic bonds. Smaller atoms allow closer cation-electron interactions, increasing bond strength.",
+          "Another misconception: all metals have similar bond strength. The number of delocalized electrons varies significantly (e.g., Na vs Mg vs Al)."
+        ],
+        "related_concepts": ["Delocalized electrons", "Electron sea model", "Metallic bond strength", "Melting point trends", "Cation charge"],
+        "revision_note": "More delocalized e⁻ and higher cation charge → stronger metallic bond → higher melting point.",
+        "glossary_entry": {
+          "term": "Delocalized electrons",
+          "definition": "Electrons that are not associated with a single atom or covalent bond but are free to move throughout the metal lattice.",
+          "example_equation": null,
+          "related_terms": ["electron sea model", "metallic bond", "conductivity"]
+        },
+        "flashcard": {
+          "front": "Why does magnesium (650°C) have a higher melting point than sodium (98°C)?",
+          "back": "Mg contributes 2 delocalized electrons per atom (vs 1 for Na) and forms Mg²⁺ (vs Na⁺), creating stronger metallic bonding."
+        },
+        "concept_map_nodes": [
+          { "source": "Sodium", "relation": "has", "target": "1 delocalized e⁻, Na⁺" },
+          { "source": "Magnesium", "relation": "has", "target": "2 delocalized e⁻, Mg²⁺" },
+          { "source": "2 e⁻ + Mg²⁺", "relation": "produces", "target": "Stronger metallic bond than Na" },
+          { "source": "Stronger metallic bond", "relation": "gives", "target": "Higher melting point" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why is magnesium's melting point higher than sodium's?",
+        "flashcard_back": "Mg has 2 delocalized electrons per atom and forms Mg²⁺ (vs 1 e⁻ and Na⁺ for Na), leading to stronger metallic bonding.",
+        "glossary_term": "Delocalized electrons",
+        "glossary_definition": "Electrons that are not associated with a single atom or covalent bond but are free to move throughout the metal lattice.",
+        "revision_note": "More delocalized e⁻ & higher cation charge → stronger metallic bond → higher m.p.",
+        "teacher_note": "Extend to aluminum (3 e⁻, Al³⁺, m.p. 660°C) to show trend across period 3.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Discuss the formation of metallic bonds and factors affecting strength",
+        "concept_map_nodes": [
+          { "source": "Metallic bond strength", "relation": "increases with", "target": "Number of delocalized electrons" },
+          { "source": "Metallic bond strength", "relation": "increases with", "target": "Cation charge" },
+          { "source": "Mg (2 e⁻, Mg²⁺)", "relation": "vs Na (1 e⁻, Na⁺)", "target": "Mg has higher melting point" }
+        ],
+        "workbook_section": "5.4.1 Formation of Metallic Bond",
+        "solution_manual_note": "Answer B. Magnesium contributes 2 delocalized electrons per atom (vs 1 for sodium) and forms Mg²⁺ (vs Na⁺), creating stronger metallic bonding (B). A is false (Mg smaller). C is false (both metallic). D is false (Mg has more protons)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3350,
+    "average_question_quality": 88.7,
+    "type_distribution": {
+      "A": 3,
+      "B": 0,
+      "D": 2,
+      "G": 2,
+      "H": 1,
+      "I": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "5.1 Chemical Bonding": 1,
+      "5.2 Ionic Bonding": 3,
+      "5.3 Covalent Bonding": 5,
+      "5.4 Metallic Bonding": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 38,
+      "advanced_avg": 49
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

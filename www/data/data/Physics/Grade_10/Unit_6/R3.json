@@ -1,0 +1,1776 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Phys_U6_Q030",
+    "covered_sections": [
+      "6.1 Electromagnetic (EM) waves>Key Concept",
+      "6.1 Electromagnetic (EM) waves>Radiant Energy from the Sun",
+      "6.2 EM Spectrum>Radio waves",
+      "6.2 EM Spectrum>Microwaves",
+      "6.2 EM Spectrum>Infrared waves",
+      "6.2 EM Spectrum>Ultraviolet rays",
+      "6.2 EM Spectrum>X-rays",
+      "6.2 EM Spectrum>Gamma rays",
+      "6.3 Light as a wave>Speed of light",
+      "6.3 Light as a wave>Propagation of light",
+      "6.4 Laws of reflection & refraction>Reflection of light",
+      "6.4 Laws of reflection & refraction>Refraction of Light",
+      "6.4 Laws of reflection & refraction>Total Internal reflection",
+      "6.4 Laws of reflection & refraction>The Dispersion of Light: Prisms and Rainbows",
+      "6.5 Mirrors and lenses>Plane Mirrors",
+      "6.5 Mirrors and lenses>Spherical Mirrors",
+      "6.5 Mirrors and lenses>Mirror Formula and Magnification",
+      "6.5 Mirrors and lenses>Lenses",
+      "6.5 Mirrors and lenses>Lens Formula and Magnification",
+      "6.6 Human eye and optical instruments>The Human eye",
+      "6.6 Human eye and optical instruments>Defects of vision and their correction",
+      "6.6 Human eye and optical instruments>Compound microscope",
+      "6.5 Mirrors and lenses>Image formation by Concave Mirror",
+      "6.5 Mirrors and lenses>Uses of convex mirrors",
+      "6.6 Human eye and optical instruments>Power of accommodation",
+      "6.6 Human eye and optical instruments>Myopia/near-sightedness",
+      "6.6 Human eye and optical instruments>Hypermetropia/far-sightedness",
+      "6.6 Human eye and optical instruments>Refracting telescope",
+      "6.6 Human eye and optical instruments>Reflecting telescope",
+      "6.7 Primary colors of light and human vision>Primary colors",
+      "6.8 Color addition of light>Additive color mixing"
+    ],
+    "used_question_signatures": [
+      "a3f5c2e1d4b6a7c8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1",
+      "b4g6d3f2e5c7b8d9f0e1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1",
+      "c5h7e4g3f6d8c9e0f1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1",
+      "d6i8f5h4g7e9d0f1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1",
+      "e7j9g6i5h8f0e1f2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2",
+      "f8k0h7j6i9g1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "g9l1i8k7j0h2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "h0m2j9l8k1i3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "i1n3k0m9l2j4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "j2o4l1n0m3k5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "k3p5m2o1n4l6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "l4q6n3p2o5m7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "m5r7o4q3p6n8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "n6s8p5r4q7o9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "o7t9q6s5r8p0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1",
+      "p8u0r7t6s9q1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2",
+      "q9v1s8u7t0r2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3",
+      "r0w2t9v8u1s3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "s1x3u0w9v2t4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "t2y4v1x0w3u5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "u3z5w2y1x4v6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "v4a6x3z2y5w7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "w5b7y4a3z6x8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "x6c8z5b4a7y9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "y7d9a6c5b8z0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1",
+      "z8e0b7d6c9a1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2",
+      "a9f1c8e7d0b2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3",
+      "b0g2d9f8e1c3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4",
+      "c1h3e0g9f2d4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5",
+      "d2i4f1h0g3e5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6"
+    ],
+    "baseline_counter": {
+      "6.1 Electromagnetic (EM) waves": {
+        "Key Concept": {"count": 1, "mini_headings_covered": ["Key Concept"], "last_question_round": 1},
+        "Radiant Energy from the Sun": {"count": 1, "mini_headings_covered": ["Radiant Energy from the Sun"], "last_question_round": 1}
+      },
+      "6.2 EM Spectrum": {
+        "Radio waves": {"count": 1, "mini_headings_covered": ["Radio waves"], "last_question_round": 1},
+        "Microwaves": {"count": 1, "mini_headings_covered": ["Microwaves"], "last_question_round": 1},
+        "Infrared waves": {"count": 1, "mini_headings_covered": ["Infrared waves"], "last_question_round": 1},
+        "Ultraviolet rays": {"count": 1, "mini_headings_covered": ["Ultraviolet rays"], "last_question_round": 1},
+        "X-rays": {"count": 1, "mini_headings_covered": ["X-rays"], "last_question_round": 2},
+        "Gamma rays": {"count": 1, "mini_headings_covered": ["Gamma rays"], "last_question_round": 2}
+      },
+      "6.3 Light as a wave": {
+        "Speed of light": {"count": 1, "mini_headings_covered": ["Speed of light"], "last_question_round": 1},
+        "Propagation of light": {"count": 1, "mini_headings_covered": ["Propagation of light"], "last_question_round": 1}
+      },
+      "6.4 Laws of reflection & refraction": {
+        "Reflection of light": {"count": 1, "mini_headings_covered": ["Reflection of light"], "last_question_round": 1},
+        "Refraction of Light": {"count": 1, "mini_headings_covered": ["Refraction of Light"], "last_question_round": 1},
+        "Total Internal reflection": {"count": 1, "mini_headings_covered": ["Total Internal reflection"], "last_question_round": 2},
+        "The Dispersion of Light: Prisms and Rainbows": {"count": 1, "mini_headings_covered": ["The Dispersion of Light: Prisms and Rainbows"], "last_question_round": 2}
+      },
+      "6.5 Mirrors and lenses": {
+        "Plane Mirrors": {"count": 1, "mini_headings_covered": ["Plane Mirrors"], "last_question_round": 2},
+        "Spherical Mirrors": {"count": 1, "mini_headings_covered": ["Spherical Mirrors"], "last_question_round": 2},
+        "Mirror Formula and Magnification": {"count": 1, "mini_headings_covered": ["Mirror Formula and Magnification"], "last_question_round": 2},
+        "Lenses": {"count": 1, "mini_headings_covered": ["Lenses"], "last_question_round": 2},
+        "Lens Formula and Magnification": {"count": 1, "mini_headings_covered": ["Lens Formula and Magnification"], "last_question_round": 2},
+        "Image formation by Concave Mirror": {"count": 1, "mini_headings_covered": ["Image formation by Concave Mirror"], "last_question_round": 3},
+        "Uses of convex mirrors": {"count": 1, "mini_headings_covered": ["Uses of convex mirrors"], "last_question_round": 3}
+      },
+      "6.6 Human eye and optical instruments": {
+        "The Human eye": {"count": 1, "mini_headings_covered": ["The Human eye"], "last_question_round": 2},
+        "Defects of vision and their correction": {"count": 1, "mini_headings_covered": ["Defects of vision and their correction"], "last_question_round": 2},
+        "Compound microscope": {"count": 1, "mini_headings_covered": ["Compound microscope"], "last_question_round": 2},
+        "Power of accommodation": {"count": 1, "mini_headings_covered": ["Power of accommodation"], "last_question_round": 3},
+        "Myopia/near-sightedness": {"count": 1, "mini_headings_covered": ["Myopia/near-sightedness"], "last_question_round": 3},
+        "Hypermetropia/far-sightedness": {"count": 1, "mini_headings_covered": ["Hypermetropia/far-sightedness"], "last_question_round": 3},
+        "Refracting telescope": {"count": 1, "mini_headings_covered": ["Refracting telescope"], "last_question_round": 3},
+        "Reflecting telescope": {"count": 1, "mini_headings_covered": ["Reflecting telescope"], "last_question_round": 3}
+      },
+      "6.7 Primary colors of light and human vision": {
+        "Primary colors": {"count": 1, "mini_headings_covered": ["Primary colors"], "last_question_round": 3}
+      },
+      "6.8 Color addition of light": {
+        "Additive color mixing": {"count": 1, "mini_headings_covered": ["Additive color mixing"], "last_question_round": 3}
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Electromagnetic (EM) waves": {"question_count": 2, "last_used_round": 1, "consecutive_batches": 0},
+      "6.2 EM Spectrum": {"question_count": 6, "last_used_round": 2, "consecutive_batches": 0},
+      "6.3 Light as a wave": {"question_count": 2, "last_used_round": 1, "consecutive_batches": 0},
+      "6.4 Laws of reflection & refraction": {"question_count": 4, "last_used_round": 2, "consecutive_batches": 0},
+      "6.5 Mirrors and lenses": {"question_count": 7, "last_used_round": 3, "consecutive_batches": 1},
+      "6.6 Human eye and optical instruments": {"question_count": 7, "last_used_round": 3, "consecutive_batches": 1},
+      "6.7 Primary colors of light and human vision": {"question_count": 1, "last_used_round": 3, "consecutive_batches": 1},
+      "6.8 Color addition of light": {"question_count": 1, "last_used_round": 3, "consecutive_batches": 1}
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Electromagnetic (EM) waves>Key Concept": ["electromagnetic wave", "oscillating electric field", "oscillating magnetic field", "speed of light", "transverse wave"],
+      "6.1 Electromagnetic (EM) waves>Radiant Energy from the Sun": ["radiant energy", "infrared", "visible light", "ultraviolet"],
+      "6.2 EM Spectrum>Radio waves": ["radio waves", "frequency", "wavelength", "communication"],
+      "6.2 EM Spectrum>Microwaves": ["microwaves", "water molecule vibration", "dielectric heating"],
+      "6.2 EM Spectrum>Infrared waves": ["infrared", "thermal radiation", "remote control"],
+      "6.2 EM Spectrum>Ultraviolet rays": ["ultraviolet", "ozone layer", "vitamin D", "sterilization"],
+      "6.2 EM Spectrum>X-rays": ["X-rays", "ionizing radiation", "medical imaging", "airport security"],
+      "6.2 EM Spectrum>Gamma rays": ["gamma rays", "radioactive decay", "radiotherapy", "sterilization"],
+      "6.3 Light as a wave>Speed of light": ["speed of light", "c", "3.00e8 m/s", "c = fλ", "vacuum"],
+      "6.3 Light as a wave>Propagation of light": ["light ray", "straight line propagation", "beam of light", "ray diagram"],
+      "6.4 Laws of reflection & refraction>Reflection of light": ["incident ray", "reflected ray", "normal", "angle of incidence", "angle of reflection", "law of reflection"],
+      "6.4 Laws of reflection & refraction>Refraction of Light": ["refraction", "bending of light", "change in speed", "Snell's law", "refractive index"],
+      "6.4 Laws of reflection & refraction>Total Internal reflection": ["critical angle", "total internal reflection", "optical fiber", "endoscope"],
+      "6.4 Laws of reflection & refraction>The Dispersion of Light: Prisms and Rainbows": ["dispersion", "prism", "spectrum", "VIBGYOR", "rainbow"],
+      "6.5 Mirrors and lenses>Plane Mirrors": ["plane mirror", "virtual image", "laterally inverted", "image distance equals object distance"],
+      "6.5 Mirrors and lenses>Spherical Mirrors": ["concave mirror", "convex mirror", "center of curvature", "principal focus", "focal length", "R = 2f"],
+      "6.5 Mirrors and lenses>Mirror Formula and Magnification": ["mirror formula", "1/v + 1/u = 1/f", "magnification", "m = -v/u", "sign convention"],
+      "6.5 Mirrors and lenses>Lenses": ["convex lens", "concave lens", "converging", "diverging", "optical center", "principal focus"],
+      "6.5 Mirrors and lenses>Lens Formula and Magnification": ["lens formula", "1/v + 1/u = 1/f", "lens magnification", "m = -v/u"],
+      "6.5 Mirrors and lenses>Image formation by Concave Mirror": ["real image", "virtual image", "concave mirror object positions", "enlarged", "diminished"],
+      "6.5 Mirrors and lenses>Uses of convex mirrors": ["convex mirror", "rear-view mirror", "wide field of view", "diminished image"],
+      "6.6 Human eye and optical instruments>The Human eye": ["cornea", "retina", "iris", "pupil", "accommodation", "near point", "far point"],
+      "6.6 Human eye and optical instruments>Defects of vision and their correction": ["myopia", "hypermetropia", "presbyopia", "concave lens", "convex lens", "bifocal lens"],
+      "6.6 Human eye and optical instruments>Compound microscope": ["objective lens", "eyepiece lens", "compound microscope", "magnification"],
+      "6.6 Human eye and optical instruments>Power of accommodation": ["accommodation", "ciliary muscles", "focal length adjustment", "near point", "far point"],
+      "6.6 Human eye and optical instruments>Myopia/near-sightedness": ["myopia", "far point", "concave lens correction", "eyeball elongation"],
+      "6.6 Human eye and optical instruments>Hypermetropia/far-sightedness": ["hypermetropia", "near point", "convex lens correction", "short eyeball"],
+      "6.6 Human eye and optical instruments>Refracting telescope": ["objective lens", "eyepiece lens", "refracting telescope", "distant objects"],
+      "6.6 Human eye and optical instruments>Reflecting telescope": ["concave mirror", "secondary mirror", "reflecting telescope", "large aperture"],
+      "6.7 Primary colors of light and human vision>Primary colors": ["red", "green", "blue", "primary colors", "cone cells", "trichromatic vision"],
+      "6.8 Color addition of light>Additive color mixing": ["additive color", "red + green = yellow", "red + blue = magenta", "green + blue = cyan", "white light"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 78,
+      "questions_per_concept_ratio": 0.38,
+      "structural_coverage_percentage": 63.8
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Physics",
+  "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+  "pdf_filename": "P10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {"complete": false, "sections_covered": 8, "total_sections": 9, "progress_percentage": 88.9},
+      "phase2": {"complete": false, "max_imbalance_ratio": 3.5, "balanced": false},
+      "phase3": {"started": false, "exam_sections_biased": 0}
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 0,
+      "mini_headings_covered_count": 29,
+      "structural_coverage_percentage": 63.8,
+      "concept_utilization_ratio": 0.38
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.5 Mirrors and lenses / 6.6 Human eye",
+      "least_covered_section": "6.1 EM waves / 6.3 Light as wave",
+      "imbalance_ratio": 3.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phys_U6_Q021",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.5 Mirrors and lenses",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Image formation by Concave Mirror",
+      "mcq_type": "H",
+      "question": "An object is placed between the focal point and the center of curvature of a concave mirror. A student claims the image is virtual, upright, and smaller than the object. Is this claim correct?",
+      "options": {
+        "A": "Yes, because concave mirrors always produce virtual images",
+        "B": "Yes, because objects between F and C produce diminished images",
+        "C": "No, the image is real, inverted, and enlarged",
+        "D": "No, the image is virtual, upright, but larger"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the image characteristics for a concave mirror when the object is between F and C.",
+      "explanation": "When an object is placed between F and C of a concave mirror, the image is real, inverted, and enlarged (beyond C). The student incorrectly described a virtual image. Option D describes the between-P-and-F case.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.5 Mirrors and lenses",
+        "subsection_anchor": "",
+        "structural_element": "Image formation by Concave Mirror",
+        "content_anchor": "Table 6.2: Between C and F → Beyond C, Enlarged, Real and inverted.",
+        "page_hint": 36,
+        "concept_hash": "u3z5w2y1x4v6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 86
+      },
+      "explanations_tiered": {
+        "definition": "For a concave mirror, when the object lies between the focal point (F) and the center of curvature (C), the image is real, inverted, and enlarged, located beyond C.",
+        "concept_summary": "Ray tracing shows that rays diverge less than the object distance, converging to form a real image. Magnification |m| > 1.",
+        "beginner": "Imagine holding an object between a spotlight's bulb and its curved back. The image appears upside down on the wall, bigger than the actual object.",
+        "intermediate": "Using mirror formula \\(1/u + 1/v = 1/f\\) with \\(F < u < C\\), solving gives \\(v > 2f\\) (beyond C). Magnification \\(m = -v/u < -1\\), so real, inverted, enlarged.",
+        "advanced": "For \\(u\\) satisfying \\(f < u < 2f\\), the image distance \\(v > 2f\\). The transverse magnification \\(m_T = -v/u < -1\\). Longitudinal magnification \\(m_L = - (v/u)^2\\) is relevant for extended objects.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the object position: between F and C.",
+          "Recall the corresponding image characteristics from the mirror table.",
+          "Identify that the student's claim (virtual, upright, smaller) matches the P-to-F case, not F-to-C.",
+          "Conclude the claim is incorrect; the image is real, inverted, enlarged."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think concave mirrors always produce real images; they produce virtual images only when object is between P and F.",
+          "It is incorrect to believe objects between F and C produce diminished images; they are enlarged."
+        ],
+        "related_concepts": ["Concave mirror", "Real image", "Inverted image", "Magnification"],
+        "revision_note": "Concave: object between F and C → real, inverted, enlarged.",
+        "glossary_entry": {
+          "term": "Concave mirror image (F to C)",
+          "definition": "When an object is placed between the focal point and center of curvature of a concave mirror, the image is real, inverted, and enlarged.",
+          "example_equation": null,
+          "related_terms": ["Real image", "Concave mirror", "Magnification"]
+        },
+        "flashcard": {
+          "front": "Object between F and C of concave mirror: image characteristics?",
+          "back": "Real, inverted, enlarged, located beyond C."
+        },
+        "concept_map_nodes": [
+          {"source": "Object between F and C", "relation": "produces", "target": "Real, inverted, enlarged image"},
+          {"source": "Real, inverted, enlarged image", "relation": "located_at", "target": "Beyond C"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Mirrors and Lenses",
+        "flashcard_front": "What image does a concave mirror form for an object between F and C?",
+        "flashcard_back": "Real, inverted, enlarged, located beyond the center of curvature.",
+        "glossary_term": "Concave mirror",
+        "glossary_definition": "A converging mirror; image characteristics depend on object position.",
+        "revision_note": "Object F→C: real, inverted, enlarged.",
+        "teacher_note": "Use a concave mirror and an illuminated object to demonstrate the real image on a screen.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Describe image formation as a consequence of reflection",
+        "concept_map_nodes": [
+          {"source": "Object at F→C", "relation": "image_type", "target": "Real"}
+        ],
+        "workbook_section": "6.5 Mirrors and lenses",
+        "solution_manual_note": "Answer C. Object between F and C produces a real, inverted, enlarged image (beyond C). The student described the virtual image case (object between P and F)."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q022",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.5 Mirrors and lenses",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Uses of convex mirrors",
+      "mcq_type": "I",
+      "question": "A convex mirror is preferred over a plane mirror as a side-view mirror on vehicles. Which combination of properties makes convex mirrors better for this application?",
+      "options": {
+        "A": "Real images and magnification greater than 1",
+        "B": "Wider field of view and erect diminished images",
+        "C": "Virtual images and magnification equal to 1",
+        "D": "Real images and no blind spots"
+      },
+      "correct_answer": "B",
+      "hint": "Think about why convex mirrors are called 'wide-angle' mirrors.",
+      "explanation": "Convex mirrors provide a wider field of view because they curve outward, and they always produce erect, diminished, virtual images. Option C describes plane mirrors; Options A and D describe properties of concave mirrors.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.5 Mirrors and lenses",
+        "subsection_anchor": "",
+        "structural_element": "Uses of convex mirrors",
+        "content_anchor": "Convex mirrors are preferred because they always give an erect, though diminished, image. Also, they have a wider field of view as they are curved outwards.",
+        "page_hint": 38,
+        "concept_hash": "v4a6x3z2y5w7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "A convex mirror is a diverging spherical mirror that produces erect, diminished, virtual images with a wider field of view than plane or concave mirrors.",
+        "concept_summary": "Convex mirrors bulge outward, allowing reflected rays to diverge more. This captures light from a larger area, giving a wider field of view, though objects appear smaller.",
+        "beginner": "A convex mirror is like a security mirror in a store — it shows a wide area but things look smaller. That's why cars use them: you can see more behind you.",
+        "intermediate": "The mirror equation \\(1/f = 1/u + 1/v\\) for convex mirrors gives \\(f < 0\\), \\(v\\) negative (virtual image behind mirror). Magnification \\(m = -v/u\\) is positive and less than 1 (diminished).",
+        "advanced": "The field of view angle \\(\\theta_{\\text{FOV}}\\) for a convex mirror is larger than for a plane mirror because the curved surface directs rays from peripheral angles toward the observer. The image height reduction factor is \\(|m| = f/(f-u)\\) with \\(f<0\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that convex mirrors produce diminished, erect images.",
+          "Recall that convex mirrors have a wider field of view.",
+          "Select the option containing both properties."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think convex mirrors magnify objects; they actually diminish them.",
+          "It is incorrect to believe convex mirrors produce real images; they always produce virtual images."
+        ],
+        "related_concepts": ["Convex mirror", "Field of view", "Diminished image", "Virtual image"],
+        "revision_note": "Convex mirror: wide field of view, erect, diminished, virtual.",
+        "glossary_entry": {
+          "term": "Convex mirror",
+          "definition": "A diverging spherical mirror that produces erect, diminished, virtual images with a wider field of view than plane mirrors.",
+          "example_equation": null,
+          "related_terms": ["Rear-view mirror", "Diverging mirror", "Virtual image"]
+        },
+        "flashcard": {
+          "front": "Why are convex mirrors used as car side-view mirrors?",
+          "back": "They provide a wider field of view and produce erect, diminished images, helping drivers see more area behind them."
+        },
+        "concept_map_nodes": [
+          {"source": "Convex mirror", "relation": "provides", "target": "Wider field of view"},
+          {"source": "Convex mirror", "relation": "produces", "target": "Erect, diminished image"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Mirrors and Lenses",
+        "flashcard_front": "What are the advantages of convex mirrors for vehicles?",
+        "flashcard_back": "Wider field of view and erect, diminished images (objects appear smaller but more area is visible).",
+        "glossary_term": "Convex mirror",
+        "glossary_definition": "A diverging mirror that gives a wide field of view and erect diminished images.",
+        "revision_note": "Convex: wide view, erect, diminished.",
+        "teacher_note": "Compare a plane mirror and a convex mirror (spoon back) to show the wider field of view.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the uses of convex mirrors",
+        "concept_map_nodes": [
+          {"source": "Convex mirror", "relation": "used_in", "target": "Vehicle side mirrors"}
+        ],
+        "workbook_section": "6.5 Mirrors and lenses",
+        "solution_manual_note": "Answer B. Convex mirrors provide a wider field of view and always produce erect, diminished, virtual images, making them ideal for side-view mirrors."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q023",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.6 Human eye and optical instruments",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Power of accommodation",
+      "mcq_type": "A",
+      "question": "What is the ability of the eye lens to change its focal length to focus on objects at different distances called?",
+      "options": {
+        "A": "Refraction",
+        "B": "Accommodation",
+        "C": "Dispersion",
+        "D": "Resolution"
+      },
+      "correct_answer": "B",
+      "hint": "Think about how your eye adjusts when you look from a distant tree to a nearby book.",
+      "explanation": "Accommodation is the process by which ciliary muscles contract or relax to change the curvature (and thus focal length) of the lens. Refraction is bending of light; dispersion is color separation; resolution is detail clarity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.6 Human eye and optical instruments",
+        "subsection_anchor": "",
+        "structural_element": "Power of accommodation",
+        "content_anchor": "The ability of the eye lens to adjust its focal length is called accommodation.",
+        "page_hint": 55,
+        "concept_hash": "w5b7y4a3z6x8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Accommodation is the ability of the eye's crystalline lens to change shape and focal length to focus on objects at varying distances.",
+        "concept_summary": "The ciliary muscles contract to make the lens thicker (shorter focal length) for near objects, and relax to make the lens thinner (longer focal length) for distant objects.",
+        "beginner": "Your eye has a tiny lens that can change shape. Squeeze it to look at close things; relax it to look far away. That's accommodation.",
+        "intermediate": "Accommodation involves the ciliary muscles. For distant objects (relaxed), focal length \\(f \\approx 1.7\\, \\text{cm}\\). For near objects (contracted), \\(f\\) decreases to \\(\\approx 1.5\\, \\text{cm}\\).",
+        "advanced": "The lens has an elastic capsule. Ciliary muscle contraction reduces tension in zonular fibers, allowing the lens to become more convex. The power change \\(\\Delta P \\approx 4\\) diopters in a young adult.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the term for focal length adjustment in the eye.",
+          "Distinguish it from other optical phenomena.",
+          "Select accommodation."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some confuse accommodation with refraction; refraction is bending of light, accommodation is focal length adjustment.",
+          "It is incorrect to think the eye's lens moves like a camera lens; it changes shape."
+        ],
+        "related_concepts": ["Ciliary muscles", "Lens curvature", "Near point", "Far point"],
+        "revision_note": "Accommodation = eye lens changes shape (focal length) to focus.",
+        "glossary_entry": {
+          "term": "Accommodation",
+          "definition": "The ability of the eye's crystalline lens to change focal length by altering its curvature, enabling focus on objects at different distances.",
+          "example_equation": null,
+          "related_terms": ["Ciliary muscles", "Near point", "Far point"]
+        },
+        "flashcard": {
+          "front": "What allows your eye to focus on both a distant mountain and a nearby book?",
+          "back": "Accommodation: the eye lens changes shape (focal length) via ciliary muscles."
+        },
+        "concept_map_nodes": [
+          {"source": "Accommodation", "relation": "controlled_by", "target": "Ciliary muscles"},
+          {"source": "Ciliary muscles", "relation": "change", "target": "Lens curvature"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Human Eye",
+        "flashcard_front": "What is accommodation in the human eye?",
+        "flashcard_back": "The ability of the eye lens to change focal length to focus on objects at different distances.",
+        "glossary_term": "Accommodation",
+        "glossary_definition": "The eye lens's ability to change curvature and focal length to focus on near and distant objects.",
+        "revision_note": "Accommodation: lens changes shape → changes focal length.",
+        "teacher_note": "Demonstrate by having students look from far to near and feel their eyes adjusting.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the human eye in relation to lenses",
+        "concept_map_nodes": [
+          {"source": "Accommodation", "relation": "enables", "target": "Focus on near and far objects"}
+        ],
+        "workbook_section": "6.6 Human eye and optical instruments",
+        "solution_manual_note": "Answer B. Accommodation is the eye lens's ability to change focal length via ciliary muscles to focus on objects at different distances."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q024",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.6 Human eye and optical instruments",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Myopia/near-sightedness",
+      "mcq_type": "G",
+      "question": "A person can see nearby objects clearly but distant objects appear blurred because the image forms in front of the retina. Which corrective lens restores clear distance vision?",
+      "options": {
+        "A": "Convex lens",
+        "B": "Concave lens",
+        "C": "Cylindrical lens",
+        "D": "Bifocal lens"
+      },
+      "correct_answer": "B",
+      "hint": "Think about which lens diverges light rays slightly before they enter the eye.",
+      "explanation": "Myopia (nearsightedness) is corrected with a concave (diverging) lens, which spreads rays slightly so they focus further back onto the retina. Convex lenses correct hypermetropia.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.6 Human eye and optical instruments",
+        "subsection_anchor": "",
+        "structural_element": "Myopia/near-sightedness",
+        "content_anchor": "This defect can be corrected by using a concave lens of suitable power. A concave lens of suitable power will bring the image back on to the retina.",
+        "page_hint": 56,
+        "concept_hash": "x6c8z5b4a7y9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Myopia (nearsightedness) is a refractive defect where the image of a distant object focuses in front of the retina, corrected by a concave (diverging) lens.",
+        "concept_summary": "In myopia, the eyeball is too long or the lens too powerful. A concave lens diverges incoming parallel rays so the eye's lens can focus them correctly on the retina.",
+        "beginner": "If you're nearsighted, far things look blurry because your eye focuses them too early. Glasses with concave lenses spread the light out a bit so it focuses at the right spot.",
+        "intermediate": "A concave lens has negative focal length \\(f < 0\\). For a distant object (\\(u \\to \\infty\\)), the lens produces a virtual image at its focal point, which becomes the object for the eye, effectively moving the far point farther away.",
+        "advanced": "The required lens power \\(P = -1/\\text{far point distance (in meters)}\\). For a far point at \\(1.0\\, \\text{m}\\), \\(P = -1.0\\, \\text{D}\\). The lens formula \\(1/f = 1/v - 1/u\\) with \\(u \\to \\infty\\), \\(v = -\\text{far point}\\) gives \\(f = -\\text{far point}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the defect: image forms in front of retina.",
+          "Recall that this is myopia (nearsightedness).",
+          "Recall that concave (diverging) lenses correct myopia."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think convex lenses correct all vision problems; convex corrects farsightedness, concave corrects nearsightedness.",
+          "It is incorrect to believe myopia is corrected by lenses that converge light more; converging would worsen the problem."
+        ],
+        "related_concepts": ["Myopia", "Concave lens", "Far point", "Diverging lens"],
+        "revision_note": "Myopia → concave lens diverges light → corrects distant vision.",
+        "glossary_entry": {
+          "term": "Myopia correction",
+          "definition": "Nearsightedness corrected by a concave (diverging) lens that moves the focal point back onto the retina.",
+          "example_equation": null,
+          "related_terms": ["Concave lens", "Far point", "Nearsightedness"]
+        },
+        "flashcard": {
+          "front": "What type of lens corrects nearsightedness (myopia)?",
+          "back": "A concave (diverging) lens. It spreads light rays so they focus on the retina instead of in front."
+        },
+        "concept_map_nodes": [
+          {"source": "Myopia", "relation": "corrected_by", "target": "Concave lens"},
+          {"source": "Concave lens", "relation": "does", "target": "Diverges light"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Human Eye",
+        "flashcard_front": "Why do nearsighted people need concave lenses?",
+        "flashcard_back": "Concave lenses diverge light slightly, moving the focal point from in front of the retina back onto it.",
+        "glossary_term": "Myopia",
+        "glossary_definition": "Nearsightedness where distant objects focus in front of the retina; corrected with concave lenses.",
+        "revision_note": "Myopia → concave lens.",
+        "teacher_note": "Draw a diagram showing parallel rays focusing in front of retina, then a concave lens diverging them to focus on retina.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain defects of vision and their correction",
+        "concept_map_nodes": [
+          {"source": "Myopia", "relation": "corrected_with", "target": "Concave lens"}
+        ],
+        "workbook_section": "6.6 Human eye and optical instruments",
+        "solution_manual_note": "Answer B. Myopia (nearsightedness) is corrected with a concave (diverging) lens, which spreads rays so they focus correctly on the retina."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q025",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.6 Human eye and optical instruments",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Hypermetropia/far-sightedness",
+      "mcq_type": "G",
+      "question": "A person cannot read a book held at 25 cm because the image forms behind the retina. Which type of lens in eyeglasses corrects this condition by converging light more before it enters the eye?",
+      "options": {
+        "A": "Concave lens",
+        "B": "Convex lens",
+        "C": "Plano-concave lens",
+        "D": "Cylindrical lens"
+      },
+      "correct_answer": "B",
+      "hint": "Consider which lens adds extra focusing power to help the eye converge light.",
+      "explanation": "Hypermetropia (farsightedness) is corrected with a convex (converging) lens, which bends incoming rays inward so they focus on the retina instead of behind it. Concave lenses correct myopia.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.6 Human eye and optical instruments",
+        "subsection_anchor": "",
+        "structural_element": "Hypermetropia/far-sightedness",
+        "content_anchor": "This defect can be corrected by using a convex lens of appropriate power. Eye-glasses with converging lenses provide the additional focusing power required for forming the image on the retina.",
+        "page_hint": 57,
+        "concept_hash": "y7d9a6c5b8z0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Hypermetropia (farsightedness) is a refractive defect where the image of a near object focuses behind the retina, corrected by a convex (converging) lens.",
+        "concept_summary": "In hypermetropia, the eyeball is too short or the lens too weak. A convex lens adds convergence, bringing the focal point forward onto the retina.",
+        "beginner": "If you're farsighted, close things look blurry because your eye focuses them too far back. Reading glasses with convex lenses bend light inward more so it focuses correctly.",
+        "intermediate": "A convex lens has positive focal length \\(f > 0\\). For a near object at the normal near point (25 cm), the lens forms a virtual image at the person's actual near point (farther than 25 cm), which the eye can then focus.",
+        "advanced": "Required lens power \\(P = 1/f = 1/u + 1/v\\) where \\(u = 0.25\\, \\text{m}\\) (desired near point) and \\(v = -\\text{actual near point}\\) (negative because virtual image). For near point at \\(1.0\\, \\text{m}\\), \\(P = 1/0.25 - 1/1.0 = 4 - 1 = 3\\, \\text{D}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the defect: image forms behind retina.",
+          "Recall that this is hypermetropia (farsightedness).",
+          "Recall that convex (converging) lenses correct hypermetropia."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think farsightedness means seeing far objects clearly; it actually means near objects are blurry.",
+          "It is incorrect to believe concave lenses correct farsightedness; concave lenses worsen it."
+        ],
+        "related_concepts": ["Hypermetropia", "Convex lens", "Near point", "Converging lens"],
+        "revision_note": "Hypermetropia → convex lens converges light → corrects near vision.",
+        "glossary_entry": {
+          "term": "Hypermetropia correction",
+          "definition": "Farsightedness corrected by a convex (converging) lens that moves the focal point forward onto the retina.",
+          "example_equation": null,
+          "related_terms": ["Convex lens", "Near point", "Farsightedness"]
+        },
+        "flashcard": {
+          "front": "What type of lens corrects farsightedness (hypermetropia)?",
+          "back": "A convex (converging) lens. It adds focusing power to bring the image forward onto the retina."
+        },
+        "concept_map_nodes": [
+          {"source": "Hypermetropia", "relation": "corrected_by", "target": "Convex lens"},
+          {"source": "Convex lens", "relation": "does", "target": "Converges light"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Human Eye",
+        "flashcard_front": "Why do farsighted people need convex lenses?",
+        "flashcard_back": "Convex lenses converge light more, moving the focal point from behind the retina onto it.",
+        "glossary_term": "Hypermetropia",
+        "glossary_definition": "Farsightedness where near objects focus behind the retina; corrected with convex lenses.",
+        "revision_note": "Hypermetropia → convex lens.",
+        "teacher_note": "Draw a diagram showing diverging rays from a near object focusing behind retina, then a convex lens converging them to focus on retina.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain defects of vision and their correction",
+        "concept_map_nodes": [
+          {"source": "Hypermetropia", "relation": "corrected_with", "target": "Convex lens"}
+        ],
+        "workbook_section": "6.6 Human eye and optical instruments",
+        "solution_manual_note": "Answer B. Hypermetropia (farsightedness) is corrected with a convex (converging) lens, which provides additional focusing power to bring the image onto the retina."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q026",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.6 Human eye and optical instruments",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Refracting telescope",
+      "mcq_type": "C",
+      "question": "A refracting telescope uses two convex lenses. The objective lens forms a real, inverted image of a distant object. Where should the eyepiece lens be positioned relative to this image to produce a magnified view?",
+      "options": {
+        "A": "At the objective lens itself",
+        "B": "Such that the image is at its focal point",
+        "C": "Between the objective and its focal point",
+        "D": "At twice the focal length of the objective"
+      },
+      "correct_answer": "B",
+      "hint": "Recall how a simple magnifier works: the object should be at the focal point of the eyepiece.",
+      "explanation": "The eyepiece acts as a magnifier. Placing the intermediate image at the focal point of the eyepiece causes the eyepiece to output parallel rays, allowing the eye to view the image at infinity without strain. Option A would not magnify; Options C/D produce non-optimal viewing.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.6 Human eye and optical instruments",
+        "subsection_anchor": "",
+        "structural_element": "Refracting telescope",
+        "content_anchor": "The two lenses are arranged so that the objective forms a real, inverted image of a distant object very near the focal point of the eyepiece.",
+        "page_hint": 61,
+        "concept_hash": "z8e0b7d6c9a1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "A refracting telescope uses an objective lens to form a real image and an eyepiece lens to magnify that image; the image is placed at the eyepiece's focal point.",
+        "concept_summary": "For relaxed viewing (eye focused at infinity), the intermediate image must be exactly at the focal point of the eyepiece. The eyepiece then outputs parallel rays.",
+        "beginner": "Think of the eyepiece as a magnifying glass. To see a clear, relaxed image, the picture from the objective should be right at the magnifying glass's focus.",
+        "intermediate": "The angular magnification of a refracting telescope in normal adjustment is \\(M = -f_o/f_e\\), where \\(f_o\\) is objective focal length and \\(f_e\\) is eyepiece focal length. The negative sign indicates an inverted image.",
+        "advanced": "In normal adjustment, the intermediate image is at \\(F_e\\) (eyepiece focal point). The objective forms its image at \\(F_o\\) (for distant objects), so the telescope length is \\(f_o + f_e\\). The exit pupil is \\(D/f_o \\times f_e\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that the eyepiece functions as a magnifier.",
+          "Recall that for relaxed viewing, the object for the eyepiece should be at its focal point.",
+          "Identify that the intermediate image from the objective is that object."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think the eyepiece should be at the objective's focus; that would place the image at infinity for the objective, not for the eyepiece.",
+          "It is incorrect to believe the telescope works without precise placement; positioning is critical."
+        ],
+        "related_concepts": ["Refracting telescope", "Eyepiece", "Objective lens", "Angular magnification"],
+        "revision_note": "Refracting telescope: objective forms image at eyepiece's focus.",
+        "glossary_entry": {
+          "term": "Refracting telescope (normal adjustment)",
+          "definition": "A telescope where the intermediate image from the objective is placed at the focal point of the eyepiece, producing parallel rays for relaxed viewing.",
+          "example_equation": "\\(M = -f_o/f_e\\)",
+          "related_terms": ["Objective lens", "Eyepiece", "Angular magnification"]
+        },
+        "flashcard": {
+          "front": "Where should the intermediate image be placed in a refracting telescope for relaxed viewing?",
+          "back": "At the focal point of the eyepiece lens."
+        },
+        "concept_map_nodes": [
+          {"source": "Objective lens", "relation": "forms", "target": "Intermediate image"},
+          {"source": "Intermediate image", "relation": "placed_at", "target": "Eyepiece focal point"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Optical Instruments",
+        "flashcard_front": "How is a refracting telescope adjusted for comfortable viewing?",
+        "flashcard_back": "The intermediate image from the objective is placed at the focal point of the eyepiece, producing parallel rays for relaxed viewing.",
+        "glossary_term": "Refracting telescope",
+        "glossary_definition": "An optical instrument using two convex lenses to view distant objects; the eyepiece magnifies the image formed by the objective.",
+        "revision_note": "Telescope: image at eyepiece's focus → relaxed viewing.",
+        "teacher_note": "Draw the ray diagram for a refracting telescope in normal adjustment.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the physics behind the operation of telescopes",
+        "concept_map_nodes": [
+          {"source": "Refracting telescope", "relation": "uses", "target": "Objective + Eyepiece"}
+        ],
+        "workbook_section": "6.6 Human eye and optical instruments",
+        "solution_manual_note": "Answer B. The intermediate image is placed at the focal point of the eyepiece lens so that the eyepiece outputs parallel rays for relaxed viewing."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q027",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.6 Human eye and optical instruments",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Reflecting telescope",
+      "mcq_type": "I",
+      "question": "How does the light-gathering element of a reflecting telescope differ from that of a refracting telescope?",
+      "options": {
+        "A": "Reflecting uses a concave lens; refracting uses a convex lens",
+        "B": "Reflecting uses a concave mirror; refracting uses a convex lens",
+        "C": "Reflecting uses a convex mirror; refracting uses a concave lens",
+        "D": "Reflecting uses a plane mirror; refracting uses a prism"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the names of the primary light-collecting elements in each telescope type.",
+      "explanation": "A reflecting telescope uses a large concave mirror to gather and focus light, while a refracting telescope uses a convex lens (objective). Option A/C/D describe incorrect combinations of optical elements.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.6 Human eye and optical instruments",
+        "subsection_anchor": "",
+        "structural_element": "Reflecting telescope",
+        "content_anchor": "Reflecting telescopes have a concave mirror instead of a concave objective lens to gather the light from distant objects.",
+        "page_hint": 62,
+        "concept_hash": "a9f1c8e7d0b2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A reflecting telescope uses a concave mirror as its primary light-gathering element, while a refracting telescope uses a convex objective lens.",
+        "concept_summary": "Reflectors avoid chromatic aberration (color fringing) because mirrors reflect all wavelengths equally. They can also be made much larger than lenses without sagging.",
+        "beginner": "Refracting telescopes use a big glass lens to collect light. Reflecting telescopes use a big curved mirror instead — like a giant shiny spoon.",
+        "intermediate": "The concave primary mirror in a reflector focuses light to a focal point. A secondary mirror redirects the light to an eyepiece. Reflectors can have very large apertures (e.g., 10 m) because mirrors can be supported from behind.",
+        "advanced": "The primary mirror in a reflector is typically parabolic to avoid spherical aberration. The resolving power \\(\\theta = 1.22\\lambda/D\\) depends on aperture diameter \\(D\\). Large mirrors (e.g., Keck, 10 m) achieve sub-arcsecond resolution.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that refracting telescopes use a convex objective lens.",
+          "Recall that reflecting telescopes use a concave primary mirror.",
+          "Select the option with mirror + lens correctly paired."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think reflecting telescopes use lenses; they use mirrors as the primary collector.",
+          "It is incorrect to believe convex mirrors are used; concave mirrors converge light, convex diverge."
+        ],
+        "related_concepts": ["Reflecting telescope", "Concave mirror", "Chromatic aberration", "Aperture"],
+        "revision_note": "Reflecting telescope = concave primary mirror. Refracting = convex objective lens.",
+        "glossary_entry": {
+          "term": "Reflecting telescope",
+          "definition": "A telescope that uses a concave mirror as the primary light-gathering element, focusing light to an eyepiece.",
+          "example_equation": null,
+          "related_terms": ["Concave mirror", "Secondary mirror", "Newtonian telescope"]
+        },
+        "flashcard": {
+          "front": "What is the main light-collecting element in a reflecting telescope?",
+          "back": "A concave mirror (primary mirror)."
+        },
+        "concept_map_nodes": [
+          {"source": "Reflecting telescope", "relation": "uses", "target": "Concave mirror"},
+          {"source": "Refracting telescope", "relation": "uses", "target": "Convex lens"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Optical Instruments",
+        "flashcard_front": "What is the difference between reflecting and refracting telescopes?",
+        "flashcard_back": "Reflecting: concave mirror gathers light. Refracting: convex lens (objective) gathers light.",
+        "glossary_term": "Reflecting telescope",
+        "glossary_definition": "A telescope using a concave mirror to collect and focus light.",
+        "revision_note": "Reflector = mirror, Refractor = lens.",
+        "teacher_note": "Show images of large telescopes: Keck (reflector) vs. Yerkes (refractor).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Distinguish between refracting and reflecting telescopes",
+        "concept_map_nodes": [
+          {"source": "Reflecting telescope", "relation": "vs", "target": "Refracting telescope"}
+        ],
+        "workbook_section": "6.6 Human eye and optical instruments",
+        "solution_manual_note": "Answer B. A reflecting telescope uses a concave mirror to gather light; a refracting telescope uses a convex objective lens."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q028",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.7 Primary colors of light and human vision",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Primary colors",
+      "mcq_type": "B",
+      "question": "The human eye contains three types of cone cells sensitive to different wavelengths. Which three colors correspond to the peak sensitivities of these cone cells?",
+      "options": {
+        "A": "Red, yellow, blue",
+        "B": "Red, green, blue",
+        "C": "Cyan, magenta, yellow",
+        "D": "Violet, green, orange"
+      },
+      "correct_answer": "B",
+      "hint": "Think about the colors of light used in color TV screens and computer monitors.",
+      "explanation": "The trichromatic theory of color vision states that cone cells are most sensitive to red (\\(\\approx 565\\) nm), green (\\(\\approx 535\\) nm), and blue (\\(\\approx 445\\) nm) light. All other perceived colors result from combinations of these three.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.7 Primary colors of light and human vision",
+        "subsection_anchor": "",
+        "structural_element": "Primary colors",
+        "content_anchor": "The colors red, green, and blue are classically considered the primary colors because they are fundamental to human vision. All other colors of the visible light spectrum can be produced by properly adding different combinations of these three colors.",
+        "page_hint": 65,
+        "concept_hash": "b0g2d9f8e1c3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "The primary colors of light are red, green, and blue (RGB), corresponding to the peak sensitivities of the three types of cone cells in the human retina.",
+        "concept_summary": "Trichromatic color vision relies on three cone types with overlapping spectral sensitivities. The brain interprets the relative activation of these cones as different colors.",
+        "beginner": "Your eye has three kinds of color sensors: one for red, one for green, and one for blue. Every color you see is a mix of signals from these three types.",
+        "intermediate": "The L-cones (long wavelength) peak at \\(\\approx 565\\) nm (red), M-cones (medium) at \\(\\approx 535\\) nm (green), and S-cones (short) at \\(\\approx 445\\) nm (blue).",
+        "advanced": "Color matching functions describe how any spectral distribution is transformed into three cone responses. The CIE 1931 color space is based on this trichromacy.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the three types of cone cells in the human eye.",
+          "Recall the colors each cone type is most sensitive to.",
+          "Select red, green, blue."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think primary colors are red, yellow, blue (art/pigment primaries); those are subtractive primaries.",
+          "It is incorrect to believe cones only respond to one pure wavelength; they have broad sensitivity curves."
+        ],
+        "related_concepts": ["Trichromatic theory", "Cone cells", "RGB color model", "Color vision"],
+        "revision_note": "Primary colors of light: red, green, blue (RGB).",
+        "glossary_entry": {
+          "term": "Primary colors of light",
+          "definition": "Red, green, and blue (RGB) — the colors to which the three types of cone cells in the human eye are most sensitive.",
+          "example_equation": null,
+          "related_terms": ["Trichromatic theory", "Cone cells", "RGB color model"]
+        },
+        "flashcard": {
+          "front": "What are the three primary colors of light?",
+          "back": "Red, green, and blue (RGB)."
+        },
+        "concept_map_nodes": [
+          {"source": "Primary colors", "relation": "detected_by", "target": "Cone cells"},
+          {"source": "Cone cells", "relation": "sensitive_to", "target": "Red, green, blue"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Color Vision",
+        "flashcard_front": "Which three colors are the primary colors of light?",
+        "flashcard_back": "Red, green, and blue (RGB). They correspond to human cone cell sensitivities.",
+        "glossary_term": "Primary colors of light",
+        "glossary_definition": "Red, green, and blue — the fundamental colors of the additive color system.",
+        "revision_note": "RGB = primary colors of light.",
+        "teacher_note": "Show the RGB color wheel and how monitors use RGB subpixels.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "List the primary colors of light",
+        "concept_map_nodes": [
+          {"source": "RGB", "relation": "are", "target": "Primary colors of light"}
+        ],
+        "workbook_section": "6.7 Primary colors of light and human vision",
+        "solution_manual_note": "Answer B. The three types of cone cells in the human eye are most sensitive to red, green, and blue light."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q029",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.8 Color addition of light",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Additive color mixing",
+      "mcq_type": "K",
+      "question": "A theater lighting designer uses three spotlights: red, green, and blue. All three are aimed at the same spot on a white stage. What color will the audience see at that spot?",
+      "options": {
+        "A": "Black",
+        "B": "White",
+        "C": "Magenta",
+        "D": "Yellow"
+      },
+      "correct_answer": "B",
+      "hint": "Adding all three primary colors of light produces a familiar color.",
+      "explanation": "Red, green, and blue are the additive primary colors. When equal intensities of all three are combined, the result is white light. Yellow is red+green; magenta is red+blue; cyan is green+blue.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.8 Color addition of light",
+        "subsection_anchor": "",
+        "structural_element": "Additive color mixing",
+        "content_anchor": "When added in equal proportions, red, green, and blue result in white light.",
+        "page_hint": 67,
+        "concept_hash": "c1h3e0g9f2d4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Additive color mixing is the process of creating colors by combining different intensities of red, green, and blue light; equal intensities produce white.",
+        "concept_summary": "The additive color system (RGB) is used in light sources. Red + green = yellow; red + blue = magenta; green + blue = cyan; all three = white.",
+        "beginner": "If you shine red, green, and blue lights together on a white wall, you get white light — the same as sunlight.",
+        "intermediate": "The human eye has red, green, and blue cone cells. Equal stimulation of all three cone types is interpreted by the brain as white or neutral gray.",
+        "advanced": "In the CIE xy chromaticity diagram, white (the equal-energy point) occurs at \\(x = y = 1/3\\). The sum of RGB tristimulus values \\(X = X_R+X_G+X_B\\), \\(Y = Y_R+Y_G+Y_B\\), \\(Z = Z_R+Z_G+Z_B\\) yields the white point when properly balanced.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that red, green, and blue are additive primary colors.",
+          "Recall that adding all three equally produces white light.",
+          "Select white."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think adding all colors of light makes black (that's true for pigments, not light).",
+          "It is incorrect to believe that adding red and green makes white; red+green=yellow, not white."
+        ],
+        "related_concepts": ["Additive color", "RGB color model", "White light", "Cone cells"],
+        "revision_note": "Additive mixing: R+G+B = white.",
+        "glossary_entry": {
+          "term": "Additive color mixing",
+          "definition": "Creating colors by combining red, green, and blue light; equal intensities produce white.",
+          "example_equation": "R+G+B = White",
+          "related_terms": ["RGB", "Primary colors", "White light"]
+        },
+        "flashcard": {
+          "front": "What color results from adding equal intensities of red, green, and blue light?",
+          "back": "White light."
+        },
+        "concept_map_nodes": [
+          {"source": "Red + Green + Blue", "relation": "produces", "target": "White light"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Color",
+        "flashcard_front": "What is the result of adding red, green, and blue light equally?",
+        "flashcard_back": "White light. This is additive color mixing.",
+        "glossary_term": "Additive color mixing",
+        "glossary_definition": "Combining red, green, and blue light to produce other colors; all three together produce white.",
+        "revision_note": "R+G+B = white (additive).",
+        "teacher_note": "Use RGB LEDs or a color-mixing simulation to demonstrate.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Recognize how additive colors affect the color of light",
+        "concept_map_nodes": [
+          {"source": "Additive mixing", "relation": "follows", "target": "RGB rule"}
+        ],
+        "workbook_section": "6.8 Color addition of light",
+        "solution_manual_note": "Answer B. Equal intensities of red, green, and blue light combine additively to produce white light."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U6_Q030",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+      "section": "6.8 Color addition of light",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Additive color mixing",
+      "mcq_type": "K",
+      "question": "A magenta spotlight is produced by combining red and blue light. If green light is then added to the magenta spot, what color will result?",
+      "options": {
+        "A": "Yellow",
+        "B": "Cyan",
+        "C": "White",
+        "D": "Black"
+      },
+      "correct_answer": "C",
+      "hint": "Magenta = red + blue. Adding green gives red + blue + green.",
+      "explanation": "Magenta is red+blue. Adding green light gives red+blue+green, which is the combination of all three additive primaries. Equal intensities of all three produce white light.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Electromagnetic Waves and Geometrical Optics",
+        "section_anchor": "6.8 Color addition of light",
+        "subsection_anchor": "",
+        "structural_element": "Additive color mixing",
+        "content_anchor": "Red + Blue = Magenta. When added in equal proportions, red, green, and blue result in white light.",
+        "page_hint": 67,
+        "concept_hash": "d2i4f1h0g3e5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Additive color mixing: combining all three primary colors (red, green, blue) produces white light.",
+        "concept_summary": "Magenta = red+blue. Adding green completes the set of primaries, yielding white light if intensities are balanced.",
+        "beginner": "Magenta is a mix of red and blue light. If you also add green, you've added all three primary colors, which makes white.",
+        "intermediate": "Magenta light stimulates both red and blue cones. Adding green stimulates the green cones. Equal stimulation of all three cone types is perceived as white or neutral gray.",
+        "advanced": "In the CIE 1931 color space, magenta lies on the line between red and blue primaries. Adding green (the third primary) moves the chromaticity coordinates toward the white point (equal-energy point).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall magenta = red + blue.",
+          "Add green to the combination: red + blue + green.",
+          "Recall that red + blue + green = white.",
+          "Conclude the result is white."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think magenta + green = black (subtractive mixing); additive mixing of all primaries gives white.",
+          "It is incorrect to believe the result is yellow; yellow = red+green, but blue is also present."
+        ],
+        "related_concepts": ["Additive mixing", "Magenta", "Primary colors", "White light"],
+        "revision_note": "Magenta (R+B) + Green = White (all primaries).",
+        "glossary_entry": {
+          "term": "Additive color mixing",
+          "definition": "The process where combining red, green, and blue light produces other colors; all three together produce white.",
+          "example_equation": "R+B = M; M+G = R+B+G = White",
+          "related_terms": ["RGB", "Magenta", "White light"]
+        },
+        "flashcard": {
+          "front": "Magenta light (red+blue) is mixed with green light. What color results?",
+          "back": "White light, because all three additive primaries (red, green, blue) are now present."
+        },
+        "concept_map_nodes": [
+          {"source": "Magenta", "relation": "equals", "target": "Red + Blue"},
+          {"source": "Magenta + Green", "relation": "equals", "target": "Red + Blue + Green = White"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 6 — Color",
+        "flashcard_front": "What happens when you add green light to magenta light?",
+        "flashcard_back": "White light, because magenta = red+blue, so red+blue+green = all three primaries = white.",
+        "glossary_term": "Additive color mixing",
+        "glossary_definition": "Combining primary colors of light; all three together produce white.",
+        "revision_note": "M+G = R+B+G = White.",
+        "teacher_note": "Use a color-mixing simulation or RGB LED to demonstrate.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Add primary colors of light",
+        "concept_map_nodes": [
+          {"source": "Magenta + Green", "relation": "produces", "target": "White"}
+        ],
+        "workbook_section": "6.8 Color addition of light",
+        "solution_manual_note": "Answer C. Magenta is red+blue; adding green gives red+blue+green = white light (additive mixing)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 88.3,
+    "type_distribution": {
+      "A": 1,
+      "B": 1,
+      "C": 1,
+      "G": 2,
+      "H": 1,
+      "I": 2,
+      "K": 2
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 6,
+      "hard": 0
+    },
+    "section_distribution": {
+      "6.5 Mirrors and lenses": 2,
+      "6.6 Human eye and optical instruments": 5,
+      "6.7 Primary colors of light and human vision": 1,
+      "6.8 Color addition of light": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 38,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

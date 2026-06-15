@@ -190,32 +190,85 @@
             Filters
           </button>
           <div class="filter-row" id="filter-row-container">
-            <select id="filter-subject" class="filter-select">
-              <option value="">All Subjects</option>
-            </select>
-            <select id="filter-grade" class="filter-select">
-              <option value="">All Grades</option>
-            </select>
-            <select id="filter-unit" class="filter-select">
-              <option value="">All Units</option>
-            </select>
-            <select id="filter-section" class="filter-select">
-              <option value="">All Sections</option>
-            </select>
-            <select id="filter-difficulty" class="filter-select">
-              <option value="">Any Difficulty</option>
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>
-            </select>
-            <select id="filter-status" class="filter-select">
-              <option value="">All Questions</option>
-              <option value="unanswered">Unanswered</option>
-              <option value="correct">Correct</option>
-              <option value="wrong">Wrong</option>
-              <option value="bookmarked">Bookmarked</option>
-              <option value="revision">Must Revise</option>
-            </select>
+            <!-- Custom Select: Subject -->
+            <div class="custom-select-wrapper" id="wrapper-filter-subject">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Subjects</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-subject" class="filter-select" style="display:none;">
+                <option value="">All Subjects</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Grade -->
+            <div class="custom-select-wrapper" id="wrapper-filter-grade">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Grades</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-grade" class="filter-select" style="display:none;">
+                <option value="">All Grades</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Unit -->
+            <div class="custom-select-wrapper" id="wrapper-filter-unit">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Units</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-unit" class="filter-select" style="display:none;">
+                <option value="">All Units</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Section -->
+            <div class="custom-select-wrapper" id="wrapper-filter-section">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Sections</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-section" class="filter-select" style="display:none;">
+                <option value="">All Sections</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Difficulty -->
+            <div class="custom-select-wrapper" id="wrapper-filter-difficulty">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">Any Difficulty</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-difficulty" class="filter-select" style="display:none;">
+                <option value="">Any Difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Status -->
+            <div class="custom-select-wrapper" id="wrapper-filter-status">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Questions</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-status" class="filter-select" style="display:none;">
+                <option value="">All Questions</option>
+                <option value="unanswered">Unanswered</option>
+                <option value="correct">Correct</option>
+                <option value="wrong">Wrong</option>
+                <option value="bookmarked">Bookmarked</option>
+                <option value="revision">Must Revise</option>
+              </select>
+            </div>
             <button class="filter-btn" id="btn-grid-view">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
               Grid

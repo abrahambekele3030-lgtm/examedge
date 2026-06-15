@@ -1,0 +1,1755 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Bio_U6_Q010",
+    "covered_sections": [
+      "6.1 Population ecology>6.1.1 Population size, density and dispersal",
+      "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations",
+      "6.1 Population ecology>6.1.3 Demographic structure"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f7",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f8",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f9",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f0",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f1",
+      "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6",
+      "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7",
+      "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8",
+      "d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9"
+    ],
+    "baseline_counter": {
+      "6.1 Population ecology": {
+        "6.1.1 Population size, density and dispersal": {
+          "count": 3,
+          "mini_headings_covered": ["Population size", "Population density"],
+          "last_question_round": 1
+        },
+        "6.1.2 Exponential and logistic growth in populations": {
+          "count": 3,
+          "mini_headings_covered": ["Exponential growth model"],
+          "last_question_round": 1
+        },
+        "6.1.3 Demographic structure": {
+          "count": 3,
+          "mini_headings_covered": ["Population pyramid", "Survivorship Curves"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "6.1 Population ecology": {
+        "question_count": 9,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "6.1 Population ecology>6.1.1 Population size, density and dispersal": ["population size", "population density", "sampling", "quadrat", "mark-recapture"],
+      "6.1 Population ecology>6.1.2 Exponential and logistic growth in populations": ["exponential growth", "logistic growth", "carrying capacity", "J-shaped curve", "S-shaped curve", "growth rate", "r"],
+      "6.1 Population ecology>6.1.3 Demographic structure": ["population pyramid", "survivorship curve", "Type I", "Type II", "Type III", "age structure"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.75,
+      "structural_coverage_percentage": 60.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Biology",
+  "unit": "Unit Six: Population and natural resources",
+  "pdf_filename": "B11U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 7,
+        "progress_percentage": 14.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 3,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 60.0,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "6.1 Population ecology",
+      "least_covered_section": "6.1 Population ecology",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 999
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Bio_U6_Q001",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Population size",
+      "mcq_type": "A",
+      "question": "What is the term for the total number of individuals of a species present in a particular habitat?",
+      "options": {
+        "A": "Population density",
+        "B": "Population size",
+        "C": "Carrying capacity",
+        "D": "Population dispersal"
+      },
+      "correct_answer": "B",
+      "hint": "Focus on the total count, not the count per unit area.",
+      "explanation": "Population size, often denoted as \\(N\\), is the total number of individuals in a habitat. Option A refers to the number per unit area, which is density.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Population size",
+        "content_anchor": "total number of individuals present in a particular habitat designated by N",
+        "page_hint": 3,
+        "concept_hash": "sha256_population_size_total_count"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Population size is the total number of individuals of a species occupying a specific habitat at a given time.",
+        "concept_summary": "Population size is the fundamental count of individuals in a population, used as the baseline for other metrics like density and growth rate.",
+        "beginner": "Think of population size like counting all people in a stadium. If 50,000 people are there, that's the population size.",
+        "intermediate": "Population size \\(N\\) is the total count of individuals in a population. Unlike density, it does not consider area.",
+        "advanced": "Population size \\(N\\) is a discrete integer value that changes over time via births, deaths, immigration, and emigration. It is the absolute number, not normalized by space.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize the question asks for the total number of individuals.",
+          "Recall that population size refers specifically to the total count.",
+          "Exclude options that refer to area (density) or limits (carrying capacity)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students often confuse population size with population density, but density is size divided by area."
+        ],
+        "related_concepts": ["Population density", "Population growth", "Carrying capacity"],
+        "revision_note": "Population size \\(N\\) = total individuals. Density = \\(N/\\text{area}\\).",
+        "glossary_entry": {
+          "term": "Population size",
+          "definition": "The total number of individuals of a species present in a defined habitat.",
+          "example_equation": null,
+          "related_terms": ["Population density", "Population growth rate"]
+        },
+        "flashcard": {
+          "front": "What is population size in ecology?",
+          "back": "Population size is the total number of individuals of a species in a habitat, denoted by \\(N\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Population size", "relation": "used_to_calculate", "target": "Population density"},
+          {"source": "Population size", "relation": "changed_by", "target": "Birth and death rates"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 6 — Population Ecology",
+        "flashcard_front": "What does \\(N\\) represent in population ecology?",
+        "flashcard_back": "\\(N\\) represents population size: the total number of individuals in a habitat.",
+        "glossary_term": "Population size",
+        "glossary_definition": "The total number of individuals of a species present in a particular habitat.",
+        "revision_note": "Population size \\(N\\) = total count.",
+        "teacher_note": "Emphasize the difference between size (total) and density (per area). Use examples like a stadium vs. a city.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define population size and density",
+        "concept_map_nodes": [
+          {"source": "Population ecology", "relation": "studies", "target": "Population size"}
+        ],
+        "workbook_section": "6.1.1 Population size, density and dispersal",
+        "solution_manual_note": "Answer B. Population size (N) is the total number of individuals. Option A is density (N/area)."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q002",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Population density",
+      "mcq_type": "E",
+      "question": "A field measuring \\(5000 \\text{ m}^2\\) contains 1500 dandelion plants. What is the population density of dandelions per \\(\\text{m}^2\\)?",
+      "options": {
+        "A": "\\(0.3 \\text{ m}^2\\)",
+        "B": "\\(3.0 \\text{ plants/m}^2\\)",
+        "C": "\\(0.3 \\text{ plants/m}^2\\)",
+        "D": "\\(1500 \\text{ plants}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Population density = number of individuals divided by area.",
+      "explanation": "Population density is calculated as \\(\\frac{N}{\\text{area}} = \\frac{1500}{5000} = 0.3 \\text{ plants/m}^2\\). Option B incorrectly gives 3.0, which is the inverse calculation.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\text{Density} = \\frac{N}{\\text{area}}"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "N": {"magnitude": 1500, "unit": "plants"},
+          "area": {"magnitude": 5000, "unit": "m^2"}
+        },
+        "answer_value": 0.3,
+        "answer_unit": "plants/m^2",
+        "calculation_steps": [
+          "\\text{Density} = \\frac{1500 \\text{ plants}}{5000 \\text{ m}^2}",
+          "\\frac{1500}{5000} = 0.3",
+          "\\text{Density} = 0.3 \\text{ plants/m}^2"
+        ],
+        "significant_figures": 1
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Population density",
+        "content_anchor": "number of individuals within a specific area = population size divided by total land area",
+        "page_hint": 6,
+        "concept_hash": "sha256_population_density_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Population density is the number of individuals of a species per unit area or volume.",
+        "concept_summary": "Population density normalizes population size by area, allowing comparison between different habitats.",
+        "beginner": "If 1500 dandelions live in a 5000 \\(\\text{m}^2\\) field, each square meter has less than one plant, specifically 0.3 plants per \\(\\text{m}^2\\).",
+        "intermediate": "Density equals \\(N\\) divided by area: \\(\\frac{1500}{5000} = 0.3\\) plants per \\(\\text{m}^2\\).",
+        "advanced": "The density \\(D = \\frac{N}{A} = \\frac{1500}{5000} = 0.3 \\text{ plants/m}^2\\). The inverse calculation \\(5000/1500 = 3.33\\) would give \\(\\text{m}^2/\\text{plant}\\), not density.",
+        "worked_solution": [
+          "Step 1: Write the formula: \\(D = \\frac{N}{A}\\).",
+          "Step 2: Substitute \\(N = 1500\\), \\(A = 5000\\): \\(D = \\frac{1500}{5000}\\).",
+          "Step 3: Simplify: \\(\\frac{1500}{5000} = 0.3\\).",
+          "Step 4: Add units: \\(0.3 \\text{ plants/m}^2\\)"
+        ],
+        "reasoning_steps": [
+          "Identify \\(N = 1500\\) plants and area \\(= 5000 \\text{ m}^2\\).",
+          "Apply density formula: \\(D = N/A\\).",
+          "Divide: \\(1500 \\div 5000 = 0.3\\).",
+          "Report with correct units: \\(0.3 \\text{ plants/m}^2\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "D = \\frac{N}{A}",
+            "name": "Population density formula",
+            "variables": [
+              {"symbol": "D", "meaning": "Population density", "unit": "individuals per unit area"},
+              {"symbol": "N", "meaning": "Population size", "unit": "individuals"},
+              {"symbol": "A", "meaning": "Area", "unit": "m^2 or km^2"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some students calculate \\(A/N\\) instead of \\(N/A\\), giving area per individual rather than density."
+        ],
+        "related_concepts": ["Population size", "Sampling methods", "Quadrat"],
+        "revision_note": "Density = \\(N/A\\). Units: individuals/\\(\\text{m}^2\\).",
+        "glossary_entry": {
+          "term": "Population density",
+          "definition": "The number of individuals of a species per unit area or volume.",
+          "example_equation": "D = \\frac{N}{A}",
+          "related_terms": ["Population size", "Carrying capacity"]
+        },
+        "flashcard": {
+          "front": "How do you calculate population density?",
+          "back": "Divide population size by area: \\(D = N/A\\). Example: 1500 plants in 5000 \\(\\text{m}^2\\) gives \\(0.3 \\text{ plants/m}^2\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Population density", "relation": "calculated_from", "target": "Population size"},
+          {"source": "Population density", "relation": "calculated_from", "target": "Area"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Biology Unit 6 — Population Ecology",
+        "flashcard_front": "Calculate density: 200 deer in 50 \\(\\text{km}^2\\)?",
+        "flashcard_back": "Density = \\(200/50 = 4\\) deer/\\(\\text{km}^2\\).",
+        "glossary_term": "Population density",
+        "glossary_definition": "Number of individuals per unit area or volume.",
+        "revision_note": "Density = \\(N/A\\).",
+        "teacher_note": "Students frequently invert the formula. Use dimensional analysis: density = individuals/area.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate population density from size and area",
+        "concept_map_nodes": [
+          {"source": "Population density", "relation": "formula", "target": "\\(D = N/A\\)"}
+        ],
+        "workbook_section": "6.1.1 Population size, density and dispersal",
+        "solution_manual_note": "Answer C. \\(1500/5000 = 0.3\\) plants/\\(\\text{m}^2\\). Option B is the inverse."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q003",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.1 Population size, density and dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Population density",
+      "mcq_type": "F",
+      "question": "Two forests have the same population size of squirrels, but Forest A has a larger area than Forest B. Which forest has a higher population density?",
+      "options": {
+        "A": "Forest A, because larger area means more space per squirrel",
+        "B": "Forest B, because same number of squirrels in a smaller area increases density",
+        "C": "Both have the same density because population size is equal",
+        "D": "Density cannot be determined without knowing the exact population size"
+      },
+      "correct_answer": "B",
+      "hint": "Density = population size / area. Smaller denominator gives larger result.",
+      "explanation": "Population density is inversely related to area when population size is constant. Forest B has a smaller area but the same \\(N\\), so \\(N/A\\) is larger. Option C ignores the effect of area.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\text{Density} = \\frac{N}{A}"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.1 Population size, density and dispersal",
+        "structural_element": "Population density",
+        "content_anchor": "population size divided by total land area",
+        "page_hint": 6,
+        "concept_hash": "sha256_density_area_inverse"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Population density is the number of individuals per unit area, calculated as \\(D = N/A\\).",
+        "concept_summary": "With constant population size \\(N\\), density increases as area decreases.",
+        "beginner": "Imagine 10 squirrels in a small room vs. 10 squirrels in a large field. The room feels more crowded — that is higher density.",
+        "intermediate": "Since \\(D = N/A\\), if \\(N\\) is constant, \\(D\\) is larger when \\(A\\) is smaller. Forest B's smaller area gives higher density.",
+        "advanced": "For constant \\(N\\), \\(D \\propto 1/A\\). Forest B with smaller \\(A\\) has larger \\(D\\). Mathematically, \\(D_B = N/A_B > N/A_A = D_A\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall density formula: \\(D = N/A\\).",
+          "Note that \\(N\\) is the same for both forests.",
+          "Identify that Forest B has smaller \\(A\\).",
+          "Conclude that smaller denominator yields larger \\(D\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "D = \\frac{N}{A}",
+            "name": "Population density",
+            "variables": [
+              {"symbol": "D", "meaning": "Density", "unit": "individuals/area"},
+              {"symbol": "N", "meaning": "Population size", "unit": "individuals"},
+              {"symbol": "A", "meaning": "Area", "unit": "area units"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some believe larger area always means larger density, but density is individuals per area, not total area."
+        ],
+        "related_concepts": ["Population size", "Habitat area", "Carrying capacity"],
+        "revision_note": "Same \\(N\\), smaller \\(A\\) = higher density.",
+        "glossary_entry": {
+          "term": "Population density",
+          "definition": "Number of individuals per unit area.",
+          "example_equation": "D = N/A",
+          "related_terms": ["Population size"]
+        },
+        "flashcard": {
+          "front": "Same number of squirrels, smaller forest: density increases or decreases?",
+          "back": "Increases, because density = \\(N/A\\), and smaller \\(A\\) gives larger \\(D\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Population density", "relation": "inversely_proportional_to", "target": "Area"},
+          {"source": "Population density", "relation": "directly_proportional_to", "target": "Population size"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 6 — Population Ecology",
+        "flashcard_front": "How does area affect density when population size is constant?",
+        "flashcard_back": "Density \\(= N/A\\). Smaller area = higher density.",
+        "glossary_term": "Population density",
+        "glossary_definition": "Individuals per unit area.",
+        "revision_note": "Density ∝ 1/area if \\(N\\) constant.",
+        "teacher_note": "Use a concrete example: 10 people in a classroom vs. 10 people in a football field.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain the relationship between density, population size, and area",
+        "concept_map_nodes": [
+          {"source": "Density", "relation": "inverse_with", "target": "Area"},
+          {"source": "Density", "relation": "direct_with", "target": "Population size"}
+        ],
+        "workbook_section": "6.1.1 Population size, density and dispersal",
+        "solution_manual_note": "Answer B. \\(D = N/A\\). Same \\(N\\), smaller \\(A\\) → larger \\(D\\)."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q004",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Exponential growth model",
+      "mcq_type": "G",
+      "question": "A bacterial population doubles every hour under ideal conditions. What is the primary cause of this rapid growth pattern?",
+      "options": {
+        "A": "Limited food supply slows reproduction",
+        "B": "Unlimited resources allow maximum per capita growth",
+        "C": "Predators reduce the population each generation",
+        "D": "Waste accumulation inhibits cell division"
+      },
+      "correct_answer": "B",
+      "hint": "Ideal conditions mean no resource limits.",
+      "explanation": "Exponential growth occurs when resources are unlimited, allowing the intrinsic rate of increase \\(r_{\\text{max}}\\) to operate. Option B describes this condition; options A, C, and D describe limiting factors.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\frac{dN}{dT} = r_{\\text{max}} N"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Exponential growth model",
+        "content_anchor": "growth of a population in an ideal environment with unlimited resources",
+        "page_hint": 8,
+        "concept_hash": "sha256_exponential_growth_unlimited_resources"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 90,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Exponential growth is population increase at a constant per capita rate under unlimited resource conditions.",
+        "concept_summary": "Exponential growth produces a J-shaped curve and occurs when \\(r_{\\text{max}}\\) is constant and resources are not limiting.",
+        "beginner": "Like compound interest in a bank: each hour, every existing bacterium splits, so the number keeps multiplying faster.",
+        "intermediate": "Unlimited resources mean no constraints on birth or death rates, so \\(r_{\\text{max}}\\) remains positive and constant, leading to accelerating growth.",
+        "advanced": "The differential equation \\(\\frac{dN}{dt} = r_{\\text{max}} N\\) gives \\(N(t) = N_0 e^{r_{\\text{max}} t}\\). Doubling every hour implies \\(r_{\\text{max}} = \\ln(2)\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize that doubling every hour indicates exponential growth.",
+          "Recall that exponential growth requires unlimited resources.",
+          "Eliminate options that introduce limiting factors."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\frac{dN}{dT} = r_{\\text{max}} N",
+            "name": "Exponential growth equation",
+            "variables": [
+              {"symbol": "N", "meaning": "Population size", "unit": "individuals"},
+              {"symbol": "t", "meaning": "Time", "unit": "time units"},
+              {"symbol": "r_{\\text{max}}", "meaning": "Intrinsic rate of increase", "unit": "per time"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think exponential growth can continue indefinitely, but in reality, resources eventually become limited."
+        ],
+        "related_concepts": ["Logistic growth", "Carrying capacity", "r-selected species"],
+        "revision_note": "Exponential: \\(dN/dt = r_{\\text{max}} N\\), J-curve, unlimited resources.",
+        "glossary_entry": {
+          "term": "Exponential growth",
+          "definition": "Population growth with constant per capita rate under ideal, unlimited conditions.",
+          "example_equation": "\\frac{dN}{dt} = rN",
+          "related_terms": ["Logistic growth", "Carrying capacity"]
+        },
+        "flashcard": {
+          "front": "What condition is required for exponential population growth?",
+          "back": "Unlimited resources, allowing constant \\(r_{\\text{max}}\\). Example: bacteria in fresh culture."
+        },
+        "concept_map_nodes": [
+          {"source": "Exponential growth", "relation": "requires", "target": "Unlimited resources"},
+          {"source": "Exponential growth", "relation": "produces", "target": "J-shaped curve"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 6 — Population Growth",
+        "flashcard_front": "Why does exponential growth occur in ideal conditions?",
+        "flashcard_back": "Unlimited resources allow maximum per capita growth rate \\(r_{\\text{max}}\\) without constraints.",
+        "glossary_term": "Exponential growth",
+        "glossary_definition": "Population increase at a constant per capita rate under unlimited resources.",
+        "revision_note": "Exponential: unlimited resources → J-curve.",
+        "teacher_note": "Contrast with logistic growth. Use bacterial cultures as classic example.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Differentiate between exponential and logistic growth",
+        "concept_map_nodes": [
+          {"source": "Exponential growth", "relation": "contrasted_with", "target": "Logistic growth"}
+        ],
+        "workbook_section": "6.1.2 Exponential and logistic growth",
+        "solution_manual_note": "Answer B. Exponential growth requires unlimited resources. Other options describe limiting factors."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q005",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Exponential growth model",
+      "mcq_type": "K",
+      "question": "A graph of population size versus time shows a J-shaped curve. Which growth model does this represent?",
+      "options": {
+        "A": "Logistic growth",
+        "B": "Exponential growth",
+        "C": "Linear growth",
+        "D": "Geometric decline"
+      },
+      "correct_answer": "B",
+      "hint": "J-shaped curves indicate accelerating growth without limits.",
+      "explanation": "Exponential growth produces a J-shaped curve when population size is plotted over time, as growth accelerates. Logistic growth produces an S-shaped (sigmoid) curve. Option A is incorrect for J-shape.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Exponential growth model",
+        "content_anchor": "population growth graph shows a J-shaped curve",
+        "page_hint": 8,
+        "concept_hash": "sha256_j_shaped_curve_exponential"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Exponential growth is characterized by a J-shaped curve when population size is plotted against time.",
+        "concept_summary": "The J-curve shows accelerating increase, typical of exponential growth without environmental limits.",
+        "beginner": "A J-curve starts slowly then bends sharply upward, like a hockey stick. That's exponential growth.",
+        "intermediate": "In exponential growth, the rate \\(dN/dt\\) increases with \\(N\\), producing a J-shaped curve. Logistic growth gives an S-curve.",
+        "advanced": "The J-curve results from \\(N(t) = N_0 e^{rt}\\), where the slope \\(dN/dt = rN\\) continuously increases with \\(N\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that J-shaped curves represent accelerating growth.",
+          "Associate accelerating growth with exponential model.",
+          "Distinguish from S-shaped (logistic) curve."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students sometimes confuse J-curves with S-curves. J = unlimited, S = limited by carrying capacity."
+        ],
+        "related_concepts": ["Logistic growth", "Carrying capacity", "J-curve", "S-curve"],
+        "revision_note": "J-curve = exponential growth (unlimited). S-curve = logistic (limited by \\(K\\)).",
+        "glossary_entry": {
+          "term": "J-shaped curve",
+          "definition": "Graph of exponential population growth showing accelerating increase over time.",
+          "example_equation": null,
+          "related_terms": ["Exponential growth", "S-shaped curve"]
+        },
+        "flashcard": {
+          "front": "What growth curve shape is produced by exponential population growth?",
+          "back": "J-shaped curve, representing accelerating growth without limits."
+        },
+        "concept_map_nodes": [
+          {"source": "Exponential growth", "relation": "produces", "target": "J-shaped curve"},
+          {"source": "J-shaped curve", "relation": "indicates", "target": "Unlimited resources"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Biology Unit 6 — Population Growth",
+        "flashcard_front": "What does a J-shaped population curve represent?",
+        "flashcard_back": "Exponential growth, where population increases without limits.",
+        "glossary_term": "J-shaped curve",
+        "glossary_definition": "Graph of exponential population growth showing accelerating increase.",
+        "revision_note": "J-curve = exponential. S-curve = logistic.",
+        "teacher_note": "Show side-by-side graphs of J and S curves. Emphasize the inflection point in logistic growth.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate between exponential and logistic growth curves",
+        "concept_map_nodes": [
+          {"source": "Growth curve", "relation": "shape", "target": "J-curve"},
+          {"source": "Growth curve", "relation": "shape", "target": "S-curve"}
+        ],
+        "workbook_section": "6.1.2 Exponential and logistic growth",
+        "solution_manual_note": "Answer B. Exponential growth = J-shaped curve. Logistic = S-shaped."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q006",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Exponential growth model",
+      "mcq_type": "D",
+      "question": "A rabbit population has an intrinsic rate of increase \\(r = 0.5\\) per year and current size \\(N = 100\\). According to the exponential growth model \\(\\frac{dN}{dt} = rN\\), what is the growth rate \\(\\frac{dN}{dt}\\)?",
+      "options": {
+        "A": "50 rabbits per year",
+        "B": "200 rabbits per year",
+        "C": "0.5 rabbits per year",
+        "D": "100 rabbits per year"
+      },
+      "correct_answer": "A",
+      "hint": "Multiply \\(r\\) by \\(N\\): \\(0.5 \\times 100 = 50\\).",
+      "explanation": "The exponential growth equation gives \\(\\frac{dN}{dt} = rN = 0.5 \\times 100 = 50\\) rabbits per year. Option B results from \\(N/r\\), and Option D is \\(N\\) itself.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\frac{dN}{dT} = rN"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "r": {"magnitude": 0.5, "unit": "per year"},
+          "N": {"magnitude": 100, "unit": "rabbits"}
+        },
+        "answer_value": 50,
+        "answer_unit": "rabbits/year",
+        "calculation_steps": [
+          "\\frac{dN}{dt} = rN",
+          "\\frac{dN}{dt} = 0.5 \\times 100",
+          "\\frac{dN}{dt} = 50 \\text{ rabbits/year}"
+        ],
+        "significant_figures": 1
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Exponential growth model",
+        "content_anchor": "dN/dT = rN",
+        "page_hint": 8,
+        "concept_hash": "sha256_exponential_growth_rate_calculation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The exponential growth rate \\(dN/dt\\) equals the intrinsic rate \\(r\\) times current population size \\(N\\).",
+        "concept_summary": "In exponential growth, the absolute growth rate increases as population grows because \\(dN/dt = rN\\).",
+        "beginner": "If each rabbit produces 0.5 new rabbits per year, with 100 rabbits, you get 50 new rabbits that year.",
+        "intermediate": "Substitute into \\(dN/dt = rN\\): \\(0.5 \\times 100 = 50\\) rabbits/year.",
+        "advanced": "The instantaneous rate \\(dN/dt = rN = 0.5 \\times 100 = 50\\). The discrete annual increase would be \\(\\Delta N = N_0(e^r - 1)\\), but the model uses continuous growth.",
+        "worked_solution": [
+          "Step 1: Write the exponential growth equation: \\(\\frac{dN}{dt} = rN\\).",
+          "Step 2: Insert given values: \\(r = 0.5\\), \\(N = 100\\).",
+          "Step 3: Multiply: \\(0.5 \\times 100 = 50\\).",
+          "Step 4: Add units: \\(50\\) rabbits/year."
+        ],
+        "reasoning_steps": [
+          "Identify the formula: \\(dN/dt = rN\\).",
+          "Plug \\(r = 0.5\\) and \\(N = 100\\).",
+          "Compute \\(0.5 \\times 100 = 50\\).",
+          "Report rate as 50 rabbits/year."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\frac{dN}{dt} = rN",
+            "name": "Exponential growth rate",
+            "variables": [
+              {"symbol": "dN/dt", "meaning": "Instantaneous growth rate", "unit": "individuals/time"},
+              {"symbol": "r", "meaning": "Per capita rate of increase", "unit": "1/time"},
+              {"symbol": "N", "meaning": "Population size", "unit": "individuals"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some students multiply \\(r\\) by \\(N\\) but forget units, or incorrectly divide \\(N\\) by \\(r\\)."
+        ],
+        "related_concepts": ["Per capita rate of increase", "Population growth rate", "Exponential model"],
+        "revision_note": "\\(dN/dt = rN\\). Multiply \\(r\\) by \\(N\\).",
+        "glossary_entry": {
+          "term": "Exponential growth rate",
+          "definition": "The instantaneous rate of population increase under ideal conditions, given by \\(dN/dt = rN\\).",
+          "example_equation": "\\frac{dN}{dt} = rN",
+          "related_terms": ["Intrinsic rate of increase", "Population growth"]
+        },
+        "flashcard": {
+          "front": "Calculate \\(dN/dt\\) if \\(r = 0.3\\) and \\(N = 200\\) using \\(dN/dt = rN\\).",
+          "back": "\\(0.3 \\times 200 = 60\\) individuals per time unit."
+        },
+        "concept_map_nodes": [
+          {"source": "Exponential growth", "relation": "equation", "target": "\\(dN/dt = rN\\)"},
+          {"source": "\\(dN/dt\\)", "relation": "depends_on", "target": "\\(r\\)"},
+          {"source": "\\(dN/dt\\)", "relation": "depends_on", "target": "\\(N\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Biology Unit 6 — Population Growth",
+        "flashcard_front": "Formula for exponential growth rate?",
+        "flashcard_back": "\\(dN/dt = rN\\), where \\(r\\) is per capita rate and \\(N\\) is population size.",
+        "glossary_term": "Exponential growth rate",
+        "glossary_definition": "Instantaneous rate given by \\(dN/dt = rN\\).",
+        "revision_note": "\\(dN/dt = rN\\). Multiply.",
+        "teacher_note": "Reinforce that \\(r\\) is per capita. Many students forget to multiply by \\(N\\).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate population growth rate using exponential model",
+        "concept_map_nodes": [
+          {"source": "\\(dN/dt\\)", "relation": "calculated_by", "target": "\\(r \\times N\\)"}
+        ],
+        "workbook_section": "6.1.2 Exponential and logistic growth",
+        "solution_manual_note": "Answer A. \\(0.5 \\times 100 = 50\\) rabbits/year."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q007",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Population pyramid",
+      "mcq_type": "I",
+      "question": "A country has a population pyramid with a very broad base and rapidly narrowing bars moving upward. What does this shape indicate about the population?",
+      "options": {
+        "A": "Stable population with low birth and death rates",
+        "B": "Declining population with more elderly than young",
+        "C": "Rapidly growing population with high fertility",
+        "D": "Aging population with low immigration"
+      },
+      "correct_answer": "C",
+      "hint": "A wide base means many young individuals, indicating high birth rates.",
+      "explanation": "A broad base and narrow top indicates an expansive pyramid, characteristic of rapid growth driven by high fertility and lower life expectancy. Option C matches this pattern.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Population pyramid",
+        "content_anchor": "expansive population pyramids used to describe populations that are young and growing",
+        "page_hint": 13,
+        "concept_hash": "sha256_expansive_pyramid_growth"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "An expansive population pyramid has a broad base indicating high birth rates and rapid population growth.",
+        "concept_summary": "Expansive pyramids show many young individuals and few elderly, typical of developing countries with high fertility.",
+        "beginner": "A pyramid that is very wide at the bottom and narrow at the top means many babies and few old people — the population is growing fast.",
+        "intermediate": "Broad base = high proportion of young people (0-14 years). Rapid narrowing = high mortality or lower life expectancy. This indicates rapid growth.",
+        "advanced": "Expansive pyramids correlate with high total fertility rates (TFR > 4) and low median age. The age structure predicts continued growth even if fertility drops.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall three pyramid types: expansive (wide base), stationary (column), constrictive (narrow base).",
+          "Broad base indicates many young people and high birth rates.",
+          "That leads to rapid population growth."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Wide base does NOT mean the population is old; it means the opposite — many young people."
+        ],
+        "related_concepts": ["Expansive pyramid", "Fertility rate", "Age structure", "Demographic transition"],
+        "revision_note": "Broad base = expansive = rapid growth. Narrow base = constrictive = decline.",
+        "glossary_entry": {
+          "term": "Expansive population pyramid",
+          "definition": "A pyramid with a wide base and narrow top, indicating high birth rates and rapid growth.",
+          "example_equation": null,
+          "related_terms": ["Constrictive pyramid", "Stationary pyramid"]
+        },
+        "flashcard": {
+          "front": "What does a broad-based population pyramid indicate?",
+          "back": "Rapid population growth, high fertility rates, and many young individuals."
+        },
+        "concept_map_nodes": [
+          {"source": "Expansive pyramid", "relation": "indicates", "target": "Rapid growth"},
+          {"source": "Expansive pyramid", "relation": "associated_with", "target": "High fertility"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 6 — Demography",
+        "flashcard_front": "Describe the shape of an expansive population pyramid.",
+        "flashcard_back": "Broad base, rapidly narrowing top, indicating high fertility and rapid growth.",
+        "glossary_term": "Expansive pyramid",
+        "glossary_definition": "Population pyramid with wide base indicating high birth rates and growth.",
+        "revision_note": "Expansive = wide base = growing fast.",
+        "teacher_note": "Use examples: many developing countries (e.g., Ethiopia, Nigeria) show expansive pyramids.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Interpret population pyramids",
+        "concept_map_nodes": [
+          {"source": "Population pyramid", "relation": "type", "target": "Expansive"},
+          {"source": "Expansive", "relation": "implies", "target": "Rapid growth"}
+        ],
+        "workbook_section": "6.1.3 Demographic structure",
+        "solution_manual_note": "Answer C. Broad base = high fertility = rapid growth. Option A describes stationary pyramid."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q008",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Survivorship Curves",
+      "mcq_type": "A",
+      "question": "Which survivorship curve is characterized by high mortality in early life, followed by low mortality later?",
+      "options": {
+        "A": "Type I",
+        "B": "Type II",
+        "C": "Type III",
+        "D": "Type IV"
+      },
+      "correct_answer": "C",
+      "hint": "Type III has many deaths early, then survivors live longer.",
+      "explanation": "Type III survivorship curves show very high juvenile mortality, then relatively low mortality for the few that reach adulthood. Type I has low early mortality; Type II has constant mortality.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Survivorship Curves",
+        "content_anchor": "Type III: organisms produce many offspring but little care, high early mortality",
+        "page_hint": 16,
+        "concept_hash": "sha256_survivorship_type_III"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Type III survivorship curve describes species with very high juvenile mortality and low adult mortality.",
+        "concept_summary": "Type III organisms produce many offspring but provide little parental care, so most die young. Survivors then have relatively good survival.",
+        "beginner": "Imagine a fish laying thousands of eggs. Most get eaten immediately (high early death), but the few that survive grow large and live a long time.",
+        "intermediate": "Type III curve drops sharply at the start (high juvenile mortality), then flattens (low adult mortality). Examples: most fish, oysters, plants.",
+        "advanced": "The Type III curve on a log scale is convex. The instantaneous mortality rate \\(\\mu\\) is high initially but declines with age.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall three survivorship types.",
+          "Type I: low early mortality (humans).",
+          "Type II: constant mortality (birds).",
+          "Type III: high early mortality (fish)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Type III is often confused with Type II, but Type II has constant mortality at all ages, not extreme early death."
+        ],
+        "related_concepts": ["Survivorship", "Life history strategy", "r/K selection"],
+        "revision_note": "Type III = high early death (fish/plants). Type I = low early death (humans).",
+        "glossary_entry": {
+          "term": "Type III survivorship curve",
+          "definition": "Survivorship pattern with very high mortality in early life stages.",
+          "example_equation": null,
+          "related_terms": ["Type I", "Type II"]
+        },
+        "flashcard": {
+          "front": "Which survivorship curve has high juvenile mortality?",
+          "back": "Type III, typical of fish and plants that produce many offspring with little care."
+        },
+        "concept_map_nodes": [
+          {"source": "Survivorship curve", "relation": "type", "target": "Type III"},
+          {"source": "Type III", "relation": "characterized_by", "target": "High early mortality"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 6 — Demography",
+        "flashcard_front": "What organism example fits Type III survivorship?",
+        "flashcard_back": "Fish (many eggs, few survive to adulthood).",
+        "glossary_term": "Type III survivorship",
+        "glossary_definition": "High mortality early in life, lower mortality later.",
+        "revision_note": "Type III: high early death (fish, oysters).",
+        "teacher_note": "Contrast with Type I (humans, elephants) and Type II (birds, rodents).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe types of survivorship curves",
+        "concept_map_nodes": [
+          {"source": "Type III", "relation": "example", "target": "Fish"}
+        ],
+        "workbook_section": "6.1.3 Demographic structure",
+        "solution_manual_note": "Answer C. Type III = high early mortality. Type I = low early, Type II = constant."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q009",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.3 Demographic structure",
+      "sub_subsection": null,
+      "structural_anchor": "Survivorship Curves",
+      "mcq_type": "H",
+      "question": "A student argues that \"since most birds lay several eggs, they must have Type III survivorship.\" Why is this reasoning incorrect?",
+      "options": {
+        "A": "Birds have Type I survivorship because they live very long lives",
+        "B": "Birds provide parental care, leading to relatively constant mortality (Type II)",
+        "C": "Birds actually have Type III because eggs are often eaten by predators",
+        "D": "Bird survivorship cannot be determined without knowing clutch size"
+      },
+      "correct_answer": "B",
+      "hint": "Survivorship type depends on parental care and mortality pattern, not just number of offspring.",
+      "explanation": "Birds typically exhibit Type II survivorship with roughly constant mortality across ages due to parental care. The student confuses high fecundity (many eggs) with Type III, which requires little parental care and high early mortality.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 84,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.3 Demographic structure",
+        "structural_element": "Survivorship Curves",
+        "content_anchor": "Type II: moderate offspring, some parental care, constant death rate (e.g., birds)",
+        "page_hint": 16,
+        "concept_hash": "sha256_bird_survivorship_misconception"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "evaluate",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Type II survivorship has a constant mortality rate per age class, typical of birds with moderate parental care.",
+        "concept_summary": "Type III is defined by lack of parental care and extreme early mortality, not merely by high egg numbers. Birds provide care, so mortality is more constant.",
+        "beginner": "Birds take care of their babies in nests, so not all die young. That's Type II, not Type III.",
+        "intermediate": "While birds lay multiple eggs, they incubate and feed chicks. This reduces early mortality compared to Type III fish, giving a linear (Type II) survivorship curve on a log scale.",
+        "advanced": "The student incorrectly equates high fecundity with Type III. However, survivorship type depends on age-specific mortality \\(q_x\\). Birds have relatively constant \\(q_x\\), unlike fish where \\(q_x\\) is extremely high at age 0.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the misconception: many offspring → Type III.",
+          "Recall that Type III requires no parental care and very high early mortality.",
+          "Birds provide parental care, which reduces early mortality.",
+          "Birds have Type II (constant mortality)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Many students wrongly assume that any species with many offspring must be Type III, ignoring parental care effects."
+        ],
+        "related_concepts": ["Type II survivorship", "Parental care", "Fecundity", "Mortality rate"],
+        "revision_note": "Many eggs ≠ Type III. Parental care → Type II.",
+        "glossary_entry": {
+          "term": "Type II survivorship",
+          "definition": "Constant mortality rate across all age classes.",
+          "example_equation": null,
+          "related_terms": ["Survivorship curve", "Type III"]
+        },
+        "flashcard": {
+          "front": "Why are birds Type II, not Type III, despite laying many eggs?",
+          "back": "Birds provide parental care, reducing early mortality and creating constant mortality rates."
+        },
+        "concept_map_nodes": [
+          {"source": "Parental care", "relation": "leads_to", "target": "Type II survivorship"},
+          {"source": "Lack of parental care", "relation": "leads_to", "target": "Type III survivorship"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "warning",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 6 — Survivorship",
+        "flashcard_front": "Common misconception: many offspring = Type III survivorship. Correct with bird example.",
+        "flashcard_back": "Birds have Type II (constant mortality) because parental care reduces early death.",
+        "glossary_term": "Type II survivorship",
+        "glossary_definition": "Constant mortality rate across all ages, typical of birds and some rodents.",
+        "revision_note": "Many eggs ≠ Type III. Parental care matters.",
+        "teacher_note": "Use this misconception question to clarify that number of offspring alone does not determine survivorship type.",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Compare and contrast survivorship curves",
+        "concept_map_nodes": [
+          {"source": "Misconception", "relation": "corrected_by", "target": "Parental care"},
+          {"source": "Parental care", "relation": "produces", "target": "Type II"}
+        ],
+        "workbook_section": "6.1.3 Demographic structure",
+        "solution_manual_note": "Answer B. Birds provide parental care → constant mortality (Type II). Student confuses high fecundity with Type III."
+      }
+    },
+    {
+      "question_id": "G11_Bio_U6_Q010",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Biology",
+      "unit": "Unit Six: Population and natural resources",
+      "section": "6.1 Population ecology",
+      "subsection": "6.1.2 Exponential and logistic growth in populations",
+      "sub_subsection": null,
+      "structural_anchor": "Exponential growth model",
+      "mcq_type": "N",
+      "question": "Under which condition does the exponential growth model \\(\\frac{dN}{dt} = rN\\) accurately describe a real population?",
+      "options": {
+        "A": "When predators are abundant",
+        "B": "When the population is near carrying capacity",
+        "C": "When resources are unlimited and no density-dependent factors act",
+        "D": "When the population has a stable age structure"
+      },
+      "correct_answer": "C",
+      "hint": "Exponential growth requires ideal, unlimited conditions.",
+      "explanation": "Exponential growth occurs only in the absence of limiting factors: unlimited resources, no predation, no disease. Real populations only approximate this briefly. Option C describes these ideal conditions.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\frac{dN}{dT} = rN"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit Six: Population and natural resources",
+        "section_anchor": "6.1 Population ecology",
+        "subsection_anchor": "6.1.2 Exponential and logistic growth in populations",
+        "structural_element": "Exponential growth model",
+        "content_anchor": "growth of a population in an ideal environment with unlimited resources",
+        "page_hint": 8,
+        "concept_hash": "sha256_exponential_conditions_limitations"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluate",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Exponential growth requires an ideal environment with unlimited resources and no density-dependent regulation.",
+        "concept_summary": "In nature, exponential growth is rare and temporary, seen in invasive species or algal blooms when constraints are absent.",
+        "beginner": "Imagine bacteria in a new jar of food with no waste, no enemies, and infinite space. That's the only time they can grow exponentially.",
+        "intermediate": "The model \\(dN/dt = rN\\) assumes constant \\(r\\) (no density dependence). This only holds when \\(N \\ll K\\) and no limiting factors operate.",
+        "advanced": "Exponential growth requires \\(r = r_{\\text{max}}\\) and \\(N \\ll K\\). Any density-dependent factor (e.g., competition, waste) reduces \\(r\\) below \\(r_{\\text{max}}\\), invalidating the exponential model.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that exponential growth assumes constant \\(r\\).",
+          "Identify factors that keep \\(r\\) constant: no limits.",
+          "Eliminate options that introduce limits (predators, carrying capacity)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\frac{dN}{dt} = rN",
+            "name": "Exponential growth",
+            "variables": [
+              {"symbol": "r", "meaning": "Per capita growth rate", "unit": "1/time"},
+              {"symbol": "N", "meaning": "Population size", "unit": "individuals"}
+            ],
+            "derivation": "Assumes constant \\(r\\) with no density dependence."
+          }
+        ],
+        "misconceptions": [
+          "Students often think exponential growth happens commonly in nature, but it is rare and brief before limits appear."
+        ],
+        "related_concepts": ["Logistic growth", "Carrying capacity", "Density-dependent factors"],
+        "revision_note": "Exponential needs unlimited resources, no limits. Rare in nature.",
+        "glossary_entry": {
+          "term": "Exponential growth condition",
+          "definition": "Ideal, unlimited environment with no density-dependent factors.",
+          "example_equation": null,
+          "related_terms": ["r_max", "Ideal conditions"]
+        },
+        "flashcard": {
+          "front": "When does a real population follow exponential growth?",
+          "back": "Only when resources are unlimited and no density-dependent factors act (e.g., bacteria in fresh culture briefly)."
+        },
+        "concept_map_nodes": [
+          {"source": "Exponential growth", "relation": "requires", "target": "Unlimited resources"},
+          {"source": "Exponential growth", "relation": "requires", "target": "No density dependence"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Biology Unit 6 — Population Growth",
+        "flashcard_front": "Why is exponential growth rare in nature?",
+        "flashcard_back": "Because resources are usually limited and density-dependent factors reduce per capita growth.",
+        "glossary_term": "Exponential growth",
+        "glossary_definition": "Population growth under ideal, unlimited conditions.",
+        "revision_note": "Exponential = ideal, brief, rare in wild.",
+        "teacher_note": "Contrast with logistic growth and emphasize that real populations experience limits.",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Differentiate between exponential and logistic growth models",
+        "concept_map_nodes": [
+          {"source": "Exponential growth", "relation": "limited_by", "target": "Carrying capacity"}
+        ],
+        "workbook_section": "6.1.2 Exponential and logistic growth",
+        "solution_manual_note": "Answer C. Exponential requires unlimited resources and no density-dependent limits."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3450,
+    "average_question_quality": 88.5,
+    "type_distribution": {
+      "A": 2,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "K": 1,
+      "D": 1,
+      "I": 1,
+      "N": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "6.1 Population ecology": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 36,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

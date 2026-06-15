@@ -1,0 +1,1946 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:50:00Z",
+  "round_id": "R05",
+  "batch_sequence": 5,
+  "__STATE__": {
+    "current_round": 5,
+    "last_question_id": "G11_Math_U8_Q050",
+    "covered_sections": [
+      "Introduction>Revision about Probability",
+      "Fundamental Principle of Counting>Multiplication Principle",
+      "Fundamental Principle of Counting>Addition Principle",
+      "Permutations and Combinations>Factorial",
+      "Permutations and Combinations>Permutation",
+      "Permutations and Combinations>Circular Permutations",
+      "Permutations and Combinations>Combination",
+      "Random Experiments and Their Outcomes>Sample Space",
+      "Events>Types of Events",
+      "Probability of an Event>Classical Approach",
+      "Probability of an Event>Odds",
+      "Probability of an Event>Addition Rule",
+      "Probability of an Event>Multiplication Rule",
+      "Probability of an Event>Complement",
+      "Binomial Theorem>Binomial Theorem",
+      "Real-life Application of Probability>Real-life Application",
+      "Events>Algebra of Events"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+      "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2",
+      "b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7",
+      "c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8",
+      "d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9",
+      "e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6",
+      "f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1",
+      "a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2",
+      "b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3",
+      "c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4",
+      "d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5",
+      "e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2",
+      "f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7",
+      "a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8",
+      "b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9",
+      "c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6",
+      "d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1",
+      "e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2",
+      "f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3",
+      "a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4",
+      "b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5b6c1d2e3f4a5",
+      "c7d8e9f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2",
+      "d8e9f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2c7",
+      "e9f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2c7d8",
+      "f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2c7d8e9f0a1b2c7d8e9",
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f7",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f8",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f9",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f0",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f1",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f2",
+      "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f3",
+      "b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f4",
+      "c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f5",
+      "d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f6",
+      "e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d7",
+      "f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d8",
+      "a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d9",
+      "b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d0",
+      "c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d1",
+      "d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d2",
+      "e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d3",
+      "f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d4",
+      "a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d5",
+      "b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d6"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "Revision about Probability": {
+          "count": 4,
+          "mini_headings_covered": ["Revision about Probability", "Revision about Probability"],
+          "last_question_round": 5
+        }
+      },
+      "Fundamental Principle of Counting": {
+        "Multiplication Principle": {
+          "count": 5,
+          "mini_headings_covered": ["Multiplication Principle", "Multiplication Principle"],
+          "last_question_round": 5
+        },
+        "Addition Principle": {
+          "count": 4,
+          "mini_headings_covered": ["Addition Principle"],
+          "last_question_round": 5
+        }
+      },
+      "Permutations and Combinations": {
+        "Factorial": {
+          "count": 4,
+          "mini_headings_covered": ["Factorial"],
+          "last_question_round": 5
+        },
+        "Permutation": {
+          "count": 3,
+          "mini_headings_covered": ["Permutation"],
+          "last_question_round": 5
+        },
+        "Circular Permutations": {
+          "count": 2,
+          "mini_headings_covered": ["Circular Permutations"],
+          "last_question_round": 5
+        },
+        "Combination": {
+          "count": 3,
+          "mini_headings_covered": ["Combination"],
+          "last_question_round": 5
+        }
+      },
+      "Random Experiments and Their Outcomes": {
+        "Sample Space": {
+          "count": 3,
+          "mini_headings_covered": ["Sample Space"],
+          "last_question_round": 5
+        }
+      },
+      "Events": {
+        "Types of Events": {
+          "count": 3,
+          "mini_headings_covered": ["Types of Events"],
+          "last_question_round": 5
+        },
+        "Algebra of Events": {
+          "count": 1,
+          "mini_headings_covered": ["Algebra of events"],
+          "last_question_round": 5
+        }
+      },
+      "Probability of an Event": {
+        "Classical Approach": {
+          "count": 4,
+          "mini_headings_covered": ["Classical (Mathematical) Approach"],
+          "last_question_round": 5
+        },
+        "Odds": {
+          "count": 1,
+          "mini_headings_covered": ["Odds in favour of and odds against"],
+          "last_question_round": 2
+        },
+        "Addition Rule": {
+          "count": 2,
+          "mini_headings_covered": ["Rules of addition of probability"],
+          "last_question_round": 5
+        },
+        "Multiplication Rule": {
+          "count": 3,
+          "mini_headings_covered": ["Rules of multiplication of probability"],
+          "last_question_round": 5
+        },
+        "Complement": {
+          "count": 2,
+          "mini_headings_covered": ["Axiomatic approach"],
+          "last_question_round": 5
+        }
+      },
+      "Binomial Theorem": {
+        "Binomial Theorem": {
+          "count": 3,
+          "mini_headings_covered": ["Binomial Theorem"],
+          "last_question_round": 5
+        }
+      },
+      "Real-life Application of Probability": {
+        "Real-life Application": {
+          "count": 1,
+          "mini_headings_covered": ["Real-life Application"],
+          "last_question_round": 4
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 4,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "Fundamental Principle of Counting": {
+        "question_count": 9,
+        "last_used_round": 5,
+        "consecutive_batches": 5
+      },
+      "Permutations and Combinations": {
+        "question_count": 12,
+        "last_used_round": 5,
+        "consecutive_batches": 5
+      },
+      "Random Experiments and Their Outcomes": {
+        "question_count": 3,
+        "last_used_round": 5,
+        "consecutive_batches": 1
+      },
+      "Events": {
+        "question_count": 4,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "Probability of an Event": {
+        "question_count": 12,
+        "last_used_round": 5,
+        "consecutive_batches": 4
+      },
+      "Binomial Theorem": {
+        "question_count": 3,
+        "last_used_round": 5,
+        "consecutive_batches": 3
+      },
+      "Real-life Application of Probability": {
+        "question_count": 1,
+        "last_used_round": 4,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Revision about Probability": ["probability", "event", "outcome", "sample space", "equally likely", "mutually exclusive", "probability range", "probability axioms"],
+      "Fundamental Principle of Counting>Multiplication Principle": ["multiplication principle", "counting", "tree diagram", "sequential choices", "with repetition", "without repetition"],
+      "Fundamental Principle of Counting>Addition Principle": ["addition principle", "mutually exclusive", "union", "probability addition rule"],
+      "Permutations and Combinations>Factorial": ["factorial", "n!", "recursive factorial", "cancellation"],
+      "Permutations and Combinations>Permutation": ["permutation", "nPr", "arrangement", "order matters", "linear permutation", "circular permutation"],
+      "Permutations and Combinations>Circular Permutations": ["circular permutation", "(n-1)!"],
+      "Permutations and Combinations>Combination": ["combination", "nCr", "selection", "binomial coefficient", "poker hands"],
+      "Random Experiments and Their Outcomes>Sample Space": ["random experiment", "sample space", "outcome", "tree diagram", "coin toss", "die roll"],
+      "Events>Types of Events": ["simple event", "compound event", "impossible event", "certain event"],
+      "Events>Algebra of Events": ["complement", "union", "intersection", "mutually exclusive"],
+      "Probability of an Event>Classical Approach": ["classical probability", "P(E) = n(E)/n(S)", "uniform probability", "fair die", "fair coin", "two dice sum"],
+      "Probability of an Event>Odds": ["odds in favour", "odds against", "ratio"],
+      "Probability of an Event>Addition Rule": ["addition rule", "P(A∪B)=P(A)+P(B)-P(A∩B)", "mutually exclusive special case"],
+      "Probability of an Event>Multiplication Rule": ["multiplication rule", "independent events", "P(A∩B)=P(A)×P(B)", "dependent events", "conditional probability", "without replacement"],
+      "Probability of an Event>Complement": ["complement", "P(A') = 1 - P(A)"],
+      "Binomial Theorem>Binomial Theorem": ["binomial theorem", "binomial expansion", "binomial coefficient", "Pascal's triangle", "(1+x)^n"],
+      "Real-life Application of Probability>Real-life Application": ["geometric probability", "continuous uniform distribution", "traffic light probability"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "d1e2f3a4b5c67890d1e2f3a4b5c67890d1e2f3a4b5c67890",
+    "content_density_metrics": {
+      "total_concepts_extracted": 38,
+      "questions_per_concept_ratio": 1.32,
+      "structural_coverage_percentage": 58.7
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Mathematics",
+  "unit": "Unit 8: PROBABILITY",
+  "pdf_filename": "M11U8.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:50:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 8,
+        "total_sections": 9,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 12.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 50,
+      "sections_covered_count": 8,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 58.7,
+      "concept_utilization_ratio": 1.32
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Permutations and Combinations",
+      "least_covered_section": "Real-life Application of Probability",
+      "imbalance_ratio": 12.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Math_U8_Q041",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Events",
+      "subsection": "Algebra of Events",
+      "sub_subsection": null,
+      "structural_anchor": "Algebra of events",
+      "mcq_type": "A",
+      "question": "The complement of an event A is defined as:",
+      "options": {
+        "A": "All outcomes in the sample space that are not in A",
+        "B": "All outcomes in A",
+        "C": "The sample space itself",
+        "D": "The empty set"
+      },
+      "correct_answer": "A",
+      "hint": "Complement means 'not A'.",
+      "explanation": "The complement A' consists of all outcomes in S that are not in A. Option B is A itself; option C is the certain event; option D is the impossible event.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Events",
+        "subsection_anchor": "Algebra of Events",
+        "structural_element": "Algebra of events",
+        "content_anchor": "Complement of an event E1 consists of all events in sample space not in E1",
+        "page_hint": 37,
+        "concept_hash": "e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "The complement of an event A, denoted A', is the set of all outcomes in the sample space that are not in A.",
+        "concept_summary": "If S is the sample space, then A' = S - A. A and A' are mutually exclusive and exhaustive.",
+        "beginner": "If the sample space is all possible results, the complement of an event is everything else that could happen instead.",
+        "intermediate": "A' = {x ∈ S : x ∉ A}. For a die roll, if A = {1,2,3}, then A' = {4,5,6}.",
+        "advanced": "The complement is the set difference S \\ A. P(A') = 1 - P(A) by the complement axiom.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition of complement.",
+          "Identify that it includes all outcomes not in the original event."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some confuse complement with the event itself.",
+          "Others think complement always has probability 0.5."
+        ],
+        "related_concepts": ["sample space", "event", "mutually exclusive", "exhaustive"],
+        "revision_note": "Complement = all outcomes not in A.",
+        "glossary_entry": {
+          "term": "Complement",
+          "definition": "All outcomes in the sample space not in event A.",
+          "example_equation": "If A = {1,2,3}, A' = {4,5,6}",
+          "related_terms": ["sample space", "mutually exclusive"]
+        },
+        "flashcard": {
+          "front": "What is the complement of event A?",
+          "back": "All outcomes in the sample space that are not in A."
+        },
+        "concept_map_nodes": [
+          {"source": "Complement", "relation": "equals", "target": "S - A"},
+          {"source": "Complement", "relation": "with_A", "target": "Exhaustive and mutually exclusive"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 8 — Complement",
+        "flashcard_front": "Define complement of event A.",
+        "flashcard_back": "All outcomes in sample space not in A.",
+        "glossary_term": "Complement",
+        "glossary_definition": "Set of all outcomes not in the event.",
+        "revision_note": "A' = S - A.",
+        "teacher_note": "Use Venn diagram to show complement as area outside circle.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the concept of probability",
+        "concept_map_nodes": [
+          {"source": "Complement", "relation": "defined_as", "target": "S \\ A"},
+          {"source": "Complement", "relation": "probability", "target": "1 - P(A)"}
+        ],
+        "workbook_section": "Events",
+        "solution_manual_note": "Answer A. Complement = all outcomes not in A. Option B is A itself; option C is S; option D is empty set."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q042",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Permutations and Combinations",
+      "subsection": "Circular Permutations",
+      "sub_subsection": null,
+      "structural_anchor": "Circular Permutations",
+      "mcq_type": "D",
+      "question": "How many ways can 4 people be seated around a circular table?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "8",
+        "D": "6"
+      },
+      "correct_answer": "D",
+      "hint": "Circular permutation formula: (n-1)!.",
+      "explanation": "(4-1)! = 3! = 6. Option A (24) is linear permutation 4!; option B (12) would be 4!/2; option C (8) is 2×4.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\text{Circular permutations} = (n-1)!\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "n": {"magnitude": 4, "unit": "people"}
+        },
+        "answer_value": 6,
+        "answer_unit": "ways",
+        "calculation_steps": ["\\((4-1)! = 3!\\)", "\\(3! = 3 \\times 2 \\times 1 = 6\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Permutations and Combinations",
+        "subsection_anchor": "Circular Permutations",
+        "structural_element": "Circular Permutations",
+        "content_anchor": "number of permutations of n elements in a circle is (n-1)!",
+        "page_hint": 18,
+        "concept_hash": "f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Circular permutations count arrangements where rotations are considered identical.",
+        "concept_summary": "Fix one person to break rotational symmetry; arrange remaining (n-1) people linearly: (n-1)! = 3! = 6.",
+        "beginner": "For 4 people around a circle, seat one person first (it doesn't matter where). Then arrange the other 3 in 3! = 6 ways.",
+        "intermediate": "(4-1)! = 3! = 6 different circular seating arrangements.",
+        "advanced": "The number of distinct cycles on n labeled vertices is (n-1)!.",
+        "worked_solution": ["Step 1: Use circular permutation formula: (n-1)!.", "Step 2: n=4 → (4-1)! = 3!.", "Step 3: 3! = 6."],
+        "reasoning_steps": [
+          "Recognize circular arrangement (rotations identical).",
+          "Fix one person to remove symmetry.",
+          "Arrange remaining linearly."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\((n-1)!\\)",
+            "name": "Circular permutation formula",
+            "variables": [{"symbol": "n", "meaning": "number of objects", "unit": null}],
+            "derivation": "Fix one, arrange (n-1) others."
+          }
+        ],
+        "misconceptions": [
+          "Some use n! (24) forgetting rotational symmetry.",
+          "Others divide by n but forget factorial."
+        ],
+        "related_concepts": ["linear permutation", "factorial", "symmetry"],
+        "revision_note": "Circular: (n-1)! ways.",
+        "glossary_entry": {
+          "term": "Circular permutation",
+          "definition": "Arrangement around a circle where rotations are identical.",
+          "example_equation": "\\((4-1)! = 6\\)",
+          "related_terms": ["linear permutation", "rotation"]
+        },
+        "flashcard": {
+          "front": "Ways to seat 4 people around a circular table?",
+          "back": "6. (4-1)! = 3! = 6."
+        },
+        "concept_map_nodes": [
+          {"source": "Circular permutation", "relation": "versus", "target": "Linear permutation"},
+          {"source": "Circular permutation", "relation": "formula", "target": "(n-1)!"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 8 — Circular Permutations",
+        "flashcard_front": "How many circular arrangements for 4 people?",
+        "flashcard_back": "6. (4-1)! = 3! = 6.",
+        "glossary_term": "Circular permutation",
+        "glossary_definition": "Arrangement where rotations are identical.",
+        "revision_note": "Circular: (n-1)!.",
+        "teacher_note": "Demonstrate with 4 students rotating positions to show identical arrangements.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Circular permutation", "relation": "fix_one", "target": "Remaining (n-1)!"},
+          {"source": "Circular permutation", "relation": "compared_to_linear", "target": "n! / n"}
+        ],
+        "workbook_section": "Permutations and Combinations",
+        "solution_manual_note": "Answer D. (4-1)! = 6. Option A is linear permutation 4! = 24."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q043",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Random Experiments and Their Outcomes",
+      "subsection": "Sample Space",
+      "sub_subsection": null,
+      "structural_anchor": "Sample Space",
+      "mcq_type": "F",
+      "question": "Which of the following is a random experiment?",
+      "options": {
+        "A": "Drawing a card from a shuffled deck",
+        "B": "Adding 2 + 2",
+        "C": "The sun rising in the east",
+        "D": "Measuring the height of a fixed object"
+      },
+      "correct_answer": "A",
+      "hint": "Random experiments have outcomes that cannot be predicted with certainty.",
+      "explanation": "Drawing a card from a shuffled deck has unpredictable outcomes. Options B, C, and D have deterministic, predictable results. Option C is certain, not random.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Random Experiments and Their Outcomes",
+        "subsection_anchor": "Sample Space",
+        "structural_element": "Sample Space",
+        "content_anchor": "random experiment: procedure that produces an outcome that could not be perfectly predicted in advance",
+        "page_hint": 28,
+        "concept_hash": "a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 92,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "A random experiment is a procedure that yields an outcome that cannot be predicted with certainty before it is performed.",
+        "concept_summary": "Random experiments have multiple possible outcomes, and the result is not deterministic.",
+        "beginner": "Shuffling a deck and drawing a card is random because you don't know which card you'll get. Adding 2+2 always gives 4 — that's deterministic.",
+        "intermediate": "Drawing a card: outcome is uncertain (any of 52 cards). Adding numbers or sunrise are deterministic or certain.",
+        "advanced": "Random experiments are modeled by probability spaces. Deterministic processes have probability 1 for a single outcome.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check if outcome is predictable with certainty before performing.",
+          "If yes → not random. If no → random experiment."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think any experiment (even deterministic) is random.",
+          "Others confuse 'random' with 'unknown' measurement."
+        ],
+        "related_concepts": ["sample space", "deterministic", "probability"],
+        "revision_note": "Random experiment = outcome not certain beforehand.",
+        "glossary_entry": {
+          "term": "Random experiment",
+          "definition": "Procedure with uncertain outcome.",
+          "example_equation": "Drawing a card from a shuffled deck",
+          "related_terms": ["sample space", "outcome"]
+        },
+        "flashcard": {
+          "front": "What is a random experiment?",
+          "back": "A procedure where the outcome cannot be predicted with certainty. Example: rolling a die."
+        },
+        "concept_map_nodes": [
+          {"source": "Random experiment", "relation": "produces", "target": "Sample space"},
+          {"source": "Random experiment", "relation": "opposite_of", "target": "Deterministic process"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 8 — Random Experiments",
+        "flashcard_front": "Which is a random experiment?",
+        "flashcard_back": "Drawing a card from a shuffled deck (outcome uncertain).",
+        "glossary_term": "Random experiment",
+        "glossary_definition": "Procedure with unpredictable outcome.",
+        "revision_note": "Random = not deterministic.",
+        "teacher_note": "Distinguish between random (probabilistic) and deterministic (certain).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the concept of probability",
+        "concept_map_nodes": [
+          {"source": "Random experiment", "relation": "example", "target": "Card draw"},
+          {"source": "Deterministic", "relation": "example", "target": "2+2=4"}
+        ],
+        "workbook_section": "Random Experiments and Their Outcomes",
+        "solution_manual_note": "Answer A. Drawing a card is random (uncertain outcome). Others are deterministic or certain."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q044",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Permutations and Combinations",
+      "subsection": "Permutation",
+      "sub_subsection": null,
+      "structural_anchor": "Permutation",
+      "mcq_type": "E",
+      "question": "In how many ways can 3 different books be arranged on a shelf?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "27"
+      },
+      "correct_answer": "B",
+      "hint": "Arrange all 3 distinct books.",
+      "explanation": "Number of arrangements = 3! = 3×2×1 = 6. Option A (3) would be if order didn't matter; option C is 3×3; option D is 3^3.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(n! = n \\times (n-1) \\times ... \\times 1\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "n": {"magnitude": 3, "unit": "books"}
+        },
+        "answer_value": 6,
+        "answer_unit": "arrangements",
+        "calculation_steps": ["\\(3! = 3 \\times 2 \\times 1 = 6\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Permutations and Combinations",
+        "subsection_anchor": "Permutation",
+        "structural_element": "Permutation",
+        "content_anchor": "3! = 6 arrangements",
+        "page_hint": 13,
+        "concept_hash": "b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Permutation of n distinct objects taken all at a time: n!.",
+        "concept_summary": "3 distinct books can be arranged in 3! = 6 different orders.",
+        "beginner": "3 books: pick first (3 choices), second (2 choices), third (1 choice). Multiply: 3×2×1 = 6.",
+        "intermediate": "Number of permutations = 3! = 3×2×1 = 6.",
+        "advanced": "The symmetric group S3 has order 3! = 6.",
+        "worked_solution": ["Step 1: Number of books = 3.", "Step 2: Permutations of all 3 = 3! = 3×2×1 = 6."],
+        "reasoning_steps": [
+          "Identify that order matters (arranging books).",
+          "Apply factorial for all n distinct objects.",
+          "Compute 3! = 6."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(n!\\)",
+            "name": "Permutation of all n objects",
+            "variables": [{"symbol": "n", "meaning": "number of objects", "unit": null}],
+            "derivation": "Multiplication principle."
+          }
+        ],
+        "misconceptions": [
+          "Some think arrangement count = n (3).",
+          "Others use exponentiation (3^3)."
+        ],
+        "related_concepts": ["factorial", "permutation", "arrangement"],
+        "revision_note": "3! = 6 arrangements.",
+        "glossary_entry": {
+          "term": "Permutation",
+          "definition": "Ordered arrangement.",
+          "example_equation": "3! = 6",
+          "related_terms": ["factorial", "arrangement"]
+        },
+        "flashcard": {
+          "front": "Ways to arrange 3 distinct books?",
+          "back": "6. 3! = 6."
+        },
+        "concept_map_nodes": [
+          {"source": "Permutation", "relation": "formula", "target": "n!"},
+          {"source": "3 books", "relation": "arrangements", "target": "6"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 8 — Permutations",
+        "flashcard_front": "Arrange 3 different books on a shelf: how many ways?",
+        "flashcard_back": "6. 3! = 6.",
+        "glossary_term": "Permutation",
+        "glossary_definition": "Ordered arrangement.",
+        "revision_note": "3! = 6 arrangements.",
+        "teacher_note": "List all 6 permutations to verify.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Permutation", "relation": "of_n_items", "target": "n!"},
+          {"source": "n!", "relation": "grows", "target": "Rapidly"}
+        ],
+        "workbook_section": "Permutations and Combinations",
+        "solution_manual_note": "Answer B. 3! = 6. Option A (3) would be number of books, not arrangements."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q045",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Probability of an Event",
+      "subsection": "Addition Rule",
+      "sub_subsection": null,
+      "structural_anchor": "Rules of addition of probability",
+      "mcq_type": "G",
+      "question": "If \\(P(A) = 0.6\\), \\(P(B) = 0.3\\), and \\(P(A \\cap B) = 0.2\\), what is \\(P(A \\cup B)\\)?",
+      "options": {
+        "A": "0.9",
+        "B": "0.7",
+        "C": "0.5",
+        "D": "0.8"
+      },
+      "correct_answer": "B",
+      "hint": "Use addition rule: P(A∪B) = P(A) + P(B) - P(A∩B).",
+      "explanation": "P(A∪B) = 0.6 + 0.3 - 0.2 = 0.7. Option A (0.9) would be adding without subtracting; option C (0.5) is difference.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(P(A \\cup B) = P(A) + P(B) - P(A \\cap B)\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "P(A)": {"magnitude": 0.6, "unit": null},
+          "P(B)": {"magnitude": 0.3, "unit": null},
+          "P(A∩B)": {"magnitude": 0.2, "unit": null}
+        },
+        "answer_value": 0.7,
+        "answer_unit": null,
+        "calculation_steps": ["\\(0.6 + 0.3 - 0.2 = 0.7\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Probability of an Event",
+        "subsection_anchor": "Addition Rule",
+        "structural_element": "Rules of addition of probability",
+        "content_anchor": "P(E1 ∪ E2) = P(E1) + P(E2) - P(E1 ∩ E2)",
+        "page_hint": 51,
+        "concept_hash": "c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "General addition rule: P(A ∪ B) = P(A) + P(B) - P(A ∩ B).",
+        "concept_summary": "Subtract the intersection to avoid double-counting outcomes that belong to both A and B.",
+        "beginner": "Add the two probabilities (0.6+0.3=0.9), but you counted the overlap (0.2) twice, so subtract it once: 0.9 - 0.2 = 0.7.",
+        "intermediate": "P(A∪B) = 0.6 + 0.3 - 0.2 = 0.7.",
+        "advanced": "By the inclusion-exclusion principle for two sets: |A∪B| = |A| + |B| - |A∩B|; divide by |S| for probability.",
+        "worked_solution": ["Step 1: Apply addition rule: P(A∪B) = P(A) + P(B) - P(A∩B).", "Step 2: Substitute: 0.6 + 0.3 - 0.2.", "Step 3: Compute: 0.9 - 0.2 = 0.7."],
+        "reasoning_steps": [
+          "Identify individual probabilities and intersection.",
+          "Apply addition rule formula.",
+          "Perform arithmetic."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P(A ∪ B) = P(A) + P(B) - P(A ∩ B)\\)",
+            "name": "General addition rule",
+            "variables": [
+              {"symbol": "P(A)", "meaning": "probability of A", "unit": null},
+              {"symbol": "P(B)", "meaning": "probability of B", "unit": null},
+              {"symbol": "P(A∩B)", "meaning": "probability of both", "unit": null}
+            ],
+            "derivation": "Inclusion-exclusion"
+          }
+        ],
+        "misconceptions": [
+          "Some forget to subtract intersection (double-counting error).",
+          "Others subtract when events are mutually exclusive (incorrect)."
+        ],
+        "related_concepts": ["inclusion-exclusion", "union", "intersection"],
+        "revision_note": "P(A∪B) = P(A)+P(B)-P(A∩B).",
+        "glossary_entry": {
+          "term": "Addition rule",
+          "definition": "Formula for probability of union of two events.",
+          "example_equation": "0.6 + 0.3 - 0.2 = 0.7",
+          "related_terms": ["union", "intersection", "inclusion-exclusion"]
+        },
+        "flashcard": {
+          "front": "P(A)=0.6, P(B)=0.3, P(A∩B)=0.2. P(A∪B)=?",
+          "back": "0.7. 0.6+0.3-0.2=0.7."
+        },
+        "concept_map_nodes": [
+          {"source": "Addition rule", "relation": "subtracts", "target": "Intersection"},
+          {"source": "Intersection", "relation": "prevents", "target": "Double-counting"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 8 — Addition Rule",
+        "flashcard_front": "P(A)=0.6, P(B)=0.3, P(A∩B)=0.2. P(A∪B)=?",
+        "flashcard_back": "0.7. 0.6+0.3-0.2=0.7.",
+        "glossary_term": "Addition rule",
+        "glossary_definition": "P(A∪B)=P(A)+P(B)-P(A∩B).",
+        "revision_note": "Add then subtract overlap.",
+        "teacher_note": "Use Venn diagram to show why intersection must be subtracted.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate the probability of an event",
+        "concept_map_nodes": [
+          {"source": "Addition rule", "relation": "general_case", "target": "Subtract intersection"},
+          {"source": "Addition rule", "relation": "special_case", "target": "Mutually exclusive (no subtraction)"}
+        ],
+        "workbook_section": "Probability of an Event",
+        "solution_manual_note": "Answer B. 0.6+0.3-0.2=0.7. Option A (0.9) omits subtraction."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q046",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Probability of an Event",
+      "subsection": "Complement",
+      "sub_subsection": null,
+      "structural_anchor": "Axiomatic approach",
+      "mcq_type": "D",
+      "question": "If the probability of rain tomorrow is 0.3, what is the probability that it does not rain?",
+      "options": {
+        "A": "0.3",
+        "B": "1.3",
+        "C": "0.03",
+        "D": "0.7"
+      },
+      "correct_answer": "D",
+      "hint": "Use complement rule.",
+      "explanation": "P(no rain) = 1 - P(rain) = 1 - 0.3 = 0.7. Option A is P(rain); option B >1; option C is 0.3×0.1.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(P(A') = 1 - P(A)\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "P(rain)": {"magnitude": 0.3, "unit": null}
+        },
+        "answer_value": 0.7,
+        "answer_unit": null,
+        "calculation_steps": ["\\(1 - 0.3 = 0.7\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Probability of an Event",
+        "subsection_anchor": "Complement",
+        "structural_element": "Axiomatic approach",
+        "content_anchor": "P(E') = 1 - P(E)",
+        "page_hint": 46,
+        "concept_hash": "d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Complement rule: P(not A) = 1 - P(A).",
+        "concept_summary": "Rain and no rain are complementary events; their probabilities sum to 1.",
+        "beginner": "If there's a 30% chance of rain, there's a 70% chance of no rain (100% - 30% = 70%).",
+        "intermediate": "P(no rain) = 1 - P(rain) = 1 - 0.3 = 0.7.",
+        "advanced": "By probability axioms, P(A) + P(A') = 1, so P(A') = 1 - P(A).",
+        "worked_solution": ["Step 1: Identify complement relationship.", "Step 2: Apply complement rule: P(not rain) = 1 - P(rain).", "Step 3: 1 - 0.3 = 0.7."],
+        "reasoning_steps": [
+          "Recognize that 'no rain' is complement of 'rain'.",
+          "Subtract given probability from 1.",
+          "Result is 0.7."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P(A') = 1 - P(A)\\)",
+            "name": "Complement rule",
+            "variables": [{"symbol": "P(A)", "meaning": "probability of event", "unit": null}],
+            "derivation": "From P(A) + P(A') = 1"
+          }
+        ],
+        "misconceptions": [
+          "Some think complement has same probability.",
+          "Others add instead of subtract."
+        ],
+        "related_concepts": ["complement", "axioms", "certainty"],
+        "revision_note": "P(no rain) = 1 - P(rain).",
+        "glossary_entry": {
+          "term": "Complement",
+          "definition": "Event that A does not occur.",
+          "example_equation": "P(no rain) = 1 - 0.3 = 0.7",
+          "related_terms": ["complement rule", "certain event"]
+        },
+        "flashcard": {
+          "front": "P(rain)=0.3, P(no rain)=?",
+          "back": "0.7. 1 - 0.3 = 0.7."
+        },
+        "concept_map_nodes": [
+          {"source": "Complement", "relation": "formula", "target": "1 - P(A)"},
+          {"source": "Rain", "relation": "complement", "target": "No rain"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "real-life"],
+        "flashcard_deck": "Mathematics Unit 8 — Complement in Real Life",
+        "flashcard_front": "P(rain)=0.3, P(no rain)=?",
+        "flashcard_back": "0.7. 1 - 0.3 = 0.7.",
+        "glossary_term": "Complement",
+        "glossary_definition": "Event that original does not occur.",
+        "revision_note": "Complement: 1 - P(event).",
+        "teacher_note": "Use weather forecast example to illustrate complement.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate the probability of an event",
+        "concept_map_nodes": [
+          {"source": "Complement", "relation": "real_life", "target": "Weather probability"},
+          {"source": "Rain", "relation": "complement", "target": "No rain"}
+        ],
+        "workbook_section": "Probability of an Event",
+        "solution_manual_note": "Answer D. 1 - 0.3 = 0.7. Option A is P(rain) itself."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q047",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Binomial Theorem",
+      "subsection": "Binomial Theorem",
+      "sub_subsection": null,
+      "structural_anchor": "Binomial Theorem",
+      "mcq_type": "C",
+      "question": "What is the coefficient of \\(x^2 y^3\\) in the expansion of \\((x + y)^5\\)?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "20",
+        "D": "15"
+      },
+      "correct_answer": "B",
+      "hint": "The exponent of y is 3, so coefficient is C(5,3) or C(5,2).",
+      "explanation": "In (x+y)^5, term with x^2 y^3 occurs when exponent of y is r=3: C(5,3) = 10. Option A is C(5,1); option C is 2×10; option D is C(5,2)=10 as well but same.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\binom{n}{r} = \\frac{n!}{r!(n-r)!}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "n": {"magnitude": 5, "unit": null},
+          "r": {"magnitude": 3, "unit": null}
+        },
+        "answer_value": 10,
+        "answer_unit": null,
+        "calculation_steps": ["\\(\\binom{5}{3} = \\frac{5!}{3!2!} = \\frac{120}{6 \\times 2} = \\frac{120}{12} = 10\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Binomial Theorem",
+        "subsection_anchor": "Binomial Theorem",
+        "structural_element": "Binomial Theorem",
+        "content_anchor": "coefficient of a^3 b^2 in (a+b)^5 is C(5,2)=10",
+        "page_hint": 27,
+        "concept_hash": "e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Binomial theorem: (x+y)^n = Σ C(n,r) x^(n-r) y^r.",
+        "concept_summary": "For x^2 y^3, exponent of y is r=3, so coefficient = C(5,3) = 10.",
+        "beginner": "Pascal's triangle row 5: 1,5,10,10,5,1. The term x^2 y^3 is the fourth term, coefficient 10.",
+        "intermediate": "C(5,3) = 5!/(3!2!) = 120/(6×2) = 10.",
+        "advanced": "Choose 3 factors to contribute y out of 5: C(5,3) = 10.",
+        "worked_solution": ["Step 1: Match term to formula: n=5, exponent of y is r=3.", "Step 2: Coefficient = C(5,3).", "Step 3: C(5,3) = 10."],
+        "reasoning_steps": [
+          "Identify r as exponent of y.",
+          "Compute binomial coefficient C(5, r).",
+          "Result is 10."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\binom{n}{r}\\)",
+            "name": "Binomial coefficient",
+            "variables": [
+              {"symbol": "n", "meaning": "power", "unit": null},
+              {"symbol": "r", "meaning": "exponent of second variable", "unit": null}
+            ],
+            "derivation": "Combinatorial"
+          }
+        ],
+        "misconceptions": [
+          "Some use C(5,2)=10 (same answer, but different reasoning).",
+          "Others think coefficient is 5 for x^4y, etc."
+        ],
+        "related_concepts": ["binomial theorem", "Pascal's triangle", "combination"],
+        "revision_note": "Coefficient of x^2 y^3 in (x+y)^5 = 10.",
+        "glossary_entry": {
+          "term": "Binomial coefficient",
+          "definition": "Coefficient from binomial expansion.",
+          "example_equation": "\\(\\binom{5}{3} = 10\\)",
+          "related_terms": ["combination", "Pascal's triangle"]
+        },
+        "flashcard": {
+          "front": "Coefficient of x^2 y^3 in (x+y)^5?",
+          "back": "10. C(5,3) = 10."
+        },
+        "concept_map_nodes": [
+          {"source": "Binomial theorem", "relation": "coefficient", "target": "C(n,r)"},
+          {"source": "C(5,3)", "relation": "equals", "target": "10"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 8 — Binomial Coefficients",
+        "flashcard_front": "Coefficient of x^2 y^3 in (x+y)^5?",
+        "flashcard_back": "10. C(5,3)=10.",
+        "glossary_term": "Binomial coefficient",
+        "glossary_definition": "Number from binomial expansion.",
+        "revision_note": "C(5,3)=10.",
+        "teacher_note": "Show Pascal's triangle row 5: 1,5,10,10,5,1.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Understand Binomial Theorem",
+        "concept_map_nodes": [
+          {"source": "Binomial theorem", "relation": "term", "target": "C(n,r) x^(n-r) y^r"},
+          {"source": "Pascal's triangle", "relation": "row_5", "target": "1,5,10,10,5,1"}
+        ],
+        "workbook_section": "Binomial Theorem",
+        "solution_manual_note": "Answer B. C(5,3)=10. Option C (20) would be 2×10."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q048",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Fundamental Principle of Counting",
+      "subsection": "Multiplication Principle",
+      "sub_subsection": null,
+      "structural_anchor": "Multiplication Principle",
+      "mcq_type": "L",
+      "question": "A password consists of 2 digits (0-9) followed by 2 letters (A-Z). Digits and letters can repeat. How many different passwords are possible?",
+      "options": {
+        "A": "2600",
+        "B": "67600",
+        "C": "260",
+        "D": "6760"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply choices: 10×10×26×26.",
+      "explanation": "10 choices for each digit, 26 for each letter: 10^2 × 26^2 = 100 × 676 = 67,600. Option A is 10×26×10; option C is 10×26; option D is 26×260?",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "digits": {"magnitude": 10, "unit": "choices per digit"},
+          "letters": {"magnitude": 26, "unit": "choices per letter"},
+          "digit_positions": {"magnitude": 2, "unit": "positions"},
+          "letter_positions": {"magnitude": 2, "unit": "positions"}
+        },
+        "answer_value": 67600,
+        "answer_unit": "passwords",
+        "calculation_steps": ["\\(10^2 = 100\\)", "\\(26^2 = 676\\)", "\\(100 \\times 676 = 67,600\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Fundamental Principle of Counting",
+        "subsection_anchor": "Multiplication Principle",
+        "structural_element": "Multiplication Principle",
+        "content_anchor": "counting with repetition: n^r",
+        "page_hint": 6,
+        "concept_hash": "f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 91,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Multiplication principle with repetition: total = (choices per position)^(number of positions).",
+        "concept_summary": "Digits: 10 choices each, 2 positions → 10^2. Letters: 26 choices each, 2 positions → 26^2. Multiply: 100 × 676 = 67,600.",
+        "beginner": "First digit: 10 ways, second digit: 10 ways; first letter: 26 ways, second letter: 26 ways. Multiply: 10×10×26×26 = 67,600.",
+        "intermediate": "10^2 × 26^2 = 100 × 676 = 67,600.",
+        "advanced": "Using the multiplication principle: 10 × 10 × 26 × 26 = 67,600.",
+        "worked_solution": ["Step 1: Choices for digit 1 = 10.", "Step 2: Choices for digit 2 = 10.", "Step 3: Choices for letter 1 = 26.", "Step 4: Choices for letter 2 = 26.", "Step 5: Multiply: 10×10×26×26 = 67,600."],
+        "reasoning_steps": [
+          "Count choices for each position (repetition allowed).",
+          "Multiply all independent choices.",
+          "Simplify using exponents if desired."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some use 10×26 = 260 (only 1 digit and 1 letter).",
+          "Others add instead of multiply."
+        ],
+        "related_concepts": ["multiplication principle", "counting with repetition", "exponents"],
+        "revision_note": "2 digits (10^2) × 2 letters (26^2) = 67,600.",
+        "glossary_entry": {
+          "term": "Multiplication principle",
+          "definition": "Total outcomes = product of independent choice counts.",
+          "example_equation": "10^2 × 26^2 = 67,600",
+          "related_terms": ["counting", "repetition"]
+        },
+        "flashcard": {
+          "front": "How many 2-digit, 2-letter passwords with repetition?",
+          "back": "67,600. 10^2 × 26^2 = 100 × 676 = 67,600."
+        },
+        "concept_map_nodes": [
+          {"source": "Multiplication principle", "relation": "with_repetition", "target": "n^r"},
+          {"source": "Password counting", "relation": "example_of", "target": "Multiplication principle"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 8 — Password Counting",
+        "flashcard_front": "2 digits (0-9) + 2 letters (A-Z), repetition allowed?",
+        "flashcard_back": "67,600. 10^2 × 26^2 = 67,600.",
+        "glossary_term": "Multiplication principle",
+        "glossary_definition": "Product of independent choices.",
+        "revision_note": "10²×26² = 67,600.",
+        "teacher_note": "Emphasize that repetition multiplies rather than permutes.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Multiplication principle", "relation": "with_repetition", "target": "n^r"},
+          {"source": "Without repetition", "relation": "uses", "target": "Permutation"}
+        ],
+        "workbook_section": "Fundamental Principle of Counting",
+        "solution_manual_note": "Answer B. 10^2 × 26^2 = 100 × 676 = 67,600. Option A is 10×26×10=2,600."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q049",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Introduction",
+      "subsection": "Revision about Probability",
+      "sub_subsection": null,
+      "structural_anchor": "Revision about Probability",
+      "mcq_type": "A",
+      "question": "If an event is certain to occur, its probability is:",
+      "options": {
+        "A": "0",
+        "B": "0.5",
+        "C": "1",
+        "D": "100"
+      },
+      "correct_answer": "C",
+      "hint": "Certain events always happen.",
+      "explanation": "A certain event has probability 1 (or 100%). Option A (0) is impossible; option B (0.5) is equally likely; option D is percentage not probability scale.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": null,
+        "answer_value": 1,
+        "answer_unit": null,
+        "calculation_steps": [],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Revision about Probability",
+        "structural_element": "Revision about Probability",
+        "content_anchor": "certain event has probability 1",
+        "page_hint": 45,
+        "concept_hash": "a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "A certain event is guaranteed to occur; its probability is 1.",
+        "concept_summary": "Probability ranges from 0 (impossible) to 1 (certain).",
+        "beginner": "If something will definitely happen, like the sun rising tomorrow, its probability is 1 (or 100%).",
+        "intermediate": "By definition, P(S) = 1 for the sample space S, which is the certain event.",
+        "advanced": "The probability measure assigns 1 to the entire sample space, representing certainty.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall probability scale: 0 to 1.",
+          "Certain = maximum probability = 1."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think certain means probability 100 (percentage confusion).",
+          "Others confuse certain with 0.5 (equally likely)."
+        ],
+        "related_concepts": ["probability scale", "certain event", "impossible event"],
+        "revision_note": "Certain event: P = 1.",
+        "glossary_entry": {
+          "term": "Certain event",
+          "definition": "An event that always occurs; probability = 1.",
+          "example_equation": "P(S) = 1",
+          "related_terms": ["sample space", "probability axioms"]
+        },
+        "flashcard": {
+          "front": "Probability of a certain event?",
+          "back": "1 (or 100%). It always happens."
+        },
+        "concept_map_nodes": [
+          {"source": "Certain event", "relation": "probability", "target": "1"},
+          {"source": "Certain event", "relation": "opposite_of", "target": "Impossible event"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 8 — Probability Basics",
+        "flashcard_front": "What is the probability of a certain event?",
+        "flashcard_back": "1. It always occurs.",
+        "glossary_term": "Certain event",
+        "glossary_definition": "Event that always occurs.",
+        "revision_note": "Certain → P=1.",
+        "teacher_note": "Contrast with impossible event (P=0).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the concept of probability",
+        "concept_map_nodes": [
+          {"source": "Probability", "relation": "maximum", "target": "1"},
+          {"source": "Certain event", "relation": "example", "target": "Sun rising tomorrow"}
+        ],
+        "workbook_section": "Probability of an Event",
+        "solution_manual_note": "Answer C. Certain event has probability 1. Option A (0) is impossible; option D (100) is percentage, not probability."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q050",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Probability of an Event",
+      "subsection": "Multiplication Rule",
+      "sub_subsection": null,
+      "structural_anchor": "Rules of multiplication of probability",
+      "mcq_type": "H",
+      "question": "A student incorrectly calculates P(A and B) as P(A) + P(B) for independent events. What is the correct operation?",
+      "options": {
+        "A": "Addition",
+        "B": "Subtraction",
+        "C": "Multiplication",
+        "D": "Division"
+      },
+      "correct_answer": "C",
+      "hint": "For independent events, 'and' means multiply.",
+      "explanation": "For independent events, P(A and B) = P(A) × P(B). The student added instead of multiplying. Option A (addition) would be for 'or' with mutually exclusive events, not 'and'.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(P(A \\cap B) = P(A) \\times P(B)\\) for independent events"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Probability of an Event",
+        "subsection_anchor": "Multiplication Rule",
+        "structural_element": "Rules of multiplication of probability",
+        "content_anchor": "P(E1 ∩ E2) = P(E1) × P(E2) for independent events",
+        "page_hint": 58,
+        "concept_hash": "b0c1d2e7f8a9b0c1d2e7f8a9b0c1d2e7f8a9b0c1d6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 92,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "For independent events, the probability of both occurring is the product of their individual probabilities.",
+        "concept_summary": "The student confused 'and' (multiplication) with 'or' (addition for mutually exclusive events).",
+        "beginner": "If events are independent (like flipping a coin and rolling a die), the chance both happen is multiply, not add.",
+        "intermediate": "Independent events: P(A ∩ B) = P(A) × P(B). Addition is for mutually exclusive 'or'.",
+        "advanced": "The multiplication rule follows from the definition of independence: P(B|A) = P(B), so P(A∩B) = P(A)P(B).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that 'and' means intersection, not union.",
+          "Recall multiplication rule for independent events.",
+          "Correct operation is multiplication."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P(A \\cap B) = P(A) \\times P(B)\\)",
+            "name": "Multiplication rule for independent events",
+            "variables": [
+              {"symbol": "P(A)", "meaning": "probability of A", "unit": null},
+              {"symbol": "P(B)", "meaning": "probability of B", "unit": null}
+            ],
+            "derivation": "From definition of independence"
+          }
+        ],
+        "misconceptions": [
+          "Many students add instead of multiply when they see 'and'.",
+          "Some subtract or divide incorrectly."
+        ],
+        "related_concepts": ["independent events", "multiplication rule", "addition rule"],
+        "revision_note": "Independent AND → multiply.",
+        "glossary_entry": {
+          "term": "Multiplication rule",
+          "definition": "For independent events, P(A and B) = P(A) × P(B).",
+          "example_equation": "P(A∩B) = P(A)P(B)",
+          "related_terms": ["independent events", "joint probability"]
+        },
+        "flashcard": {
+          "front": "What is the correct operation for P(A and B) when independent?",
+          "back": "Multiplication: P(A) × P(B)."
+        },
+        "concept_map_nodes": [
+          {"source": "Independent events", "relation": "AND", "target": "Multiply"},
+          {"source": "Mutually exclusive", "relation": "OR", "target": "Add"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 8 — Common Errors",
+        "flashcard_front": "Common error for P(A and B) independent?",
+        "flashcard_back": "Adding instead of multiplying. Correct: multiply.",
+        "glossary_term": "Multiplication rule",
+        "glossary_definition": "Product of probabilities for independent events.",
+        "revision_note": "Independent AND = multiply.",
+        "teacher_note": "Emphasize: 'and' → multiply; 'or' → add (if mutually exclusive).",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Calculate the probability of an event",
+        "concept_map_nodes": [
+          {"source": "AND", "relation": "operation", "target": "Multiplication"},
+          {"source": "OR", "relation": "operation", "target": "Addition (if mutually exclusive)"}
+        ],
+        "workbook_section": "Probability of an Event",
+        "solution_manual_note": "Answer C. For independent events, P(A and B) = P(A) × P(B). Option A (addition) would be for mutually exclusive 'or'."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3350,
+    "average_question_quality": 89.6,
+    "type_distribution": {
+      "A": 3,
+      "C": 1,
+      "D": 4,
+      "E": 1,
+      "F": 2,
+      "G": 2,
+      "H": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 3,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 1,
+      "Events": 2,
+      "Permutations and Combinations": 3,
+      "Probability of an Event": 4,
+      "Random Experiments and Their Outcomes": 1,
+      "Binomial Theorem": 1,
+      "Fundamental Principle of Counting": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 35,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,1473 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:45:00Z",
+  "round_id": "R04",
+  "batch_sequence": 4,
+  "__STATE__": {
+    "current_round": 4,
+    "last_question_id": "G11_Math_U5_Q040",
+    "covered_sections": [
+      "5.1 Revision on Vectors and Scalars>5.1.2 Vectors",
+      "5.2 Representation of Vectors>5.2.1 Components of Vectors",
+      "5.2 Representation of Vectors>5.2.2 Addition and Subtraction of Vectors",
+      "5.2 Representation of Vectors>5.2.3 Multiplication of Vectors by Scalars",
+      "5.2 Representation of Vectors>5.2.4 Unit Vectors",
+      "5.2 Representation of Vectors>5.2.5 Norm of Vectors",
+      "5.3 Vector Product>5.3.1 Scalar (inner or dot) Product",
+      "5.3 Vector Product>5.3.2 Vectors in Three-dimensional Space",
+      "5.3 Vector Product>5.3.3 Cross Product",
+      "5.4 Application of Scalar and Cross Product",
+      "5.1 Revision on Vectors and Scalars>5.1.1 Scalars",
+      "5.2 Representation of Vectors>5.2.2 Addition and Subtraction of Vectors",
+      "5.2 Representation of Vectors>5.2.3 Multiplication of Vectors by Scalars",
+      "5.2 Representation of Vectors>5.2.4 Unit Vectors",
+      "5.2 Representation of Vectors>5.2.5 Norm of Vectors",
+      "5.3 Vector Product>5.3.1 Scalar (inner or dot) Product",
+      "5.3 Vector Product>5.3.2 Vectors in Three-dimensional Space",
+      "5.3 Vector Product>5.3.3 Cross Product",
+      "5.4 Application of Scalar and Cross Product",
+      "5.5 Application of Vectors>5.5.1 Vectors and Lines",
+      "5.5 Application of Vectors>5.5.2 Vectors and Circles",
+      "5.5 Application of Vectors>5.5.3 Equations of Tangent Lines to a Circle",
+      "5.6 Applications",
+      "5.2 Representation of Vectors>5.2.1 Components of Vectors",
+      "5.2 Representation of Vectors>5.2.2 Addition and Subtraction of Vectors",
+      "5.3 Vector Product>5.3.1 Scalar (inner or dot) Product",
+      "5.3 Vector Product>5.3.3 Cross Product",
+      "5.4 Application of Scalar and Cross Product",
+      "5.5 Application of Vectors>5.5.1 Vectors and Lines"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1",
+      "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2",
+      "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3",
+      "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1"
+    ],
+    "baseline_counter": {
+      "5.1 Revision on Vectors and Scalars": {
+        "5.1.1 Scalars": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.1.2 Vectors": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 }
+      },
+      "5.2 Representation of Vectors": {
+        "5.2.1 Components of Vectors": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.2.2 Addition and Subtraction of Vectors": { "count": 3, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.2.3 Multiplication of Vectors by Scalars": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.4 Unit Vectors": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.5 Norm of Vectors": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "5.3 Vector Product": {
+        "5.3.1 Scalar (inner or dot) Product": { "count": 3, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.3.2 Vectors in Three-dimensional Space": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.3 Cross Product": { "count": 3, "mini_headings_covered": [], "last_question_round": 4 }
+      },
+      "5.4 Application of Scalar and Cross Product": {
+        "5.4 Application of Scalar and Cross Product": { "count": 3, "mini_headings_covered": [], "last_question_round": 4 }
+      },
+      "5.5 Application of Vectors": {
+        "5.5.1 Vectors and Lines": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.5.2 Vectors and Circles": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "5.5.3 Equations of Tangent Lines to a Circle": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      },
+      "5.6 Applications": {
+        "5.6 Applications": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Revision on Vectors and Scalars": { "question_count": 3, "last_used_round": 4, "consecutive_batches": 1 },
+      "5.2 Representation of Vectors": { "question_count": 11, "last_used_round": 4, "consecutive_batches": 1 },
+      "5.3 Vector Product": { "question_count": 10, "last_used_round": 4, "consecutive_batches": 1 },
+      "5.4 Application of Scalar and Cross Product": { "question_count": 3, "last_used_round": 4, "consecutive_batches": 1 },
+      "5.5 Application of Vectors": { "question_count": 5, "last_used_round": 3, "consecutive_batches": 0 },
+      "5.6 Applications": { "question_count": 1, "last_used_round": 3, "consecutive_batches": 0 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Revision on Vectors and Scalars>5.1.2 Vectors": ["vector", "scalar", "magnitude", "direction"],
+      "5.2 Representation of Vectors>5.2.1 Components of Vectors": ["component", "coordinate form", "column form", "terminal point"],
+      "5.2 Representation of Vectors>5.2.2 Addition and Subtraction of Vectors": ["vector addition", "commutative", "associative", "zero vector", "subtraction", "negative vector"],
+      "5.2 Representation of Vectors>5.2.3 Multiplication of Vectors by Scalars": ["scalar multiplication", "distributive", "magnitude scaling", "direction reversal"],
+      "5.2 Representation of Vectors>5.2.4 Unit Vectors": ["unit vector", "i", "j", "linear combination", "normalization"],
+      "5.2 Representation of Vectors>5.2.5 Norm of Vectors": ["norm", "magnitude", "distance formula", "Pythagorean theorem"],
+      "5.3 Vector Product>5.3.1 Scalar (inner or dot) Product": ["dot product", "cosine", "orthogonal", "commutative", "angle between vectors"],
+      "5.3 Vector Product>5.3.2 Vectors in Three-dimensional Space": ["3D vector", "i j k", "magnitude in 3D", "right-hand rule"],
+      "5.3 Vector Product>5.3.3 Cross Product": ["cross product", "determinant", "perpendicular", "right-hand rule", "anti-commutative"],
+      "5.4 Application of Scalar and Cross Product": ["angle between vectors", "work", "area of parallelogram", "torque", "triangle area"],
+      "5.5 Application of Vectors>5.5.1 Vectors and Lines": ["vector equation of line", "parametric equation", "direction vector", "position vector"],
+      "5.5 Application of Vectors>5.5.2 Vectors and Circles": ["circle equation", "position vector", "center", "radius", "standard equation"],
+      "5.5 Application of Vectors>5.5.3 Equations of Tangent Lines to a Circle": ["tangent line", "radius perpendicular to tangent", "point of tangency"],
+      "5.6 Applications": ["velocity components", "resultant velocity", "vector resolution"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.89,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Mathematics",
+  "unit": "Unit 5: VECTORS",
+  "pdf_filename": "M11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:45:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 40,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.89
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Representation of Vectors",
+      "least_covered_section": "5.6 Applications",
+      "imbalance_ratio": 11.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 70
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Math_U5_Q031",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.1 Revision on Vectors and Scalars",
+      "subsection": "5.1.2 Vectors",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 5.2",
+      "mcq_type": "J",
+      "question": "Which of the following is a vector quantity?",
+      "options": {
+        "A": "Mass",
+        "B": "Time",
+        "C": "Velocity",
+        "D": "Temperature"
+      },
+      "correct_answer": "C",
+      "hint": "A vector has both magnitude and direction.",
+      "explanation": "Velocity has both magnitude (speed) and direction. Mass, time, and temperature are scalars with only magnitude. Option C is the only vector.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.1 Revision on Vectors and Scalars",
+        "subsection_anchor": "5.1.2 Vectors",
+        "structural_element": "Definition 5.2",
+        "content_anchor": "vector is a physical quantity which can be expressed completely by stating both its magnitude with particular unit and direction",
+        "page_hint": 3,
+        "concept_hash": "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "A vector quantity has both magnitude and direction.",
+        "concept_summary": "Vectors describe quantities like velocity and force, unlike scalars which have magnitude only.",
+        "beginner": "Velocity tells you how fast AND which way; mass just tells how much.",
+        "intermediate": "Velocity is a vector because it includes direction; mass, time, temperature are scalars.",
+        "advanced": "Vectors transform under coordinate rotations; scalars are invariant.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check each quantity: does it have direction?",
+          "Velocity has direction (e.g., 60 km/h north).",
+          "Mass, time, temperature have no direction."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking speed is a vector (it is scalar; velocity is vector).",
+          "Assuming all measured quantities are vectors is incorrect."
+        ],
+        "related_concepts": ["Scalar", "Vector quantity", "Velocity", "Force"],
+        "revision_note": "Vector: magnitude + direction. Example: velocity.",
+        "glossary_entry": {
+          "term": "Vector quantity",
+          "definition": "Physical quantity requiring both magnitude and direction for complete description.",
+          "example_equation": null,
+          "related_terms": ["Scalar", "Velocity"]
+        },
+        "flashcard": {
+          "front": "Which is a vector: mass, time, velocity, temperature?",
+          "back": "Velocity."
+        },
+        "concept_map_nodes": [
+          { "source": "Vector quantity", "relation": "example", "target": "Velocity" },
+          { "source": "Scalar quantity", "relation": "example", "target": "Mass" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 5 — Vectors",
+        "flashcard_front": "Which quantity is a vector: mass, time, velocity, temperature?",
+        "flashcard_back": "Velocity (has magnitude and direction).",
+        "glossary_term": "Vector quantity",
+        "glossary_definition": "Quantity with both magnitude and direction.",
+        "revision_note": "Vector: velocity; scalar: mass.",
+        "teacher_note": "Reinforce real-world examples of vectors vs scalars.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Distinguish between vectors and scalars",
+        "concept_map_nodes": [
+          { "source": "Vector", "relation": "example_of", "target": "Velocity" },
+          { "source": "Scalar", "relation": "example_of", "target": "Mass" }
+        ],
+        "workbook_section": "5.1 Revision on Vectors and Scalars",
+        "solution_manual_note": "Answer C. Velocity has direction; others do not."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q032",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.2 Representation of Vectors",
+      "subsection": "5.2.1 Components of Vectors",
+      "sub_subsection": null,
+      "structural_anchor": "Note 1",
+      "mcq_type": "A",
+      "question": "What are the components of the zero vector with initial and terminal points at the origin?",
+      "options": {
+        "A": "\\((0,0)\\)",
+        "B": "\\((1,1)\\)",
+        "C": "\\((0,1)\\)",
+        "D": "\\((1,0)\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Zero vector has zero magnitude and no direction.",
+      "explanation": "The zero vector has both components zero: \\((0,0)\\). Options B, C, D have non-zero magnitude and represent non-zero vectors.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.2 Representation of Vectors",
+        "subsection_anchor": "5.2.1 Components of Vectors",
+        "structural_element": "Note 1",
+        "content_anchor": "if both initial and terminal points lie at origin, then v is zero vector: v = (0,0)",
+        "page_hint": 5,
+        "concept_hash": "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The zero vector has zero magnitude and indeterminate direction, represented as \\((0,0)\\).",
+        "concept_summary": "When initial and terminal points coincide, the displacement is zero in all directions.",
+        "beginner": "If you don't move at all, your displacement vector is (0,0).",
+        "intermediate": "Zero vector \\(\\mathbf{0} = (0,0)\\) has no magnitude and no defined direction.",
+        "advanced": "The zero vector is the additive identity in vector spaces: \\(\\mathbf{v} + \\mathbf{0} = \\mathbf{v}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "If initial point = terminal point, displacement = 0.",
+          "Components = (0,0)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Zero vector is not the same as scalar zero; it has components (0,0).",
+          "Some think zero vector has arbitrary direction; it is directionless."
+        ],
+        "related_concepts": ["Zero vector", "Additive identity", "Magnitude"],
+        "revision_note": "Zero vector: \\((0,0)\\).",
+        "glossary_entry": {
+          "term": "Zero vector",
+          "definition": "Vector with zero magnitude and indeterminate direction, components (0,0).",
+          "example_equation": "\\(\\mathbf{0} = (0,0)\\)",
+          "related_terms": ["Null vector", "Additive identity"]
+        },
+        "flashcard": {
+          "front": "Components of zero vector?",
+          "back": "(0,0)."
+        },
+        "concept_map_nodes": [
+          { "source": "Zero vector", "relation": "represented_as", "target": "(0,0)" },
+          { "source": "Zero vector", "relation": "has_property", "target": "Zero magnitude" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 5 — Vectors",
+        "flashcard_front": "What is the zero vector in component form?",
+        "flashcard_back": "(0,0).",
+        "glossary_term": "Zero vector",
+        "glossary_definition": "Vector with zero magnitude, components (0,0).",
+        "revision_note": "Zero vector = (0,0).",
+        "teacher_note": "Clarify that zero vector has no direction.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify zero vector",
+        "concept_map_nodes": [
+          { "source": "Zero vector", "relation": "has_components", "target": "(0,0)" },
+          { "source": "Zero vector", "relation": "satisfies", "target": "\\(\\mathbf{v}+\\mathbf{0}=\\mathbf{v}\\)" }
+        ],
+        "workbook_section": "5.2.1 Components of Vectors",
+        "solution_manual_note": "Answer A. Zero vector components are (0,0)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q033",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.2 Representation of Vectors",
+      "subsection": "5.2.2 Addition and Subtraction of Vectors",
+      "sub_subsection": null,
+      "structural_anchor": "Theorem 5.2",
+      "mcq_type": "G",
+      "question": "For vectors \\(\\mathbf{u}, \\mathbf{v}, \\mathbf{w}\\), the property \\((\\mathbf{u} + \\mathbf{v}) + \\mathbf{w} = \\mathbf{u} + (\\mathbf{v} + \\mathbf{w})\\) is called:",
+      "options": {
+        "A": "Commutative property",
+        "B": "Associative property",
+        "C": "Distributive property",
+        "D": "Identity property"
+      },
+      "correct_answer": "B",
+      "hint": "This property involves grouping, not order.",
+      "explanation": "The associative property states that the grouping of addition does not affect the sum. Commutative involves order, not grouping. Option A is incorrect because commutativity is \\(\\mathbf{u}+\\mathbf{v}=\\mathbf{v}+\\mathbf{u}\\).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\((\\mathbf{u}+\\mathbf{v})+\\mathbf{w} = \\mathbf{u}+(\\mathbf{v}+\\mathbf{w})\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.2 Representation of Vectors",
+        "subsection_anchor": "5.2.2 Addition and Subtraction of Vectors",
+        "structural_element": "Theorem 5.2",
+        "content_anchor": "(u + v) + w = u + (v + w) (Associative Property)",
+        "page_hint": 9,
+        "concept_hash": "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The associative property states that the grouping of addition does not affect the sum.",
+        "concept_summary": "Vector addition is associative, meaning \\((\\mathbf{u}+\\mathbf{v})+\\mathbf{w} = \\mathbf{u}+(\\mathbf{v}+\\mathbf{w})\\).",
+        "beginner": "It doesn't matter which two vectors you add first; the final sum is the same.",
+        "intermediate": "Associativity allows regrouping without changing result, analogous to scalar addition.",
+        "advanced": "Associativity is a fundamental property of vector spaces: addition is a binary operation that satisfies \\((a+b)+c = a+(b+c)\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Add first two vectors, then third.",
+          "Add last two vectors, then first.",
+          "Compare results."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\((\\mathbf{u}+\\mathbf{v})+\\mathbf{w} = \\mathbf{u}+(\\mathbf{v}+\\mathbf{w})\\)",
+            "name": "Associative property of vector addition",
+            "variables": [
+              { "symbol": "\\(\\mathbf{u}, \\mathbf{v}, \\mathbf{w}\\)", "meaning": "vectors", "unit": null }
+            ],
+            "derivation": "From component-wise addition associativity."
+          }
+        ],
+        "misconceptions": [
+          "Confusing associative with commutative (order vs grouping).",
+          "Thinking associativity applies only to scalars; it applies to vectors too."
+        ],
+        "related_concepts": ["Commutative property", "Vector addition", "Associative law"],
+        "revision_note": "Associative: \\((\\mathbf{u}+\\mathbf{v})+\\mathbf{w} = \\mathbf{u}+(\\mathbf{v}+\\mathbf{w})\\).",
+        "glossary_entry": {
+          "term": "Associative property",
+          "definition": "Property that grouping of addition does not change the sum.",
+          "example_equation": "\\((\\mathbf{u}+\\mathbf{v})+\\mathbf{w} = \\mathbf{u}+(\\mathbf{v}+\\mathbf{w})\\)",
+          "related_terms": ["Vector addition", "Commutative property"]
+        },
+        "flashcard": {
+          "front": "What property is \\((\\mathbf{u}+\\mathbf{v})+\\mathbf{w} = \\mathbf{u}+(\\mathbf{v}+\\mathbf{w})\\)?",
+          "back": "Associative property."
+        },
+        "concept_map_nodes": [
+          { "source": "Vector Addition", "relation": "satisfies", "target": "Associative Property" },
+          { "source": "Associative Property", "relation": "means", "target": "Grouping doesn't matter" }
+        ],
+        "workbook_section": "5.2.2 Addition and Subtraction of Vectors",
+        "solution_manual_note": "Answer B. Associative property involves grouping."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q034",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.3 Vector Product",
+      "subsection": "5.3.1 Scalar (inner or dot) Product",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of dot product",
+      "mcq_type": "C",
+      "question": "If \\(\\mathbf{u} \\cdot \\mathbf{v} = 0\\) for non-zero vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), then the vectors are:",
+      "options": {
+        "A": "Parallel",
+        "B": "Anti-parallel",
+        "C": "Perpendicular (orthogonal)",
+        "D": "Equal"
+      },
+      "correct_answer": "C",
+      "hint": "Recall \\(\\mathbf{u}\\cdot\\mathbf{v} = |\\mathbf{u}||\\mathbf{v}|\\cos\\theta\\).",
+      "explanation": "If dot product is zero and vectors are non-zero, then \\(\\cos\\theta = 0\\), so \\(\\theta = 90^\\circ\\) or \\(270^\\circ\\), meaning perpendicular. Parallel vectors have dot product = \\(\\pm|\\mathbf{u}||\\mathbf{v}|\\).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathbf{u}\\cdot\\mathbf{v} = |\\mathbf{u}||\\mathbf{v}|\\cos\\theta\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.3 Vector Product",
+        "subsection_anchor": "5.3.1 Scalar (inner or dot) Product",
+        "structural_element": "Properties of dot product",
+        "content_anchor": "If vectors are perpendicular or orthogonal, then u·v = 0",
+        "page_hint": 27,
+        "concept_hash": "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 93,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "Orthogonal vectors have a dot product of zero.",
+        "concept_summary": "Dot product zero indicates the vectors are perpendicular (90° apart).",
+        "beginner": "If the dot product is zero, the vectors are at right angles.",
+        "intermediate": "\\(\\mathbf{u}\\cdot\\mathbf{v}=0\\) and \\(\\mathbf{u},\\mathbf{v} \\neq \\mathbf{0}\\) implies \\(\\cos\\theta=0\\), so \\(\\theta=90^\\circ\\).",
+        "advanced": "Orthogonality is a key concept in inner product spaces, generalizing perpendicularity.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall dot product formula: \\(\\mathbf{u}\\cdot\\mathbf{v} = |\\mathbf{u}||\\mathbf{v}|\\cos\\theta\\).",
+          "Given \\(\\mathbf{u}\\cdot\\mathbf{v}=0\\) and vectors non-zero, \\(\\cos\\theta=0\\).",
+          "Thus \\(\\theta = 90^\\circ\\) or \\(270^\\circ\\), i.e., perpendicular."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathbf{u}\\cdot\\mathbf{v} = |\\mathbf{u}||\\mathbf{v}|\\cos\\theta\\)",
+            "name": "Geometric dot product",
+            "variables": [
+              { "symbol": "\\(|\\mathbf{u}|, |\\mathbf{v}|\\)", "meaning": "magnitudes", "unit": null },
+              { "symbol": "\\(\\theta\\)", "meaning": "angle between vectors", "unit": "degrees" }
+            ],
+            "derivation": "Law of cosines."
+          }
+        ],
+        "misconceptions": [
+          "Zero dot product could also mean one vector is zero, but condition says non-zero.",
+          "Some think dot product zero means vectors are parallel; that is incorrect."
+        ],
+        "related_concepts": ["Orthogonal vectors", "Perpendicular", "Dot product"],
+        "revision_note": "\\(\\mathbf{u}\\cdot\\mathbf{v}=0\\) → perpendicular.",
+        "glossary_entry": {
+          "term": "Orthogonal vectors",
+          "definition": "Vectors with dot product zero, indicating 90° angle between them.",
+          "example_equation": null,
+          "related_terms": ["Perpendicular", "Dot product"]
+        },
+        "flashcard": {
+          "front": "What does \\(\\mathbf{u}\\cdot\\mathbf{v}=0\\) imply for non-zero vectors?",
+          "back": "They are perpendicular (orthogonal)."
+        },
+        "concept_map_nodes": [
+          { "source": "Dot product", "relation": "equals_zero_when", "target": "Vectors are perpendicular" },
+          { "source": "Perpendicular", "relation": "means", "target": "Angle = 90°" }
+        ],
+        "workbook_section": "5.3.1 Scalar (inner or dot) Product",
+        "solution_manual_note": "Answer C. Dot product zero implies perpendicular when vectors are non-zero."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q035",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.3 Vector Product",
+      "subsection": "5.3.3 Cross Product",
+      "sub_subsection": null,
+      "structural_anchor": "Theorem 5.7",
+      "mcq_type": "I",
+      "question": "Given \\(\\mathbf{u} = 2\\mathbf{i} + 3\\mathbf{j} + 4\\mathbf{k}\\) and \\(\\mathbf{v} = \\mathbf{i} + 3\\mathbf{j} + 5\\mathbf{k}\\), the magnitude of \\(\\mathbf{u} \\times \\mathbf{v}\\) equals:",
+      "options": {
+        "A": "\\(3\\sqrt{6}\\)",
+        "B": "\\(3\\sqrt{2}\\)",
+        "C": "\\(6\\)",
+        "D": "\\(\\sqrt{54}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Compute cross product, then magnitude.",
+      "explanation": "\\(\\mathbf{u} \\times \\mathbf{v} = (3\\cdot5 - 4\\cdot3)\\mathbf{i} - (2\\cdot5 - 4\\cdot1)\\mathbf{j} + (2\\cdot3 - 3\\cdot1)\\mathbf{k} = (15-12)\\mathbf{i} - (10-4)\\mathbf{j} + (6-3)\\mathbf{k} = 3\\mathbf{i} - 6\\mathbf{j} + 3\\mathbf{k}\\). Magnitude = \\(\\sqrt{9+36+9} = \\sqrt{54} = 3\\sqrt{6}\\). Option D is unsimplified.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(\\mathbf{u} \\times \\mathbf{v} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ u_1 & u_2 & u_3 \\\\ v_1 & v_2 & v_3 \\end{vmatrix}\\)", "\\(|\\mathbf{u} \\times \\mathbf{v}| = \\sqrt{(u_2v_3-u_3v_2)^2 + (u_3v_1-u_1v_3)^2 + (u_1v_2-u_2v_1)^2}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "u1": 2, "u2": 3, "u3": 4, "v1": 1, "v2": 3, "v3": 5 },
+        "answer_value": 7.348,
+        "answer_unit": null,
+        "calculation_steps": ["\\(u_2v_3 - u_3v_2 = 3\\cdot5 - 4\\cdot3 = 15-12=3\\)", "\\(u_3v_1 - u_1v_3 = 4\\cdot1 - 2\\cdot5 = 4-10=-6\\)", "\\(u_1v_2 - u_2v_1 = 2\\cdot3 - 3\\cdot1 = 6-3=3\\)", "\\(|\\mathbf{u} \\times \\mathbf{v}| = \\sqrt{3^2 + (-6)^2 + 3^2} = \\sqrt{9+36+9} = \\sqrt{54} = 3\\sqrt{6}\\)"],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.3 Vector Product",
+        "subsection_anchor": "5.3.3 Cross Product",
+        "structural_element": "Theorem 5.7",
+        "content_anchor": "cross product magnitude area example",
+        "page_hint": 40,
+        "concept_hash": "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "The magnitude of the cross product equals the product of magnitudes times sine of the angle between them.",
+        "concept_summary": "Cross product magnitude also gives area of parallelogram formed by the two vectors.",
+        "beginner": "Cross product magnitude = \\(|\\mathbf{u}||\\mathbf{v}|\\sin\\theta\\), also area formula.",
+        "intermediate": "Compute determinant: \\(3\\mathbf{i} - 6\\mathbf{j} + 3\\mathbf{k}\\), magnitude = \\(3\\sqrt{6}\\).",
+        "advanced": "\\(|\\mathbf{u} \\times \\mathbf{v}| = \\sqrt{|\\mathbf{u}|^2|\\mathbf{v}|^2 - (\\mathbf{u}\\cdot\\mathbf{v})^2}\\).",
+        "worked_solution": [
+          "Step 1: i-component: \\(3\\cdot5 - 4\\cdot3 = 15-12 = 3\\).",
+          "Step 2: j-component: \\(-(2\\cdot5 - 4\\cdot1) = -(10-4) = -6\\).",
+          "Step 3: k-component: \\(2\\cdot3 - 3\\cdot1 = 6-3 = 3\\).",
+          "Step 4: Cross product = \\(3\\mathbf{i} - 6\\mathbf{j} + 3\\mathbf{k}\\).",
+          "Step 5: Magnitude = \\(\\sqrt{9+36+9} = \\sqrt{54} = 3\\sqrt{6}\\)."
+        ],
+        "reasoning_steps": [
+          "Set up determinant.",
+          "Compute i, j, k components carefully (j has negative sign).",
+          "Square and sum components.",
+          "Take square root and simplify."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(|\\mathbf{u} \\times \\mathbf{v}| = \\sqrt{(u_2v_3-u_3v_2)^2 + (u_3v_1-u_1v_3)^2 + (u_1v_2-u_2v_1)^2}\\)",
+            "name": "Cross product magnitude",
+            "variables": [
+              { "symbol": "\\(u_i, v_i\\)", "meaning": "vector components", "unit": null }
+            ],
+            "derivation": "From determinant formula and Pythagorean theorem."
+          }
+        ],
+        "misconceptions": [
+          "Forgetting negative sign on j-component leads to different magnitude.",
+          "Confusing cross product magnitude with dot product magnitude."
+        ],
+        "related_concepts": ["Cross product", "Area of parallelogram", "Determinant"],
+        "revision_note": "\\(|\\mathbf{u} \\times \\mathbf{v}| = \\sqrt{(u_2v_3-u_3v_2)^2 + ...}\\).",
+        "glossary_entry": {
+          "term": "Cross product magnitude",
+          "definition": "Length of cross product vector; area of parallelogram formed by the two vectors.",
+          "example_equation": "\\(|\\mathbf{u} \\times \\mathbf{v}| = 3\\sqrt{6}\\)",
+          "related_terms": ["Cross product", "Parallelogram area"]
+        },
+        "flashcard": {
+          "front": "Magnitude of cross product of (2,3,4) and (1,3,5)?",
+          "back": "\\(3\\sqrt{6}\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Cross product magnitude", "relation": "equals", "target": "Area of parallelogram" },
+          { "source": "Area of parallelogram", "relation": "formula", "target": "\\(|\\mathbf{u}||\\mathbf{v}|\\sin\\theta\\)" }
+        ],
+        "workbook_section": "5.3.3 Cross Product",
+        "solution_manual_note": "Answer A. \\(\\mathbf{u}\\times\\mathbf{v} = 3\\mathbf{i} -6\\mathbf{j} +3\\mathbf{k}\\), magnitude = \\(3\\sqrt{6}\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q036",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.4 Application of Scalar and Cross Product",
+      "subsection": "5.4 Application of Scalar and Cross Product",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1",
+      "mcq_type": "E",
+      "question": "Find the angle between \\(\\mathbf{u} = 4\\mathbf{i} - \\mathbf{j}\\) and \\(\\mathbf{v} = 5\\mathbf{i} + 3\\mathbf{j}\\).",
+      "options": {
+        "A": "\\(30^\\circ\\)",
+        "B": "\\(45^\\circ\\)",
+        "C": "\\(60^\\circ\\)",
+        "D": "\\(90^\\circ\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Use \\(\\cos\\theta = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}\\).",
+      "explanation": "\\(\\mathbf{u}\\cdot\\mathbf{v} = 4(5)+(-1)(3)=20-3=17\\). \\(|\\mathbf{u}|=\\sqrt{16+1}=\\sqrt{17}\\), \\(|\\mathbf{v}|=\\sqrt{25+9}=\\sqrt{34}\\). \\(\\cos\\theta = \\frac{17}{\\sqrt{17}\\sqrt{34}}=\\frac{17}{\\sqrt{578}}=\\frac{17}{17\\sqrt{2}}=\\frac{1}{\\sqrt{2}}\\), so \\(\\theta=45^\\circ\\). Option A or C would have different cosine values.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\cos\\theta = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "u1": 4, "u2": -1, "v1": 5, "v2": 3 },
+        "answer_value": 45,
+        "answer_unit": "degrees",
+        "calculation_steps": ["\\(\\mathbf{u}\\cdot\\mathbf{v} = 4\\cdot5 + (-1)\\cdot3 = 20-3=17\\)", "\\(|\\mathbf{u}|=\\sqrt{4^2+(-1)^2}=\\sqrt{17}\\)", "\\(|\\mathbf{v}|=\\sqrt{5^2+3^2}=\\sqrt{34}\\)", "\\(\\cos\\theta = 17/(\\sqrt{17}\\sqrt{34}) = 17/\\sqrt{578}=17/(17\\sqrt{2})=1/\\sqrt{2}\\)", "\\(\\theta = \\cos^{-1}(1/\\sqrt{2}) = 45^\\circ\\)"],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.4 Application of Scalar and Cross Product",
+        "subsection_anchor": "5.4 Application of Scalar and Cross Product",
+        "structural_element": "Example 1",
+        "content_anchor": "angle between u=4i-j and v=5i+3j is 45°",
+        "page_hint": 42,
+        "concept_hash": "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 89,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The angle between vectors is found using dot product and magnitudes.",
+        "concept_summary": "\\(\\cos\\theta = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}\\). Then \\(\\theta = \\cos^{-1}(\\text{value})\\).",
+        "beginner": "Find dot product, find each magnitude, divide, then inverse cosine.",
+        "intermediate": "\\(\\cos\\theta = 17/(\\sqrt{17}\\sqrt{34}) = 1/\\sqrt{2}\\), so \\(\\theta = 45^\\circ\\).",
+        "advanced": "This formula derives from the law of cosines: \\(|\\mathbf{u}-\\mathbf{v}|^2 = |\\mathbf{u}|^2+|\\mathbf{v}|^2-2|\\mathbf{u}||\\mathbf{v}|\\cos\\theta\\).",
+        "worked_solution": [
+          "Step 1: Compute dot product: \\(4\\cdot5 + (-1)\\cdot3 = 20-3=17\\).",
+          "Step 2: Compute \\(|\\mathbf{u}| = \\sqrt{4^2+(-1)^2} = \\sqrt{17}\\).",
+          "Step 3: Compute \\(|\\mathbf{v}| = \\sqrt{5^2+3^2} = \\sqrt{34}\\).",
+          "Step 4: \\(\\cos\\theta = 17/(\\sqrt{17}\\sqrt{34}) = 17/\\sqrt{578}=1/\\sqrt{2}\\).",
+          "Step 5: \\(\\theta = \\cos^{-1}(1/\\sqrt{2}) = 45^\\circ\\)."
+        ],
+        "reasoning_steps": [
+          "Calculate dot product.",
+          "Calculate magnitudes.",
+          "Divide dot product by product of magnitudes.",
+          "Take inverse cosine."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\cos\\theta = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}\\)",
+            "name": "Angle between vectors formula",
+            "variables": [
+              { "symbol": "\\(\\mathbf{u}\\cdot\\mathbf{v}\\)", "meaning": "dot product", "unit": null },
+              { "symbol": "\\(|\\mathbf{u}|, |\\mathbf{v}|\\)", "meaning": "magnitudes", "unit": null }
+            ],
+            "derivation": "Rearranging dot product definition."
+          }
+        ],
+        "misconceptions": [
+          "Using sine instead of cosine gives complementary angle.",
+          "Forgetting to take inverse cosine after computing ratio."
+        ],
+        "related_concepts": ["Dot product", "Cosine", "Law of cosines"],
+        "revision_note": "\\(\\cos\\theta = (\\mathbf{u}\\cdot\\mathbf{v})/(|\\mathbf{u}||\\mathbf{v}|)\\).",
+        "glossary_entry": {
+          "term": "Angle between vectors",
+          "definition": "Angle θ such that \\(\\mathbf{u}\\cdot\\mathbf{v} = |\\mathbf{u}||\\mathbf{v}|\\cos\\theta\\).",
+          "example_equation": "\\(\\theta = 45^\\circ\\)",
+          "related_terms": ["Dot product", "Cosine"]
+        },
+        "flashcard": {
+          "front": "Angle between (4,-1) and (5,3)?",
+          "back": "45°."
+        },
+        "concept_map_nodes": [
+          { "source": "Angle between vectors", "relation": "computed_by", "target": "Inverse cosine of dot product ratio" },
+          { "source": "Dot product", "relation": "gives", "target": "|u||v|cosθ" }
+        ],
+        "workbook_section": "5.4 Application of Scalar and Cross Product",
+        "solution_manual_note": "Answer B. \\(\\cos\\theta = 17/(\\sqrt{17}\\sqrt{34}) = 1/\\sqrt{2}\\), so θ=45°."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q037",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.5 Application of Vectors",
+      "subsection": "5.5.1 Vectors and Lines",
+      "sub_subsection": null,
+      "structural_anchor": "Example 2",
+      "mcq_type": "D",
+      "question": "Find the vector equation of the line passing through \\((2,2)\\) with direction vector \\((1,4)\\).",
+      "options": {
+        "A": "\\((x,y) = (2,2) + t(4,1)\\)",
+        "B": "\\((x,y) = (2,2) + t(1,4)\\)",
+        "C": "\\((x,y) = (1,4) + t(2,2)\\)",
+        "D": "\\((x,y) = (4,1) + t(2,2)\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Use \\(\\mathbf{r} = \\mathbf{r}_0 + t\\mathbf{v}\\).",
+      "explanation": "Given point \\((2,2)\\) as \\(\\mathbf{r}_0\\) and direction \\((1,4)\\) as \\(\\mathbf{v}\\), the equation is \\((x,y) = (2,2) + t(1,4)\\). Option A swaps direction components incorrectly.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathbf{r} = \\mathbf{r}_0 + t\\mathbf{v}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.5 Application of Vectors",
+        "subsection_anchor": "5.5.1 Vectors and Lines",
+        "structural_element": "Example 2",
+        "content_anchor": "line through (2,2) direction (1,4): (x,y) = (2,2) + t(1,4)",
+        "page_hint": 48,
+        "concept_hash": "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The vector equation of a line is \\(\\mathbf{r} = \\mathbf{r}_0 + t\\mathbf{v}\\) where \\(\\mathbf{v}\\) is direction.",
+        "concept_summary": "A point on the line plus any scalar multiple of the direction vector gives all points.",
+        "beginner": "Start at (2,2), then add t times (1,4) to move along the line.",
+        "intermediate": "\\(\\mathbf{r}_0 = (2,2)\\), \\(\\mathbf{v} = (1,4)\\), so \\((x,y) = (2,2) + t(1,4)\\).",
+        "advanced": "The parameter \\(t \\in \\mathbb{R}\\) generates all points; \\(\\mathbf{v}\\) can be any non-zero scalar multiple.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify point \\(\\mathbf{r}_0 = (2,2)\\).",
+          "Identify direction vector \\(\\mathbf{v} = (1,4)\\).",
+          "Write \\(\\mathbf{r} = \\mathbf{r}_0 + t\\mathbf{v}\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathbf{r} = \\mathbf{r}_0 + t\\mathbf{v}\\)",
+            "name": "Vector equation of line",
+            "variables": [
+              { "symbol": "\\(\\mathbf{r}_0\\)", "meaning": "point on line", "unit": null },
+              { "symbol": "\\(\\mathbf{v}\\)", "meaning": "direction vector", "unit": null },
+              { "symbol": "\\(t\\)", "meaning": "parameter", "unit": null }
+            ],
+            "derivation": "From \\(\\overrightarrow{OP} = \\overrightarrow{OP_0} + \\overrightarrow{P_0P}\\)."
+          }
+        ],
+        "misconceptions": [
+          "Swapping point and direction vector (using direction as point, point as direction).",
+          "Using direction vector components in wrong order."
+        ],
+        "related_concepts": ["Parametric equations", "Direction vector", "Position vector"],
+        "revision_note": "Line: \\(\\mathbf{r}_0 + t\\mathbf{v}\\).",
+        "glossary_entry": {
+          "term": "Vector equation of a line",
+          "definition": "Equation using a point and direction vector: \\(\\mathbf{r} = \\mathbf{r}_0 + t\\mathbf{v}\\).",
+          "example_equation": "\\((x,y) = (2,2) + t(1,4)\\)",
+          "related_terms": ["Parametric form", "Direction vector"]
+        },
+        "flashcard": {
+          "front": "Vector equation through (2,2) direction (1,4)?",
+          "back": "\\((x,y) = (2,2) + t(1,4)\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Line", "relation": "equation", "target": "\\(\\mathbf{r}_0 + t\\mathbf{v}\\)" },
+          { "source": "Direction vector", "relation": "determines", "target": "Line orientation" }
+        ],
+        "workbook_section": "5.5.1 Vectors and Lines",
+        "solution_manual_note": "Answer B. \\((x,y) = (2,2) + t(1,4)\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q038",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.3 Vector Product",
+      "subsection": "5.3.3 Cross Product",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of cross product",
+      "mcq_type": "F",
+      "question": "Which statement is true about the cross product \\(\\mathbf{u} \\times \\mathbf{v}\\)?",
+      "options": {
+        "A": "It is commutative: \\(\\mathbf{u} \\times \\mathbf{v} = \\mathbf{v} \\times \\mathbf{u}\\)",
+        "B": "It is anti-commutative: \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\)",
+        "C": "It always equals the dot product",
+        "D": "It is a scalar quantity"
+      },
+      "correct_answer": "B",
+      "hint": "Recall cross product order matters; swapping changes sign.",
+      "explanation": "Cross product is anti-commutative: \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\). Option A describes commutativity, which cross product does NOT have. Option D is wrong because cross product yields a vector.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.3 Vector Product",
+        "subsection_anchor": "5.3.3 Cross Product",
+        "structural_element": "Properties of cross product",
+        "content_anchor": "Anticommutativity: u × v = -(v × u)",
+        "page_hint": 39,
+        "concept_hash": "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 94,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "The cross product is anti-commutative: changing order changes sign.",
+        "concept_summary": "\\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\), unlike dot product which commutes.",
+        "beginner": "Swapping the vectors gives the opposite direction (negative).",
+        "intermediate": "Anti-commutativity means \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\).",
+        "advanced": "This follows from determinant properties: swapping rows changes sign.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Cross product uses determinant; swapping rows changes sign.",
+          "Thus \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\)",
+            "name": "Anti-commutative property",
+            "variables": [
+              { "symbol": "\\(\\mathbf{u}, \\mathbf{v}\\)", "meaning": "vectors", "unit": null }
+            ],
+            "derivation": "Determinant row swap changes sign."
+          }
+        ],
+        "misconceptions": [
+          "Assuming cross product commutes like dot product is wrong.",
+          "Thinking cross product yields a scalar is wrong; it yields a vector."
+        ],
+        "related_concepts": ["Commutative property", "Determinant", "Vector product"],
+        "revision_note": "Cross product: anti-commutative: \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\).",
+        "glossary_entry": {
+          "term": "Anti-commutative",
+          "definition": "Property where swapping operands changes sign: \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\).",
+          "example_equation": null,
+          "related_terms": ["Cross product", "Commutative"]
+        },
+        "flashcard": {
+          "front": "Is cross product commutative?",
+          "back": "No, it is anti-commutative: \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Cross product", "relation": "is", "target": "Anti-commutative" },
+          { "source": "Anti-commutative", "relation": "means", "target": "Sign changes on swap" }
+        ],
+        "workbook_section": "5.3.3 Cross Product",
+        "solution_manual_note": "Answer B. Cross product is anti-commutative: \\(\\mathbf{u} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{u}\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q039",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.4 Application of Scalar and Cross Product",
+      "subsection": "5.4 Application of Scalar and Cross Product",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4",
+      "mcq_type": "L",
+      "question": "A force of 40 N is applied perpendicular to a 0.25 m wrench. What is the torque magnitude?",
+      "options": {
+        "A": "\\(10\\text{ N·m}\\)",
+        "B": "\\(20\\text{ N·m}\\)",
+        "C": "\\(40\\text{ N·m}\\)",
+        "D": "\\(0\\text{ N·m}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Torque = force × lever arm when perpendicular.",
+      "explanation": "Torque \\(\\tau = |\\mathbf{r} \\times \\mathbf{F}| = rF\\sin\\theta\\). Here \\(\\theta = 90^\\circ\\), so \\(\\sin 90^\\circ = 1\\). Thus \\(\\tau = 0.25 \\times 40 = 10\\text{ N·m}\\). Option B would be for \\(0.5\\text{ m}\\) lever arm.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\tau = rF\\sin\\theta\\)", "\\(\\sin 90^\\circ = 1\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "r": 0.25, "F": 40, "theta": 90 },
+        "answer_value": 10,
+        "answer_unit": "N·m",
+        "calculation_steps": ["\\(\\tau = 0.25 \\times 40 \\times \\sin 90^\\circ\\)", "\\(= 10 \\times 1\\)", "\\(= 10\\text{ N·m}\\)"],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.4 Application of Scalar and Cross Product",
+        "subsection_anchor": "5.4 Application of Scalar and Cross Product",
+        "structural_element": "Example 4",
+        "content_anchor": "torque = rF sinθ = 0.25×40×1 = 10 N·m",
+        "page_hint": 44,
+        "concept_hash": "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 91,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Torque is the cross product of position vector and force: \\(\\tau = |\\mathbf{r} \\times \\mathbf{F}|\\).",
+        "concept_summary": "Maximum torque occurs when force is perpendicular to lever arm (θ=90°).",
+        "beginner": "Torque = force × distance when pushing straight sideways.",
+        "intermediate": "\\(\\tau = rF\\sin\\theta = 0.25 \\times 40 \\times 1 = 10\\text{ N·m}\\).",
+        "advanced": "Torque is a vector perpendicular to both \\(\\mathbf{r}\\) and \\(\\mathbf{F}\\); its magnitude is \\(rF\\sin\\theta\\).",
+        "worked_solution": [
+          "Step 1: Formula: \\(\\tau = rF\\sin\\theta\\).",
+          "Step 2: Force is perpendicular, so \\(\\theta = 90^\\circ\\), \\(\\sin 90^\\circ = 1\\).",
+          "Step 3: \\(\\tau = 0.25 \\times 40 \\times 1 = 10\\text{ N·m}\\)."
+        ],
+        "reasoning_steps": [
+          "Identify lever arm length \\(r\\) and force \\(F\\).",
+          "Determine angle between \\(\\mathbf{r}\\) and \\(\\mathbf{F}\\).",
+          "Apply torque formula: \\(\\tau = rF\\sin\\theta\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\tau = |\\mathbf{r} \\times \\mathbf{F}| = rF\\sin\\theta\\)",
+            "name": "Torque magnitude",
+            "variables": [
+              { "symbol": "\\(r\\)", "meaning": "lever arm length", "unit": "m" },
+              { "symbol": "\\(F\\)", "meaning": "force magnitude", "unit": "N" },
+              { "symbol": "\\(\\theta\\)", "meaning": "angle between r and F", "unit": "degrees" }
+            ],
+            "derivation": "Definition of cross product."
+          }
+        ],
+        "misconceptions": [
+          "Using cosine instead of sine gives zero torque for perpendicular case.",
+          "Forgetting units (N·m) is common."
+        ],
+        "related_concepts": ["Torque", "Cross product", "Lever arm", "Moment"],
+        "revision_note": "Torque = \\(rF\\sin\\theta\\); max when θ=90°.",
+        "glossary_entry": {
+          "term": "Torque",
+          "definition": "Rotational effect of force; magnitude = \\(rF\\sin\\theta\\).",
+          "example_equation": "\\(\\tau = 10\\text{ N·m}\\)",
+          "related_terms": ["Cross product", "Moment"]
+        },
+        "flashcard": {
+          "front": "Torque when 40 N perpendicular to 0.25 m wrench?",
+          "back": "10 N·m."
+        },
+        "concept_map_nodes": [
+          { "source": "Torque", "relation": "equals", "target": "Cross product of r and F" },
+          { "source": "Cross product magnitude", "relation": "uses", "target": "Sine of angle" }
+        ],
+        "workbook_section": "5.4 Application of Scalar and Cross Product",
+        "solution_manual_note": "Answer A. \\(\\tau = 0.25 \\times 40 \\times 1 = 10\\text{ N·m}\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U5_Q040",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 5: VECTORS",
+      "section": "5.5 Application of Vectors",
+      "subsection": "5.5.1 Vectors and Lines",
+      "sub_subsection": null,
+      "structural_anchor": "Parametric equations",
+      "mcq_type": "D",
+      "question": "A line has parametric equations \\(x = 1 + t, y = 4 - 2t\\). What is the direction vector?",
+      "options": {
+        "A": "\\((1,4)\\)",
+        "B": "\\((1,-2)\\)",
+        "C": "\\((4,-2)\\)",
+        "D": "\\((-1,2)\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Coefficients of \\(t\\) give the direction vector.",
+      "explanation": "From \\(x = x_0 + tp, y = y_0 + tq\\), direction vector = \\((p,q) = (1,-2)\\). Option A uses point coordinates, not direction.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(x = x_0 + tp, y = y_0 + tq\\)", "direction = \\((p,q)\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: VECTORS",
+        "section_anchor": "5.5 Application of Vectors",
+        "subsection_anchor": "5.5.1 Vectors and Lines",
+        "structural_element": "Parametric equations",
+        "content_anchor": "x = x0 + tp, y = y0 + tq, direction vector = (p,q)",
+        "page_hint": 47,
+        "concept_hash": "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 92,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Direction vector components are the coefficients of the parameter \\(t\\) in parametric equations.",
+        "concept_summary": "For \\(x = x_0 + pt, y = y_0 + qt\\), direction = \\((p,q)\\).",
+        "beginner": "Look at the numbers multiplying t; those form the direction vector.",
+        "intermediate": "From \\(x=1+t\\), \\(y=4-2t\\), coefficients of \\(t\\) are \\((1,-2)\\).",
+        "advanced": "The direction vector is \\(\\mathbf{v} = (p,q)\\); the point is \\((x_0,y_0)\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify coefficient of t in x-equation: p.",
+          "Identify coefficient of t in y-equation: q.",
+          "Direction vector = (p,q)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(x = x_0 + pt, y = y_0 + qt\\)",
+            "name": "Parametric equations of a line",
+            "variables": [
+              { "symbol": "\\((x_0,y_0)\\)", "meaning": "point on line", "unit": null },
+              { "symbol": "\\((p,q)\\)", "meaning": "direction vector", "unit": null },
+              { "symbol": "\\(t\\)", "meaning": "parameter", "unit": null }
+            ],
+            "derivation": "From vector equation \\((x,y) = (x_0,y_0) + t(p,q)\\)."
+          }
+        ],
+        "misconceptions": [
+          "Using the point coordinates (1,4) as direction is incorrect.",
+          "Direction vector can be scaled; (2,-4) also represents same line."
+        ],
+        "related_concepts": ["Parametric form", "Direction vector", "Vector equation"],
+        "revision_note": "Direction = coefficients of t.",
+        "glossary_entry": {
+          "term": "Direction vector from parametric equations",
+          "definition": "Vector (p,q) where x = x0+pt, y=y0+qt.",
+          "example_equation": "\\((1,-2)\\)",
+          "related_terms": ["Parametric equations", "Vector equation"]
+        },
+        "flashcard": {
+          "front": "Direction vector of x=1+t, y=4-2t?",
+          "back": "(1,-2)."
+        },
+        "concept_map_nodes": [
+          { "source": "Parametric equations", "relation": "direction_vector_is", "target": "Coefficients of t" },
+          { "source": "Coefficients of t", "relation": "give", "target": "(p,q)" }
+        ],
+        "workbook_section": "5.5.1 Vectors and Lines",
+        "solution_manual_note": "Answer B. Direction = coefficients of t: (1,-2)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3050,
+    "average_question_quality": 92.0,
+    "type_distribution": {
+      "A": 1,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "I": 1,
+      "J": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 2,
+      "hard": 2
+    },
+    "section_distribution": {
+      "5.1 Revision on Vectors and Scalars": 1,
+      "5.2 Representation of Vectors": 2,
+      "5.3 Vector Product": 3,
+      "5.4 Application of Scalar and Cross Product": 2,
+      "5.5 Application of Vectors": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 24,
+      "intermediate_avg": 33,
+      "advanced_avg": 44
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

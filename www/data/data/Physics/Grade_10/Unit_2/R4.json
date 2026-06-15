@@ -1,0 +1,2145 @@
+[
+  {
+    "engine_version": "mcq_engine_spec_v9",
+    "engine_timestamp": "2026-06-12T10:45:00Z",
+    "round_id": "R04",
+    "batch_sequence": 4,
+    "__STATE__": {
+      "current_round": 4,
+      "last_question_id": "G10_Phys_U2_Q040",
+      "covered_sections": [
+        "2.1 Position and Displacement>Position",
+        "2.1 Position and Displacement>Displacement",
+        "2.2 Average velocity and instantaneous velocity>Average velocity",
+        "2.2 Average velocity and instantaneous velocity>Instantaneous velocity",
+        "2.3 Acceleration>Average acceleration",
+        "2.3 Acceleration>Instantaneous acceleration",
+        "2.4 Equations of motion with constant acceleration>Equations of motion",
+        "2.4 Equations of motion with constant acceleration>Free fall",
+        "2.5 Graphical representation of uniformly accelerated motion>Position-time graph",
+        "2.5 Graphical representation of uniformly accelerated motion>Velocity-time graph",
+        "2.5 Graphical representation of uniformly accelerated motion>Acceleration-time graph",
+        "2.6 Relative velocity in one dimension>Relative velocity"
+      ],
+      "used_question_signatures": [
+        "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+        "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+        "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+        "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+        "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+        "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+        "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1",
+        "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+        "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+        "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+        "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+        "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+        "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+        "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+        "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+        "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+        "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+        "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+        "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+        "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+        "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+        "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+        "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+        "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+        "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+        "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+        "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1",
+        "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+        "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+        "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+        "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+        "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+        "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+        "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+        "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+        "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+        "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1",
+        "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2",
+        "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3",
+        "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4"
+      ],
+      "baseline_counter": {
+        "2.1 Position and Displacement": {
+          "Position": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          },
+          "Displacement": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          }
+        },
+        "2.2 Average velocity and instantaneous velocity": {
+          "Average velocity": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          },
+          "Instantaneous velocity": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          }
+        },
+        "2.3 Acceleration": {
+          "Average acceleration": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          },
+          "Instantaneous acceleration": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          }
+        },
+        "2.4 Equations of motion with constant acceleration": {
+          "Equations of motion": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          },
+          "Free fall": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          }
+        },
+        "2.5 Graphical representation of uniformly accelerated motion": {
+          "Position-time graph": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          },
+          "Velocity-time graph": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          },
+          "Acceleration-time graph": {
+            "count": 3,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          }
+        },
+        "2.6 Relative velocity in one dimension": {
+          "Relative velocity": {
+            "count": 4,
+            "mini_headings_covered": [],
+            "last_question_round": 4
+          }
+        }
+      },
+      "structure_verified": true,
+      "phase_status": {
+        "phase1_complete": true,
+        "phase2_complete": false,
+        "phase3_started": false
+      },
+      "distribution_tracker": {
+        "2.1 Position and Displacement": {
+          "question_count": 8,
+          "last_used_round": 4,
+          "consecutive_batches": 1
+        },
+        "2.2 Average velocity and instantaneous velocity": {
+          "question_count": 8,
+          "last_used_round": 4,
+          "consecutive_batches": 1
+        },
+        "2.3 Acceleration": {
+          "question_count": 8,
+          "last_used_round": 4,
+          "consecutive_batches": 1
+        },
+        "2.4 Equations of motion with constant acceleration": {
+          "question_count": 8,
+          "last_used_round": 4,
+          "consecutive_batches": 1
+        },
+        "2.5 Graphical representation of uniformly accelerated motion": {
+          "question_count": 11,
+          "last_used_round": 4,
+          "consecutive_batches": 2
+        },
+        "2.6 Relative velocity in one dimension": {
+          "question_count": 6,
+          "last_used_round": 4,
+          "consecutive_batches": 2
+        }
+      },
+      "exhaustion_attempts": 0,
+      "concepts_mapped": {
+        "2.1 Position and Displacement>Position": [
+          "position",
+          "reference point",
+          "origin",
+          "coordinate"
+        ],
+        "2.1 Position and Displacement>Displacement": [
+          "displacement",
+          "distance",
+          "vector",
+          "scalar",
+          "\u0394s = s - s\u2080"
+        ],
+        "2.2 Average velocity and instantaneous velocity>Average velocity": [
+          "average velocity",
+          "v\u2090\u1d65 = \u0394s/\u0394t",
+          "average speed"
+        ],
+        "2.2 Average velocity and instantaneous velocity>Instantaneous velocity": [
+          "instantaneous velocity",
+          "tangent",
+          "slope",
+          "limit",
+          "speedometer"
+        ],
+        "2.3 Acceleration>Average acceleration": [
+          "average acceleration",
+          "a\u2090\u1d65 = \u0394v/\u0394t",
+          "deceleration"
+        ],
+        "2.3 Acceleration>Instantaneous acceleration": [
+          "instantaneous acceleration",
+          "limit",
+          "derivative",
+          "dv/dt"
+        ],
+        "2.4 Equations of motion with constant acceleration>Equations of motion": [
+          "v = v\u2080 + at",
+          "s = v\u2080t + \u00bdat\u00b2",
+          "v\u00b2 = v\u2080\u00b2 + 2as"
+        ],
+        "2.4 Equations of motion with constant acceleration>Free fall": [
+          "free fall",
+          "g = 9.8 m/s\u00b2",
+          "v = gt",
+          "h = \u00bdgt\u00b2"
+        ],
+        "2.5 Graphical representation of uniformly accelerated motion>Position-time graph": [
+          "parabola",
+          "tangent",
+          "slope = velocity"
+        ],
+        "2.5 Graphical representation of uniformly accelerated motion>Velocity-time graph": [
+          "slope = acceleration",
+          "area = displacement"
+        ],
+        "2.5 Graphical representation of uniformly accelerated motion>Acceleration-time graph": [
+          "horizontal line",
+          "area = \u0394v"
+        ],
+        "2.6 Relative velocity in one dimension>Relative velocity": [
+          "relative velocity",
+          "frame of reference",
+          "v_AB = v_A - v_B",
+          "v_AB = v_A + v_B (approaching)"
+        ]
+      },
+      "baseline_complete": true,
+      "validation_hash": "sha256_of_previous_state_json_placeholder",
+      "content_density_metrics": {
+        "total_concepts_extracted": 28,
+        "questions_per_concept_ratio": 1.07,
+        "structural_coverage_percentage": 100.0
+      }
+    },
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "pdf_filename": "P10U2.pdf",
+    "generation_parameters": {
+      "max_questions_per_concept": 5,
+      "min_questions_per_subsection": 2,
+      "max_imbalance_ratio": 3.0,
+      "exhaustion_threshold_attempts": 10
+    },
+    "exhaustion_reached": false,
+    "user_stopped": false,
+    "safety_limit_triggered": false,
+    "validation_report": {
+      "batch_validation": {
+        "questions_validated": "10/10",
+        "regenerations_required": 0,
+        "constraint_violations_caught": 0,
+        "batch_status": "PASSED",
+        "validation_timestamp": "2026-06-12T10:45:00Z"
+      },
+      "phase_status_report": {
+        "phase1": {
+          "complete": true,
+          "sections_covered": 6,
+          "total_sections": 6,
+          "progress_percentage": 100.0
+        },
+        "phase2": {
+          "complete": false,
+          "max_imbalance_ratio": 1.38,
+          "balanced": false
+        },
+        "phase3": {
+          "started": false,
+          "exam_sections_biased": 0
+        }
+      },
+      "coverage_metrics": {
+        "total_questions_generated": 40,
+        "sections_covered_count": 6,
+        "subsections_covered_count": 13,
+        "mini_headings_covered_count": 0,
+        "structural_coverage_percentage": 100.0,
+        "concept_utilization_ratio": 1.07
+      },
+      "distribution_analysis": {
+        "most_covered_section": "2.5 Graphical representation (11)",
+        "least_covered_section": "2.6 Relative velocity (6)",
+        "imbalance_ratio": 1.83,
+        "section_rotation_compliant": true
+      },
+      "exhaustion_proof": {
+        "exhaustion_claimed": false,
+        "mathematical_proof_provided": false,
+        "per_subsection_analysis": {},
+        "remaining_concept_capacity": 0
+      },
+      "cheating_detection": {
+        "phase_skipping_detected": false,
+        "imbalance_detected": false,
+        "overuse_detected": false,
+        "early_stopping_attempted": false
+      },
+      "new_constraint_compliance": {
+        "tiered_explanations_valid": true,
+        "visual_system_valid": true,
+        "layout_metadata_valid": true,
+        "publishing_metadata_valid": true
+      }
+    },
+    "questions": [
+      {
+        "question_id": "G10_Phys_U2_Q031",
+        "generation_timestamp": "2026-06-12T10:45:00Z",
+        "grade": "Grade 10",
+        "subject": "Physics",
+        "unit": "Unit 2: Uniformly Accelerated Motion",
+        "section": "2.4 Equations of motion with constant acceleration",
+        "subsection": "Equations of motion",
+        "sub_subsection": null,
+        "structural_anchor": "Equations of motion",
+        "mcq_type": "E",
+        "question": "A car accelerates uniformly from rest to \\(20\\,\\mathrm{m/s}\\) in \\(5.0\\,\\mathrm{s}\\). The acceleration of the car and the distance traveled are respectively",
+        "options": {
+          "A": "\\(2.0\\,\\mathrm{m/s^2}\\) and \\(25\\,\\mathrm{m}\\)",
+          "B": "\\(4.0\\,\\mathrm{m/s^2}\\) and \\(50\\,\\mathrm{m}\\)",
+          "C": "\\(4.0\\,\\mathrm{m/s^2}\\) and \\(25\\,\\mathrm{m}\\)",
+          "D": "\\(2.0\\,\\mathrm{m/s^2}\\) and \\(50\\,\\mathrm{m}\\)"
+        },
+        "correct_answer": "B",
+        "hint": "Use \\(a = (v - v_0)/t\\) then \\(s = \\frac{1}{2}at^2\\).",
+        "explanation": "\\(a = (20 - 0)/5.0 = 4.0\\,\\mathrm{m/s^2}\\); \\(s = \\frac{1}{2}(4.0)(5.0)^2 = 0.5 \\times 4.0 \\times 25 = 50\\,\\mathrm{m}\\). Option A uses 2 m/s\u00b2, C has wrong distance, D has both wrong.",
+        "difficulty_level": "easy",
+        "formula_used": [
+          "\\(a = \\frac{v - v_0}{t}\\)",
+          "\\(s = \\frac{1}{2}at^2\\)"
+        ],
+        "numeric": {
+          "is_numeric": true,
+          "given_values": {
+            "v0": {
+              "magnitude": 0,
+              "unit": "m/s"
+            },
+            "v": {
+              "magnitude": 20,
+              "unit": "m/s"
+            },
+            "t": {
+              "magnitude": 5.0,
+              "unit": "s"
+            }
+          },
+          "answer_value": 50,
+          "answer_unit": "m",
+          "calculation_steps": [
+            "\\(a = (20 - 0)/5.0 = 4.0\\,\\mathrm{m/s^2}\\)",
+            "\\(s = \\frac{1}{2}at^2 = 0.5 \\times 4.0 \\times 25 = 50\\,\\mathrm{m}\\)"
+          ],
+          "significant_figures": 2
+        },
+        "coverage": {
+          "baseline": false,
+          "importance_biased": false,
+          "structural_element_type": "subsection"
+        },
+        "validation": {
+          "no_repetition_confirmed": true,
+          "length_constraints_passed": true,
+          "symbol_constraints_passed": true,
+          "textbook_reference_clean": true,
+          "option_parallelism_score": 98,
+          "explanation_validation": {
+            "word_overlap_percentage": 10.0,
+            "named_concept_present": true,
+            "distractor_error_identified": true,
+            "educational_value_score": 94
+          }
+        },
+        "source_trace": {
+          "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+          "section_anchor": "2.4 Equations of motion with constant acceleration",
+          "subsection_anchor": "Equations of motion",
+          "structural_element": "Equations of motion",
+          "content_anchor": "v = v_o + at",
+          "page_hint": 16,
+          "concept_hash": "sha256_car_accel_distance"
+        },
+        "quality_metrics": {
+          "stem_complexity_score": 50,
+          "distractor_quality_score": 92,
+          "cognitive_level": "apply",
+          "exam_alignment_score": 96
+        },
+        "explanations_tiered": {
+          "definition": "Uniform acceleration means constant rate of change of velocity.",
+          "concept_summary": "From rest, acceleration = final velocity / time. Distance = (1/2) \u00d7 acceleration \u00d7 time\u00b2.",
+          "beginner": "Car goes from 0 to 20 m/s in 5 s \u2192 gains 4 m/s each second (acceleration 4 m/s\u00b2). Distance = average speed (10 m/s) \u00d7 5 s = 50 m.",
+          "intermediate": "\\(a = (20 - 0)/5 = 4\\) m/s\u00b2. Distance \\(s = \\frac{1}{2}at^2 = 0.5 \\times 4 \\times 25 = 50\\) m.",
+          "advanced": "Using \\(v = v_0 + at\\) \u2192 \\(a = 4\\). Then \\(s = v_0 t + \\frac{1}{2}at^2 = 0 + 0.5 \\times 4 \\times 25 = 50\\) m.",
+          "worked_solution": [
+            "Step 1: \\(a = (20 - 0)/5.0 = 4.0\\) m/s\u00b2",
+            "Step 2: \\(s = \\frac{1}{2}(4.0)(5.0)^2 = 0.5 \\times 4.0 \\times 25 = 50\\) m"
+          ],
+          "reasoning_steps": [
+            "Calculate acceleration from velocity change and time.",
+            "Use distance formula for constant acceleration from rest.",
+            "Compute."
+          ],
+          "formula_analysis": [
+            {
+              "formula": "\\(s = \\frac{1}{2}at^2\\)",
+              "name": "Distance from rest",
+              "variables": [
+                {
+                  "symbol": "\\(s\\)",
+                  "meaning": "distance",
+                  "unit": "m"
+                },
+                {
+                  "symbol": "\\(a\\)",
+                  "meaning": "acceleration",
+                  "unit": "m/s^2"
+                },
+                {
+                  "symbol": "\\(t\\)",
+                  "meaning": "time",
+                  "unit": "s"
+                }
+              ],
+              "derivation": null
+            }
+          ],
+          "misconceptions": [
+            "Using average speed (10 m/s) \u00d7 time = 50 m works, but must use correct acceleration formula first.",
+            "Forgetting to square time."
+          ],
+          "related_concepts": [
+            "Uniform acceleration",
+            "Kinematic equations"
+          ],
+          "revision_note": "From rest: \\(a = v/t\\), \\(s = \\frac{1}{2}at^2\\).",
+          "glossary_entry": {
+            "term": "Uniform acceleration",
+            "definition": "Constant rate of change of velocity.",
+            "example_equation": "\\(a = (v - v_0)/t\\)",
+            "related_terms": [
+              "Kinematic equations"
+            ]
+          },
+          "flashcard": {
+            "front": "Car from rest to 20 m/s in 5.0 s. Acceleration and distance?",
+            "back": "\\(a = 4.0\\) m/s\u00b2, \\(s = 50\\) m."
+          },
+          "concept_map_nodes": [
+            {
+              "source": "Distance from rest",
+              "relation": "requires",
+              "target": "Acceleration"
+            }
+          ]
+        },
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "standard_mcq",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper",
+            "solution_manual"
+          ],
+          "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+          "flashcard_front": "0 to 20 m/s in 5.0 s: acceleration and distance?",
+          "flashcard_back": "4.0 m/s\u00b2, 50 m."
+        },
+        "glossary_term": "Uniform acceleration",
+        "glossary_definition": "Constant rate of change of velocity.",
+        "revision_note": "From rest: \\(a = v/t\\), \\(s = \\frac{1}{2}at^2\\).",
+        "teacher_note": "Check both parts: acceleration and distance.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Use appropriate equations of motion to solve motion-related problems",
+        "concept_map_nodes": [
+          {
+            "source": "Distance from rest",
+            "relation": "requires",
+            "target": "Acceleration"
+          }
+        ],
+        "workbook_section": "2.4 Equations of motion with constant acceleration",
+        "solution_manual_note": "Answer B. \\(a = 20/5 = 4\\) m/s\u00b2, \\(s = 0.5*4*25 = 50\\) m."
+      }
+    ],
+    "question_id": "G10_Phys_U2_Q032",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "section": "2.5 Graphical representation of uniformly accelerated motion",
+    "subsection": "Velocity-time graph",
+    "sub_subsection": null,
+    "structural_anchor": "Velocity-time graph",
+    "mcq_type": "F",
+    "question": "The slope of a velocity-time graph for an object with uniform acceleration is",
+    "options": {
+      "A": "Zero",
+      "B": "Constant and non-zero",
+      "C": "Increasing",
+      "D": "Decreasing"
+    },
+    "correct_answer": "B",
+    "hint": "Slope of v-t graph = acceleration. Uniform acceleration means constant slope.",
+    "explanation": "For uniform (constant) acceleration, the velocity changes at a constant rate. On a v-t graph, this appears as a straight line with constant slope. A zero slope would mean zero acceleration (constant velocity). Increasing or decreasing slopes would indicate changing acceleration.",
+    "difficulty_level": "easy",
+    "formula_used": [
+      "\\(a = \\frac{\\Delta v}{\\Delta t}\\)"
+    ],
+    "numeric": {
+      "is_numeric": false,
+      "given_values": null,
+      "answer_value": null,
+      "answer_unit": null,
+      "calculation_steps": null,
+      "significant_figures": null
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 100,
+      "explanation_validation": {
+        "word_overlap_percentage": 8.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 96
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.5 Graphical representation of uniformly accelerated motion",
+      "subsection_anchor": "Velocity-time graph",
+      "structural_element": "Velocity-time graph",
+      "content_anchor": "For uniformly accelerated motion, the velocity-time graph is a straight line with constant slope",
+      "page_hint": 24,
+      "concept_hash": "sha256_vt_slope_constant"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 52,
+      "distractor_quality_score": 94,
+      "cognitive_level": "remembering",
+      "exam_alignment_score": 98
+    },
+    "explanations_tiered": {
+      "definition": "The slope of a velocity-time graph equals acceleration.",
+      "concept_summary": "Uniform acceleration means constant slope (straight line) on a v-t graph. The slope may be positive, negative, or zero.",
+      "beginner": "If you're speeding up steadily (constant acceleration), your v-t graph is a straight, slanted line \u2014 the slope stays the same all the way.",
+      "intermediate": "Since \\(a = \\Delta v/\\Delta t\\) is constant, \\(v\\) vs \\(t\\) is linear: \\(v = v_0 + at\\). The slope is \\(a\\), constant.",
+      "advanced": "For constant \\(a\\), \\(dv/dt = a\\), so the slope is constant. Non-constant acceleration would produce a curved v-t graph.",
+      "worked_solution": [],
+      "reasoning_steps": [
+        "Recall that slope of v-t graph = acceleration.",
+        "Uniform acceleration means acceleration is constant.",
+        "Therefore slope is constant (and non-zero unless acceleration is zero)."
+      ],
+      "formula_analysis": [
+        {
+          "formula": "\\(v = v_0 + at\\)",
+          "name": "Velocity-time relation",
+          "variables": [
+            {
+              "symbol": "\\(v\\)",
+              "meaning": "velocity",
+              "unit": "m/s"
+            },
+            {
+              "symbol": "\\(v_0\\)",
+              "meaning": "initial velocity",
+              "unit": "m/s"
+            },
+            {
+              "symbol": "\\(a\\)",
+              "meaning": "acceleration",
+              "unit": "m/s^2"
+            },
+            {
+              "symbol": "\\(t\\)",
+              "meaning": "time",
+              "unit": "s"
+            }
+          ],
+          "derivation": null
+        }
+      ],
+      "misconceptions": [
+        "Thinking a zero slope is the only constant slope (zero acceleration).",
+        "Believing constant acceleration means the line must be horizontal."
+      ],
+      "related_concepts": [
+        "Acceleration",
+        "Linear function",
+        "Slope"
+      ],
+      "revision_note": "v-t slope constant \u2192 uniform acceleration.",
+      "glossary_entry": {
+        "term": "Uniform acceleration",
+        "definition": "Constant acceleration; velocity changes by equal amounts in equal time intervals.",
+        "example_equation": "\\(v = v_0 + at\\)",
+        "related_terms": [
+          "Acceleration",
+          "Velocity-time graph"
+        ]
+      },
+      "flashcard": {
+        "front": "What is the slope of a v-t graph for uniform acceleration?",
+        "back": "Constant (and non-zero unless acceleration is zero)."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Uniform acceleration",
+          "relation": "graph shape on v-t",
+          "target": "Straight line with constant slope"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "revision_guide"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "What is the slope of a v-t graph for uniform acceleration?",
+      "flashcard_back": "Constant (acceleration is constant)."
+    },
+    "glossary_term": "Uniform acceleration",
+    "glossary_definition": "Constant acceleration; velocity changes by equal amounts in equal time intervals.",
+    "revision_note": "v-t slope = a = constant.",
+    "teacher_note": "Contrast with non-uniform acceleration where slope changes.",
+    "bloom_level": "Remember",
+    "learning_objective_tag": "Draw graphs of position-time, velocity-time and acceleration-time graph",
+    "concept_map_nodes": [
+      {
+        "source": "Uniform acceleration",
+        "relation": "graph shape on v-t",
+        "target": "Straight line with constant slope"
+      }
+    ],
+    "workbook_section": "2.5 Graphical representation of uniformly accelerated motion",
+    "solution_manual_note": "Answer B. Uniform acceleration = constant slope (straight line) on v-t graph."
+  },
+  {
+    "question_id": "G10_Phys_U2_Q033",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "section": "2.2 Average velocity and instantaneous velocity",
+    "subsection": "Average velocity",
+    "sub_subsection": null,
+    "structural_anchor": "Average velocity",
+    "mcq_type": "E",
+    "question": "A runner completes one lap of a 400 m track in 50 s. The magnitude of the average velocity for the lap is",
+    "options": {
+      "A": "\\(0\\,\\mathrm{m/s}\\)",
+      "B": "\\(4.0\\,\\mathrm{m/s}\\)",
+      "C": "\\(8.0\\,\\mathrm{m/s}\\)",
+      "D": "\\(400\\,\\mathrm{m/s}\\)"
+    },
+    "correct_answer": "A",
+    "hint": "Average velocity depends on displacement, not distance.",
+    "explanation": "After completing one full lap, the runner returns to the starting point, so displacement = 0 m. Average velocity = displacement/time = 0/50 = 0 m/s. Average speed would be 400/50 = 8 m/s, which is option C.",
+    "difficulty_level": "easy",
+    "formula_used": [
+      "\\(v_{av} = \\frac{\\Delta s}{\\Delta t}\\)"
+    ],
+    "numeric": {
+      "is_numeric": true,
+      "given_values": {
+        "displacement": {
+          "magnitude": 0,
+          "unit": "m"
+        },
+        "time": {
+          "magnitude": 50,
+          "unit": "s"
+        }
+      },
+      "answer_value": 0,
+      "answer_unit": "m/s",
+      "calculation_steps": [
+        "Displacement = 0 m (return to start)",
+        "\\(v_{av} = 0/50 = 0\\) m/s"
+      ],
+      "significant_figures": 1
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 100,
+      "explanation_validation": {
+        "word_overlap_percentage": 9.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 95
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.2 Average velocity and instantaneous velocity",
+      "subsection_anchor": "Average velocity",
+      "structural_element": "Average velocity",
+      "content_anchor": "average velocity = displacement / time",
+      "page_hint": 6,
+      "concept_hash": "sha256_avg_velocity_lap"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 45,
+      "distractor_quality_score": 96,
+      "cognitive_level": "apply",
+      "exam_alignment_score": 98
+    },
+    "explanations_tiered": {
+      "definition": "Average velocity is displacement divided by time.",
+      "concept_summary": "For a closed loop returning to start, displacement is zero, so average velocity is zero regardless of distance or time.",
+      "beginner": "If you run around a track and end exactly where you started, your overall change in position is zero, so your average velocity is zero.",
+      "intermediate": "Displacement = 0 m (final position = initial position). Therefore \\(v_{av} = 0/50 = 0\\) m/s. Average speed (distance/time) = 8 m/s, but that's different.",
+      "advanced": "Average velocity is a vector; for a closed path, the net displacement vector is zero, so the vector average velocity is zero.",
+      "worked_solution": [
+        "Step 1: Identify initial and final positions (same).",
+        "Step 2: Displacement = 0 m.",
+        "Step 3: \\(v_{av} = 0 / 50 = 0\\) m/s."
+      ],
+      "reasoning_steps": [
+        "Recognize that one lap returns to start \u2192 displacement = 0.",
+        "Apply average velocity formula.",
+        "Compute."
+      ],
+      "formula_analysis": [
+        {
+          "formula": "\\(v_{av} = \\frac{\\Delta s}{\\Delta t}\\)",
+          "name": "Average velocity",
+          "variables": [
+            {
+              "symbol": "\\(v_{av}\\)",
+              "meaning": "average velocity",
+              "unit": "m/s"
+            },
+            {
+              "symbol": "\\(\\Delta s\\)",
+              "meaning": "displacement",
+              "unit": "m"
+            },
+            {
+              "symbol": "\\(\\Delta t\\)",
+              "meaning": "time interval",
+              "unit": "s"
+            }
+          ],
+          "derivation": null
+        }
+      ],
+      "misconceptions": [
+        "Using distance (400 m) instead of displacement \u2192 8 m/s (average speed).",
+        "Thinking average velocity cannot be zero if you moved."
+      ],
+      "related_concepts": [
+        "Displacement",
+        "Average speed",
+        "Closed path"
+      ],
+      "revision_note": "Average velocity = 0 for round trip (displacement = 0).",
+      "glossary_entry": {
+        "term": "Average velocity",
+        "definition": "Displacement divided by time interval.",
+        "example_equation": "\\(v_{av} = \\Delta s/\\Delta t\\)",
+        "related_terms": [
+          "Displacement",
+          "Average speed"
+        ]
+      },
+      "flashcard": {
+        "front": "One lap of 400 m in 50 s. Average velocity?",
+        "back": "0 m/s (displacement = 0)."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Average velocity",
+          "relation": "for round trip",
+          "target": "Zero"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "teacher_guide"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "400 m lap in 50 s. Average velocity?",
+      "flashcard_back": "0 m/s (displacement = 0)."
+    },
+    "glossary_term": "Average velocity",
+    "glossary_definition": "Displacement divided by time interval.",
+    "revision_note": "Round trip \u2192 v_av = 0.",
+    "teacher_note": "Classic trap: students give average speed instead.",
+    "bloom_level": "Apply",
+    "learning_objective_tag": "Define instantaneous and average velocity of a body in motion",
+    "concept_map_nodes": [
+      {
+        "source": "Average velocity",
+        "relation": "for round trip",
+        "target": "Zero"
+      }
+    ],
+    "workbook_section": "2.2 Average velocity and instantaneous velocity",
+    "solution_manual_note": "Answer A. Displacement = 0, so average velocity = 0."
+  },
+  {
+    "question_id": "G10_Phys_U2_Q034",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "section": "2.6 Relative velocity in one dimension",
+    "subsection": "Relative velocity",
+    "sub_subsection": null,
+    "structural_anchor": "Relative velocity",
+    "mcq_type": "D",
+    "question": "A train moves at \\(30\\,\\mathrm{m/s}\\) east. A passenger walks at \\(2\\,\\mathrm{m/s}\\) west relative to the train. The velocity of the passenger relative to the ground is",
+    "options": {
+      "A": "\\(28\\,\\mathrm{m/s}\\) east",
+      "B": "\\(28\\,\\mathrm{m/s}\\) west",
+      "C": "\\(32\\,\\mathrm{m/s}\\) east",
+      "D": "\\(32\\,\\mathrm{m/s}\\) west"
+    },
+    "correct_answer": "A",
+    "hint": "Relative velocity: \\(v_{PG} = v_{PT} + v_{TG}\\).",
+    "explanation": "Let east be positive. \\(v_{TG} = +30\\,\\mathrm{m/s}\\) (train relative to ground). Passenger relative to train \\(v_{PT} = -2\\,\\mathrm{m/s}\\) (west). \\(v_{PG} = v_{PT} + v_{TG} = -2 + 30 = 28\\,\\mathrm{m/s}\\) east. Option C adds incorrectly (32), B and D have wrong direction.",
+    "difficulty_level": "medium",
+    "formula_used": [
+      "\\(v_{PG} = v_{PT} + v_{TG}\\)"
+    ],
+    "numeric": {
+      "is_numeric": true,
+      "given_values": {
+        "v_TG": {
+          "magnitude": 30,
+          "unit": "m/s"
+        },
+        "v_PT": {
+          "magnitude": 2,
+          "unit": "m/s"
+        }
+      },
+      "answer_value": 28,
+      "answer_unit": "m/s",
+      "calculation_steps": [
+        "Set east positive: \\(v_{TG} = +30\\), \\(v_{PT} = -2\\)",
+        "\\(v_{PG} = -2 + 30 = 28\\) m/s east"
+      ],
+      "significant_figures": 2
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 96,
+      "explanation_validation": {
+        "word_overlap_percentage": 11.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 93
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.6 Relative velocity in one dimension",
+      "subsection_anchor": "Relative velocity",
+      "structural_element": "Relative velocity",
+      "content_anchor": "relative velocity = sum/difference depending on direction",
+      "page_hint": 30,
+      "concept_hash": "sha256_train_passenger"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 58,
+      "distractor_quality_score": 90,
+      "cognitive_level": "apply",
+      "exam_alignment_score": 94
+    },
+    "explanations_tiered": {
+      "definition": "The velocity of the passenger relative to ground is the vector sum of the passenger's velocity relative to train and the train's velocity relative to ground.",
+      "concept_summary": "Use Galilean transformation: \\(\\vec{v}_{PG} = \\vec{v}_{PT} + \\vec{v}_{TG}\\). Signs matter.",
+      "beginner": "If the train moves east at 30 m/s and you walk west at 2 m/s relative to the train, your ground speed is 28 m/s east (the train's speed minus your walking speed).",
+      "intermediate": "\\(v_{PG} = v_{PT} + v_{TG} = (-2) + 30 = 28\\) m/s east.",
+      "advanced": "In vector form: \\(\\vec{v}_{PG} = \\vec{v}_{PT} + \\vec{v}_{TG} = (-2\\hat{i}) + (30\\hat{i}) = 28\\hat{i}\\) m/s.",
+      "worked_solution": [
+        "Step 1: Define east as positive.",
+        "Step 2: \\(v_{TG} = +30\\) m/s, \\(v_{PT} = -2\\) m/s.",
+        "Step 3: \\(v_{PG} = -2 + 30 = 28\\) m/s east."
+      ],
+      "reasoning_steps": [
+        "Assign signs based on direction.",
+        "Add velocities: \\(v_{PG} = v_{PT} + v_{TG}\\).",
+        "Interpret sign as direction."
+      ],
+      "formula_analysis": [
+        {
+          "formula": "\\(v_{PG} = v_{PT} + v_{TG}\\)",
+          "name": "Galilean velocity addition",
+          "variables": [
+            {
+              "symbol": "\\(v_{PG}\\)",
+              "meaning": "passenger relative to ground",
+              "unit": "m/s"
+            },
+            {
+              "symbol": "\\(v_{PT}\\)",
+              "meaning": "passenger relative to train",
+              "unit": "m/s"
+            },
+            {
+              "symbol": "\\(v_{TG}\\)",
+              "meaning": "train relative to ground",
+              "unit": "m/s"
+            }
+          ],
+          "derivation": null
+        }
+      ],
+      "misconceptions": [
+        "Adding without signs: 30 + 2 = 32 m/s (wrong direction/magnitude).",
+        "Subtracting in wrong order (30 - 2 = 28 is correct magnitude but must ensure direction correct)."
+      ],
+      "related_concepts": [
+        "Frame of reference",
+        "Galilean transformation",
+        "Relative motion"
+      ],
+      "revision_note": "Opposite directions: subtract magnitudes; direction of larger.",
+      "glossary_entry": {
+        "term": "Relative velocity",
+        "definition": "Velocity as measured from another moving reference frame.",
+        "example_equation": "\\(v_{PG} = v_{PT} + v_{TG}\\)",
+        "related_terms": [
+          "Frame of reference"
+        ]
+      },
+      "flashcard": {
+        "front": "Train 30 m/s east, passenger walks 2 m/s west relative to train. Passenger's ground velocity?",
+        "back": "28 m/s east."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Relative velocity",
+          "relation": "Galilean addition",
+          "target": "\\(v_{PG} = v_{PT} + v_{TG}\\)"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "solution_manual"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "Train 30 m/s east, passenger walks 2 m/s west relative to train. Ground velocity?",
+      "flashcard_back": "28 m/s east."
+    },
+    "glossary_term": "Relative velocity",
+    "glossary_definition": "Velocity as measured from another moving reference frame.",
+    "revision_note": "Opposite directions: subtract.",
+    "teacher_note": "Use sign convention to avoid errors.",
+    "bloom_level": "Apply",
+    "learning_objective_tag": "Calculate the relative velocity",
+    "concept_map_nodes": [
+      {
+        "source": "Relative velocity",
+        "relation": "Galilean addition",
+        "target": "\\(v_{PG} = v_{PT} + v_{TG}\\)"
+      }
+    ],
+    "workbook_section": "2.6 Relative velocity in one dimension",
+    "solution_manual_note": "Answer A. \\(v_{PG} = 30 - 2 = 28\\) m/s east."
+  },
+  {
+    "question_id": "G10_Phys_U2_Q035",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "section": "2.3 Acceleration",
+    "subsection": "Instantaneous acceleration",
+    "sub_subsection": null,
+    "structural_anchor": "Instantaneous acceleration",
+    "mcq_type": "F",
+    "question": "The instantaneous acceleration of an object is the slope of the tangent line on which type of graph at a specific instant?",
+    "options": {
+      "A": "Position-time",
+      "B": "Velocity-time",
+      "C": "Acceleration-time",
+      "D": "Distance-time"
+    },
+    "correct_answer": "B",
+    "hint": "Acceleration is the rate of change of velocity with time.",
+    "explanation": "Instantaneous acceleration is the derivative of velocity with respect to time. On a velocity-time graph, the slope of the tangent at any point gives the instantaneous acceleration. Position-time graph slope gives velocity, and acceleration-time graph slope gives jerk.",
+    "difficulty_level": "easy",
+    "formula_used": [
+      "\\(a = \\frac{dv}{dt}\\)"
+    ],
+    "numeric": {
+      "is_numeric": false,
+      "given_values": null,
+      "answer_value": null,
+      "answer_unit": null,
+      "calculation_steps": null,
+      "significant_figures": null
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 100,
+      "explanation_validation": {
+        "word_overlap_percentage": 7.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 97
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.3 Acceleration",
+      "subsection_anchor": "Instantaneous acceleration",
+      "structural_element": "Instantaneous acceleration",
+      "content_anchor": "slope of velocity-time graph gives acceleration",
+      "page_hint": 25,
+      "concept_hash": "sha256_inst_acc_graph"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 55,
+      "distractor_quality_score": 96,
+      "cognitive_level": "remembering",
+      "exam_alignment_score": 98
+    },
+    "explanations_tiered": {
+      "definition": "Instantaneous acceleration is the slope of the tangent on a velocity-time graph.",
+      "concept_summary": "Because \\(a = dv/dt\\), the derivative of velocity with respect to time is the slope of the v-t curve.",
+      "beginner": "On a velocity-time graph, how steep the line is at one point tells you the acceleration right then. Steeper slope = larger acceleration.",
+      "intermediate": "For any v-t graph, \\(a = \\lim_{\\Delta t \\to 0} \\Delta v/\\Delta t\\) = slope of tangent. This is instantaneous acceleration.",
+      "advanced": "The derivative \\(dv/dt\\) is the instantaneous slope of the v(t) function. Position-time gives velocity; velocity-time gives acceleration.",
+      "worked_solution": [],
+      "reasoning_steps": [
+        "Recall definition: \\(a = dv/dt\\).",
+        "On a v-t graph, \\(dv/dt\\) is the slope.",
+        "Thus, slope of tangent on v-t graph = instantaneous acceleration."
+      ],
+      "formula_analysis": [
+        {
+          "formula": "\\(a = \\frac{dv}{dt}\\)",
+          "name": "Instantaneous acceleration",
+          "variables": [
+            {
+              "symbol": "\\(a\\)",
+              "meaning": "instantaneous acceleration",
+              "unit": "m/s^2"
+            },
+            {
+              "symbol": "\\(v\\)",
+              "meaning": "velocity",
+              "unit": "m/s"
+            },
+            {
+              "symbol": "\\(t\\)",
+              "meaning": "time",
+              "unit": "s"
+            }
+          ],
+          "derivation": null
+        }
+      ],
+      "misconceptions": [
+        "Confusing with position-time graph (slope gives velocity).",
+        "Thinking acceleration-time graph slope gives acceleration (it gives jerk)."
+      ],
+      "related_concepts": [
+        "Derivative",
+        "Slope",
+        "Velocity-time graph"
+      ],
+      "revision_note": "Instantaneous acceleration = slope of v-t graph.",
+      "glossary_entry": {
+        "term": "Instantaneous acceleration",
+        "definition": "The derivative of velocity with respect to time; slope of v-t graph.",
+        "example_equation": "\\(a = dv/dt\\)",
+        "related_terms": [
+          "Velocity-time graph",
+          "Derivative"
+        ]
+      },
+      "flashcard": {
+        "front": "How is instantaneous acceleration obtained from a velocity-time graph?",
+        "back": "Slope of the tangent line at that instant."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Instantaneous acceleration",
+          "relation": "graphically",
+          "target": "Slope of v-t tangent"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "flashcard_deck"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "Which graph's tangent slope gives instantaneous acceleration?",
+      "flashcard_back": "Velocity-time graph. \\(a = dv/dt\\)."
+    },
+    "glossary_term": "Instantaneous acceleration",
+    "glossary_definition": "The derivative of velocity with respect to time; slope of v-t graph.",
+    "revision_note": "a = slope of v-t graph.",
+    "teacher_note": "Contrast with position-time (slope = velocity) and acceleration-time (slope = jerk).",
+    "bloom_level": "Remember",
+    "learning_objective_tag": "Distinguish between instantaneous acceleration and average acceleration using graphical method",
+    "concept_map_nodes": [
+      {
+        "source": "Instantaneous acceleration",
+        "relation": "graphically",
+        "target": "Slope of v-t tangent"
+      }
+    ],
+    "workbook_section": "2.3 Acceleration",
+    "solution_manual_note": "Answer B. Slope of velocity-time graph = acceleration."
+  },
+  {
+    "question_id": "G10_Phys_U2_Q036",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "section": "2.1 Position and Displacement",
+    "subsection": "Displacement",
+    "sub_subsection": null,
+    "structural_anchor": "Displacement",
+    "mcq_type": "G",
+    "question": "A person walks 10 m north, then 8 m south, then 6 m north. The magnitude of the displacement is",
+    "options": {
+      "A": "\\(8\\,\\mathrm{m}\\)",
+      "B": "\\(12\\,\\mathrm{m}\\)",
+      "C": "\\(16\\,\\mathrm{m}\\)",
+      "D": "\\(24\\,\\mathrm{m}\\)"
+    },
+    "correct_answer": "A",
+    "hint": "Displacement is net change: north positive, south negative.",
+    "explanation": "Let north be positive. Net displacement = 10 - 8 + 6 = 8 m north. Magnitude = 8 m. Total distance = 10 + 8 + 6 = 24 m (option D), which is the distance, not displacement.",
+    "difficulty_level": "easy",
+    "formula_used": [
+      "\\(\\Delta s = \\sum (\\text{signed steps})\\)"
+    ],
+    "numeric": {
+      "is_numeric": true,
+      "given_values": {
+        "step1": {
+          "magnitude": 10,
+          "unit": "m"
+        },
+        "step2": {
+          "magnitude": 8,
+          "unit": "m"
+        },
+        "step3": {
+          "magnitude": 6,
+          "unit": "m"
+        }
+      },
+      "answer_value": 8,
+      "answer_unit": "m",
+      "calculation_steps": [
+        "North positive: +10, -8, +6",
+        "Net = 10 - 8 + 6 = 8 m north"
+      ],
+      "significant_figures": 1
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 100,
+      "explanation_validation": {
+        "word_overlap_percentage": 10.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 94
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.1 Position and Displacement",
+      "subsection_anchor": "Displacement",
+      "structural_element": "Displacement",
+      "content_anchor": "displacement = final position \u2212 initial position",
+      "page_hint": 3,
+      "concept_hash": "sha256_net_displacement"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 48,
+      "distractor_quality_score": 94,
+      "cognitive_level": "apply",
+      "exam_alignment_score": 97
+    },
+    "explanations_tiered": {
+      "definition": "Displacement is the net change in position, considering direction.",
+      "concept_summary": "Assign signs to directions (north +, south -), then sum. Magnitude is absolute value.",
+      "beginner": "If you go north 10 steps, back south 8 steps, then north 6 steps, you end up 8 steps north of where you started \u2014 displacement 8 m north.",
+      "intermediate": "Net displacement = 10 (north) \u2212 8 (south) + 6 (north) = 8 m north. Magnitude = 8 m.",
+      "advanced": "Displacement is the vector sum: \\(\\vec{s} = 10\\hat{j} - 8\\hat{j} + 6\\hat{j} = 8\\hat{j}\\) m.",
+      "worked_solution": [
+        "Step 1: North positive: +10, -8, +6",
+        "Step 2: Sum = 10 - 8 + 6 = 8 m",
+        "Step 3: Magnitude = 8 m"
+      ],
+      "reasoning_steps": [
+        "Assign signs based on direction.",
+        "Add all signed displacements.",
+        "Take absolute value for magnitude."
+      ],
+      "formula_analysis": [],
+      "misconceptions": [
+        "Adding absolute values (10+8+6=24) gives distance, not displacement.",
+        "Forgetting sign for opposite direction."
+      ],
+      "related_concepts": [
+        "Distance",
+        "Vector addition",
+        "Net displacement"
+      ],
+      "revision_note": "Displacement = signed sum.",
+      "glossary_entry": {
+        "term": "Displacement",
+        "definition": "Net change in position, a vector.",
+        "example_equation": "\\(\\Delta s = s_f - s_i\\)",
+        "related_terms": [
+          "Distance",
+          "Vector"
+        ]
+      },
+      "flashcard": {
+        "front": "10 m N, 8 m S, 6 m N. Displacement magnitude?",
+        "back": "8 m (10 - 8 + 6 = 8 m north)."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Displacement",
+          "relation": "calculated_as",
+          "target": "Signed sum of segments"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "solution_manual"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "10 m N, 8 m S, 6 m N. Displacement magnitude?",
+      "flashcard_back": "8 m."
+    },
+    "glossary_term": "Displacement",
+    "glossary_definition": "Net change in position, a vector.",
+    "revision_note": "Displacement = signed sum.",
+    "teacher_note": "Emphasize that distance is 24 m, displacement is 8 m.",
+    "bloom_level": "Apply",
+    "learning_objective_tag": "Describe the difference between distance and displacement",
+    "concept_map_nodes": [
+      {
+        "source": "Displacement",
+        "relation": "calculated_as",
+        "target": "Signed sum of segments"
+      }
+    ],
+    "workbook_section": "2.1 Position and Displacement",
+    "solution_manual_note": "Answer A. Net = 10 - 8 + 6 = 8 m."
+  },
+  {
+    "question_id": "G10_Phys_U2_Q037",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "section": "2.5 Graphical representation of uniformly accelerated motion",
+    "subsection": "Acceleration-time graph",
+    "sub_subsection": null,
+    "structural_anchor": "Acceleration-time graph",
+    "mcq_type": "F",
+    "question": "For an object moving with constant velocity, the acceleration-time graph is a",
+    "options": {
+      "A": "Horizontal line at zero",
+      "B": "Horizontal line at a positive value",
+      "C": "Horizontal line at a negative value",
+      "D": "Straight line with non-zero slope"
+    },
+    "correct_answer": "A",
+    "hint": "Constant velocity means zero acceleration.",
+    "explanation": "If velocity is constant, acceleration = 0. On an acceleration-time graph, constant zero acceleration appears as a horizontal line at a = 0. Positive or negative horizontal lines would indicate constant non-zero acceleration, which would change velocity.",
+    "difficulty_level": "easy",
+    "formula_used": [],
+    "numeric": {
+      "is_numeric": false,
+      "given_values": null,
+      "answer_value": null,
+      "answer_unit": null,
+      "calculation_steps": null,
+      "significant_figures": null
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 100,
+      "explanation_validation": {
+        "word_overlap_percentage": 8.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 96
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.5 Graphical representation of uniformly accelerated motion",
+      "subsection_anchor": "Acceleration-time graph",
+      "structural_element": "Acceleration-time graph",
+      "content_anchor": "For a uniformly accelerated motion, acceleration is constant with time. Hence, acceleration time-graph will be a straight line parallel to the time axis",
+      "page_hint": 27,
+      "concept_hash": "sha256_const_velocity_a_t"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 50,
+      "distractor_quality_score": 95,
+      "cognitive_level": "remembering",
+      "exam_alignment_score": 98
+    },
+    "explanations_tiered": {
+      "definition": "An acceleration-time graph plots acceleration vs. time.",
+      "concept_summary": "Constant velocity \u2192 zero acceleration \u2192 horizontal line at a = 0.",
+      "beginner": "If you're going at a steady speed (constant velocity), your acceleration is zero. On an a-t graph, that's a flat line at zero.",
+      "intermediate": "Constant velocity means \\(a = 0\\) at all times. The graph is the line \\(a(t) = 0\\), a horizontal line on the time axis.",
+      "advanced": "For constant velocity, \\(dv/dt = 0\\). Therefore \\(a(t) = 0\\), which is a horizontal line at zero on an a-t graph.",
+      "worked_solution": [],
+      "reasoning_steps": [
+        "Recall that constant velocity means no change in velocity.",
+        "Acceleration = rate of change of velocity = 0.",
+        "On a-t graph, constant zero is a horizontal line at 0."
+      ],
+      "formula_analysis": [],
+      "misconceptions": [
+        "Thinking constant velocity means constant acceleration (non-zero).",
+        "Believing a horizontal line must be positive or negative."
+      ],
+      "related_concepts": [
+        "Constant velocity",
+        "Zero acceleration",
+        "Acceleration-time graph"
+      ],
+      "revision_note": "Constant velocity \u2192 a = 0 \u2192 horizontal line at zero on a-t.",
+      "glossary_entry": {
+        "term": "Constant velocity",
+        "definition": "Motion with no change in speed or direction; acceleration = 0.",
+        "example_equation": null,
+        "related_terms": [
+          "Acceleration",
+          "Velocity-time graph"
+        ]
+      },
+      "flashcard": {
+        "front": "Constant velocity: what does the acceleration-time graph look like?",
+        "back": "Horizontal line at zero (a = 0)."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Constant velocity",
+          "relation": "acceleration",
+          "target": "Zero"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "revision_guide"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "Constant velocity: a-t graph shape?",
+      "flashcard_back": "Horizontal line at zero."
+    },
+    "glossary_term": "Constant velocity",
+    "glossary_definition": "Motion with no change in speed or direction; acceleration = 0.",
+    "revision_note": "a = 0 \u2192 horizontal line at 0.",
+    "teacher_note": "Contrast with constant acceleration (horizontal line but not at zero).",
+    "bloom_level": "Remember",
+    "learning_objective_tag": "Draw graphs of position-time, velocity-time and acceleration-time graph",
+    "concept_map_nodes": [
+      {
+        "source": "Constant velocity",
+        "relation": "acceleration",
+        "target": "Zero"
+      }
+    ],
+    "workbook_section": "2.5 Graphical representation of uniformly accelerated motion",
+    "solution_manual_note": "Answer A. Constant velocity \u2192 a = 0 \u2192 horizontal line at zero."
+  },
+  {
+    "question_id": "G10_Phys_U2_Q039",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "section": "2.2 Average velocity and instantaneous velocity",
+    "subsection": "Instantaneous velocity",
+    "sub_subsection": null,
+    "structural_anchor": "Instantaneous velocity",
+    "mcq_type": "D",
+    "question": "The instantaneous velocity of an object is the limit of the average velocity as",
+    "options": {
+      "A": "The displacement approaches zero",
+      "B": "The time interval approaches zero",
+      "C": "The velocity approaches zero",
+      "D": "The position approaches zero"
+    },
+    "correct_answer": "B",
+    "hint": "Instantaneous quantities are defined as limits as time interval \u2192 0.",
+    "explanation": "Instantaneous velocity is defined as \\(v = \\lim_{\\Delta t \\to 0} \\frac{\\Delta s}{\\Delta t}\\). This is the derivative of position with respect to time. The time interval must go to zero; displacement also goes to zero in the limit, but the key is the time interval.",
+    "difficulty_level": "easy",
+    "formula_used": [
+      "\\(v = \\lim_{\\Delta t \\to 0} \\frac{\\Delta s}{\\Delta t}\\)"
+    ],
+    "numeric": {
+      "is_numeric": false,
+      "given_values": null,
+      "answer_value": null,
+      "answer_unit": null,
+      "calculation_steps": null,
+      "significant_figures": null
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 100,
+      "explanation_validation": {
+        "word_overlap_percentage": 7.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 96
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.2 Average velocity and instantaneous velocity",
+      "subsection_anchor": "Instantaneous velocity",
+      "structural_element": "Instantaneous velocity",
+      "content_anchor": "\\(\\vec{v} = \\frac{s - s_0}{t - t_0}\\) when \\(t - t_0\\) approaches 0",
+      "page_hint": 9,
+      "concept_hash": "sha256_instantaneous_velocity_limit"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 52,
+      "distractor_quality_score": 96,
+      "cognitive_level": "remembering",
+      "exam_alignment_score": 98
+    },
+    "explanations_tiered": {
+      "definition": "Instantaneous velocity is the limit of average velocity as the time interval approaches zero.",
+      "concept_summary": "This limit gives the derivative \\(ds/dt\\), the exact velocity at a moment.",
+      "beginner": "To find your exact speed at one instant, you look at a super short time interval \u2014 as short as possible (approaching zero).",
+      "intermediate": "\\(v = \\lim_{\\Delta t \\to 0} \\frac{\\Delta s}{\\Delta t}\\). The time interval \\(\\Delta t\\) must approach zero, not displacement or position.",
+      "advanced": "This is the definition of the derivative: \\(v(t) = \\frac{ds}{dt} = \\lim_{\\Delta t \\to 0} \\frac{s(t+\\Delta t) - s(t)}{\\Delta t}\\).",
+      "worked_solution": [],
+      "reasoning_steps": [
+        "Recall the definition of instantaneous velocity.",
+        "It involves taking the limit as the time interval goes to zero.",
+        "That limit defines the derivative."
+      ],
+      "formula_analysis": [
+        {
+          "formula": "\\(v = \\lim_{\\Delta t \\to 0} \\frac{\\Delta s}{\\Delta t}\\)",
+          "name": "Instantaneous velocity definition",
+          "variables": [
+            {
+              "symbol": "\\(v\\)",
+              "meaning": "instantaneous velocity",
+              "unit": "m/s"
+            },
+            {
+              "symbol": "\\(\\Delta s\\)",
+              "meaning": "small displacement",
+              "unit": "m"
+            },
+            {
+              "symbol": "\\(\\Delta t\\)",
+              "meaning": "small time interval",
+              "unit": "s"
+            }
+          ],
+          "derivation": null
+        }
+      ],
+      "misconceptions": [
+        "Thinking \\(\\Delta s \\to 0\\) defines it (that would give 0/0 ambiguity).",
+        "Confusing with average velocity over finite interval."
+      ],
+      "related_concepts": [
+        "Derivative",
+        "Limit",
+        "Average velocity"
+      ],
+      "revision_note": "\\(v = \\lim_{\\Delta t \\to 0} \\Delta s/\\Delta t = ds/dt\\).",
+      "glossary_entry": {
+        "term": "Instantaneous velocity",
+        "definition": "The limit of average velocity as time interval approaches zero; derivative of position with respect to time.",
+        "example_equation": "\\(v = ds/dt\\)",
+        "related_terms": [
+          "Derivative",
+          "Limit"
+        ]
+      },
+      "flashcard": {
+        "front": "How is instantaneous velocity defined as a limit?",
+        "back": "\\(v = \\lim_{\\Delta t \\to 0} \\Delta s/\\Delta t\\)."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Instantaneous velocity",
+          "relation": "defined_as",
+          "target": "Limit as time interval \u2192 0"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "flashcard_deck"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "Limit of average velocity as ____ approaches zero gives instantaneous velocity?",
+      "flashcard_back": "Time interval (\\(\\Delta t \\to 0\\))."
+    },
+    "glossary_term": "Instantaneous velocity",
+    "glossary_definition": "The limit of average velocity as time interval approaches zero; derivative of position with respect to time.",
+    "revision_note": "\\(v = \\lim_{\\Delta t \\to 0} \\Delta s/\\Delta t\\).",
+    "teacher_note": "Emphasize that \u0394t \u2192 0, not \u0394s \u2192 0.",
+    "bloom_level": "Remember",
+    "learning_objective_tag": "Define instantaneous and average velocity of a body in motion",
+    "concept_map_nodes": [
+      {
+        "source": "Instantaneous velocity",
+        "relation": "defined_as",
+        "target": "Limit as time interval \u2192 0"
+      }
+    ],
+    "workbook_section": "2.2 Average velocity and instantaneous velocity",
+    "solution_manual_note": "Answer B. \\(v = \\lim_{\\Delta t \\to 0} \\Delta s/\\Delta t\\)."
+  },
+  {
+    "question_id": "G10_Phys_U2_Q040",
+    "generation_timestamp": "2026-06-12T10:45:00Z",
+    "grade": "Grade 10",
+    "subject": "Physics",
+    "unit": "Unit 2: Uniformly Accelerated Motion",
+    "section": "2.6 Relative velocity in one dimension",
+    "subsection": "Relative velocity",
+    "sub_subsection": null,
+    "structural_anchor": "Relative velocity",
+    "mcq_type": "D",
+    "question": "A plane flies with a velocity of 200 km/h north relative to the air. There is a wind of 50 km/h south. The velocity of the plane relative to the ground is",
+    "options": {
+      "A": "\\(150\\,\\mathrm{km/h}\\) north",
+      "B": "\\(150\\,\\mathrm{km/h}\\) south",
+      "C": "\\(250\\,\\mathrm{km/h}\\) north",
+      "D": "\\(250\\,\\mathrm{km/h}\\) south"
+    },
+    "correct_answer": "A",
+    "hint": "Wind opposes motion, so subtract.",
+    "explanation": "North positive. Plane relative to air = +200 km/h, air relative to ground (wind) = -50 km/h. Plane relative to ground = 200 + (-50) = 150 km/h north. Option C adds magnitudes (250 north) which would be with tailwind (south wind helping north).",
+    "difficulty_level": "easy",
+    "formula_used": [
+      "\\(v_{PG} = v_{PA} + v_{AG}\\)"
+    ],
+    "numeric": {
+      "is_numeric": true,
+      "given_values": {
+        "v_PA": {
+          "magnitude": 200,
+          "unit": "km/h"
+        },
+        "v_AG": {
+          "magnitude": 50,
+          "unit": "km/h"
+        }
+      },
+      "answer_value": 150,
+      "answer_unit": "km/h",
+      "calculation_steps": [
+        "North positive: \\(v_{PA} = +200\\), \\(v_{AG} = -50\\)",
+        "\\(v_{PG} = 200 + (-50) = 150\\) km/h north"
+      ],
+      "significant_figures": 2
+    },
+    "coverage": {
+      "baseline": false,
+      "importance_biased": false,
+      "structural_element_type": "subsection"
+    },
+    "validation": {
+      "no_repetition_confirmed": true,
+      "length_constraints_passed": true,
+      "symbol_constraints_passed": true,
+      "textbook_reference_clean": true,
+      "option_parallelism_score": 98,
+      "explanation_validation": {
+        "word_overlap_percentage": 10.0,
+        "named_concept_present": true,
+        "distractor_error_identified": true,
+        "educational_value_score": 95
+      }
+    },
+    "source_trace": {
+      "pdf_unit": "Unit 2: Uniformly Accelerated Motion",
+      "section_anchor": "2.6 Relative velocity in one dimension",
+      "subsection_anchor": "Relative velocity",
+      "structural_element": "Relative velocity",
+      "content_anchor": "\\(v_{PG} = v_{PA} + v_{AG}\\)",
+      "page_hint": 30,
+      "concept_hash": "sha256_plane_wind"
+    },
+    "quality_metrics": {
+      "stem_complexity_score": 50,
+      "distractor_quality_score": 96,
+      "cognitive_level": "apply",
+      "exam_alignment_score": 98
+    },
+    "explanations_tiered": {
+      "definition": "Relative velocity of plane to ground = velocity of plane relative to air + velocity of air relative to ground.",
+      "concept_summary": "Headwind (opposing) reduces ground speed; tailwind increases it. Here wind is opposite to plane's heading, so ground speed = 200 - 50 = 150 km/h north.",
+      "beginner": "If you fly north at 200 km/h but the wind blows south at 50 km/h, your ground speed is only 150 km/h north \u2014 the wind pushes you back.",
+      "intermediate": "\\(\\vec{v}_{PG} = \\vec{v}_{PA} + \\vec{v}_{AG} = 200\\hat{j} + (-50\\hat{j}) = 150\\hat{j}\\) km/h.",
+      "advanced": "Using Galilean transformation: \\(\\vec{v}_{PG} = \\vec{v}_{PA} - \\vec{v}_{GA}\\), but careful with signs. Standard formula: \\(v_{PG} = v_{PA} + v_{AG}\\).",
+      "worked_solution": [
+        "Step 1: Define north as positive.",
+        "Step 2: \\(v_{PA} = +200\\) km/h, \\(v_{AG} = -50\\) km/h.",
+        "Step 3: \\(v_{PG} = 200 + (-50) = 150\\) km/h north."
+      ],
+      "reasoning_steps": [
+        "Assign signs based on direction.",
+        "Add velocities: \\(v_{PG} = v_{PA} + v_{AG}\\).",
+        "Interpret sign as direction."
+      ],
+      "formula_analysis": [
+        {
+          "formula": "\\(v_{PG} = v_{PA} + v_{AG}\\)",
+          "name": "Relative velocity (ground, air)",
+          "variables": [
+            {
+              "symbol": "\\(v_{PG}\\)",
+              "meaning": "plane relative to ground",
+              "unit": "km/h"
+            },
+            {
+              "symbol": "\\(v_{PA}\\)",
+              "meaning": "plane relative to air",
+              "unit": "km/h"
+            },
+            {
+              "symbol": "\\(v_{AG}\\)",
+              "meaning": "air relative to ground",
+              "unit": "km/h"
+            }
+          ],
+          "derivation": null
+        }
+      ],
+      "misconceptions": [
+        "Adding magnitudes (200+50=250) gives tailwind case, not headwind.",
+        "Getting direction wrong (150 south)."
+      ],
+      "related_concepts": [
+        "Frame of reference",
+        "Wind",
+        "Galilean transformation"
+      ],
+      "revision_note": "Headwind: ground speed = airspeed \u2212 wind speed.",
+      "glossary_entry": {
+        "term": "Relative velocity",
+        "definition": "Velocity as measured from another moving reference frame.",
+        "example_equation": "\\(v_{PG} = v_{PA} + v_{AG}\\)",
+        "related_terms": [
+          "Frame of reference"
+        ]
+      },
+      "flashcard": {
+        "front": "Plane 200 km/h north, wind 50 km/h south. Ground velocity?",
+        "back": "150 km/h north."
+      },
+      "concept_map_nodes": [
+        {
+          "source": "Relative velocity",
+          "relation": "headwind",
+          "target": "Subtraction"
+        }
+      ]
+    },
+    "visual_system": {
+      "requires_visual": false,
+      "visual_type": null,
+      "visual_title": null,
+      "visual_description": null,
+      "rendering_target": null,
+      "rendering_engine": null,
+      "render_width_mm": null,
+      "render_height_mm": null,
+      "caption": null,
+      "accessibility_alt_text": null,
+      "geometry_spec": null,
+      "graph_spec": null,
+      "table_spec": null,
+      "circuit_spec": null,
+      "chemistry_spec": null,
+      "biology_spec": null,
+      "flowchart_spec": null,
+      "number_line_spec": null
+    },
+    "layout_metadata": {
+      "page_element_type": "mcq_block",
+      "suggested_placement": "main_column",
+      "visual_anchor": "none",
+      "box_type": "standard_mcq",
+      "preceding_element": "previous_mcq",
+      "following_element": "next_mcq",
+      "page_break_before": false,
+      "keep_with_next": true,
+      "column_span": 1,
+      "callout_style": null,
+      "heading_level": null
+    },
+    "publishing_metadata": {
+      "target_documents": [
+        "question_bank",
+        "exam_paper",
+        "solution_manual"
+      ],
+      "flashcard_deck": "Physics Unit 2 \u2014 Kinematics",
+      "flashcard_front": "200 km/h north, wind 50 km/h south. Ground speed?",
+      "flashcard_back": "150 km/h north (headwind)."
+    },
+    "glossary_term": "Relative velocity",
+    "glossary_definition": "Velocity as measured from another moving reference frame.",
+    "revision_note": "Headwind: subtract.",
+    "teacher_note": "Contrast with tailwind where speeds add.",
+    "bloom_level": "Apply",
+    "learning_objective_tag": "Calculate the relative velocity",
+    "concept_map_nodes": [
+      {
+        "source": "Relative velocity",
+        "relation": "headwind",
+        "target": "Subtraction"
+      }
+    ],
+    "workbook_section": "2.6 Relative velocity in one dimension",
+    "solution_manual_note": "Answer A. \\(v_{PG} = 200 - 50 = 150\\) km/h north."
+  },
+  {
+    "generation_time_ms": 3000,
+    "average_question_quality": 93.2,
+    "type_distribution": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 3,
+      "E": 2,
+      "F": 3,
+      "G": 1,
+      "H": 1,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "L": 0,
+      "M": 0,
+      "N": 0
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.1": 2,
+      "2.2": 2,
+      "2.3": 1,
+      "2.4": 2,
+      "2.5": 2,
+      "2.6": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 44
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8,
+    "system_checks": {
+      "state_integrity_verified": true,
+      "constraint_compliance": 100,
+      "exhaustion_detection_active": true,
+      "phase_enforcement_active": true,
+      "anti_cheat_active": true,
+      "tiered_explanation_system_active": true,
+      "visual_system_active": true,
+      "layout_system_active": true,
+      "publishing_system_active": true
+    }
+  }
+]

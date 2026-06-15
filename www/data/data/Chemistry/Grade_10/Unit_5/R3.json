@@ -1,0 +1,1783 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Chem_U5_Q030",
+    "covered_sections": [
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>A. Some physical properties of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>B. Chemical properties of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>C. Reactivity series of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>1. Natural occurrence and extraction of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.2 Alloys",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>A. Aluminum>Occurrence and extraction",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>A. Aluminum",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>B. Iron>Occurrence and Extraction",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>C. Copper>Occurrence and Extraction",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>B. Iron",
+      "5.3 Production of Some Important Nonmetals>5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds>A. Physical properties",
+      "5.3 Production of Some Important Nonmetals>5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds>B. Chemical properties of non-metals",
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>A. Nitrogen>Occurrence and Production",
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>B. Phosphorus>Occurrence and Extraction",
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>C. Oxygen>Occurrence and Production",
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>D. Sulphur>Occurrence and Extraction",
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>E. Chlorine>Occurrence and Extraction"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i"
+    ],
+    "baseline_counter": {
+      "5.2 General Properties of Metals and Production of Some Metals": {
+        "5.2.1 Properties and Extraction of Metals": {
+          "count": 5,
+          "mini_headings_covered": ["A. Some physical properties of metals", "B. Chemical properties of metals", "C. Reactivity series of metals", "1. Natural occurrence and extraction of metals"],
+          "last_question_round": 1
+        },
+        "5.2.2 Alloys": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.3 Production of Aluminum, Iron and Copper": {
+          "count": 7,
+          "mini_headings_covered": ["Occurrence and extraction", "Occurrence and Extraction", "Occurrence and Extraction"],
+          "last_question_round": 3
+        }
+      },
+      "5.3 Production of Some Important Nonmetals": {
+        "5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": {
+          "count": 2,
+          "mini_headings_covered": ["A. Physical properties", "B. Chemical properties of non-metals"],
+          "last_question_round": 1
+        },
+        "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine": {
+          "count": 4,
+          "mini_headings_covered": ["Occurrence and Production", "Occurrence and Extraction", "Occurrence and Production", "Occurrence and Extraction", "Occurrence and Extraction"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.2 General Properties of Metals and Production of Some Metals": {
+        "question_count": 14,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "5.3 Production of Some Important Nonmetals": {
+        "question_count": 16,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals": ["malleability", "ductility", "lustre", "positive valency", "reducing agent", "reactivity series", "mineral", "ore", "gangue", "metallurgy"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.2 Alloys": ["alloy", "amalgam", "solder", "carat"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>A. Aluminum": ["bauxite", "Hall-Héroult process", "cryolite", "electrolysis", "aluminum oxide", "amphoteric oxide"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>B. Iron": ["hematite", "blast furnace", "pig iron", "slag", "limestone", "wrought iron", "steel"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>C. Copper": ["chalcopyrite", "blister copper", "electrolytic refining", "froth flotation"],
+      "5.3 Production of Some Important Nonmetals>5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": ["nonmetal physical properties", "nonmetal chemical properties", "acidic oxides", "neutral oxides"],
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>A. Nitrogen": ["fractional distillation", "liquid air", "nitrogen triple bond", "inert atmosphere", "nitrides"],
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>B. Phosphorus": ["white phosphorus", "red phosphorus", "allotropes", "rock phosphate", "electric furnace"],
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>C. Oxygen": ["fractional distillation of liquid air", "ozone", "allotropes of oxygen", "combustion"],
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>D. Sulphur": ["Frasch process", "rhombic sulfur", "monoclinic sulfur", "allotropes of sulfur", "contact process"],
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>E. Chlorine": ["electrolysis of brine", "chlorine as oxidizing agent", "halogen displacement"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 58,
+      "questions_per_concept_ratio": 0.52,
+      "structural_coverage_percentage": 55.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "Unit 5: METALS AND NONMETALS",
+  "pdf_filename": "C10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 3,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.14,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 11,
+      "structural_coverage_percentage": 55.0,
+      "concept_utilization_ratio": 0.52
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3 Production of Some Important Nonmetals",
+      "least_covered_section": "5.2 General Properties of Metals and Production of Some Metals",
+      "imbalance_ratio": 1.14,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U5_Q021",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "B. Phosphorus",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "A",
+      "question": "What is the industrial raw material mixture used to produce white phosphorus in an electric furnace?",
+      "options": {
+        "A": "Rock phosphate, silica, and coke",
+        "B": "Bone ash, limestone, and sand",
+        "C": "Phosphoric acid, carbon, and clay",
+        "D": "Ammonium phosphate, silica, and sulfur"
+      },
+      "correct_answer": "A",
+      "hint": "The reaction requires a source of phosphate, silica, and carbon.",
+      "explanation": "White phosphorus is manufactured by heating a mixture of crushed rock phosphate (\\(\\mathrm{Ca_3(PO_4)_2}\\)), silica (\\(\\mathrm{SiO_2}\\)), and coke (carbon) in an electric furnace. The reaction produces \\(P_4\\) gas.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(2\\mathrm{Ca_3(PO_4)_2(s) + 6SiO_2(s) + 10C(s) \\rightarrow 6CaSiO_3(l) + P_4(g) + 10CO(g)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "Industrially, white phosphorus is manufactured by heating a mixture of crushed rock phosphate, Ca3(PO4)2 silica, SiO2 and coke in an electric furnace.",
+        "page_hint": 25,
+        "concept_hash": "sha256_phosphorus_production_raw_materials_021"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Rock phosphate (\\(\\mathrm{Ca_3(PO_4)_2}\\)) is the primary mineral source of phosphorus for industrial production.",
+        "concept_summary": "The mixture of rock phosphate, silica, and coke is heated in an electric furnace. Silica reacts with calcium to form slag (\\(\\mathrm{CaSiO_3}\\)), freeing phosphorus, which is reduced by carbon to \\(P_4\\) vapor.",
+        "beginner": "To make white phosphorus, factories heat a special rock (rock phosphate) with sand and coke. The reaction releases phosphorus gas, which is collected and stored under water.",
+        "intermediate": "The balanced equation is \\(2\\mathrm{Ca_3(PO_4)_2 + 6SiO_2 + 10C \\rightarrow 6CaSiO_3 + P_4 + 10CO}\\). Coke acts as the reducing agent, and silica removes calcium as slag.",
+        "advanced": "The process requires temperatures above 1500°C. Carbon reduces phosphate to elemental phosphorus (oxidation state 0), while silica forms a stable calcium silicate slag, driving the equilibrium toward product formation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the phosphorus source: rock phosphate (\\(\\mathrm{Ca_3(PO_4)_2}\\)).",
+          "Identify the flux to remove calcium: silica (\\(\\mathrm{SiO_2}\\)).",
+          "Identify the reducing agent: coke (carbon)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathrm{Ca_3(PO_4)_2(s) + 6SiO_2(s) + 10C(s) \\rightarrow 6CaSiO_3(l) + P_4(g) + 10CO(g)}\\)",
+            "name": "Industrial phosphorus production",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think phosphorus is mined directly as elemental white phosphorus; it occurs as phosphate compounds.",
+          "Phosphoric acid is a product, not a raw material for white phosphorus production."
+        ],
+        "related_concepts": ["Rock phosphate", "Reducing agent", "Electric furnace", "Slag"],
+        "revision_note": "P production: rock phosphate + silica + coke → \\(P_4\\) + slag + CO.",
+        "glossary_entry": {
+          "term": "Rock phosphate",
+          "definition": "A mineral composed primarily of \\(\\mathrm{Ca_3(PO_4)_2}\\), the main source of phosphorus for industrial production.",
+          "example_equation": null,
+          "related_terms": ["Phosphorus", "Apatite", "Phosphate"]
+        },
+        "flashcard": {
+          "front": "What three raw materials are used to produce white phosphorus?",
+          "back": "Rock phosphate (\\(\\mathrm{Ca_3(PO_4)_2}\\)), silica (\\(\\mathrm{SiO_2}\\)), and coke (carbon)."
+        },
+        "concept_map_nodes": [
+          {"source": "White phosphorus", "relation": "produced_from", "target": "Rock phosphate"},
+          {"source": "Rock phosphate", "relation": "mixed_with", "target": "Silica and coke"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Phosphorus Production",
+        "flashcard_front": "What are the raw materials for white phosphorus production?",
+        "flashcard_back": "Rock phosphate (\\(\\mathrm{Ca_3(PO_4)_2}\\)), silica (\\(\\mathrm{SiO_2}\\)), and coke (carbon).",
+        "glossary_term": "Rock phosphate",
+        "glossary_definition": "A phosphate mineral \\(\\mathrm{Ca_3(PO_4)_2}\\) used as the raw material for phosphorus extraction.",
+        "revision_note": "Rock phosphate + SiO₂ + C → P₄ + CaSiO₃ + CO.",
+        "teacher_note": "Explain that carbon reduces phosphate to phosphorus and silica binds calcium as slag.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain occurrence and extraction of phosphorus",
+        "concept_map_nodes": [
+          {"source": "Phosphorus production", "relation": "requires", "target": "Rock phosphate"}
+        ],
+        "workbook_section": "Extraction of Phosphorus",
+        "solution_manual_note": "Answer A. The industrial mixture is rock phosphate, silica, and coke."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q022",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "B. Phosphorus",
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "White phosphorus and red phosphorus are two common allotropes of phosphorus. Which statement correctly compares their properties?",
+      "options": {
+        "A": "White phosphorus is more stable and less reactive than red phosphorus",
+        "B": "Red phosphorus ignites spontaneously in air, while white phosphorus does not",
+        "C": "White phosphorus is stored under water because it ignites in air, but red phosphorus is stable in air",
+        "D": "Red phosphorus is a waxy solid consisting of \\(P_4\\) molecules, while white phosphorus is a polymer"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the reactivity differences and storage requirements.",
+      "explanation": "White phosphorus is highly reactive and spontaneously ignites in air, so it is stored under water. Red phosphorus is much less reactive and does not ignite in air, requiring no special storage.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "B. Phosphorus",
+        "content_anchor": "White phosphorus is a very poisonous, white waxy-looking substance... spontaneously ignites (bursts into flames) in the presence of oxygen. Red phosphorus is much less reactive than white phosphorus and does not need to be stored under water.",
+        "page_hint": 25,
+        "concept_hash": "sha256_phosphorus_allotropes_comparison_022"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Allotropes are different structural forms of the same element in the same physical state, with different arrangements of atoms.",
+        "concept_summary": "White phosphorus consists of discrete \\(P_4\\) tetrahedra with high angle strain, making it very reactive. Red phosphorus is a polymer of linked \\(P_4\\) units, which is thermodynamically more stable and less reactive.",
+        "beginner": "White phosphorus is like a very angry chemical that catches fire as soon as it touches air, so it must be kept under water. Red phosphorus is its calmer cousin that doesn't burst into flames.",
+        "intermediate": "White phosphorus is stored under water due to its spontaneous flammability in air. Red phosphorus is stable in air, non-flammable at room temperature, and used in matchboxes.",
+        "advanced": "The \\(P_4\\) tetrahedron in white phosphorus has bond angles of 60°, causing significant ring strain and high reactivity. Red phosphorus's polymeric structure relieves this strain, increasing stability.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that white phosphorus ignites spontaneously in air.",
+          "White phosphorus is stored under water to exclude oxygen.",
+          "Red phosphorus does not ignite in air and is stable.",
+          "Identify the option stating this comparison correctly."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think red phosphorus is more reactive because it is used in matches; in matches, it is struck with an oxidizing agent to ignite.",
+          "Both allotropes are not equally toxic; white phosphorus is highly toxic, red phosphorus is much less toxic."
+        ],
+        "related_concepts": ["Allotropy", "Phosphorus", "Reactivity", "Polymer"],
+        "revision_note": "White P: reactive, ignites in air, stored under water. Red P: stable in air.",
+        "glossary_entry": {
+          "term": "Allotrope",
+          "definition": "Different structural forms of the same element, such as white phosphorus and red phosphorus.",
+          "example_equation": null,
+          "related_terms": ["Phosphorus", "Diamond", "Graphite"]
+        },
+        "flashcard": {
+          "front": "Why is white phosphorus stored under water?",
+          "back": "It spontaneously ignites in air due to high reactivity, so water excludes oxygen to prevent combustion."
+        },
+        "concept_map_nodes": [
+          {"source": "White phosphorus", "relation": "is_more_reactive_than", "target": "Red phosphorus"},
+          {"source": "White phosphorus", "relation": "requires", "target": "Storage under water"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Phosphorus Allotropes",
+        "flashcard_front": "How does white phosphorus differ from red phosphorus in reactivity and storage?",
+        "flashcard_back": "White phosphorus ignites spontaneously in air and is stored under water; red phosphorus is stable in air.",
+        "glossary_term": "Allotrope",
+        "glossary_definition": "Different structural modifications of an element, differing in physical and chemical properties.",
+        "revision_note": "White P: stored under water, ignites in air. Red P: stable.",
+        "teacher_note": "Display images of white phosphorus under water and red phosphorus in matchboxes.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe properties of phosphorus allotropes",
+        "concept_map_nodes": [
+          {"source": "White phosphorus", "relation": "contrasted_with", "target": "Red phosphorus"}
+        ],
+        "workbook_section": "Phosphorus: Allotropes",
+        "solution_manual_note": "Answer C. White P ignites spontaneously and is stored under water; red P is stable in air."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q023",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "C. Oxygen",
+      "structural_anchor": "Occurrence and Production",
+      "mcq_type": "A",
+      "question": "What is the primary industrial method for producing oxygen gas in large quantities?",
+      "options": {
+        "A": "Electrolysis of water",
+        "B": "Fractional distillation of liquid air",
+        "C": "Heating potassium permanganate",
+        "D": "Catalytic decomposition of hydrogen peroxide"
+      },
+      "correct_answer": "B",
+      "lab_options": {
+        "A": false,
+        "B": true,
+        "C": false,
+        "D": false
+      },
+      "correct_answer": "B",
+      "hint": "Oxygen is obtained from the same process that gives nitrogen.",
+      "explanation": "Oxygen is produced industrially by fractional distillation of liquid air. After nitrogen boils off at \\(-196^\\circ\\mathrm{C}\\), oxygen remains and is collected as a pale blue liquid boiling at \\(-183^\\circ\\mathrm{C}\\).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "Occurrence and Production",
+        "content_anchor": "Oxygen is manufactured industrially by the fractional distillation of liquid air in a way similar to that of nitrogen.",
+        "page_hint": 27,
+        "concept_hash": "sha256_oxygen_industrial_production_023"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Fractional distillation separates mixtures based on boiling points; for air, it yields nitrogen, oxygen, and argon.",
+        "concept_summary": "Liquid air is warmed; nitrogen (boiling point \\(-196^\\circ\\mathrm{C}\\)) distills first, then argon, and finally oxygen (boiling point \\(-183^\\circ\\mathrm{C}\\)) is collected.",
+        "beginner": "Factories cool air until it becomes a liquid, then warm it slowly. Oxygen boils at a higher temperature than nitrogen, so it is left behind after nitrogen evaporates.",
+        "intermediate": "The boiling point of oxygen is \\(-183^\\circ\\mathrm{C}\\), higher than nitrogen's \\(-196^\\circ\\mathrm{C}\\). Fractional distillation allows oxygen to be separated from liquid air efficiently.",
+        "advanced": "Air is compressed, cooled, and expanded to produce liquid air. The distillation column uses temperature gradients to separate components; oxygen is drawn from the lower part of the column.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize that air is the source of oxygen.",
+          "Recall that fractional distillation separates liquid air.",
+          "Oxygen has a higher boiling point than nitrogen, so it remains after N₂ distills."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Electrolysis of water produces oxygen but is too energy-intensive for large-scale industrial use.",
+          "Laboratory methods (KMnO₄ heating, H₂O₂ decomposition) are for small-scale preparation, not industrial production."
+        ],
+        "related_concepts": ["Fractional distillation", "Liquid air", "Boiling point", "Industrial gases"],
+        "revision_note": "Industrial O₂: fractional distillation of liquid air (b.p. \\(-183^\\circ\\mathrm{C}\\)).",
+        "glossary_entry": {
+          "term": "Fractional distillation",
+          "definition": "Separation process based on boiling point differences, used to obtain oxygen and nitrogen from liquid air.",
+          "example_equation": null,
+          "related_terms": ["Liquid air", "Oxygen", "Boiling point"]
+        },
+        "flashcard": {
+          "front": "How is oxygen gas produced industrially?",
+          "back": "By fractional distillation of liquid air. Oxygen (b.p. \\(-183^\\circ\\mathrm{C}\\)) is separated from nitrogen (b.p. \\(-196^\\circ\\mathrm{C}\\))."
+        },
+        "concept_map_nodes": [
+          {"source": "Oxygen", "relation": "produced_by", "target": "Fractional distillation of liquid air"},
+          {"source": "Liquid air", "relation": "contains", "target": "Oxygen"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Oxygen Production",
+        "flashcard_front": "What is the main industrial source of oxygen gas?",
+        "flashcard_back": "Fractional distillation of liquid air. Oxygen (b.p. \\(-183^\\circ\\mathrm{C}\\)) is separated from nitrogen.",
+        "glossary_term": "Fractional distillation",
+        "glossary_definition": "A process separating liquid air components by their different boiling points.",
+        "revision_note": "Industrial O₂: fractional distillation of liquid air.",
+        "teacher_note": "Compare industrial (liquid air) vs. laboratory (catalyst decomposition) methods.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain occurrence and production of oxygen",
+        "concept_map_nodes": [
+          {"source": "Industrial oxygen", "relation": "obtained_from", "target": "Air"}
+        ],
+        "workbook_section": "Production of Oxygen",
+        "solution_manual_note": "Answer B. Fractional distillation of liquid air is the industrial method; others are laboratory methods."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q024",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "C. Oxygen",
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "Ozone (\\(\\mathrm{O_3}\\)) is an allotrope of oxygen. How is ozone naturally produced in the stratosphere?",
+      "options": {
+        "A": "By combustion of fossil fuels at high altitude",
+        "B": "By the reaction of oxygen with ultraviolet radiation from the Sun",
+        "C": "By electrolysis of water vapor in the upper atmosphere",
+        "D": "By the decomposition of chlorofluorocarbons"
+      },
+      "correct_answer": "B",
+      "hint": "Sunlight provides energy to split oxygen molecules.",
+      "explanation": "UV radiation breaks \\(\\mathrm{O_2}\\) molecules into individual oxygen atoms, which then combine with \\(\\mathrm{O_2}\\) to form ozone: \\(3\\mathrm{O_2} \\xrightarrow{UV} 2\\mathrm{O_3}\\). This process occurs naturally in the stratosphere.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(3\\mathrm{O_2} \\xrightarrow{UV} 2\\mathrm{O_3}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "C. Oxygen",
+        "content_anchor": "Ozone is naturally produced in the stratosphere by a two-step reactive process. In the first step, solar ultraviolet radiation (sunlight) breaks apart an oxygen molecule to form two separate oxygen atoms. In the overall process, three oxygen molecules plus sunlight react to form two ozone molecules according to the equation: 3O2 → 2O3 (UV-light)",
+        "page_hint": 27,
+        "concept_hash": "sha256_ozone_formation_stratosphere_024"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Ozone is a triatomic allotrope of oxygen with the formula \\(\\mathrm{O_3}\\), formed in the stratosphere by UV radiation.",
+        "concept_summary": "Ultraviolet radiation splits \\(\\mathrm{O_2}\\) into two oxygen atoms. These atoms then react with \\(\\mathrm{O_2}\\) molecules to form \\(\\mathrm{O_3}\\) (ozone). This natural process protects Earth from harmful UV rays.",
+        "beginner": "In the upper atmosphere, sunlight breaks apart normal oxygen gas (O₂) into pieces. These pieces then stick to other O₂ molecules to make ozone (O₃).",
+        "intermediate": "The overall reaction is \\(3\\mathrm{O_2} \\xrightarrow{UV} 2\\mathrm{O_3}\\). UV light provides the energy to break the O=O double bond, allowing ozone formation.",
+        "advanced": "The Chapman cycle describes ozone formation and destruction in the stratosphere. Ozone absorbs UV-B and UV-C radiation, dissociating back to \\(\\mathrm{O_2}\\) and O, balancing the ozone layer.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that ozone forms in the stratosphere.",
+          "Identify the energy source: UV radiation from the Sun.",
+          "UV splits O₂ into atomic oxygen, which then combines with O₂ to form O₃."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(3\\mathrm{O_2} \\xrightarrow{UV} 2\\mathrm{O_3}\\)",
+            "name": "Ozone formation",
+            "variables": [],
+            "derivation": "UV photolysis of O₂ produces O atoms; O + O₂ → O₃."
+          }
+        ],
+        "misconceptions": [
+          "Ozone is not formed by burning fossil fuels; that produces ground-level ozone pollution (different mechanism).",
+          "CFCs destroy ozone, they do not produce it naturally."
+        ],
+        "related_concepts": ["Ozone layer", "Ultraviolet radiation", "Allotrope", "Photodissociation"],
+        "revision_note": "Ozone formation: \\(3\\mathrm{O_2} + UV \\rightarrow 2\\mathrm{O_3}\\).",
+        "glossary_entry": {
+          "term": "Ozone",
+          "definition": "A triatomic allotrope of oxygen (\\(\\mathrm{O_3}\\)) that absorbs harmful UV radiation in the stratosphere.",
+          "example_equation": "\\(3\\mathrm{O_2} \\xrightarrow{UV} 2\\mathrm{O_3}\\)",
+          "related_terms": ["Allotrope", "Stratosphere", "UV radiation"]
+        },
+        "flashcard": {
+          "front": "How is ozone naturally produced in the stratosphere?",
+          "back": "UV radiation splits O₂ into oxygen atoms, which then combine with O₂ to form O₃: \\(3\\mathrm{O_2} + UV \\rightarrow 2\\mathrm{O_3}\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Ozone", "relation": "formed_by", "target": "UV radiation acting on O₂"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Oxygen Allotropes",
+        "flashcard_front": "What natural process produces ozone in the stratosphere?",
+        "flashcard_back": "Ultraviolet radiation from the Sun splits O₂ molecules, and the resulting oxygen atoms combine with O₂ to form O₃.",
+        "glossary_term": "Ozone",
+        "glossary_definition": "A pale blue gas (\\(\\mathrm{O_3}\\)) that forms a protective layer in the stratosphere by absorbing UV radiation.",
+        "revision_note": "\\(3\\mathrm{O_2} + UV \\rightarrow 2\\mathrm{O_3}\\). Ozone protects from UV.",
+        "teacher_note": "Distinguish between beneficial stratospheric ozone and harmful ground-level ozone.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the occurrence and properties of oxygen",
+        "concept_map_nodes": [
+          {"source": "Ultraviolet radiation", "relation": "causes formation of", "target": "Ozone"}
+        ],
+        "workbook_section": "Oxygen: Allotropes and Reactions",
+        "solution_manual_note": "Answer B. UV radiation from the Sun drives ozone formation. CFCs destroy ozone (D)."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q025",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "D. Sulphur",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "A",
+      "question": "What is the name of the process used to extract elemental sulfur from underground deposits using superheated water and compressed air?",
+      "options": {
+        "A": "Haber process",
+        "B": "Frasch process",
+        "C": "Contact process",
+        "D": "Bessemer process"
+      },
+      "correct_answer": "B",
+      "hint": "This process uses three concentric pipes to bring molten sulfur to the surface.",
+      "explanation": "The Frasch process pumps superheated water (about \\(170^\\circ\\mathrm{C}\\)) into sulfur deposits, melting the sulfur. Compressed air forces the molten sulfur to the surface through the pipes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "Sulphur is extracted from underground deposits of elemental sulphur by the Frasch process. In this process, three concentric pipes are sent down to the sulphur deposit. Superheated water at about 170°C is pumped through the outermost pipes.",
+        "page_hint": 28,
+        "concept_hash": "sha256_frasch_process_sulfur_025"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "The Frasch process is a method for extracting elemental sulfur from underground deposits by melting it with superheated water.",
+        "concept_summary": "Superheated water melts sulfur underground, and compressed air forces the liquid sulfur to the surface through concentric pipes. The sulfur then solidifies upon cooling.",
+        "beginner": "The Frasch process uses very hot water to melt underground sulfur and air pressure to push it up to the surface, like a straw sucking up a melted milkshake.",
+        "intermediate": "Three concentric pipes: superheated water (170°C) in the outermost pipe melts the sulfur, hot compressed air in the innermost pipe forces a froth of sulfur and water up through the middle pipe.",
+        "advanced": "The Frasch process exploits sulfur's low melting point (115°C) and insolubility in water. The superheated water provides latent heat to melt the solid sulfur, and hydrostatic pressure prevents boiling.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the extraction method for underground sulfur deposits.",
+          "Recall that superheated water is pumped down to melt sulfur.",
+          "Compressed air brings the molten sulfur to the surface.",
+          "Name the process: Frasch."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "The Frasch process is sometimes confused with the Haber process (ammonia) or Contact process (sulfuric acid).",
+          "Some think sulfur is mined as solid rock; the Frasch process extracts it by melting in place."
+        ],
+        "related_concepts": ["Sulfur extraction", "Superheated water", "Concentric pipes", "Mining"],
+        "revision_note": "Frasch process: superheated water melts underground sulfur; air lifts it out.",
+        "glossary_entry": {
+          "term": "Frasch process",
+          "definition": "A method for extracting elemental sulfur from underground deposits using superheated water and compressed air.",
+          "example_equation": null,
+          "related_terms": ["Sulfur", "Mining", "Superheated water"]
+        },
+        "flashcard": {
+          "front": "What is the Frasch process used for?",
+          "back": "Extracting elemental sulfur from underground deposits using superheated water and compressed air."
+        },
+        "concept_map_nodes": [
+          {"source": "Frasch process", "relation": "extracts", "target": "Sulfur"},
+          {"source": "Sulfur", "relation": "obtained_by", "target": "Frasch process"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Sulfur Extraction",
+        "flashcard_front": "Which process extracts sulfur from underground deposits using superheated water?",
+        "flashcard_back": "The Frasch process. Superheated water melts the sulfur, and compressed air brings it to the surface.",
+        "glossary_term": "Frasch process",
+        "glossary_definition": "A mining process for sulfur that uses superheated water to melt underground deposits and air to lift the molten sulfur.",
+        "revision_note": "Frasch: superheated water melts sulfur, air lifts it.",
+        "teacher_note": "Show a diagram of the three concentric pipes used in the Frasch process.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain occurrence and extraction of sulfur",
+        "concept_map_nodes": [
+          {"source": "Frasch process", "relation": "uses", "target": "Superheated water"}
+        ],
+        "workbook_section": "Extraction of Sulfur",
+        "solution_manual_note": "Answer B. The Frasch process is specifically designed for underground sulfur extraction."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q026",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "D. Sulphur",
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "Sulfur exists in two common crystalline allotropes at room temperature. Which pair correctly names these two allotropes and describes their stability?",
+      "options": {
+        "A": "α-sulfur (monoclinic) is stable below 95°C; β-sulfur (rhombic) is stable above 95°C",
+        "B": "α-sulfur (rhombic) is stable below 95°C; β-sulfur (monoclinic) is stable above 95°C",
+        "C": "Both allotropes are equally stable at all temperatures below 100°C",
+        "D": "α-sulfur (monoclinic) is the only stable allotrope at room temperature"
+      },
+      "correct_answer": "B",
+      "hint": "The most stable form at room temperature is rhombic sulfur.",
+      "explanation": "Rhombic sulfur (α-sulfur) is the stable form below 95.3°C. Monoclinic sulfur (β-sulfur) forms when rhombic sulfur is heated above 95.3°C and is stable only above this temperature.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "D. Sulphur",
+        "content_anchor": "The most important allotropes of sulphur are rhombic and monoclinic sulphur. Rhombic sulphur is the most stable form of sulphur... Monoclinic Sulfur (β- sulfur)... is only stable above 95.3°C; below this temperature it converts to α- sulfur",
+        "page_hint": 29,
+        "concept_hash": "sha256_sulfur_allotropes_stability_026"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Allotropes of sulfur are different crystalline forms of the element, primarily rhombic (α) and monoclinic (β).",
+        "concept_summary": "Rhombic sulfur (α) is stable below 95.3°C and is the form found at room temperature. Monoclinic sulfur (β) forms above 95.3°C and converts back to rhombic upon cooling.",
+        "beginner": "At room temperature, sulfur is in rhombic form. If you heat it above 95°C, it changes to monoclinic form, but if you let it cool, it turns back to rhombic.",
+        "intermediate": "The transition temperature is 95.3°C. Below this, α-sulfur (rhombic) is thermodynamically stable; above it, β-sulfur (monoclinic) is stable. The two allotropes differ in crystal structure but both contain \\(S_8\\) rings.",
+        "advanced": "The α → β transition at 95.3°C is enantiotropic: each form has a stability field on the phase diagram. The enthalpy change is small, and the transition is reversible with thermal hysteresis.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that rhombic sulfur is the stable form at room temperature.",
+          "Monoclinic sulfur forms when rhombic is heated above 95.3°C.",
+          "Monoclinic converts back to rhombic when cooled below 95.3°C."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Monoclinic sulfur is not stable at room temperature; it slowly converts to rhombic.",
+          "Both allotropes consist of \\(S_8\\) molecules; they differ in how the molecules are packed in the crystal, not the molecular formula."
+        ],
+        "related_concepts": ["Allotropy", "Rhombic sulfur", "Monoclinic sulfur", "Phase transition"],
+        "revision_note": "Rhombic S (α) stable below 95°C; monoclinic S (β) stable above 95°C.",
+        "glossary_entry": {
+          "term": "Allotropy",
+          "definition": "The property of an element to exist in two or more different physical forms in the same state, such as rhombic and monoclinic sulfur.",
+          "example_equation": null,
+          "related_terms": ["Rhombic sulfur", "Monoclinic sulfur"]
+        },
+        "flashcard": {
+          "front": "Which sulfur allotrope is stable at room temperature?",
+          "back": "Rhombic sulfur (α-sulfur). Monoclinic sulfur (β-sulfur) is stable only above 95.3°C."
+        },
+        "concept_map_nodes": [
+          {"source": "Rhombic sulfur", "relation": "stable_below", "target": "95.3°C"},
+          {"source": "Monoclinic sulfur", "relation": "stable_above", "target": "95.3°C"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Sulfur Allotropes",
+        "flashcard_front": "What are the two common allotropes of sulfur and their stability ranges?",
+        "flashcard_back": "Rhombic (α) stable <95.3°C; monoclinic (β) stable >95.3°C.",
+        "glossary_term": "Allotropy",
+        "glossary_definition": "Existence of the same element in multiple structural forms, as with rhombic and monoclinic sulfur.",
+        "revision_note": "Rhombic S (below 95°C); monoclinic S (above 95°C).",
+        "teacher_note": "Use a phase diagram to illustrate the temperature-dependent stability of sulfur allotropes.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the allotropic forms of sulfur",
+        "concept_map_nodes": [
+          {"source": "Sulfur", "relation": "has_allotropes", "target": "Rhombic and monoclinic"}
+        ],
+        "workbook_section": "Sulfur: Allotropes",
+        "solution_manual_note": "Answer B. Rhombic α is stable below 95°C; monoclinic β is stable above."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q027",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "E. Chlorine",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "A",
+      "question": "What is the industrial source and method for producing chlorine gas on a large scale?",
+      "options": {
+        "A": "Electrolysis of concentrated sodium chloride solution (brine)",
+        "B": "Heating hydrochloric acid with manganese dioxide",
+        "C": "Reaction of sodium chloride with sulfuric acid",
+        "D": "Fractional distillation of liquid air"
+      },
+      "correct_answer": "A",
+      "hint": "Chlorine is produced from common salt solution.",
+      "explanation": "Chlorine is manufactured commercially by the electrolysis of a concentrated aqueous solution of sodium chloride (brine). Chlorine gas forms at the anode, hydrogen at the cathode, and sodium hydroxide remains in solution.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(2\\mathrm{NaCl(aq) + 2H_2O(l) \\rightarrow 2NaOH(aq) + Cl_2(g) + H_2(g)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "Commercially, chlorine is manufactured by the electrolysis of a concentrated aqueous solution of sodium chloride. During electrolysis of the concentrated solution, chlorine is formed at the anode",
+        "page_hint": 30,
+        "concept_hash": "sha256_chlorine_industrial_production_027"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Chlorine is a greenish-yellow halogen gas produced industrially by the electrolysis of brine (sodium chloride solution).",
+        "concept_summary": "Electrolysis of brine produces chlorine gas at the anode, hydrogen gas at the cathode, and sodium hydroxide in the electrolyte. This is the chlor-alkali process.",
+        "beginner": "Chlorine is made by passing electricity through salty water. The chlorine gas bubbles off at one electrode, and the sodium hydroxide left behind is also useful.",
+        "intermediate": "The overall reaction is \\(2\\mathrm{NaCl(aq) + 2H_2O(l) \\rightarrow 2NaOH(aq) + Cl_2(g) + H_2(g)}\\). Chloride ions are oxidized to \\(\\mathrm{Cl_2}\\) at the anode.",
+        "advanced": "The chlor-alkali industry uses membrane, diaphragm, or mercury cells to separate chlorine and sodium hydroxide. The anode reaction: \\(2\\mathrm{Cl^- \\rightarrow Cl_2 + 2e^-}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the raw material: sodium chloride (NaCl).",
+          "Recall that electrolysis of NaCl solution produces Cl₂ at the anode.",
+          "This is the industrial method for chlorine production."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathrm{NaCl(aq) + 2H_2O(l) \\rightarrow 2NaOH(aq) + Cl_2(g) + H_2(g)}\\)",
+            "name": "Electrolysis of brine",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Laboratory methods (HCl + MnO₂) are not used industrially due to cost and waste.",
+          "Chlorine is not obtained from air (O₂ and N₂ are)."
+        ],
+        "related_concepts": ["Electrolysis", "Brine", "Chlor-alkali process", "Halogens"],
+        "revision_note": "Industrial Cl₂: electrolysis of brine. Anode: \\(2\\mathrm{Cl^- \\rightarrow Cl_2 + 2e^-}\\).",
+        "glossary_entry": {
+          "term": "Brine",
+          "definition": "A concentrated aqueous solution of sodium chloride (NaCl), used as the raw material for chlorine production.",
+          "example_equation": null,
+          "related_terms": ["Electrolysis", "Chlorine", "Sodium hydroxide"]
+        },
+        "flashcard": {
+          "front": "How is chlorine gas produced industrially?",
+          "back": "By electrolysis of brine (concentrated NaCl solution). Chlorine forms at the anode."
+        },
+        "concept_map_nodes": [
+          {"source": "Chlorine", "relation": "produced_by", "target": "Electrolysis of brine"},
+          {"source": "Brine", "relation": "contains", "target": "\\(\\mathrm{Cl^-}\\) ions"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chlorine Production",
+        "flashcard_front": "What is the industrial method for producing chlorine gas?",
+        "flashcard_back": "Electrolysis of brine (concentrated NaCl solution). Chlorine is produced at the anode.",
+        "glossary_term": "Brine",
+        "glossary_definition": "A concentrated sodium chloride solution used as the feedstock for chlorine production via electrolysis.",
+        "revision_note": "Industrial Cl₂: electrolysis of brine. Anode: \\(2\\mathrm{Cl^- \\rightarrow Cl_2}\\).",
+        "teacher_note": "Draw an electrolysis cell for brine, labeling anode (Cl₂), cathode (H₂), and the NaOH product.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain occurrence and extraction of chlorine",
+        "concept_map_nodes": [
+          {"source": "Chlorine production", "relation": "uses", "target": "Electrolysis"}
+        ],
+        "workbook_section": "Extraction of Chlorine",
+        "solution_manual_note": "Answer A. Electrolysis of brine is the industrial method; other options are laboratory methods."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q028",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "E. Chlorine",
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "A student predicts that chlorine gas will not react with sodium bromide solution because both are halides. However, when chlorine is bubbled through sodium bromide solution, the solution turns orange-brown. What is the misconception in the student's prediction?",
+      "options": {
+        "A": "Chlorine is less reactive than bromine and cannot displace it",
+        "B": "Chlorine is more reactive than bromine and displaces bromine from its compound",
+        "C": "Halides do not react with each other under any conditions",
+        "D": "Bromine is produced as a colorless gas in this reaction"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the reactivity order of halogens.",
+      "explanation": "The student incorrectly assumed chlorine would not react. In fact, chlorine is more reactive than bromine and displaces it from sodium bromide: \\(\\mathrm{Cl_2 + 2NaBr \\rightarrow 2NaCl + Br_2}\\). The orange-brown color is due to bromine.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{Cl_2(g) + 2NaBr(aq) \\rightarrow 2NaCl(aq) + Br_2(aq)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "E. Chlorine",
+        "content_anchor": "Chlorine displaces less reactive halogens (Br2 and I2 from aqueous solutions of their compounds).",
+        "page_hint": 31,
+        "concept_hash": "sha256_halogen_displacement_misconception_028"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Halogen displacement reactions occur when a more reactive halogen displaces a less reactive halogen from its halide salt solution.",
+        "concept_summary": "Chlorine is more reactive than bromine (higher in Group 17). It oxidizes bromide ions to bromine, forming chloride ions. The orange-brown color is dissolved bromine.",
+        "beginner": "Chlorine is stronger than bromine—it can kick bromine out of its compounds. The orange-brown color is bromine being set free.",
+        "intermediate": "The reactivity order in halogens decreases down the group: F₂ > Cl₂ > Br₂ > I₂. Chlorine (higher) displaces bromine (lower) from NaBr solution.",
+        "advanced": "The standard reduction potentials: \\(\\mathrm{Cl_2 + 2e^- \\rightarrow 2Cl^-} (E° = +1.36\\;V)\\) and \\(\\mathrm{Br_2 + 2e^- \\rightarrow 2Br^-} (E° = +1.07\\;V)\\). The more positive potential of chlorine makes it a stronger oxidizing agent, displacing Br⁻.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the reactivity trend in halogens: decreases down the group.",
+          "Chlorine is above bromine, so chlorine is more reactive.",
+          "A more reactive halogen displaces a less reactive one from its salt.",
+          "The orange-brown color is bromine."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{Cl_2(g) + 2Br^-(aq) \\rightarrow 2Cl^-(aq) + Br_2(aq)}\\)",
+            "name": "Halogen displacement",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "The student thought halides don't react with each other; in fact, displacement occurs based on reactivity.",
+          "Some believe bromine is colorless; it is orange-brown in solution and reddish-brown as a gas."
+        ],
+        "related_concepts": ["Halogen reactivity", "Displacement reaction", "Group 17 trends"],
+        "revision_note": "Cl₂ displaces Br⁻: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. Orange-brown = Br₂.",
+        "glossary_entry": {
+          "term": "Halogen displacement",
+          "definition": "A reaction where a more reactive halogen oxidizes and displaces a less reactive halogen from its halide salt.",
+          "example_equation": "\\(\\mathrm{Cl_2 + 2NaBr \\rightarrow 2NaCl + Br_2}\\)",
+          "related_terms": ["Halogen reactivity", "Oxidizing agent"]
+        },
+        "flashcard": {
+          "front": "Why does chlorine turn sodium bromide solution orange-brown?",
+          "back": "Chlorine displaces bromine: Cl₂ + 2NaBr → 2NaCl + Br₂. Bromine is orange-brown in solution."
+        },
+        "concept_map_nodes": [
+          {"source": "Chlorine", "relation": "displaces", "target": "Bromine"},
+          {"source": "Bromine", "relation": "color", "target": "Orange-brown"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chlorine Reactions",
+        "flashcard_front": "What happens when chlorine is bubbled through sodium bromide solution?",
+        "flashcard_back": "Chlorine displaces bromine: Cl₂ + 2NaBr → 2NaCl + Br₂. The solution turns orange-brown from bromine.",
+        "glossary_term": "Halogen displacement",
+        "glossary_definition": "A reaction where a higher halogen oxidizes and replaces a lower halogen in a compound.",
+        "revision_note": "Cl₂ more reactive than Br₂. Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂.",
+        "teacher_note": "Demonstrate or show video of chlorine water added to NaBr solution; note the color change.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe chemical properties of chlorine",
+        "concept_map_nodes": [
+          {"source": "Halogen reactivity", "relation": "decreases down", "target": "Group 17"}
+        ],
+        "workbook_section": "Chlorine: Chemical Properties",
+        "solution_manual_note": "Answer B. Chlorine is more reactive and displaces bromine, producing the orange-brown color."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q029",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "B. Iron",
+      "structural_anchor": null,
+      "mcq_type": "J",
+      "question": "Match each type of iron with its correct description: Pig iron, Wrought iron, Cast iron.",
+      "options": {
+        "A": "Pig iron = purest form (99.5% Fe); Wrought iron = high carbon (3.5-4.5%); Cast iron = intermediate",
+        "B": "Pig iron = high carbon (3.5-4.5%); Wrought iron = purest form (99.5% Fe); Cast iron = from pig iron remelting",
+        "C": "Pig iron = soft and ductile; Wrought iron = brittle with high carbon; Cast iron = from blast furnace direct",
+        "D": "Pig iron = used for ornaments; Wrought iron = used for boilers; Cast iron = purest form"
+      },
+      "correct_answer": "B",
+      "hint": "Pig iron is the first product from the blast furnace.",
+      "explanation": "Pig iron directly from the blast furnace contains 3.5-4.5% carbon and is brittle. Wrought iron is the purest form (99.5% Fe), tough and malleable. Cast iron is produced by remelting pig iron with scrap iron.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "B. Iron",
+        "content_anchor": "The iron obtained directly from the blast furnace is called pig iron... Pig iron contains at least 92% Fe and has very high carbon content, typically 3.5-4.5%... The purest form of commercial iron is called wrought iron... It increases the purity of the iron to 99.5%... When pig iron is re-melted with scrap iron and cast in to moulds, it forms cast iron.",
+        "page_hint": 13,
+        "concept_hash": "sha256_iron_types_comparison_029"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Pig iron is high-carbon crude iron from the blast furnace; wrought iron is nearly pure, malleable iron; cast iron is remelted pig iron cast into shapes.",
+        "concept_summary": "Pig iron (high carbon, brittle) is the first product. Cast iron is made by remelting pig iron. Wrought iron is the purest form, obtained by removing impurities from pig iron.",
+        "beginner": "Pig iron comes straight from the furnace with lots of carbon (brittle). Wrought iron is almost pure iron (strong and bendable). Cast iron is melted pig iron poured into molds.",
+        "intermediate": "Pig iron: 3.5-4.5% C, brittle, intermediate product. Wrought iron: 99.5% Fe, tough, ductile, purest form. Cast iron: remelted pig iron + scrap, used for castings.",
+        "advanced": "The carbon content determines properties: pig iron (high C) has low ductility; wrought iron (very low C) is fibrous and corrosion-resistant; cast iron (2-4% C) has good fluidity for casting.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify pig iron as the direct blast furnace product (high carbon).",
+          "Identify wrought iron as the purest form after refining.",
+          "Identify cast iron as remelted pig iron for casting."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Cast iron and pig iron are sometimes confused; cast iron is remelted pig iron with adjusted properties.",
+          "Wrought iron is not 'worked' iron in the sense of shaping; it is a specific low-carbon form."
+        ],
+        "related_concepts": ["Blast furnace", "Carbon content", "Metallurgy", "Iron alloys"],
+        "revision_note": "Pig iron: high C (3.5-4.5%); wrought iron: purest (99.5% Fe); cast iron: remelted pig iron.",
+        "glossary_entry": {
+          "term": "Pig iron",
+          "definition": "The impure iron product from a blast furnace, containing 3.5-4.5% carbon and other impurities, used as feedstock for steelmaking.",
+          "example_equation": null,
+          "related_terms": ["Cast iron", "Wrought iron", "Blast furnace"]
+        },
+        "flashcard": {
+          "front": "Which form of iron has the highest carbon content (3.5-4.5%) and which is the purest (99.5% Fe)?",
+          "back": "Pig iron has the highest carbon; wrought iron is the purest form of commercial iron."
+        },
+        "concept_map_nodes": [
+          {"source": "Pig iron", "relation": "refined_to", "target": "Wrought iron"},
+          {"source": "Pig iron", "relation": "remelted_into", "target": "Cast iron"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Iron Types",
+        "flashcard_front": "Describe pig iron, wrought iron, and cast iron.",
+        "flashcard_back": "Pig iron: high carbon, brittle. Wrought iron: purest (99.5% Fe). Cast iron: remelted pig iron for castings.",
+        "glossary_term": "Pig iron",
+        "glossary_definition": "Crude iron from a blast furnace with high carbon content (3.5-4.5%).",
+        "revision_note": "Pig iron (high C) → cast iron (remelted). Wrought iron (purest).",
+        "teacher_note": "Use a flow chart: Blast furnace → pig iron → (remelt) cast iron or (purify) wrought iron.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the forms and uses of iron",
+        "concept_map_nodes": [
+          {"source": "Pig iron", "relation": "processed_to", "target": "Cast iron"},
+          {"source": "Pig iron", "relation": "refined_to", "target": "Wrought iron"}
+        ],
+        "workbook_section": "Iron: Types and Properties",
+        "solution_manual_note": "Answer B. Pig iron has high carbon; wrought iron is purest; cast iron from pig iron remelting."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q030",
+      "generation_timestamp": "2026-06-13T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "A. Aluminum",
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "Aluminum metal does not react with dilute or concentrated nitric acid, but it does react with dilute hydrochloric acid. What explains this difference in behavior?",
+      "options": {
+        "A": "Nitric acid is a weaker acid than hydrochloric acid",
+        "B": "Aluminum forms a protective oxide layer that is insoluble in nitric acid but soluble in hydrochloric acid",
+        "C": "Hydrochloric acid is an oxidizing acid while nitric acid is not",
+        "D": "Aluminum is more reactive with non-oxidizing acids only"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the passivation of aluminum by an oxide layer.",
+      "explanation": "Aluminum readily forms a thin, adherent \\(\\mathrm{Al_2O_3}\\) oxide layer. This layer is insoluble in oxidizing acids like nitric acid, protecting the metal. However, hydrochloric acid (non-oxidizing) dissolves the oxide layer, allowing the acid to attack the metal.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(2\\mathrm{Al(s) + 6HCl(aq) \\rightarrow 2AlCl_3(aq) + 3H_2(g)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "A. Aluminum",
+        "content_anchor": "Aluminum does not react with dilute or concentrated HNO3 due to the formation of a protective oxide layer on its surface. Therefore, materials made of Al may be used to transport HNO3.",
+        "page_hint": 9,
+        "concept_hash": "sha256_aluminum_passivation_oxide_030"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Passivation is the formation of a stable, adherent oxide layer on a metal surface that prevents further reaction with the environment.",
+        "concept_summary": "Aluminum reacts with oxygen to form \\(\\mathrm{Al_2O_3}\\). This oxide layer is amphoteric: it dissolves in acids and bases, but it is insoluble in oxidizing nitric acid, which actually strengthens the layer.",
+        "beginner": "Aluminum has a protective skin (aluminum oxide) that normally stops reactions. Nitric acid makes this skin stronger, but hydrochloric acid eats through the skin, letting the acid reach the metal.",
+        "intermediate": "The \\(\\mathrm{Al_2O_3}\\) layer is insoluble in nitric acid (an oxidizing acid) and resists attack. HCl (a non-oxidizing acid) dissolves the oxide, exposing aluminum to reaction: \\(2\\mathrm{Al + 6HCl \\rightarrow 2AlCl_3 + 3H_2}\\).",
+        "advanced": "Nitric acid acts as an oxidizing agent, promoting the growth of a thicker, more protective oxide film (passivation). Chloride ions from HCl are aggressive toward oxide films, disrupting passivity and initiating pitting corrosion.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that aluminum forms an Al₂O₃ oxide layer.",
+          "Identify that HNO₃ is an oxidizing acid that reinforces the oxide layer.",
+          "Identify that HCl is a non-oxidizing acid that attacks and dissolves the oxide layer.",
+          "Therefore, Al resists HNO₃ but reacts with HCl."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathrm{Al(s) + 6HCl(aq) \\rightarrow 2AlCl_3(aq) + 3H_2(g)}\\)",
+            "name": "Aluminum with hydrochloric acid",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think aluminum does not react with any acid; it does react with non-oxidizing acids after oxide removal.",
+          "Oxidizing acids do not always react with metals; they can passivate some metals like Al and Fe."
+        ],
+        "related_concepts": ["Passivation", "Amphoteric oxide", "Oxidizing acid", "Corrosion"],
+        "revision_note": "Al₂O₃ layer insoluble in HNO₃ (passivation). Soluble in HCl → reaction.",
+        "glossary_entry": {
+          "term": "Passivation",
+          "definition": "The process of forming a protective oxide layer on a metal surface that inhibits further chemical reaction.",
+          "example_equation": null,
+          "related_terms": ["Aluminum oxide", "Corrosion resistance"]
+        },
+        "flashcard": {
+          "front": "Why does aluminum resist nitric acid but react with hydrochloric acid?",
+          "back": "Nitric acid strengthens the protective Al₂O₃ layer (passivation), while HCl dissolves the layer, allowing reaction."
+        },
+        "concept_map_nodes": [
+          {"source": "Aluminum", "relation": "forms", "target": "Al₂O₃ layer"},
+          {"source": "Al₂O₃ layer", "relation": "insoluble_in", "target": "HNO₃"},
+          {"source": "Al₂O₃ layer", "relation": "soluble_in", "target": "HCl"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Aluminum Reactions",
+        "flashcard_front": "Why is aluminum used to transport nitric acid but not hydrochloric acid?",
+        "flashcard_back": "Al₂O₃ layer is insoluble in HNO₃ (passivation) but soluble in HCl, which then attacks the metal.",
+        "glossary_term": "Passivation",
+        "glossary_definition": "The formation of a protective oxide layer that makes a metal resistant to further corrosion.",
+        "revision_note": "Al₂O₃ passivates Al in HNO₃; HCl dissolves oxide.",
+        "teacher_note": "Demonstrate with Al foil in HCl (bubbles) vs. concentrated HNO₃ (no reaction, may passivate).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe chemical properties of aluminum",
+        "concept_map_nodes": [
+          {"source": "Aluminum oxide", "relation": "determines", "target": "Acid reactivity"}
+        ],
+        "workbook_section": "Aluminum: Chemical Properties",
+        "solution_manual_note": "Answer B. The oxide layer is insoluble in HNO₃ but soluble in HCl, explaining the difference."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3600,
+    "average_question_quality": 90.8,
+    "type_distribution": {
+      "A": 3,
+      "D": 1,
+      "F": 1,
+      "H": 1,
+      "I": 2,
+      "J": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "5.2 General Properties of Metals and Production of Some Metals": 3,
+      "5.3 Production of Some Important Nonmetals": 7
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,1756 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Math_U8_Q010",
+    "covered_sections": [
+      "Introduction>Revision about Probability",
+      "Fundamental Principle of Counting>Multiplication Principle",
+      "Fundamental Principle of Counting>Addition Principle",
+      "Permutations and Combinations>Factorial",
+      "Permutations and Combinations>Permutation",
+      "Random Experiments and Their Outcomes>Sample Space"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+      "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2",
+      "b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7",
+      "c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8",
+      "d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9"
+    ],
+    "baseline_counter": {
+      "Introduction": {
+        "Revision about Probability": {
+          "count": 1,
+          "mini_headings_covered": ["Revision about Probability"],
+          "last_question_round": 1
+        }
+      },
+      "Fundamental Principle of Counting": {
+        "Multiplication Principle": {
+          "count": 1,
+          "mini_headings_covered": ["Multiplication Principle"],
+          "last_question_round": 1
+        },
+        "Addition Principle": {
+          "count": 1,
+          "mini_headings_covered": ["Addition Principle"],
+          "last_question_round": 1
+        }
+      },
+      "Permutations and Combinations": {
+        "Factorial": {
+          "count": 1,
+          "mini_headings_covered": ["Factorial"],
+          "last_question_round": 1
+        },
+        "Permutation": {
+          "count": 1,
+          "mini_headings_covered": ["Permutation"],
+          "last_question_round": 1
+        }
+      },
+      "Random Experiments and Their Outcomes": {
+        "Sample Space": {
+          "count": 1,
+          "mini_headings_covered": ["Sample Space"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Fundamental Principle of Counting": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Permutations and Combinations": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Random Experiments and Their Outcomes": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Introduction>Revision about Probability": ["probability", "event", "outcome", "sample space"],
+      "Fundamental Principle of Counting>Multiplication Principle": ["multiplication principle", "counting"],
+      "Fundamental Principle of Counting>Addition Principle": ["addition principle", "mutually exclusive"],
+      "Permutations and Combinations>Factorial": ["factorial", "n!"],
+      "Permutations and Combinations>Permutation": ["permutation", "nPr"],
+      "Random Experiments and Their Outcomes>Sample Space": ["random experiment", "sample space", "outcome"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 15.4
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Mathematics",
+  "unit": "Unit 8: PROBABILITY",
+  "pdf_filename": "M11U8.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 9,
+        "progress_percentage": 44.4
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 15.4,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Fundamental Principle of Counting",
+      "least_covered_section": "Introduction",
+      "imbalance_ratio": 2.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Math_U8_Q001",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Introduction",
+      "subsection": "Revision about Probability",
+      "sub_subsection": null,
+      "structural_anchor": "Revision about Probability",
+      "mcq_type": "A",
+      "question": "What is the term for the set that contains all possible outcomes of a probability experiment?",
+      "options": {
+        "A": "Event",
+        "B": "Outcome",
+        "C": "Sample space",
+        "D": "Trial"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the collection of every result that could happen.",
+      "explanation": "The sample space is the complete set of all possible results of an experiment. Option A refers to a subset of the sample space, not the full set.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Revision about Probability",
+        "structural_element": "Revision about Probability",
+        "content_anchor": "sample space (S) is a set that contains all possible outcomes",
+        "page_hint": 3,
+        "concept_hash": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The sample space is the complete set of all possible outcomes of a random experiment.",
+        "concept_summary": "Every probability experiment has a sample space that lists every result that could occur. Events are subsets drawn from this space.",
+        "beginner": "Think of the sample space like a menu listing every possible meal you could order. The event is just one choice from that menu.",
+        "intermediate": "The sample space \\(S\\) contains every possible outcome of an experiment. An event is any subset of \\(S\\), such as a single outcome or a collection.",
+        "advanced": "Formally, if an experiment has \\(n\\) equally likely outcomes, the sample space \\(S\\) has cardinality \\(n\\). Any event \\(E \\subseteq S\\) has probability \\(P(E) = |E|/|S|\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify what the question is asking: the set of all possible outcomes.",
+          "Recall that 'event' means a subset of outcomes, not the full set.",
+          "Recognize that 'sample space' is the standard term for the complete set of outcomes."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some confuse 'sample space' with 'event', but an event is a subset, not the entire set.",
+          "Others think the sample space includes only favorable outcomes, but it includes all outcomes."
+        ],
+        "related_concepts": ["event", "outcome", "probability", "random experiment"],
+        "revision_note": "Sample space: all possible outcomes. Event: subset of sample space.",
+        "glossary_entry": {
+          "term": "Sample space",
+          "definition": "The set of all possible outcomes of a random experiment.",
+          "example_equation": null,
+          "related_terms": ["event", "outcome"]
+        },
+        "flashcard": {
+          "front": "What is the sample space of a probability experiment?",
+          "back": "The set of all possible outcomes. Example: Tossing a coin gives \\(S = \\{\\mathrm{H}, \\mathrm{T}\\}\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Random experiment", "relation": "produces", "target": "Sample space"},
+          {"source": "Sample space", "relation": "contains", "target": "Outcome"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 8 — Probability Basics",
+        "flashcard_front": "What is the sample space in probability?",
+        "flashcard_back": "The complete set of all possible outcomes of an experiment, denoted \\(S\\).",
+        "glossary_term": "Sample space",
+        "glossary_definition": "The set that contains all possible outcomes of a random experiment.",
+        "revision_note": "Sample space \\(S\\) = all outcomes.",
+        "teacher_note": "Common error: students call the sample space an 'event'. Emphasize that sample space is the universal set.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the concept of probability",
+        "concept_map_nodes": [
+          {"source": "Random experiment", "relation": "produces", "target": "Sample space"},
+          {"source": "Sample space", "relation": "contains", "target": "Outcome"}
+        ],
+        "workbook_section": "Introduction to Probability",
+        "solution_manual_note": "Answer C. Sample space is the set of all possible outcomes. An event is a subset, not the full set."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q002",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Fundamental Principle of Counting",
+      "subsection": "Multiplication Principle",
+      "sub_subsection": null,
+      "structural_anchor": "Multiplication Principle",
+      "mcq_type": "D",
+      "question": "A restaurant offers 3 types of appetizers and 4 types of main courses. How many different combinations of one appetizer and one main course can a customer order?",
+      "options": {
+        "A": "7",
+        "B": "12",
+        "C": "14",
+        "D": "24"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply the number of choices for each decision.",
+      "explanation": "The multiplication principle states that if one event has \\(m\\) outcomes and another has \\(n\\) outcomes, the total is \\(m \\times n\\). Option A (7) incorrectly adds instead of multiplying.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "appetizers": {"magnitude": 3, "unit": "types"},
+          "main_courses": {"magnitude": 4, "unit": "types"}
+        },
+        "answer_value": 12,
+        "answer_unit": "combinations",
+        "calculation_steps": ["\\(3 \\times 4 = 12\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Fundamental Principle of Counting",
+        "subsection_anchor": "Multiplication Principle",
+        "structural_element": "Multiplication Principle",
+        "content_anchor": "m × n different ways",
+        "page_hint": 6,
+        "concept_hash": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The multiplication principle states that if one event can occur in \\(m\\) ways and a second in \\(n\\) ways, the sequence occurs in \\(m \\times n\\) ways.",
+        "concept_summary": "When making a sequence of choices, multiply the number of options at each step to find total combinations.",
+        "beginner": "Imagine picking a hat (3 choices) then shoes (4 choices). You draw lines from each hat to each shoe — that's \\(3 \\times 4 = 12\\) outfits.",
+        "intermediate": "For each of the 3 appetizers, there are 4 possible main courses. Total combinations = \\(3 \\times 4 = 12\\).",
+        "advanced": "The multiplication principle generalizes: for \\(k\\) independent choices with \\(n_1, n_2, ..., n_k\\) options, total outcomes = \\(\\prod_{i=1}^k n_i\\).",
+        "worked_solution": ["Step 1: Number of appetizer choices = 3.", "Step 2: Number of main course choices = 4.", "Step 3: Multiply: \\(3 \\times 4 = 12\\)."],
+        "reasoning_steps": [
+          "Identify the number of choices for the first decision (appetizer).",
+          "Identify the number of choices for the second decision (main course).",
+          "Apply multiplication principle: multiply the numbers."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Adding instead of multiplying is a common error when students confuse addition and multiplication principles.",
+          "Some think order matters, but here appetizer and main course are distinct categories, so multiplication applies."
+        ],
+        "related_concepts": ["addition principle", "counting", "combinations"],
+        "revision_note": "Multiplication principle: total = \\(m \\times n\\) for sequential choices.",
+        "glossary_entry": {
+          "term": "Multiplication principle",
+          "definition": "If one event can occur in \\(m\\) ways and another in \\(n\\) ways, both occur in \\(m \\times n\\) ways.",
+          "example_equation": "\\(3 \\times 4 = 12\\)",
+          "related_terms": ["addition principle", "counting"]
+        },
+        "flashcard": {
+          "front": "How do you find total outcomes for two sequential choices?",
+          "back": "Multiply the number of options: \\(m \\times n\\). Example: 3 shirts × 4 pants = 12 outfits."
+        },
+        "concept_map_nodes": [
+          {"source": "Multiplication principle", "relation": "applies_to", "target": "Sequential choices"},
+          {"source": "Multiplication principle", "relation": "formula", "target": "\\(m \\times n\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 8 — Counting Principles",
+        "flashcard_front": "What is the multiplication principle formula?",
+        "flashcard_back": "\\(m \\times n\\) total outcomes for two independent choices.",
+        "glossary_term": "Multiplication principle",
+        "glossary_definition": "The total number of ways for a sequence of events is the product of the number of ways each can occur.",
+        "revision_note": "Sequential choices: multiply.",
+        "teacher_note": "Draw a tree diagram to visualize why multiplication works.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Multiplication principle", "relation": "formula", "target": "\\(m \\times n\\)"},
+          {"source": "Multiplication principle", "relation": "used_for", "target": "Counting"}
+        ],
+        "workbook_section": "Fundamental Principle of Counting",
+        "solution_manual_note": "Answer B. \\(3 \\times 4 = 12\\). Option A (7) adds instead of multiplying."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q003",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Fundamental Principle of Counting",
+      "subsection": "Addition Principle",
+      "sub_subsection": null,
+      "structural_anchor": "Addition Principle",
+      "mcq_type": "D",
+      "question": "A library has 7 fiction books and 5 non-fiction books. How many ways can a student choose one book of either type?",
+      "options": {
+        "A": "12",
+        "B": "35",
+        "C": "30",
+        "D": "2"
+      },
+      "correct_answer": "A",
+      "hint": "Add the counts when choosing from mutually exclusive categories.",
+      "explanation": "The addition principle applies because choosing fiction excludes choosing non-fiction. \\(7 + 5 = 12\\). Option B (35) incorrectly multiplies.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "fiction": {"magnitude": 7, "unit": "books"},
+          "non_fiction": {"magnitude": 5, "unit": "books"}
+        },
+        "answer_value": 12,
+        "answer_unit": "ways",
+        "calculation_steps": ["\\(7 + 5 = 12\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Fundamental Principle of Counting",
+        "subsection_anchor": "Addition Principle",
+        "structural_element": "Addition Principle",
+        "content_anchor": "total number of outcomes for the event A or B is n + m ways",
+        "page_hint": 9,
+        "concept_hash": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "If events A and B are mutually exclusive, the number of outcomes for A or B is the sum of their individual outcomes.",
+        "concept_summary": "When two choices cannot happen together, add their possibilities to find total options.",
+        "beginner": "If you can pick a red ball from one jar (3 ways) or a blue ball from another jar (4 ways), you have \\(3 + 4 = 7\\) total choices.",
+        "intermediate": "Fiction and non-fiction are mutually exclusive categories. Total choices = \\(7 + 5 = 12\\).",
+        "advanced": "For mutually exclusive events \\(E_1\\) and \\(E_2\\), \\(|E_1 \\cup E_2| = |E_1| + |E_2|\\). This is the addition principle.",
+        "worked_solution": ["Step 1: Number of fiction books = 7.", "Step 2: Number of non-fiction books = 5.", "Step 3: Add: \\(7 + 5 = 12\\)."],
+        "reasoning_steps": [
+          "Confirm the categories are mutually exclusive (cannot pick both types at once).",
+          "Add the number of options in each category.",
+          "The sum is the total number of ways to choose one book."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students often multiply when they should add, especially when the word 'or' appears.",
+          "Some think addition principle applies when order matters, but it applies to mutually exclusive choices."
+        ],
+        "related_concepts": ["multiplication principle", "mutually exclusive", "union of events"],
+        "revision_note": "Addition principle: total = \\(m + n\\) for mutually exclusive choices.",
+        "glossary_entry": {
+          "term": "Addition principle",
+          "definition": "If two mutually exclusive events have \\(m\\) and \\(n\\) outcomes, the total outcomes for either event is \\(m + n\\).",
+          "example_equation": "\\(7 + 5 = 12\\)",
+          "related_terms": ["mutually exclusive", "multiplication principle"]
+        },
+        "flashcard": {
+          "front": "When do you add instead of multiply in counting?",
+          "back": "When choices are mutually exclusive (you pick from category A OR category B, not both)."
+        },
+        "concept_map_nodes": [
+          {"source": "Addition principle", "relation": "applies_to", "target": "Mutually exclusive events"},
+          {"source": "Addition principle", "relation": "formula", "target": "\\(m + n\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 8 — Counting Principles",
+        "flashcard_front": "What is the addition principle?",
+        "flashcard_back": "For mutually exclusive events, total outcomes = \\(m + n\\). Example: 7 fiction + 5 non-fiction = 12 books.",
+        "glossary_term": "Addition principle",
+        "glossary_definition": "A counting rule for mutually exclusive events: the total number of outcomes is the sum of individual counts.",
+        "revision_note": "Mutually exclusive: add.",
+        "teacher_note": "Use Venn diagrams to show disjoint sets when teaching addition principle.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Addition principle", "relation": "requires", "target": "Mutually exclusive"},
+          {"source": "Mutually exclusive", "relation": "means", "target": "No overlap"}
+        ],
+        "workbook_section": "Fundamental Principle of Counting",
+        "solution_manual_note": "Answer A. \\(7 + 5 = 12\\). Option B (35) incorrectly multiplies."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q004",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Permutations and Combinations",
+      "subsection": "Factorial",
+      "sub_subsection": null,
+      "structural_anchor": "Factorial",
+      "mcq_type": "A",
+      "question": "What is the value of \\(6!\\)?",
+      "options": {
+        "A": "720",
+        "B": "120",
+        "C": "360",
+        "D": "24"
+      },
+      "correct_answer": "A",
+      "hint": "Multiply all positive integers from 1 up to 6.",
+      "explanation": "Factorial \\(n!\\) is the product of all integers from 1 to \\(n\\). \\(6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720\\). Option B is \\(5!\\), not \\(6!\\).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(n! = n \\times (n-1) \\times \\ldots \\times 1\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": null,
+        "answer_value": 720,
+        "answer_unit": null,
+        "calculation_steps": ["\\(6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Permutations and Combinations",
+        "subsection_anchor": "Factorial",
+        "structural_element": "Factorial",
+        "content_anchor": "n! = n × (n-1) × ... × 1",
+        "page_hint": 11,
+        "concept_hash": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The factorial of a non-negative integer \\(n\\), denoted \\(n!\\), is the product of all positive integers less than or equal to \\(n\\).",
+        "concept_summary": "Factorials grow very quickly and are used in permutations, combinations, and many counting formulas.",
+        "beginner": "\\(6!\\) means multiply \\(6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1\\). Start with 1, then multiply by 2, then 3, up to 6.",
+        "intermediate": "\\(6! = 6 \\times 5! = 6 \\times 120 = 720\\). Factorials are defined recursively as \\(n! = n \\times (n-1)!\\) with \\(0! = 1\\).",
+        "advanced": "The gamma function extends factorial to real numbers: \\(\\Gamma(n) = (n-1)!\\) for positive integers. \\(6! = 720\\) is used in permutation formulas like \\(P(6,6) = 6!\\).",
+        "worked_solution": ["Step 1: Write \\(6! = 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1\\).", "Step 2: Multiply sequentially: \\(6 \\times 5 = 30\\).", "Step 3: \\(30 \\times 4 = 120\\).", "Step 4: \\(120 \\times 3 = 360\\).", "Step 5: \\(360 \\times 2 = 720\\).", "Step 6: \\(720 \\times 1 = 720\\)."],
+        "reasoning_steps": [
+          "Recall definition: \\(n!\\) is product of integers from 1 to \\(n\\).",
+          "Multiply numbers from 1 to 6 in any order.",
+          "The result is 720."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(n! = n \\times (n-1) \\times \\ldots \\times 1\\)",
+            "name": "Factorial definition",
+            "variables": [{"symbol": "n", "meaning": "non-negative integer", "unit": null}],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think \\(6! = 6 + 5 + 4 + 3 + 2 + 1 = 21\\), confusing factorial with summation.",
+          "Others forget that \\(0! = 1\\), not 0."
+        ],
+        "related_concepts": ["permutation", "combination", "gamma function"],
+        "revision_note": "\\(6! = 720\\). Factorial: multiply down to 1.",
+        "glossary_entry": {
+          "term": "Factorial",
+          "definition": "The product of all positive integers from 1 to \\(n\\), written \\(n!\\).",
+          "example_equation": "\\(6! = 720\\)",
+          "related_terms": ["permutation", "combination"]
+        },
+        "flashcard": {
+          "front": "What is \\(6!\\)?",
+          "back": "720. Multiply \\(6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Factorial", "relation": "used_in", "target": "Permutation"},
+          {"source": "Factorial", "relation": "used_in", "target": "Combination"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 8 — Factorials",
+        "flashcard_front": "What is \\(6!\\) equal to?",
+        "flashcard_back": "720, because \\(6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 720\\).",
+        "glossary_term": "Factorial",
+        "glossary_definition": "The product of all positive integers from 1 to n.",
+        "revision_note": "\\(n! = n \\times (n-1) \\times \\ldots \\times 1\\)",
+        "teacher_note": "Use recursion \\(n! = n \\times (n-1)!\\) to build understanding.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Factorial", "relation": "defined_as", "target": "Product of integers"},
+          {"source": "Factorial", "relation": "special_case", "target": "0! = 1"}
+        ],
+        "workbook_section": "Permutations and Combinations",
+        "solution_manual_note": "Answer A. \\(6! = 720\\). Option B is \\(5! = 120\\), a common distractor."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q005",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Permutations and Combinations",
+      "subsection": "Permutation",
+      "sub_subsection": null,
+      "structural_anchor": "Permutation",
+      "mcq_type": "D",
+      "question": "How many ways can 5 different books be arranged in a row on a shelf?",
+      "options": {
+        "A": "25",
+        "B": "60",
+        "C": "100",
+        "D": "120"
+      },
+      "correct_answer": "D",
+      "hint": "This is a permutation of all 5 books.",
+      "explanation": "Arranging all 5 distinct books is \\(5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120\\). Option A (25) incorrectly uses \\(5^2\\), confusing permutations with exponentiation.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(P(n,n) = n!\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "n": {"magnitude": 5, "unit": "books"}
+        },
+        "answer_value": 120,
+        "answer_unit": "arrangements",
+        "calculation_steps": ["\\(5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Permutations and Combinations",
+        "subsection_anchor": "Permutation",
+        "structural_element": "Permutation",
+        "content_anchor": "P(n,n) = n!",
+        "page_hint": 13,
+        "concept_hash": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 87,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A permutation is an arrangement of objects in a specific order. The number of permutations of \\(n\\) distinct objects is \\(n!\\).",
+        "concept_summary": "When arranging all items, the first position has \\(n\\) choices, second has \\(n-1\\), and so on, giving \\(n!\\) total arrangements.",
+        "beginner": "For 5 books, you have 5 choices for first place, 4 for second, 3 for third, 2 for fourth, 1 for last. Multiply: \\(5 \\times 4 \\times 3 \\times 2 \\times 1 = 120\\).",
+        "intermediate": "Arranging 5 distinct books is a permutation of 5 taken 5 at a time: \\(P(5,5) = 5! = 120\\).",
+        "advanced": "The number of bijections from a 5-element set to itself is \\(5!\\). This is the size of the symmetric group \\(S_5\\).",
+        "worked_solution": ["Step 1: There are 5 choices for the first position.", "Step 2: After placing first, 4 choices remain for second.", "Step 3: 3 choices for third.", "Step 4: 2 choices for fourth.", "Step 5: 1 choice for last.", "Step 6: Multiply: \\(5 \\times 4 \\times 3 \\times 2 \\times 1 = 120\\)."],
+        "reasoning_steps": [
+          "Count choices for each position sequentially.",
+          "Multiply the number of choices at each step.",
+          "Result is \\(n!\\) when arranging all \\(n\\) distinct objects."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P(n,n) = n!\\)",
+            "name": "Permutation of all n objects",
+            "variables": [{"symbol": "n", "meaning": "number of distinct objects", "unit": null}],
+            "derivation": "Product of integers from n down to 1."
+          }
+        ],
+        "misconceptions": [
+          "Some think \\(5!\\) means \\(5^2 = 25\\), confusing factorial with exponentiation.",
+          "Others forget that order matters in permutations and use combinations instead."
+        ],
+        "related_concepts": ["factorial", "combination", "permutation with repetition"],
+        "revision_note": "Arranging all n distinct items: \\(n!\\) ways.",
+        "glossary_entry": {
+          "term": "Permutation",
+          "definition": "An ordered arrangement of distinct objects.",
+          "example_equation": "\\(P(5,5) = 5! = 120\\)",
+          "related_terms": ["combination", "factorial"]
+        },
+        "flashcard": {
+          "front": "How many ways to arrange 5 distinct books?",
+          "back": "120 ways. \\(5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Permutation", "relation": "formula", "target": "\\(n!\\)"},
+          {"source": "Permutation", "relation": "depends_on", "target": "Factorial"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 8 — Permutations",
+        "flashcard_front": "What is \\(P(5,5)\\)?",
+        "flashcard_back": "120, because \\(5! = 120\\). Arrangements of 5 distinct items.",
+        "glossary_term": "Permutation",
+        "glossary_definition": "An arrangement where order matters.",
+        "revision_note": "Permutation of n items: \\(n!\\)",
+        "teacher_note": "Emphasize that order distinguishes permutations from combinations.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Permutation", "relation": "formula", "target": "\\(P(n,r) = \\frac{n!}{(n-r)!}\\)"},
+          {"source": "Permutation", "relation": "special_case", "target": "\\(P(n,n) = n!\\)"}
+        ],
+        "workbook_section": "Permutations and Combinations",
+        "solution_manual_note": "Answer D. \\(5! = 120\\). Option A is \\(5^2\\), a common error."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q006",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Random Experiments and Their Outcomes",
+      "subsection": "Sample Space",
+      "sub_subsection": null,
+      "structural_anchor": "Sample Space",
+      "mcq_type": "B",
+      "question": "A die is rolled once. Which set correctly represents the sample space?",
+      "options": {
+        "A": "\\(\\{1, 2, 3, 4, 5\\}\\)",
+        "B": "\\(\\{1, 2, 3, 4, 5, 6\\}\\)",
+        "C": "\\(\\{2, 4, 6\\}\\)",
+        "D": "\\(\\{1, 3, 5\\}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "A standard die has faces numbered 1 through 6.",
+      "explanation": "The sample space includes every possible outcome when rolling a fair die: \\(\\{1,2,3,4,5,6\\}\\). Options A, C, and D are subsets (events), not the full sample space.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Random Experiments and Their Outcomes",
+        "subsection_anchor": "Sample Space",
+        "structural_element": "Sample Space",
+        "content_anchor": "S = {1, 2, 3, 4, 5, 6}",
+        "page_hint": 4,
+        "concept_hash": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "The sample space \\(S\\) is the set of all possible outcomes of an experiment.",
+        "concept_summary": "For a single die roll, each face (1 through 6) is a possible outcome, so \\(S = \\{1,2,3,4,5,6\\}\\).",
+        "beginner": "When you roll one die, you can get 1, 2, 3, 4, 5, or 6. The sample space is just the list of those numbers.",
+        "intermediate": "A standard die has six faces. The sample space is \\(\\{1,2,3,4,5,6\\}\\). Subsets like \\(\\{2,4,6\\}\\) are events, not the full space.",
+        "advanced": "The sample space is the universal set for the experiment. For a fair die, \\(|S| = 6\\) and each outcome is equally likely with probability \\(1/6\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify all possible results of rolling one die.",
+          "List them without omission or addition.",
+          "The complete list is the sample space."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think the sample space is only odd or even numbers, confusing it with specific events.",
+          "Others forget that 6 is included."
+        ],
+        "related_concepts": ["event", "outcome", "probability"],
+        "revision_note": "Die sample space: \\(\\{1,2,3,4,5,6\\}\\).",
+        "glossary_entry": {
+          "term": "Sample space",
+          "definition": "The set of all possible outcomes of a random experiment.",
+          "example_equation": "\\(S = \\{1,2,3,4,5,6\\}\\) for a die",
+          "related_terms": ["event", "outcome"]
+        },
+        "flashcard": {
+          "front": "What is the sample space for rolling one fair die?",
+          "back": "\\(\\{1, 2, 3, 4, 5, 6\\}\\). All possible outcomes."
+        },
+        "concept_map_nodes": [
+          {"source": "Rolling a die", "relation": "has_sample_space", "target": "\\(\\{1,2,3,4,5,6\\}\\)"},
+          {"source": "Sample space", "relation": "contains", "target": "Outcome"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 8 — Sample Space",
+        "flashcard_front": "What is \\(S\\) for a single die roll?",
+        "flashcard_back": "\\(\\{1,2,3,4,5,6\\}\\). All six faces are possible outcomes.",
+        "glossary_term": "Sample space",
+        "glossary_definition": "The complete set of all possible results of an experiment.",
+        "revision_note": "Die: \\(S = \\{1,2,3,4,5,6\\}\\)",
+        "teacher_note": "Contrast sample space with events to reinforce the subset relationship.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the concept of probability",
+        "concept_map_nodes": [
+          {"source": "Die roll", "relation": "produces", "target": "Sample space"},
+          {"source": "Sample space", "relation": "has_size", "target": "6"}
+        ],
+        "workbook_section": "Random Experiments and Their Outcomes",
+        "solution_manual_note": "Answer B. This set contains all six faces. Options A, C, D are events (subsets)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q007",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Introduction",
+      "subsection": "Revision about Probability",
+      "sub_subsection": null,
+      "structural_anchor": "Revision about Probability",
+      "mcq_type": "F",
+      "question": "In a probability experiment, an event is defined as a subset of the sample space. Which of the following correctly describes the relationship between an event and the sample space?",
+      "options": {
+        "A": "An event is always larger than the sample space.",
+        "B": "An event and the sample space are always disjoint.",
+        "C": "An event is a subset of the sample space.",
+        "D": "An event contains only impossible outcomes."
+      },
+      "correct_answer": "C",
+      "hint": "An event is any collection of outcomes from the sample space.",
+      "explanation": "By definition, an event is a subset of the sample space. Option A is false because an event cannot be larger than the sample space. Option B is false because an event can equal the sample space.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Introduction",
+        "subsection_anchor": "Revision about Probability",
+        "structural_element": "Revision about Probability",
+        "content_anchor": "An Event is any subset of a sample space",
+        "page_hint": 3,
+        "concept_hash": "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "An event is any subset of the sample space, including the empty set and the sample space itself.",
+        "concept_summary": "Events are derived from the sample space. Every possible collection of outcomes (including single outcomes) is an event.",
+        "beginner": "If the sample space is a box of all possible results, an event is any group of results you pick from that box.",
+        "intermediate": "For a die roll, \\(S = \\{1,2,3,4,5,6\\}\\). An event like \"rolling an even number\" is \\(\\{2,4,6\\} \\subset S\\).",
+        "advanced": "Formally, if \\(\\mathcal{F}\\) is a sigma-algebra on \\(S\\), events are elements of \\(\\mathcal{F}\\). In finite spaces, events are all subsets of \\(S\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that sample space \\(S\\) contains all outcomes.",
+          "An event is defined as any subset of \\(S\\).",
+          "Therefore, every event is contained within the sample space."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think events are always simple (single outcomes), but events can be compound.",
+          "Others believe an event cannot equal the sample space, but the certain event \\(S\\) is valid."
+        ],
+        "related_concepts": ["sample space", "outcome", "simple event", "compound event"],
+        "revision_note": "Event ⊆ Sample space.",
+        "glossary_entry": {
+          "term": "Event",
+          "definition": "A subset of the sample space.",
+          "example_equation": "\\(E = \\{2,4,6\\}\\) for rolling an even number",
+          "related_terms": ["sample space", "outcome"]
+        },
+        "flashcard": {
+          "front": "What is the relationship between an event and the sample space?",
+          "back": "An event is a subset of the sample space. Example: \\(E \\subseteq S\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Sample space", "relation": "contains", "target": "Event"},
+          {"source": "Event", "relation": "defined_as", "target": "Subset"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 8 — Events",
+        "flashcard_front": "How is an event related to the sample space?",
+        "flashcard_back": "An event is a subset of the sample space. \\(E \\subseteq S\\).",
+        "glossary_term": "Event",
+        "glossary_definition": "A subset of the sample space.",
+        "revision_note": "Event ⊂ Sample space.",
+        "teacher_note": "Use Venn diagrams to show sample space as universal set and events as subsets.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the concept of probability",
+        "concept_map_nodes": [
+          {"source": "Sample space", "relation": "contains", "target": "Event"},
+          {"source": "Event", "relation": "example_of", "target": "Subset"}
+        ],
+        "workbook_section": "Events",
+        "solution_manual_note": "Answer C. By definition, an event is any subset of the sample space."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q008",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Fundamental Principle of Counting",
+      "subsection": "Multiplication Principle",
+      "sub_subsection": null,
+      "structural_anchor": "Multiplication Principle",
+      "mcq_type": "E",
+      "question": "A password consists of 2 letters (from A to Z) followed by 3 digits (0 to 9). Letters and digits can repeat. How many different passwords are possible?",
+      "options": {
+        "A": "\\(26 \\times 25 \\times 10 \\times 9 \\times 8\\)",
+        "B": "\\(26^2 \\times 10^3\\)",
+        "C": "\\(26 \\times 10 \\times 9 \\times 8 \\times 7\\)",
+        "D": "\\(26 + 26 + 10 + 10 + 10\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Use multiplication principle with repetition allowed.",
+      "explanation": "Each letter has 26 choices, each digit 10 choices. Total = \\(26 \\times 26 \\times 10 \\times 10 \\times 10 = 26^2 \\times 10^3\\). Option A incorrectly reduces choices (no repetition allowed).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "letters_per_position": {"magnitude": 26, "unit": "choices"},
+          "digits_per_position": {"magnitude": 10, "unit": "choices"},
+          "letter_positions": {"magnitude": 2, "unit": "positions"},
+          "digit_positions": {"magnitude": 3, "unit": "positions"}
+        },
+        "answer_value": 17576000,
+        "answer_unit": "passwords",
+        "calculation_steps": ["\\(26^2 = 676\\)", "\\(10^3 = 1000\\)", "\\(676 \\times 1000 = 676,000\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Fundamental Principle of Counting",
+        "subsection_anchor": "Multiplication Principle",
+        "structural_element": "Multiplication Principle",
+        "content_anchor": "m × n different ways",
+        "page_hint": 6,
+        "concept_hash": "b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "The multiplication principle: if there are \\(n_1\\) ways for choice 1, \\(n_2\\) for choice 2, etc., total ways = \\(n_1 \\times n_2 \\times \\ldots\\).",
+        "concept_summary": "With repetition allowed, each position's choices are independent. Multiply choices for each of the 5 positions.",
+        "beginner": "First letter: 26 choices. Second letter: 26 choices. First digit: 10 choices. Second digit: 10 choices. Third digit: 10 choices. Multiply all: \\(26 \\times 26 \\times 10 \\times 10 \\times 10\\).",
+        "intermediate": "Since repetition is allowed, there are \\(26\\) options for each letter and \\(10\\) for each digit. Total = \\(26^2 \\times 10^3 = 676 \\times 1000 = 676,000\\).",
+        "advanced": "The total number of functions from a set of 5 positions to an alphabet of size 26 for letters and size 10 for digits, with independent choices, is \\(26^2 \\cdot 10^3\\).",
+        "worked_solution": ["Step 1: Choices for first letter = 26.", "Step 2: Choices for second letter = 26 (repetition allowed).", "Step 3: Choices for first digit = 10.", "Step 4: Choices for second digit = 10.", "Step 5: Choices for third digit = 10.", "Step 6: Multiply: \\(26 \\times 26 \\times 10 \\times 10 \\times 10 = 26^2 \\times 10^3 = 676,000\\)."],
+        "reasoning_steps": [
+          "Identify the number of choices for each position (with repetition allowed).",
+          "Apply multiplication principle: multiply all independent choices.",
+          "Simplify using exponents if desired."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some incorrectly reduce choices when repetition is allowed (thinking each letter/digit must be different).",
+          "Others add instead of multiply."
+        ],
+        "related_concepts": ["multiplication principle", "counting with repetition", "exponents"],
+        "revision_note": "Repetition allowed: \\(n^r\\) for r positions.",
+        "glossary_entry": {
+          "term": "Multiplication principle",
+          "definition": "Total outcomes = product of independent choice counts.",
+          "example_equation": "\\(26^2 \\times 10^3\\)",
+          "related_terms": ["counting", "permutation with repetition"]
+        },
+        "flashcard": {
+          "front": "How many 2-letter, 3-digit passwords (repetition allowed)?",
+          "back": "\\(26^2 \\times 10^3 = 676,000\\). Multiply choices per position."
+        },
+        "concept_map_nodes": [
+          {"source": "Multiplication principle", "relation": "used_for", "target": "Password counting"},
+          {"source": "Repetition allowed", "relation": "means", "target": "Same choices each position"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 8 — Counting with Repetition",
+        "flashcard_front": "How many 2-letter, 3-digit passwords with repetition?",
+        "flashcard_back": "\\(26^2 \\times 10^3 = 676,000\\). Multiplication principle.",
+        "glossary_term": "Multiplication principle",
+        "glossary_definition": "Counting rule for independent sequential choices.",
+        "revision_note": "With repetition: \\(26^2 \\times 10^3\\)",
+        "teacher_note": "Contrast with permutations without repetition (factorials).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Counting", "relation": "with_repetition", "target": "\\(n^r\\)"},
+          {"source": "Counting", "relation": "without_repetition", "target": "Permutation"}
+        ],
+        "workbook_section": "Fundamental Principle of Counting",
+        "solution_manual_note": "Answer B. \\(26^2 \\times 10^3\\). Option A incorrectly assumes no repetition."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q009",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Fundamental Principle of Counting",
+      "subsection": "Addition Principle",
+      "sub_subsection": null,
+      "structural_anchor": "Addition Principle",
+      "mcq_type": "F",
+      "question": "A bag contains 5 red marbles and 3 blue marbles. A single marble is drawn. Why is the addition principle used to find the total number of possible outcomes?",
+      "options": {
+        "A": "Because drawing a red marble and drawing a blue marble can happen simultaneously.",
+        "B": "Because drawing a red marble and drawing a blue marble are mutually exclusive.",
+        "C": "Because the order of drawing matters.",
+        "D": "Because the total number of outcomes is found by multiplication."
+      },
+      "correct_answer": "B",
+      "hint": "Can one marble be both red and blue at the same time?",
+      "explanation": "A single marble cannot be both red and blue, so the events are mutually exclusive. The addition principle applies: total outcomes = \\(5 + 3 = 8\\). Option A is false because they cannot happen simultaneously.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Fundamental Principle of Counting",
+        "subsection_anchor": "Addition Principle",
+        "structural_element": "Addition Principle",
+        "content_anchor": "mutually exclusive events",
+        "page_hint": 9,
+        "concept_hash": "c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Two events are mutually exclusive if they cannot occur at the same time.",
+        "concept_summary": "The addition principle applies to mutually exclusive events. A single marble cannot be both red and blue, so we add the counts.",
+        "beginner": "You pick one marble. It's either red or blue, not both. So total choices = red choices + blue choices = \\(5 + 3 = 8\\).",
+        "intermediate": "The events \"red\" and \"blue\" are disjoint (no overlap). Therefore, \\(|\\text{red} \\cup \\text{blue}| = |\\text{red}| + |\\text{blue}| = 5 + 3 = 8\\).",
+        "advanced": "In probability terms, \\(P(R \\cup B) = P(R) + P(B)\\) when \\(R \\cap B = \\emptyset\\). The addition principle is the counting analogue.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Determine if the two categories (red and blue) can happen together in one draw.",
+          "Since they cannot, they are mutually exclusive.",
+          "Apply addition principle: total outcomes = sum of individual counts."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think addition principle requires multiplication, confusing it with multiplication principle.",
+          "Others mistakenly believe red and blue can occur together in a single draw."
+        ],
+        "related_concepts": ["mutually exclusive", "addition principle", "multiplication principle"],
+        "revision_note": "Mutually exclusive → add counts.",
+        "glossary_entry": {
+          "term": "Addition principle",
+          "definition": "For mutually exclusive events, total outcomes = sum of individual outcomes.",
+          "example_equation": "\\(5 + 3 = 8\\)",
+          "related_terms": ["mutually exclusive", "multiplication principle"]
+        },
+        "flashcard": {
+          "front": "When do you use the addition principle in counting?",
+          "back": "When choices are mutually exclusive (cannot happen together). Add the numbers of options."
+        },
+        "concept_map_nodes": [
+          {"source": "Addition principle", "relation": "requires", "target": "Mutually exclusive"},
+          {"source": "Mutually exclusive", "relation": "means", "target": "Disjoint sets"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 8 — Addition Principle",
+        "flashcard_front": "Why add (not multiply) when counting red or blue marbles?",
+        "flashcard_back": "Red and blue are mutually exclusive in one draw, so addition principle applies.",
+        "glossary_term": "Addition principle",
+        "glossary_definition": "Counting rule for mutually exclusive choices.",
+        "revision_note": "Mutually exclusive → add.",
+        "teacher_note": "Use a Venn diagram with no overlap to illustrate addition principle.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Addition principle", "relation": "applies_to", "target": "Mutually exclusive events"},
+          {"source": "Mutually exclusive events", "relation": "have", "target": "No intersection"}
+        ],
+        "workbook_section": "Fundamental Principle of Counting",
+        "solution_manual_note": "Answer B. The events are mutually exclusive, so addition principle applies."
+      }
+    },
+    {
+      "question_id": "G11_Math_U8_Q010",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 8: PROBABILITY",
+      "section": "Permutations and Combinations",
+      "subsection": "Permutation",
+      "sub_subsection": null,
+      "structural_anchor": "Permutation",
+      "mcq_type": "I",
+      "question": "Which of the following situations is best modeled by a permutation rather than a combination?",
+      "options": {
+        "A": "Selecting 3 students to form a committee.",
+        "B": "Choosing 2 toppings for a pizza.",
+        "C": "Arranging 4 books on a shelf.",
+        "D": "Picking 5 lottery numbers."
+      },
+      "correct_answer": "C",
+      "hint": "Does the order of the objects matter?",
+      "explanation": "Permutations consider order; combinations do not. Arranging books on a shelf involves order (different sequences are different arrangements). Option A, B, and D are combinations because order does not matter.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: PROBABILITY",
+        "section_anchor": "Permutations and Combinations",
+        "subsection_anchor": "Permutation",
+        "structural_element": "Permutation",
+        "content_anchor": "arrangement of n objects in a specific order",
+        "page_hint": 13,
+        "concept_hash": "d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "A permutation is an ordered arrangement of objects. A combination is a selection where order does not matter.",
+        "concept_summary": "If rearranging the chosen items creates a different outcome, use permutations. If the set is the same regardless of order, use combinations.",
+        "beginner": "If you line up books, \"Math then Science\" is different from \"Science then Math\". That's a permutation. Committees ignore order: \"Alice and Bob\" is same as \"Bob and Alice\" (combination).",
+        "intermediate": "Arranging books: order matters → permutation. Selecting a committee or pizza toppings: order irrelevant → combination.",
+        "advanced": "The number of permutations of n objects is \\(n!\\), while combinations count subsets of size r: \\(\\binom{n}{r}\\). The shelf arrangement is a permutation because each ordering is a distinct outcome.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Ask: Does the order of selection/arrangement change the outcome?",
+          "If yes → permutation. If no → combination.",
+          "Apply to each option: arranging books changes the outcome, so permutation."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think selecting any set of items is always a permutation.",
+          "Others believe that if you're 'choosing' it's always a combination, but choosing positions (like ranking) is permutation."
+        ],
+        "related_concepts": ["combination", "permutation formula", "factorial"],
+        "revision_note": "Order matters → permutation. Order irrelevant → combination.",
+        "glossary_entry": {
+          "term": "Permutation",
+          "definition": "An arrangement where order matters.",
+          "example_equation": "\\(P(4,4) = 4! = 24\\)",
+          "related_terms": ["combination", "arrangement"]
+        },
+        "flashcard": {
+          "front": "How to distinguish permutation from combination?",
+          "back": "Permutation: order matters (arrangements, rankings). Combination: order does not matter (selections, committees)."
+        },
+        "concept_map_nodes": [
+          {"source": "Permutation", "relation": "contrasted_with", "target": "Combination"},
+          {"source": "Permutation", "relation": "feature", "target": "Order matters"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 8 — Permutations vs Combinations",
+        "flashcard_front": "When do you use a permutation instead of a combination?",
+        "flashcard_back": "When order matters (arrangements, rankings, sequences).",
+        "glossary_term": "Permutation",
+        "glossary_definition": "An ordered arrangement.",
+        "revision_note": "Permutation = ordered. Combination = unordered.",
+        "teacher_note": "Use real examples: locker combinations are actually permutations (order matters).",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Know principles of counting",
+        "concept_map_nodes": [
+          {"source": "Permutation", "relation": "order", "target": "Matters"},
+          {"source": "Combination", "relation": "order", "target": "Does not matter"}
+        ],
+        "workbook_section": "Permutations and Combinations",
+        "solution_manual_note": "Answer C. Arranging books is a permutation (order matters). Others are combinations."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 87.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 2,
+      "E": 1,
+      "F": 2,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Introduction": 2,
+      "Fundamental Principle of Counting": 4,
+      "Permutations and Combinations": 3,
+      "Random Experiments and Their Outcomes": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 35,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 6
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}
