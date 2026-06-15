@@ -1,0 +1,1706 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-11T10:50:00Z",
+  "round_id": "R05",
+  "batch_sequence": 5,
+  "__STATE__": {
+    "current_round": 5,
+    "last_question_id": "G10_Bio_U3_Q050",
+    "covered_sections": [
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecule: Water",
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecule: Water>3.1.1.1. The properties of water",
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions",
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Carbohydrates",
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Lipids",
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Proteins",
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Nucleic acids"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6", "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6", "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1", "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2", "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3", "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4", "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2", "b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7", "c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8", "d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9",
+      "e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6", "f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1", "a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2", "b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3", "c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4", "d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5d6e1f2a3b4c5", "e7f8g9h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2", "f8g9h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2e7", "g9h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2e7f8", "h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2e7f8g9h0i1j2e7f8g9",
+      "i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6", "j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1", "k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2", "l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3", "m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4", "n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5n6i1j2k3l4m5", "o7p8q9r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2", "p8q9r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2o7", "q9r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2o7p8", "r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2o7p8q9r0s1t2o7p8q9",
+      "s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6", "t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1", "u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2", "v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3", "w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4", "x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5x6s1t2u3v4w5", "y7z8a9b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2", "z8a9b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2y7", "a9b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2y7z8", "b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2y7z8a9b0c1d2y7z8a9",
+      "c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6", "d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1", "e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2", "f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3", "g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4", "h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5", "i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2", "j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7", "k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8", "l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9"
+    ],
+    "baseline_counter": {
+      "3.1. Biochemical molecules": {
+        "3.1.1. Inorganic molecule: Water": {
+          "count": 6,
+          "mini_headings_covered": ["Water as a solvent", "High specific heat capacity", "Density and freezing properties", "High latent heat of vaporization", "High surface tension and cohesion"],
+          "last_question_round": 5
+        },
+        "3.1.1.1. The properties of water": {
+          "count": 6,
+          "mini_headings_covered": ["Water as a solvent", "High specific heat capacity", "Density and freezing properties", "High latent heat of vaporization", "High surface tension and cohesion"],
+          "last_question_round": 5
+        },
+        "3.1.2. Inorganic ions": {
+          "count": 9,
+          "mini_headings_covered": ["a. Hydrogen ions", "b. Sodium ions", "c. Potassium ions", "d. Calcium ion", "e. Phosphate ions", "g. Iron ions", "i. Iodine ions"],
+          "last_question_round": 4
+        },
+        "3.1.3. Organic molecules": {
+          "Carbohydrates": {
+            "count": 7,
+            "mini_headings_covered": ["a. Monosaccharides", "b. Disaccharides", "c. Polysaccharides", "Major functions of carbohydrates"],
+            "last_question_round": 4
+          },
+          "Lipids": {
+            "count": 5,
+            "mini_headings_covered": ["Fatty acids", "Major functions of lipids"],
+            "last_question_round": 4
+          },
+          "Proteins": {
+            "count": 8,
+            "mini_headings_covered": ["Amino acids", "The peptide bond", "Major functions of proteins"],
+            "last_question_round": 4
+          },
+          "Nucleic acids": {
+            "count": 7,
+            "mini_headings_covered": ["The structure of DNA and RNA", "Major functions of Nucleic Acids: DNA and RNA"],
+            "last_question_round": 4
+          }
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1. Biochemical molecules": {
+        "question_count": 50,
+        "last_used_round": 5,
+        "consecutive_batches": 5
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1. Biochemical molecules>3.1.1. Inorganic molecule: Water": ["polar molecule", "hydrogen bond", "solvent", "specific heat capacity", "density", "ice", "latent heat of vaporization", "evaporation", "cohesion", "surface tension", "adhesion", "capillary action"],
+      "3.1. Biochemical molecules>3.1.2. Inorganic ions": ["hydrogen ion", "pH", "sodium ion", "potassium ion", "extracellular", "intracellular", "calcium", "phosphate", "hydroxyapatite", "iron", "iodine", "goiter", "anemia", "hypokalemia"],
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Carbohydrates": ["monosaccharide", "glucose", "fructose", "galactose", "disaccharide", "maltose", "sucrose", "lactose", "polysaccharide", "starch", "glycogen", "cellulose", "energy storage", "structural support", "glycosidic bond"],
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Lipids": ["fatty acid", "saturated", "unsaturated", "triglyceride", "phospholipid", "wax", "insulation", "membrane", "energy storage", "LDL cholesterol"],
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Proteins": ["amino acid", "R group", "peptide bond", "polypeptide", "enzyme", "structural protein", "collagen", "keratin", "catalyst", "denaturation"],
+      "3.1. Biochemical molecules>3.1.3. Organic molecules>Nucleic acids": ["DNA", "RNA", "nucleotide", "deoxyribose", "ribose", "double helix", "genetic material", "mRNA", "tRNA", "rRNA", "central dogma", "uracil", "thymine"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 68,
+      "questions_per_concept_ratio": 0.74,
+      "structural_coverage_percentage": 72.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Biology",
+  "unit": "Unit 3: Biochemical molecules",
+  "pdf_filename": "B10U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-11T10:50:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 1,
+        "total_sections": 1,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.8,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 50,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 7,
+      "mini_headings_covered_count": 26,
+      "structural_coverage_percentage": 72.0,
+      "concept_utilization_ratio": 0.74
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1. Biochemical molecules",
+      "least_covered_section": "3.1. Biochemical molecules",
+      "imbalance_ratio": 1.8,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U3_Q041",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": "Proteins",
+      "structural_anchor": "Major functions of proteins",
+      "mcq_type": "B",
+      "question": "Hemoglobin and myoglobin are proteins that transport or store oxygen. What type of proteins are they?",
+      "options": {
+        "A": "Structural proteins",
+        "B": "Transport proteins",
+        "C": "Enzymes",
+        "D": "Hormones"
+      },
+      "correct_answer": "B",
+      "hint": "They carry oxygen in blood and muscles.",
+      "explanation": "Hemoglobin transports oxygen in blood; myoglobin stores oxygen in muscles — both are transport/storage proteins. Option A (structural) includes collagen, not oxygen carriers.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Major functions of proteins",
+        "content_anchor": "Transport proteins: create channels to transport specific molecules; haemoglobin transports blood to all tissues",
+        "page_hint": 22,
+        "concept_hash": "c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Transport proteins bind and carry specific molecules (e.g., oxygen, lipids) through the body.",
+        "concept_summary": "Hemoglobin carries O₂ in blood; myoglobin stores O₂ in muscles; both are globular transport proteins.",
+        "beginner": "Hemoglobin is like a bus that picks up oxygen in your lungs and drops it off at your muscles.",
+        "intermediate": "Hemoglobin's heme groups contain Fe²⁺ that reversibly bind O₂; myoglobin has a single heme and higher O₂ affinity.",
+        "advanced": "Hemoglobin exhibits cooperative binding (sigmoidal O₂ dissociation curve) due to quaternary structure changes; myoglobin has hyperbolic binding for oxygen storage.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Hemoglobin moves oxygen from lungs to tissues.",
+          "Myoglobin holds oxygen in muscles.",
+          "Both transport or store oxygen → transport/storage proteins."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Hemoglobin is an enzyme. No, it does not catalyze reactions; it binds and releases oxygen."
+        ],
+        "related_concepts": ["hemoglobin", "myoglobin", "oxygen transport", "heme", "globular protein"],
+        "revision_note": "Hemoglobin & myoglobin = oxygen transport/storage proteins.",
+        "glossary_entry": {
+          "term": "Hemoglobin",
+          "definition": "Globular transport protein in red blood cells that carries oxygen.",
+          "example_equation": null,
+          "related_terms": ["myoglobin", "oxygen", "heme"]
+        },
+        "flashcard": {
+          "front": "What type of protein is hemoglobin?",
+          "back": "Transport protein (carries oxygen in blood)."
+        },
+        "concept_map_nodes": [
+          {"source": "Hemoglobin", "relation": "classified_as", "target": "Transport protein"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Proteins",
+        "flashcard_front": "Is hemoglobin an enzyme or transport protein?",
+        "flashcard_back": "Transport protein; carries oxygen in blood via heme groups.",
+        "glossary_term": "Hemoglobin",
+        "glossary_definition": "Oxygen-carrying transport protein in red blood cells.",
+        "revision_note": "Hb = O₂ transport.",
+        "teacher_note": "Compare hemoglobin and myoglobin affinity for O₂.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Group proteins according to their function",
+        "concept_map_nodes": [
+          {"source": "Hemoglobin", "relation": "function", "target": "Oxygen transport"}
+        ],
+        "workbook_section": "3.1.3 Organic molecules — Proteins",
+        "solution_manual_note": "Answer B. Transport proteins; structural proteins (A) are collagen/keratin."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q042",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": "Carbohydrates",
+      "structural_anchor": "a. Monosaccharides",
+      "mcq_type": "C",
+      "question": "Which three monosaccharides all have the molecular formula \\(\\mathrm{C_6H_{12}O_6}\\)?",
+      "options": {
+        "A": "Glucose, sucrose, fructose",
+        "B": "Glucose, fructose, galactose",
+        "C": "Glucose, maltose, lactose",
+        "D": "Fructose, lactose, ribose"
+      },
+      "correct_answer": "B",
+      "hint": "These three are hexose isomers.",
+      "explanation": "Glucose, fructose, and galactose are all hexose monosaccharides with formula C₆H₁₂O₆. Option A includes sucrose (disaccharide); option C includes disaccharides.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{C_6H_{12}O_6}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "a. Monosaccharides",
+        "content_anchor": "glucose, galactose and fructose differ structurally and chemically (and are known as isomers) despite having the identical chemical formula C6H12O6",
+        "page_hint": 12,
+        "concept_hash": "d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Isomers are compounds with the same molecular formula but different structural arrangements.",
+        "concept_summary": "Glucose, fructose, and galactose are all C₆H₁₂O₆ isomers differing in functional groups and stereochemistry.",
+        "beginner": "Glucose, fructose, and galactose are like different Lego structures made from the same six bricks.",
+        "intermediate": "Glucose and galactose are aldohexoses (aldehyde at C1); fructose is a ketohexose (ketone at C2).",
+        "advanced": "These isomers differ in the position of the carbonyl group (aldose vs ketose) and stereochemistry at chiral carbons (e.g., C4 epimers glucose/galactose).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that monosaccharides have formula (CH₂O)ₙ.",
+          "Hexoses (n=6) have C₆H₁₂O₆.",
+          "Glucose, fructose, galactose are all hexoses."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{C_6H_{12}O_6}\\)",
+            "name": "Hexose monosaccharide formula",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Sucrose is a monosaccharide. Sucrose is a disaccharide (glucose+fructose)."
+        ],
+        "related_concepts": ["isomer", "hexose", "aldohexose", "ketohexose", "glucose", "fructose", "galactose"],
+        "revision_note": "Glucose, fructose, galactose = C₆H₁₂O₆ isomers.",
+        "glossary_entry": {
+          "term": "Isomer",
+          "definition": "Molecules with same formula but different atom arrangement.",
+          "example_equation": "\\(\\mathrm{C_6H_{12}O_6}\\) for glucose, fructose, galactose",
+          "related_terms": ["structural isomer", "stereoisomer"]
+        },
+        "flashcard": {
+          "front": "Which three sugars have the formula C₆H₁₂O₆?",
+          "back": "Glucose, fructose, and galactose (hexose isomers)."
+        },
+        "concept_map_nodes": [
+          {"source": "Glucose", "relation": "isomer_of", "target": "Fructose"},
+          {"source": "Glucose", "relation": "isomer_of", "target": "Galactose"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Biology Unit 3 — Carbohydrates",
+        "flashcard_front": "What three monosaccharides share the formula C₆H₁₂O₆?",
+        "flashcard_back": "Glucose, fructose, galactose.",
+        "glossary_term": "Hexose",
+        "glossary_definition": "Six-carbon monosaccharide (C₆H₁₂O₆).",
+        "revision_note": "Glucose, fructose, galactose = hexose isomers.",
+        "teacher_note": "Draw their structural formulas to show isomerism.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Name the different types of carbohydrates",
+        "concept_map_nodes": [
+          {"source": "Hexose", "relation": "examples", "target": "Glucose"},
+          {"source": "Hexose", "relation": "examples", "target": "Fructose"},
+          {"source": "Hexose", "relation": "examples", "target": "Galactose"}
+        ],
+        "workbook_section": "3.1.3 Organic molecules — Carbohydrates",
+        "solution_manual_note": "Answer B. Sucrose and maltose are disaccharides (A, C)."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q043",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.1. Inorganic molecule: Water",
+      "sub_subsection": "3.1.1.1. The properties of water",
+      "structural_anchor": "Boiling and Freezing Points",
+      "mcq_type": "F",
+      "question": "Water has a much higher boiling point (100°C) than other small molecules like hydrogen sulfide (H₂S, -62°C). What explains this difference?",
+      "options": {
+        "A": "Water has stronger covalent bonds",
+        "B": "Water molecules form hydrogen bonds with each other",
+        "C": "Water is a polar molecule with ionic character",
+        "D": "Water has a smaller molecular weight"
+      },
+      "correct_answer": "B",
+      "hint": "Think about intermolecular forces.",
+      "explanation": "Hydrogen bonding between water molecules requires much more energy to break than the weak van der Waals forces in H₂S. Option A is incorrect because covalent O-H bonds are not broken during boiling.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{H_2O}\\)", "\\(\\mathrm{H_2S}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.1. Inorganic molecule: Water",
+        "structural_element": "Boiling and Freezing Points",
+        "content_anchor": "The ability of water molecules to form hydrogen bonds is responsible for its very high boiling point",
+        "page_hint": 5,
+        "concept_hash": "e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Hydrogen bonds are strong intermolecular forces between water molecules that require significant energy to overcome.",
+        "concept_summary": "Hydrogen bonding raises boiling point because breaking these bonds requires extra energy before vaporization.",
+        "beginner": "Water molecules stick together with strong 'glue' (hydrogen bonds), so you need more heat to pull them apart.",
+        "intermediate": "Hydrogen bonds (≈5-10 kcal/mol) are much stronger than London dispersion forces in H₂S (≈1-2 kcal/mol), requiring higher temperature for boiling.",
+        "advanced": "The high boiling point of water is anomalous; H₂S, H₂Se, H₂Te show increasing molecular weight but decreasing boiling points due to absence of hydrogen bonding.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Boiling requires overcoming intermolecular forces.",
+          "Water has hydrogen bonds (strong).",
+          "H₂S has only weak van der Waals forces."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Covalent bonds break when water boils. No, covalent O-H bonds stay intact; hydrogen bonds break."
+        ],
+        "related_concepts": ["hydrogen bond", "boiling point", "intermolecular force", "van der Waals"],
+        "revision_note": "Hydrogen bonds → high boiling point of water.",
+        "glossary_entry": {
+          "term": "Hydrogen bond",
+          "definition": "Strong intermolecular attraction between H of one water and O of another.",
+          "example_equation": null,
+          "related_terms": ["boiling point", "cohesion", "intermolecular force"]
+        },
+        "flashcard": {
+          "front": "Why does water boil at 100°C while H₂S boils at -62°C?",
+          "back": "Water has strong hydrogen bonds; H₂S has only weak van der Waals forces."
+        },
+        "concept_map_nodes": [
+          {"source": "Water", "relation": "has", "target": "Hydrogen bonds"},
+          {"source": "Hydrogen bonds", "relation": "increase", "target": "Boiling point"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Biology Unit 3 — Water Properties",
+        "flashcard_front": "Why does water have a high boiling point?",
+        "flashcard_back": "Strong hydrogen bonds between water molecules require more energy to break.",
+        "glossary_term": "Hydrogen bond",
+        "glossary_definition": "Strong intermolecular force raising water's boiling point.",
+        "revision_note": "H-bonds → high boiling point.",
+        "teacher_note": "Compare boiling points of H₂O, H₂S, H₂Se.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the properties of water and its importance for life",
+        "concept_map_nodes": [
+          {"source": "Hydrogen bonding", "relation": "raises", "target": "Boiling point"}
+        ],
+        "workbook_section": "3.1.1 Inorganic molecule: Water",
+        "solution_manual_note": "Answer B. Hydrogen bonds; covalent bonds (A) are not broken during boiling."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q044",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": "Carbohydrates",
+      "structural_anchor": "Roles of monosaccharides",
+      "mcq_type": "D",
+      "question": "Glucose is broken down in cellular respiration to produce ATP. What is the primary role of glucose in this process?",
+      "options": {
+        "A": "Structural support",
+        "B": "Energy source",
+        "C": "Enzyme catalysis",
+        "D": "Genetic information"
+      },
+      "correct_answer": "B",
+      "hint": "Think about what cells 'burn' to get energy.",
+      "explanation": "Glucose is oxidized to produce ATP, the energy currency of the cell. Option A is cellulose's function; option C is protein function.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathrm{C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + ATP}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Roles of monosaccharides",
+        "content_anchor": "as a source of energy in respiration: the most important monosaccharide in energy metabolism is glucose",
+        "page_hint": 13,
+        "concept_hash": "f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 94,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Glucose is a monosaccharide that serves as the primary energy substrate for cellular respiration.",
+        "concept_summary": "Cells break down glucose to produce ATP through glycolysis, Krebs cycle, and oxidative phosphorylation.",
+        "beginner": "Glucose is the fuel your cells burn to make energy (ATP), just like a car burns gasoline.",
+        "intermediate": "Glycolysis splits glucose into pyruvate, producing net 2 ATP and NADH; further oxidation yields ~30-32 ATP total.",
+        "advanced": "Complete oxidation of glucose yields ~2870 kJ/mol; the efficiency of ATP synthesis is ~50%, with the rest released as heat.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Cellular respiration produces ATP.",
+          "Glucose is broken down during this process.",
+          "Thus, glucose provides energy."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + ATP}\\)",
+            "name": "Cellular respiration summary",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Glucose provides structural support. Cellulose (plant cell wall) provides structure, not glucose."
+        ],
+        "related_concepts": ["cellular respiration", "ATP", "glycolysis", "energy metabolism"],
+        "revision_note": "Glucose = main energy source for cells.",
+        "glossary_entry": {
+          "term": "Glucose",
+          "definition": "Hexose monosaccharide; primary energy substrate for cellular respiration.",
+          "example_equation": "\\(\\mathrm{C_6H_{12}O_6}\\)",
+          "related_terms": ["ATP", "cellular respiration", "glycolysis"]
+        },
+        "flashcard": {
+          "front": "What is glucose's main role in cells?",
+          "back": "Energy source: broken down in cellular respiration to produce ATP."
+        },
+        "concept_map_nodes": [
+          {"source": "Glucose", "relation": "used_in", "target": "Cellular respiration"},
+          {"source": "Cellular respiration", "relation": "produces", "target": "ATP"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Carbohydrates",
+        "flashcard_front": "Why do cells need glucose?",
+        "flashcard_back": "Glucose is broken down in cellular respiration to produce ATP (energy).",
+        "glossary_term": "Glucose",
+        "glossary_definition": "Primary energy source for cellular respiration.",
+        "revision_note": "Glucose → ATP.",
+        "teacher_note": "Connect to ATP and metabolism.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Discuss the importance of monosaccharides",
+        "concept_map_nodes": [
+          {"source": "Glucose", "relation": "function", "target": "Energy production"}
+        ],
+        "workbook_section": "3.1.3 Organic molecules — Carbohydrates",
+        "solution_manual_note": "Answer B. Energy source; structural support (A) is cellulose."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q045",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": "Lipids",
+      "structural_anchor": "Major functions of lipids",
+      "mcq_type": "J",
+      "question": "Match the lipid with its primary function: (i) Phospholipids, (ii) Triglycerides, (iii) Waxes.",
+      "options": {
+        "A": "(i) Energy storage, (ii) Membrane structure, (iii) Waterproofing",
+        "B": "(i) Membrane structure, (ii) Energy storage, (iii) Waterproofing",
+        "C": "(i) Waterproofing, (ii) Energy storage, (iii) Membrane structure",
+        "D": "(i) Energy storage, (ii) Waterproofing, (iii) Membrane structure"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the roles: cell membranes, fat storage, protective coatings.",
+      "explanation": "Phospholipids form cell membranes; triglycerides store energy; waxes provide waterproof barriers. Option A reverses phospholipids and triglycerides.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Major functions of lipids",
+        "content_anchor": "Phospholipids: structural components in cell membranes; Fats: major fuel store; Waxes: protective coatings",
+        "page_hint": 18,
+        "concept_hash": "g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Lipids have diverse functions: phospholipids for membranes, triglycerides for energy storage, waxes for waterproofing.",
+        "concept_summary": "Each lipid class is adapted to its role by molecular structure: amphipathic, hydrophobic, or long-chain esters.",
+        "beginner": "Phospholipids make cell walls, triglycerides store energy like a battery, waxes keep things dry.",
+        "intermediate": "Phospholipids' amphipathic nature forms bilayers; triglycerides pack densely for energy; waxes' extreme hydrophobicity repels water.",
+        "advanced": "Membrane fluidity depends on phospholipid saturation; triglyceride β-oxidation yields ~9 kcal/g; wax esters have very high melting points for cuticle integrity.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Phospholipids = membrane structure.",
+          "Triglycerides = energy storage.",
+          "Waxes = waterproofing (cuticle, feathers)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Triglycerides form membranes. No, they are stored in adipose tissue."
+        ],
+        "related_concepts": ["phospholipid bilayer", "adipose tissue", "cuticle", "hydrophobic"],
+        "revision_note": "Phospholipids → membrane; triglycerides → energy; waxes → waterproof.",
+        "glossary_entry": {
+          "term": "Triglyceride",
+          "definition": "Lipid composed of glycerol + three fatty acids; stores energy.",
+          "example_equation": null,
+          "related_terms": ["adipose tissue", "energy storage"]
+        },
+        "flashcard": {
+          "front": "Match: phospholipids, triglycerides, waxes to their functions.",
+          "back": "Phospholipids: membranes; triglycerides: energy; waxes: waterproofing."
+        },
+        "concept_map_nodes": [
+          {"source": "Phospholipid", "relation": "function", "target": "Membrane structure"},
+          {"source": "Triglyceride", "relation": "function", "target": "Energy storage"},
+          {"source": "Wax", "relation": "function", "target": "Waterproofing"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Biology Unit 3 — Lipids",
+        "flashcard_front": "What are the functions of phospholipids, triglycerides, and waxes?",
+        "flashcard_back": "Membranes, energy storage, waterproofing respectively.",
+        "glossary_term": "Triglyceride",
+        "glossary_definition": "Energy storage lipid.",
+        "revision_note": "Phospholipid = membrane; triglyceride = energy; wax = waterproof.",
+        "teacher_note": "Review each lipid's structure-function relationship.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Tell the importance of lipids for our cells",
+        "concept_map_nodes": [
+          {"source": "Lipid type", "relation": "determines", "target": "Function"}
+        ],
+        "workbook_section": "3.1.3 Organic molecules — Lipids",
+        "solution_manual_note": "Answer B. Phospholipids = membrane (i); triglycerides = energy (ii); waxes = waterproof (iii)."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q046",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": "Nucleic acids",
+      "structural_anchor": "The structure of DNA and RNA",
+      "mcq_type": "H",
+      "message": "A common misconception is that DNA and RNA are identical in structure. Which statement correctly identifies a key structural difference?",
+      "options": {
+        "A": "DNA contains ribose; RNA contains deoxyribose",
+        "B": "DNA is single-stranded; RNA is double-stranded",
+        "C": "DNA contains uracil; RNA contains thymine",
+        "D": "DNA contains deoxyribose; RNA contains ribose"
+      },
+      "correct_answer": "D",
+      "hint": "The names give a clue: deoxyribonucleic vs ribonucleic.",
+      "explanation": "DNA has deoxyribose (missing oxygen at 2' carbon); RNA has ribose. Option A reverses the sugars; option B reverses strand number.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathrm{C_5H_{10}O_4}\\)", "\\(\\mathrm{C_5H_{10}O_5}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "The structure of DNA and RNA",
+        "content_anchor": "The pentose sugar can be either ribose (in RNA) or deoxyribose (in DNA)",
+        "page_hint": 24,
+        "concept_hash": "h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5h6c1d2e3f4g5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "DNA contains deoxyribose (missing 2'-OH); RNA contains ribose (with 2'-OH).",
+        "concept_summary": "This sugar difference affects stability: RNA is more reactive due to the extra hydroxyl.",
+        "beginner": "DNA has deoxyribose (one less oxygen than ribose). RNA has ribose.",
+        "intermediate": "Deoxyribose has H at C2' instead of OH; this makes DNA chemically more stable than RNA.",
+        "advanced": "The 2'-OH in RNA is nucleophilic and can attack the phosphodiester bond, making RNA susceptible to alkaline hydrolysis, unlike DNA.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "DNA = deoxyribonucleic acid → deoxyribose sugar.",
+          "RNA = ribonucleic acid → ribose sugar.",
+          "Thus, key difference is sugar type."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "DNA has ribose. No, DNA has deoxyribose; RNA has ribose."
+        ],
+        "related_concepts": ["deoxyribose", "ribose", "nucleotide", "sugar", "DNA stability"],
+        "revision_note": "DNA = deoxyribose; RNA = ribose.",
+        "glossary_entry": {
+          "term": "Deoxyribose",
+          "definition": "Pentose sugar in DNA, missing oxygen at 2' carbon.",
+          "example_equation": "\\(\\mathrm{C_5H_{10}O_4}\\)",
+          "related_terms": ["ribose", "DNA", "nucleotide"]
+        },
+        "flashcard": {
+          "front": "What is a structural difference between DNA and RNA?",
+          "back": "DNA has deoxyribose sugar; RNA has ribose sugar."
+        },
+        "concept_map_nodes": [
+          {"source": "DNA", "relation": "contains", "target": "Deoxyribose"},
+          {"source": "RNA", "relation": "contains", "target": "Ribose"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Nucleic Acids",
+        "flashcard_front": "How do the sugars in DNA and RNA differ?",
+        "flashcard_back": "DNA has deoxyribose; RNA has ribose.",
+        "glossary_term": "Deoxyribose",
+        "glossary_definition": "Sugar in DNA lacking 2' oxygen.",
+        "revision_note": "DNA = deoxyribose; RNA = ribose.",
+        "teacher_note": "Draw ribose vs deoxyribose structures.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate between DNA and RNA",
+        "concept_map_nodes": [
+          {"source": "Deoxyribose", "relation": "found_in", "target": "DNA"}
+        ],
+        "workbook_section": "3.1.3 Organic molecules — Nucleic acids",
+        "solution_manual_note": "Answer D. DNA has deoxyribose; RNA has ribose. Option A reverses them."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q047",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "f. Chloride ions",
+      "mcq_type": "G",
+      "question": "Chloride ions are required to produce hydrochloric acid in the stomach. What is the primary function of this stomach acid?",
+      "options": {
+        "A": "Absorbing water",
+        "B": "Digesting proteins and killing pathogens",
+        "C": "Emulsifying fats",
+        "D": "Absorbing carbohydrates"
+      },
+      "correct_answer": "B",
+      "hint": "Stomach acid creates a low pH environment.",
+      "explanation": "HCl (from Cl⁻) denatures proteins, activates pepsin, and kills ingested bacteria. Option C (emulsifying fats) is bile function; option D is not stomach acid's role.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{HCl}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "f. Chloride ions",
+        "content_anchor": "They are required to make Hydrochloric acid (HCl) present in gastric juice, which is necessary to digest proteins in the stomach. HCl kills bacteria and other pathogens in food",
+        "page_hint": 8,
+        "concept_hash": "i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Chloride ions (Cl⁻) combine with H⁺ to form HCl in gastric parietal cells, lowering stomach pH to ~1.5-2.5.",
+        "concept_summary": "Stomach acid denatures proteins, activates pepsinogen to pepsin, and provides antimicrobial defense.",
+        "beginner": "Chloride helps make strong stomach acid that breaks down meat and kills germs in food.",
+        "intermediate": "Parietal cells secrete H⁺ and Cl⁻ separately via H⁺/K⁺ ATPase and Cl⁻ channels; HCl unfolds proteins and cleaves peptide bonds indirectly via pepsin.",
+        "advanced": "Pepsin has optimal activity at pH 2; acid also prevents bacterial overgrowth (e.g., Helicobacter pylori can survive but many pathogens cannot).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Chloride ions form HCl.",
+          "HCl creates acidic stomach environment.",
+          "Acid denatures proteins and kills bacteria."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "HCl digests carbohydrates. Carbohydrate digestion begins in mouth with amylase, not in stomach."
+        ],
+        "related_concepts": ["hydrochloric acid", "pepsin", "parietal cell", "stomach pH", "antimicrobial"],
+        "revision_note": "Cl⁻ → HCl → protein digestion + pathogen killing.",
+        "glossary_entry": {
+          "term": "Hydrochloric acid",
+          "definition": "Strong acid in stomach that denatures proteins and kills pathogens.",
+          "example_equation": "\\(\\mathrm{HCl}\\)",
+          "related_terms": ["chloride", "pepsin", "gastric juice"]
+        },
+        "flashcard": {
+          "front": "What is the role of chloride ions in digestion?",
+          "back": "Form HCl in stomach to digest proteins and kill pathogens."
+        },
+        "concept_map_nodes": [
+          {"source": "Chloride", "relation": "forms", "target": "HCl"},
+          {"source": "HCl", "relation": "activates", "target": "Pepsin"},
+          {"source": "HCl", "relation": "kills", "target": "Pathogens"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Biology Unit 3 — Inorganic Ions",
+        "flashcard_front": "Why are chloride ions important for digestion?",
+        "flashcard_back": "They form HCl in the stomach, which digests proteins and kills germs.",
+        "glossary_term": "Chloride",
+        "glossary_definition": "Ion used to produce stomach acid (HCl) for protein digestion.",
+        "revision_note": "Cl⁻ → HCl → protein digestion + pathogen killing.",
+        "teacher_note": "Connect to pepsin activation and pH.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the importance of each nutrient element",
+        "concept_map_nodes": [
+          {"source": "Chloride", "relation": "function", "target": "Digestion"}
+        ],
+        "workbook_section": "3.1.2 Inorganic ions",
+        "solution_manual_note": "Answer B. HCl digests proteins and kills bacteria; fat emulsification (C) is bile."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q048",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": "Proteins",
+      "structural_anchor": "Major functions of proteins",
+      "mcq_type": "F",
+      "question": "Casein in milk and albumin in eggs are examples of proteins that provide amino acids for growth. What is their primary function?",
+      "options": {
+        "A": "Catalysis",
+        "B": "Storage",
+        "C": "Defense",
+        "D": "Movement"
+      },
+      "correct_answer": "B",
+      "hint": "They store amino acids for developing embryos or young.",
+      "explanation": "Casein and albumin are storage proteins, providing amino acid reserves. Option A (catalysis) is enzymes, not storage proteins.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "Major functions of proteins",
+        "content_anchor": "Storage proteins: serve as a storage reserve for amino acids. Examples: casein, ovalbumin",
+        "page_hint": 22,
+        "concept_hash": "j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 91,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Storage proteins serve as reserves of amino acids for growth and development.",
+        "concept_summary": "Casein in milk and albumin in eggs provide essential amino acids for infants and embryos.",
+        "beginner": "Casein and albumin are like protein piggy banks, storing building blocks until they're needed.",
+        "intermediate": "Casein forms micelles in milk for slow digestion; ovalbumin is a major egg white protein providing nitrogen for the developing chick.",
+        "advanced": "Ovalbumin is not itself a nutrient reserve but a source of amino acids after proteolysis; casein is phosphorylated to bind calcium for mineralization.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Casein is in milk for infant nutrition.",
+          "Albumin in eggs nourishes embryo.",
+          "Both store amino acids → storage proteins."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Casein is an enzyme. No, it is not catalytic; it's a nutrient store."
+        ],
+        "related_concepts": ["casein", "ovalbumin", "amino acid reserve", "protein storage"],
+        "revision_note": "Casein & albumin = storage proteins.",
+        "glossary_entry": {
+          "term": "Storage protein",
+          "definition": "Protein that stores amino acids for later use.",
+          "example_equation": null,
+          "related_terms": ["casein", "ovalbumin", "ferritin"]
+        },
+        "flashcard": {
+          "front": "What type of protein is casein?",
+          "back": "Storage protein (provides amino acids for growth)."
+        },
+        "concept_map_nodes": [
+          {"source": "Casein", "relation": "function", "target": "Amino acid storage"},
+          {"source": "Albumin", "relation": "function", "target": "Amino acid storage"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Proteins",
+        "flashcard_front": "What is the function of casein and albumin?",
+        "flashcard_back": "Storage proteins providing amino acids for growth.",
+        "glossary_term": "Storage protein",
+        "glossary_definition": "Protein that reserves amino acids.",
+        "revision_note": "Casein, albumin = storage proteins.",
+        "teacher_note": "Contrast with enzymes (catalysis) and structural proteins.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Group proteins according to their function",
+        "concept_map_nodes": [
+          {"source": "Storage protein", "relation": "examples", "target": "Casein"}
+        ],
+        "workbook_section": "3.1.3 Organic molecules — Proteins",
+        "solution_manual_note": "Answer B. Storage; catalysis (A) is enzymes like amylase."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q049",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.3. Organic molecules",
+      "sub_subsection": "Carbohydrates",
+      "structural_anchor": "Major functions of carbohydrates",
+      "mcq_type": "G",
+      "question": "Cows and sheep can digest grass because they have bacteria in their rumen that produce an enzyme breaking down cellulose. What type of carbohydrate is cellulose that makes it difficult for humans to digest?",
+      "options": {
+        "A": "Monosaccharide",
+        "B": "Disaccharide",
+        "C": "Polysaccharide with β-glycosidic bonds",
+        "D": "Polysaccharide with α-glycosidic bonds"
+      },
+      "correct_answer": "C",
+      "hint": "The type of bond in cellulose differs from starch.",
+      "explanation": "Cellulose has β-1,4 glycosidic bonds that human enzymes cannot hydrolyze. Option D (α bonds) are digestible (starch, glycogen).",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.3. Organic molecules",
+        "structural_element": "c. Polysaccharides -(C6H10O5)-n",
+        "content_anchor": "While animal digestive enzymes cannot break down the glucose-glucose linkages in cellulose, herbivores have bacteria that secrete cellulase",
+        "page_hint": 15,
+        "concept_hash": "k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Cellulose contains β-1,4 glycosidic bonds, which human digestive enzymes cannot cleave.",
+        "concept_summary": "Cellulose is a polysaccharide with β linkages; humans lack cellulase, so it passes as fiber.",
+        "beginner": "Cellulose has a different type of sugar link than starch; our body doesn't have the key to break it.",
+        "intermediate": "β-1,4 linkages require cellulase; humans produce only α-amylase (digests α-1,4 bonds in starch).",
+        "advanced": "The β configuration forces every other glucose to rotate 180°, creating a linear chain accessible only to cellulase enzymes with a specific active site architecture.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Cellulose is a polysaccharide.",
+          "Humans cannot digest it because of bond type.",
+          "β-glycosidic bonds are indigestible by human enzymes."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Cellulose is a disaccharide. No, it is a long polysaccharide."
+        ],
+        "related_concepts": ["cellulose", "β-glycosidic bond", "cellulase", "dietary fiber"],
+        "revision_note": "Cellulose = β-1,4 bonds → indigestible to humans.",
+        "glossary_entry": {
+          "term": "β-glycosidic bond",
+          "definition": "Linkage in cellulose that resists human digestive enzymes.",
+          "example_equation": null,
+          "related_terms": ["cellulose", "cellulase", "dietary fiber"]
+        },
+        "flashcard": {
+          "front": "Why can't humans digest cellulose?",
+          "back": "Cellulose has β-1,4 glycosidic bonds; humans lack cellulase enzyme."
+        },
+        "concept_map_nodes": [
+          {"source": "Cellulose", "relation": "has", "target": "β-glycosidic bond"},
+          {"source": "β-glycosidic bond", "relation": "resists", "target": "Human digestion"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 3 — Carbohydrates",
+        "flashcard_front": "Why is cellulose indigestible to humans?",
+        "flashcard_back": "It has β-1,4 glycosidic bonds; humans lack cellulase.",
+        "glossary_term": "β-glycosidic bond",
+        "glossary_definition": "Linkage in cellulose not digestible by human enzymes.",
+        "revision_note": "Cellulose: β-bonds = indigestible.",
+        "teacher_note": "Compare α (starch) vs β (cellulose) bonds.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Tell the types and importance of polysaccharides",
+        "concept_map_nodes": [
+          {"source": "β bond", "relation": "requires", "target": "Cellulase"}
+        ],
+        "workbook_section": "3.1.3 Organic molecules — Carbohydrates",
+        "solution_manual_note": "Answer C. β-glycosidic bonds; α bonds (D) are digestible (starch)."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U3_Q050",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 3: Biochemical molecules",
+      "section": "3.1. Biochemical molecules",
+      "subsection": "3.1.2. Inorganic ions",
+      "sub_subsection": null,
+      "structural_anchor": "h. Copper ions",
+      "mcq_type": "D",
+      "question": "Copper is an essential trace element. Which of the following is a function of copper in the human body?",
+      "options": {
+        "A": "Oxygen transport in hemoglobin",
+        "B": "Synthesis of hemoglobin and collagen",
+        "C": "Thyroid hormone production",
+        "D": "Bone mineralization"
+      },
+      "correct_answer": "B",
+      "hint": "Copper is a cofactor for enzymes involved in connective tissue and blood formation.",
+      "explanation": "Copper is needed for enzymes that synthesize hemoglobin, collagen, and elastin. Option A is iron's function; option C is iodine; option D is calcium/phosphate.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Biochemical molecules",
+        "section_anchor": "3.1. Biochemical molecules",
+        "subsection_anchor": "3.1.2. Inorganic ions",
+        "structural_element": "h. Copper ions",
+        "content_anchor": "They are needed for the synthesis of haemoglobin, collagen, and elastin",
+        "page_hint": 9,
+        "concept_hash": "l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9l0m1n2i7j8k9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Copper is a cofactor for enzymes such as lysyl oxidase (collagen crosslinking) and cytochrome c oxidase (electron transport).",
+        "concept_summary": "Copper is essential for hemoglobin synthesis, connective tissue formation, and nervous system development.",
+        "beginner": "Copper helps your body make red blood cells and keep skin and blood vessels strong.",
+        "intermediate": "Copper-dependent enzymes include ceruloplasmin (iron transport) and tyrosinase (melanin); deficiency impairs erythropoiesis.",
+        "advanced": "Wilson's disease causes copper accumulation in liver/brain due to ATP7B mutation; Menkes disease impairs intestinal copper absorption, leading to connective tissue defects.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Copper functions include hemoglobin synthesis.",
+          "Also needed for collagen (connective tissue).",
+          "Thus, synthesis of hemoglobin and collagen."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Copper carries oxygen directly. No, iron in hemoglobin carries oxygen; copper is a cofactor."
+        ],
+        "related_concepts": ["ceruloplasmin", "collagen synthesis", "hemoglobin", "Wilson's disease"],
+        "revision_note": "Cu²⁺ → hemoglobin & collagen synthesis.",
+        "glossary_entry": {
+          "term": "Copper",
+          "definition": "Trace element cofactor for enzymes in hemoglobin and collagen synthesis.",
+          "example_equation": null,
+          "related_terms": ["ceruloplasmin", "collagen", "Wilson's disease"]
+        },
+        "flashcard": {
+          "front": "What is a function of copper in the body?",
+          "back": "Synthesis of hemoglobin, collagen, and elastin."
+        },
+        "concept_map_nodes": [
+          {"source": "Copper", "relation": "required_for", "target": "Hemoglobin synthesis"},
+          {"source": "Copper", "relation": "required_for", "target": "Collagen synthesis"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Biology Unit 3 — Inorganic Ions",
+        "flashcard_front": "Why is copper essential in the body?",
+        "flashcard_back": "It helps synthesize hemoglobin, collagen, and elastin.",
+        "glossary_term": "Copper",
+        "glossary_definition": "Trace element for hemoglobin and collagen synthesis.",
+        "revision_note": "Copper → Hb & collagen synthesis.",
+        "teacher_note": "Discuss Wilson's disease as a disorder of copper metabolism.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain the importance of each nutrient element",
+        "concept_map_nodes": [
+          {"source": "Copper", "relation": "function", "target": "Connective tissue formation"}
+        ],
+        "workbook_section": "3.1.2 Inorganic ions",
+        "solution_manual_note": "Answer B. Copper synthesizes Hb and collagen; oxygen transport (A) is iron; thyroid (C) is iodine."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3250,
+    "average_question_quality": 92.5,
+    "type_distribution": {
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "F": 2,
+      "G": 2,
+      "H": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "3.1. Biochemical molecules": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 9
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

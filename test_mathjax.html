@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      startup: { typeset: false }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" defer></script>
+</head>
+<body>
+  <div id="test-output"></div>
+  <script>
+    function formatText(text) {
+      if (!text) return '';
+      let str = String(text);
+      const mathBlocks = [];
+      str = str.replace(/(\$\$[\s\S]*?\$\$|\\\[[\s\S]*?\\\]|\\begin\{[a-zA-Z*]+\}[\s\S]*?\\end\{[a-zA-Z*]+\}|\$[\s\S]*?\$|\\\([\s\S]*?\\\))/g, match => {
+        mathBlocks.push(match);
+        return `__MATH_BLOCK_${mathBlocks.length - 1}__`;
+      });
+      str = str
+        .replace(/(^|\s)\*\*([^\s].*?[^\s]|\S)\*\*(?=\s|$|[.,!?])/g, '$1<strong>$2</strong>')
+        .replace(/(^|\s)\*([^\s].*?[^\s]|\S)\*(?=\s|$|[.,!?])/g, '$1<em>$2</em>')
+        .replace(/`(.+?)`/g, '<code class="inline-code">$1</code>')
+        .replace(/\n/g, '<br>');
+      for (let i = 0; i < mathBlocks.length; i++) {
+        str = str.split(`__MATH_BLOCK_${i}__`).join(mathBlocks[i]);
+      }
+      return str;
+    }
+
+    const testString = "A relation is defined as the set of all ordered pairs \\((x, y)\\) where \\(y = x^2\\) and \\(x \\in \\{-2, -1, 0, 1, 2\\}\\).";
+    
+    window.onload = () => {
+      const el = document.getElementById('test-output');
+      el.innerHTML = formatText(testString);
+      setTimeout(() => {
+        if (window.MathJax && window.MathJax.typesetPromise) {
+          window.MathJax.typesetPromise([el]).then(() => {
+            console.log("MathJax rendered successfully.");
+          }).catch(e => console.error(e));
+        }
+      }, 500);
+    };
+  </script>
+</body>
+</html>

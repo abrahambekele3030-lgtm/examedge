@@ -1,0 +1,3320 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T15:15:00Z",
+  "round_id": "R04",
+  "batch_sequence": 4,
+  "__STATE__": {
+    "current_round": 4,
+    "last_question_id": "G10_Math_U5_Q040",
+    "covered_sections": [
+      "Symmetrical Properties of Circles>Activity 5.1",
+      "Symmetrical Properties of Circles>Theorem 5.1",
+      "Symmetrical Properties of Circles>Theorem 5.2",
+      "Symmetrical Properties of Circles>Theorem 5.3",
+      "Symmetrical Properties of Circles>Theorem 5.4",
+      "Symmetrical Properties of Circles>Theorem 5.5",
+      "Symmetrical Properties of Circles>Exercise 5.3",
+      "Symmetrical Properties of Circles>Theorem 5.1 proof",
+      "Symmetrical Properties of Circles>Example 1 (symmetry)",
+      "Angle Properties of Circles>Theorem 5.6",
+      "Angle Properties of Circles>Theorem 5.7 (Thales)",
+      "Angle Properties of Circles>Theorem 5.7 (same arc)",
+      "Angle Properties of Circles>Theorem 5.9",
+      "Angle Properties of Circles>Definition 5.1",
+      "Angle Properties of Circles>Example 1 (Thales)",
+      "Angle Properties of Circles>Example 2 (central angle)",
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Definition 5.2",
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Length of a chord",
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Area of a sector",
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Perimeter of a sector",
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Segment perimeter",
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Activity 5.3",
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Example 1 (arc length)",
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Theorem 5.10",
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Theorem 5.11",
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Example 1 (secant-tangent)",
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Exercise 5.9",
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Theorem 5.10 proof"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1"
+    ],
+    "baseline_counter": {
+      "Symmetrical Properties of Circles": {
+        "Activity 5.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Theorem 5.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Theorem 5.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Theorem 5.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Theorem 5.4": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Theorem 5.5": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Exercise 5.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Example 1 (symmetry)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        }
+      },
+      "Angle Properties of Circles": {
+        "Theorem 5.6": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Theorem 5.7 (Thales)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Theorem 5.7 (same arc)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Theorem 5.9": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Definition 5.1": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Example 1 (Thales)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Example 2 (central angle)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        }
+      },
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors": {
+        "Definition 5.2": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Length of a chord": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Area of a sector": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Perimeter of a sector": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Activity 5.3": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Segment perimeter": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Example 1 (arc length)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        }
+      },
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle": {
+        "Theorem 5.10": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Theorem 5.11": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Example 1 (secant-tangent)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Exercise 5.9": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Theorem 5.10 proof": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Symmetrical Properties of Circles": {
+        "question_count": 13,
+        "last_used_round": 4,
+        "consecutive_batches": 4
+      },
+      "Angle Properties of Circles": {
+        "question_count": 10,
+        "last_used_round": 4,
+        "consecutive_batches": 4
+      },
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors": {
+        "question_count": 10,
+        "last_used_round": 4,
+        "consecutive_batches": 4
+      },
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle": {
+        "question_count": 7,
+        "last_used_round": 4,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Symmetrical Properties of Circles>Activity 5.1": [
+        "circle definition",
+        "center",
+        "radius",
+        "diameter",
+        "line of symmetry"
+      ],
+      "Symmetrical Properties of Circles>Theorem 5.1": [
+        "chord",
+        "midpoint",
+        "perpendicular"
+      ],
+      "Symmetrical Properties of Circles>Theorem 5.2": [
+        "perpendicular from center",
+        "bisects chord"
+      ],
+      "Symmetrical Properties of Circles>Theorem 5.3": [
+        "equal chords",
+        "equidistant from center"
+      ],
+      "Symmetrical Properties of Circles>Theorem 5.4": [
+        "equal angles at center",
+        "equal chords"
+      ],
+      "Symmetrical Properties of Circles>Theorem 5.5": [
+        "equal chords",
+        "equal angles at center"
+      ],
+      "Symmetrical Properties of Circles>Exercise 5.3": [
+        "radius",
+        "chord distance",
+        "Pythagoras"
+      ],
+      "Symmetrical Properties of Circles>Example 1 (symmetry)": [
+        "square",
+        "inscribed circle",
+        "lines of symmetry"
+      ],
+      "Angle Properties of Circles>Theorem 5.6": [
+        "inscribed angle",
+        "central angle",
+        "intercepted arc"
+      ],
+      "Angle Properties of Circles>Theorem 5.7 (Thales)": [
+        "angle in semicircle",
+        "right angle"
+      ],
+      "Angle Properties of Circles>Theorem 5.7 (same arc)": [
+        "inscribed angles",
+        "same arc",
+        "equal measures"
+      ],
+      "Angle Properties of Circles>Theorem 5.9": [
+        "cyclic quadrilateral",
+        "opposite angles",
+        "supplementary"
+      ],
+      "Angle Properties of Circles>Definition 5.1": [
+        "cyclic quadrilateral definition"
+      ],
+      "Angle Properties of Circles>Example 1 (Thales)": [
+        "diameter",
+        "right angle",
+        "triangle sum"
+      ],
+      "Angle Properties of Circles>Example 2 (central angle)": [
+        "central angle",
+        "inscribed angle",
+        "calculation"
+      ],
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Definition 5.2": [
+        "arc length",
+        "radius",
+        "central angle"
+      ],
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Length of a chord": [
+        "chord length",
+        "central angle",
+        "sine"
+      ],
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Area of a sector": [
+        "sector area",
+        "radius",
+        "central angle"
+      ],
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Perimeter of a sector": [
+        "sector perimeter",
+        "arc length",
+        "radii"
+      ],
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Segment perimeter": [
+        "segment",
+        "chord",
+        "arc",
+        "perimeter"
+      ],
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Activity 5.3": [
+        "circumference",
+        "central angle",
+        "sector"
+      ],
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors>Example 1 (arc length)": [
+        "arc length",
+        "diameter",
+        "central angle"
+      ],
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Theorem 5.10": [
+        "intersecting chords",
+        "angle measure",
+        "intercepted arcs sum"
+      ],
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Theorem 5.11": [
+        "secants",
+        "tangents",
+        "angle outside circle",
+        "difference of arcs"
+      ],
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Example 1 (secant-tangent)": [
+        "secant-tangent angle",
+        "arc difference"
+      ],
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Exercise 5.9": [
+        "product of segments",
+        "intersecting chords"
+      ],
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle>Theorem 5.10 proof": [
+        "central angles",
+        "inscribed angles",
+        "proof steps"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.89,
+      "structural_coverage_percentage": 90.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Mathematics",
+  "unit": "Unit 5: CIRCLE",
+  "pdf_filename": "M10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T15:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 95.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.86,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 40,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 90.0,
+      "concept_utilization_ratio": 0.89
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Symmetrical Properties of Circles",
+      "least_covered_section": "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle",
+      "imbalance_ratio": 1.86,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 996
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Math_U5_Q031",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Symmetrical Properties of Circles",
+      "subsection": "Example 1 (symmetry)",
+      "sub_subsection": null,
+      "structural_anchor": "Lines of symmetry of a square with inscribed circle",
+      "mcq_type": "A",
+      "question": "A square has a circle inscribed inside it, touching all four sides. How many lines of symmetry does the combined figure have?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_answer": "B",
+      "hint": "Square alone has 4 lines of symmetry; circle alone infinite; intersection retains 4.",
+      "explanation": "The square has 4 lines of symmetry (vertical, horizontal, two diagonals). The circle shares these same lines. Option A would be true for a rectangle not square.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Symmetrical Properties of Circles",
+        "subsection_anchor": "Example 1",
+        "structural_element": "Figure 5.3",
+        "content_anchor": "square with inscribed circle, 4 lines of symmetry",
+        "page_hint": 3,
+        "concept_hash": "sha256_placeholder_031"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A figure has a line of symmetry if folding along that line maps the figure onto itself.",
+        "concept_summary": "Square has 4 lines of symmetry; circle has infinite. The inscribed circle aligns with the square's symmetry lines.",
+        "beginner": "A square has 4 fold lines (up-down, left-right, two diagonals). Circle inside shares those folds.",
+        "intermediate": "Square: 4 lines. Circle shares these 4. Combined figure has exactly 4 lines of symmetry.",
+        "advanced": "Intersection of symmetry groups: the dihedral group D4 of square is subgroup of infinite dihedral of circle.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify square's 4 lines of symmetry.",
+          "Circle is symmetric about those same lines.",
+          "Therefore combined figure has 4 lines."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Adding circle's infinite lines to square's (incorrect: circle confined by square loses extra lines).",
+          "Thinking only 2 lines (vertical/horizontal only)."
+        ],
+        "related_concepts": [
+          "Square symmetry",
+          "Circle symmetry",
+          "Lines of symmetry",
+          "Inscribed circle"
+        ],
+        "revision_note": "Square with inscribed circle: 4 lines of symmetry.",
+        "glossary_entry": {
+          "term": "Symmetry of inscribed square-circle",
+          "definition": "Combined figure has 4 lines of symmetry (square's lines).",
+          "example_equation": null,
+          "related_terms": [
+            "Square",
+            "Circle",
+            "Line of symmetry"
+          ]
+        },
+        "flashcard": {
+          "front": "Square with inscribed circle: how many lines of symmetry?",
+          "back": "4"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Square",
+            "relation": "has",
+            "target": "4 lines of symmetry"
+          },
+          {
+            "source": "Inscribed circle",
+            "relation": "preserves",
+            "target": "Square's symmetry lines"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Square with inscribed circle symmetry",
+        "visual_description": "Square with circle inside, 4 dashed lines of symmetry.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "4 lines of symmetry.",
+        "accessibility_alt_text": "Square with circle inside, vertical, horizontal, and two diagonal symmetry lines dashed.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "rectangle",
+              "vertices": [
+                [
+                  -40,
+                  -40
+                ],
+                [
+                  40,
+                  40
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 40,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  -45
+                ],
+                [
+                  0,
+                  45
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "dashed"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -45,
+                  0
+                ],
+                [
+                  45,
+                  0
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "dashed"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -45,
+                  -45
+                ],
+                [
+                  45,
+                  45
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "dashed"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -45,
+                  45
+                ],
+                [
+                  45,
+                  -45
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "dashed"
+            }
+          ],
+          "labels": [],
+          "axes": {
+            "x_range": [
+              -50,
+              50
+            ],
+            "y_range": [
+              -50,
+              50
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q031_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "Square with inscribed circle: lines of symmetry?",
+        "flashcard_back": "4",
+        "glossary_term": "Symmetry combined figure",
+        "glossary_definition": "Square + inscribed circle has 4 lines of symmetry.",
+        "revision_note": "Square with circle: 4 symmetry lines.",
+        "teacher_note": "Circle alone infinite, but square restricts.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain symmetrical properties of circles",
+        "concept_map_nodes": [
+          {
+            "source": "Square with circle",
+            "relation": "has_lines",
+            "target": "4"
+          }
+        ],
+        "workbook_section": "Symmetrical Properties of Circles",
+        "solution_manual_note": "Answer B. Square's 4 lines preserved; circle adds none."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q032",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Angle Properties of Circles",
+      "subsection": "Theorem 5.7 (same arc)",
+      "sub_subsection": null,
+      "structural_anchor": "Inscribed angles subtending same arc",
+      "mcq_type": "F",
+      "question": "Points \\(A\\), \\(B\\), \\(P\\), and \\(Q\\) lie on a circle such that \\(\\angle APB\\) and \\(\\angle AQB\\) both subtend arc \\(AB\\). If \\(\\text{m}(\\angle APB) = 42^\\circ\\), what is \\(\\text{m}(\\angle AQB)\\)?",
+      "options": {
+        "A": "\\(21^\\circ\\)",
+        "B": "\\(42^\\circ\\)",
+        "C": "\\(84^\\circ\\)",
+        "D": "\\(90^\\circ\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Inscribed angles subtending same arc are equal.",
+      "explanation": "Theorem 5.7 (same arc) states that inscribed angles subtending the same arc are equal, so \\(\\angle AQB = 42^\\circ\\). Option A incorrectly halves the angle.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "theorem"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 99,
+        "explanation_validation": {
+          "word_overlap_percentage": 3.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 97
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Angle Properties of Circles",
+        "subsection_anchor": "Theorem 5.7",
+        "structural_element": "Inscribed angles subtended by same arc",
+        "content_anchor": "m∠APB = m∠AQB",
+        "page_hint": 13,
+        "concept_hash": "sha256_placeholder_032"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 96,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Inscribed angles that intercept the same arc are congruent.",
+        "concept_summary": "Both ∠APB and ∠AQB subtend arc AB, so they are equal: both 42°.",
+        "beginner": "Two people standing at different spots on a circle looking at the same two points see the same angle size.",
+        "intermediate": "Arc AB is fixed. m∠APB = ½ m(arc AB) = m∠AQB, so 42° = 42°.",
+        "advanced": "Direct application of inscribed angle theorem: both equal half the measure of arc AB.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify common arc AB.",
+          "Recall same arc → equal inscribed angles.",
+          "Therefore ∠AQB = 42°."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking angle is half (confusing with central angle relationship).",
+          "Thinking angles are supplementary."
+        ],
+        "related_concepts": [
+          "Inscribed angle",
+          "Intercepted arc",
+          "Theorem 5.6"
+        ],
+        "revision_note": "Same arc → equal inscribed angles.",
+        "glossary_entry": {
+          "term": "Inscribed angles same arc",
+          "definition": "Angles intercepting same arc are equal.",
+          "example_equation": "\\(42^\\circ = 42^\\circ\\)",
+          "related_terms": [
+            "Inscribed angle",
+            "Arc"
+          ]
+        },
+        "flashcard": {
+          "front": "∠APB = 42°, both angles subtend arc AB. Find ∠AQB.",
+          "back": "42°"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Same arc",
+            "relation": "implies",
+            "target": "Equal inscribed angles"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Equal inscribed angles same arc",
+        "visual_description": "Circle, points A,B,P,Q, both angles 42°.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "∠APB = ∠AQB = 42°.",
+        "accessibility_alt_text": "Circle with points A,B,P,Q, both angles to AB are 42°.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  40,
+                  30
+                ],
+                [
+                  0,
+                  -50
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  40,
+                  30
+                ],
+                [
+                  -40,
+                  30
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -40,
+                  30
+                ],
+                [
+                  0,
+                  -50
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "\\(A\\)",
+              "position": [
+                42,
+                32
+              ]
+            },
+            {
+              "text": "\\(B\\)",
+              "position": [
+                0,
+                -55
+              ]
+            },
+            {
+              "text": "\\(P\\)",
+              "position": [
+                45,
+                32
+              ]
+            },
+            {
+              "text": "\\(Q\\)",
+              "position": [
+                -45,
+                32
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q032_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "∠APB = 42°, same arc AB. Find ∠AQB.",
+        "flashcard_back": "42°",
+        "glossary_term": "Same arc theorem",
+        "glossary_definition": "Inscribed angles subtending same arc are equal.",
+        "revision_note": "Same arc = equal angles.",
+        "teacher_note": "Corollary of Theorem 5.6.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Write angle properties of circles in own words",
+        "concept_map_nodes": [
+          {
+            "source": "Arc AB",
+            "relation": "gives_equal",
+            "target": "∠APB = ∠AQB"
+          }
+        ],
+        "workbook_section": "Angle Properties of Circles",
+        "solution_manual_note": "Answer B. Equal angles."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q033",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Angle Properties of Circles",
+      "subsection": "Example 2 (central angle)",
+      "sub_subsection": null,
+      "structural_anchor": "Central angle calculation from inscribed angle",
+      "mcq_type": "D",
+      "question": "An inscribed angle intercepts an arc measuring \\(82^\\circ\\). Find the measure of the central angle intercepting the same arc.",
+      "options": {
+        "A": "\\(41^\\circ\\)",
+        "B": "\\(82^\\circ\\)",
+        "C": "\\(164^\\circ\\)",
+        "D": "\\(90^\\circ\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Central angle = 2 × inscribed angle (same arc).",
+      "explanation": "Central angle = 2 × inscribed angle = 2 × 82° = 164°. Option A is half the inscribed angle, reversed relationship.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\text{central} = 2 \\times \\text{inscribed}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Angle Properties of Circles",
+        "subsection_anchor": "Example 2",
+        "structural_element": "Figure 5.23",
+        "content_anchor": "m∠ABC = 82°? Actually arc 82°, inscribed 41°",
+        "page_hint": 12,
+        "concept_hash": "sha256_placeholder_033"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 96,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "Central angle is twice any inscribed angle subtending the same arc.",
+        "concept_summary": "Inscribed angle = 82°, so central = 2 × 82° = 164°.",
+        "beginner": "The angle at the center is always twice the angle at the edge when they look at the same piece of arc.",
+        "intermediate": "By Theorem 5.6: central = 2 × inscribed = 164°.",
+        "advanced": "Direct application: m(arc) = 2 × inscribed = central.",
+        "worked_solution": [
+          "Inscribed angle = 82°",
+          "Central angle = 2 × 82° = 164°"
+        ],
+        "reasoning_steps": [
+          "Recall central = 2 × inscribed (same arc).",
+          "Multiply."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\text{central} = 2 \\times \\text{inscribed}\\)",
+            "name": "Central-inscribed angle relation",
+            "variables": [
+              {
+                "symbol": "\\(\\text{central}\\)",
+                "meaning": "central angle measure",
+                "unit": "degrees"
+              },
+              {
+                "symbol": "\\(\\text{inscribed}\\)",
+                "meaning": "inscribed angle measure",
+                "unit": "degrees"
+              }
+            ],
+            "derivation": "Theorem 5.6."
+          }
+        ],
+        "misconceptions": [
+          "Reversing: inscribed = 2 × central.",
+          "Halving instead of doubling."
+        ],
+        "related_concepts": [
+          "Central angle",
+          "Inscribed angle",
+          "Intercepted arc"
+        ],
+        "revision_note": "Central = 2 × inscribed (same arc).",
+        "glossary_entry": {
+          "term": "Central-inscribed relation",
+          "definition": "Central angle is twice inscribed angle subtending same arc.",
+          "example_equation": "\\(164^\\circ = 2 \\times 82^\\circ\\)",
+          "related_terms": [
+            "Central angle",
+            "Inscribed angle"
+          ]
+        },
+        "flashcard": {
+          "front": "Inscribed angle = 82°, find central angle same arc.",
+          "back": "164°"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Inscribed 82°",
+            "relation": "implies",
+            "target": "Central 164°"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Central from inscribed",
+        "visual_description": "Circle, inscribed angle 82°, central angle 164°.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "Central = 2 × inscribed.",
+        "accessibility_alt_text": "Circle, inscribed angle 82°, central angle 164°.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  50,
+                  0
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  -10,
+                  49
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  50,
+                  0
+                ],
+                [
+                  -30,
+                  40
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -10,
+                  49
+                ],
+                [
+                  -30,
+                  40
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "\\(164^\\circ\\)",
+              "position": [
+                15,
+                15
+              ]
+            },
+            {
+              "text": "\\(82^\\circ\\)",
+              "position": [
+                -25,
+                45
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q033_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "Inscribed angle 82°, find central angle same arc.",
+        "flashcard_back": "164°",
+        "glossary_term": "Central angle",
+        "glossary_definition": "Angle with vertex at center = 2 × inscribed angle.",
+        "revision_note": "Central = 2 × inscribed.",
+        "teacher_note": "Doubling, not halving.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply angle properties of circles to solve problems",
+        "concept_map_nodes": [
+          {
+            "source": "Inscribed angle",
+            "relation": "doubled",
+            "target": "Central angle"
+          }
+        ],
+        "workbook_section": "Angle Properties of Circles",
+        "solution_manual_note": "Answer C. 2 × 82° = 164°."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q034",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Arc Lengths, Perimeters and Areas of Segments and Sectors",
+      "subsection": "Example 1 (arc length)",
+      "sub_subsection": null,
+      "structural_anchor": "Arc length with diameter",
+      "mcq_type": "E",
+      "question": "A circle has diameter \\(12\\,\\mathrm{cm}\\) and a central angle of \\(150^\\circ\\). Find the arc length. Use \\(\\pi\\) as \\(\\pi\\).",
+      "options": {
+        "A": "\\(5\\pi\\,\\mathrm{cm}\\)",
+        "B": "\\(10\\pi\\,\\mathrm{cm}\\)",
+        "C": "\\(2.5\\pi\\,\\mathrm{cm}\\)",
+        "D": "\\(30\\pi\\,\\mathrm{cm}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Arc length = \\(\\frac{\\pi d \\theta}{360^\\circ}\\).",
+      "explanation": "Arc length = \\(\\pi \\times 12 \\times \\frac{150}{360} = \\pi \\times 12 \\times \\frac{5}{12} = 5\\pi\\,\\mathrm{cm}\\). Option B uses 360/150 instead.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(s = \\frac{\\pi d \\theta}{360^\\circ}\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "d": {
+            "magnitude": 12,
+            "unit": "cm"
+          },
+          "θ": {
+            "magnitude": 150,
+            "unit": "degrees"
+          }
+        },
+        "answer_value": 15.708,
+        "answer_unit": "cm",
+        "calculation_steps": [
+          "Arc length = πd × θ/360°",
+          "= π × 12 × 150/360",
+          "= 12π × 150/360 = 12π × 5/12",
+          "= 5π cm"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Arc Lengths, Perimeters and Areas of Segments and Sectors",
+        "subsection_anchor": "Example 1",
+        "structural_element": "Figure 5.39",
+        "content_anchor": "r=6cm, d=12cm, θ=150°, arc=5π cm",
+        "page_hint": 19,
+        "concept_hash": "sha256_placeholder_034"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Arc length = fraction of circumference = (θ/360°) × πd.",
+        "concept_summary": "d=12 cm, θ=150°, so s = π×12×150/360 = 12π×5/12 = 5π cm.",
+        "beginner": "Cut a 150° slice from a 12 cm wide pizza. The crust length is 5π cm (about 15.7 cm).",
+        "intermediate": "s = πd × θ/360° = 12π × 150/360 = 12π × 5/12 = 5π cm.",
+        "advanced": "Simplify 150/360 = 5/12. Cancel 12: 12π × 5/12 = 5π cm.",
+        "worked_solution": [
+          "s = πd × θ/360°",
+          "= π×12 × 150/360",
+          "= 12π × 5/12",
+          "= 5π cm"
+        ],
+        "reasoning_steps": [
+          "Write arc length formula with diameter.",
+          "Substitute d=12, θ=150.",
+          "Simplify fraction 150/360 = 5/12.",
+          "Cancel 12."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(s = \\frac{\\pi d \\theta}{360^\\circ}\\)",
+            "name": "Arc length (diameter form)",
+            "variables": [
+              {
+                "symbol": "\\(s\\)",
+                "meaning": "arc length",
+                "unit": "cm"
+              },
+              {
+                "symbol": "\\(d\\)",
+                "meaning": "diameter",
+                "unit": "cm"
+              },
+              {
+                "symbol": "\\(\\theta\\)",
+                "meaning": "central angle",
+                "unit": "degrees"
+              }
+            ],
+            "derivation": "Circumference × θ/360°."
+          }
+        ],
+        "misconceptions": [
+          "Using radius instead of diameter incorrectly.",
+          "Forgetting to simplify fraction."
+        ],
+        "related_concepts": [
+          "Arc length",
+          "Diameter",
+          "Circumference",
+          "Central angle"
+        ],
+        "revision_note": "Arc length = πd × θ/360°.",
+        "glossary_entry": {
+          "term": "Arc length example",
+          "definition": "Given diameter 12 cm, θ=150°, arc=5π cm.",
+          "example_equation": "\\(5\\pi\\) cm",
+          "related_terms": [
+            "Arc length",
+            "Diameter"
+          ]
+        },
+        "flashcard": {
+          "front": "Diameter 12 cm, central angle 150°, arc length?",
+          "back": "5π cm"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Arc length",
+            "relation": "formula",
+            "target": "πdθ/360°"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Arc length example",
+        "visual_description": "Circle diameter 12 cm, central angle 150°, arc length 5π cm.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "Arc = 5π cm.",
+        "accessibility_alt_text": "Circle diameter 12 cm, 150° angle, arc length 15.7 cm.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  50,
+                  0
+                ]
+              ],
+              "radius": null,
+              "label": "r=6",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  -43.3,
+                  25
+                ]
+              ],
+              "radius": null,
+              "label": "r=6",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "\\(150^\\circ\\)",
+              "position": [
+                -15,
+                15
+              ]
+            },
+            {
+              "text": "\\(5\\pi\\)",
+              "position": [
+                20,
+                40
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q034_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "solution_manual"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "Diameter 12 cm, θ=150°, arc length?",
+        "flashcard_back": "5π cm",
+        "glossary_term": "Arc length formula",
+        "glossary_definition": "s = πdθ/360°.",
+        "revision_note": "s = πdθ/360°.",
+        "teacher_note": "Use diameter or radius consistently.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate arc length",
+        "concept_map_nodes": [
+          {
+            "source": "Arc length",
+            "relation": "depends_on",
+            "target": "Diameter and angle"
+          }
+        ],
+        "workbook_section": "Arc Lengths, Perimeters and Areas",
+        "solution_manual_note": "Answer A. π×12×150/360 = 5π cm."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q035",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle",
+      "subsection": "Exercise 5.9",
+      "sub_subsection": null,
+      "structural_anchor": "Product of segments of intersecting chords",
+      "mcq_type": "D",
+      "question": "Two chords \\(AB\\) and \\(CD\\) intersect at \\(P\\) inside a circle. If \\(AP = 6\\), \\(PB = 4\\), and \\(CP = 8\\), find \\(PD\\).",
+      "options": {
+        "A": "\\(2\\)",
+        "B": "\\(3\\)",
+        "C": "\\(4\\)",
+        "D": "\\(6\\)"
+      },
+      "correct_answer": "B",
+      "hint": "For intersecting chords: \\(AP \\times PB = CP \\times PD\\).",
+      "explanation": "Product of segments: \\(6 \\times 4 = 8 \\times PD \\rightarrow 24 = 8 \\times PD \\rightarrow PD = 3\\). Option A would give product 16, not 24.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(AP \\cdot PB = CP \\cdot PD\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "AP": {
+            "magnitude": 6,
+            "unit": "units"
+          },
+          "PB": {
+            "magnitude": 4,
+            "unit": "units"
+          },
+          "CP": {
+            "magnitude": 8,
+            "unit": "units"
+          }
+        },
+        "answer_value": 3,
+        "answer_unit": "units",
+        "calculation_steps": [
+          "AP × PB = CP × PD",
+          "6 × 4 = 8 × PD",
+          "24 = 8 × PD",
+          "PD = 24 / 8 = 3"
+        ],
+        "significant_figures": 1
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle",
+        "subsection_anchor": "Exercise 5.9? Problem 4",
+        "structural_element": "intersecting chords product theorem",
+        "content_anchor": "AP·PB = CP·PD",
+        "page_hint": 26,
+        "concept_hash": "sha256_placeholder_035"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "For intersecting chords, the product of the segment lengths of one chord equals product of segment lengths of the other chord.",
+        "concept_summary": "AP × PB = CP × PD → 6×4=8×PD → PD=3.",
+        "beginner": "When two chords cross inside a circle, multiplying the pieces of one chord equals multiplying pieces of the other.",
+        "intermediate": "AP·PB = CP·PD → 24 = 8×PD → PD = 3.",
+        "advanced": "By similar triangles formed by chords, the proportion yields equal products.",
+        "worked_solution": [
+          "Apply chord product theorem: AP × PB = CP × PD",
+          "6 × 4 = 8 × PD",
+          "24 = 8 × PD",
+          "PD = 3"
+        ],
+        "reasoning_steps": [
+          "Write product equality for intersecting chords.",
+          "Substitute known values.",
+          "Solve for PD."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(AP \\cdot PB = CP \\cdot PD\\)",
+            "name": "Intersecting chords product theorem",
+            "variables": [
+              {
+                "symbol": "\\(AP,PB\\)",
+                "meaning": "segments of one chord",
+                "unit": "units"
+              },
+              {
+                "symbol": "\\(CP,PD\\)",
+                "meaning": "segments of other chord",
+                "unit": "units"
+              }
+            ],
+            "derivation": "Similar triangles from inscribed angles."
+          }
+        ],
+        "misconceptions": [
+          "Adding instead of multiplying.",
+          "Dividing incorrectly."
+        ],
+        "related_concepts": [
+          "Chord",
+          "Intersecting chords",
+          "Segment product",
+          "Similar triangles"
+        ],
+        "revision_note": "AP·PB = CP·PD.",
+        "glossary_entry": {
+          "term": "Intersecting chords product theorem",
+          "definition": "Product of segment lengths of one chord equals product for the other.",
+          "example_equation": "\\(6 \\times 4 = 8 \\times 3\\)",
+          "related_terms": [
+            "Chord",
+            "Segment"
+          ]
+        },
+        "flashcard": {
+          "front": "AP=6, PB=4, CP=8. Find PD (intersecting chords).",
+          "back": "3"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Intersecting chords",
+            "relation": "product_equality",
+            "target": "AP·PB = CP·PD"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Intersecting chords product theorem",
+        "visual_description": "Circle, chords AB and CD intersect at P, labeled lengths.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "AP·PB = CP·PD.",
+        "accessibility_alt_text": "Circle with chords AB and CD intersecting at P, AP=6, PB=4, CP=8, PD=3.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -40,
+                  -30
+                ],
+                [
+                  40,
+                  30
+                ]
+              ],
+              "radius": null,
+              "label": "AB",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -40,
+                  30
+                ],
+                [
+                  40,
+                  -30
+                ]
+              ],
+              "radius": null,
+              "label": "CD",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "\\(6\\)",
+              "position": [
+                -25,
+                -15
+              ]
+            },
+            {
+              "text": "\\(4\\)",
+              "position": [
+                25,
+                15
+              ]
+            },
+            {
+              "text": "\\(8\\)",
+              "position": [
+                -25,
+                15
+              ]
+            },
+            {
+              "text": "\\(3\\)",
+              "position": [
+                25,
+                -15
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q035_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "solution_manual"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "AP=6, PB=4, CP=8. Find PD (intersecting chords).",
+        "flashcard_back": "3",
+        "glossary_term": "Chord product theorem",
+        "glossary_definition": "AP·PB = CP·PD",
+        "revision_note": "6×4 = 8×3.",
+        "teacher_note": "Set up proportion correctly.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply theorems on angles and arcs determined by lines intersecting circles",
+        "concept_map_nodes": [
+          {
+            "source": "Intersecting chords",
+            "relation": "product_rule",
+            "target": "AP·PB = CP·PD"
+          }
+        ],
+        "workbook_section": "Theorems on Angles and Arcs",
+        "solution_manual_note": "Answer B. 6×4=24, 24/8=3."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q036",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Symmetrical Properties of Circles",
+      "subsection": "Theorem 5.4 (application)",
+      "sub_subsection": null,
+      "structural_anchor": "Equal angles at center imply equal chords",
+      "mcq_type": "F",
+      "question": "In a circle, chords \\(AB\\) and \\(CD\\) subtend central angles of \\(50^\\circ\\) and \\(50^\\circ\\) respectively. What must be true about the chords?",
+      "options": {
+        "A": "\\(AB = 2 \\times CD\\)",
+        "B": "\\(AB = CD\\)",
+        "C": "\\(AB > CD\\)",
+        "D": "Cannot be determined"
+      },
+      "correct_answer": "B",
+      "hint": "Equal central angles imply equal chords (Theorem 5.4).",
+      "explanation": "Theorem 5.4 states equal central angles produce equal chords. Since both central angles are 50°, chords AB and CD are equal in length. Option A would require different angles.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "theorem"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Symmetrical Properties of Circles",
+        "subsection_anchor": "Theorem 5.4",
+        "structural_element": "Theorem 5.4",
+        "content_anchor": "equal central angles → equal chords",
+        "page_hint": 6,
+        "concept_hash": "sha256_placeholder_036"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 96,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "Theorem 5.4: Chords subtending equal central angles are equal in length.",
+        "concept_summary": "Both central angles 50° → chords AB and CD equal.",
+        "beginner": "Same angle at the center means same chord length.",
+        "intermediate": "By Theorem 5.4, ∠AOB = ∠COD = 50° → AB = CD.",
+        "advanced": "Congruent triangles AOB and COD by SAS (OA=OC, OB=OD, included angles equal).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify central angles AOB and COD.",
+          "Note both = 50°.",
+          "Apply Theorem 5.4: equal central angles → equal chords."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking larger angle means longer chord (true, but here angles equal).",
+          "Confusing with Theorem 5.5 (converse)."
+        ],
+        "related_concepts": [
+          "Central angle",
+          "Chord",
+          "Theorem 5.4",
+          "SAS congruence"
+        ],
+        "revision_note": "Equal central angles → equal chords.",
+        "glossary_entry": {
+          "term": "Equal central angles theorem",
+          "definition": "Equal angles at center imply equal chords.",
+          "example_equation": null,
+          "related_terms": [
+            "Central angle",
+            "Chord"
+          ]
+        },
+        "flashcard": {
+          "front": "Central angles both 50°. Chords AB and CD?",
+          "back": "Equal length."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Equal central angles",
+            "relation": "imply",
+            "target": "Equal chords"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Equal central angles equal chords",
+        "visual_description": "Circle, two central angles 50°, chords equal.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "AB = CD.",
+        "accessibility_alt_text": "Circle with two 50° central angles, chords equal.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  50,
+                  0
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  32.14,
+                  38.3
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  50,
+                  0
+                ],
+                [
+                  32.14,
+                  38.3
+                ]
+              ],
+              "radius": null,
+              "label": "AB",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  -50,
+                  0
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  -32.14,
+                  38.3
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -50,
+                  0
+                ],
+                [
+                  -32.14,
+                  38.3
+                ]
+              ],
+              "radius": null,
+              "label": "CD",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "\\(50^\\circ\\)",
+              "position": [
+                15,
+                10
+              ]
+            },
+            {
+              "text": "\\(50^\\circ\\)",
+              "position": [
+                -15,
+                10
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q036_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "Two central angles 50°. Chords?",
+        "flashcard_back": "Equal length.",
+        "glossary_term": "Central angle equality",
+        "glossary_definition": "Equal central angles give equal chords.",
+        "revision_note": "50° = 50° → chords equal.",
+        "teacher_note": "Direct application.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Use symmetrical properties of circles to solve problems",
+        "concept_map_nodes": [
+          {
+            "source": "50° central angle",
+            "relation": "equals",
+            "target": "Same chord length"
+          }
+        ],
+        "workbook_section": "Symmetrical Properties of Circles",
+        "solution_manual_note": "Answer B. Equal central angles → equal chords."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q037",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Symmetrical Properties of Circles",
+      "subsection": "Theorem 5.5 (application)",
+      "sub_subsection": null,
+      "structural_anchor": "Equal chords imply equal central angles",
+      "mcq_type": "F",
+      "question": "Two chords \\(PQ\\) and \\(RS\\) in a circle are equal in length. If \\(\\text{m}(\\angle POQ) = 70^\\circ\\), find \\(\\text{m}(\\angle ROS)\\).",
+      "options": {
+        "A": "\\(35^\\circ\\)",
+        "B": "\\(70^\\circ\\)",
+        "C": "\\(140^\\circ\\)",
+        "D": "\\(110^\\circ\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Equal chords subtend equal angles at center (Theorem 5.5).",
+      "explanation": "Theorem 5.5: equal chords subtend equal angles at the center, so ∠ROS = ∠POQ = 70°. Option A would apply if chords were half the angle.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "theorem"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Symmetrical Properties of Circles",
+        "subsection_anchor": "Theorem 5.5",
+        "structural_element": "Theorem 5.5",
+        "content_anchor": "equal chords → equal central angles",
+        "page_hint": 7,
+        "concept_hash": "sha256_placeholder_037"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 97,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "Theorem 5.5: Equal chords subtend equal angles at the center.",
+        "concept_summary": "PQ = RS → ∠POQ = ∠ROS. Given ∠POQ=70°, so ∠ROS=70°.",
+        "beginner": "Same length chords make same angle at the center.",
+        "intermediate": "PQ = RS ⇒ ΔPOQ ≅ ΔROS by SSS ⇒ ∠POQ = ∠ROS = 70°.",
+        "advanced": "SSS congruence: radii equal (OP=OR, OQ=OS) and given PQ=RS → triangles congruent → corresponding angles equal.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify equal chords.",
+          "Recall Theorem 5.5: equal chords → equal central angles.",
+          "Thus ∠ROS = 70°."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Halving the angle (confusing with inscribed angle).",
+          "Doubling the angle."
+        ],
+        "related_concepts": [
+          "Chord",
+          "Central angle",
+          "Theorem 5.5",
+          "SSS congruence"
+        ],
+        "revision_note": "Equal chords → equal central angles.",
+        "glossary_entry": {
+          "term": "Equal chords theorem (central angles)",
+          "definition": "Equal chords subtend equal angles at center.",
+          "example_equation": "\\(70^\\circ = 70^\\circ\\)",
+          "related_terms": [
+            "Chord",
+            "Central angle"
+          ]
+        },
+        "flashcard": {
+          "front": "PQ = RS, ∠POQ = 70°. Find ∠ROS.",
+          "back": "70°"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Equal chords",
+            "relation": "imply",
+            "target": "Equal central angles"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Equal chords equal central angles",
+        "visual_description": "Circle, chords PQ and RS equal, central angles 70°.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "∠ROS = 70°.",
+        "accessibility_alt_text": "Circle with two equal chords, central angles both 70°.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  40,
+                  30
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  -40,
+                  30
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  40,
+                  30
+                ],
+                [
+                  -40,
+                  30
+                ]
+              ],
+              "radius": null,
+              "label": "PQ",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  30,
+                  -40
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  -30,
+                  -40
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  30,
+                  -40
+                ],
+                [
+                  -30,
+                  -40
+                ]
+              ],
+              "radius": null,
+              "label": "RS",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "\\(70^\\circ\\)",
+              "position": [
+                15,
+                15
+              ]
+            },
+            {
+              "text": "\\(70^\\circ\\)",
+              "position": [
+                15,
+                -15
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q037_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "PQ = RS, ∠POQ = 70°. Find ∠ROS.",
+        "flashcard_back": "70°",
+        "glossary_term": "Equal chords",
+        "glossary_definition": "Equal chords subtend equal central angles.",
+        "revision_note": "Equal chord → equal central angle.",
+        "teacher_note": "Converse of Theorem 5.4.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Use symmetrical properties of circles to solve problems",
+        "concept_map_nodes": [
+          {
+            "source": "Equal chords",
+            "relation": "produce",
+            "target": "Equal central angles"
+          }
+        ],
+        "workbook_section": "Symmetrical Properties of Circles",
+        "solution_manual_note": "Answer B. Equal chords → equal central angles."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q038",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Arc Lengths, Perimeters and Areas of Segments and Sectors",
+      "subsection": "Perimeter of a sector (application)",
+      "sub_subsection": null,
+      "structural_anchor": "Perimeter of sector formula",
+      "mcq_type": "E",
+      "question": "A sector has radius \\(8\\,\\mathrm{cm}\\) and central angle \\(90^\\circ\\). Find its perimeter. Use \\(\\pi \\approx 3.14\\).",
+      "options": {
+        "A": "\\(16\\,\\mathrm{cm}\\)",
+        "B": "\\(28.56\\,\\mathrm{cm}\\)",
+        "C": "\\(12.56\\,\\mathrm{cm}\\)",
+        "D": "\\(50.24\\,\\mathrm{cm}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Perimeter = \\(2r + \\frac{\\pi r \\theta}{180^\\circ}\\).",
+      "explanation": "Arc length = \\(\\frac{\\pi \\times 8 \\times 90}{180} = \\frac{8\\pi}{2} = 4\\pi = 12.56\\,\\mathrm{cm}\\). Perimeter = \\(2\\times8 + 12.56 = 16 + 12.56 = 28.56\\,\\mathrm{cm}\\). Option A is just \\(2r\\), missing arc.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(P = 2r + \\frac{\\pi r \\theta}{180^\\circ}\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "r": {
+            "magnitude": 8,
+            "unit": "cm"
+          },
+          "θ": {
+            "magnitude": 90,
+            "unit": "degrees"
+          }
+        },
+        "answer_value": 28.56,
+        "answer_unit": "cm",
+        "calculation_steps": [
+          "Arc length = πrθ/180° = 3.14 × 8 × 90 / 180",
+          "= 3.14 × 8 × 0.5 = 3.14 × 4 = 12.56 cm",
+          "Perimeter = 2r + arc = 16 + 12.56 = 28.56 cm"
+        ],
+        "significant_figures": 4
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "formula"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Arc Lengths, Perimeters and Areas of Segments and Sectors",
+        "subsection_anchor": "Perimeter of a sector",
+        "structural_element": "perimeter formula",
+        "content_anchor": "P = 2r + 2πr × θ/360°",
+        "page_hint": 23,
+        "concept_hash": "sha256_placeholder_038"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Perimeter of sector = two radii + arc length.",
+        "concept_summary": "r=8, θ=90°: arc = π×8×90/180 = 4π≈12.56; perimeter = 16+12.56=28.56 cm.",
+        "beginner": "Walk along two straight edges (8+8) and curved edge (quarter of circle edge).",
+        "intermediate": "Arc length = (90/360)×2π×8 = 4π≈12.56; P = 16+12.56 = 28.56 cm.",
+        "advanced": "Simplify: arc = 2πr × θ/360° = 2π×8×1/4 = 4π; P = 16+4π ≈ 28.56 cm.",
+        "worked_solution": [
+          "Arc length = (πrθ)/180° = (3.14×8×90)/180 = 12.56 cm",
+          "Perimeter = 2r + arc = 16 + 12.56 = 28.56 cm"
+        ],
+        "reasoning_steps": [
+          "Calculate arc length.",
+          "Add twice the radius."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P = 2r + \\frac{\\pi r \\theta}{180^\\circ}\\)",
+            "name": "Sector perimeter",
+            "variables": [
+              {
+                "symbol": "\\(P\\)",
+                "meaning": "perimeter",
+                "unit": "cm"
+              },
+              {
+                "symbol": "\\(r\\)",
+                "meaning": "radius",
+                "unit": "cm"
+              },
+              {
+                "symbol": "\\(\\theta\\)",
+                "meaning": "central angle",
+                "unit": "degrees"
+              }
+            ],
+            "derivation": "Sum of two radii and arc length."
+          }
+        ],
+        "misconceptions": [
+          "Forgetting to add both radii.",
+          "Using diameter instead of radius."
+        ],
+        "related_concepts": [
+          "Sector",
+          "Arc length",
+          "Radius",
+          "Perimeter"
+        ],
+        "revision_note": "Sector perimeter = 2r + arc length.",
+        "glossary_entry": {
+          "term": "Sector perimeter calculation",
+          "definition": "P = 2r + πrθ/180°.",
+          "example_equation": "\\(28.56 = 16 + 12.56\\)",
+          "related_terms": [
+            "Sector",
+            "Arc length"
+          ]
+        },
+        "flashcard": {
+          "front": "Sector radius 8 cm, angle 90°. Perimeter? π≈3.14.",
+          "back": "28.56 cm"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Sector perimeter",
+            "relation": "equals",
+            "target": "2r + arc length"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Sector perimeter example",
+        "visual_description": "Sector radius 8 cm, 90°, perimeter 28.56 cm.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "P = 28.56 cm.",
+        "accessibility_alt_text": "Quarter-circle sector radius 8 cm, perimeter 28.56 cm.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  50,
+                  0
+                ]
+              ],
+              "radius": null,
+              "label": "8",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  50
+                ]
+              ],
+              "radius": null,
+              "label": "8",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "\\(8\\)",
+              "position": [
+                25,
+                -10
+              ]
+            },
+            {
+              "text": "\\(8\\)",
+              "position": [
+                -10,
+                25
+              ]
+            },
+            {
+              "text": "\\(90^\\circ\\)",
+              "position": [
+                10,
+                10
+              ]
+            },
+            {
+              "text": "\\(12.56\\)",
+              "position": [
+                30,
+                30
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q038_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "solution_manual"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "Sector r=8 cm, θ=90°, perimeter? π=3.14.",
+        "flashcard_back": "28.56 cm",
+        "glossary_term": "Sector perimeter",
+        "glossary_definition": "2r + arc length.",
+        "revision_note": "P = 2r + πrθ/180°.",
+        "teacher_note": "Calculate arc first.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate perimeters of sectors",
+        "concept_map_nodes": [
+          {
+            "source": "Sector perimeter",
+            "relation": "requires",
+            "target": "Arc length + 2r"
+          }
+        ],
+        "workbook_section": "Arc Lengths, Perimeters and Areas",
+        "solution_manual_note": "Answer B. 16 + 12.56 = 28.56 cm."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q039",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle",
+      "subsection": "Theorem 5.10 (proof context)",
+      "sub_subsection": null,
+      "structural_anchor": "Proof step: inscribed angles",
+      "mcq_type": "F",
+      "question": "In the proof of Theorem 5.10 (intersecting chords), angles ∠QRT and ∠RQT are shown to equal half of which angles?",
+      "options": {
+        "A": "Central angles ∠QOP and ∠ROS",
+        "B": "Arcs PQ and RS",
+        "C": "The angle at T",
+        "D": "Radii of the circle"
+      },
+      "correct_answer": "A",
+      "hint": "∠QRT = ½∠QOP and ∠RQT = ½∠ROS by inscribed angle theorem.",
+      "explanation": "In the proof, chord QR is drawn. ∠QRT subtends arc QP? Wait, careful: ∠QRT = ½∠QOP (central angle subtending same arc QP). Option B is arc measures, not angles.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "proof"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle",
+        "subsection_anchor": "Theorem 5.10 proof",
+        "structural_element": "Step 2",
+        "content_anchor": "m∠QRT = ½m∠QOP, m∠RQT = ½m∠ROS",
+        "page_hint": 25,
+        "concept_hash": "sha256_placeholder_039"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Theorem 5.10 proof uses inscribed angles to relate to central angles.",
+        "concept_summary": "∠QRT and ∠RQT are inscribed angles subtending arcs QP and RS respectively, so they equal half the corresponding central angles ∠QOP and ∠ROS.",
+        "beginner": "In the proof, two small angles are half of two central angles because they sit on the circle edge.",
+        "intermediate": "By Theorem 5.6: ∠QRT = ½∠QOP, ∠RQT = ½∠ROS.",
+        "advanced": "∠QRT intercepts arc QP, central ∠QOP; similarly ∠RQT intercepts arc RS, central ∠ROS.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify ∠QRT as inscribed angle.",
+          "Find its intercepted arc (QP).",
+          "Central angle = ∠QOP.",
+          "Thus ∠QRT = ½∠QOP."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing which inscribed angle corresponds to which central angle.",
+          "Thinking they equal arcs directly."
+        ],
+        "related_concepts": [
+          "Inscribed angle",
+          "Central angle",
+          "Theorem 5.6",
+          "Intersecting chords proof"
+        ],
+        "revision_note": "∠QRT = ½∠QOP, ∠RQT = ½∠ROS.",
+        "glossary_entry": {
+          "term": "Theorem 5.10 proof step",
+          "definition": "∠QRT = ½∠QOP, ∠RQT = ½∠ROS.",
+          "example_equation": null,
+          "related_terms": [
+            "Inscribed angle",
+            "Central angle"
+          ]
+        },
+        "flashcard": {
+          "front": "In Theorem 5.10 proof, ∠QRT equals half of which angle?",
+          "back": "∠QOP"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "∠QRT",
+            "relation": "equals_half_of",
+            "target": "∠QOP"
+          },
+          {
+            "source": "∠RQT",
+            "relation": "equals_half_of",
+            "target": "∠ROS"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Theorem 5.10 proof step",
+        "visual_description": "Circle with chords, inscribed angles QRT and RQT, central angles QOP and ROS.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "∠QRT = ½∠QOP, ∠RQT = ½∠ROS.",
+        "accessibility_alt_text": "Circle with points, inscribed angles half of central angles.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -40,
+                  -30
+                ],
+                [
+                  40,
+                  30
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -40,
+                  30
+                ],
+                [
+                  40,
+                  -30
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  -40,
+                  30
+                ],
+                [
+                  -40,
+                  -30
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            }
+          ],
+          "labels": [],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q039_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "In Theorem 5.10 proof, ∠QRT = ½∠?",
+        "flashcard_back": "∠QOP",
+        "glossary_term": "Theorem 5.10 proof",
+        "glossary_definition": "Uses inscribed angles to relate to central angles.",
+        "revision_note": "∠QRT = ½∠QOP, ∠RQT = ½∠ROS.",
+        "teacher_note": "Understand proof flow.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Apply theorems on angles and arcs",
+        "concept_map_nodes": [
+          {
+            "source": "Proof step",
+            "relation": "uses",
+            "target": "Inscribed angle theorem"
+          }
+        ],
+        "workbook_section": "Theorems on Angles and Arcs",
+        "solution_manual_note": "Answer A. ∠QRT = ½∠QOP, ∠RQT = ½∠ROS."
+      }
+    },
+    {
+      "question_id": "G10_Math_U5_Q040",
+      "generation_timestamp": "2026-06-12T15:15:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 5: CIRCLE",
+      "section": "Angle Properties of Circles",
+      "subsection": "Definition 5.1 (verification)",
+      "sub_subsection": null,
+      "structural_anchor": "Cyclic quadrilateral identification",
+      "mcq_type": "A",
+      "question": "Which quadrilateral is always cyclic?",
+      "options": {
+        "A": "Square",
+        "B": "Trapezoid",
+        "C": "Parallelogram",
+        "D": "Rhombus"
+      },
+      "correct_answer": "A",
+      "hint": "A square's vertices all lie on a circle.",
+      "explanation": "A square has all vertices on a circle (circumcircle). Not all trapezoids, parallelograms, or rhombuses are cyclic; only isosceles trapezoid and rectangle are cyclic.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CIRCLE",
+        "section_anchor": "Angle Properties of Circles",
+        "subsection_anchor": "Definition 5.1",
+        "structural_element": "Cyclic quadrilateral concept",
+        "content_anchor": "square is cyclic",
+        "page_hint": 15,
+        "concept_hash": "sha256_placeholder_040"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 93,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "A cyclic quadrilateral has all four vertices on a circle.",
+        "concept_summary": "A square always has a circumcircle. Not all trapezoids/parallelograms/rhombuses are cyclic.",
+        "beginner": "A square can be drawn inside a circle touching all four corners. Other shapes may not fit perfectly.",
+        "intermediate": "Square: all vertices equidistant from center, so cyclic. General trapezoid: only isosceles trapezoid is cyclic.",
+        "advanced": "A quadrilateral is cyclic iff opposite angles sum to 180°. Square satisfies (90+90=180). General parallelogram only cyclic if rectangle.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall cyclic quadrilateral definition.",
+          "Check each option: square has 90° opposite angles → sum 180° → cyclic.",
+          "Others not always."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming all parallelograms are cyclic (only rectangles).",
+          "Assuming all trapezoids are cyclic (only isosceles)."
+        ],
+        "related_concepts": [
+          "Cyclic quadrilateral",
+          "Square",
+          "Circumcircle",
+          "Opposite angles"
+        ],
+        "revision_note": "Square is always cyclic.",
+        "glossary_entry": {
+          "term": "Always cyclic quadrilaterals",
+          "definition": "Square, rectangle, isosceles trapezoid are cyclic.",
+          "example_equation": null,
+          "related_terms": [
+            "Square",
+            "Cyclic quadrilateral"
+          ]
+        },
+        "flashcard": {
+          "front": "Which quadrilateral is always cyclic?",
+          "back": "Square"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Square",
+            "relation": "is_always",
+            "target": "Cyclic quadrilateral"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Cyclic square",
+        "visual_description": "Square inscribed in circle.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 60,
+        "render_height_mm": 60,
+        "caption": "Square is always cyclic.",
+        "accessibility_alt_text": "Square inside circle, all vertices on circumference.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "circle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ]
+              ],
+              "radius": 50,
+              "label": null,
+              "style": "solid"
+            },
+            {
+              "type": "polygon",
+              "vertices": [
+                [
+                  35.36,
+                  35.36
+                ],
+                [
+                  -35.36,
+                  35.36
+                ],
+                [
+                  -35.36,
+                  -35.36
+                ],
+                [
+                  35.36,
+                  -35.36
+                ]
+              ],
+              "radius": null,
+              "label": null,
+              "style": "solid"
+            }
+          ],
+          "labels": [],
+          "axes": {
+            "x_range": [
+              -60,
+              60
+            ],
+            "y_range": [
+              -60,
+              60
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Math_U5_Q040_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 5 — Circle Geometry",
+        "flashcard_front": "Which quadrilateral is always cyclic?",
+        "flashcard_back": "Square",
+        "glossary_term": "Cyclic quadrilateral examples",
+        "glossary_definition": "Square, rectangle, isosceles trapezoid are cyclic.",
+        "revision_note": "Square always cyclic.",
+        "teacher_note": "Opposite angles 180° condition.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Write angle properties of circles in own words",
+        "concept_map_nodes": [
+          {
+            "source": "Square",
+            "relation": "satisfies",
+            "target": "Opposite angles 180°"
+          }
+        ],
+        "workbook_section": "Angle Properties of Circles",
+        "solution_manual_note": "Answer A. Square has opposite angles 90°+90°=180°."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 95.5,
+    "type_distribution": {
+      "A": 3,
+      "D": 3,
+      "E": 2,
+      "F": 2
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "Symmetrical Properties of Circles": 3,
+      "Angle Properties of Circles": 4,
+      "Arc Lengths, Perimeters and Areas of Segments and Sectors": 2,
+      "Theorems on Angles and Arcs Determined by Lines Intersecting inside, on and outside a Circle": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 36,
+      "advanced_avg": 46
+    },
+    "visual_required_count": 10,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

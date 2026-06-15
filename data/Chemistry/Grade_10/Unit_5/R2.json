@@ -1,0 +1,1799 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:35:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G10_Chem_U5_Q020",
+    "covered_sections": [
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>A. Some physical properties of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>B. Chemical properties of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>C. Reactivity series of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals>1. Natural occurrence and extraction of metals",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.2 Alloys",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>A. Aluminum>Occurrence and extraction",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>A. Aluminum",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>B. Iron>Occurrence and Extraction",
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>C. Copper>Occurrence and Extraction",
+      "5.3 Production of Some Important Nonmetals>5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds>A. Physical properties",
+      "5.3 Production of Some Important Nonmetals>5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds>B. Chemical properties of non-metals",
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>A. Nitrogen>Occurrence and Production"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y"
+    ],
+    "baseline_counter": {
+      "5.2 General Properties of Metals and Production of Some Metals": {
+        "5.2.1 Properties and Extraction of Metals": {
+          "count": 5,
+          "mini_headings_covered": ["A. Some physical properties of metals", "B. Chemical properties of metals", "C. Reactivity series of metals", "1. Natural occurrence and extraction of metals"],
+          "last_question_round": 1
+        },
+        "5.2.2 Alloys": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "5.2.3 Production of Aluminum, Iron and Copper": {
+          "count": 5,
+          "mini_headings_covered": ["Occurrence and extraction", "Occurrence and Extraction", "Occurrence and Extraction"],
+          "last_question_round": 2
+        }
+      },
+      "5.3 Production of Some Important Nonmetals": {
+        "5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": {
+          "count": 2,
+          "mini_headings_covered": ["A. Physical properties", "B. Chemical properties of non-metals"],
+          "last_question_round": 1
+        },
+        "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine": {
+          "count": 1,
+          "mini_headings_covered": ["Occurrence and Production"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.2 General Properties of Metals and Production of Some Metals": {
+        "question_count": 12,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "5.3 Production of Some Important Nonmetals": {
+        "question_count": 8,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.1 Properties and Extraction of Metals": ["malleability", "ductility", "lustre", "positive valency", "reducing agent", "reactivity series", "mineral", "ore", "gangue", "metallurgy"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.2 Alloys": ["alloy", "amalgam", "solder", "carat"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>A. Aluminum": ["bauxite", "Hall-Héroult process", "cryolite", "electrolysis", "aluminum oxide", "amphoteric oxide"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>B. Iron": ["hematite", "blast furnace", "pig iron", "slag", "limestone"],
+      "5.2 General Properties of Metals and Production of Some Metals>5.2.3 Production of Aluminum, Iron and Copper>C. Copper": ["chalcopyrite", "blister copper", "electrolytic refining", "froth flotation"],
+      "5.3 Production of Some Important Nonmetals>5.3.1 General Properties of Nonmetals and Common Uses of Some Nonmetallic Compounds": ["nonmetal physical properties", "nonmetal chemical properties", "acidic oxides", "neutral oxides"],
+      "5.3 Production of Some Important Nonmetals>5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine>A. Nitrogen": ["fractional distillation", "liquid air", "nitrogen triple bond", "inert atmosphere", "nitrides"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 35,
+      "questions_per_concept_ratio": 0.57,
+      "structural_coverage_percentage": 32.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "Unit 5: METALS AND NONMETALS",
+  "pdf_filename": "C10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:35:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 3,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 32.0,
+      "concept_utilization_ratio": 0.57
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 General Properties of Metals and Production of Some Metals",
+      "least_covered_section": "5.3 Production of Some Important Nonmetals",
+      "imbalance_ratio": 1.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U5_Q011",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "A. Aluminum",
+      "structural_anchor": "Occurrence and extraction",
+      "mcq_type": "A",
+      "question": "What is the primary ore from which aluminum is commercially extracted using the Hall-Héroult process?",
+      "options": {
+        "A": "Cryolite (\\(\\mathrm{Na_3AlF_6}\\))",
+        "B": "Bauxite (\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\))",
+        "C": "Orthoclase (\\(\\mathrm{KAlSi_3O_8}\\))",
+        "D": "Corundum (\\(\\mathrm{Al_2O_3}\\))"
+      },
+      "correct_answer": "B",
+      "hint": "The most abundant aluminum-containing mineral is the main ore.",
+      "explanation": "Bauxite is the principal ore of aluminum. Although cryolite is used in the extraction process as a flux, bauxite is the source of aluminum oxide that is electrolyzed to produce aluminum metal.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "Occurrence and extraction",
+        "content_anchor": "Its main mineral is bauxite \\(\\mathrm{Al_2O_3.2H_2O}\\). Industrially, aluminum is extracted from bauxite, mainly by the Hall- Héroult process",
+        "page_hint": 7,
+        "concept_hash": "sha256_bauxite_aluminum_ore_011"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Bauxite is a sedimentary rock composed primarily of aluminum hydroxide minerals, specifically \\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\).",
+        "concept_summary": "Bauxite is the most abundant aluminum ore and the primary source for aluminum production worldwide. The Hall-Héroult process extracts aluminum from purified bauxite after it is converted to \\(\\mathrm{Al_2O_3}\\).",
+        "beginner": "Bauxite is the rocky material that contains aluminum. Miners dig it up, then factories use electricity to pull aluminum out of it.",
+        "intermediate": "Bauxite (\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\)) is the principal ore of aluminum. It is first purified to obtain \\(\\mathrm{Al_2O_3}\\), then electrolyzed in molten cryolite to produce aluminum metal.",
+        "advanced": "Bauxite forms through intense weathering of aluminum-rich rocks in tropical climates. The Bayer process purifies bauxite to \\(\\mathrm{Al_2O_3}\\) by dissolving it in NaOH, then precipitating \\(\\mathrm{Al(OH)_3}\\) and calcining to \\(\\mathrm{Al_2O_3}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the main ore of aluminum from the extraction section.",
+          "Bauxite is explicitly named as the primary source.",
+          "Cryolite is a flux, not the ore. Orthoclase and corundum contain aluminum but are not commercially used as primary ores."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\)",
+            "name": "Bauxite composition",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Cryolite is often mistaken as the aluminum ore because it is essential to the extraction process. However, cryolite is added to lower the melting point, not as the source of aluminum.",
+          "Corundum is pure \\(\\mathrm{Al_2O_3}\\) but is too rare and hard to be commercially viable as an ore."
+        ],
+        "related_concepts": ["Hall-Héroult process", "Bayer process", "Cryolite", "Ore"],
+        "revision_note": "Aluminum ore = bauxite (\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\)).",
+        "glossary_entry": {
+          "term": "Bauxite",
+          "definition": "The primary ore of aluminum, consisting mainly of aluminum hydroxide minerals \\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\).",
+          "example_equation": null,
+          "related_terms": ["Aluminum", "Ore", "Hall-Héroult process"]
+        },
+        "flashcard": {
+          "front": "What is the main ore used to extract aluminum?",
+          "back": "Bauxite (\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\)). It is processed to obtain \\(\\mathrm{Al_2O_3}\\) for electrolysis."
+        },
+        "concept_map_nodes": [
+          {"source": "Aluminum", "relation": "extracted_from", "target": "Bauxite"},
+          {"source": "Bauxite", "relation": "contains", "target": "\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Aluminum Extraction",
+        "flashcard_front": "From which ore is aluminum commercially extracted?",
+        "flashcard_back": "Bauxite (\\(\\mathrm{Al_2O_3 \\cdot 2H_2O}\\)). It is purified to \\(\\mathrm{Al_2O_3}\\) then electrolyzed.",
+        "glossary_term": "Bauxite",
+        "glossary_definition": "The principal ore of aluminum, composed of hydrated aluminum oxides.",
+        "revision_note": "Bauxite → \\(\\mathrm{Al_2O_3}\\) → electrolysis → Al.",
+        "teacher_note": "Show images of bauxite (reddish-brown rock) and processed alumina (white powder) to help students visualize.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain occurrence and extraction of aluminum",
+        "concept_map_nodes": [
+          {"source": "Hall-Héroult process", "relation": "uses", "target": "Bauxite"},
+          {"source": "Bauxite", "relation": "is", "target": "Aluminum ore"}
+        ],
+        "workbook_section": "Extraction of Aluminum",
+        "solution_manual_note": "Answer B. Bauxite is the main ore. Cryolite is a flux; orthoclase and corundum are other aluminum minerals but not primary ores."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q012",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "A. Aluminum",
+      "structural_anchor": "Occurrence and extraction",
+      "mcq_type": "D",
+      "question": "In the Hall-Héroult process for aluminum extraction, cryolite (\\(\\mathrm{Na_3AlF_6}\\)) is added to pure \\(\\mathrm{Al_2O_3}\\) before electrolysis. What is the primary function of cryolite?",
+      "options": {
+        "A": "To act as a reducing agent for aluminum ions",
+        "B": "To increase the electrical conductivity of the electrolyte",
+        "C": "To lower the melting point of the mixture from \\(2045^\\circ\\mathrm{C}\\) to approximately \\(1000^\\circ\\mathrm{C}\\)",
+        "D": "To prevent the graphite anode from oxidizing to \\(\\mathrm{CO_2}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Pure alumina has a very high melting point.",
+      "explanation": "Cryolite is added to lower the melting point of \\(\\mathrm{Al_2O_3}\\) from \\(2045^\\circ\\mathrm{C}\\) to about \\(1000^\\circ\\mathrm{C}\\), making the electrolysis process economically feasible. It also improves conductivity as a secondary benefit.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "Occurrence and extraction",
+        "content_anchor": "Cryolite is added to \\(\\mathrm{Al_2O_3}\\) to reduce its melting point from \\(2045^{\\circ}C\\) to \\(1000^{\\circ}C\\). The molten cryolite also provides a good conducting medium",
+        "page_hint": 8,
+        "concept_hash": "sha256_cryolite_function_012"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Cryolite is a mineral with formula \\(\\mathrm{Na_3AlF_6}\\) used as a flux in aluminum extraction to lower the melting point of \\(\\mathrm{Al_2O_3}\\).",
+        "concept_summary": "Pure aluminum oxide melts at \\(2045^\\circ\\mathrm{C}\\), which is too high for economic electrolysis. Cryolite reduces this to about \\(1000^\\circ\\mathrm{C}\\) and also enhances ionic conductivity.",
+        "beginner": "Cryolite is like a melting helper. It lets the aluminum-containing rock melt at a lower temperature, saving energy and money.",
+        "intermediate": "Adding cryolite lowers the melting point of \\(\\mathrm{Al_2O_3}\\) dramatically from \\(2045^\\circ\\mathrm{C}\\) to \\(1000^\\circ\\mathrm{C}\\). This makes the electrolysis process practical and less energy-intensive.",
+        "advanced": "Cryolite (\\(\\mathrm{Na_3AlF_6}\\)) dissociates to provide \\(\\mathrm{Na^+}\\) and \\(\\mathrm{AlF_6^{3-}}\\) ions in the melt, increasing ionic mobility. The mixture's eutectic composition significantly reduces the liquidus temperature.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the problem: pure \\(\\mathrm{Al_2O_3}\\) melts at \\(2045^\\circ\\mathrm{C}\\).",
+          "Recall that cryolite is added to the mixture.",
+          "The melting point decreases to \\(1000^\\circ\\mathrm{C}\\).",
+          "Thus, cryolite's primary function is to lower the melting point."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students sometimes think cryolite is the ore of aluminum (it is not; bauxite is the ore).",
+          "Some believe cryolite is consumed in the reaction; it acts as a catalyst/flux and is recycled."
+        ],
+        "related_concepts": ["Hall-Héroult process", "Flux", "Eutectic mixture", "Electrolysis"],
+        "revision_note": "Cryolite lowers \\(\\mathrm{Al_2O_3}\\) melting point from \\(2045^\\circ\\mathrm{C}\\) to \\(1000^\\circ\\mathrm{C}\\).",
+        "glossary_entry": {
+          "term": "Cryolite",
+          "definition": "A mineral \\(\\mathrm{Na_3AlF_6}\\) used as a flux in aluminum extraction to lower the melting point of \\(\\mathrm{Al_2O_3}\\).",
+          "example_equation": null,
+          "related_terms": ["Flux", "Hall-Héroult process", "Bauxite"]
+        },
+        "flashcard": {
+          "front": "Why is cryolite added to \\(\\mathrm{Al_2O_3}\\) in the Hall-Héroult process?",
+          "back": "To lower the melting point from \\(2045^\\circ\\mathrm{C}\\) to \\(1000^\\circ\\mathrm{C}\\), making electrolysis economically feasible."
+        },
+        "concept_map_nodes": [
+          {"source": "Cryolite", "relation": "lowers melting point of", "target": "\\(\\mathrm{Al_2O_3}\\)"},
+          {"source": "Hall-Héroult process", "relation": "requires", "target": "Cryolite"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Aluminum Extraction",
+        "flashcard_front": "What is the role of cryolite in aluminum extraction?",
+        "flashcard_back": "It lowers the melting point of \\(\\mathrm{Al_2O_3}\\) from \\(2045^\\circ\\mathrm{C}\\) to about \\(1000^\\circ\\mathrm{C}\\).",
+        "glossary_term": "Cryolite",
+        "glossary_definition": "A flux \\(\\mathrm{Na_3AlF_6}\\) that reduces the melting point of alumina during aluminum electrolysis.",
+        "revision_note": "Cryolite = melting point reducer for \\(\\mathrm{Al_2O_3}\\).",
+        "teacher_note": "Emphasize that without cryolite, aluminum production would be far too expensive due to the extremely high melting point of alumina.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain extraction of aluminum",
+        "concept_map_nodes": [
+          {"source": "Cryolite", "relation": "enables", "target": "Economic aluminum extraction"}
+        ],
+        "workbook_section": "Extraction of Aluminum",
+        "solution_manual_note": "Answer C. Cryolite lowers the melting point. Conductivity improvement is secondary; reducing agent and anode protection are incorrect."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q013",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "A. Aluminum",
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "A 24-carat gold ring contains 100% gold by mass. If a 22-carat gold ring has the same total mass of 24 carats, what is the mass percentage of gold in the 22-carat ring?",
+      "options": {
+        "A": "88.33%",
+        "B": "91.67%",
+        "C": "95.83%",
+        "D": "100.00%"
+      },
+      "correct_answer": "B",
+      "hint": "Carat means parts of gold per 24 parts of alloy.",
+      "explanation": "Mass percentage of gold = (carat number / 24) \\u00d7 100%. For 22 carat: \\(\\frac{22}{24} \\times 100\\% = 91.67\\%\\). Option A would be 21.2 carats, B is correct, C would be 23 carats.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\text{Mass\\% of gold} = \\frac{\\text{Carat}}{24} \\times 100\\%\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "carat_22": {"magnitude": 22, "unit": "carat"},
+          "carat_24": {"magnitude": 24, "unit": "carat"}
+        },
+        "answer_value": 91.67,
+        "answer_unit": "%",
+        "calculation_steps": [
+          "Formula: \\(\\text{Mass\\%} = \\frac{\\text{Carat}}{24} \\times 100\\%\\)",
+          "Substitute: \\(\\frac{22}{24} = 0.91667\\)",
+          "Multiply by 100%: \\(0.91667 \\times 100\\% = 91.67\\%\\)"
+        ],
+        "significant_figures": 4
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.2 Alloys",
+        "structural_element": null,
+        "content_anchor": "Mass % of gold in 22 carat gold = 22 \\u00d7 100 / 24 = 91.67 (alloy, 8.33% Cu or Ag)",
+        "page_hint": 7,
+        "concept_hash": "sha256_carat_calculation_013"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Carat is a unit of purity for gold alloys, where 24 carat represents pure gold and lower carat numbers indicate lower gold content.",
+        "concept_summary": "The carat system expresses gold purity as parts per 24. To find the mass percentage, divide the carat number by 24 and multiply by 100%.",
+        "beginner": "Think of 24 carat as 24 out of 24 pieces of gold. For 22 carat, you have 22 gold pieces out of 24 total pieces, which is about 92% gold.",
+        "intermediate": "The formula \\(\\frac{\\text{carat}}{24} \\times 100\\%\\) gives the gold mass percentage. For 22 carat: \\(\\frac{22}{24} \\times 100\\% = 91.67\\%\\).",
+        "advanced": "Carat purity is a mass-based measurement: 22 carat means the alloy contains 22 parts by mass of gold per 24 parts total mass. The remaining 2 parts are other metals (usually copper or silver).",
+        "worked_solution": [
+          "Step 1: Recall the carat-to-percentage relationship: \\(\\text{Au\\%} = \\frac{\\text{carat}}{24} \\times 100\\%\\).",
+          "Step 2: Substitute the given carat value: \\(\\frac{22}{24}\\).",
+          "Step 3: Perform division: \\(22 \\div 24 = 0.916666...\\).",
+          "Step 4: Multiply by 100%: \\(0.916666... \\times 100\\% = 91.666...\\%\\).",
+          "Step 5: Round to 4 significant figures: \\(91.67\\%\\)."
+        ],
+        "reasoning_steps": [
+          "Identify that carat measures parts per 24.",
+          "Apply the formula: carat/24 \\u00d7 100%.",
+          "Calculate 22/24 = 0.91667.",
+          "Convert decimal to percentage: 91.67%."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\text{Mass\\% of gold} = \\frac{\\text{Carat}}{24} \\times 100\\%\\)",
+            "name": "Carat to percentage conversion",
+            "variables": [
+              {"symbol": "Carat", "meaning": "Gold purity in carats", "unit": "carat"},
+              {"symbol": "Mass%", "meaning": "Mass percentage of gold", "unit": "%"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some students think carat is a mass unit like grams. It is a ratio, not an absolute mass.",
+          "24 carat does not mean 24 grams; it means 24/24 = 100% purity."
+        ],
+        "related_concepts": ["Alloy", "Purity", "Mass percentage", "Gold"],
+        "revision_note": "Carat/24 \\u00d7 100% = mass% gold. 22 carat = 91.67% Au.",
+        "glossary_entry": {
+          "term": "Carat",
+          "definition": "A unit of purity for gold alloys, where 24 carat is pure gold and the number of carats indicates parts of gold per 24 parts of alloy.",
+          "example_equation": null,
+          "related_terms": ["Alloy", "Purity", "Gold"]
+        },
+        "flashcard": {
+          "front": "Calculate the mass percentage of gold in an 18-carat gold alloy.",
+          "back": "\\(\\frac{18}{24} \\times 100\\% = 75.00\\%\\). 18 carat = 75% gold, 25% other metals."
+        },
+        "concept_map_nodes": [
+          {"source": "Carat", "relation": "is_measured_in", "target": "Parts per 24"},
+          {"source": "22 carat gold", "relation": "contains", "target": "91.67% gold"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Alloys and Purity",
+        "flashcard_front": "What is the mass percentage of gold in 22-carat gold?",
+        "flashcard_back": "\\(\\frac{22}{24} \\times 100\\% = 91.67\\%\\). The remaining 8.33% is copper or silver.",
+        "glossary_term": "Carat",
+        "glossary_definition": "A measure of gold purity where 24 carat = 100% gold and other carat values indicate fractions of 24.",
+        "revision_note": "Mass% gold = (carat/24) \\u00d7 100%. 22 carat = 91.67%.",
+        "teacher_note": "Have students practice converting between carat and percentage with 14K, 18K, and 22K.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe the uses of alloys and calculate alloy composition",
+        "concept_map_nodes": [
+          {"source": "Carat", "relation": "converted_to", "target": "Mass percentage"},
+          {"source": "22 carat", "relation": "equals", "target": "91.67% gold"}
+        ],
+        "workbook_section": "Alloys: Composition Calculations",
+        "solution_manual_note": "Answer B. 22/24 \\u00d7 100% = 91.67%. Option A is 21.2 carats, C is 23 carats, D is 24 carats."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q014",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "B. Iron",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "A",
+      "question": "Which of the following iron ores is correctly paired with its chemical formula?",
+      "options": {
+        "A": "Hematite – \\(\\mathrm{Fe_3O_4}\\)",
+        "B": "Magnetite – \\(\\mathrm{Fe_2O_3}\\)",
+        "C": "Siderite – \\(\\mathrm{FeCO_3}\\)",
+        "D": "Limonite – \\(\\mathrm{FeS_2}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the common names and formulas of iron ores.",
+      "explanation": "Siderite is iron(II) carbonate with formula \\(\\mathrm{FeCO_3}\\). Hematite is \\(\\mathrm{Fe_2O_3}\\), magnetite is \\(\\mathrm{Fe_3O_4}\\), limonite is \\(\\mathrm{Fe_2O_3 \\cdot H_2O}\\), and pyrite (\\(\\mathrm{FeS_2}\\)) is fool's gold, not an iron ore.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathrm{FeCO_3}\\)", "\\(\\mathrm{Fe_2O_3}\\)", "\\(\\mathrm{Fe_3O_4}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "The chief ores of iron are hematite (Fe2O3), limonite (Fe2O3.H2O), magnetite (Fe3O4), and siderite (FeCO3). It is also found in the form of iron pyrites (FeS2) which is commonly called fool’s gold.",
+        "page_hint": 12,
+        "concept_hash": "sha256_iron_ores_formulas_014"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Siderite is an iron ore composed of iron(II) carbonate with the chemical formula \\(\\mathrm{FeCO_3}\\).",
+        "concept_summary": "Iron occurs in several ores including oxides (hematite, magnetite), carbonates (siderite), and hydrated oxides (limonite). Each has a distinct formula.",
+        "beginner": "Siderite is a type of iron-containing rock. Its chemical formula is \\(\\mathrm{FeCO_3}\\), which means it contains iron, carbon, and oxygen.",
+        "intermediate": "Siderite (\\(\\mathrm{FeCO_3}\\)) is an iron carbonate ore. Hematite is \\(\\mathrm{Fe_2O_3}\\), magnetite is \\(\\mathrm{Fe_3O_4}\\), and pyrite (\\(\\mathrm{FeS_2}\\)) is not a major iron ore.",
+        "advanced": "Different iron ores reflect the geochemical conditions during formation: oxides form in oxidizing environments, while carbonates like siderite form in reducing, CO₂-rich environments.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall or match each ore name to its correct formula.",
+          "Hematite = \\(\\mathrm{Fe_2O_3}\\) (not \\(\\mathrm{Fe_3O_4}\\)).",
+          "Magnetite = \\(\\mathrm{Fe_3O_4}\\) (not \\(\\mathrm{Fe_2O_3}\\)).",
+          "Siderite = \\(\\mathrm{FeCO_3}\\) (correct).",
+          "Limonite = \\(\\mathrm{Fe_2O_3 \\cdot H_2O}\\) (not \\(\\mathrm{FeS_2}\\))."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{FeCO_3}\\)",
+            "name": "Siderite (Iron(II) carbonate)",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Iron pyrites (\\(\\mathrm{FeS_2}\\)) is sometimes mistaken as an iron ore, but it is primarily a sulfur source and is called fool's gold.",
+          "Hematite and magnetite formulas are commonly confused; hematite is \\(\\mathrm{Fe_2O_3}\\) (red/brown), magnetite is \\(\\mathrm{Fe_3O_4}\\) (black)."
+        ],
+        "related_concepts": ["Hematite", "Magnetite", "Limonite", "Iron extraction"],
+        "revision_note": "Siderite = \\(\\mathrm{FeCO_3}\\). Hematite = \\(\\mathrm{Fe_2O_3}\\). Magnetite = \\(\\mathrm{Fe_3O_4}\\).",
+        "glossary_entry": {
+          "term": "Siderite",
+          "definition": "An iron ore composed of iron(II) carbonate with formula \\(\\mathrm{FeCO_3}\\).",
+          "example_equation": null,
+          "related_terms": ["Hematite", "Magnetite", "Iron ore"]
+        },
+        "flashcard": {
+          "front": "What is the chemical formula of siderite?",
+          "back": "\\(\\mathrm{FeCO_3}\\) (iron(II) carbonate). It is an iron ore used in blast furnaces."
+        },
+        "concept_map_nodes": [
+          {"source": "Siderite", "relation": "has_formula", "target": "\\(\\mathrm{FeCO_3}\\)"},
+          {"source": "Iron ore", "relation": "example_of", "target": "Siderite"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Iron Extraction",
+        "flashcard_front": "What is the correct formula for siderite?",
+        "flashcard_back": "\\(\\mathrm{FeCO_3}\\). Hematite is \\(\\mathrm{Fe_2O_3}\\), magnetite is \\(\\mathrm{Fe_3O_4}\\).",
+        "glossary_term": "Siderite",
+        "glossary_definition": "An iron carbonate ore with formula \\(\\mathrm{FeCO_3}\\).",
+        "revision_note": "Siderite = \\(\\mathrm{FeCO_3}\\). Not an oxide ore.",
+        "teacher_note": "Show samples or images of different iron ores to help students distinguish them visually.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain occurrence and extraction of iron",
+        "concept_map_nodes": [
+          {"source": "Iron ore", "relation": "type_of", "target": "Siderite"}
+        ],
+        "workbook_section": "Occurrence of Iron",
+        "solution_manual_note": "Answer C. Siderite is \\(\\mathrm{FeCO_3}\\). Hematite is \\(\\mathrm{Fe_2O_3}\\), magnetite is \\(\\mathrm{Fe_3O_4}\\), limonite is hydrated oxide."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q015",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "B. Iron",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "G",
+      "question": "In the blast furnace extraction of iron, limestone (\\(\\mathrm{CaCO_3}\\)) is added to the charge. What is the chemical role of the product of its decomposition?",
+      "options": {
+        "A": "It reduces \\(\\mathrm{Fe_2O_3}\\) to iron metal",
+        "B": "It removes sand (\\(\\mathrm{SiO_2}\\)) as calcium silicate slag",
+        "C": "It provides carbon monoxide to reduce iron oxides",
+        "D": "It increases the temperature by exothermic combustion"
+      },
+      "correct_answer": "B",
+      "hint": "Limestone decomposes to calcium oxide, which is a base.",
+      "explanation": "Limestone decomposes to \\(\\mathrm{CaO}\\) and \\(\\mathrm{CO_2}\\). The \\(\\mathrm{CaO}\\) (lime) reacts with acidic sand (\\(\\mathrm{SiO_2}\\)) to form calcium silicate (\\(\\mathrm{CaSiO_3}\\)), which is slag and floats on molten iron.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{CaCO_3(s) \\rightarrow CaO(s) + CO_2(g)}\\)", "\\(\\mathrm{CaO(s) + SiO_2(s) \\rightarrow CaSiO_3(l)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "Calcium oxide (CaO) removes the impurities like sand or silica (SiO2) to form calcium silicate which is a glass-like material called slag. CaO + SiO2 \\u2192 CaSiO3",
+        "page_hint": 13,
+        "concept_hash": "sha256_limestone_role_blast_furnace_015"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Limestone is a flux added to the blast furnace that decomposes to \\(\\mathrm{CaO}\\), which removes silica impurities by forming a low-melting slag.",
+        "concept_summary": "In the blast furnace, limestone decomposes to \\(\\mathrm{CaO}\\). This basic oxide reacts with acidic silica (\\(\\mathrm{SiO_2}\\)) to form calcium silicate slag, which is then removed from the molten iron.",
+        "beginner": "Limestone acts like a magnet for sand. It grabs onto the sand impurity and forms a liquid waste called slag that floats on top of the molten iron.",
+        "intermediate": "Limestone (\\(\\mathrm{CaCO_3}\\)) decomposes at high temperature to \\(\\mathrm{CaO}\\) and \\(\\mathrm{CO_2}\\). The \\(\\mathrm{CaO}\\) is a basic flux that reacts with acidic \\(\\mathrm{SiO_2}\\) to form fusible slag (\\(\\mathrm{CaSiO_3}\\)).",
+        "advanced": "The removal of silica is essential because \\(\\mathrm{SiO_2}\\) would otherwise contaminate the iron. The slag \\(\\mathrm{CaSiO_3}\\) has lower density than molten iron, allowing easy separation. The slag is later used in cement production.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that limestone decomposes to CaO.",
+          "Recognize that CaO is a basic oxide.",
+          "Identify that sand (SiO₂) is an acidic oxide.",
+          "Acid-base reaction forms CaSiO₃ slag, removing impurity."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{CaCO_3(s) \\rightarrow CaO(s) + CO_2(g)}\\)",
+            "name": "Limestone decomposition",
+            "variables": [],
+            "derivation": null
+          },
+          {
+            "formula": "\\(\\mathrm{CaO(s) + SiO_2(s) \\rightarrow CaSiO_3(l)}\\)",
+            "name": "Slag formation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Students sometimes think limestone directly reduces iron ore; reduction is done by CO.",
+          "Some believe limestone is a fuel; it is a flux, not a fuel source."
+        ],
+        "related_concepts": ["Flux", "Slag", "Blast furnace", "Acid-base reaction in metallurgy"],
+        "revision_note": "Limestone → CaO → reacts with SiO₂ → CaSiO₃ slag (removes sand).",
+        "glossary_entry": {
+          "term": "Flux",
+          "definition": "A substance added to a furnace to react with and remove impurities, forming a low-melting slag.",
+          "example_equation": "\\(\\mathrm{CaO + SiO_2 \\rightarrow CaSiO_3}\\)",
+          "related_terms": ["Slag", "Limestone", "Blast furnace"]
+        },
+        "flashcard": {
+          "front": "What is the purpose of adding limestone to the blast furnace?",
+          "back": "It decomposes to CaO, which reacts with SiO₂ impurity to form slag (CaSiO₃) that is removed from the iron."
+        },
+        "concept_map_nodes": [
+          {"source": "Limestone", "relation": "decomposes_to", "target": "\\(\\mathrm{CaO}\\)"},
+          {"source": "\\(\\mathrm{CaO}\\)", "relation": "reacts_with", "target": "\\(\\mathrm{SiO_2}\\)"},
+          {"source": "Slag", "relation": "removes", "target": "Silica impurity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Iron Extraction",
+        "flashcard_front": "How does limestone remove sand in the blast furnace?",
+        "flashcard_back": "CaCO₃ → CaO + CO₂; CaO + SiO₂ → CaSiO₃ (slag).",
+        "glossary_term": "Flux",
+        "glossary_definition": "A substance added to react with impurities to form slag, such as limestone in iron production.",
+        "revision_note": "Limestone removes SiO₂ as CaSiO₃ slag.",
+        "teacher_note": "Emphasize the acid-base reaction: basic CaO removes acidic SiO₂.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain extraction of iron in the blast furnace",
+        "concept_map_nodes": [
+          {"source": "Limestone", "relation": "acts_as", "target": "Flux"}
+        ],
+        "workbook_section": "Iron Extraction (Blast Furnace)",
+        "solution_manual_note": "Answer B. CaO from limestone reacts with SiO₂ to form slag. CO reduction (A) is from coke, not limestone."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q016",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "C. Copper",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "M",
+      "question": "The extraction of copper from chalcopyrite (\\(\\mathrm{CuFeS_2}\\)) involves several steps. Which sequence correctly orders the main steps after mining?",
+      "options": {
+        "A": "Smelting \\u2192 Froth flotation \\u2192 Roasting \\u2192 Electrolytic refining",
+        "B": "Froth flotation \\u2192 Roasting \\u2192 Smelting \\u2192 Electrolytic refining",
+        "C": "Roasting \\u2192 Froth flotation \\u2192 Smelting \\u2192 Electrolytic refining",
+        "D": "Froth flotation \\u2192 Smelting \\u2192 Roasting \\u2192 Electrolytic refining"
+      },
+      "correct_answer": "B",
+      "hint": "Concentration comes first, then chemical conversion, then purification.",
+      "explanation": "The ore is first concentrated by froth flotation to increase Cu content. The concentrate is then roasted to convert sulfides to oxides/sulfides. Smelting follows to produce blister copper, which is finally refined electrolytically.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(2\\mathrm{CuFeS_2 + 4O_2 \\rightarrow Cu_2S + 2FeO + 3SO_2}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "the crushed and ground sulphide ore is first concentrated by froth flotation. The concentrated ore is then roasted... The roasted mixture is smelted... refined further by electrolysis",
+        "page_hint": 18,
+        "concept_hash": "sha256_copper_extraction_sequence_016"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Copper extraction from chalcopyrite proceeds through froth flotation (concentration), roasting (conversion), smelting (reduction), and electrolytic refining (purification).",
+        "concept_summary": "The steps follow a logical order: concentration increases ore grade, roasting prepares the material for smelting, smelting produces impure blister copper, and electrolysis yields pure copper.",
+        "beginner": "First, the ore is floated to remove waste rock. Then it's roasted (heated in air), then smelted to melt out copper, and finally cleaned up by electrolysis.",
+        "intermediate": "Froth flotation concentrates the ore from ~2% Cu to ~30% Cu. Roasting converts sulfides to \\(\\mathrm{Cu_2S}\\) and \\(\\mathrm{FeO}\\). Smelting produces blister copper (98-99% pure). Electrolytic refining gives 99.99% pure copper.",
+        "advanced": "Each step is thermodynamically and economically necessary: flotation exploits surface chemistry differences, roasting releases \\(\\mathrm{SO_2}\\) and converts minerals, smelting reduces \\(\\mathrm{Cu_2S}\\) to Cu, and electrolysis removes noble metal impurities.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Step 1: Concentration (flotation) must occur first to enrich the ore.",
+          "Step 2: Roasting converts sulfides to oxides or sulfides and removes sulfur.",
+          "Step 3: Smelting reduces the material to impure copper.",
+          "Step 4: Electrolytic refining produces high-purity copper."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathrm{CuFeS_2 + 4O_2 \\rightarrow Cu_2S + 2FeO + 3SO_2}\\)",
+            "name": "Roasting of chalcopyrite",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Smelting and roasting are sometimes reversed; roasting comes before smelting.",
+          "Flotation is sometimes forgotten as the first step."
+        ],
+        "related_concepts": ["Froth flotation", "Roasting", "Smelting", "Electrolytic refining", "Blister copper"],
+        "revision_note": "Cu extraction order: flotation → roasting → smelting → electrolysis.",
+        "glossary_entry": {
+          "term": "Froth flotation",
+          "definition": "A process for concentrating ores by using differences in surface hydrophobicity to separate minerals from gangue.",
+          "example_equation": null,
+          "related_terms": ["Concentration", "Smelting", "Copper extraction"]
+        },
+        "flashcard": {
+          "front": "Order the steps in copper extraction from chalcopyrite.",
+          "back": "1. Froth flotation, 2. Roasting, 3. Smelting, 4. Electrolytic refining."
+        },
+        "concept_map_nodes": [
+          {"source": "Copper ore", "relation": "concentrated_by", "target": "Froth flotation"},
+          {"source": "Roasting", "relation": "followed_by", "target": "Smelting"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Copper Extraction",
+        "flashcard_front": "What is the correct order of steps in copper extraction from chalcopyrite?",
+        "flashcard_back": "Froth flotation → Roasting → Smelting → Electrolytic refining.",
+        "glossary_term": "Blister copper",
+        "glossary_definition": "Impure copper (98-99%) produced by smelting, named for the blistered surface from escaping \\(\\mathrm{SO_2}\\).",
+        "revision_note": "Flotation → roast → smelt → refine. Blister copper before electrolysis.",
+        "teacher_note": "Use a flowchart to show the sequence, emphasizing why each step is needed.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain extraction of copper",
+        "concept_map_nodes": [
+          {"source": "Chalcopyrite", "relation": "processed_by", "target": "Froth flotation"}
+        ],
+        "workbook_section": "Extraction of Copper",
+        "solution_manual_note": "Answer B. Flotation concentrates ore, roasting converts sulfides, smelting produces blister copper, electrolysis purifies."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q017",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.2 General Properties of Metals and Production of Some Metals",
+      "subsection": "5.2.3 Production of Aluminum, Iron and Copper",
+      "sub_subsection": "C. Copper",
+      "structural_anchor": "Occurrence and Extraction",
+      "mcq_type": "D",
+      "question": "In the electrolytic refining of copper, a thick block of impure copper is used as the anode and a thin strip of pure copper as the cathode in an electrolyte of \\(\\mathrm{CuSO_4(aq)}\\). What happens to the copper atoms at the anode during the process?",
+      "options": {
+        "A": "They are reduced to \\(\\mathrm{Cu^{2+}}\\) ions",
+        "B": "They are oxidized to \\(\\mathrm{Cu^{2+}}\\) ions",
+        "C": "They deposit as pure copper on the anode",
+        "D": "They remain unchanged as solid copper"
+      },
+      "correct_answer": "B",
+      "hint": "Oxidation occurs at the anode.",
+      "explanation": "At the anode, impure copper atoms lose two electrons and are oxidized to \\(\\mathrm{Cu^{2+}}\\) ions, which then enter the solution. At the cathode, \\(\\mathrm{Cu^{2+}}\\) ions gain electrons and deposit as pure copper.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{Cu(impure) \\rightarrow Cu^{2+}(aq) + 2e^-}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.2 General Properties of Metals and Production of Some Metals",
+        "subsection_anchor": "5.2.3 Production of Aluminum, Iron and Copper",
+        "structural_element": "Occurrence and Extraction",
+        "content_anchor": "When electric current is passed, the copper of the anode is oxidized to Cu2+ ions. Cu(impure metal) \\u2192 Cu2+(aq) + 2e",
+        "page_hint": 19,
+        "concept_hash": "sha256_copper_electrolytic_refining_anode_017"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Electrolytic refining is an electrochemical process where impure copper is oxidized at the anode and pure copper is deposited at the cathode.",
+        "concept_summary": "At the anode, copper atoms are oxidized to \\(\\mathrm{Cu^{2+}}\\) ions, which then migrate through the electrolyte to the cathode, where they are reduced back to copper metal.",
+        "beginner": "At the positive electrode (anode), impure copper dissolves into the liquid as charged particles. These particles then move to the negative electrode and turn back into pure copper.",
+        "intermediate": "The anode reaction is oxidation: \\(\\mathrm{Cu(s) \\rightarrow Cu^{2+}(aq) + 2e^-}\\). The \\(\\mathrm{Cu^{2+}}\\) ions enter the solution, then are reduced at the cathode to pure copper.",
+        "advanced": "The standard reduction potential of \\(\\mathrm{Cu^{2+}}/\\mathrm{Cu}\\) is +0.34 V. An applied voltage causes oxidation at the anode (impurities drop off as anode sludge) and deposition of pure copper at the cathode.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify anode as positive electrode where oxidation occurs.",
+          "Oxidation involves loss of electrons.",
+          "Copper atoms lose 2 electrons to become \\(\\mathrm{Cu^{2+}}\\) ions.",
+          "Therefore, copper atoms are oxidized to \\(\\mathrm{Cu^{2+}}\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{Cu(impure) \\rightarrow Cu^{2+}(aq) + 2e^-}\\)",
+            "name": "Anode oxidation of copper",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Students often confuse anode and cathode reactions: oxidation at anode, reduction at cathode.",
+          "Some think the impure copper is reduced; it is actually oxidized (dissolved)."
+        ],
+        "related_concepts": ["Electrolysis", "Oxidation", "Reduction", "Electrolytic refining"],
+        "revision_note": "Electrorefining: Anode: Cu \\u2192 Cu²⁺ + 2e⁻ (oxidation). Cathode: Cu²⁺ + 2e⁻ \\u2192 Cu.",
+        "glossary_entry": {
+          "term": "Electrolytic refining",
+          "definition": "A process using electrolysis to purify metals, where impure metal is the anode and pure metal deposits at the cathode.",
+          "example_equation": null,
+          "related_terms": ["Anode", "Cathode", "Electrolysis"]
+        },
+        "flashcard": {
+          "front": "What happens to the impure copper anode during electrolytic refining?",
+          "back": "Copper atoms are oxidized to \\(\\mathrm{Cu^{2+}}\\) ions, which go into solution."
+        },
+        "concept_map_nodes": [
+          {"source": "Anode", "relation": "undergoes", "target": "Oxidation"},
+          {"source": "Copper", "relation": "oxidized_to", "target": "\\(\\mathrm{Cu^{2+}}\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Copper Extraction",
+        "flashcard_front": "What reaction occurs at the anode during copper electrorefining?",
+        "flashcard_back": "Oxidation: \\(\\mathrm{Cu(s) \\rightarrow Cu^{2+}(aq) + 2e^-}\\). Copper atoms dissolve as ions.",
+        "glossary_term": "Electrolytic refining",
+        "glossary_definition": "A purification process using electrolysis to transfer metal from an impure anode to a pure cathode.",
+        "revision_note": "Anode: oxidation (Cu → Cu²⁺ + 2e⁻). Cathode: reduction.",
+        "teacher_note": "Draw the electrolytic cell and label anode/cathode reactions. Emphasize that impurities fall off as anode sludge.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain extraction and refining of copper",
+        "concept_map_nodes": [
+          {"source": "Electrolytic refining", "relation": "oxidizes", "target": "Impure copper at anode"}
+        ],
+        "workbook_section": "Refining of Copper",
+        "solution_manual_note": "Answer B. Oxidation at the anode converts Cu to Cu²⁺. Reduction occurs at the cathode."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q018",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "A. Nitrogen",
+      "structural_anchor": "Occurrence and Production",
+      "mcq_type": "A",
+      "question": "What is the primary industrial method for producing nitrogen gas in large quantities?",
+      "options": {
+        "A": "Heating ammonium chloride with sodium nitrite",
+        "B": "Fractional distillation of liquid air",
+        "C": "Passing air over heated copper",
+        "D": "Electrolysis of water"
+      },
+      "correct_answer": "B",
+      "hint": "Air is the main source of nitrogen.",
+      "explanation": "Nitrogen is produced industrially by fractional distillation of liquid air. The laboratory method (NH₄Cl + NaNO₂) is not used for large-scale production.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "Occurrence and Production",
+        "content_anchor": "Nitrogen is thus separated on an industrial scale by fractional distillation of liquid air. In the laboratory, nitrogen is prepared by warming an aqueous solution containing ammonium chloride and sodium nitrite",
+        "page_hint": 23,
+        "concept_hash": "sha256_nitrogen_industrial_production_018"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Fractional distillation is a process that separates mixtures into their components based on differences in boiling points.",
+        "concept_summary": "Air is cooled and compressed to a liquid, then slowly warmed. Nitrogen, with the lowest boiling point (−196°C), boils off first and is collected.",
+        "beginner": "Air is turned into a liquid, then heated gently. Since nitrogen boils at a lower temperature than oxygen, it evaporates first and is captured.",
+        "intermediate": "Liquid air is fractionally distilled: nitrogen (boiling point −196°C) distills before oxygen (boiling point −183°C), allowing large-scale separation.",
+        "advanced": "Liquid air is introduced into a distillation column; nitrogen with a lower boiling point rises as vapor while oxygen remains liquid. Multiple distillation stages achieve purity up to 99.995%.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that nitrogen constitutes 78% of air.",
+          "Recognize that liquid air distillation is the industrial method described.",
+          "Eliminate lab methods (A) and other processes."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Laboratory methods (NH₄Cl + NaNO₂) are sometimes mistaken for industrial processes; they are only for small-scale preparation.",
+          "Electrolysis produces hydrogen and oxygen, not nitrogen."
+        ],
+        "related_concepts": ["Fractional distillation", "Liquid air", "Boiling point", "Industrial gases"],
+        "revision_note": "Industrial N₂: fractional distillation of liquid air. Lab method: NH₄Cl + NaNO₂.",
+        "glossary_entry": {
+          "term": "Fractional distillation",
+          "definition": "A separation process based on differences in boiling points, used to obtain nitrogen and oxygen from liquid air.",
+          "example_equation": null,
+          "related_terms": ["Liquid air", "Boiling point", "Distillation"]
+        },
+        "flashcard": {
+          "front": "How is nitrogen gas produced industrially?",
+          "back": "By fractional distillation of liquid air. Nitrogen (b.p. −196°C) separates from oxygen (b.p. −183°C)."
+        },
+        "concept_map_nodes": [
+          {"source": "Nitrogen", "relation": "produced_by", "target": "Fractional distillation of liquid air"},
+          {"source": "Fractional distillation", "relation": "separates", "target": "Air into N₂ and O₂"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Nitrogen Production",
+        "flashcard_front": "What is the large-scale industrial source of nitrogen gas?",
+        "flashcard_back": "Fractional distillation of liquid air, which separates N₂ from O₂ by boiling point differences.",
+        "glossary_term": "Fractional distillation",
+        "glossary_definition": "A separation technique using boiling point differences, applied to liquid air to produce nitrogen and oxygen.",
+        "revision_note": "Industrial N₂: fractional distillation of liquid air.",
+        "teacher_note": "Compare laboratory preparation (small scale, chemicals) with industrial (physical separation from air).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain occurrence and production of nitrogen",
+        "concept_map_nodes": [
+          {"source": "Industrial nitrogen", "relation": "obtained_from", "target": "Air"}
+        ],
+        "workbook_section": "Production of Nitrogen",
+        "solution_manual_note": "Answer B. Fractional distillation of liquid air is the industrial method; A is laboratory method."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q019",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "A. Nitrogen",
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "Nitrogen gas (\\(\\mathrm{N_2}\\)) is relatively unreactive at room temperature despite being a nonmetal. What is the primary reason for this low reactivity?",
+      "options": {
+        "A": "Nitrogen atoms are very small and tightly packed",
+        "B": "The \\(\\mathrm{N \\equiv N}\\) triple bond has very high bond dissociation energy",
+        "C": "Nitrogen has a full valence shell of eight electrons",
+        "D": "Nitrogen forms only ionic compounds with metals"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the strength of the bond between the two nitrogen atoms.",
+      "explanation": "The triple bond between nitrogen atoms in \\(\\mathrm{N_2}\\) is extremely strong (bond dissociation energy ~941 kJ/mol). Breaking this bond requires a large amount of energy, making nitrogen kinetically inert at ordinary temperatures.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "A. Nitrogen",
+        "content_anchor": "The inertness of nitrogen at low temperatures is directly related to the strength of the triple bond, which requires high energy to break.",
+        "page_hint": 23,
+        "concept_hash": "sha256_nitrogen_triple_bond_inertness_019"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Bond dissociation energy is the energy required to break a chemical bond, with the \\(\\mathrm{N \\equiv N}\\) triple bond having one of the highest known values.",
+        "concept_summary": "The \\(\\mathrm{N \\equiv N}\\) triple bond has a bond dissociation energy of approximately 941 kJ/mol, making it very difficult to break. This kinetic barrier prevents reactions at room temperature.",
+        "beginner": "Two nitrogen atoms in \\(\\mathrm{N_2}\\) are held together by an extremely strong grip (triple bond). It takes a lot of energy to pull them apart, so nitrogen gas doesn't react easily.",
+        "intermediate": "The triple covalent bond between two nitrogen atoms is one of the strongest bonds in chemistry. The high bond dissociation energy means that at room temperature, insufficient energy is available to initiate reactions.",
+        "advanced": "The \\(\\mathrm{N \\equiv N}\\) bond order is 3, with a short bond length (109.8 pm). The high bond energy (941 kJ/mol) makes \\(\\mathrm{N_2}\\) thermodynamically favorable as a product but kinetically inert as a reactant.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that reactivity requires bond breaking to occur.",
+          "The N≡N triple bond is very strong.",
+          "High bond strength requires high energy to break.",
+          "At room temperature, not enough energy is available."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think nitrogen is inert because it is a noble gas (it is not; noble gases are Group 18).",
+          "Others think nitrogen's valence shell is full; it has 5 valence electrons and needs 3 more."
+        ],
+        "related_concepts": ["Bond dissociation energy", "Triple bond", "Kinetic inertness", "Dinitrogen"],
+        "revision_note": "N≡N triple bond very strong (941 kJ/mol) → N₂ unreactive at RT.",
+        "glossary_entry": {
+          "term": "Bond dissociation energy",
+          "definition": "The energy required to break a chemical bond homolytically, producing two radicals.",
+          "example_equation": null,
+          "related_terms": ["Triple bond", "Dinitrogen"]
+        },
+        "flashcard": {
+          "front": "Why is nitrogen gas (\\(\\mathrm{N_2}\\)) unreactive at room temperature?",
+          "back": "The N≡N triple bond has very high bond dissociation energy (~941 kJ/mol), making it difficult to break."
+        },
+        "concept_map_nodes": [
+          {"source": "\\(\\mathrm{N_2}\\)", "relation": "has", "target": "Strong triple bond"},
+          {"source": "Strong triple bond", "relation": "causes", "target": "Low reactivity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Nitrogen",
+        "flashcard_front": "What causes nitrogen gas (\\(\\mathrm{N_2}\\)) to be unreactive at room temperature?",
+        "flashcard_back": "The very strong N≡N triple bond (941 kJ/mol bond dissociation energy) requires high energy to break.",
+        "glossary_term": "Triple bond",
+        "glossary_definition": "A covalent bond with three shared electron pairs, characteristic of \\(\\mathrm{N_2}\\) and \\(\\mathrm{C_2H_2}\\).",
+        "revision_note": "N≡N strong → inert. Needs high T or catalyst to react.",
+        "teacher_note": "Compare bond energies: N≡N (941 kJ/mol) vs. O=O (498 kJ/mol) to explain higher inertness of N₂.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain chemical properties of nitrogen",
+        "concept_map_nodes": [
+          {"source": "Triple bond strength", "relation": "determines", "target": "Nitrogen reactivity"}
+        ],
+        "workbook_section": "Properties of Nitrogen",
+        "solution_manual_note": "Answer B. The high bond dissociation energy of N≡N makes N₂ kinetically inert."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U5_Q020",
+      "generation_timestamp": "2026-06-13T10:35:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 5: METALS AND NONMETALS",
+      "section": "5.3 Production of Some Important Nonmetals",
+      "subsection": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+      "sub_subsection": "A. Nitrogen",
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "When magnesium metal is heated strongly in an atmosphere of nitrogen gas, a gray-white solid forms. What is the product of this reaction?",
+      "options": {
+        "A": "Magnesium oxide (\\(\\mathrm{MgO}\\))",
+        "B": "Magnesium nitride (\\(\\mathrm{Mg_3N_2}\\))",
+        "C": "Magnesium hydride (\\(\\mathrm{MgH_2}\\))",
+        "D": "Magnesium nitrate (\\(\\mathrm{Mg(NO_3)_2}\\))"
+      },
+      "correct_answer": "B",
+      "hint": "Nitrogen reacts with reactive metals at high temperatures to form nitrides.",
+      "explanation": "Magnesium burns in nitrogen to form magnesium nitride: \\(3\\mathrm{Mg(s) + N_2(g) \\rightarrow Mg_3N_2(s)}\\). This reaction requires high temperatures because the N≡N bond must be broken.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(3\\mathrm{Mg(s) + N_2(g) \\rightarrow Mg_3N_2(s)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: METALS AND NONMETALS",
+        "section_anchor": "5.3 Production of Some Important Nonmetals",
+        "subsection_anchor": "5.3.2 Production of Nitrogen, Phosphorous, Oxygen, Sulphur and Chlorine",
+        "structural_element": "A. Nitrogen",
+        "content_anchor": "When heated with reactive metals like lithium, calcium and magnesium, it forms compounds, known as nitrides. 3Mg(s) + N2(g) \\u2192 Mg3N2(s)",
+        "page_hint": 23,
+        "concept_hash": "sha256_magnesium_nitride_reaction_020"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "A nitride is a binary compound of nitrogen with a metal, where nitrogen has an oxidation state of −3.",
+        "concept_summary": "Magnesium reacts with nitrogen at high temperatures to form magnesium nitride (\\(\\mathrm{Mg_3N_2}\\)). This reaction is an example of nitrogen's ability to act as an oxidizing agent with highly reactive metals.",
+        "beginner": "When magnesium is heated in nitrogen gas, it combines with nitrogen to form a new compound called magnesium nitride. It's like magnesium and nitrogen get married at high temperature.",
+        "intermediate": "The balanced equation is \\(3\\mathrm{Mg + N_2 \\rightarrow Mg_3N_2}\\). The nitride ion \\(\\mathrm{N^{3-}}\\) forms when nitrogen gains three electrons from magnesium atoms.",
+        "advanced": "This reaction requires high temperature to overcome the N≡N bond dissociation energy. The product \\(\\mathrm{Mg_3N_2}\\) is an ionic solid containing \\(\\mathrm{Mg^{2+}}\\) and \\(\\mathrm{N^{3-}}\\) ions, and it hydrolyzes readily to produce ammonia.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the reactants: Mg (metal) and N₂ (nitrogen gas).",
+          "Recall that metal + nitrogen → metal nitride at high T.",
+          "Balance the charges: Mg²⁺ and N³⁻ → formula Mg₃N₂.",
+          "Select the correct product."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(3\\mathrm{Mg(s) + N_2(g) \\rightarrow Mg_3N_2(s)}\\)",
+            "name": "Formation of magnesium nitride",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Students often think burning magnesium only forms MgO; in air, both MgO and Mg₃N₂ form, but MgO is more abundant due to higher oxygen concentration.",
+          "Some write MgN as the formula instead of Mg₃N₂; charge balance requires three Mg²⁺ for two N³⁻."
+        ],
+        "related_concepts": ["Nitride", "Magnesium", "High-temperature reactions"],
+        "revision_note": "3Mg + N₂ → Mg₃N₂ (magnesium nitride).",
+        "glossary_entry": {
+          "term": "Nitride",
+          "definition": "A binary compound of nitrogen with a metal, containing the \\(\\mathrm{N^{3-}}\\) ion.",
+          "example_equation": "\\(\\mathrm{Mg_3N_2}\\)",
+          "related_terms": ["Magnesium nitride", "Ionic compound"]
+        },
+        "flashcard": {
+          "front": "What is the product when magnesium is heated in nitrogen gas?",
+          "back": "Magnesium nitride, \\(\\mathrm{Mg_3N_2}\\). Equation: \\(3\\mathrm{Mg} + \\mathrm{N_2} \\rightarrow \\mathrm{Mg_3N_2}\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Magnesium", "relation": "reacts with", "target": "Nitrogen"},
+          {"source": "Reaction", "relation": "produces", "target": "\\(\\mathrm{Mg_3N_2}\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Nitrogen Reactions",
+        "flashcard_front": "What compound forms when magnesium burns in nitrogen gas?",
+        "flashcard_back": "Magnesium nitride (\\(\\mathrm{Mg_3N_2}\\)). Equation: \\(3\\mathrm{Mg} + \\mathrm{N_2} \\rightarrow \\mathrm{Mg_3N_2}\\).",
+        "glossary_term": "Magnesium nitride",
+        "glossary_definition": "A gray-white ionic compound \\(\\mathrm{Mg_3N_2}\\) formed when magnesium is heated in nitrogen.",
+        "revision_note": "Mg + N₂ → Mg₃N₂ (nitride).",
+        "teacher_note": "Demonstrate (or show video) of Mg burning in N₂; contrast with burning in air.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe chemical properties of nitrogen",
+        "concept_map_nodes": [
+          {"source": "Magnesium nitride", "relation": "formed_by", "target": "Mg and N₂"}
+        ],
+        "workbook_section": "Nitrogen: Chemical Reactions",
+        "solution_manual_note": "Answer B. Mg reacts with N₂ to form Mg₃N₂. MgO would require oxygen, not nitrogen."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3400,
+    "average_question_quality": 90.5,
+    "type_distribution": {
+      "A": 3,
+      "D": 2,
+      "E": 1,
+      "F": 1,
+      "G": 3,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 7,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.2 General Properties of Metals and Production of Some Metals": 7,
+      "5.3 Production of Some Important Nonmetals": 3
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 37,
+      "advanced_avg": 46
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

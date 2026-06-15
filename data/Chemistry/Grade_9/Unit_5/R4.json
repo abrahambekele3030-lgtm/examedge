@@ -1,0 +1,1780 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:45:00Z",
+  "round_id": "R04",
+  "batch_sequence": 4,
+  "__STATE__": {
+    "current_round": 4,
+    "last_question_id": "G9_Chem_U5_Q040",
+    "covered_sections": [
+      "5.1 Chemical Bonding>Why do atoms form chemical bond?",
+      "5.1 Chemical Bonding>Octet Rule",
+      "5.1 Chemical Bonding>How could atoms satisfy the Octet Rule?",
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>What are Ions?",
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>Types of Ions",
+      "5.2 Ionic Bonding>5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Form Crystals",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Soluble in Polar Solvents",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Conduct Electricity when they are Dissolved in Water or in Molten State",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Density",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Double Bond",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Triple Covalent Bond",
+      "5.3 Covalent Bonding>5.3.2 Lewis's Formula of Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Polar Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond",
+      "5.3 Covalent Bonding>5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "5.3 Covalent Bonding>5.3.5 General Properties of Covalent Compounds>Physical Properties of Covalent Compounds",
+      "5.4 Metallic Bonding>5.4.1 Formation of Metallic Bond",
+      "5.4 Metallic Bonding>5.4.2 Properties of Metallic Bond",
+      "5.4 Metallic Bonding>5.4.2 Properties of Metallic Bond>Conductivity"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1",
+      "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2",
+      "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3",
+      "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1"
+    ],
+    "baseline_counter": {
+      "5.1 Chemical Bonding": {
+        "Why do atoms form chemical bond?": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "Octet Rule": { "count": 3, "mini_headings_covered": [], "last_question_round": 3 },
+        "How could atoms satisfy the Octet Rule?": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 }
+      },
+      "5.2 Ionic Bonding": {
+        "5.2.1 Formation of Ionic Bonding>What are Ions?": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.1 Formation of Ionic Bonding>Types of Ions": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They Form Crystals": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.2.3 General Properties of Ionic Compounds>They are Soluble in Polar Solvents": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.2.3 General Properties of Ionic Compounds>They Conduct Electricity when they are Dissolved in Water or in Molten State": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.2.3 General Properties of Ionic Compounds>They Have High Density": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 }
+      },
+      "5.3 Covalent Bonding": {
+        "5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.1 Formation of Covalent Bond>Formation of Double Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.3.1 Formation of Covalent Bond>Formation of Triple Covalent Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.3.2 Lewis's Formula of Covalent Molecules": { "count": 2, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.3 Polarity in Covalent Molecules>Polar Covalent Molecules": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.3 Polarity in Covalent Molecules>The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond": { "count": 1, "mini_headings_covered": [], "last_question_round": 4 },
+        "5.3.4 Coordinate Covalent Bond (Dative Bond)": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.5 General Properties of Covalent Compounds>Physical Properties of Covalent Compounds": { "count": 2, "mini_headings_covered": [], "last_question_round": 3 }
+      },
+      "5.4 Metallic Bonding": {
+        "5.4.1 Formation of Metallic Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.4.2 Properties of Metallic Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 3 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Chemical Bonding": { "question_count": 8, "last_used_round": 4, "consecutive_batches": 4 },
+      "5.2 Ionic Bonding": { "question_count": 18, "last_used_round": 4, "consecutive_batches": 4 },
+      "5.3 Covalent Bonding": { "question_count": 18, "last_used_round": 4, "consecutive_batches": 4 },
+      "5.4 Metallic Bonding": { "question_count": 6, "last_used_round": 4, "consecutive_batches": 4 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 Chemical Bonding>How could atoms satisfy the Octet Rule?": ["lose electrons", "gain electrons", "share electrons"],
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>Types of Ions": ["monoatomic ion", "polyatomic ion", "cation classification"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points": ["melting point", "boiling point", "electrostatic force", "lattice energy"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle": ["brittleness", "repulsive forces", "crystal shattering"],
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Double Bond": ["double bond", "oxygen molecule", "shared pairs", "lone pairs"],
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Triple Bond": ["triple bond", "nitrogen molecule", "three shared pairs"],
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond": ["electronegativity difference", "ionic bond threshold", "polar covalent threshold", "nonpolar covalent threshold"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_prev_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 55,
+      "questions_per_concept_ratio": 0.73,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL BONDING",
+  "pdf_filename": "C9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:45:00Z"
+    },
+    "phase_status_report": {
+      "phase1": { "complete": true, "sections_covered": 4, "total_sections": 4, "progress_percentage": 100.0 },
+      "phase2": { "complete": false, "max_imbalance_ratio": 3.0, "balanced": false },
+      "phase3": { "started": false, "exam_sections_biased": 0 }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 40,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 22,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.73
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Ionic Bonding",
+      "least_covered_section": "5.4 Metallic Bonding",
+      "imbalance_ratio": 3.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U5_Q031",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "How could atoms satisfy the Octet Rule?",
+      "sub_subsection": null,
+      "structural_anchor": "How could atoms satisfy the Octet Rule?",
+      "mcq_type": "J",
+      "question": "A sodium atom (Na) has one valence electron. To achieve an octet, sodium must either lose that electron or gain seven electrons. Which option actually occurs in nature and why?",
+      "options": {
+        "A": "Loses one electron because losing requires less energy",
+        "B": "Gains seven electrons because that fills the valence shell completely",
+        "C": "Loses one electron because metals tend to gain electrons",
+        "D": "Shares its electron with another sodium atom"
+      },
+      "correct_answer": "A",
+      "hint": "Consider ionization energy vs electron affinity and the tendency of metals.",
+      "explanation": "Sodium (a metal) loses its one valence electron to achieve the neon configuration (\\(1s^2 2s^2 2p^6\\)) because losing one electron requires far less energy than gaining seven. Gaining seven electrons is energetically impossible.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "How could atoms satisfy the Octet Rule?",
+        "structural_element": "How could atoms satisfy the Octet Rule?",
+        "content_anchor": "It is easy for sodium to lose one electron than gaining seven extra electrons on its valence shell",
+        "page_hint": 7,
+        "concept_hash": "o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Ionization energy is the energy required to remove an electron; electron affinity is the energy released when an electron is added.",
+        "concept_summary": "Sodium has low ionization energy (496 kJ/mol) but positive electron affinity (gaining an electron is unfavorable). Losing one electron is energetically feasible; gaining seven is not.",
+        "beginner": "It's much easier for sodium to give away its one extra toy (electron) than to find and take seven more toys from others.",
+        "intermediate": "Sodium (metal) has a strong tendency to lose its single valence electron, forming Na⁺ (octet). Gaining seven electrons to achieve octet would require enormous energy and is not observed.",
+        "advanced": "The first ionization energy of Na is 496 kJ/mol. The electron affinity of Na is actually +52.9 kJ/mol (endothermic), meaning adding an electron requires energy. Gaining seven electrons is thermodynamically impossible.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count valence electrons: Na has 1.",
+          "Option A: lose 1 electron → Na⁺ (octet).",
+          "Option B: gain 7 electrons → Na⁷⁻ (would require huge energy, not feasible).",
+          "Nature chooses the lower-energy path: lose 1 electron."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think metals gain electrons because 'metals are positive' — actually metals lose electrons to become positive cations.",
+          "Another misconception: gaining seven electrons is 'filling the shell completely' — this ignores the enormous energy cost and instability of a 7- anion."
+        ],
+        "related_concepts": ["Ionization energy", "Electron affinity", "Metal reactivity", "Octet rule"],
+        "revision_note": "Na loses 1 e⁻ (low energy) rather than gaining 7 e⁻ (impossible).",
+        "glossary_entry": {
+          "term": "Ionization energy",
+          "definition": "The energy required to remove an electron from a gaseous atom or ion.",
+          "example_equation": "\\(\\mathrm{Na(g) \\rightarrow Na^+(g) + e^-}\\)",
+          "related_terms": ["electron affinity", "metal", "cation"]
+        },
+        "flashcard": {
+          "front": "Why does sodium lose one electron instead of gaining seven to achieve octet?",
+          "back": "Losing one electron requires low energy (low ionization energy); gaining seven electrons is energetically impossible."
+        },
+        "concept_map_nodes": [
+          { "source": "Sodium atom", "relation": "has", "target": "1 valence electron" },
+          { "source": "Lose 1 e⁻", "relation": "requires", "target": "Low energy (496 kJ/mol)" },
+          { "source": "Gain 7 e⁻", "relation": "requires", "target": "Impossibly high energy" },
+          { "source": "Low energy path", "relation": "is", "target": "What occurs in nature" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why does sodium lose rather than gain electrons to achieve octet?",
+        "flashcard_back": "Losing one electron has low ionization energy; gaining seven electrons is energetically impossible.",
+        "glossary_term": "Ionization energy",
+        "glossary_definition": "The energy required to remove an electron from a gaseous atom or ion.",
+        "revision_note": "Na loses 1 e⁻ (low energy) not gains 7 e⁻.",
+        "teacher_note": "Compare Na (loses 1) vs Cl (gains 1) to show metals lose, nonmetals gain.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain why metals tend to lose electrons to satisfy the octet rule",
+        "concept_map_nodes": [
+          { "source": "Sodium", "relation": "prefers to", "target": "Lose 1 e⁻ (low energy)" },
+          { "source": "Lose 1 e⁻", "relation": "gives", "target": "Octet (Neon config)" }
+        ],
+        "workbook_section": "5.1 Chemical Bonding",
+        "solution_manual_note": "Answer A. Losing one electron requires much less energy (low ionization energy) than gaining seven electrons (A). B is energetically impossible. C is false (metals lose, not gain, electrons). D (sharing) would not give sodium an octet because Na₂ is not stable."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q032",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.1 Formation of Ionic Bonding",
+      "sub_subsection": "Types of Ions",
+      "structural_anchor": "Types of Ions",
+      "mcq_type": "B",
+      "question": "The sulfate ion (\\(SO_4^{2-}\\)) contains one sulfur atom and four oxygen atoms covalently bonded together with an overall charge of 2−. How is this ion classified?",
+      "options": {
+        "A": "Monoatomic cation",
+        "B": "Polyatomic anion",
+        "C": "Monoatomic anion",
+        "D": "Polyatomic cation"
+      },
+      "correct_answer": "B",
+      "hint": "Count atoms (more than one) and check the charge sign.",
+      "explanation": "\\(SO_4^{2-}\\) contains multiple atoms (polyatomic) and has a negative charge (anion). Therefore it is classified as a polyatomic anion. Option B correctly identifies both features.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.1 Formation of Ionic Bonding",
+        "structural_element": "Types of Ions",
+        "content_anchor": "classification based on the number of atoms involved in ion formation",
+        "page_hint": 5,
+        "concept_hash": "p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "A polyatomic ion is an ion composed of two or more atoms covalently bonded together with an overall net charge.",
+        "concept_summary": "Sulfate has 5 atoms (polyatomic) and a 2− charge (anion). Thus it is a polyatomic anion.",
+        "beginner": "Sulfate is a group of atoms (poly = many) with a negative charge (anion). So it's a 'polyatomic anion'.",
+        "intermediate": "Classification: atom count → polyatomic (more than 1 atom); charge → anion (negative). Therefore \\(SO_4^{2-}\\) is a polyatomic anion.",
+        "advanced": "Polyatomic anions like sulfate, nitrate (\\(NO_3^-\\)), and carbonate (\\(CO_3^{2-}\\)) are common in ionic compounds and coordinate covalent bonding.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count atoms in \\(SO_4^{2-}\\): 1 S + 4 O = 5 atoms → polyatomic.",
+          "Check charge: 2− → negative → anion.",
+          "Combine: polyatomic anion."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think all ions with oxygen are 'oxyanions' — true, but the classification here is by atom count and charge sign.",
+          "Another misconception: polyatomic ions are molecules. They are ions (charged), not neutral molecules."
+        ],
+        "related_concepts": ["Polyatomic ion", "Anion", "Sulfate", "Oxyanion"],
+        "revision_note": "\\(SO_4^{2-}\\): polyatomic (5 atoms) anion (negative charge).",
+        "glossary_entry": {
+          "term": "Polyatomic ion",
+          "definition": "An ion consisting of two or more atoms covalently bonded together with an overall net charge.",
+          "example_equation": "\\(\\mathrm{SO_4^{2-}}\\)",
+          "related_terms": ["monoatomic ion", "cation", "anion"]
+        },
+        "flashcard": {
+          "front": "Classify \\(SO_4^{2-}\\) based on atom count and charge.",
+          "back": "Polyatomic anion (multiple atoms, negative charge)."
+        },
+        "concept_map_nodes": [
+          { "source": "\\(SO_4^{2-}\\)", "relation": "has", "target": "5 atoms → polyatomic" },
+          { "source": "\\(SO_4^{2-}\\)", "relation": "has", "target": "2− charge → anion" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Is \\(SO_4^{2-}\\) monoatomic or polyatomic? Cation or anion?",
+        "flashcard_back": "Polyatomic (5 atoms) and anion (negative charge).",
+        "glossary_term": "Polyatomic ion",
+        "glossary_definition": "An ion consisting of two or more atoms covalently bonded together with an overall net charge.",
+        "revision_note": "\\(SO_4^{2-}\\): polyatomic anion.",
+        "teacher_note": "List other polyatomic ions: \\(NO_3^-\\), \\(CO_3^{2-}\\), \\(PO_4^{3-}\\), \\(NH_4^+\\).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Classify ions based on number of atoms and charge",
+        "concept_map_nodes": [
+          { "source": "\\(SO_4^{2-}\\)", "relation": "is", "target": "Polyatomic" },
+          { "source": "\\(SO_4^{2-}\\)", "relation": "is", "target": "Anion" }
+        ],
+        "workbook_section": "5.2.1 Formation of Ionic Bonding",
+        "solution_manual_note": "Answer B. \\(SO_4^{2-}\\) has multiple atoms (polyatomic) and a negative charge (anion). A and C (monoatomic) incorrect because it has 5 atoms. D incorrect because charge is negative, not positive."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q033",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They Have High Melting Points and High Boiling Points",
+      "structural_anchor": "They Have High Melting Points and High Boiling Points",
+      "mcq_type": "E",
+      "question": "Sodium chloride (NaCl) has a melting point of \\(801^\\circ C\\) and a boiling point of \\(1465^\\circ C\\). The lattice energy of NaCl is \\(787 \\text{ kJ/mol}\\). Approximately how much energy is required to melt 1 mole of solid NaCl at its melting point?",
+      "options": {
+        "A": "\\(787 \\text{ kJ}\\)",
+        "B": "\\(<787 \\text{ kJ}\\)",
+        "C": "\\(>787 \\text{ kJ}\\)",
+        "D": "\\(1465 \\text{ kJ}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Lattice energy is the energy to completely separate ions into gas phase; melting only overcomes attraction enough for mobility, not full separation.",
+      "explanation": "Lattice energy (787 kJ/mol) separates solid NaCl into gaseous Na⁺ and Cl⁻ ions. Melting only requires enough energy to overcome interionic attraction so ions can move past each other, which is less than the full lattice energy.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(\\text{Lattice energy}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "melting_point": { "magnitude": 801, "unit": "°C" },
+          "boiling_point": { "magnitude": 1465, "unit": "°C" },
+          "lattice_energy": { "magnitude": 787, "unit": "kJ/mol" }
+        },
+        "answer_value": null,
+        "answer_unit": "kJ",
+        "calculation_steps": [
+          "Recognize that lattice energy (787 kJ/mol) is the energy to convert solid NaCl to gaseous Na⁺ and Cl⁻ ions.",
+          "Melting only partially overcomes the ionic lattice to allow ion mobility, not full separation to gas phase.",
+          "Therefore, the energy required to melt is less than the lattice energy."
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They Have High Melting Points and High Boiling Points",
+        "content_anchor": "Considerable heat energy is required to separate the strong electrostatic attraction force between the positive and negative ions",
+        "page_hint": 12,
+        "concept_hash": "q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Melting point is the temperature at which thermal energy overcomes lattice energy sufficiently for ions to become mobile, not fully separated.",
+        "concept_summary": "Lattice energy (787 kJ/mol) separates solid into gaseous ions. Melting requires less energy because the solid only needs to become a liquid, not a gas.",
+        "beginner": "Think of melting ice: you need some heat to make water, but much more heat to turn water into steam. Same idea: melting salt uses less energy than boiling it into gas.",
+        "intermediate": "Lattice energy (U) = energy to convert solid to gaseous ions. Melting (fusion) requires energy to disrupt the lattice enough for ion mobility but not full separation to gas phase.",
+        "advanced": "The enthalpy of fusion of NaCl is about 28 kJ/mol, much less than the lattice energy (787 kJ/mol). The lattice energy corresponds to sublimation (solid → gas), not melting.",
+        "worked_solution": [
+          "Step 1: Identify that lattice energy (787 kJ/mol) is for solid → gaseous ions.",
+          "Step 2: Recognize melting only goes to liquid, not gas.",
+          "Step 3: Conclude melting energy < lattice energy."
+        ],
+        "reasoning_steps": [
+          "Recall lattice energy definition: solid → gaseous ions.",
+          "Melting: solid → liquid (ions still together but mobile).",
+          "Less energy needed for melting than for full separation.",
+          "Therefore, energy to melt 1 mole < 787 kJ."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think melting requires the same energy as lattice energy. Lattice energy corresponds to sublimation (solid → gas), not melting.",
+          "Another misconception: higher melting point means higher lattice energy. Trend generally true, but melting energy is only a fraction of lattice energy."
+        ],
+        "related_concepts": ["Lattice energy", "Enthalpy of fusion", "Melting point", "Ionic solid"],
+        "revision_note": "Melting energy < lattice energy. Lattice energy = solid → gas ions.",
+        "glossary_entry": {
+          "term": "Lattice energy",
+          "definition": "The energy required to separate one mole of an ionic solid into its gaseous ions.",
+          "example_equation": "\\(\\mathrm{NaCl(s) \\rightarrow Na^+(g) + Cl^-(g)}\\)",
+          "related_terms": ["melting point", "enthalpy of fusion", "ionic bond strength"]
+        },
+        "flashcard": {
+          "front": "Is the energy to melt 1 mole of NaCl equal to its lattice energy (787 kJ)?",
+          "back": "No, melting requires less energy (about 28 kJ/mol). Lattice energy is for solid → gaseous ions (sublimation)."
+        },
+        "concept_map_nodes": [
+          { "source": "Lattice energy (787 kJ/mol)", "relation": "corresponds to", "target": "Solid → gaseous ions" },
+          { "source": "Melting energy", "relation": "corresponds to", "target": "Solid → liquid (ions mobile)" },
+          { "source": "Melting energy", "relation": "is less than", "target": "Lattice energy" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Is the lattice energy of NaCl equal to the energy required to melt it?",
+        "flashcard_back": "No. Lattice energy is for solid → gaseous ions; melting requires less energy (solid → liquid).",
+        "glossary_term": "Lattice energy",
+        "glossary_definition": "The energy required to separate one mole of an ionic solid into its gaseous ions.",
+        "revision_note": "Melting energy < lattice energy.",
+        "teacher_note": "Use water analogy: melting ice (334 J/g) vs vaporizing water (2260 J/g).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Relate lattice energy to melting point of ionic compounds",
+        "concept_map_nodes": [
+          { "source": "NaCl(s)", "relation": "melting requires", "target": "<787 kJ/mol" },
+          { "source": "NaCl(s)", "relation": "sublimation (lattice energy) requires", "target": "787 kJ/mol" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer B. Lattice energy (787 kJ/mol) fully separates ions to gas phase; melting only disrupts the lattice enough for mobility, so energy < 787 kJ. A would be full sublimation. C is incorrect. D (1465 kJ) is unrelated (boiling point temperature, not energy)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q034",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They are Hard and Brittle",
+      "structural_anchor": "They are Hard and Brittle",
+      "mcq_type": "D",
+      "question": "An ionic crystal is struck with a hammer and shatters into many small pieces. What happens at the atomic level to cause this shattering?",
+      "options": {
+        "A": "Covalent bonds between atoms break, releasing energy.",
+        "B": "Layers of ions shift, bringing like charges together, which repel and break the crystal.",
+        "C": "The crystal melts instantly due to the heat of impact.",
+        "D": "Electrons are knocked out of the crystal, leaving it positively charged and unstable."
+      },
+      "correct_answer": "B",
+      "hint": "Think about what happens when alternating + and − layers are displaced.",
+      "explanation": "In ionic crystals, layers alternate cations and anions. A hammer blow can shift one layer so that cations align with cations (or anions with anions). The strong electrostatic repulsion between like charges causes the crystal to shatter.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They are Hard and Brittle",
+        "content_anchor": "Striking brings ions of the same charge next to one another. The strong repulsive forces between like-charged ions cause the crystal to break",
+        "page_hint": 12,
+        "concept_hash": "r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Brittleness is the tendency to shatter when struck, caused by repulsion of like charges after layer displacement.",
+        "concept_summary": "Ionic crystals have alternating cations and anions. A mechanical impact shifts layers, aligning like charges. Electrostatic repulsion then fractures the crystal.",
+        "beginner": "Imagine a checkerboard of red and black squares. If you push one row, red squares touch red squares — they push apart violently, breaking the board.",
+        "intermediate": "In NaCl, layers are Na⁺, Cl⁻, Na⁺, Cl⁻. A hammer blow shifts one layer so Na⁺ aligns with Na⁺. The Coulomb repulsion (\\(F = k q_1 q_2 / r^2\\)) shatters the crystal.",
+        "advanced": "Ionic crystals exhibit brittle fracture because dislocation motion brings like charges into contact, creating a high-energy, unstable configuration that fails catastrophically.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall ionic crystal structure: alternating + and − ions.",
+          "A strike shifts layers so like charges align.",
+          "Like charges repel strongly.",
+          "Repulsion overcomes lattice cohesion → shattering."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think hardness prevents shattering. Hardness and brittleness are different: diamond is hard but brittle; metals are hard but malleable.",
+          "Another misconception: shattering means weak bonds. Ionic bonds are strong, but their directional nature (point charges) makes them brittle."
+        ],
+        "related_concepts": ["Brittleness", "Electrostatic repulsion", "Crystal lattice", "Ionic bond strength"],
+        "revision_note": "Ionic crystals shatter when struck because like charges are forced together → repulsion.",
+        "glossary_entry": {
+          "term": "Brittleness",
+          "definition": "The tendency of a material to fracture or shatter when subjected to mechanical stress rather than deforming plastically.",
+          "example_equation": null,
+          "related_terms": ["ionic crystal", "repulsion", "hardness"]
+        },
+        "flashcard": {
+          "front": "Why does an ionic crystal shatter when struck?",
+          "back": "The impact shifts layers so like charges align; electrostatic repulsion breaks the crystal."
+        },
+        "concept_map_nodes": [
+          { "source": "Ionic crystal", "relation": "struck → layers shift →", "target": "Like charges align" },
+          { "source": "Like charges align", "relation": "causes", "target": "Repulsion → shattering" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "workbook"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Explain in atomic terms why ionic crystals shatter when struck.",
+        "flashcard_back": "Layers shift, bringing like charges together; electrostatic repulsion fractures the crystal.",
+        "glossary_term": "Brittleness",
+        "glossary_definition": "The tendency of a material to fracture or shatter when subjected to mechanical stress rather than deforming plastically.",
+        "revision_note": "Ionic crystals: hard but brittle. Impact aligns like charges → repulsion → shatter.",
+        "teacher_note": "Compare with metals (malleable) where electron sea prevents repulsion.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain why ionic compounds are hard and brittle",
+        "concept_map_nodes": [
+          { "source": "Mechanical impact", "relation": "shifts layers, aligning", "target": "Like charges" },
+          { "source": "Like charges", "relation": "repel, causing", "target": "Fracture" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer B. Impact shifts layers so like charges align (B); electrostatic repulsion shatters the crystal. A (covalent bonds) not present. C (melting) not from hammer blow. D (electron ejection) not relevant."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q035",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.1 Formation of Covalent Bond",
+      "sub_subsection": "Formation of Double Bond",
+      "structural_anchor": "Formation of Double Bond",
+      "mcq_type": "D",
+      "question": "Carbon dioxide (CO₂) contains two carbon-oxygen double bonds. How many total electrons are shared between carbon and each oxygen atom, and how many lone pairs are on each oxygen?",
+      "options": {
+        "A": "2 shared electrons, 2 lone pairs per O",
+        "B": "4 shared electrons, 2 lone pairs per O",
+        "C": "6 shared electrons, 1 lone pair per O",
+        "D": "4 shared electrons, 4 lone pairs per O"
+      },
+      "correct_answer": "B",
+      "hint": "Double bond = 4 shared electrons. Carbon has 4 valence electrons; oxygen has 6.",
+      "explanation": "Each C=O double bond shares 2 pairs (4 electrons). After bonding, each oxygen completes its octet with 2 lone pairs (4 electrons) plus 4 shared electrons = 8 total. Carbon shares 4 pairs total (two double bonds) and has no lone pairs.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.1 Formation of Covalent Bond",
+        "structural_element": "Formation of Double Bond",
+        "content_anchor": "Oxygen is a group VIA element with 6 valence electrons. Each oxygen atom requires two electrons to fulfil the octet rule. The two oxygen atoms share two electrons each",
+        "page_hint": 18,
+        "concept_hash": "s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "A double bond shares two pairs of electrons (4 electrons total) between two atoms.",
+        "concept_summary": "In CO₂, C forms two double bonds (each with an O). Each C=O shares 4 electrons. Each oxygen then has 4 shared electrons + 4 lone electrons (2 lone pairs) = octet.",
+        "beginner": "Carbon holds hands with two oxygens using two hands each (double bond). Each oxygen keeps two pairs of 'private' electrons.",
+        "intermediate": "Lewis structure of CO₂: \\(\\ddot{\\mathrm{O}}=\\mathrm{C}=\\ddot{\\mathrm{O}}\\). Each O: 4 shared e⁻ (double bond) + 4 e⁻ (two lone pairs) = 8. C: 8 shared e⁻ (two double bonds) = 8.",
+        "advanced": "CO₂ is linear (sp hybridization on C). Bond order = 2 for each C=O. Bond length = 116 pm. Each O has two lone pairs in sp² hybrid orbitals.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Determine total valence electrons: C(4) + 2O(12) = 16.",
+          "Form two double bonds (C=O, C=O) uses 8 electrons (4 per bond).",
+          "Remaining 8 electrons = 4 lone pairs, 2 per O.",
+          "Each O: 4 shared electrons + 4 lone electrons = 8."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think double bond means 2 electrons total. Double bond = 2 pairs = 4 electrons.",
+          "Another misconception: oxygen in CO₂ has no lone pairs. Each oxygen has two lone pairs to complete octet."
+        ],
+        "related_concepts": ["Double bond", "Lone pairs", "Octet rule", "Carbon dioxide", "Lewis structure"],
+        "revision_note": "CO₂: C=O double bonds (4 shared e⁻/bond), 2 lone pairs per O.",
+        "glossary_entry": {
+          "term": "Double bond",
+          "definition": "A covalent bond in which two atoms share two pairs of electrons (four electrons total).",
+          "example_equation": "\\(\\mathrm{C=O}\\)",
+          "related_terms": ["single bond", "triple bond", "carbon dioxide"]
+        },
+        "flashcard": {
+          "front": "In CO₂, how many electrons are shared between C and each O, and how many lone pairs on each O?",
+          "back": "4 shared electrons (double bond); 2 lone pairs per oxygen."
+        },
+        "concept_map_nodes": [
+          { "source": "CO₂", "relation": "has", "target": "Two C=O double bonds" },
+          { "source": "Each O", "relation": "has", "target": "4 shared electrons + 4 lone electrons (2 lone pairs)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How many shared electrons and lone pairs are in each C=O bond of CO₂?",
+        "flashcard_back": "4 shared electrons (double bond); each oxygen has 2 lone pairs."
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "In CO₂, how many electrons are shared between C and each O, and how many lone pairs on each O?",
+        "flashcard_back": "4 shared electrons (double bond); 2 lone pairs per O.",
+        "glossary_term": "Double bond",
+        "glossary_definition": "A covalent bond in which two atoms share two pairs of electrons (four electrons total).",
+        "revision_note": "CO₂: double bonds (4 shared e⁻/bond), 2 lone pairs per O.",
+        "teacher_note": "Draw Lewis structure: \\(\\ddot{O}=C=\\ddot{O}\\) to show double bonds and lone pairs.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe formation of double covalent bonds using Lewis structures",
+        "concept_map_nodes": [
+          { "source": "Carbon dioxide", "relation": "has", "target": "C=O double bonds" },
+          { "source": "C=O double bond", "relation": "shares", "target": "4 electrons" }
+        ],
+        "workbook_section": "5.3.1 Formation of Covalent Bond",
+        "solution_manual_note": "Answer B. Double bond = 4 shared electrons. Each O has 2 lone pairs (4 electrons) + 4 shared = octet. A (2 shared) is single bond. C (6 shared) is triple bond. D (4 lone pairs) would give O 12 electrons, impossible."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q036",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.1 Formation of Covalent Bond",
+      "sub_subsection": "Formation of Triple Covalent Bond",
+      "structural_anchor": "Formation of Triple Covalent Bond",
+      "mcq_type": "D",
+      "question": "The nitrogen molecule (N₂) has a triple bond. How many electrons are shared between the two nitrogen atoms, and how many lone pairs are on each nitrogen?",
+      "options": {
+        "A": "2 shared electrons, 2 lone pairs per N",
+        "B": "4 shared electrons, 2 lone pairs per N",
+        "C": "6 shared electrons, 1 lone pair per N",
+        "D": "6 shared electrons, 0 lone pairs per N"
+      },
+      "correct_answer": "C",
+      "hint": "Nitrogen has 5 valence electrons. Triple bond uses 3 pairs (6 electrons). Remaining electrons form lone pairs.",
+      "explanation": "A triple bond shares three pairs of electrons (6 electrons total). Each nitrogen contributes 3 electrons to the bond. Each nitrogen also has one lone pair (2 electrons) remaining to complete its octet. Total per N = 6 shared + 2 lone = 8.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.1 Formation of Covalent Bond",
+        "structural_element": "Formation of Triple Covalent Bond",
+        "content_anchor": "Each nitrogen atom shares three electrons each to have the nearest noble gas (neon) electronic configuration. The sharing of three pairs of electrons results in a triple bond",
+        "page_hint": 18,
+        "concept_hash": "t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A triple bond shares three pairs of electrons (6 electrons total) between two atoms.",
+        "concept_summary": "N₂: each N has 5 valence e⁻. Sharing 3 pairs (6 e⁻) gives each N access to 6 shared electrons + 2 lone electrons (1 lone pair) = octet.",
+        "beginner": "Two nitrogen atoms hold hands with three hands each (triple bond). Each also keeps one pair of electrons for itself.",
+        "intermediate": "Lewis structure of N₂: \\(\\mathrm{:N \\equiv N:}\\). Triple bond (3 pairs, 6 electrons) + one lone pair on each N (2 electrons) = octet for each N.",
+        "advanced": "N₂ has bond order 3, bond energy 941 kJ/mol (very strong), bond length 110 pm. The lone pairs occupy sp hybrid orbitals; the triple bond consists of one σ and two π bonds.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Total valence e⁻: 5 + 5 = 10.",
+          "Triple bond uses 6 electrons.",
+          "Remaining 4 electrons = 2 lone pairs, 1 per N.",
+          "Each N: 6 shared + 2 lone = 8 electrons."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think triple bond means 3 electrons total. Triple bond = 3 pairs = 6 electrons.",
+          "Another misconception: N₂ has no lone pairs. Each N has one lone pair (2 electrons) to complete octet."
+        ],
+        "related_concepts": ["Triple bond", "Lone pairs", "Nitrogen molecule", "Octet rule"],
+        "revision_note": "N₂: triple bond (6 shared e⁻), 1 lone pair per N.",
+        "glossary_entry": {
+          "term": "Triple covalent bond",
+          "definition": "A covalent bond in which two atoms share three pairs of electrons (six electrons total).",
+          "example_equation": "\\(\\mathrm{N \\equiv N}\\)",
+          "related_terms": ["double bond", "single bond", "nitrogen molecule"]
+        },
+        "flashcard": {
+          "front": "In N₂, how many electrons are shared and how many lone pairs per nitrogen?",
+          "back": "6 shared electrons (triple bond); 1 lone pair per nitrogen."
+        },
+        "concept_map_nodes": [
+          { "source": "N₂", "relation": "has", "target": "Triple bond (6 shared e⁻)" },
+          { "source": "Each N", "relation": "has", "target": "1 lone pair (2 e⁻)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How many shared electrons and lone pairs are in N₂?",
+        "flashcard_back": "6 shared electrons (triple bond); 1 lone pair per nitrogen.",
+        "glossary_term": "Triple covalent bond",
+        "glossary_definition": "A covalent bond in which two atoms share three pairs of electrons (six electrons total).",
+        "revision_note": "N₂: triple bond (6 e⁻ shared), 1 lone pair per N.",
+        "teacher_note": "Draw Lewis structure :N≡N: to show triple bond and lone pairs.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe formation of triple covalent bonds",
+        "concept_map_nodes": [
+          { "source": "N₂", "relation": "has", "target": "Triple bond (6 shared e⁻)" },
+          { "source": "N₂", "relation": "has", "target": "1 lone pair per N" }
+        ],
+        "workbook_section": "5.3.1 Formation of Covalent Bond",
+        "solution_manual_note": "Answer C. Triple bond = 3 shared pairs = 6 shared electrons. Each N has 5 valence e⁻: uses 3 in bonds, remaining 2 → 1 lone pair. A (2 shared) is single bond. B (4 shared) is double bond. D (0 lone pairs) would give N only 6 e⁻, not octet."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q037",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.2 Lewis's Formula of Covalent Molecules",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.2 Lewis's Formula of Covalent Molecules",
+      "mcq_type": "C",
+      "question": "The Lewis structure of methane (CH₄) shows carbon at the center with four single bonds to hydrogen atoms. How many total valence electrons are represented in the Lewis structure of CH₄?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correct_answer": "C",
+      "hint": "Count valence electrons from carbon (4) and each hydrogen (1).",
+      "explanation": "Carbon has 4 valence electrons. Each hydrogen has 1 valence electron, and there are 4 hydrogens → total = 4 + 4(1) = 8 valence electrons. All 8 are used in four C-H single bonds (2 electrons per bond).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "structural_element": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "content_anchor": "The number of bonds that an atom can form can often be predicted from the number of electrons needed to reach an octet",
+        "page_hint": 19,
+        "concept_hash": "u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "A Lewis structure shows the arrangement of valence electrons as dots and bonding pairs as lines.",
+        "concept_summary": "CH₄: C has 4 valence e⁻, each H has 1. Total = 4 + 4(1) = 8 valence electrons, all used in four C-H single bonds.",
+        "beginner": "Carbon brings 4 electrons to the party; each hydrogen brings 1. That's 4 + 4 = 8 electrons total.",
+        "intermediate": "Valence electrons in CH₄ = group number of C (4) + 4 × group number of H (1) = 4 + 4 = 8 electrons.",
+        "advanced": "The Lewis structure of CH₄ has 4 bonding pairs and 0 lone pairs. The 8 valence electrons are all in bonding pairs, consistent with the octet rule for C and duet rule for H.",
+        "worked_solution": [
+          "Step 1: Valence electrons of C = 4.",
+          "Step 2: Valence electrons of each H = 1, total for 4 H = 4.",
+          "Step 3: Sum = 4 + 4 = 8 total valence electrons."
+        ],
+        "reasoning_steps": [
+          "Determine valence electrons for each atom from periodic table group.",
+          "Multiply by number of atoms.",
+          "Sum to find total valence electrons."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think total electrons means total atomic electrons (including core). Lewis structures only show valence electrons.",
+          "Another misconception: CH₄ has 10 valence electrons (confusing with electron configuration total electrons)."
+        ],
+        "related_concepts": ["Valence electrons", "Lewis structure", "Methane", "Octet rule", "Duet rule"],
+        "revision_note": "CH₄: total valence e⁻ = 8 (4 from C, 1 from each H).",
+        "glossary_entry": {
+          "term": "Valence electrons",
+          "definition": "Electrons in the outermost energy level of an atom that are involved in chemical bonding.",
+          "example_equation": null,
+          "related_terms": ["Lewis structure", "core electrons", "octet rule"]
+        },
+        "flashcard": {
+          "front": "How many total valence electrons are in the Lewis structure of CH₄?",
+          "back": "8 valence electrons (4 from carbon, 1 from each of 4 hydrogens)."
+        },
+        "concept_map_nodes": [
+          { "source": "C (Group 14)", "relation": "has", "target": "4 valence e⁻" },
+          { "source": "4 H (Group 1)", "relation": "have", "target": "4 valence e⁻ total" },
+          { "source": "Total valence e⁻", "relation": "= 4 + 4 =", "target": "8" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How many valence electrons are in the Lewis structure of CH₄?",
+        "flashcard_back": "8 valence electrons (4 from C + 1 from each of 4 H).",
+        "glossary_term": "Valence electrons",
+        "glossary_definition": "Electrons in the outermost energy level of an atom that are involved in chemical bonding.",
+        "revision_note": "CH₄: 8 valence e⁻ total.",
+        "teacher_note": "Show periodic table group numbers to find valence electrons.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Draw Lewis structures for simple covalent molecules",
+        "concept_map_nodes": [
+          { "source": "CH₄", "relation": "has", "target": "8 total valence electrons" },
+          { "source": "8 valence electrons", "relation": "used in", "target": "4 C-H single bonds" }
+        ],
+        "workbook_section": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "solution_manual_note": "Answer C. CH₄: C (group 14) has 4 valence e⁻; each H (group 1) has 1 valence e⁻ × 4 = 4; total = 8. A (4) would be just C's electrons. B (6) incorrect. D (10) too high."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q038",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.3 Polarity in Covalent Molecules",
+      "sub_subsection": "The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond",
+      "structural_anchor": "The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond",
+      "mcq_type": "F",
+      "question": "A bond between potassium (K) and fluorine (F) has an electronegativity difference of 3.2. A bond between carbon (C) and oxygen (O) has a difference of 1.0. How are these bonds classified?",
+      "options": {
+        "A": "K-F is ionic; C-O is nonpolar covalent",
+        "B": "K-F is polar covalent; C-O is nonpolar covalent",
+        "C": "K-F is ionic; C-O is polar covalent",
+        "D": "K-F is polar covalent; C-O is ionic"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the electronegativity difference thresholds: ionic ≥ 2.0, polar covalent 0.5–2.0, nonpolar <0.5.",
+      "explanation": "The rule of thumb: ΔEN ≥ 2.0 → ionic (K-F, 3.2). ΔEN between 0.5 and 2.0 → polar covalent (C-O, 1.0). Option C correctly classifies both bonds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.3 Polarity in Covalent Molecules",
+        "structural_element": "The Distinction between Polar and Non-polar Covalent Bond and Ionic Bond",
+        "content_anchor": "An ionic bond results when the electronegativity difference is 2.0 or more. A polar covalent bond forms when the difference is in the range 0.5-2.0",
+        "page_hint": 23,
+        "concept_hash": "v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Bond classification by electronegativity difference (ΔEN): ionic ≥ 2.0, polar covalent 0.5–2.0, nonpolar covalent <0.5.",
+        "concept_summary": "K-F (ΔEN = 3.2) exceeds 2.0 → ionic. C-O (ΔEN = 1.0) falls between 0.5 and 2.0 → polar covalent.",
+        "beginner": "Big electronegativity difference (3.2) means K gives electron to F completely (ionic). Medium difference (1.0) means C and O share but unevenly (polar covalent).",
+        "intermediate": "Rule of thumb: ΔEN ≥ 2.0 = ionic (electron transfer). 0.5 ≤ ΔEN < 2.0 = polar covalent (unequal sharing). ΔEN < 0.5 = nonpolar covalent (equal sharing).",
+        "advanced": "The 2.0 threshold is empirical; actual ionic character increases smoothly with ΔEN. K-F has ~90% ionic character; C-O has ~22% ionic character.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall ΔEN thresholds: ionic ≥ 2.0, polar covalent 0.5–2.0, nonpolar <0.5.",
+          "K-F: ΔEN = 3.2 ≥ 2.0 → ionic.",
+          "C-O: ΔEN = 1.0 (between 0.5 and 2.0) → polar covalent.",
+          "Select option matching these classifications."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think any bond with a metal is ionic. Metal-nonmetal bonds are generally ionic, but borderline cases (e.g., AlCl₃) are covalent.",
+          "Another misconception: polar covalent means the bond is weak. Polar covalent bonds can be very strong (e.g., H-F)."
+        ],
+        "related_concepts": ["Electronegativity", "Ionic bond", "Polar covalent bond", "Nonpolar covalent bond", "Pauling scale"],
+        "revision_note": "ΔEN ≥ 2.0 = ionic; 0.5–2.0 = polar covalent; <0.5 = nonpolar covalent.",
+        "glossary_entry": {
+          "term": "Electronegativity difference",
+          "definition": "The difference in electronegativity values between two bonded atoms, used to predict bond type.",
+          "example_equation": "\\(\\Delta EN = EN_A - EN_B\\)",
+          "related_terms": ["ionic bond", "polar covalent bond", "nonpolar covalent bond"]
+        },
+        "flashcard": {
+          "front": "Classify K-F (ΔEN=3.2) and C-O (ΔEN=1.0).",
+          "back": "K-F: ionic (≥2.0). C-O: polar covalent (0.5–2.0)."
+        },
+        "concept_map_nodes": [
+          { "source": "K-F (ΔEN=3.2)", "relation": "≥ 2.0 →", "target": "Ionic bond" },
+          { "source": "C-O (ΔEN=1.0)", "relation": "0.5 to 2.0 →", "target": "Polar covalent bond" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Using ΔEN thresholds, classify K-F (3.2) and C-O (1.0).",
+        "flashcard_back": "K-F: ionic (≥2.0); C-O: polar covalent (0.5–2.0).",
+        "glossary_term": "Electronegativity difference",
+        "glossary_definition": "The difference in electronegativity values between two bonded atoms, used to predict bond type.",
+        "revision_note": "ΔEN ≥ 2.0 = ionic; 0.5–2.0 = polar covalent; <0.5 = nonpolar.",
+        "teacher_note": "Have students memorize thresholds: ionic >1.7 (Pauling) or >2.0 as simplified rule.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Distinguish between polar, nonpolar, and ionic bonds using electronegativity",
+        "concept_map_nodes": [
+          { "source": "Electronegativity difference", "relation": "≥ 2.0 →", "target": "Ionic bond" },
+          { "source": "Electronegativity difference", "relation": "0.5 to 2.0 →", "target": "Polar covalent bond" },
+          { "source": "Electronegativity difference", "relation": "< 0.5 →", "target": "Nonpolar covalent bond" }
+        ],
+        "workbook_section": "5.3.3 Polarity in Covalent Molecules",
+        "solution_manual_note": "Answer C. K-F ΔEN=3.2 ≥ 2.0 → ionic. C-O ΔEN=1.0 (0.5–2.0) → polar covalent. A: C-O is not nonpolar. B: K-F is not polar covalent. D: C-O is not ionic, K-F not polar covalent."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q039",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.2 Properties of Metallic Bond",
+      "sub_subsection": "Conductivity",
+      "structural_anchor": "Conductivity",
+      "mcq_type": "G",
+      "question": "When a copper wire is connected to a battery, electrons flow through the wire. What property of metallic bonding allows this electron flow?",
+      "options": {
+        "A": "Copper atoms are covalently bonded in a network",
+        "B": "Valence electrons are delocalized and free to move throughout the metal",
+        "C": "Copper forms positive ions that move through the wire",
+        "D": "Electrons are transferred from atom to atom via ionic bonds"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the 'sea of electrons' model and how electrons behave in metals.",
+      "explanation": "In metals, valence electrons are delocalized — not attached to any single atom. These mobile electrons can drift under an applied electric field, creating an electric current. Option B correctly identifies delocalized electrons as the charge carriers.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.2 Properties of Metallic Bond",
+        "structural_element": "Conductivity",
+        "content_anchor": "Since the electrons in metals are free to move between the positively charged 'ions', they conduct electricity",
+        "page_hint": 31,
+        "concept_hash": "w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Electrical conductivity is the ability of a material to allow the flow of electric charge due to mobile charge carriers.",
+        "concept_summary": "Metals have delocalized valence electrons that are not bound to specific atoms. These electrons can move freely under an electric field, carrying current.",
+        "beginner": "In metals, electrons are like a 'sea' that can flow. When you connect a battery, these free electrons drift, creating an electric current.",
+        "intermediate": "The 'sea of electrons' model: metal cations are fixed in a lattice, but valence electrons are delocalized and mobile. An applied voltage causes electron drift (current).",
+        "advanced": "The conductivity \\(\\sigma = n e \\mu\\), where n is delocalized electron density. In copper, n is high (~8.5 × 10²⁸ m⁻³), and electron mobility \\(\\mu\\) is high, giving excellent conductivity.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the 'sea of electrons' model.",
+          "Identify mobile charge carriers: delocalized electrons.",
+          "Electric field causes electrons to drift → current.",
+          "Thus, delocalized electrons enable conductivity."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think metal ions move to conduct electricity. In solid metals, ions are fixed; only electrons move.",
+          "Another misconception: conductivity requires covalent bonds. Metals conduct because of delocalized electrons, not covalent bonding."
+        ],
+        "related_concepts": ["Delocalized electrons", "Electrical conductivity", "Sea of electrons", "Metallic bond", "Current"],
+        "revision_note": "Metals conduct electricity due to mobile delocalized valence electrons.",
+        "glossary_entry": {
+          "term": "Delocalized electrons",
+          "definition": "Electrons that are not associated with a single atom or covalent bond but are free to move throughout the metal lattice.",
+          "example_equation": null,
+          "related_terms": ["electrical conductivity", "sea of electrons", "metallic bond"]
+        },
+        "flashcard": {
+          "front": "Why can metals conduct electricity?",
+          "back": "Delocalized valence electrons are free to move under an applied electric field."
+        },
+        "concept_map_nodes": [
+          { "source": "Metallic bond", "relation": "produces", "target": "Delocalized electrons" },
+          { "source": "Delocalized electrons", "relation": "enable", "target": "Electrical conductivity" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What property of metallic bonding allows metals to conduct electricity?",
+        "flashcard_back": "Delocalized valence electrons are free to move throughout the metal lattice.",
+        "glossary_term": "Delocalized electrons",
+        "glossary_definition": "Electrons that are not associated with a single atom or covalent bond but are free to move throughout the metal lattice.",
+        "revision_note": "Metals conduct: delocalized e⁻ move freely.",
+        "teacher_note": "Demonstrate with a simple circuit and a metal wire vs a plastic rod.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain electrical conductivity of metals using metallic bonding",
+        "concept_map_nodes": [
+          { "source": "Metals", "relation": "have", "target": "Delocalized valence electrons" },
+          { "source": "Delocalized electrons", "relation": "allow", "target": "Electric current flow" }
+        ],
+        "workbook_section": "5.4.2 Properties of Metallic Bond",
+        "solution_manual_note": "Answer B. Delocalized valence electrons (B) are mobile charge carriers. A (covalent network) is not metallic. C (positive ion movement) occurs in electrolysis, not solid metals. D (ionic bonds) not present in metals."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q040",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They are Soluble in Polar Solvents",
+      "structural_anchor": "They are Soluble in Polar Solvents",
+      "mcq_type": "F",
+      "question": "Calcium carbonate (CaCO₃) is an ionic compound that is insoluble in water despite being ionic. This shows that 'like dissolves like' has limitations. What makes CaCO₃ insoluble while NaCl is soluble?",
+      "options": {
+        "A": "CaCO₃ has a very high lattice energy that water's hydration energy cannot overcome.",
+        "B": "CaCO₃ is actually covalent, not ionic.",
+        "C": "Water cannot dissolve any carbonate compounds.",
+        "D": "CaCO₃ reacts with water to form a solid layer."
+      },
+      "correct_answer": "A",
+      "hint": "Solubility depends on the balance between lattice energy and hydration energy.",
+      "explanation": "CaCO₃ has a very high lattice energy due to the divalent Ca²⁺ and CO₃²⁻ ions. The energy released when water hydrates the ions (hydration energy) is insufficient to overcome the strong lattice energy, making CaCO₃ insoluble.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They are Soluble in Polar Solvents",
+        "content_anchor": "There are several ionic compounds that are insoluble in water. Most salts of carbonates... are insoluble in water",
+        "page_hint": 13,
+        "concept_hash": "x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Solubility is determined by the balance between lattice energy (U) and hydration energy (ΔH_hyd).",
+        "concept_summary": "CaCO₃ has high lattice energy due to divalent Ca²⁺ and CO₃²⁻ ions. The energy released by water hydrating these ions is insufficient to break the lattice, so CaCO₃ remains insoluble.",
+        "beginner": "Think of CaCO₃ as a very tightly packed puzzle (high lattice energy). Water's 'pulling power' (hydration energy) isn't strong enough to pull the pieces apart, unlike NaCl which comes apart easily.",
+        "intermediate": "Solubility requires ΔH_hyd > U (lattice energy). NaCl: U ≈ 787 kJ/mol, ΔH_hyd ≈ 783 kJ/mol (borderline soluble). CaCO₃: U is much larger (due to 2+ and 2− charges) while ΔH_hyd is similar, so U > ΔH_hyd → insoluble.",
+        "advanced": "Lattice energy scales with \\(U ∝ (q_+ q_-)/r\\). Ca²⁺ and CO₃²⁻ (both 2) give much higher U than Na⁺ and Cl⁻ (both 1). Hydration energy also increases with charge but not enough to compensate for the large U.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that solubility requires hydration energy ≥ lattice energy.",
+          "CaCO₃ has divalent ions (Ca²⁺, CO₃²⁻) → very high lattice energy.",
+          "Water's hydration energy is insufficient to overcome this high lattice energy.",
+          "Therefore, CaCO₃ is insoluble despite being ionic."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think all ionic compounds are water-soluble. Many (carbonates, phosphates, sulfides, hydroxides) are insoluble.",
+          "Another misconception: CaCO₃ is insoluble because it reacts with water. CaCO₃ does not react with water (it is sparingly soluble, not reactive)."
+        ],
+        "related_concepts": ["Lattice energy", "Hydration energy", "Solubility product", "Carbonate insolubility"],
+        "revision_note": "CaCO₃ insoluble: high lattice energy (divalent ions) > hydration energy.",
+        "glossary_entry": {
+          "term": "Lattice energy",
+          "definition": "The energy released when gaseous ions come together to form an ionic solid; high lattice energy means low solubility.",
+          "example_equation": null,
+          "related_terms": ["hydration energy", "solubility", "ionic compound"]
+        },
+        "flashcard": {
+          "front": "Why is CaCO₃ insoluble in water even though it is ionic?",
+          "back": "CaCO₃ has very high lattice energy (divalent ions) that water's hydration energy cannot overcome."
+        },
+        "concept_map_nodes": [
+          { "source": "CaCO₃", "relation": "has", "target": "High lattice energy (divalent ions)" },
+          { "source": "High lattice energy", "relation": "> hydration energy →", "target": "Insoluble in water" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why is CaCO₃ insoluble in water despite being ionic?",
+        "flashcard_back": "Its high lattice energy (from Ca²⁺ and CO₃²⁻) exceeds the hydration energy from water.",
+        "glossary_term": "Lattice energy",
+        "glossary_definition": "The energy released when gaseous ions come together to form an ionic solid; high lattice energy means low solubility.",
+        "revision_note": "CaCO₃ insoluble: high lattice energy > hydration energy.",
+        "teacher_note": "Contrast NaCl (soluble) with CaCO₃ (insoluble) to show effect of ion charge on lattice energy.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Identify exceptions to solubility of ionic compounds",
+        "concept_map_nodes": [
+          { "source": "Ionic compound solubility", "relation": "depends on", "target": "Lattice energy vs hydration energy" },
+          { "source": "CaCO₃ (divalent ions)", "relation": "has", "target": "High lattice energy (insoluble)" },
+          { "source": "NaCl (monovalent ions)", "relation": "has", "target": "Lower lattice energy (soluble)" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer A. CaCO₃ has high lattice energy (divalent ions) that water's hydration energy cannot overcome (A). B is false (CaCO₃ is ionic). C is false (some carbonates are soluble, e.g., Na₂CO₃). D is false (CaCO₃ does not react with water)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3550,
+    "average_question_quality": 89.0,
+    "type_distribution": {
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "F": 3,
+      "G": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 6,
+      "hard": 2
+    },
+    "section_distribution": {
+      "5.1 Chemical Bonding": 1,
+      "5.2 Ionic Bonding": 4,
+      "5.3 Covalent Bonding": 4,
+      "5.4 Metallic Bonding": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 38,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

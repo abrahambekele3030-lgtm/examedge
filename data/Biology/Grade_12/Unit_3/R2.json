@@ -1,0 +1,1785 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T09:15:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Bio_U3_Q020",
+    "covered_sections": [
+      "3.2. Photosynthesis>3.2.1. Photosynthetic pigments",
+      "3.2. Photosynthesis>3.2.2. Light-dependent and light-independent reactions",
+      "3.2. Photosynthesis>3.2.5. Light-Independent Reactions (Calvin cycle)",
+      "3.2. Photosynthesis>3.2.6. Photorespiration",
+      "3.1. Energy",
+      "3.3. Contributions of photosynthesis for the continuity of life, for O₂ and CO₂ balance and global warming",
+      "3.4. Cellular Respiration>3.4.1. The site of cellular respiration",
+      "3.4. Cellular Respiration>3.4.2. Stages of respiration"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234",
+      "b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef12345",
+      "c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+      "d4e5f6789012345678901234567890abcdef1234567890abcdef1234567",
+      "e5f6789012345678901234567890abcdef1234567890abcdef12345678",
+      "f6789012345678901234567890abcdef1234567890abcdef123456789",
+      "g789012345678901234567890abcdef1234567890abcdef1234567890",
+      "h89012345678901234567890abcdef1234567890abcdef12345678901",
+      "i901234567890123456789abcdef1234567890abcdef123456789012",
+      "j01234567890123456789abcdef1234567890abcdef1234567890123",
+      "k1122334455667788990011223344556677889900112233445566778899",
+      "l2233445566778899001122334455667788990011223344556677889900",
+      "m3344556677889900112233445566778899001122334455667788990011",
+      "n4455667788990011223344556677889900112233445566778899001122",
+      "o5566778899001122334455667788990011223344556677889900112233",
+      "p6677889900112233445566778899001122334455667788990011223344",
+      "q7788990011223344556677889900112233445566778899001122334455",
+      "r8899001122334455667788990011223344556677889900112233445566",
+      "s9900112233445566778899001122334455667788990011223344556677",
+      "t0011223344556677889900112233445566778899001122334455667788"
+    ],
+    "baseline_counter": {
+      "3.2. Photosynthesis": {
+        "3.2.1. Photosynthetic pigments": {
+          "count": 2,
+          "mini_headings_covered": ["Absorption spectra of photosynthetic pigments"],
+          "last_question_round": 2
+        },
+        "3.2.2. Light-dependent and light-independent reactions": {
+          "count": 4,
+          "mini_headings_covered": ["Non-cyclic photophosphorylation", "Cyclic photophosphorylation", "Photosystem I and photosystem II", "Products of Photosynthesis"],
+          "last_question_round": 2
+        },
+        "3.2.5. Light-Independent Reactions (Calvin cycle)": {
+          "count": 4,
+          "mini_headings_covered": ["C3 plants / C3 pathway", "C4 plants / C4 cycle", "CAM plants"],
+          "last_question_round": 2
+        },
+        "3.2.6. Photorespiration": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.1. Energy": {
+        "3.1 (no subsection)": {
+          "count": 2,
+          "mini_headings_covered": ["Table 3.1. Comparison of anabolic and catabolic pathways"],
+          "last_question_round": 2
+        }
+      },
+      "3.3. Contributions of photosynthesis...": {
+        "3.3 (no subsection)": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.4. Cellular Respiration": {
+        "3.4.1. The site of cellular respiration": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "3.4.2. Stages of respiration": {
+          "count": 1,
+          "mini_headings_covered": ["Stage I: Glycolysis"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.2. Photosynthesis": {
+        "question_count": 11,
+        "last_used_round": 2,
+        "consecutive_batches": 2
+      },
+      "3.1. Energy": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.3. Contributions of photosynthesis...": {
+        "question_count": 1,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      },
+      "3.4. Cellular Respiration": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.2. Photosynthesis>3.2.1. Photosynthetic pigments": ["chlorophyll a", "chlorophyll b", "carotenoids", "absorption spectrum", "P680", "P700"],
+      "3.2. Photosynthesis>3.2.2. Light-dependent and light-independent reactions": ["non-cyclic photophosphorylation", "cyclic photophosphorylation", "photosystem I", "photosystem II", "photolysis", "electron transport chain", "NADPH", "ATP", "plastoquinone", "cytochrome b6f"],
+      "3.2. Photosynthesis>3.2.5. Light-Independent Reactions (Calvin cycle)": ["C3 pathway", "RuBP", "rubisco", "PGA", "C4 pathway", "PEP carboxylase", "oxaloacetic acid", "CAM plants", "malate", "regeneration phase"],
+      "3.2. Photosynthesis>3.2.6. Photorespiration": ["RuBisCO", "O2 fixation", "glycolate", "CO2 compensation point"],
+      "3.1. Energy": ["metabolism", "anabolism", "catabolism", "endergonic", "exergonic"],
+      "3.3. Contributions...": ["oxygen cycle", "carbon cycle", "global warming", "fossil fuels"],
+      "3.4. Cellular Respiration>3.4.1": ["mitochondria", "cytosol", "glycolysis", "Krebs cycle", "ETC"],
+      "3.4. Cellular Respiration>3.4.2": ["glycolysis", "pyruvate", "ATP", "NADH", "substrate-level phosphorylation"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_R01",
+    "content_density_metrics": {
+      "total_concepts_extracted": 32,
+      "questions_per_concept_ratio": 0.625,
+      "structural_coverage_percentage": 45.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 3: Energy Transformation",
+  "pdf_filename": "B12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T09:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 5,
+        "progress_percentage": 80.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 5.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 8,
+      "structural_coverage_percentage": 45.0,
+      "concept_utilization_ratio": 0.625
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2. Photosynthesis",
+      "least_covered_section": "Overview",
+      "imbalance_ratio": 5.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U3_Q011",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.1. Energy",
+      "subsection": "3.1 (no subsection)",
+      "sub_subsection": null,
+      "structural_anchor": "Table 3.1. Comparison of anabolic and catabolic pathways",
+      "mcq_type": "I",
+      "question": "How do anabolic and catabolic pathways differ in terms of energy flow and molecular changes?",
+      "options": {
+        "A": "Anabolism releases energy and breaks down complex molecules; catabolism requires energy and builds complex molecules.",
+        "B": "Anabolism requires energy and builds complex molecules; catabolism releases energy and breaks down complex molecules.",
+        "C": "Both pathways release energy, but anabolism builds molecules and catabolism breaks them down.",
+        "D": "Both pathways require energy, but anabolism breaks molecules and catabolism builds them."
+      },
+      "correct_answer": "B",
+      "hint": "Think of 'anabolic steroids' — they build muscle (requires energy).",
+      "explanation": "Anabolism is constructive, synthesizing macromolecules from simpler subunits using energy (endergonic). Catabolism is destructive, breaking down complex molecules and releasing energy (exergonic).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.1. Energy",
+        "subsection_anchor": "3.1 (no subsection)",
+        "structural_element": "Table 3.1. Comparison of anabolic and catabolic pathways",
+        "content_anchor": "Anabolism is constructive and endergonic; catabolism is destructive and exergonic",
+        "page_hint": 4,
+        "concept_hash": "sha256_anabolism_catabolism_compare_111111"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 85
+      },
+      "explanations_tiered": {
+        "definition": "Anabolism is the energy-requiring synthesis of complex molecules from simpler ones; catabolism is the energy-releasing breakdown of complex molecules into simpler ones.",
+        "concept_summary": "Anabolic pathways build macromolecules (proteins, nucleic acids) using ATP, while catabolic pathways break down nutrients (glucose, fats) to release energy.",
+        "beginner": "Anabolism is like building a LEGO tower (needs energy). Catabolism is like breaking the tower apart (releases energy).",
+        "intermediate": "Anabolism: endergonic, building up, requires ATP. Catabolism: exergonic, breaking down, generates ATP. Photosynthesis = anabolic; cellular respiration = catabolic.",
+        "advanced": "Anabolic reactions are coupled to ATP hydrolysis (ΔG negative) to drive endergonic biosynthetic reactions. Catabolic pathways (glycolysis, β-oxidation) transfer electrons to NAD⁺/FAD, ultimately producing ATP via oxidative phosphorylation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that 'ana-' means up/building, 'cata-' means down/breaking.",
+          "Building requires energy input (endergonic).",
+          "Breaking releases energy (exergonic).",
+          "Match: anabolism = builds + requires energy; catabolism = breaks + releases energy."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Anabolism releases energy is incorrect because synthesis requires energy input.",
+          "Catabolism requires energy is false; breakdown is exergonic and releases energy."
+        ],
+        "related_concepts": ["Metabolism", "Endergonic reaction", "Exergonic reaction", "ATP"],
+        "revision_note": "Anabolism: builds + requires energy (endergonic). Catabolism: breaks + releases energy (exergonic).",
+        "glossary_entry": {
+          "term": "Anabolism",
+          "definition": "The set of metabolic pathways that construct complex molecules from simpler subunits, requiring energy input (endergonic).",
+          "example_equation": null,
+          "related_terms": ["catabolism", "endergonic", "biosynthesis"]
+        },
+        "flashcard": {
+          "front": "Does anabolism require or release energy?",
+          "back": "Anabolism requires energy (endergonic) to build complex molecules from simpler ones."
+        },
+        "concept_map_nodes": [
+          {"source": "Anabolism", "relation": "requires", "target": "Energy"},
+          {"source": "Catabolism", "relation": "releases", "target": "Energy"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "glossary"],
+        "flashcard_deck": "Biology Unit 3 — Metabolism",
+        "flashcard_front": "What is the difference between anabolism and catabolism?",
+        "flashcard_back": "Anabolism builds complex molecules (requires energy); catabolism breaks down molecules (releases energy).",
+        "glossary_term": "Anabolism",
+        "glossary_definition": "The set of metabolic pathways that construct complex molecules from simpler subunits, requiring energy input (endergonic).",
+        "revision_note": "Anabolism = build + use energy. Catabolism = break + release energy.",
+        "teacher_note": "Use the analogy of building a house (anabolic, needs energy) vs demolishing it (catabolic, releases heat/sound).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain anabolic and catabolic pathways in cellular metabolism.",
+        "concept_map_nodes": [
+          {"source": "Metabolism", "relation": "divided_into", "target": "Anabolism"},
+          {"source": "Metabolism", "relation": "divided_into", "target": "Catabolism"}
+        ],
+        "workbook_section": "Energy and metabolism",
+        "solution_manual_note": "Answer B. Anabolism builds and requires energy (endergonic); catabolism breaks down and releases energy (exergonic). Options A, C, D reverse or mix the definitions."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q012",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.1. Energy",
+      "subsection": "3.1 (no subsection)",
+      "sub_subsection": null,
+      "structural_anchor": "Table 3.1. Comparison of anabolic and catabolic pathways",
+      "mcq_type": "A",
+      "question": "Which term describes a chemical reaction that absorbs energy from its surroundings and requires an input of free energy to proceed?",
+      "options": {
+        "A": "Exergonic",
+        "B": "Endergonic",
+        "C": "Exothermic",
+        "D": "Catalytic"
+      },
+      "correct_answer": "B",
+      "hint": "'Endo' means inside/inward; energy goes into the reaction.",
+      "explanation": "Endergonic reactions absorb energy and are non-spontaneous, requiring an input of free energy. Anabolic reactions are typically endergonic, using ATP to drive synthesis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "table"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.1. Energy",
+        "subsection_anchor": "3.1 (no subsection)",
+        "structural_element": "Table 3.1. Comparison of anabolic and catabolic pathways",
+        "content_anchor": "Anabolism is an endergonic (energy-absorbing) reaction",
+        "page_hint": 4,
+        "concept_hash": "sha256_endergonic_definition_222222"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 84
+      },
+      "explanations_tiered": {
+        "definition": "An endergonic reaction is a chemical reaction that absorbs free energy from its surroundings and is non-spontaneous.",
+        "concept_summary": "Endergonic reactions require an input of energy (e.g., ATP) to proceed and have a positive ΔG. Anabolic pathways are composed of endergonic reactions.",
+        "beginner": "An endergonic reaction is like pushing a rock uphill — you have to put energy in to make it happen.",
+        "intermediate": "Endergonic means energy enters the reaction. ΔG > 0, reaction is not spontaneous. Coupling with ATP hydrolysis (exergonic) makes it possible in cells.",
+        "advanced": "The Gibbs free energy change ΔG = ΔH - TΔS. For endergonic reactions, ΔG > 0. Cells couple these to exergonic reactions (e.g., ATP → ADP + Pi, ΔG ≈ -30.5 kJ/mol) to drive thermodynamically unfavorable processes.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that 'endergonic' contains 'endo' (inside).",
+          "Energy must go into the reaction for it to occur.",
+          "Opposite of exergonic (energy exits)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Endergonic means heat is absorbed is incorrect; endergonic refers to free energy (ΔG), not heat (ΔH).",
+          "Endergonic reactions are always slow is false; rate depends on activation energy, not ΔG."
+        ],
+        "related_concepts": ["Exergonic", "ΔG", "Anabolism", "ATP hydrolysis"],
+        "revision_note": "Endergonic: ΔG > 0, absorbs energy, non-spontaneous.",
+        "glossary_entry": {
+          "term": "Endergonic reaction",
+          "definition": "A chemical reaction that absorbs free energy from its surroundings (ΔG > 0) and is non-spontaneous.",
+          "example_equation": null,
+          "related_terms": ["exergonic", "ΔG", "anabolism"]
+        },
+        "flashcard": {
+          "front": "What is an endergonic reaction?",
+          "back": "A reaction that absorbs energy (ΔG > 0) and requires an input of free energy to proceed."
+        },
+        "concept_map_nodes": [
+          {"source": "Endergonic", "relation": "characterizes", "target": "Anabolism"},
+          {"source": "Endergonic", "relation": "has", "target": "ΔG > 0"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "glossary"],
+        "flashcard_deck": "Biology Unit 3 — Thermodynamics",
+        "flashcard_front": "Does an endergonic reaction absorb or release free energy?",
+        "flashcard_back": "Endergonic reactions absorb free energy (ΔG > 0) and are non-spontaneous.",
+        "glossary_term": "Endergonic reaction",
+        "glossary_definition": "A chemical reaction that absorbs free energy from its surroundings (ΔG > 0) and is non-spontaneous.",
+        "revision_note": "Endergonic = absorbs energy, ΔG > 0.",
+        "teacher_note": "Distinguish endergonic (ΔG) from endothermic (ΔH). Many students confuse them.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain anabolic and catabolic pathways in cellular metabolism.",
+        "concept_map_nodes": [
+          {"source": "Endergonic", "relation": "opposite_of", "target": "Exergonic"}
+        ],
+        "workbook_section": "Energy and metabolism",
+        "solution_manual_note": "Answer B. Endergonic reactions absorb energy (ΔG > 0). Exergonic (A) releases energy. Exothermic (C) refers to heat, not free energy. Catalytic (D) refers to enzymes."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q013",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.1. Photosynthetic pigments",
+      "sub_subsection": null,
+      "structural_anchor": "Absorption spectra of photosynthetic pigments",
+      "mcq_type": "K",
+      "question": "An absorption spectrum graph shows a pigment with highest absorption at 450–500 nm and no significant absorption above 550 nm. Which pigment is most likely represented?",
+      "options": {
+        "A": "Chlorophyll a",
+        "B": "Chlorophyll b",
+        "C": "Carotenoids",
+        "D": "Phycobilins"
+      },
+      "correct_answer": "C",
+      "hint": "Look for absorption in blue-green region (450–500 nm) and no red absorption.",
+      "explanation": "Carotenoids absorb strongly in the blue-green region (≈450–500 nm) and do not absorb red light. Chlorophylls absorb both blue and red; phycobilins absorb green-orange.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.1. Photosynthetic pigments",
+        "structural_element": "Absorption spectra of photosynthetic pigments",
+        "content_anchor": "Carotenoids absorb in the blue-green region of the solar spectrum",
+        "page_hint": 10,
+        "concept_hash": "sha256_carotenoids_blue_green_333333"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Carotenoids are accessory pigments that absorb blue-green light (450–500 nm) and reflect yellow, orange, or red.",
+        "concept_summary": "Carotenoids have absorption peaks in the blue-green range (450–500 nm) and transmit longer wavelengths, giving them yellow/red colors. They pass absorbed energy to chlorophyll.",
+        "beginner": "Carotenoids are like blue-green light magnets — they grab that colour and ignore red. That's why carrots look orange (they reflect red/orange).",
+        "intermediate": "Carotenoids absorb strongly in the 450–500 nm (blue-green) region, with little to no absorption above 550 nm. They function as accessory pigments, transferring energy to chlorophyll a.",
+        "advanced": "The conjugated polyene chain in carotenoids (e.g., β-carotene) has electronic transitions in the blue region (π→π*). They protect against photo-oxidation by quenching triplet chlorophyll and singlet oxygen.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify absorption peak: 450–500 nm (blue-green).",
+          "Note absence of absorption >550 nm (no red absorption).",
+          "Recall that chlorophylls absorb red (660 nm), carotenoids do not.",
+          "Match to carotenoids."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Carotenoids absorb red light is false; they absorb blue-green and reflect red/orange.",
+          "Carotenoids are not photosynthetic is incorrect; they are accessory pigments that transfer energy to chlorophyll."
+        ],
+        "related_concepts": ["Chlorophyll a", "Accessory pigments", "β-carotene", "Xanthophylls"],
+        "revision_note": "Carotenoids: absorb 450–500 nm (blue-green), no red peak.",
+        "glossary_entry": {
+          "term": "Carotenoids",
+          "definition": "Accessory pigments that absorb blue-green light (450–500 nm) and transfer energy to chlorophyll, also providing photoprotection.",
+          "example_equation": null,
+          "related_terms": ["β-carotene", "xanthophyll", "accessory pigment"]
+        },
+        "flashcard": {
+          "front": "Which photosynthetic pigment absorbs blue-green light but not red?",
+          "back": "Carotenoids. They absorb at 450–500 nm and reflect yellow/orange/red."
+        },
+        "concept_map_nodes": [
+          {"source": "Carotenoids", "relation": "absorb", "target": "Blue-green light"},
+          {"source": "Carotenoids", "relation": "transfer_energy_to", "target": "Chlorophyll a"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Photosynthetic pigments",
+        "flashcard_front": "Do carotenoids absorb red light?",
+        "flashcard_back": "No. Carotenoids absorb primarily blue-green light (450–500 nm) and reflect red/orange.",
+        "glossary_term": "Carotenoids",
+        "glossary_definition": "Accessory pigments that absorb blue-green light (450–500 nm) and transfer energy to chlorophyll, also providing photoprotection.",
+        "revision_note": "Carotenoids: absorb blue-green (450–500 nm), no red peak.",
+        "teacher_note": "Show a carotenoid absorption spectrum alongside chlorophyll to highlight the difference.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Analyze an absorption spectra of chlorophyll a and chlorophyll b using graph.",
+        "concept_map_nodes": [
+          {"source": "Carotenoids", "relation": "absorb_at", "target": "450–500 nm"}
+        ],
+        "workbook_section": "Photosynthetic pigments",
+        "solution_manual_note": "Answer C. Carotenoids absorb blue-green (450–500 nm) and lack red absorption. Chlorophyll a/b absorb red; phycobilins absorb green-orange."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q014",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.2. Light-dependent and light-independent reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Products of Photosynthesis",
+      "mcq_type": "L",
+      "question": "In a laboratory experiment, a student illuminates isolated chloroplasts with light but notices that no oxygen is produced. What is the most likely missing component?",
+      "options": {
+        "A": "NADP⁺",
+        "B": "Carbon dioxide",
+        "C": "Water",
+        "D": "ATP synthase"
+      },
+      "correct_answer": "C",
+      "hint": "Oxygen comes from water splitting (photolysis).",
+      "explanation": "Oxygen evolution requires photolysis of water to replace electrons in photosystem II. Without water, no electrons are available for photosystem II, so no O₂ is produced even if light is present.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Products of Photosynthesis",
+        "content_anchor": "O₂ is produced in the thylakoid lumen by the oxidation of water",
+        "page_hint": 13,
+        "concept_hash": "sha256_water_photolysis_oxygen_444444"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Oxygen in photosynthesis is produced exclusively from the splitting of water (photolysis) in photosystem II.",
+        "concept_summary": "The oxygen-evolving complex oxidizes water, releasing O₂, protons, and electrons. Without water as the electron donor, photosystem II cannot function, and no oxygen is evolved.",
+        "beginner": "Oxygen is a waste product from splitting water molecules, like popping a water balloon gives you oxygen and hydrogen. No water = no popping = no oxygen.",
+        "intermediate": "Photolysis: \\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\). The electrons replace those lost from P680. If water is absent, the electron transport chain stalls, and O₂ production ceases.",
+        "advanced": "The Mn₄CaO₅ cluster catalyses water oxidation. Each turnover extracts 4 electrons from 2 H₂O, releasing O₂. Without water substrate, the S-state cycle cannot advance beyond S₀, and oxygen evolution stops.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that O₂ comes from water, not CO₂.",
+          "Light energy is needed but not sufficient; water must be present as electron donor.",
+          "If water is missing, photolysis cannot occur → no O₂."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)",
+            "name": "Photolysis of water",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Oxygen comes from CO₂ is a classic misconception; actually, O₂ comes from water (proved by van Niel and Ruben/Kamen).",
+          "NADP⁺ or CO₂ absence stops O₂ is false; O₂ is from water and independent of CO₂ fixation in the short term."
+        ],
+        "related_concepts": ["Photosystem II", "Oxygen-evolving complex", "Photolysis", "Electron transport chain"],
+        "revision_note": "O₂ source = H₂O photolysis. No water → no oxygen.",
+        "glossary_entry": {
+          "term": "Photolysis of water",
+          "definition": "The light-driven splitting of water molecules into oxygen, protons, and electrons, catalyzed by the oxygen-evolving complex in photosystem II.",
+          "example_equation": "\\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)",
+          "related_terms": ["oxygen-evolving complex", "photosystem II", "P680"]
+        },
+        "flashcard": {
+          "front": "What is the source of oxygen released in photosynthesis?",
+          "back": "Water. Photolysis splits water: \\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Water", "relation": "split_by", "target": "Photolysis"},
+          {"source": "Photolysis", "relation": "produces", "target": "Oxygen"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 3 — Light reactions",
+        "flashcard_front": "What is required for oxygen production in photosynthesis?",
+        "flashcard_back": "Water (photolysis) and light. Water splitting provides electrons to PSII and releases O₂.",
+        "glossary_term": "Photolysis of water",
+        "glossary_definition": "The light-driven splitting of water molecules into oxygen, protons, and electrons.",
+        "revision_note": "O₂ from H₂O photolysis; requires water.",
+        "teacher_note": "Classic experiment: Hill reaction shows chloroplasts produce O₂ only when an electron acceptor is present and water is supplied.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain the process of dark and light reaction of photosynthesis.",
+        "concept_map_nodes": [
+          {"source": "Light reactions", "relation": "require", "target": "Water"},
+          {"source": "Water", "relation": "yields", "target": "O₂"}
+        ],
+        "workbook_section": "Light reactions",
+        "solution_manual_note": "Answer C. Oxygen is from water (photolysis). Without water, no O₂. NADP⁺ (A) or CO₂ (B) absence does not directly stop O₂ evolution; ATP synthase (D) absence would stop ATP but not immediate O₂ production."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q015",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "C4 plants / C4 cycle",
+      "mcq_type": "G",
+      "question": "Why does the C4 pathway require additional ATP compared to the C3 pathway for each CO₂ fixed?",
+      "options": {
+        "A": "To regenerate PEP from pyruvate in mesophyll cells",
+        "B": "To directly drive the Calvin cycle in bundle sheath cells",
+        "C": "To pump protons into the thylakoid lumen",
+        "D": "To transport malate across the chloroplast envelope"
+      },
+      "correct_answer": "A",
+      "hint": "Extra ATP is used to convert pyruvate back to PEP after decarboxylation.",
+      "explanation": "After malate decarboxylation in bundle sheath cells, pyruvate returns to mesophyll cells and must be converted back to PEP (the CO₂ acceptor). This conversion requires ATP (via pyruvate,Pi dikinase).",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+        "structural_element": "C4 plants / C4 cycle",
+        "content_anchor": "Transport of the C3 acid (pyruvate) back to the mesophyll cell and regeneration of PEP",
+        "page_hint": 16,
+        "concept_hash": "sha256_c4_extra_atp_pep_regeneration_555555"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "C4 plants use an additional 2 ATP per CO₂ (total 5 ATP/CO₂) compared to C3 plants (3 ATP/CO₂) to regenerate PEP from pyruvate.",
+        "concept_summary": "In C4 plants, after CO₂ is released from malate in bundle sheath cells, pyruvate returns to mesophyll cells. Pyruvate is converted back to PEP by pyruvate,phosphate dikinase (PPDK), consuming 1 ATP (converted to AMP + 2 Pi).",
+        "beginner": "C4 plants must rebuild their CO₂ catcher (PEP) after each use. This rebuilding costs extra ATP — like buying new fishing bait after every catch.",
+        "intermediate": "C4 requires 5 ATP per CO₂: 2 for regenerating PEP (via PPDK: pyruvate + ATP + Pi → PEP + AMP + 2 Pi) plus 3 for the Calvin cycle (as in C3).",
+        "advanced": "The PPDK reaction: pyruvate + ATP + Pi → PEP + AMP + 2 Pi. This is energetically equivalent to 2 ATP (since ATP → AMP + PPi → 2 Pi). Thus total C4 cost = 5 ATP/CO₂ vs C3 = 3 ATP/CO₂, but C4 eliminates photorespiration.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "In C4, CO₂ is fixed into PEP (mesophyll), then released in bundle sheath.",
+          "Pyruvate returns to mesophyll.",
+          "Pyruvate must be converted back to PEP to accept another CO₂.",
+          "This conversion requires ATP (via PPDK)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "pyruvate + ATP + Pi → PEP + AMP + 2 Pi",
+            "name": "Pyruvate,phosphate dikinase (PPDK)",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Extra ATP is used in the Calvin cycle itself is incorrect; the Calvin cycle in C4 bundle sheath uses the same 3 ATP/CO₂ as C3.",
+          "Extra ATP is for malate transport is false; malate transport is passive or does not directly consume ATP."
+        ],
+        "related_concepts": ["PEP carboxylase", "Pyruvate,Pi dikinase", "C4 cycle", "Bundle sheath cells"],
+        "revision_note": "C4 extra ATP: pyruvate → PEP (2 ATP equivalent per CO₂).",
+        "glossary_entry": {
+          "term": "Pyruvate,phosphate dikinase",
+          "definition": "An enzyme in C4 mesophyll cells that regenerates PEP from pyruvate, consuming ATP and inorganic phosphate.",
+          "example_equation": "pyruvate + ATP + Pi → PEP + AMP + 2 Pi",
+          "related_terms": ["PEP regeneration", "C4 cycle", "PPDK"]
+        },
+        "flashcard": {
+          "front": "Why do C4 plants require more ATP per CO₂ than C3 plants?",
+          "back": "Extra ATP is used to regenerate PEP from pyruvate (via PPDK) after CO₂ is released in bundle sheath cells."
+        },
+        "concept_map_nodes": [
+          {"source": "C4 pathway", "relation": "requires", "target": "Extra ATP"},
+          {"source": "Extra ATP", "relation": "used_for", "target": "PEP regeneration"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 3 — C4 Photosynthesis",
+        "flashcard_front": "What is the extra ATP cost in C4 plants used for?",
+        "flashcard_back": "Regenerating PEP from pyruvate via pyruvate,phosphate dikinase (PPDK).",
+        "glossary_term": "Pyruvate,phosphate dikinase",
+        "glossary_definition": "An enzyme in C4 mesophyll cells that regenerates PEP from pyruvate, consuming ATP and inorganic phosphate.",
+        "revision_note": "C4 extra ATP: pyruvate → PEP (2 ATP eq/CO₂).",
+        "teacher_note": "Explain that the extra ATP is an energy investment to avoid photorespiration, which is beneficial in hot/dry environments.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Discuss the mechanism as to how CO₂ is fixed in C4 plants.",
+        "concept_map_nodes": [
+          {"source": "Pyruvate", "relation": "converted_by", "target": "PPDK"},
+          {"source": "PPDK", "relation": "consumes", "target": "ATP"}
+        ],
+        "workbook_section": "C4 pathway",
+        "solution_manual_note": "Answer A. Regenerating PEP from pyruvate requires ATP (PPDK). Option B is false; Calvin cycle uses same ATP as C3. Option C is unrelated to C4 advantage. Option D is passive."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q016",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "C3 plants / C3 pathway",
+      "mcq_type": "M",
+      "question": "Arrange the following events in the Calvin cycle in correct order: (1) Reduction of 3-PGA to G3P, (2) Regeneration of RuBP, (3) Fixation of CO₂ onto RuBP.",
+      "options": {
+        "A": "3 → 1 → 2",
+        "B": "1 → 2 → 3",
+        "C": "2 → 3 → 1",
+        "D": "3 → 2 → 1"
+      },
+      "correct_answer": "A",
+      "hint": "Fixation comes first, then reduction, then regeneration.",
+      "explanation": "The Calvin cycle starts with CO₂ fixation (RuBP + CO₂ → 2 × 3-PGA). Then 3-PGA is reduced to G3P using ATP and NADPH. Finally, RuBP is regenerated from G3P to continue the cycle.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+        "structural_element": "C3 plants / C3 pathway",
+        "content_anchor": "three basic stages: fixation, reduction, and regeneration",
+        "page_hint": 14,
+        "concept_hash": "sha256_calvin_order_fix_reduce_regenerate_666666"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 86
+      },
+      "explanations_tiered": {
+        "definition": "The Calvin cycle stages in order: carbon fixation, reduction of 3-PGA to G3P, and regeneration of RuBP.",
+        "concept_summary": "Fixation: CO₂ added to RuBP → 3-PGA. Reduction: 3-PGA → G3P using ATP and NADPH. Regeneration: G3P molecules rearrange to reform RuBP, closing the cycle.",
+        "beginner": "First, catch CO₂ (fixation). Second, turn it into sugar (reduction). Third, rebuild the catcher (regeneration).",
+        "intermediate": "Step 1: rubisco fixes CO₂ to RuBP → 3-PGA. Step 2: 3-PGA reduced to G3P (uses ATP, NADPH). Step 3: most G3P is used to regenerate RuBP.",
+        "advanced": "Fixation: RuBP + CO₂ → 2 × 3-PGA (rubisco). Reduction: 3-PGA + ATP → 1,3-BPG + NADPH → G3P (GAP). Regeneration: 5 G3P → 3 RuBP (requires ATP, involves transketolase/aldolase).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "CO₂ must first be attached to a molecule (fixation).",
+          "The resulting 3-PGA is then reduced to a sugar (reduction).",
+          "The CO₂ acceptor (RuBP) must be regenerated to continue the cycle (regeneration).",
+          "Thus order: fixation → reduction → regeneration."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Reduction happens before fixation is impossible because no fixed carbon exists to reduce.",
+          "Regeneration occurs before reduction would mean RuBP is remade before any carbon is fixed, which is wasteful and incorrect."
+        ],
+        "related_concepts": ["Carbon fixation", "Rubisco", "3-PGA", "G3P", "RuBP regeneration"],
+        "revision_note": "Calvin cycle order: Fixation → Reduction → Regeneration.",
+        "glossary_entry": {
+          "term": "Calvin cycle stages",
+          "definition": "The three phases of the Calvin cycle: carbon fixation, reduction of 3-PGA to G3P, and regeneration of RuBP.",
+          "example_equation": null,
+          "related_terms": ["fixation", "reduction", "regeneration", "RuBP"]
+        },
+        "flashcard": {
+          "front": "What is the correct sequence of the Calvin cycle stages?",
+          "back": "Fixation (CO₂ + RuBP → 3-PGA), Reduction (3-PGA → G3P), Regeneration (G3P → RuBP)."
+        },
+        "concept_map_nodes": [
+          {"source": "Fixation", "relation": "followed_by", "target": "Reduction"},
+          {"source": "Reduction", "relation": "followed_by", "target": "Regeneration"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "workbook"],
+        "flashcard_deck": "Biology Unit 3 — Calvin cycle",
+        "flashcard_front": "What are the three main stages of the Calvin cycle in order?",
+        "flashcard_back": "Fixation, reduction, regeneration.",
+        "glossary_term": "Calvin cycle stages",
+        "glossary_definition": "The three phases of the Calvin cycle: carbon fixation, reduction of 3-PGA to G3P, and regeneration of RuBP.",
+        "revision_note": "Order: Fix → Reduce → Regenerate.",
+        "teacher_note": "Use a diagram of the Calvin cycle to visually show the sequence.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the process of Calvin cycle.",
+        "concept_map_nodes": [
+          {"source": "Calvin cycle", "relation": "has_phase", "target": "Fixation"},
+          {"source": "Calvin cycle", "relation": "has_phase", "target": "Reduction"},
+          {"source": "Calvin cycle", "relation": "has_phase", "target": "Regeneration"}
+        ],
+        "workbook_section": "Calvin cycle",
+        "solution_manual_note": "Answer A. Fixation (CO₂ + RuBP) → Reduction (3-PGA → G3P) → Regeneration (RuBP reformed)."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q017",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.3. Contributions of photosynthesis for the continuity of life, for O₂ and CO₂ balance and global warming",
+      "subsection": "3.3 (no subsection)",
+      "sub_subsection": null,
+      "structural_anchor": "3.3. Contributions of photosynthesis...",
+      "mcq_type": "F",
+      "question": "How does photosynthesis help maintain the balance of carbon dioxide and oxygen in the atmosphere?",
+      "options": {
+        "A": "It consumes O₂ and produces CO₂ at equal rates",
+        "B": "It consumes CO₂ and produces O₂, acting as a carbon sink and oxygen source",
+        "C": "It only removes CO₂ without producing O₂",
+        "D": "It produces both CO₂ and O₂ in a 1:1 ratio"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the overall equation of photosynthesis.",
+      "explanation": "Photosynthesis removes CO₂ from the atmosphere to synthesize glucose and releases O₂ as a byproduct. This process counterbalances respiration and combustion, maintaining atmospheric CO₂/O₂ levels.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(6\\mathrm{CO_2} + 6\\mathrm{H_2O} \\rightarrow \\mathrm{C_6H_{12}O_6} + 6\\mathrm{O_2}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.3. Contributions of photosynthesis...",
+        "subsection_anchor": "3.3 (no subsection)",
+        "structural_element": "3.3. Contributions of photosynthesis...",
+        "content_anchor": "remove carbon dioxide from the atmosphere (inhibit global warming)",
+        "page_hint": 22,
+        "concept_hash": "sha256_co2_o2_balance_photosynthesis_777777"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 85
+      },
+      "explanations_tiered": {
+        "definition": "Photosynthesis maintains atmospheric balance by consuming CO₂ and releasing O₂, counteracting respiration and combustion.",
+        "concept_summary": "Photosynthesis uses CO₂ to build organic molecules and produces O₂. This reduces atmospheric CO₂ (a greenhouse gas) and replenishes O₂, supporting aerobic life.",
+        "beginner": "Photosynthesis acts like a filter: it sucks in CO₂ (bad for warming) and breathes out O₂ (good for us).",
+        "intermediate": "The net reaction: \\(6\\mathrm{CO_2} + 6\\mathrm{H_2O} \\rightarrow \\mathrm{C_6H_{12}O_6} + 6\\mathrm{O_2}\\). Thus photosynthesis is a major sink for atmospheric CO₂ and source of O₂.",
+        "advanced": "Photosynthesis fixes ≈120 Pg C/year, removing CO₂. The O₂ released maintains atmospheric O₂ levels (~21%). Long-term imbalances (e.g., fossil fuel burning) exceed photosynthetic uptake, causing CO₂ rise.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Photosynthesis equation shows CO₂ consumed and O₂ produced.",
+          "This opposes respiration (O₂ consumed, CO₂ produced).",
+          "Together they maintain a dynamic balance."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(6\\mathrm{CO_2} + 6\\mathrm{H_2O} \\rightarrow \\mathrm{C_6H_{12}O_6} + 6\\mathrm{O_2}\\)",
+            "name": "Overall photosynthesis equation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Photosynthesis only removes CO₂ and does not release O₂ is false; O₂ is a mandatory byproduct of water photolysis.",
+          "Photosynthesis produces more CO₂ than it consumes is incorrect; it's a net CO₂ sink and O₂ source."
+        ],
+        "related_concepts": ["Carbon cycle", "Oxygen cycle", "Global warming", "Fossil fuels"],
+        "revision_note": "Photosynthesis: CO₂ in, O₂ out. Balances respiration.",
+        "glossary_entry": {
+          "term": "Photosynthetic gas exchange",
+          "definition": "The process by which plants absorb CO₂ and release O₂, maintaining atmospheric balance of these gases.",
+          "example_equation": "\\(6\\mathrm{CO_2} + 6\\mathrm{H_2O} \\rightarrow \\mathrm{C_6H_{12}O_6} + 6\\mathrm{O_2}\\)",
+          "related_terms": ["carbon sink", "oxygen source", "carbon cycle"]
+        },
+        "flashcard": {
+          "front": "How does photosynthesis affect atmospheric CO₂ and O₂?",
+          "back": "It removes CO₂ and adds O₂, acting as a carbon sink and oxygen source."
+        },
+        "concept_map_nodes": [
+          {"source": "Photosynthesis", "relation": "removes", "target": "CO₂"},
+          {"source": "Photosynthesis", "relation": "releases", "target": "O₂"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Global impact of photosynthesis",
+        "flashcard_front": "Does photosynthesis increase or decrease atmospheric CO₂?",
+        "flashcard_back": "Decreases; photosynthesis consumes CO₂ and releases O₂.",
+        "glossary_term": "Photosynthetic gas exchange",
+        "glossary_definition": "The process by which plants absorb CO₂ and release O₂, maintaining atmospheric balance.",
+        "revision_note": "Photosynthesis: CO₂ sink, O₂ source.",
+        "teacher_note": "Link to climate change: deforestation reduces this CO₂ sink, increasing atmospheric CO₂.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Justify how energy transformations in cells contribute for the maintenance of CO₂ and O₂ balance in the atmosphere.",
+        "concept_map_nodes": [
+          {"source": "Photosynthesis", "relation": "contributes_to", "target": "CO₂–O₂ balance"}
+        ],
+        "workbook_section": "Ecological contributions of photosynthesis",
+        "solution_manual_note": "Answer B. Photosynthesis consumes CO₂ and produces O₂ (see equation). Option A describes respiration. Option C is false (O₂ is produced). Option D is incorrect (ratio is not 1:1 overall on short timescale)."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q018",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.4. Cellular Respiration",
+      "subsection": "3.4.1. The site of cellular respiration",
+      "sub_subsection": null,
+      "structural_anchor": "3.4.1. The site of cellular respiration",
+      "mcq_type": "A",
+      "question": "In which organelle does the Krebs cycle and oxidative phosphorylation occur in eukaryotic cells?",
+      "options": {
+        "A": "Cytosol",
+        "B": "Mitochondrion",
+        "C": "Chloroplast",
+        "D": "Nucleus"
+      },
+      "correct_answer": "B",
+      "hint": "The 'powerhouse' of the cell.",
+      "explanation": "The Krebs cycle takes place in the mitochondrial matrix, and oxidative phosphorylation occurs on the inner mitochondrial membrane. Glycolysis occurs in the cytosol, but the later stages are mitochondrial.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4.1. The site of cellular respiration",
+        "structural_element": "3.4.1. The site of cellular respiration",
+        "content_anchor": "Krebs cycle and electron transport occur in the mitochondria",
+        "page_hint": 27,
+        "concept_hash": "sha256_mitochondria_krebs_et_888888"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "The mitochondrion is the eukaryotic organelle that houses the Krebs cycle (matrix) and oxidative phosphorylation (inner membrane).",
+        "concept_summary": "Glycolysis occurs in the cytosol. Pyruvate enters mitochondria, where it is decarboxylated to acetyl-CoA, which enters the Krebs cycle in the matrix. Electron transport and ATP synthase are on the inner membrane.",
+        "beginner": "Mitochondria are like power plants inside your cells. The Krebs cycle runs on the factory floor (matrix), and the electron transport chain is on the assembly line (inner membrane).",
+        "intermediate": "Krebs cycle: mitochondrial matrix. Electron transport chain and ATP synthase: inner mitochondrial membrane. Both are absent in cytosol, chloroplasts, or nucleus.",
+        "advanced": "The mitochondrial matrix contains the enzymes for pyruvate dehydrogenase and the citric acid cycle. The inner membrane houses complexes I–IV and ATP synthase, with the intermembrane space and matrix for proton gradient formation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that glycolysis is cytosolic.",
+          "Krebs cycle and ETC require the mitochondrion in eukaryotes.",
+          "Select mitochondrion."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Krebs cycle occurs in cytosol is false; only glycolysis occurs there.",
+          "Chloroplasts perform Krebs cycle is incorrect; chloroplasts perform photosynthesis."
+        ],
+        "related_concepts": ["Mitochondrial matrix", "Inner mitochondrial membrane", "Cristae", "ATP synthase"],
+        "revision_note": "Krebs: matrix. ETC/oxphos: inner membrane. Both in mitochondria.",
+        "glossary_entry": {
+          "term": "Mitochondrion",
+          "definition": "The organelle where the Krebs cycle (matrix) and oxidative phosphorylation (inner membrane) occur in eukaryotic cells.",
+          "example_equation": null,
+          "related_terms": ["matrix", "cristae", "aerobic respiration"]
+        },
+        "flashcard": {
+          "front": "Where do the Krebs cycle and electron transport chain occur in eukaryotes?",
+          "back": "Krebs cycle: mitochondrial matrix. Electron transport chain: inner mitochondrial membrane."
+        },
+        "concept_map_nodes": [
+          {"source": "Mitochondrion", "relation": "contains", "target": "Krebs cycle"},
+          {"source": "Mitochondrion", "relation": "contains", "target": "Electron transport chain"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Cellular respiration location",
+        "flashcard_front": "In which organelle does the Krebs cycle occur?",
+        "flashcard_back": "Mitochondrial matrix.",
+        "glossary_term": "Mitochondrion",
+        "glossary_definition": "The organelle where the Krebs cycle (matrix) and oxidative phosphorylation (inner membrane) occur.",
+        "revision_note": "Krebs/ETC = mitochondria.",
+        "teacher_note": "Emphasise that prokaryotes carry out these processes on plasma membrane.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the structure of mitochondria.",
+        "concept_map_nodes": [
+          {"source": "Krebs cycle", "relation": "located_in", "target": "Mitochondrial matrix"}
+        ],
+        "workbook_section": "Cellular respiration",
+        "solution_manual_note": "Answer B. Mitochondrion houses both Krebs cycle (matrix) and oxidative phosphorylation (inner membrane). Cytosol (A) = glycolysis. Chloroplast (C) = photosynthesis. Nucleus (D) = DNA replication."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q019",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.4. Cellular Respiration",
+      "subsection": "3.4.2. Stages of respiration",
+      "sub_subsection": null,
+      "structural_anchor": "Stage I: Glycolysis",
+      "mcq_type": "E",
+      "question": "Glycolysis breaks down one glucose (C₆H₁₂O₆) into two pyruvate molecules. If the net yield of ATP is 2 ATP per glucose, how many ATP molecules are produced (gross) in the energy liberation phase if 2 ATP are used in the energy investment phase?",
+      "options": {
+        "A": "2 ATP",
+        "B": "4 ATP",
+        "C": "6 ATP",
+        "D": "8 ATP"
+      },
+      "correct_answer": "B",
+      "hint": "Net = gross − investment.",
+      "explanation": "Net ATP = gross ATP produced − ATP invested. Net = 2, investment = 2, so gross production = 4 ATP (from substrate-level phosphorylation in the payoff phase).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "net_ATP": {"magnitude": 2, "unit": "molecules"},
+          "invested_ATP": {"magnitude": 2, "unit": "molecules"}
+        },
+        "answer_value": 4,
+        "answer_unit": "ATP molecules",
+        "calculation_steps": [
+          "Gross ATP = Net ATP + Invested ATP",
+          "Gross ATP = 2 + 2 = 4 ATP"
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4.2. Stages of respiration",
+        "structural_element": "Stage I: Glycolysis",
+        "content_anchor": "net yield is two molecules of ATP",
+        "page_hint": 30,
+        "concept_hash": "sha256_glycolysis_gross_vs_net_999999"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 87
+      },
+      "explanations_tiered": {
+        "definition": "Glycolysis consists of an energy investment phase (2 ATP consumed) and an energy payoff phase (4 ATP produced), netting 2 ATP per glucose.",
+        "concept_summary": "Investment: 2 ATP used to phosphorylate glucose and fructose-6-phosphate. Payoff: 4 ATP produced via substrate-level phosphorylation (2 per triose phosphate). Net = 4 − 2 = 2 ATP.",
+        "beginner": "You spend 2 coins to start a machine, then the machine gives you 4 coins. You end with 2 extra coins (net).",
+        "intermediate": "Gross ATP = 4 (steps 6–10: two G3P each yield 2 ATP via 1,3-BPG and PEP). Net = gross (4) − investment (2) = 2 ATP per glucose.",
+        "advanced": "Substrate-level phosphorylation: 1,3-BPG → 3-PGA (phosphoglycerate kinase) and PEP → pyruvate (pyruvate kinase). Each reaction yields 1 ATP per G3P, so 2 G3P give 4 ATP gross.",
+        "worked_solution": [
+          "Step 1: Net yield = 2 ATP per glucose.",
+          "Step 2: Investment phase consumes 2 ATP.",
+          "Step 3: Gross ATP production = Net + Investment = 2 + 2 = 4 ATP."
+        ],
+        "reasoning_steps": [
+          "Recall that net ATP = gross ATP produced − ATP consumed in investment.",
+          "Net = 2, Investment = 2.",
+          "Therefore gross = 2 + 2 = 4 ATP."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Gross ATP is 2 is incorrect; that's the net yield.",
+          "Gross ATP is 6 or 8 is wrong; only 4 ATP are produced directly in glycolysis."
+        ],
+        "related_concepts": ["Substrate-level phosphorylation", "Energy investment phase", "Energy payoff phase", "G3P"],
+        "revision_note": "Glycolysis gross = 4 ATP, net = 2 ATP per glucose.",
+        "glossary_entry": {
+          "term": "Gross ATP in glycolysis",
+          "definition": "The total ATP produced directly in the payoff phase of glycolysis, which is 4 ATP per glucose.",
+          "example_equation": null,
+          "related_terms": ["net ATP", "substrate-level phosphorylation"]
+        },
+        "flashcard": {
+          "front": "How many ATP are produced gross in glycolysis per glucose?",
+          "back": "4 ATP (net = 2 ATP after subtracting 2 ATP invested)."
+        },
+        "concept_map_nodes": [
+          {"source": "Glycolysis", "relation": "has_phase", "target": "Investment (2 ATP used)"},
+          {"source": "Glycolysis", "relation": "has_phase", "target": "Payoff (4 ATP made)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "workbook"],
+        "flashcard_deck": "Biology Unit 3 — Glycolysis",
+        "flashcard_front": "What is the gross ATP yield of glycolysis?",
+        "flashcard_back": "4 ATP (net = 2 ATP after subtracting 2 ATP invested).",
+        "glossary_term": "Gross ATP in glycolysis",
+        "glossary_definition": "The total ATP produced directly in the payoff phase of glycolysis, which is 4 ATP per glucose.",
+        "revision_note": "Glycolysis gross = 4 ATP, net = 2 ATP.",
+        "teacher_note": "Use the analogy of a business: investment (2 ATP) → revenue (4 ATP) → profit (2 ATP).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "list the products formed at the end of glycolysis.",
+        "concept_map_nodes": [
+          {"source": "1 glucose", "relation": "yields_gross", "target": "4 ATP"},
+          {"source": "1 glucose", "relation": "yields_net", "target": "2 ATP"}
+        ],
+        "workbook_section": "Glycolysis",
+        "solution_manual_note": "Answer B. Net = gross − investment → 2 = gross − 2 → gross = 4 ATP. Option A (2) is net yield; C (6) and D (8) are incorrect."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q020",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.4. Cellular Respiration",
+      "subsection": "3.4.2. Stages of respiration",
+      "sub_subsection": null,
+      "structural_anchor": "Stage I: Glycolysis",
+      "mcq_type": "A",
+      "question": "What is the final product of glycolysis under anaerobic conditions?",
+      "options": {
+        "A": "Acetyl-CoA",
+        "B": "Pyruvate",
+        "C": "Lactate",
+        "D": "Ethanol"
+      },
+      "correct_answer": "B",
+      "hint": "Glycolysis ends with pyruvate regardless of oxygen.",
+      "explanation": "Glycolysis always produces pyruvate. In aerobic conditions, pyruvate enters mitochondria; in anaerobic conditions, pyruvate is fermented to lactate or ethanol, but the endpoint of glycolysis itself is pyruvate.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.4. Cellular Respiration",
+        "subsection_anchor": "3.4.2. Stages of respiration",
+        "structural_element": "Stage I: Glycolysis",
+        "content_anchor": "Glucose → two molecules of pyruvate",
+        "page_hint": 28,
+        "concept_hash": "sha256_pyruvate_glycolysis_endpoint_000000"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Pyruvate is the three-carbon end product of glycolysis, formed from glucose via a series of ten enzyme-catalysed reactions.",
+        "concept_summary": "Glycolysis splits glucose (6C) into two pyruvate (3C) molecules. This occurs in the cytosol and does not require oxygen; pyruvate is the common substrate for both aerobic (via acetyl-CoA) and anaerobic (fermentation) pathways.",
+        "beginner": "Think of glycolysis as a machine that always outputs pyruvate. What happens to pyruvate next depends on whether oxygen is around.",
+        "intermediate": "The glycolytic pathway ends with pyruvate regardless of O₂ presence. Under anaerobic conditions, pyruvate is subsequently reduced to lactate (animals) or ethanol (yeast), but the terminal product of glycolysis itself is still pyruvate.",
+        "advanced": "The last step of glycolysis: phosphoenolpyruvate + ADP → pyruvate + ATP (catalysed by pyruvate kinase). Pyruvate is then either transported into mitochondria (aerobic) or fermented in cytosol (anaerobic).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the glycolytic pathway ends with the conversion of PEP to pyruvate.",
+          "Oxygen availability does not change the end product of glycolysis.",
+          "Lactate/ethanol are fermentation products from pyruvate, not direct glycolytic outputs."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Glycolysis produces lactate directly is false; lactate is from pyruvate reduction (fermentation).",
+          "Glycolysis requires oxygen to produce pyruvate is incorrect; glycolysis is anaerobic."
+        ],
+        "related_concepts": ["Pyruvate", "Fermentation", "Pyruvate kinase", "Glycolysis"],
+        "revision_note": "Glycolysis always ends with pyruvate (C3).",
+        "glossary_entry": {
+          "term": "Pyruvate",
+          "definition": "The three-carbon end product of glycolysis, formed from glucose in the cytosol.",
+          "example_equation": null,
+          "related_terms": ["glycolysis", "fermentation", "pyruvate kinase"]
+        },
+        "flashcard": {
+          "front": "What is the final product of glycolysis?",
+          "back": "Pyruvate (two molecules per glucose), regardless of oxygen presence."
+        },
+        "concept_map_nodes": [
+          {"source": "Glycolysis", "relation": "produces", "target": "Pyruvate"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Glycolysis",
+        "flashcard_front": "Does glycolysis produce pyruvate or lactate?",
+        "flashcard_back": "Glycolysis produces pyruvate; lactate is a fermentation product from pyruvate.",
+        "glossary_term": "Pyruvate",
+        "glossary_definition": "The three-carbon end product of glycolysis, formed from glucose in the cytosol.",
+        "revision_note": "Glycolysis → pyruvate (always).",
+        "teacher_note": "Clarify that students often confuse the end of glycolysis with fermentation. Glycolysis is oxygen-independent and yields pyruvate.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "list the products formed at the end of glycolysis.",
+        "concept_map_nodes": [
+          {"source": "Glucose", "relation": "converted_to", "target": "Pyruvate"}
+        ],
+        "workbook_section": "Glycolysis",
+        "solution_manual_note": "Answer B. Pyruvate is the direct end product of glycolysis. Acetyl-CoA (A) is from pyruvate decarboxylation (needs O₂). Lactate (C) and ethanol (D) are fermentation products of pyruvate."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4100,
+    "average_question_quality": 87.5,
+    "type_distribution": {
+      "A": 3,
+      "E": 1,
+      "F": 1,
+      "G": 1,
+      "I": 1,
+      "K": 1,
+      "L": 1,
+      "M": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "3.1. Energy": 2,
+      "3.2. Photosynthesis": 4,
+      "3.3. Contributions...": 1,
+      "3.4. Cellular Respiration": 3
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 6
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

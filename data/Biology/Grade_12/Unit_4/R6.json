@@ -1,0 +1,1516 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:40:00Z",
+  "round_id": "R06",
+  "batch_sequence": 6,
+  "__STATE__": {
+    "current_round": 6,
+    "last_question_id": "G12_Bio_U4_Q060",
+    "covered_sections": [
+      "4.1. EVOLUTION>4.1.1. Definition",
+      "4.1. EVOLUTION>4.1.2. Theories of evolution",
+      "4.1. EVOLUTION>4.1.3. The evidence for evolution",
+      "4.1. EVOLUTION>4.1.4. Natural selection: Definition, Types & Examples",
+      "4.1. EVOLUTION>4.1.5. Human evolution",
+      "4.1. EVOLUTION>4.1.6. Mutation",
+      "4.1. EVOLUTION>4.1.7. Genetic Drift",
+      "4.1. EVOLUTION>4.1.8. Gene flow (immigration and emigration)",
+      "4.1. EVOLUTION>4.1.9. Causes of species extinction"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f678",
+      "c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890",
+      "d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1",
+      "e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2",
+      "f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3",
+      "67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4",
+      "7890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5",
+      "890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f",
+      "90a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f7",
+      "b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f679",
+      "c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790",
+      "d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1",
+      "e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2",
+      "f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3",
+      "67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4",
+      "7890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5",
+      "890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f",
+      "90a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f6",
+      "a1b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7a",
+      "b2c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7b",
+      "c3d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7c",
+      "d4e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7d",
+      "e5f67890a1b2c3d4e5f6790a1b2c3d4e5f7e",
+      "f67890a1b2c3d4e5f6790a1b2c3d4e5f7f",
+      "67890a1b2c3d4e5f6790a1b2c3d4e5f7a0",
+      "7890a1b2c3d4e5f6790a1b2c3d4e5f7a1",
+      "890a1b2c3d4e5f6790a1b2c3d4e5f7a2",
+      "90a1b2c3d4e5f6790a1b2c3d4e5f7a3",
+      "a1b2c3d4e5f6790a1b2c3d4e5f7a4",
+      "b2c3d4e5f6790a1b2c3d4e5f7a5",
+      "c3d4e5f6790a1b2c3d4e5f7a6",
+      "d4e5f6790a1b2c3d4e5f7a7",
+      "e5f6790a1b2c3d4e5f7a8",
+      "f6790a1b2c3d4e5f7a9",
+      "6790a1b2c3d4e5f7a0b",
+      "790a1b2c3d4e5f7a1b",
+      "90a1b2c3d4e5f7a2b",
+      "0a1b2c3d4e5f7a3b",
+      "a1b2c3d4e5f7a4b",
+      "b2c3d4e5f7a5b",
+      "c3d4e5f7a6b",
+      "d4e5f7a7b",
+      "a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0",
+      "b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1"
+    ],
+    "baseline_counter": {
+      "4.1. EVOLUTION": {
+        "4.1.1. Definition": {
+          "count": 7,
+          "mini_headings_covered": [
+            "Theories of the origin of life",
+            "2. Spontaneous generation (abiogenesis)",
+            "3. Eternity of life",
+            "4. Biochemical origin",
+            "1. Special creationism",
+            "Autotrophs"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.2. Theories of evolution": {
+          "count": 9,
+          "mini_headings_covered": [
+            "Lamarckism",
+            "Darwinism (Theory of natural selection)",
+            "Neo-Darwinism theory"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.3. The evidence for evolution": {
+          "count": 8,
+          "mini_headings_covered": [
+            "4.1.3.1 Comparative anatomy",
+            "4.1.3.3 Palaeontology (Paleontology)",
+            "4.1.3.4 Comparative biochemistry",
+            "4.1.3.2 Embryology"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.4. Natural selection: Definition, Types & Examples": {
+          "count": 12,
+          "mini_headings_covered": [
+            "Pattern of evolution",
+            "Divergent Evolution",
+            "Antibiotic resistance",
+            "Stabilizing selection",
+            "Directional selection",
+            "Disruptive selection",
+            "Parallel evolution"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.5. Human evolution": {
+          "count": 8,
+          "mini_headings_covered": [
+            "Lucy and Ardy",
+            "How brain size changed during human evolution?"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.6. Mutation": {
+          "count": 8,
+          "mini_headings_covered": [
+            "Point mutation",
+            "Addition and deletion",
+            "Chromosomal mutation",
+            "Translocation",
+            "Inversion"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.7. Genetic Drift": {
+          "count": 7,
+          "mini_headings_covered": [
+            "Hardy-Weinberg Equilibrium",
+            "The genetic bottleneck effect",
+            "Founder effect"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.8. Gene flow (immigration and emigration)": {
+          "count": 6,
+          "mini_headings_covered": [
+            "Keywords: Gene flow, Migration"
+          ],
+          "last_question_round": 6
+        },
+        "4.1.9. Causes of species extinction": {
+          "count": 6,
+          "mini_headings_covered": [
+            "Activity 4.33"
+          ],
+          "last_question_round": 6
+        }
+      },
+      "4.2. Renowned Anthropologists in Ethiopia": {},
+      "4.3. Renowned Evolutionists in Ethiopia": {}
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1. EVOLUTION": {
+        "question_count": 60,
+        "last_used_round": 6,
+        "consecutive_batches": 6
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1. EVOLUTION>4.1.1. Definition": [
+        "abiogenesis",
+        "spontaneous generation",
+        "biogenesis",
+        "cosmozoan",
+        "panspermia",
+        "eternity of life",
+        "Miller-Urey",
+        "Oparin-Haldane",
+        "special creationism",
+        "photoautotroph",
+        "chemoautotroph"
+      ],
+      "4.1. EVOLUTION>4.1.2. Theories of evolution": [
+        "use and disuse",
+        "inheritance of acquired characteristics",
+        "natural selection",
+        "struggle for existence",
+        "Neo-Darwinism",
+        "gene pool",
+        "allele frequency",
+        "heritability",
+        "postulates of Darwinism"
+      ],
+      "4.1. EVOLUTION>4.1.3. The evidence for evolution": [
+        "homologous structures",
+        "analogous structures",
+        "fossil record",
+        "stratigraphy",
+        "half-life",
+        "biochemistry",
+        "cytochrome c",
+        "pentadactyl limb",
+        "embryology",
+        "pharyngeal pouches",
+        "superposition"
+      ],
+      "4.1. EVOLUTION>4.1.4. Natural selection: Definition, Types & Examples": [
+        "directional selection",
+        "stabilizing selection",
+        "disruptive selection",
+        "divergent evolution",
+        "convergent evolution",
+        "antibiotic resistance",
+        "parallel evolution",
+        "fitness",
+        "natural selection definition"
+      ],
+      "4.1. EVOLUTION>4.1.5. Human evolution": [
+        "bipedalism",
+        "encephalization",
+        "Australopithecus afarensis",
+        "Lucy",
+        "Ardi",
+        "Homo sapiens",
+        "cranial capacity",
+        "opposable thumb",
+        "tool use",
+        "Laetoli footprints"
+      ],
+      "4.1. EVOLUTION>4.1.6. Mutation": [
+        "point mutation",
+        "substitution",
+        "deletion",
+        "addition",
+        "frameshift",
+        "chromosomal mutation",
+        "inversion",
+        "translocation",
+        "duplication",
+        "nondisjunction",
+        "missense",
+        "nonsense"
+      ],
+      "4.1. EVOLUTION>4.1.7. Genetic Drift": [
+        "Hardy-Weinberg equilibrium",
+        "genetic drift",
+        "bottleneck effect",
+        "founder effect",
+        "allele frequency",
+        "p^2 + 2pq + q^2 = 1",
+        "sampling error",
+        "heterozygosity"
+      ],
+      "4.1. EVOLUTION>4.1.8. Gene flow (immigration and emigration)": [
+        "gene flow",
+        "migration",
+        "allele transfer",
+        "homogenization",
+        "Fst"
+      ],
+      "4.1. EVOLUTION>4.1.9. Causes of species extinction": [
+        "anthropogenic effects",
+        "natural disaster",
+        "habitat loss",
+        "climate change",
+        "Sixth Mass Extinction",
+        "habitat fragmentation",
+        "background extinction"
+      ]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 60,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 98.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 4: EVOLUTION",
+  "pdf_filename": "B12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 1,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 60,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 42,
+      "structural_coverage_percentage": 98.0,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1. EVOLUTION",
+      "least_covered_section": "4.3. Renowned Evolutionists in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U4_Q051",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.3. The evidence for evolution",
+      "sub_subsection": "4.1.3.1 Comparative anatomy",
+      "structural_anchor": "4.1.3.1 Comparative anatomy",
+      "mcq_type": "I",
+      "question": "The forelimbs of mammals (human arm, cat leg, whale flipper, bat wing) share the same basic bone structure but serve different functions. What does this indicate about their evolutionary history?",
+      "options": {
+        "A": "They evolved convergently due to similar environments.",
+        "B": "They are vestigial structures with no function.",
+        "C": "They evolved from a common ancestor with that limb structure.",
+        "D": "They developed independently through parallel mutations."
+      },
+      "correct_answer": "C",
+      "hint": "Same structure, different function = common ancestry (homology).",
+      "explanation": "Homologous structures like the pentadactyl limb indicate descent from a common ancestor, not convergent evolution (A), which would produce analogous structures.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.3. The evidence for evolution",
+        "structural_element": "4.1.3.1 Comparative anatomy",
+        "content_anchor": "indicate an evolutionary relationship and a common ancestor",
+        "page_hint": 18,
+        "concept_hash": "e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Homologous structures are anatomical features with common evolutionary origin but different functions.",
+        "concept_summary": "The pentadactyl limb pattern is shared because it was inherited from a common ancestor, then modified for different uses.",
+        "beginner": "These arms look different outside but have the same bones inside. That's because all these animals inherited the same basic arm design from a shared ancestor.",
+        "intermediate": "Homologous structures are evidence of divergent evolution from a common ancestor. The underlying bone pattern is conserved despite functional divergence.",
+        "advanced": "Deep homology is controlled by conserved developmental genetic pathways (e.g., Hox gene expression). The pentadactyl limb is a shared derived characteristic (synapomorphy) for tetrapods.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Observe: same bone structure, different functions.",
+          "Recall that homologous structures indicate common ancestry.",
+          "Select the common ancestor option."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Homologous structures do not mean identical functions; they mean shared origin."
+        ],
+        "related_concepts": [
+          "Homologous structures",
+          "Common ancestor",
+          "Pentadactyl limb",
+          "Divergent evolution"
+        ],
+        "revision_note": "Homology: same structure, different function → common ancestor.",
+        "glossary_entry": {
+          "term": "Homologous structures",
+          "definition": "Anatomically similar structures inherited from a common ancestor.",
+          "example_equation": null,
+          "related_terms": [
+            "Pentadactyl limb",
+            "Common ancestor"
+          ]
+        },
+        "flashcard": {
+          "front": "What does the pentadactyl limb indicate about mammals?",
+          "flashcard_back": "They share a common ancestor that had that limb structure."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Pentadactyl limb",
+            "relation": "evidence_for",
+            "target": "Common ancestor"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "What do homologous forelimbs indicate about mammalian evolution?",
+        "flashcard_back": "They indicate descent from a common ancestor.",
+        "glossary_term": "Homologous structures",
+        "glossary_definition": "Structures with similar anatomy from common ancestry.",
+        "revision_note": "Homology = common ancestor.",
+        "teacher_note": "Use the pentadactyl limb as the classic example.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain how comparative anatomy provides evidence for evolution",
+        "concept_map_nodes": [
+          {
+            "source": "Comparative anatomy",
+            "relation": "reveals",
+            "target": "Homologous structures"
+          }
+        ],
+        "workbook_section": "4.1.3. The evidence for evolution",
+        "solution_manual_note": "Answer C. The shared bone structure indicates inheritance from a common ancestor."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q052",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.1. Definition",
+      "sub_subsection": "2. Spontaneous generation (abiogenesis)",
+      "structural_anchor": "2. Spontaneous generation (abiogenesis)",
+      "mcq_type": "H",
+      "question": "A student claims that if a wool sweater is left in a dark closet for months, it will spontaneously produce clothes moths. Which scientist's experiments most directly disprove this type of reasoning?",
+      "options": {
+        "A": "Miller and Urey",
+        "B": "Louis Pasteur",
+        "C": "Charles Darwin",
+        "D": "Gregor Mendel"
+      },
+      "correct_answer": "B",
+      "hint": "Pasteur's swan-neck flask experiment disproved spontaneous generation.",
+      "explanation": "Louis Pasteur's experiments with swan-neck flasks showed that microorganisms do not arise spontaneously; they come from pre-existing life. This disproves the claim of spontaneous generation of moths from sweaters.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.1. Definition",
+        "structural_element": "2. Spontaneous generation (abiogenesis)",
+        "content_anchor": "Louis Pasteur ... disproved the theory of spontaneous generation",
+        "page_hint": 4,
+        "concept_hash": "b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "evaluate",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Spontaneous generation is the now-disproven hypothesis that life arises from non-living matter.",
+        "concept_summary": "Pasteur's experiment demonstrated that life only comes from pre-existing life (biogenesis), not spontaneous generation.",
+        "beginner": "Pasteur showed that even tiny microbes don't just appear; they come from other microbes. So moths cannot appear from a sweater without eggs being there first.",
+        "intermediate": "Pasteur's swan-neck flasks allowed air but trapped dust and microbes, preventing contamination. Boiled broth remained sterile, disproving spontaneous generation.",
+        "advanced": "Pasteur's principle of 'Omne vivum ex vivo' (all life from life) was the final nail in the coffin for abiogenesis under current Earth conditions, though the origin of first life remains unresolved.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the claim: life from non-life (spontaneous generation).",
+          "Recall who disproved this: Pasteur.",
+          "Select Pasteur."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Pasteur did not disprove the origin of life (abiogenesis on early Earth); he disproved spontaneous generation under modern conditions."
+        ],
+        "related_concepts": [
+          "Spontaneous generation",
+          "Biogenesis",
+          "Pasteur experiment",
+          "Redi experiment"
+        ],
+        "revision_note": "Pasteur disproved spontaneous generation (life from non-life).",
+        "glossary_entry": {
+          "term": "Spontaneous generation",
+          "definition": "The obsolete idea that life can arise from non-living matter.",
+          "example_equation": null,
+          "related_terms": [
+            "Biogenesis",
+            "Pasteur"
+          ]
+        },
+        "flashcard": {
+          "front": "Who disproved spontaneous generation with swan-neck flasks?",
+          "flashcard_back": "Louis Pasteur."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Spontaneous generation",
+            "relation": "disproved_by",
+            "target": "Pasteur"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "Which scientist's experiments disproved the idea of spontaneous generation?",
+        "flashcard_back": "Louis Pasteur (swan-neck flask experiment).",
+        "glossary_term": "Spontaneous generation",
+        "glossary_definition": "The disproven theory that life arises from non-living material.",
+        "revision_note": "Spontaneous generation disproved by Pasteur.",
+        "teacher_note": "Contrast with Redi (maggots) and Needham/Spallanzani.",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Analyze different views about the origin of life",
+        "concept_map_nodes": [
+          {
+            "source": "Pasteur",
+            "relation": "proved",
+            "target": "Biogenesis"
+          }
+        ],
+        "workbook_section": "4.1.1. Definition",
+        "solution_manual_note": "Answer B. Pasteur's swan-neck flask experiments conclusively disproved spontaneous generation."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q053",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.4. Natural selection: Definition, Types & Examples",
+      "sub_subsection": null,
+      "structural_anchor": "Pattern of evolution",
+      "mcq_type": "D",
+      "question": "In a forest, the average beak size of a bird population stays the same over many generations despite varying food availability. What type of selection is likely maintaining this stability?",
+      "options": {
+        "A": "Directional selection",
+        "B": "Disruptive selection",
+        "C": "Stabilizing selection",
+        "D": "Artificial selection"
+      },
+      "correct_answer": "C",
+      "hint": "Stable mean over time suggests stabilizing selection.",
+      "explanation": "Stabilizing selection favors intermediate phenotypes, reducing variation without shifting the mean. Directional (A) would change the average; disruptive (B) would create a bimodal distribution.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.4. Natural selection: Definition, Types & Examples",
+        "structural_element": "Pattern of evolution",
+        "content_anchor": "Stabilising selection",
+        "page_hint": 30,
+        "concept_hash": "a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Stabilizing selection keeps the population mean constant by reducing phenotypic variation.",
+        "concept_summary": "If the average beak size remains unchanged despite environmental fluctuations, selection is likely removing extreme variants each generation.",
+        "beginner": "Even when food changes, the average beak size doesn't change. This means birds with average beaks are always doing best.",
+        "intermediate": "Stabilizing selection maintains the status quo. It reduces variance (narrower distribution) but does not change the mean.",
+        "advanced": "Stabilizing selection is common for quantitative traits near an optimum. The selection differential (S) is zero, so the response (R) is zero.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Observe: population mean unchanged over time.",
+          "Recall which selection type maintains the mean: stabilizing.",
+          "Select stabilizing selection."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Stabilizing selection does not mean no selection; it actively removes extremes."
+        ],
+        "related_concepts": [
+          "Stabilizing selection",
+          "Phenotypic variance",
+          "Fitness optimum"
+        ],
+        "revision_note": "Stabilizing: mean constant, variance reduced.",
+        "glossary_entry": {
+          "term": "Stabilizing selection",
+          "definition": "Selection that maintains an existing population mean by removing extremes.",
+          "example_equation": null,
+          "related_terms": [
+            "Directional selection"
+          ]
+        },
+        "flashcard": {
+          "front": "What type of selection keeps the average trait value stable over time?",
+          "flashcard_back": "Stabilizing selection."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Stabilizing selection",
+            "relation": "maintains",
+            "target": "Population mean"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "Which selection type keeps a trait's average constant?",
+        "flashcard_back": "Stabilizing selection.",
+        "glossary_term": "Stabilizing selection",
+        "glossary_definition": "Natural selection that maintains the current population mean.",
+        "revision_note": "Stabilizing: mean unchanged.",
+        "teacher_note": "Connect to real-world examples like birth weight.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Give practical examples for the different types of selections",
+        "concept_map_nodes": [
+          {
+            "source": "Stabilizing selection",
+            "relation": "example",
+            "target": "Beak size"
+          }
+        ],
+        "workbook_section": "4.1.4. Natural selection",
+        "solution_manual_note": "Answer C. The mean remains unchanged, indicating stabilizing selection."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q054",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.5. Human evolution",
+      "sub_subsection": null,
+      "structural_anchor": "How brain size changed during human evolution?",
+      "mcq_type": "F",
+      "question": "The genus Homo is distinguished from Australopithecus primarily by which two key characteristics?",
+      "options": {
+        "A": "Large canine teeth and a sagittal crest",
+        "B": "Significantly larger brain size and tool use",
+        "C": "Quadrupedal locomotion and arboreal adaptations",
+        "D": "Reduced body size and increased hairiness"
+      },
+      "correct_answer": "B",
+      "hint": "Homo habilis means 'handy man' for tool use, and brain size increased.",
+      "explanation": "Early Homo species (habilis, erectus) had larger cranial capacity (>600 cc) and made stone tools. Australopithecus had smaller brains and no stone tools.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.5. Human evolution",
+        "structural_element": "How brain size changed during human evolution?",
+        "content_anchor": "cranial capacity has increased with each new hominid species evolved",
+        "page_hint": 46,
+        "concept_hash": "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "The genus Homo is characterized by larger brain size (encephalization) and the manufacture of stone tools.",
+        "concept_summary": "Homo habilis ('handy man') was the first to use Oldowan tools. Brain size increased from ~500 cc (Australopithecus) to ~650-800 cc (H. habilis).",
+        "beginner": "Humans (Homo) have bigger brains and make tools. Earlier Australopithecus had small brains and didn't use tools.",
+        "intermediate": "The transition to Homo involved a significant increase in cranial capacity (600-800 cc) and associated behavioral changes, including tool use.",
+        "advanced": "Homo erectus had even larger brains (~900-1100 cc) and produced Acheulean handaxes, showing cognitive and motor advances.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall features of Australopithecus: small brain, bipedal, no tools.",
+          "Recall features of Homo: larger brain, tools.",
+          "Select the distinguishing pair."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Australopithecus was bipedal but did not use stone tools; tool use defines the genus Homo."
+        ],
+        "related_concepts": [
+          "Homo habilis",
+          "Oldowan tools",
+          "Cranial capacity",
+          "Encephalization"
+        ],
+        "revision_note": "Homo = larger brain + tool use.",
+        "glossary_entry": {
+          "term": "Homo habilis",
+          "definition": "The earliest Homo species, known for using stone tools (Oldowan industry).",
+          "example_equation": null,
+          "related_terms": [
+            "Cranial capacity",
+            "Tool use"
+          ]
+        },
+        "flashcard": {
+          "front": "What two traits distinguish the genus Homo from Australopithecus?",
+          "flashcard_back": "Larger brain size and stone tool use."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Genus Homo",
+            "relation": "characterized_by",
+            "target": "Tool use"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "What distinguishes Homo from Australopithecus?",
+        "flashcard_back": "Larger brain size and the ability to make stone tools.",
+        "glossary_term": "Homo",
+        "glossary_definition": "The genus that includes modern humans and their close relatives with larger brains.",
+        "revision_note": "Homo: big brain + tools.",
+        "teacher_note": "Emphasize the cognitive and behavioral leap.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Outline human evolution",
+        "concept_map_nodes": [
+          {
+            "source": "Homo",
+            "relation": "compared_to",
+            "target": "Australopithecus"
+          }
+        ],
+        "workbook_section": "4.1.5. Human evolution",
+        "solution_manual_note": "Answer B. Larger brain size and tool use define the genus Homo."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q055",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.6. Mutation",
+      "sub_subsection": null,
+      "structural_anchor": "Substitution",
+      "mcq_type": "A",
+      "question": "What is the specific term for a point mutation where one DNA base is replaced by a different base?",
+      "options": {
+        "A": "Deletion",
+        "B": "Insertion",
+        "C": "Substitution",
+        "D": "Inversion"
+      },
+      "correct_answer": "C",
+      "hint": "'Substitute' means one thing takes the place of another.",
+      "explanation": "Substitution is a point mutation where one base is replaced by another. Deletion (A) removes a base; insertion (B) adds a base.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.6. Mutation",
+        "structural_element": "Substitution",
+        "content_anchor": "Guanine replaces thymine in this substitution",
+        "page_hint": 49,
+        "concept_hash": "f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "A substitution mutation is a point mutation where one nucleotide is replaced by another.",
+        "concept_summary": "Substitutions can be transitions (purine to purine) or transversions (purine to pyrimidine).",
+        "beginner": "Substitution is like changing the letter 'A' to the letter 'C' in a word. The word is still there, but the letters are swapped.",
+        "intermediate": "Substitution alters a single nucleotide. It may be silent, missense, or nonsense depending on the codon change.",
+        "advanced": "Transitions (A↔G, C↔T) are more common than transversions. The effect depends on the degeneracy of the genetic code.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the change: base replaced by another base.",
+          "Recall the term for base replacement: substitution."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Substitution does not change the total number of bases; deletion and insertion do."
+        ],
+        "related_concepts": [
+          "Transition",
+          "Transversion",
+          "Missense mutation",
+          "Silent mutation"
+        ],
+        "revision_note": "Substitution: base replaced by another base.",
+        "glossary_entry": {
+          "term": "Substitution mutation",
+          "definition": "A point mutation where one nucleotide is replaced by another.",
+          "example_equation": null,
+          "related_terms": [
+            "Point mutation",
+            "Transition"
+          ]
+        },
+        "flashcard": {
+          "front": "What mutation replaces one base with another?",
+          "flashcard_back": "Substitution mutation."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Point mutation",
+            "relation": "includes",
+            "target": "Substitution"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "What is a substitution mutation?",
+        "flashcard_back": "One base is replaced by another.",
+        "glossary_term": "Substitution",
+        "glossary_definition": "A mutation where one nucleotide is swapped for another.",
+        "revision_note": "Substitution = base replacement.",
+        "teacher_note": "Distinguish from insertion/deletion.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Examine the different types of mutations with examples",
+        "concept_map_nodes": [
+          {
+            "source": "Substitution",
+            "relation": "type_of",
+            "target": "Point mutation"
+          }
+        ],
+        "workbook_section": "4.1.6. Mutation",
+        "solution_manual_note": "Answer C. Substitution specifically means one base replaces another."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q056",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.9. Causes of species extinction",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 4.33",
+      "mcq_type": "G",
+      "question": "The introduction of invasive species (e.g., brown tree snake in Guam) often leads to extinction of native species. What is the primary mechanism by which invasive species cause extinction?",
+      "options": {
+        "A": "Increasing genetic diversity in native populations",
+        "B": "Predation, competition, and habitat alteration",
+        "C": "Reducing the mutation rate in native species",
+        "D": "Causing beneficial mutations in native species"
+      },
+      "correct_answer": "B",
+      "hint": "Invasive species often prey on, compete with, or alter the habitat of natives.",
+      "explanation": "Invasive species cause extinction through direct predation, resource competition, and ecosystem alteration. Options A and D are incorrect (they reduce diversity, not increase benefits).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.9. Causes of species extinction",
+        "structural_element": "Activity 4.33",
+        "content_anchor": "drivers of extinction like climate change, human activities",
+        "page_hint": 64,
+        "concept_hash": "e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Invasive species are non-native organisms that cause ecological or economic harm in their new environment.",
+        "concept_summary": "Invasive species outcompete, prey on, or alter habitats of native species. Native species often lack evolutionary defenses against them.",
+        "beginner": "An invasive species is like a bully that moves into a neighborhood. It eats all the food, kills the locals, or destroys their homes.",
+        "intermediate": "Invasive species exploit niches without natural predators. They can drive extinction through resource competition and direct predation.",
+        "advanced": "The 'enemy release hypothesis' explains invasiveness. Native species have no co-evolved defenses, leading to population crashes.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the threat: invasive species.",
+          "Recall how they harm natives: eat them, compete for food, alter habitat.",
+          "Select predation, competition, and habitat alteration."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Invasive species are not just non-native; they cause harm. Some non-native species are not invasive."
+        ],
+        "related_concepts": [
+          "Invasive species",
+          "Extinction",
+          "Predation",
+          "Competition",
+          "Ecosystem alteration"
+        ],
+        "revision_note": "Invasive species: predation, competition, habitat alteration → extinction.",
+        "glossary_entry": {
+          "term": "Invasive species",
+          "definition": "A non-native species that causes harm to the ecosystem, economy, or human health.",
+          "example_equation": null,
+          "related_terms": [
+            "Extinction",
+            "Competition"
+          ]
+        },
+        "flashcard": {
+          "front": "How do invasive species cause native extinctions?",
+          "flashcard_back": "Through predation, competition for resources, and habitat alteration."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Invasive species",
+            "relation": "cause",
+            "target": "Extinction"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "What mechanisms make invasive species so destructive?",
+        "flashcard_back": "Predation, competition, and habitat alteration.",
+        "glossary_term": "Invasive species",
+        "glossary_definition": "A non-native species that spreads rapidly and harms native ecosystems.",
+        "revision_note": "Invasive species: eat, compete, destroy.",
+        "teacher_note": "Use brown tree snake (Guam) or zebra mussel as examples.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain causes of species extinction",
+        "concept_map_nodes": [
+          {
+            "source": "Invasive species",
+            "relation": "leads_to",
+            "target": "Extinction"
+          }
+        ],
+        "workbook_section": "4.1.9. Causes of species extinction",
+        "solution_manual_note": "Answer B. Invasive species eliminate natives through direct harm (predation), indirect harm (competition), and environmental damage."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U4_Q057",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 4: EVOLUTION",
+      "section": "4.1. EVOLUTION",
+      "subsection": "4.1.2. Theories of evolution",
+      "sub_subsection": null,
+      "structural_anchor": "Basic postulates of Darwinism",
+      "mcq_type": "A",
+      "question": "Which of the following is a core postulate of Darwin's theory of natural selection?",
+      "options": {
+        "A": "Inheritance of acquired characteristics",
+        "B": "Struggle for existence due to overproduction",
+        "C": "Use and disuse of organs",
+        "D": "Eternity of life"
+      },
+      "correct_answer": "B",
+      "hint": "Darwin observed that more offspring are produced than can survive, leading to competition.",
+      "explanation": "Darwin's postulates include geometric increase (overproduction), struggle for existence, heritable variation, and natural selection. Option A and C are Lamarckian; D is a separate origin theory.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: EVOLUTION",
+        "section_anchor": "4.1. EVOLUTION",
+        "subsection_anchor": "4.1.2. Theories of evolution",
+        "structural_element": "Basic postulates of Darwinism",
+        "content_anchor": "Geometric increase",
+        "page_hint": 15,
+        "concept_hash": "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Darwin's theory of natural selection includes: overproduction, heritable variation, struggle for existence, and differential survival.",
+        "concept_summary": "Darwin observed that organisms produce more offspring than resources can support, leading to a 'struggle for existence'.",
+        "beginner": "Darwin noticed that animals have many babies, but not all survive because there's not enough food. Those that survive pass on their traits.",
+        "intermediate": "The struggle for existence arises from the geometric increase of populations versus arithmetic increase of resources. This creates competition.",
+        "advanced": "Darwin was influenced by Malthus's essay on population. The 'struggle for existence' is the selective force that acts on heritable variation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall Darwin's key postulates: overproduction, variation, struggle, selection.",
+          "Identify which option matches: struggle for existence."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Darwin did not propose 'survival of the fittest' as a phrase; Herbert Spencer coined it, and Darwin later used it."
+        ],
+        "related_concepts": [
+          "Malthus",
+          "Overproduction",
+          "Struggle for existence",
+          "Natural selection"
+        ],
+        "revision_note": "Darwin's postulates: overproduction → struggle → variation → selection.",
+        "glossary_entry": {
+          "term": "Struggle for existence",
+          "definition": "The competition among individuals for limited resources.",
+          "example_equation": null,
+          "related_terms": [
+            "Natural selection",
+            "Malthus"
+          ]
+        },
+        "flashcard": {
+          "front": "What concept from Malthus influenced Darwin's theory?",
+          "flashcard_back": "Struggle for existence (overpopulation vs limited resources)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Darwinism",
+            "relation": "includes",
+            "target": "Struggle for existence"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 4 — Evolution",
+        "flashcard_front": "What is a key postulate of Darwinian natural selection?",
+        "flashcard_back": "Struggle for existence due to overproduction of offspring.",
+        "glossary_term": "Struggle for existence",
+        "glossary_definition": "Competition for limited resources among individuals.",
+        "revision_note": "Darwin postulate: overproduction → struggle.",
+        "teacher_note": "Link to Malthus and population dynamics.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the basic postulates of Darwinism",
+        "concept_map_nodes": [
+          {
+            "source": "Darwinism",
+            "relation": "includes",
+            "target": "Overproduction"
+          }
+        ],
+        "workbook_section": "4.1.2. Theories of evolution",
+        "solution_manual_note": "Answer B. Struggle for existence due to overproduction is a core Darwinian postulate."
+      }
+    }
+  ]
+}

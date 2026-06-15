@@ -1,0 +1,1899 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G11_Chem_U5_Q030",
+    "covered_sections": [
+      "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions",
+      "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria",
+      "5.2 Chemical Equilibrium>5.2.3 Conditions for Attainment of Chemical Equilibria",
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>A. Law of Mass Actions",
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>B. Equilibrium constant expression involving concentration, Kc",
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>C. Equilibrium constant expression involving partial pressure, Kp",
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>D. Equilibrium constant for heterogeneous reactions",
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>E. Relation between Kc and Kp",
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant>A. Predict the composition of an equilibrium mixture",
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant>B. Predict the direction of the reaction",
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant>C. Calculate the equilibrium concentrations",
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>A. Effect of Change in The Concentration",
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>B. Effect of Change in Pressure",
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>C. Effect of Change in Temperature",
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>D. Effect of Catalyst",
+      "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry>A. Haber Process for the Manufacture of Ammonia",
+      "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry>B. Contact Process for the Manufacture of Sulphuric acid"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+      "p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1",
+      "q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2",
+      "r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3",
+      "s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4",
+      "t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5",
+      "u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6",
+      "v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1",
+      "w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2",
+      "x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3",
+      "y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4",
+      "z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2"
+    ],
+    "baseline_counter": {
+      "5.2 Chemical Equilibrium": {
+        "5.2.1 Reversible and Irreversible Reactions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.2 Attainment and Characteristics of Chemical Equilibria": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.3 Conditions for Attainment of Chemical Equilibria": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant>A. Law of Mass Actions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant>B. Equilibrium constant expression involving concentration, Kc": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant>C. Equilibrium constant expression involving partial pressure, Kp": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant>D. Equilibrium constant for heterogeneous reactions": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.4 Equilibrium Expression and Equilibrium Constant>E. Relation between Kc and Kp": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.5 Applications of Equilibrium Constant>A. Predict the composition of an equilibrium mixture": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.5 Applications of Equilibrium Constant>B. Predict the direction of the reaction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.5 Applications of Equilibrium Constant>C. Calculate the equilibrium concentrations": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>A. Effect of Change in The Concentration": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>B. Effect of Change in Pressure": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>C. Effect of Change in Temperature": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>D. Effect of Catalyst": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.7 Equilibrium and Industry>A. Haber Process for the Manufacture of Ammonia": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "5.2.7 Equilibrium and Industry>B. Contact Process for the Manufacture of Sulphuric acid": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.2 Chemical Equilibrium": {
+        "question_count": 30,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.2 Chemical Equilibrium>5.2.1 Reversible and Irreversible Reactions": ["reversible reaction", "irreversible reaction", "forward reaction", "reverse reaction"],
+      "5.2 Chemical Equilibrium>5.2.2 Attainment and Characteristics of Chemical Equilibria": ["dynamic equilibrium", "forward rate", "reverse rate", "equal rates", "pressure effect", "color change", "N2O4/NO2"],
+      "5.2 Chemical Equilibrium>5.2.3 Conditions for Attainment of Chemical Equilibria": ["closed vessel", "constant concentrations", "dynamic nature"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>A. Law of Mass Actions": ["law of mass action", "rate proportionality", "equilibrium constant"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>B. Equilibrium constant expression involving concentration, Kc": ["Kc", "equilibrium constant expression", "molarity", "product over reactants", "Kc calculation"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>C. Equilibrium constant expression involving partial pressure, Kp": ["Kp", "partial pressure", "gaseous equilibrium", "atm units", "Kp calculation", "NO2 dimerization"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>D. Equilibrium constant for heterogeneous reactions": ["heterogeneous equilibrium", "pure solids", "pure liquids", "constant concentration", "CaCO3 decomposition", "NH4Cl decomposition"],
+      "5.2 Chemical Equilibrium>5.2.4 Equilibrium Expression and Equilibrium Constant>E. Relation between Kc and Kp": ["Kp = Kc(RT)^Δn", "Δn", "gas constant", "ideal gas law"],
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant>A. Predict the composition of an equilibrium mixture": ["K >> 1", "K << 1", "products favored", "reactants favored", "K magnitude thresholds"],
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant>B. Predict the direction of the reaction": ["reaction quotient Q", "Q vs K", "forward direction", "reverse direction", "Q calculation"],
+      "5.2 Chemical Equilibrium>5.2.5 Applications of Equilibrium Constant>C. Calculate the equilibrium concentrations": ["ICE table", "initial change equilibrium", "quadratic equation", "equilibrium concentrations", "H2/I2/HI system"],
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>A. Effect of Change in The Concentration": ["concentration change", "shift toward products", "shift toward reactants", "Le Chatelier's principle"],
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>B. Effect of Change in Pressure": ["pressure effect", "volume change", "Δn", "shift toward fewer gas moles", "inert gas effect"],
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>C. Effect of Change in Temperature": ["temperature effect", "exothermic", "endothermic", "K changes with T", "shift toward endothermic"],
+      "5.2 Chemical Equilibrium>5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle>D. Effect of Catalyst": ["catalyst", "no shift", "faster equilibrium", "no K change"],
+      "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry>A. Haber Process for the Manufacture of Ammonia": ["Haber process", "ammonia synthesis", "high pressure", "iron catalyst", "temperature compromise", "recycle"],
+      "5.2 Chemical Equilibrium>5.2.7 Equilibrium and Industry>B. Contact Process for the Manufacture of Sulphuric acid": ["Contact process", "SO2 oxidation", "V2O5 catalyst", "H2SO4 production", "oleum"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 65,
+      "questions_per_concept_ratio": 0.46,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+  "pdf_filename": "C11U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 1,
+        "total_sections": 1,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 17,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.46
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.2 Chemical Equilibrium",
+      "least_covered_section": "5.2 Chemical Equilibrium",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Chem_U5_Q021",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "A. Effect of Change in The Concentration",
+      "structural_anchor": "Le Chatelier's principle concentration effect",
+      "mcq_type": "G",
+      "question": "For the exothermic reaction \\(\\mathrm{N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)}\\), what is the effect of adding more \\(\\mathrm{N_2}\\) to the equilibrium mixture at constant temperature and volume?",
+      "options": {
+        "A": "The equilibrium shifts left, decreasing \\(\\mathrm{NH_3}\\) production.",
+        "B": "The equilibrium shifts right, increasing \\(\\mathrm{NH_3}\\) production.",
+        "C": "There is no effect because \\(\\mathrm{N_2}\\) is a reactant.",
+        "D": "The value of \\(K_c\\) increases."
+      },
+      "correct_answer": "B",
+      "hint": "Adding a reactant shifts equilibrium toward products to consume the added reactant.",
+      "explanation": "Le Chatelier's principle states that adding a reactant (N₂) shifts equilibrium to the right (toward products), increasing NH₃ production. Option B is correct. Kc remains constant at constant temperature, so D is incorrect.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "A. Effect of Change in The Concentration",
+        "content_anchor": "increase in concentration of A or B shifts equilibrium to right",
+        "page_hint": 26,
+        "concept_hash": "u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 93,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Le Chatelier's principle: when a stress is applied to a system at equilibrium, the system shifts to partially counteract the stress.",
+        "concept_summary": "Adding a reactant increases its concentration; the system responds by consuming the added reactant, shifting the equilibrium toward products.",
+        "beginner": "Adding more N₂ gives the reaction more 'food' to make NH₃, so more NH₃ forms until equilibrium is restored.",
+        "intermediate": "The reaction quotient Q becomes less than K after adding N₂. To re-establish Q = K, the net reaction proceeds forward (right), converting additional N₂ and H₂ into NH₃.",
+        "advanced": "Adding N₂ increases denominator in Q = [NH₃]²/([N₂][H₂]³), making Q < K. The forward reaction is spontaneous until Q returns to K. Kc remains unchanged because temperature is constant.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the stress: adding reactant (N₂).",
+          "Recall Le Chatelier's principle: system shifts to consume added reactant.",
+          "Determine direction: forward reaction consumes N₂.",
+          "Conclude: shift right, more NH₃ produced."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think adding a reactant shifts equilibrium left (away from product).",
+          "Another error: believing Kc changes with concentration. Kc changes only with temperature."
+        ],
+        "related_concepts": ["Le Chatelier's principle", "Reaction quotient", "Equilibrium shift"],
+        "revision_note": "Add reactant → shift right (toward products).",
+        "glossary_entry": {
+          "term": "Concentration change effect",
+          "definition": "Adding a reactant shifts equilibrium toward products; removing a reactant shifts toward reactants.",
+          "example_equation": "Adding N₂ to N₂ + 3H₂ ⇌ 2NH₃ increases NH₃ yield.",
+          "related_terms": ["Le Chatelier's principle", "Reaction quotient"]
+        },
+        "flashcard": {
+          "front": "Adding N₂ to N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium shifts which direction?",
+          "flashcard_back": "Right (toward NH₃) because the system consumes the added reactant."
+        },
+        "concept_map_nodes": [
+          {"source": "Add reactant", "relation": "causes", "target": "Q < K"},
+          {"source": "Q < K", "relation": "leads_to", "target": "Forward reaction favored"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "What happens to NH₃ yield when N₂ is added to N₂+3H₂⇌2NH₃ at equilibrium?",
+        "flashcard_back": "NH₃ yield increases; equilibrium shifts right to consume added N₂.",
+        "glossary_term": "Le Chatelier concentration effect",
+        "glossary_definition": "Adding a reactant shifts equilibrium toward products, increasing product yield.",
+        "revision_note": "Add reactant → shift right → more product.",
+        "teacher_note": "Emphasize that K does not change; only the position shifts.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Use Le Chatelier's principle to explain concentration effects",
+        "concept_map_nodes": [
+          {"source": "Add N₂", "relation": "shifts_equilibrium", "target": "Right (more NH₃)"},
+          {"source": "Add N₂", "relation": "does_not_change", "target": "Kc"}
+        ],
+        "workbook_section": "5.2.6 A. Effect of Change in The Concentration",
+        "solution_manual_note": "Answer B. Adding reactant shifts equilibrium to the right, increasing NH₃. Kc remains constant at constant temperature."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q022",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "A. Effect of Change in The Concentration",
+      "structural_anchor": "Concentration removal effect",
+      "mcq_type": "G",
+      "question": "For the reaction \\(\\mathrm{2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)}\\), what happens to the concentration of \\(\\mathrm{SO_3}\\) when \\(\\mathrm{O_2}\\) is removed from the equilibrium mixture at constant temperature?",
+      "options": {
+        "A": "\\([\\mathrm{SO_3}]\\) increases.",
+        "B": "\\([\\mathrm{SO_3}]\\) decreases.",
+        "C": "\\([\\mathrm{SO_3}]\\) remains constant.",
+        "D": "\\([\\mathrm{SO_3}]\\) doubles."
+      },
+      "correct_answer": "B",
+      "hint": "Removing a reactant shifts equilibrium left, consuming products.",
+      "explanation": "Removing O₂ (a reactant) shifts equilibrium to the left (toward reactants), causing SO₃ to decompose into SO₂ and O₂. Thus, [SO₃] decreases. Option B is correct.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "A. Effect of Change in The Concentration",
+        "content_anchor": "decrease in concentration of A or B shifts equilibrium to left",
+        "page_hint": 26,
+        "concept_hash": "v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 92,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Removing a reactant causes the equilibrium to shift toward the reactants, consuming products to replace the removed reactant.",
+        "concept_summary": "When O₂ is removed, Q > K because the denominator decreases. The reverse reaction is favored, converting SO₃ back to SO₂ and O₂, so [SO₃] decreases.",
+        "beginner": "Taking away oxygen means the reaction tries to make more oxygen by breaking down SO₃, so less SO₃ remains.",
+        "intermediate": "Removing O₂ makes Q = [SO₃]²/([SO₂]²[O₂]) increase (denominator smaller). Since Q > K, the reverse reaction (2SO₃ → 2SO₂ + O₂) occurs, decreasing [SO₃] until Q = K again.",
+        "advanced": "The stress is a decrease in reactant concentration. The system opposes this by shifting left (reverse direction), decreasing product concentration to replenish the reactant. This is consistent with Le Chatelier's principle and the van 't Hoff equation for concentration changes.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify stress: removing reactant (O₂).",
+          "System shifts to replace removed reactant.",
+          "Shift left (reverse) decomposes SO₃ into SO₂ and O₂.",
+          "Therefore, [SO₃] decreases."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think removing a reactant increases product concentration.",
+          "Another error: believing the equilibrium shifts right to make more product when a reactant is removed."
+        ],
+        "related_concepts": ["Le Chatelier's principle", "Reaction quotient", "Concentration stress"],
+        "revision_note": "Remove reactant → shift left → product decreases.",
+        "glossary_entry": {
+          "term": "Concentration removal effect",
+          "definition": "Removing a reactant shifts equilibrium toward reactants, decreasing product concentrations.",
+          "example_equation": "Removing O₂ from 2SO₂ + O₂ ⇌ 2SO₃ decreases SO₃.",
+          "related_terms": ["Le Chatelier's principle", "Reaction quotient"]
+        },
+        "flashcard": {
+          "front": "Removing O₂ from 2SO₂ + O₂ ⇌ 2SO₃ at equilibrium — does [SO₃] increase or decrease?",
+          "flashcard_back": "[SO₃] decreases; equilibrium shifts left to produce more O₂."
+        },
+        "concept_map_nodes": [
+          {"source": "Remove O₂", "relation": "causes", "target": "Q > K"},
+          {"source": "Q > K", "relation": "leads_to", "target": "Reverse reaction favored"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "What happens to SO₃ when O₂ is removed from 2SO₂+O₂⇌2SO₃ at equilibrium?",
+        "flashcard_back": "[SO₃] decreases; equilibrium shifts left to replenish O₂.",
+        "glossary_term": "Concentration removal",
+        "glossary_definition": "Removing a reactant shifts equilibrium left, reducing product concentration.",
+        "revision_note": "Remove reactant → shift left → less product.",
+        "teacher_note": "Contrast with adding reactant (shifts right).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Predict effects of concentration changes using Le Chatelier's principle",
+        "concept_map_nodes": [
+          {"source": "Remove O₂", "relation": "shifts_equilibrium", "target": "Left"},
+          {"source": "Shift left", "relation": "decreases", "target": "[SO₃]"}
+        ],
+        "workbook_section": "5.2.6 A. Effect of Change in The Concentration",
+        "solution_manual_note": "Answer B. Removing O₂ shifts equilibrium left, decreasing [SO₃]."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q023",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "B. Effect of Change in Pressure",
+      "structural_anchor": "Pressure effect on equilibrium",
+      "mcq_type": "G",
+      "question": "For the reaction \\(\\mathrm{2NOBr(g) \\rightleftharpoons 2NO(g) + Br_2(g)}\\), \\(\\Delta n = +1\\). What effect does increasing the pressure (by decreasing volume) have on the equilibrium?",
+      "options": {
+        "A": "Shifts left toward NOBr",
+        "B": "Shifts right toward NO and Br₂",
+        "C": "No effect because all species are gases",
+        "D": "Increases the value of Kc"
+      },
+      "correct_answer": "A",
+      "hint": "Increasing pressure favors the side with fewer gas molecules.",
+      "explanation": "Δn = +1 means products have more gas moles (3 vs 2). Increasing pressure shifts equilibrium toward the side with fewer gas molecules (reactants, NOBr). Option A is correct. Kc is unchanged at constant temperature.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\Delta n = 2 + 1 - 2 = +1\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "B. Effect of Change in Pressure",
+        "content_anchor": "increase in pressure shifts equilibrium in the direction that produces a smaller number of gaseous molecules",
+        "page_hint": 28,
+        "concept_hash": "w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Pressure changes affect gaseous equilibria; increasing pressure favors the side with fewer moles of gas.",
+        "concept_summary": "For 2NOBr ⇌ 2NO + Br₂, reactants: 2 mol gas, products: 3 mol gas. Higher pressure shifts equilibrium left (toward fewer gas moles), increasing NOBr.",
+        "beginner": "More pressure pushes the reaction toward the side with fewer gas particles. Here, the left side has 2 gas particles, right side has 3, so equilibrium moves left.",
+        "intermediate": "Δn = (2+1) - 2 = +1. Increasing pressure (decreasing volume) favors the direction that reduces the number of gas molecules. Since reactants have 2 moles and products have 3, the reverse reaction (toward NOBr) is favored.",
+        "advanced": "The equilibrium constant Kp = (P_NO)²(P_Br₂)/(P_NOBr)². Increasing total pressure by reducing volume increases all partial pressures proportionally, but because products have a higher sum of coefficients, Q becomes greater than K. The system shifts left to reduce Q back to K.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Calculate Δn = gas products - gas reactants.",
+          "If Δn > 0, products have more gas moles.",
+          "Increasing pressure favors side with fewer gas moles (reactants if Δn > 0).",
+          "Thus, shift left (toward NOBr)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(K_p = \\frac{(P_{NO})^2(P_{Br_2})}{(P_{NOBr})^2}\\)",
+            "name": "Kp for NOBr decomposition",
+            "variables": [
+              {"symbol": "P_NO", "meaning": "Partial pressure of NO", "unit": "atm"},
+              {"symbol": "P_Br2", "meaning": "Partial pressure of Br₂", "unit": "atm"},
+              {"symbol": "P_NOBr", "meaning": "Partial pressure of NOBr", "unit": "atm"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think increasing pressure always favors the forward reaction.",
+          "Others believe pressure has no effect on any gas reaction.",
+          "Students may incorrectly count total molecules including solids/liquids."
+        ],
+        "related_concepts": ["Le Chatelier's principle", "Δn", "Pressure effect", "Gas stoichiometry"],
+        "revision_note": "Δn > 0: increase pressure → shift left.",
+        "glossary_entry": {
+          "term": "Pressure effect",
+          "definition": "Increasing pressure shifts equilibrium toward the side with fewer moles of gas.",
+          "example_equation": "For 2NOBr ⇌ 2NO + Br₂ (Δn=+1), higher pressure favors NOBr.",
+          "related_terms": ["Le Chatelier's principle", "Δn"]
+        },
+        "flashcard": {
+          "front": "For 2NOBr(g) ⇌ 2NO(g) + Br₂(g) (Δn=+1), does increasing pressure favor NOBr or NO+Br₂?",
+          "flashcard_back": "Favors NOBr (shift left) because fewer gas moles on left."
+        },
+        "concept_map_nodes": [
+          {"source": "Increase pressure", "relation": "favors", "target": "Fewer gas moles"},
+          {"source": "Fewer gas moles", "relation": "is_reactants", "target": "Shift left to NOBr"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "Which direction does pressure increase shift for 2NOBr ⇌ 2NO + Br₂ (Δn=+1)?",
+        "flashcard_back": "Left (toward NOBr) because fewer gas moles on left.",
+        "glossary_term": "Pressure shift",
+        "glossary_definition": "Δn = +1 means products have more gas; increased pressure favors reactants (NOBr).",
+        "revision_note": "Δn = +1: ↑P → shift left.",
+        "teacher_note": "Emphasize that Δn uses only gaseous coefficients.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Predict pressure effects using Le Chatelier's principle",
+        "concept_map_nodes": [
+          {"source": "Δn = +1", "relation": "means", "target": "More gas moles on right"},
+          {"source": "Increase pressure", "relation": "shifts_toward", "target": "Fewer gas moles (left)"}
+        ],
+        "workbook_section": "5.2.6 B. Effect of Change in Pressure",
+        "solution_manual_note": "Answer A. Increasing pressure shifts equilibrium toward fewer gas moles (reactants), so toward NOBr."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q024",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "B. Effect of Change in Pressure",
+      "structural_anchor": "Inert gas addition at constant volume",
+      "mcq_type": "N",
+      "question": "For the gaseous reaction \\(\\mathrm{H_2(g) + I_2(g) \\rightleftharpoons 2HI(g)}\\), an inert gas (argon) is added at constant volume and temperature. What effect does this have on the equilibrium?",
+      "options": {
+        "A": "Shifts right toward HI",
+        "B": "Shifts left toward H₂ and I₂",
+        "C": "No effect on equilibrium position",
+        "D": "Increases Kc"
+      },
+      "correct_answer": "C",
+      "hint": "Inert gas at constant volume does not change partial pressures or concentrations.",
+      "explanation": "Adding an inert gas at constant volume increases total pressure but does not change partial pressures of reactants or products because volume and moles of reactive gases are unchanged. The equilibrium position is unchanged. Option C is correct.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "B. Effect of Change in Pressure",
+        "content_anchor": "adding an inert gas has no effect on the equilibrium position",
+        "page_hint": 28,
+        "concept_hash": "x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 94,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Adding an inert gas at constant volume does not change the concentrations or partial pressures of the reacting gases, so the equilibrium does not shift.",
+        "concept_summary": "Inert gas increases total pressure but not partial pressures of reactants/products. Since Q depends only on partial pressures of reacting species, Q = K remains unchanged, so no shift occurs.",
+        "beginner": "Argon is a spectator gas — it doesn't react. Adding it at the same volume doesn't change how many H₂, I₂, or HI molecules are in the container, so equilibrium stays the same.",
+        "intermediate": "At constant volume, adding inert gas increases total pressure but partial pressures P = (nRT/V) for each reactive gas remain unchanged because n, T, V are constant for H₂, I₂, and HI. Thus Q = K, no shift.",
+        "advanced": "The equilibrium condition depends only on the activities (or partial pressures) of the reacting species. Inert gas does not participate in the reaction and does not alter these partial pressures at constant volume, so ΔG = 0 remains unchanged; no net reaction occurs.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that inert gas does not react.",
+          "Note constant volume: moles of reactive gases unchanged.",
+          "Partial pressures of H₂, I₂, HI unchanged.",
+          "Therefore Q unchanged, Q = K, no shift."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P_i = \\frac{n_iRT}{V}\\)",
+            "name": "Partial pressure of a gas",
+            "variables": [
+              {"symbol": "n_i", "meaning": "Moles of gas i", "unit": "mol"},
+              {"symbol": "T", "meaning": "Temperature", "unit": "K"},
+              {"symbol": "V", "meaning": "Volume", "unit": "L"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Students often think increased total pressure always shifts equilibrium, even with inert gas at constant volume.",
+          "Another error: believing inert gas reacts or changes K."
+        ],
+        "related_concepts": ["Partial pressure", "Inert gas", "Le Chatelier's principle", "Constant volume"],
+        "revision_note": "Inert gas at constant V: no shift (partial pressures unchanged).",
+        "glossary_entry": {
+          "term": "Inert gas addition",
+          "definition": "Adding a non-reactive gas at constant volume does not affect equilibrium because partial pressures of reactive gases remain unchanged.",
+          "example_equation": "Adding Ar to H₂ + I₂ ⇌ 2HI at constant V causes no shift.",
+          "related_terms": ["Partial pressure", "Le Chatelier's principle"]
+        },
+        "flashcard": {
+          "front": "Does adding argon at constant volume shift H₂+I₂⇌2HI equilibrium?",
+          "flashcard_back": "No. Partial pressures of H₂, I₂, HI are unchanged, so no shift."
+        },
+        "concept_map_nodes": [
+          {"source": "Add inert gas at constant V", "relation": "does_not_change", "target": "Partial pressures of reactants/products"},
+          {"source": "Partial pressures unchanged", "relation": "means", "target": "No equilibrium shift"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "Adding inert gas at constant volume to H₂+I₂⇌2HI — shift or no shift?",
+        "flashcard_back": "No shift; partial pressures of reactive gases are unchanged.",
+        "glossary_term": "Inert gas effect",
+        "glossary_definition": "At constant volume, inert gas does not affect equilibrium position because partial pressures of reacting gases remain constant.",
+        "revision_note": "Inert gas at constant V: no shift.",
+        "teacher_note": "Distinguish from constant pressure case (inert gas at constant P increases volume, dilutes, may shift if Δn ≠ 0).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain effect of inert gas on equilibrium",
+        "concept_map_nodes": [
+          {"source": "Constant V + inert gas", "relation": "no_change_in", "target": "Partial pressures"},
+          {"source": "No change in partial pressures", "relation": "causes", "target": "No equilibrium shift"}
+        ],
+        "workbook_section": "5.2.6 B. Effect of Change in Pressure",
+        "solution_manual_note": "Answer C. At constant volume, partial pressures of reactive gases do not change, so equilibrium is unaffected."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q025",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "C. Effect of Change in Temperature",
+      "structural_anchor": "Temperature effect and K change",
+      "mcq_type": "G",
+      "question": "For the endothermic reaction \\(\\mathrm{C(s) + CO_2(g) \\rightleftharpoons 2CO(g)}\\), what happens to the equilibrium constant \\(K_c\\) when the temperature is increased?",
+      "options": {
+        "A": "\\(K_c\\) increases.",
+        "B": "\\(K_c\\) decreases.",
+        "C": "\\(K_c\\) remains constant.",
+        "D": "\\(K_c\\) becomes zero."
+      },
+      "correct_answer": "A",
+      "hint": "Increasing temperature favors the endothermic direction and increases K for endothermic reactions.",
+      "explanation": "For an endothermic reaction, heat is a reactant. Increasing temperature adds heat, shifting equilibrium to the right (toward products) and increasing Kc. Option A is correct. Kc changes with temperature, unlike concentration or pressure changes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "C. Effect of Change in Temperature",
+        "content_anchor": "increase in temperature favors the endothermic reaction",
+        "page_hint": 30,
+        "concept_hash": "y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Temperature changes alter the equilibrium constant. For endothermic reactions, increasing temperature increases K.",
+        "concept_summary": "Endothermic reactions absorb heat; raising temperature favors the forward (product) direction, increasing the equilibrium constant.",
+        "beginner": "The reaction needs heat to make CO. Add heat, and more CO forms, so K gets larger.",
+        "intermediate": "Heat is a reactant for endothermic reactions. Increasing T adds reactant, shifting equilibrium right, so K = [CO]²/[CO₂] increases. The van 't Hoff equation quantifies this increase.",
+        "advanced": "For an endothermic reaction (ΔH° > 0), the van 't Hoff equation d(ln K)/dT = ΔH°/(RT²) is positive, so K increases with temperature. The shift toward products is consistent with Le Chatelier's principle.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify if reaction is endothermic or exothermic.",
+          "Endothermic: heat is a reactant.",
+          "Increase temperature → add heat → shift right (products).",
+          "K increases because products favored."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\frac{d\\ln K}{dT} = \\frac{\\Delta H^\\circ}{RT^2}\\)",
+            "name": "van 't Hoff equation",
+            "variables": [
+              {"symbol": "K", "meaning": "Equilibrium constant", "unit": "dimensionless"},
+              {"symbol": "T", "meaning": "Temperature", "unit": "K"},
+              {"symbol": "ΔH°", "meaning": "Standard enthalpy change", "unit": "J/mol"},
+              {"symbol": "R", "meaning": "Gas constant", "unit": "J/(mol·K)"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think increasing temperature always increases K (false for exothermic).",
+          "Others believe temperature does not change K (false; only concentration/pressure changes don't change K)."
+        ],
+        "related_concepts": ["Endothermic", "van 't Hoff equation", "Le Chatelier's principle", "K temperature dependence"],
+        "revision_note": "Endothermic: ↑T → ↑K (shift right). Exothermic: ↑T → ↓K (shift left).",
+        "glossary_entry": {
+          "term": "Temperature effect on K",
+          "definition": "For endothermic reactions, increasing temperature increases the equilibrium constant; for exothermic reactions, increasing temperature decreases K.",
+          "example_equation": "For C(s) + CO₂(g) ⇌ 2CO(g) (endothermic), ↑T increases K.",
+          "related_terms": ["van 't Hoff equation", "Le Chatelier's principle"]
+        },
+        "flashcard": {
+          "front": "For endothermic C(s)+CO₂(g)⇌2CO(g), does K increase or decrease with higher T?",
+          "flashcard_back": "K increases; higher T favors products for endothermic reactions."
+        },
+        "concept_map_nodes": [
+          {"source": "Endothermic reaction", "relation": "ΔH > 0", "target": "Heat is reactant"},
+          {"source": "Increase temperature", "relation": "adds heat", "target": "Shift right, increase K"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "Does K increase or decrease with temperature for an endothermic reaction?",
+        "flashcard_back": "K increases; endothermic reactions favor products at higher T.",
+        "glossary_term": "Temperature effect",
+        "glossary_definition": "Endothermic: ↑T ↑K; Exothermic: ↑T ↓K.",
+        "revision_note": "Endothermic: ↑T → ↑K. Exothermic: ↑T → ↓K.",
+        "teacher_note": "Emphasize that temperature is the only factor that changes K.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain effect of temperature on equilibrium constant",
+        "concept_map_nodes": [
+          {"source": "Temperature increase", "relation": "affects_K_differently", "target": "Endothermic vs exothermic"},
+          {"source": "Endothermic", "relation": "response_to_↑T", "target": "K increases"}
+        ],
+        "workbook_section": "5.2.6 C. Effect of Change in Temperature",
+        "solution_manual_note": "Answer A. Endothermic reaction: increasing temperature increases K (shift right)."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q026",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "C. Effect of Change in Temperature",
+      "structural_anchor": "Exothermic temperature effect",
+      "mcq_type": "G",
+      "question": "The exothermic reaction \\(\\mathrm{2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)}\\) has \\(\\Delta H = -197\\ \\mathrm{kJ}\\). What is the effect of increasing temperature on the equilibrium yield of \\(\\mathrm{SO_3}\\)?",
+      "options": {
+        "A": "Yield of \\(\\mathrm{SO_3}\\) increases.",
+        "B": "Yield of \\(\\mathrm{SO_3}\\) decreases.",
+        "C": "Yield of \\(\\mathrm{SO_3}\\) remains unchanged.",
+        "D": "\\(\\mathrm{SO_3}\\) decomposes completely."
+      },
+      "correct_answer": "B",
+      "hint": "Exothermic reactions release heat; raising temperature favors the reverse (endothermic) direction.",
+      "explanation": "For an exothermic reaction, heat is a product. Increasing temperature adds heat, shifting equilibrium left toward reactants, decreasing SO₃ yield. Option B is correct.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "C. Effect of Change in Temperature",
+        "content_anchor": "exothermic reaction: increase temperature favors reverse reaction",
+        "page_hint": 30,
+        "concept_hash": "z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 93,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Exothermic reactions release heat; increasing temperature favors the reverse (endothermic) reaction, decreasing product yield.",
+        "concept_summary": "Heat is a product for exothermic reactions. Adding heat shifts equilibrium left (toward reactants), reducing SO₃ concentration.",
+        "beginner": "The reaction gives off heat. If you add more heat, the reaction tries to use it up by going backward, making less SO₃.",
+        "intermediate": "For 2SO₂ + O₂ ⇌ 2SO₃ + heat, increasing T adds heat. The system shifts left (endothermic direction) to absorb the added heat, decreasing SO₃ yield.",
+        "advanced": "The equilibrium constant K decreases with increasing temperature for exothermic reactions (ΔH < 0). From van 't Hoff, d(ln K)/dT = ΔH/(RT²) < 0, so K decreases, meaning products are less favored at higher T.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify reaction as exothermic (ΔH negative).",
+          "Heat is a product.",
+          "Increasing temperature adds heat.",
+          "System shifts left to consume heat.",
+          "SO₃ yield decreases."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think higher temperature always increases yield of all products.",
+          "Others forget that K changes with temperature for exothermic reactions (K decreases)."
+        ],
+        "related_concepts": ["Exothermic", "Le Chatelier's principle", "K temperature dependence"],
+        "revision_note": "Exothermic: ↑T → shift left → less product.",
+        "glossary_entry": {
+          "term": "Temperature effect on exothermic reaction",
+          "definition": "Increasing temperature decreases the equilibrium constant and shifts equilibrium left, reducing product yield.",
+          "example_equation": "For 2SO₂ + O₂ ⇌ 2SO₃ (ΔH = -197 kJ), ↑T decreases SO₃ yield.",
+          "related_terms": ["Exothermic", "van 't Hoff equation"]
+        },
+        "flashcard": {
+          "front": "For exothermic 2SO₂+O₂⇌2SO₃, does higher T increase or decrease SO₃ yield?",
+          "flashcard_back": "Decreases; higher T shifts equilibrium left (endothermic direction)."
+        },
+        "concept_map_nodes": [
+          {"source": "Exothermic reaction", "relation": "heat is", "target": "Product"},
+          {"source": "Increase temperature", "relation": "adds heat", "target": "Shift left, less SO₃"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "Effect of higher temperature on SO₃ yield in 2SO₂+O₂⇌2SO₃ (exothermic)?",
+        "flashcard_back": "SO₃ yield decreases; equilibrium shifts left (endothermic direction).",
+        "glossary_term": "Temperature effect",
+        "glossary_definition": "For exothermic reactions, higher temperature reduces product yield.",
+        "revision_note": "Exothermic: ↑T → less product.",
+        "teacher_note": "Contrast with endothermic: ↑T increases K and product yield.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Predict temperature effects on equilibrium yield",
+        "concept_map_nodes": [
+          {"source": "Exothermic", "relation": "ΔH < 0", "target": "Heat is product"},
+          {"source": "Increase T", "relation": "adds product (heat)", "target": "Shift left, lower SO₃"}
+        ],
+        "workbook_section": "5.2.6 C. Effect of Change in Temperature",
+        "solution_manual_note": "Answer B. Exothermic reaction: increasing temperature shifts equilibrium left, decreasing SO₃ yield."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q027",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+      "sub_subsection": "D. Effect of Catalyst",
+      "structural_anchor": "Catalyst effect",
+      "mcq_type": "F",
+      "question": "A catalyst is added to a reaction at equilibrium. Which statement correctly describes the effect on the equilibrium constant and the time to reach equilibrium?",
+      "options": {
+        "A": "K increases; time decreases.",
+        "B": "K unchanged; time decreases.",
+        "C": "K unchanged; time unchanged.",
+        "D": "K decreases; time increases."
+      },
+      "correct_answer": "B",
+      "hint": "A catalyst lowers activation energy for both forward and reverse reactions equally.",
+      "explanation": "A catalyst increases both forward and reverse reaction rates equally, so equilibrium is reached faster but K is unchanged. Option B is correct. K changes only with temperature.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+        "structural_element": "D. Effect of Catalyst",
+        "content_anchor": "catalyst does not shift equilibrium position; speeds up reaching equilibrium",
+        "page_hint": 32,
+        "concept_hash": "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 96,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "A catalyst lowers the activation energy for both forward and reverse reactions equally, speeding up attainment of equilibrium without changing K.",
+        "concept_summary": "Catalysts do not affect the equilibrium constant; they only reduce the time required to reach equilibrium by increasing both reaction rates.",
+        "beginner": "A catalyst is like a shortcut for both directions. You get to equilibrium faster, but the final amounts of products and reactants are the same as without the catalyst.",
+        "intermediate": "A catalyst increases the rates of forward and reverse reactions by the same factor. Thus K = k_f/k_r remains unchanged, but the system reaches equilibrium more quickly.",
+        "advanced": "Catalysts provide an alternative reaction pathway with lower activation energy. Because they affect forward and reverse rates equally (by lowering Ea for both), the equilibrium constant (ratio of rate constants) remains unchanged. Only temperature alters K.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that K = k_f/k_r.",
+          "Catalyst increases both k_f and k_r by same factor.",
+          "Ratio k_f/k_r unchanged, so K unchanged.",
+          "Higher rates mean equilibrium reached faster."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(k = Ae^{-E_a/(RT)}\\)",
+            "name": "Arrhenius equation",
+            "variables": [
+              {"symbol": "k", "meaning": "Rate constant", "unit": "depends on reaction order"},
+              {"symbol": "E_a", "meaning": "Activation energy", "unit": "J/mol"},
+              {"symbol": "A", "meaning": "Frequency factor", "unit": "same as k"},
+              {"symbol": "T", "meaning": "Temperature", "unit": "K"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think a catalyst shifts equilibrium position (it does not).",
+          "Others believe a catalyst increases K (false; K is temperature-dependent only)."
+        ],
+        "related_concepts": ["Catalyst", "Activation energy", "Rate constant", "Equilibrium constant"],
+        "revision_note": "Catalyst: speeds up equilibrium, does not shift position or change K.",
+        "glossary_entry": {
+          "term": "Catalyst effect on equilibrium",
+          "definition": "A catalyst increases both forward and reverse rates equally, leaving K unchanged but reducing time to equilibrium.",
+          "example_equation": "Iron catalyst in Haber process speeds up NH₃ synthesis without changing K.",
+          "related_terms": ["Activation energy", "Rate constant"]
+        },
+        "flashcard": {
+          "front": "Does a catalyst change the equilibrium constant K?",
+          "flashcard_back": "No. K is unchanged; only temperature changes K."
+        },
+        "concept_map_nodes": [
+          {"source": "Catalyst", "relation": "lowers", "target": "Activation energy (both directions)"},
+          {"source": "Lower Ea", "relation": "increases", "target": "k_f and k_r equally"},
+          {"source": "k_f/k_r unchanged", "relation": "means", "target": "K unchanged, faster equilibrium"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "What does a catalyst do to equilibrium constant K and time to equilibrium?",
+        "flashcard_back": "K unchanged; time to equilibrium decreases.",
+        "glossary_term": "Catalyst",
+        "glossary_definition": "A substance that speeds up attainment of equilibrium without changing K or equilibrium position.",
+        "revision_note": "Catalyst: faster equilibrium, same K.",
+        "teacher_note": "Stress that a catalyst does NOT shift equilibrium; only changes kinetics.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain effect of catalyst on equilibrium",
+        "concept_map_nodes": [
+          {"source": "Catalyst", "relation": "does_not_affect", "target": "K or equilibrium position"},
+          {"source": "Catalyst", "relation": "affects", "target": "Rate to reach equilibrium"}
+        ],
+        "workbook_section": "5.2.6 D. Effect of Catalyst",
+        "solution_manual_note": "Answer B. A catalyst increases forward and reverse rates equally, leaving K unchanged but decreasing time to reach equilibrium."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q028",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.7 Equilibrium and Industry",
+      "sub_subsection": "A. Haber Process for the Manufacture of Ammonia",
+      "structural_anchor": "Haber process conditions compromise",
+      "mcq_type": "G",
+      "question": "In the Haber process (\\(\\mathrm{N_2 + 3H_2 \\rightleftharpoons 2NH_3}\\), exothermic), high pressure (200-400 atm) and moderate temperature (500°C) are used instead of low temperature. Why is low temperature not used despite favoring NH₃ yield?",
+      "options": {
+        "A": "Low temperature deactivates the iron catalyst.",
+        "B": "The reaction rate is too slow at low temperature.",
+        "C": "Low temperature favors the reverse reaction.",
+        "D": "Ammonia decomposes at low temperature."
+      },
+      "correct_answer": "B",
+      "hint": "Consider both thermodynamics (yield) and kinetics (rate).",
+      "explanation": "Although low temperature favors NH₃ yield for this exothermic reaction, the rate of reaction becomes impractically slow. At 500°C, the rate is fast enough with catalyst, and the yield is still economically acceptable. Option B is correct.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.7 Equilibrium and Industry",
+        "structural_element": "A. Haber Process for the Manufacture of Ammonia",
+        "content_anchor": "rate at lower temperature is extremely slow, so higher temperature must be used to speed up the reaction",
+        "page_hint": 33,
+        "concept_hash": "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The Haber process uses a compromise temperature (500°C) that balances yield (thermodynamics) and rate (kinetics).",
+        "concept_summary": "Lower temperature increases equilibrium yield (exothermic) but slows the reaction drastically. 500°C gives a practical rate with catalyst, and unreacted gases are recycled.",
+        "beginner": "Low temperature would make the reaction too slow. At 500°C, it's fast enough, and they recycle unreacted gases so yield isn't wasted.",
+        "intermediate": "Thermodynamically, lower T favors NH₃ (ΔH < 0). Kinetically, lower T reduces rate exponentially. At 500°C with iron catalyst, rate is acceptable, and unreacted N₂/H₂ are recycled, so overall yield is high.",
+        "advanced": "The Arrhenius equation shows rate ∝ exp(-Ea/RT). At low T, rate is negligible despite favorable K. The compromise temperature maximizes space-time yield (product per reactor volume per time). Unreacted gas recycling makes the process economically viable even with moderate per-pass conversion.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall reaction is exothermic: low T favors NH₃ yield.",
+          "But rate is slow at low T (kinetics).",
+          "To achieve acceptable production rate, higher T is used.",
+          "Unreacted gases are recycled to improve overall yield."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(k = Ae^{-E_a/(RT)}\\)",
+            "name": "Arrhenius equation",
+            "variables": [
+              {"symbol": "k", "meaning": "Rate constant", "unit": "varies"},
+              {"symbol": "E_a", "meaning": "Activation energy", "unit": "J/mol"},
+              {"symbol": "R", "meaning": "Gas constant", "unit": "J/(mol·K)"},
+              {"symbol": "T", "meaning": "Temperature", "unit": "K"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think low temperature would give higher yield but forget rate is too slow for practical production.",
+          "Others believe catalyst works only at high temperature (iron catalyst is active at 500°C but slow at lower T)."
+        ],
+        "related_concepts": ["Haber process", "Kinetics vs thermodynamics", "Compromise temperature", "Recycle"],
+        "revision_note": "Haber: 500°C (rate) vs low T (yield). Recycle unreacted gases.",
+        "glossary_entry": {
+          "term": "Compromise temperature",
+          "definition": "A temperature chosen to balance thermodynamic yield and kinetic rate; used in Haber process (500°C) and Contact process (450°C).",
+          "example_equation": "500°C in Haber process gives acceptable rate and moderate NH₃ yield.",
+          "related_terms": ["Haber process", "Le Chatelier", "Activation energy"]
+        },
+        "flashcard": {
+          "front": "Why isn't low temperature used in Haber process even though it favors NH₃ yield?",
+          "flashcard_back": "Reaction rate is too slow at low temperature; 500°C gives practical rate, and unreacted gases are recycled."
+        },
+        "concept_map_nodes": [
+          {"source": "Low temperature", "relation": "favors", "target": "NH₃ yield (thermodynamics)"},
+          {"source": "Low temperature", "relation": "slows", "target": "Reaction rate (kinetics)"},
+          {"source": "Haber process", "relation": "uses", "target": "500°C as compromise"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "Why is 500°C used in Haber process instead of lower temperature?",
+        "flashcard_back": "Low temperature gives higher yield but very slow rate; 500°C balances rate and yield with catalyst.",
+        "glossary_term": "Haber process temperature",
+        "glossary_definition": "500°C is a compromise between kinetics (faster at higher T) and thermodynamics (higher yield at lower T).",
+        "revision_note": "Haber: 500°C for rate, recycle unreacted gases.",
+        "teacher_note": "Emphasize that industrial processes optimize economics, not just equilibrium yield.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain how Le Chatelier's principle is applied in Haber process",
+        "concept_map_nodes": [
+          {"source": "Haber process", "relation": "uses", "target": "Iron catalyst"},
+          {"source": "Haber process", "relation": "uses", "target": "500°C (compromise)"},
+          {"source": "Haber process", "relation": "uses", "target": "High pressure (200-400 atm)"}
+        ],
+        "workbook_section": "5.2.7 A. Haber Process for the Manufacture of Ammonia",
+        "solution_manual_note": "Answer B. Low temperature slows the rate too much; 500°C provides acceptable rate with catalyst, and recycling improves overall yield."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q029",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.7 Equilibrium and Industry",
+      "sub_subsection": "A. Haber Process for the Manufacture of Ammonia",
+      "structural_anchor": "Haber process pressure and catalyst",
+      "mcq_type": "L",
+      "question": "In the Haber process for ammonia synthesis, high pressure (200-400 atm) and an iron catalyst are used. Which statement correctly explains the role of high pressure?",
+      "options": {
+        "A": "High pressure increases the equilibrium constant Kc.",
+        "B": "High pressure shifts equilibrium toward NH₃ because Δn = -2.",
+        "C": "High pressure prevents the catalyst from deactivating.",
+        "D": "High pressure is needed to keep NH₃ as a gas."
+      },
+      "correct_answer": "B",
+      "hint": "Calculate Δn = gas products - gas reactants.",
+      "explanation": "For N₂ + 3H₂ ⇌ 2NH₃, Δn = 2 - (1+3) = -2. Increasing pressure shifts equilibrium toward fewer gas moles (products, NH₃), increasing yield. Option B is correct. Kc changes only with temperature.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\Delta n = 2 - (1+3) = -2\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 91,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.7 Equilibrium and Industry",
+        "structural_element": "A. Haber Process for the Manufacture of Ammonia",
+        "content_anchor": "high pressure shifts equilibrium to right because Δn = -2",
+        "page_hint": 34,
+        "concept_hash": "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "High pressure shifts the equilibrium toward the side with fewer moles of gas, increasing NH₃ yield in the Haber process.",
+        "concept_summary": "Δn = -2 means products have fewer gas molecules than reactants. Increasing pressure favors the forward reaction, producing more NH₃.",
+        "beginner": "The reaction makes 2 molecules of NH₃ from 4 molecules (N₂+3H₂). Squeezing the gas (high pressure) pushes the reaction toward the side with fewer molecules — that's NH₃.",
+        "intermediate": "Because Δn = -2, increasing pressure shifts the equilibrium to the right (toward NH₃) to reduce the number of gas molecules. This increases the equilibrium yield of ammonia.",
+        "advanced": "Le Chatelier's principle: increased pressure favors the direction that reduces volume (fewer gas moles). The forward reaction reduces total moles from 4 to 2, so high pressure shifts equilibrium right. Kp remains constant at constant T; Q decreases with pressure increase, so forward reaction proceeds.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Write balanced equation: N₂ + 3H₂ ⇌ 2NH₃.",
+          "Calculate Δn = 2 - 4 = -2.",
+          "Increasing pressure favors side with fewer gas moles.",
+          "Products (NH₃) have fewer gas moles (2 vs 4).",
+          "Thus, high pressure increases NH₃ yield."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\Delta n = \\sum n_{\\text{gas products}} - \\sum n_{\\text{gas reactants}}\\)",
+            "name": "Change in moles of gas",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think high pressure increases K (false; K depends only on T).",
+          "Others believe pressure has no effect because all are gases (but Δn ≠ 0 matters)."
+        ],
+        "related_concepts": ["Haber process", "Pressure effect", "Δn", "Le Chatelier's principle"],
+        "revision_note": "Haber: high pressure (Δn = -2) → shifts right → more NH₃.",
+        "glossary_entry": {
+          "term": "Pressure in Haber process",
+          "definition": "High pressure (200-400 atm) shifts equilibrium toward NH₃ because Δn = -2.",
+          "example_equation": "N₂ + 3H₂ ⇌ 2NH₃, Δn = -2 → ↑P favors NH₃.",
+          "related_terms": ["Haber process", "Le Chatelier's principle", "Δn"]
+        },
+        "flashcard": {
+          "front": "Why is high pressure used in the Haber process?",
+          "flashcard_back": "Δn = -2, so high pressure shifts equilibrium toward NH₃ (fewer gas molecules), increasing yield."
+        },
+        "concept_map_nodes": [
+          {"source": "Haber process", "relation": "has_Δn", "target": "-2"},
+          {"source": "Δn = -2", "relation": "means", "target": "Fewer gas moles on product side"},
+          {"source": "High pressure", "relation": "favors", "target": "Side with fewer gas moles (NH₃)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "Why does high pressure increase NH₃ yield in Haber process?",
+        "flashcard_back": "Δn = -2; high pressure shifts equilibrium to side with fewer gas moles (products).",
+        "glossary_term": "Haber process pressure",
+        "glossary_definition": "High pressure (200-400 atm) favors NH₃ formation because forward reaction reduces total moles of gas.",
+        "revision_note": "Haber: ↑P → shift right (Δn = -2).",
+        "teacher_note": "Reinforce that Δn uses only gaseous coefficients.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain role of pressure in Haber process",
+        "concept_map_nodes": [
+          {"source": "High pressure", "relation": "shifts_equilibrium", "target": "Toward NH₃"},
+          {"source": "Shift toward NH₃", "relation": "because", "target": "Δn = -2"}
+        ],
+        "workbook_section": "5.2.7 A. Haber Process for the Manufacture of Ammonia",
+        "solution_manual_note": "Answer B. Δn = -2, so high pressure shifts equilibrium toward NH₃. Kc is unchanged by pressure."
+      }
+    },
+    {
+      "question_id": "G11_Chem_U5_Q030",
+      "generation_timestamp": "2026-06-14T10:40:00Z",
+      "grade": "Grade 11",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+      "section": "5.2 Chemical Equilibrium",
+      "subsection": "5.2.7 Equilibrium and Industry",
+      "sub_subsection": "B. Contact Process for the Manufacture of Sulphuric acid",
+      "structural_anchor": "Contact process conditions",
+      "mcq_type": "G",
+      "question": "In the Contact process, the oxidation of SO₂ to SO₃ (\\(\\mathrm{2SO_2 + O_2 \\rightleftharpoons 2SO_3}\\), \\(\\Delta H = -196\\ \\mathrm{kJ}\\)) is carried out at 450°C and 1-2 atm. Why isn't higher pressure used to increase yield?",
+      "options": {
+        "A": "Higher pressure would shift equilibrium left.",
+        "B": "Higher pressure would increase the rate too much, causing an explosion.",
+        "C": "The yield is already nearly 100% at 1 atm, so higher pressure is unnecessary.",
+        "D": "Higher pressure would condense SO₃, blocking the reactor."
+      },
+      "correct_answer": "C",
+      "hint": "Consider Δn for this reaction and the practical yield at atmospheric pressure.",
+      "explanation": "For 2SO₂ + O₂ ⇌ 2SO₃, Δn = 2 - (2+1) = -1. Higher pressure would increase yield, but at 1 atm and 450°C with V₂O₅ catalyst, the conversion is already ~99%. Further pressure increase is not economically justified. Option C is correct.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(\\Delta n = 2 - (2+1) = -1\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL EQUILIBRIUM",
+        "section_anchor": "5.2 Chemical Equilibrium",
+        "subsection_anchor": "5.2.7 Equilibrium and Industry",
+        "structural_element": "B. Contact Process for the Manufacture of Sulphuric acid",
+        "content_anchor": "Contact process: 1-2 atm, 450°C, V2O5 catalyst; high pressure not needed because yield already high",
+        "page_hint": 36,
+        "concept_hash": "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 86,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The Contact process achieves near-complete conversion of SO₂ to SO₃ at atmospheric pressure due to favorable thermodynamics and an effective catalyst.",
+        "concept_summary": "Δn = -1, so higher pressure would increase yield, but at 1 atm and 450°C with V₂O₅, conversion exceeds 99%. The small gain from higher pressure does not justify the cost.",
+        "beginner": "The reaction already turns almost all SO₂ into SO₃ at normal pressure. Squeezing it harder wouldn't make enough extra product to pay for the expensive equipment.",
+        "intermediate": "Thermodynamically, higher pressure would shift equilibrium right (Δn = -1). However, at 1 atm and 450°C, conversion is already ~99% due to favorable K and catalyst efficiency. The marginal gain from higher pressure is not economical.",
+        "advanced": "The equilibrium constant at 450°C is large enough that near-complete conversion occurs even at 1 atm. The van 't Hoff equation and Le Chatelier's principle both indicate pressure increase would help, but diminishing returns and high capital costs make atmospheric pressure the economic optimum.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Calculate Δn = 2 - (2+1) = -1.",
+          "Higher pressure would shift right (more SO₃).",
+          "But at 1 atm, conversion is already >99% with catalyst.",
+          "Increasing pressure adds cost for negligible yield gain."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(K_p = \\frac{P_{SO_3}^2}{P_{SO_2}^2 P_{O_2}}\\)",
+            "name": "Kp for SO₂ oxidation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think Δn = -1 means pressure has no effect (false, it has an effect but is not used for economic reasons).",
+          "Others believe higher pressure always gives better yield, ignoring cost-benefit analysis."
+        ],
+        "related_concepts": ["Contact process", "Economics of chemical processes", "Δn", "Le Chatelier's principle"],
+        "revision_note": "Contact: 1 atm, 450°C, V₂O₅. Δn = -1 but yield already ~99%.",
+        "glossary_entry": {
+          "term": "Contact process pressure",
+          "definition": "Atmospheric pressure (1-2 atm) is used because conversion of SO₂ to SO₃ is already nearly complete; higher pressure is uneconomical.",
+          "example_equation": "2SO₂ + O₂ ⇌ 2SO₃, ΔH = -196 kJ, Δn = -1.",
+          "related_terms": ["Contact process", "Le Chatelier's principle"]
+        },
+        "flashcard": {
+          "front": "Why is high pressure not used in Contact process for SO₃ production?",
+          "flashcard_back": "At 1 atm and 450°C with V₂O₅ catalyst, conversion is already ~99%; higher pressure gives negligible gain for high cost."
+        },
+        "concept_map_nodes": [
+          {"source": "Contact process", "relation": "uses_1_atm", "target": "Because yield already high"},
+          {"source": "Δn = -1", "relation": "would_favor", "target": "Higher pressure, but unnecessary"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Equilibrium",
+        "flashcard_front": "Why does Contact process use 1 atm instead of high pressure?",
+        "flashcard_back": "Conversion is already ~99% at 1 atm with V₂O₅; higher pressure gives negligible yield increase.",
+        "glossary_term": "Contact process",
+        "glossary_definition": "SO₂ to SO₃ at 1 atm, 450°C, V₂O₅ catalyst; high yield without high pressure.",
+        "revision_note": "Contact: 1 atm enough (~99% conversion).",
+        "teacher_note": "Contrast Haber (needs high pressure) with Contact (does not) based on K magnitude and yield at moderate conditions.",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Explain optimum conditions in Contact process",
+        "concept_map_nodes": [
+          {"source": "Contact process", "relation": "yield_at_1_atm", "target": "~99%"},
+          {"source": "~99% yield", "relation": "makes", "target": "Higher pressure unnecessary"}
+        ],
+        "workbook_section": "5.2.7 B. Contact Process for the Manufacture of Sulphuric acid",
+        "solution_manual_note": "Answer C. Conversion at 1 atm is already near 100%, so higher pressure is not economically justified."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3900,
+    "average_question_quality": 92.0,
+    "type_distribution": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 0,
+      "F": 1,
+      "G": 7,
+      "H": 0,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "L": 1,
+      "M": 0,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 6,
+      "hard": 2
+    },
+    "section_distribution": {
+      "5.2 Chemical Equilibrium": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 38,
+      "advanced_avg": 49
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

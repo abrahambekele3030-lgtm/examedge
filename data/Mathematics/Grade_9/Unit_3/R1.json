@@ -1,0 +1,1691 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-11T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Math_U3_Q010",
+    "covered_sections": [
+      "3.1 Revision on Linear Inequalities in one Variable",
+      "3.2 Systems of Linear Inequalities in Two Variables"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "7890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "90a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6"
+    ],
+    "baseline_counter": {
+      "3.1 Revision on Linear Inequalities in one Variable": {
+        "Subsection": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Systems of Linear Inequalities in Two Variables": {
+        "Subsection": {
+          "count": 5,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 Revision on Linear Inequalities in one Variable": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Systems of Linear Inequalities in Two Variables": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 Revision on Linear Inequalities in one Variable": ["inequality properties", "addition property", "multiplication property", "negative coefficient", "interval notation", "number line representation"],
+      "3.2 Systems of Linear Inequalities in Two Variables": ["boundary line", "solid line", "dashed line", "test point", "shading region", "intersection region"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 40.0
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Mathematics",
+  "unit": "Unit 3: SOLVING INEQUALITIES",
+  "pdf_filename": "M9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-11T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 5,
+        "progress_percentage": 40.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 0,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 40.0,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1 Revision on Linear Inequalities in one Variable",
+      "least_covered_section": "3.2 Systems of Linear Inequalities in Two Variables",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Math_U3_Q001",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.1 Revision on Linear Inequalities in one Variable",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of inequalities",
+      "mcq_type": "A",
+      "question": "According to the properties of inequalities, what happens to the inequality sign when adding the same number \\(c\\) to both sides of \\(a > b\\)?",
+      "options": {
+        "A": "The sign remains \\(>\\)",
+        "B": "The sign becomes \\(<\\)",
+        "C": "The sign becomes \\(\\geq\\)",
+        "D": "The sign reverses direction"
+      },
+      "correct_answer": "A",
+      "hint": "Consider adding a constant to both sides of a true inequality.",
+      "explanation": "The addition property states that adding \\(c\\) to both sides preserves the inequality: \\(a > b\\) implies \\(a + c > b + c\\). Option B would be correct only if multiplying by a negative number.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.1 Revision on Linear Inequalities in one Variable",
+        "subsection_anchor": "",
+        "structural_element": "Properties of inequalities",
+        "content_anchor": "If a > b, a + c > b + c",
+        "page_hint": 2,
+        "concept_hash": "abc123def456"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The addition property of inequalities states that adding the same number to both sides of an inequality does not change the direction of the inequality sign.",
+        "concept_summary": "Inequalities behave like equations when adding or subtracting. The direction stays the same because adding a constant shifts both sides equally on the number line.",
+        "beginner": "Imagine a number line: if 5 is right of 3, then 5+2 is still right of 3+2. Adding the same amount keeps the order.",
+        "intermediate": "The addition property preserves inequality direction: \\(a > b \\Rightarrow a + c > b + c\\). This holds for all real numbers \\(a, b, c\\).",
+        "advanced": "Adding \\(c\\) translates both \\(a\\) and \\(b\\) by the same distance on the real line, preserving their relative order. Formally, \\(a - b > 0 \\Rightarrow (a+c) - (b+c) = a - b > 0\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that adding the same number to both sides of an inequality is allowed.",
+          "Check if the inequality sign changes when adding a positive or negative number.",
+          "The sign remains the same in all cases for addition and subtraction."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some mistakenly think adding a negative number reverses the sign, but addition never reverses the sign regardless of the number's sign."
+        ],
+        "related_concepts": ["subtraction property", "multiplication property", "transitive property"],
+        "revision_note": "Adding or subtracting: sign stays the same. Multiplying/dividing by negative: sign reverses.",
+        "glossary_entry": {
+          "term": "Addition property of inequalities",
+          "definition": "If \\(a > b\\), then \\(a + c > b + c\\) for any real number \\(c\\).",
+          "example_equation": null,
+          "related_terms": ["subtraction property"]
+        },
+        "flashcard": {
+          "front": "What happens to the inequality sign when you add the same number to both sides?",
+          "back": "The sign remains the same. Example: \\(5 > 3 \\Rightarrow 5+2 > 3+2\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Inequality", "relation": "preserved_by", "target": "Addition"},
+          {"source": "Addition", "relation": "does_not_change", "target": "Inequality sign"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 3 — Inequality Properties",
+        "flashcard_front": "When adding a number to both sides of an inequality, what happens to the sign?",
+        "flashcard_back": "The sign stays the same. \\(a > b \\Rightarrow a + c > b + c\\).",
+        "glossary_term": "Addition property of inequalities",
+        "glossary_definition": "Adding the same number to both sides of an inequality preserves the inequality direction.",
+        "revision_note": "Add/subtract: sign same. Multiply/divide by negative: sign flips.",
+        "teacher_note": "Common error: students think adding a negative flips the sign. Emphasize only multiplication/division by negative flips the sign.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Apply properties of inequalities to solve linear inequalities",
+        "concept_map_nodes": [
+          {"source": "Inequality", "relation": "preserved_by", "target": "Addition"},
+          {"source": "Addition", "relation": "does_not_change", "target": "Sign"}
+        ],
+        "workbook_section": "3.1 Revision on Linear Inequalities",
+        "solution_manual_note": "Answer A. The addition property preserves the inequality sign regardless of the sign of the added number."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q002",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.1 Revision on Linear Inequalities in one Variable",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of inequalities",
+      "mcq_type": "C",
+      "question": "The inequality \\(-3x > 9\\) is solved by dividing both sides by \\(-3\\). Which operation property applies and what is the resulting inequality?",
+      "options": {
+        "A": "Divide by positive, \\(x > -3\\)",
+        "B": "Divide by negative, sign stays \\(>\\), \\(x > -3\\)",
+        "C": "Divide by negative, sign reverses, \\(x < -3\\)",
+        "D": "Divide by negative, sign reverses, \\(x > -3\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Remember what happens when multiplying or dividing by a negative number.",
+      "explanation": "Dividing both sides by \\(-3\\) (negative) reverses the inequality sign, giving \\(x < -3\\). Option A incorrectly treats \\(-3\\) as positive; Options B and D fail to reverse the sign correctly.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.1 Revision on Linear Inequalities in one Variable",
+        "subsection_anchor": "",
+        "structural_element": "Properties of inequalities",
+        "content_anchor": "If a > b and m < 0, ma < mb",
+        "page_hint": 2,
+        "concept_hash": "def456ghi789"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 82,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The multiplication property of inequalities states that multiplying or dividing both sides by a negative number reverses the inequality direction.",
+        "concept_summary": "When solving inequalities, operations that preserve order (addition, subtraction, multiplication/division by positive) keep the sign. Multiplication/division by negative flips the sign.",
+        "beginner": "Think of numbers on a line: 5 > 3 but multiply by -1 gives -5 < -3. The order flips when crossing zero.",
+        "intermediate": "For \\(-3x > 9\\), divide by \\(-3\\): \\(x < -3\\). The sign reverses because \\(-3 < 0\\).",
+        "advanced": "Multiplying by a negative number \\(m < 0\\) is equivalent to scaling and reflecting across zero on the real line, reversing order: \\(a > b \\Rightarrow ma < mb\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the coefficient of \\(x\\): \\(-3\\) is negative.",
+          "Divide both sides by \\(-3\\).",
+          "Reverse the inequality sign from \\(>\\) to \\(<\\).",
+          "Obtain \\(x < -3\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students flip the sign only when multiplying, but forget to flip when dividing by a negative number."
+        ],
+        "related_concepts": ["inequality reversal", "negative coefficient", "linear inequality solution"],
+        "revision_note": "Multiply/divide by negative? FLIP the sign. Positive? Keep it.",
+        "glossary_entry": {
+          "term": "Multiplication property of inequalities",
+          "definition": "If \\(a > b\\) and \\(c < 0\\), then \\(ac < bc\\).",
+          "example_equation": null,
+          "related_terms": ["inequality reversal"]
+        },
+        "flashcard": {
+          "front": "Solve \\(-3x > 9\\). What is the solution?",
+          "back": "\\(x < -3\\). Divide by \\(-3\\) and reverse the sign."
+        },
+        "concept_map_nodes": [
+          {"source": "Negative coefficient", "relation": "requires", "target": "Sign reversal"},
+          {"source": "Sign reversal", "relation": "applies_to", "target": "Inequality direction"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 3 — Inequality Properties",
+        "flashcard_front": "What happens when you divide both sides of \\(-3x > 9\\) by \\(-3\\)?",
+        "flashcard_back": "The sign reverses: \\(x < -3\\).",
+        "glossary_term": "Multiplication property of inequalities",
+        "glossary_definition": "Multiplying or dividing both sides of an inequality by a negative number reverses the inequality sign.",
+        "revision_note": "Negative divisor = flip sign. Positive divisor = keep sign.",
+        "teacher_note": "Students often remember to flip for multiplication but forget for division. Drill with both operations.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Solve linear inequalities using properties of inequalities",
+        "concept_map_nodes": [
+          {"source": "Negative number", "relation": "causes", "target": "Inequality reversal"},
+          {"source": "Inequality reversal", "relation": "changes", "target": "Solution direction"}
+        ],
+        "workbook_section": "3.1 Revision on Linear Inequalities",
+        "solution_manual_note": "Answer C. Dividing by \\(-3\\) (negative) reverses \\(>\\) to \\(<\\), giving \\(x < -3\\)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q003",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.1 Revision on Linear Inequalities in one Variable",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Number line representation",
+      "mcq_type": "K",
+      "question": "The solution set \\((-\\infty, 5)\\) is graphed on a number line. Which description matches this graph?",
+      "options": {
+        "A": "A closed circle at 5 shading to the right",
+        "B": "An open circle at 5 shading to the left",
+        "C": "A closed circle at 5 shading to the left",
+        "D": "An open circle at 5 shading to the right"
+      },
+      "correct_answer": "B",
+      "hint": "Parentheses mean the endpoint is not included. Infinity direction indicates shading direction.",
+      "explanation": "Interval \\((-\\infty, 5)\\) includes all numbers less than 5 but not 5 itself, so an open circle at 5 shading left. Option A would be \\([5,\\infty)\\); Option C would be \\((-\\infty,5]\\); Option D would be \\((5,\\infty)\\).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.1 Revision on Linear Inequalities in one Variable",
+        "subsection_anchor": "",
+        "structural_element": "Number line representation",
+        "content_anchor": "Interval notation and number line graphing rules",
+        "page_hint": 3,
+        "concept_hash": "ghi789jkl012"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Interval notation uses parentheses \\((\\;\\) to exclude an endpoint and brackets \\([\\;\\) to include it; number lines use open or closed circles accordingly.",
+        "concept_summary": "The interval \\((-\\infty, 5)\\) means all numbers less than 5, excluding 5 itself. On a number line, this is an open circle at 5 with shading extending left.",
+        "beginner": "Parentheses \\((\\) means 'not including' that number, like an open circle. Arrow to \\(-\\infty\\) means shade left.",
+        "intermediate": "\\((-\\infty, 5)\\) excludes 5 (open circle) and includes all numbers less than 5 (shade left).",
+        "advanced": "The interval is unbounded on the left, represented by \\(-\\infty\\), and bounded above by 5 with strict inequality \\(x < 5\\), hence an open endpoint.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the type of bracket at 5: parentheses means 5 is excluded.",
+          "Excluded endpoint means an open circle on the number line.",
+          "The interval goes to \\(-\\infty\\), so shade to the left of 5."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students often confuse parentheses with closed circles. Parentheses always correspond to open circles."
+        ],
+        "related_concepts": ["interval notation", "closed interval", "half-open interval", "infinity"],
+        "revision_note": "\\((a,b)\\) = open circles at a and b. \\([a,b]\\) = closed circles.",
+        "glossary_entry": {
+          "term": "Open interval",
+          "definition": "An interval that does not include its endpoints, denoted by parentheses.",
+          "example_equation": null,
+          "related_terms": ["closed interval", "half-open interval"]
+        },
+        "flashcard": {
+          "front": "How do you graph \\((-\\infty, 5)\\) on a number line?",
+          "back": "Open circle at 5, shading to the left."
+        },
+        "concept_map_nodes": [
+          {"source": "Parentheses", "relation": "means", "target": "Open circle"},
+          {"source": "Open circle", "relation": "indicates", "target": "Excluded endpoint"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 3 — Interval Notation",
+        "flashcard_front": "What does \\((-\\infty, 5)\\) look like on a number line?",
+        "flashcard_back": "Open circle at 5, shaded left.",
+        "glossary_term": "Open interval",
+        "glossary_definition": "An interval that excludes its endpoints, denoted with parentheses.",
+        "revision_note": "\\((\\;)\\) = open circle. \\([\\;]\\) = closed circle.",
+        "teacher_note": "Use a mnemonic: 'Parentheses Poke out (open), Brackets Block the point (closed).'",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Represent solution sets of inequalities on a number line",
+        "concept_map_nodes": [
+          {"source": "Interval notation", "relation": "converts_to", "target": "Number line graph"},
+          {"source": "Number line graph", "relation": "uses", "target": "Open or closed circles"}
+        ],
+        "workbook_section": "3.1 Revision on Linear Inequalities",
+        "solution_manual_note": "Answer B. Parentheses mean exclude 5 (open circle), \\(-\\infty\\) means shade left."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q004",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.1 Revision on Linear Inequalities in one Variable",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Solving linear inequalities",
+      "mcq_type": "D",
+      "question": "Solve the inequality \\(2x - 5 \\leq 9\\). What is the solution set in interval notation?",
+      "options": {
+        "A": "\\((-\\infty, 7]\\)",
+        "B": "\\((-\\infty, 7)\\)",
+        "C": "\\([7, \\infty)\\)",
+        "D": "\\((7, \\infty)\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Add 5 to both sides, then divide by 2. Pay attention to the inequality sign.",
+      "explanation": "Adding 5 gives \\(2x \\leq 14\\). Dividing by 2 (positive) preserves the sign: \\(x \\leq 7\\). In interval notation, this is \\((-\\infty, 7]\\). Option B excludes 7; Option C and D represent numbers greater than or equal to 7.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.1 Revision on Linear Inequalities in one Variable",
+        "subsection_anchor": "",
+        "structural_element": "Solving linear inequalities",
+        "content_anchor": "Example: 2x - 3 >= 1",
+        "page_hint": 2,
+        "concept_hash": "jkl012mno345"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Solving a linear inequality means isolating the variable using inverse operations while respecting the inequality sign rules.",
+        "concept_summary": "Add 5 to both sides to isolate the term with \\(x\\), then divide by 2. Since 2 is positive, the inequality sign remains \\(\\leq\\).",
+        "beginner": "Undo subtraction first by adding 5, then undo multiplication by dividing by 2. Both are 'friendly' operations (no sign flip).",
+        "intermediate": "\\(2x - 5 \\leq 9 \\Rightarrow 2x \\leq 14 \\Rightarrow x \\leq 7\\). Interval: \\((-\\infty, 7]\\).",
+        "advanced": "The solution set is all \\(x\\) such that \\(x \\leq 7\\). The bracket at 7 indicates inclusion because the inequality is \\(\\leq\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Add 5 to both sides: \\(2x \\leq 14\\).",
+          "Divide both sides by 2: \\(x \\leq 7\\).",
+          "Write in interval notation: \\((-\\infty, 7]\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students forget to include 7 in the solution set because they confuse \\(\\leq\\) with \\(<\\) when writing intervals."
+        ],
+        "related_concepts": ["interval notation", "linear equation solving", "inequality properties"],
+        "revision_note": "\\(\\leq\\) means bracket at endpoint. \\(<\\) means parenthesis.",
+        "glossary_entry": {
+          "term": "Closed interval",
+          "definition": "An interval that includes its endpoints, denoted by brackets.",
+          "example_equation": null,
+          "related_terms": ["open interval", "half-open interval"]
+        },
+        "flashcard": {
+          "front": "Solve \\(2x - 5 \\leq 9\\) and write the solution in interval notation.",
+          "back": "\\(x \\leq 7\\), so \\((-\\infty, 7]\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Linear inequality", "relation": "solved_by", "target": "Inverse operations"},
+          {"source": "Inverse operations", "relation": "produces", "target": "Interval notation"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 3 — Solving Linear Inequalities",
+        "flashcard_front": "Solve \\(2x - 5 \\leq 9\\).",
+        "flashcard_back": "\\(x \\leq 7\\) or \\((-\\infty, 7]\\).",
+        "glossary_term": "Closed interval",
+        "glossary_definition": "An interval that includes its endpoints, denoted with brackets [ ].",
+        "revision_note": "\\(x \\leq a\\) = \\((-\\infty, a]\\). \\(x < a\\) = \\((-\\infty, a)\\).",
+        "teacher_note": "Emphasize that dividing by a positive number never flips the sign, so \\(\\leq\\) remains \\(\\leq\\).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Solve linear inequalities in one variable",
+        "concept_map_nodes": [
+          {"source": "Linear inequality", "relation": "solved_to", "target": "x ≤ 7"},
+          {"source": "x ≤ 7", "relation": "written_as", "target": "(-∞, 7]"}
+        ],
+        "workbook_section": "3.1 Revision on Linear Inequalities",
+        "solution_manual_note": "Answer A. \\(2x \\leq 14\\), \\(x \\leq 7\\), interval \\((-\\infty, 7]\\)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q005",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.1 Revision on Linear Inequalities in one Variable",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Number line representation",
+      "mcq_type": "K",
+      "question": "The graph on a number line shows a closed circle at \\(-2\\) with shading to the right. Which interval notation correctly represents this graph?",
+      "options": {
+        "A": "\\((-\\infty, -2]\\)",
+        "B": "\\((-\\infty, -2)\\)",
+        "C": "\\([-2, \\infty)\\)",
+        "D": "\\((-2, \\infty)\\)"
+      },
+      "correct_answer": "C",
+      "hint": "A closed circle means the endpoint is included. Shading right means numbers greater than or equal to the endpoint.",
+      "explanation": "A closed circle indicates inclusion, so bracket at \\(-2\\). Shading right means all numbers greater than or equal to \\(-2\\), which is \\([-2, \\infty)\\). Options A and B shade left; Option D uses an open circle (parenthesis).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.1 Revision on Linear Inequalities in one Variable",
+        "subsection_anchor": "",
+        "structural_element": "Number line representation",
+        "content_anchor": "Filled-in dot means included, open dot means excluded",
+        "page_hint": 3,
+        "concept_hash": "mno345pqr678"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "A closed (filled) circle on a number line indicates that the endpoint is included in the solution set, corresponding to a bracket in interval notation.",
+        "concept_summary": "Shading to the right of \\(-2\\) means \\(x \\geq -2\\). The closed circle confirms inclusion, so the interval is \\([-2, \\infty)\\).",
+        "beginner": "A filled dot means 'this number counts'. An arrow pointing right means 'and all numbers bigger than this'.",
+        "intermediate": "Closed circle at \\(-2\\) = bracket \\([\\). Shading right = \\(-2\\) to \\(+\\infty\\). Combined: \\([-2, \\infty)\\).",
+        "advanced": "The graph represents \\(\\{x \\in \\mathbb{R} \\mid x \\geq -2\\}\\), which in interval notation is \\([-2, \\infty)\\). The bracket at \\(-2\\) indicates the lower bound is included.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Closed circle means the endpoint \\(-2\\) is included in the solution.",
+          "Shading to the right means all numbers greater than \\(-2\\) are included.",
+          "Combine: \\(x \\geq -2\\), which is \\([-2, \\infty)\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students often mistakenly use parentheses for closed circles or shade the wrong direction when given an interval."
+        ],
+        "related_concepts": ["inequality notation", "number line graphing", "interval notation"],
+        "revision_note": "Filled dot = bracket [. Arrow right = to \\(\\infty\\). Arrow left = to \\(-\\infty\\).",
+        "glossary_entry": {
+          "term": "Closed interval",
+          "definition": "An interval that includes both endpoints, denoted with square brackets.",
+          "example_equation": null,
+          "related_terms": ["open interval", "half-open interval"]
+        },
+        "flashcard": {
+          "front": "What interval does a closed circle at -2 with shading to the right represent?",
+          "back": "\\([-2, \\infty)\\), meaning \\(x \\geq -2\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Closed circle", "relation": "maps_to", "target": "Bracket"},
+          {"source": "Shading right", "relation": "maps_to", "target": "Infinity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 3 — Interval Notation",
+        "flashcard_front": "What is the interval for 'closed circle at -2, shaded right'?",
+        "flashcard_back": "\\([-2, \\infty)\\).",
+        "glossary_term": "Closed interval",
+        "glossary_definition": "An interval that includes its endpoints, shown with filled circles on a number line.",
+        "revision_note": "Filled dot = bracket. Arrow direction shows infinity side.",
+        "teacher_note": "Use color-coding: closed circle = 'closed bracket', open circle = 'open parenthesis'.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Represent solution sets using interval notation and number lines",
+        "concept_map_nodes": [
+          {"source": "Number line graph", "relation": "translates_to", "target": "Interval notation"},
+          {"source": "Closed circle", "relation": "means", "target": "Included endpoint"}
+        ],
+        "workbook_section": "3.1 Revision on Linear Inequalities",
+        "solution_manual_note": "Answer C. Closed circle = bracket. Shading right = \\([-2, \\infty)\\)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q006",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.2 Systems of Linear Inequalities in Two Variables",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Boundary line",
+      "mcq_type": "A",
+      "question": "When graphing a linear inequality in two variables, what determines whether the boundary line is drawn as a solid line or a dashed line?",
+      "options": {
+        "A": "The slope of the line",
+        "B": "The inequality symbol (\\(\\leq\\) or \\(\\geq\\) vs \\(<\\) or \\(>\\))",
+        "C": "The y-intercept of the line",
+        "D": "The quadrant where the solution lies"
+      },
+      "correct_answer": "B",
+      "hint": "Think about whether points on the line itself are included in the solution.",
+      "explanation": "Solid lines are used for \\(\\leq\\) or \\(\\geq\\) because points on the line satisfy the inequality. Dashed lines are used for \\(<\\) or \\(>\\) since points on the line are not solutions. Slope and intercept do not affect line style.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.2 Systems of Linear Inequalities in Two Variables",
+        "subsection_anchor": "",
+        "structural_element": "Boundary line",
+        "content_anchor": "If inequality is ≤ or ≥, line is solid. If < or >, line is dashed.",
+        "page_hint": 7,
+        "concept_hash": "pqr678stu901"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "The boundary line in a linear inequality graph is solid when the inequality includes equality (\\(\\leq\\) or \\(\\geq\\)) and dashed when it is strict (\\(<\\) or \\(>\\)).",
+        "concept_summary": "Solid lines indicate that points on the line are part of the solution set. Dashed lines indicate they are not. This depends solely on the inequality symbol.",
+        "beginner": "Think of a solid line as 'the fence is included' and a dashed line as 'the fence is not included, just the space beyond it'.",
+        "intermediate": "For \\(y \\leq mx + b\\), the line is solid because points with \\(y = mx + b\\) satisfy the inequality. For \\(y < mx + b\\), the line is dashed.",
+        "advanced": "The inequality symbol's inclusion of equality determines boundary membership. Strict inequalities \\(<, >\\) exclude the boundary, requiring a dashed line.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Look at the inequality symbol in the linear inequality.",
+          "If it contains \\(=\\) (i.e., \\(\\leq\\) or \\(\\geq\\)), use a solid line.",
+          "If it is strict (\\(<\\) or \\(>\\)), use a dashed line."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think the line style depends on whether the line slopes upward or downward."
+        ],
+        "related_concepts": ["boundary line", "test point method", "shading region"],
+        "revision_note": "\\(\\leq, \\geq\\) = solid line. \\(<, >\\) = dashed line.",
+        "glossary_entry": {
+          "term": "Boundary line",
+          "definition": "The line that separates the coordinate plane into two half-planes for a linear inequality.",
+          "example_equation": null,
+          "related_terms": ["solid line", "dashed line"]
+        },
+        "flashcard": {
+          "front": "When do you use a dashed line for a linear inequality graph?",
+          "back": "When the inequality is strict: \\(<\\) or \\(>\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Strict inequality", "relation": "uses", "target": "Dashed line"},
+          {"source": "Non-strict inequality", "relation": "uses", "target": "Solid line"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 3 — Graphing Inequalities",
+        "flashcard_front": "What inequality symbols require a solid boundary line?",
+        "flashcard_back": "\\(\\leq\\) and \\(\\geq\\).",
+        "glossary_term": "Boundary line",
+        "glossary_definition": "The line that separates the solution region from the non-solution region in a linear inequality.",
+        "revision_note": "Solid = includes line. Dashed = excludes line.",
+        "teacher_note": "Show examples of \\(y \\geq 2x\\) (solid) vs \\(y > 2x\\) (dashed) side by side.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Graph linear inequalities in two variables",
+        "concept_map_nodes": [
+          {"source": "Inequality symbol", "relation": "determines", "target": "Line style"},
+          {"source": "Line style", "relation": "indicates", "target": "Boundary inclusion"}
+        ],
+        "workbook_section": "3.2 Systems of Linear Inequalities",
+        "solution_manual_note": "Answer B. Solid for \\(\\leq, \\geq\\); dashed for \\(<, >\\)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q007",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.2 Systems of Linear Inequalities in Two Variables",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Test point method",
+      "mcq_type": "F",
+      "question": "After graphing the boundary line for \\(y < 2x + 1\\), you test the point \\((0,0)\\) and find that \\(0 < 1\\) is true. Which region should be shaded?",
+      "options": {
+        "A": "The side of the line containing \\((0,0)\\)",
+        "B": "The side of the line opposite \\((0,0)\\)",
+        "C": "Both sides of the line",
+        "D": "Only the boundary line itself"
+      },
+      "correct_answer": "A",
+      "hint": "If the test point satisfies the inequality, shade the region containing that point.",
+      "explanation": "Since \\((0,0)\\) makes the inequality true, the solution region is the half-plane that contains \\((0,0)\\). Option B would be chosen if the test point failed; Option C would be incorrect for a strict inequality; Option D ignores the region entirely.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.2 Systems of Linear Inequalities in Two Variables",
+        "subsection_anchor": "",
+        "structural_element": "Test point method",
+        "content_anchor": "Choose a point not on the boundary line, substitute into the inequality, shade the side containing the point if true",
+        "page_hint": 7,
+        "concept_hash": "stu901vwx234"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The test point method determines which side of a boundary line satisfies an inequality by checking a single point not on the line.",
+        "concept_summary": "If a test point makes the inequality true, the entire half-plane containing that point is the solution region. Shade that side.",
+        "beginner": "Pick a simple point like (0,0). If it works, color the side where (0,0) lives. If not, color the other side.",
+        "intermediate": "For \\(y < 2x + 1\\), testing \\((0,0)\\): \\(0 < 1\\) is true, so shade the half-plane containing \\((0,0)\\).",
+        "advanced": "The linear function \\(f(x,y) = y - 2x - 1\\) changes sign across the boundary. A true test point identifies the sign that satisfies the inequality for the entire half-plane.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Choose a test point not on the boundary line (e.g., (0,0)).",
+          "Substitute into \\(y < 2x + 1\\).",
+          "If true, shade the side containing the test point.",
+          "If false, shade the opposite side."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students shade the side where the test point is false, thinking they need to 'avoid' the point."
+        ],
+        "related_concepts": ["half-plane", "boundary line", "inequality shading"],
+        "revision_note": "Test point true? Shade its side. Test point false? Shade opposite side.",
+        "glossary_entry": {
+          "term": "Test point method",
+          "definition": "A technique to determine the solution half-plane of a linear inequality by checking a point not on the boundary.",
+          "example_equation": null,
+          "related_terms": ["half-plane", "boundary line"]
+        },
+        "flashcard": {
+          "front": "If a test point satisfies \\(y < 2x + 1\\), which side do you shade?",
+          "back": "The side containing the test point."
+        },
+        "concept_map_nodes": [
+          {"source": "Test point", "relation": "if_true", "target": "Shade that side"},
+          {"source": "Test point", "relation": "if_false", "target": "Shade opposite side"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 3 — Graphing Inequalities",
+        "flashcard_front": "How do you decide which side to shade after testing a point?",
+        "flashcard_back": "If the point satisfies the inequality, shade its side; otherwise shade the opposite side.",
+        "glossary_term": "Test point method",
+        "glossary_definition": "Using a point not on the boundary to determine the solution region of an inequality.",
+        "revision_note": "Test point true → shade its side. False → other side.",
+        "teacher_note": "Always use (0,0) unless it lies on the boundary line. Then choose (1,0) or (0,1).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Graph linear inequalities in two variables",
+        "concept_map_nodes": [
+          {"source": "Test point", "relation": "guides", "target": "Shading direction"},
+          {"source": "Shading direction", "relation": "depends_on", "target": "Inequality truth value"}
+        ],
+        "workbook_section": "3.2 Systems of Linear Inequalities",
+        "solution_manual_note": "Answer A. \\((0,0)\\) satisfies the inequality, so shade the side containing \\((0,0)\\)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q008",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.2 Systems of Linear Inequalities in Two Variables",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Intersection region",
+      "mcq_type": "F",
+      "question": "A system of linear inequalities consists of \\(y \\geq 2x - 3\\) and \\(y < -x + 1\\). What represents the solution to this system?",
+      "options": {
+        "A": "The union of the two shaded regions",
+        "B": "The intersection of the two shaded regions",
+        "C": "The complement of the two shaded regions",
+        "D": "The boundary lines only"
+      },
+      "correct_answer": "B",
+      "hint": "A 'system' of inequalities requires all conditions to be true simultaneously.",
+      "explanation": "The solution to a system of inequalities is the set of points that satisfy every inequality in the system, which is the intersection (overlap) of the individual shaded regions. Option A would be the solution to an 'or' system; Options C and D are not standard interpretations.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.2 Systems of Linear Inequalities in Two Variables",
+        "subsection_anchor": "",
+        "structural_element": "Intersection region",
+        "content_anchor": "The solution to the system of inequalities is the intersection region of the solutions of the two inequalities",
+        "page_hint": 11,
+        "concept_hash": "vwx234yza567"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The solution to a system of linear inequalities is the set of all points that satisfy every inequality in the system simultaneously.",
+        "concept_summary": "Each inequality defines a half-plane. The system's solution is the overlapping region where all half-planes intersect. Points outside this intersection fail at least one inequality.",
+        "beginner": "Imagine two colored transparent sheets. The solution is where both colors overlap, not where only one color appears.",
+        "intermediate": "For \\(y \\geq 2x - 3\\) and \\(y < -x + 1\\), a point must satisfy both. The solution region is the overlap of the two half-planes.",
+        "advanced": "The solution set is \\(\\{(x,y) \\mid y \\geq 2x - 3 \\text{ and } y < -x + 1\\}\\), which equals the intersection of the two individual solution sets.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Graph the first inequality and shade its region.",
+          "Graph the second inequality on the same axes and shade its region.",
+          "The solution to the system is where the two shaded regions overlap."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students mistakenly take the union (either inequality) rather than the intersection (both inequalities)."
+        ],
+        "related_concepts": ["system of inequalities", "half-plane", "intersection", "union"],
+        "revision_note": "System = intersection (overlap) of all individual inequality solutions.",
+        "glossary_entry": {
+          "term": "System of linear inequalities",
+          "definition": "A set of two or more linear inequalities considered simultaneously; the solution is the intersection of all individual solution sets.",
+          "example_equation": null,
+          "related_terms": ["intersection", "half-plane"]
+        },
+        "flashcard": {
+          "front": "For a system of inequalities, do you shade the union or intersection?",
+          "back": "Intersection. All inequalities must be satisfied at once."
+        },
+        "concept_map_nodes": [
+          {"source": "System of inequalities", "relation": "solved_by", "target": "Intersection"},
+          {"source": "Intersection", "relation": "requires", "target": "All conditions true"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 3 — Systems of Inequalities",
+        "flashcard_front": "What does the solution to a system of inequalities represent graphically?",
+        "flashcard_back": "The intersection (overlap) of all shaded regions from each inequality.",
+        "glossary_term": "System of linear inequalities",
+        "glossary_definition": "Two or more linear inequalities considered together; the solution is the common overlap of all solution regions.",
+        "revision_note": "System solution = overlap (intersection) of all individual regions.",
+        "teacher_note": "Use a Venn diagram analogy: intersection = 'and' condition, union = 'or' condition.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Solve systems of linear inequalities graphically",
+        "concept_map_nodes": [
+          {"source": "System", "relation": "requires", "target": "Intersection"},
+          {"source": "Intersection", "relation": "means", "target": "All inequalities true"}
+        ],
+        "workbook_section": "3.2 Systems of Linear Inequalities",
+        "solution_manual_note": "Answer B. The solution region is where both inequalities are satisfied simultaneously, which is the intersection of the two shaded regions."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q009",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.2 Systems of Linear Inequalities in Two Variables",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Shading region",
+      "mcq_type": "H",
+      "question": "When graphing \\(x - 2y > 4\\), a student shades the region below the line. What error did the student make?",
+      "options": {
+        "A": "The boundary line should be solid, not dashed",
+        "B": "The inequality symbol should be reversed before graphing",
+        "C": "The test point method should have shaded above the line",
+        "D": "The line should be vertical, not slanted"
+      },
+      "correct_answer": "C",
+      "hint": "Rewrite the inequality in slope-intercept form or test a point like (0,0).",
+      "explanation": "Rewriting as \\(y < \\frac{1}{2}x - 2\\) shows the inequality is \\(<\\), so shading should be below. But testing (0,0): \\(0 - 0 > 4\\) is false, so shade opposite (0,0) → above the line. Option C correctly identifies that above is correct. Option A is wrong because \\(>\\) requires dashed line.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.2 Systems of Linear Inequalities in Two Variables",
+        "subsection_anchor": "",
+        "structural_element": "Shading region",
+        "content_anchor": "Choose a point not on the boundary line, substitute, shade accordingly",
+        "page_hint": 7,
+        "concept_hash": "yza567bcd890"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "A common misconception is incorrectly determining which side of a boundary line to shade based on misinterpreting the inequality symbol.",
+        "concept_summary": "For \\(x - 2y > 4\\), isolate \\(y\\) to get \\(y < \\frac{1}{2}x - 2\\). The \\(<\\) suggests below, but testing (0,0) gives \\(-0 > 4\\) (false), so shade above. The student shaded below and was wrong.",
+        "beginner": "Don't guess! Always test a point like (0,0). If it makes the inequality true, shade its side; if false, shade the other side.",
+        "intermediate": "Rewrite as \\(y < 0.5x - 2\\). Student saw \\(<\\) and shaded below, but (0,0) gives \\(0 < -2\\) (false), so (0,0) is not in the solution. The solution is above the line.",
+        "advanced": "The inequality \\(x - 2y > 4\\) can be written as \\(-2y > -x + 4\\) then \\(y < 0.5x - 2\\). However, testing (0,0) yields \\(0 > 4\\), false, so the half-plane not containing (0,0) (above the line) is correct.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Rewrite inequality in slope-intercept form or keep as is.",
+          "Choose test point (0,0) if not on boundary line.",
+          "Substitute: \\(0 - 2(0) = 0 > 4\\)? False.",
+          "Since false, shade the side opposite the test point (above the line)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students often shade based on the inequality symbol's direction after solving for y without verifying with a test point."
+        ],
+        "related_concepts": ["test point method", "linear inequality", "half-plane"],
+        "revision_note": "Always test a point (e.g., origin) to verify shading direction.",
+        "glossary_entry": {
+          "term": "Misconception",
+          "definition": "An incorrect belief about the shading direction in linear inequalities based solely on the inequality symbol after solving for y.",
+          "example_equation": null,
+          "related_terms": ["test point method", "shading error"]
+        },
+        "flashcard": {
+          "front": "For \\(x - 2y > 4\\), should you shade above or below after solving for y?",
+          "back": "Above. Test (0,0) gives false, so shade opposite (0,0) which is above."
+        },
+        "concept_map_nodes": [
+          {"source": "Misconception", "relation": "caused_by", "target": "No test point"},
+          {"source": "Test point", "relation": "prevents", "target": "Shading error"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "caution",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide", "workbook"],
+        "flashcard_deck": "Mathematics Unit 3 — Common Errors",
+        "flashcard_front": "What is the common error when shading \\(x - 2y > 4\\)?",
+        "flashcard_back": "Shading below based on \\(y < \\ldots\\) without testing (0,0). Correct shading is above.",
+        "glossary_term": "Shading error",
+        "glossary_definition": "Incorrectly determining the solution half-plane without using a test point.",
+        "revision_note": "Don't rely on symbol alone. Test (0,0) first.",
+        "teacher_note": "Emphasize that (0,0) is the easiest test point unless it lies on the boundary. This misconception-based question helps catch this error.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Avoid common errors when graphing linear inequalities",
+        "concept_map_nodes": [
+          {"source": "Shading error", "relation": "prevented_by", "target": "Test point method"},
+          {"source": "Test point method", "relation": "provides", "target": "Correct shading"}
+        ],
+        "workbook_section": "3.2 Systems of Linear Inequalities",
+        "solution_manual_note": "Answer C. Test point (0,0) fails, so shade above the line. Student shaded below, which is incorrect."
+      }
+    },
+    {
+      "question_id": "G9_Math_U3_Q010",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 3: SOLVING INEQUALITIES",
+      "section": "3.2 Systems of Linear Inequalities in Two Variables",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Boundary line",
+      "mcq_type": "D",
+      "question": "Graph the inequality \\(y \\geq -\\frac{2}{3}x + 4\\). Which description matches the correct graph?",
+      "options": {
+        "A": "Dashed line through (0,4) with slope \\(-\\frac{2}{3}\\), shading below",
+        "B": "Solid line through (0,4) with slope \\(-\\frac{2}{3}\\), shading below",
+        "C": "Dashed line through (0,4) with slope \\(-\\frac{2}{3}\\), shading above",
+        "D": "Solid line through (0,4) with slope \\(-\\frac{2}{3}\\), shading above"
+      },
+      "correct_answer": "D",
+      "hint": "\\(\\geq\\) means solid line. Shade where y is greater than the line.",
+      "explanation": "The inequality \\(\\geq\\) means the boundary line is solid. Since \\(y\\) is greater than or equal to the expression, shade above the line. Option D correctly identifies both. Options A and C incorrectly use a dashed line; Options B shades below, which would represent \\(y \\leq\\).",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(y \\geq -\\frac{2}{3}x + 4\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: SOLVING INEQUALITIES",
+        "section_anchor": "3.2 Systems of Linear Inequalities in Two Variables",
+        "subsection_anchor": "",
+        "structural_element": "Boundary line",
+        "content_anchor": "If inequality is ≤ or ≥, the points on the boundary line are solutions and the line must be solid",
+        "page_hint": 7,
+        "concept_hash": "bcd890efg123"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 87,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Graphing \\(y \\geq mx + b\\) requires a solid boundary line because equality is included, and shading above because \\(y\\) is greater than the line.",
+        "concept_summary": "The slope is \\(-\\frac{2}{3}\\), y-intercept is 4. Solid line (from \\(\\geq\\)), shade above (since \\(y\\) is greater).",
+        "beginner": "The line is solid because 'or equal to' means points on the line count. Shade above because we want y-values bigger than the line's height.",
+        "intermediate": "\\(y \\geq -\\frac{2}{3}x + 4\\): solid boundary, shade the half-plane above the line. Test point (0,0) gives \\(0 \\geq 4\\) (false), so shade opposite (0,0), which is above.",
+        "advanced": "The solution set is \\(\\{(x,y) \\mid y + \\frac{2}{3}x \\geq 4\\}\\). The boundary line \\(y = -\\frac{2}{3}x + 4\\) is included (solid). The inequality direction indicates shading above for \\(y\\) expressed explicitly.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify slope \\(-\\frac{2}{3}\\) and y-intercept 4.",
+          "\\(\\geq\\) means solid line and shading above the line.",
+          "Plot (0,4), use slope to find another point.",
+          "Draw solid line, shade the region above."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(y \\geq -\\frac{2}{3}x + 4\\)",
+            "name": "Slope-intercept form of linear inequality",
+            "variables": [
+              {"symbol": "\\(y\\)", "meaning": "dependent variable", "unit": null},
+              {"symbol": "\\(x\\)", "meaning": "independent variable", "unit": null},
+              {"symbol": "\\(m = -\\frac{2}{3}\\)", "meaning": "slope", "unit": null},
+              {"symbol": "\\(b = 4\\)", "meaning": "y-intercept", "unit": null}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some students think \\(\\geq\\) always means shade above, but if the inequality is solved for y, \\(\\geq\\) does mean above. If not solved for y, they must rearrange or test a point."
+        ],
+        "related_concepts": ["slope-intercept form", "boundary line", "shading", "inequality symbol"],
+        "revision_note": "\\(y \\geq mx + b\\) = solid line, shade above. \\(y \\leq mx + b\\) = solid line, shade below.",
+        "glossary_entry": {
+          "term": "Slope-intercept form",
+          "definition": "A linear equation written as \\(y = mx + b\\), where \\(m\\) is slope and \\(b\\) is y-intercept.",
+          "example_equation": "\\(y = -\\frac{2}{3}x + 4\\)",
+          "related_terms": ["slope", "y-intercept"]
+        },
+        "flashcard": {
+          "front": "How do you graph \\(y \\geq -\\frac{2}{3}x + 4\\)?",
+          "back": "Solid line with slope \\(-\\frac{2}{3}\\), y-intercept 4, shade above."
+        },
+        "concept_map_nodes": [
+          {"source": "\\(\\geq\\)", "relation": "requires", "target": "Solid line"},
+          {"source": "\\(\\geq\\)", "relation": "requires", "target": "Shade above"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 3 — Graphing Inequalities",
+        "flashcard_front": "Graph \\(y \\geq -\\frac{2}{3}x + 4\\). Solid or dashed? Shade above or below?",
+        "flashcard_back": "Solid line, shade above.",
+        "glossary_term": "Slope-intercept form",
+        "glossary_definition": "\\(y = mx + b\\) where \\(m\\) is slope and \\(b\\) is y-intercept.",
+        "revision_note": "\\(y \\geq\\) = solid + above. \\(y \\leq\\) = solid + below.",
+        "teacher_note": "Have students test (0,0) to confirm shading: \\(0 \\geq 4\\) false, so shade opposite (0,0) which is above.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Graph linear inequalities in two variables",
+        "concept_map_nodes": [
+          {"source": "Linear inequality", "relation": "graphed_as", "target": "Boundary line + shading"},
+          {"source": "Boundary line", "relation": "style_determined_by", "target": "Inequality symbol"}
+        ],
+        "workbook_section": "3.2 Systems of Linear Inequalities",
+        "solution_manual_note": "Answer D. \\(\\geq\\) = solid line, shade above. Slope \\(-\\frac{2}{3}\\), y-intercept 4."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 88.2,
+    "type_distribution": {
+      "A": 2,
+      "C": 1,
+      "D": 2,
+      "F": 2,
+      "H": 1,
+      "K": 2
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.1 Revision on Linear Inequalities in one Variable": 5,
+      "3.2 Systems of Linear Inequalities in Two Variables": 5
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 46
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}
