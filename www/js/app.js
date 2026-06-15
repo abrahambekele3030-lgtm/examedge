@@ -30,6 +30,12 @@ const State = {
   currentView: 'practice',
   sidebarCollapsed: false,
   theme: 'dark',
+  fontSize: 'normal',      // 'normal', 'large', 'xl'
+  
+  // Daily Goal
+  dailyGoal: 20,
+  dailySolved: 0,
+  lastSolvedDate: '',
 
   // Metadata caches
   subjects: new Set(),
@@ -56,6 +62,10 @@ function saveState() {
       examHistory: State.examHistory.slice(-100),
       theme: State.theme,
       sidebarCollapsed: State.sidebarCollapsed,
+      fontSize: State.fontSize,
+      dailyGoal: State.dailyGoal,
+      dailySolved: State.dailySolved,
+      lastSolvedDate: State.lastSolvedDate,
       filters: typeof getFilters === 'function' ? getFilters() : undefined,
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
@@ -78,7 +88,18 @@ function loadState() {
     if (data.examHistory) State.examHistory = data.examHistory;
     if (data.theme) State.theme = data.theme;
     if (data.sidebarCollapsed != null) State.sidebarCollapsed = data.sidebarCollapsed;
+    if (data.fontSize) State.fontSize = data.fontSize;
+    if (data.dailyGoal != null) State.dailyGoal = data.dailyGoal;
+    if (data.dailySolved != null) State.dailySolved = data.dailySolved;
+    if (data.lastSolvedDate) State.lastSolvedDate = data.lastSolvedDate;
     if (data.filters) State.filters = data.filters;
+
+    // Reset daily solved if it's a new day
+    const today = new Date().toISOString().split('T')[0];
+    if (State.lastSolvedDate !== today) {
+      State.dailySolved = 0;
+      State.lastSolvedDate = today;
+    }
   } catch (e) { console.warn('Load failed', e); }
 }
 
@@ -482,6 +503,8 @@ function showAnswer(selectedKey, q, isNew) {
       correct: isCorrect,
       timestamp: Date.now(),
     };
+
+    updateDailyGoal(true);
 
     // Track wrong
     if (!isCorrect) {
@@ -2076,6 +2099,55 @@ function setupEventListeners() {
   // Theme toggle
   document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
 
+  // Font Size
+  document.getElementById('btn-font-dec')?.addEventListener('click', () => {
+    if (State.fontSize === 'xl') setFontSize('large');
+    else if (State.fontSize === 'large') setFontSize('normal');
+  });
+  document.getElementById('btn-font-inc')?.addEventListener('click', () => {
+    if (State.fontSize === 'normal') setFontSize('large');
+    else if (State.fontSize === 'large') setFontSize('xl');
+  });
+
+  // Mobile nav toggles
+  document.getElementById('btn-mobile-filter')?.addEventListener('click', () => {
+    document.getElementById('filter-row-container')?.classList.toggle('mobile-open');
+  });
+  document.getElementById('m-nav-menu')?.addEventListener('click', () => {
+    document.getElementById('sidebar')?.classList.add('mobile-open');
+    document.getElementById('mobile-sidebar-overlay')?.classList.remove('hidden');
+  });
+  document.getElementById('mobile-sidebar-overlay')?.addEventListener('click', () => {
+    document.getElementById('sidebar')?.classList.remove('mobile-open');
+    document.getElementById('mobile-sidebar-overlay')?.classList.add('hidden');
+  });
+  // Mobile bottom nav buttons
+  ['practice', 'exam', 'search'].forEach(view => {
+    document.getElementById(`m-nav-${view}`)?.addEventListener('click', () => {
+      document.querySelectorAll('.bottom-nav-item').forEach(b => b.classList.remove('active'));
+      document.getElementById(`m-nav-${view}`).classList.add('active');
+      switchView(view);
+    });
+  });
+
+  // Study Timer
+  document.getElementById('study-timer')?.addEventListener('click', toggleStudyTimer);
+
+  // Question Grid
+  document.getElementById('btn-grid-view')?.addEventListener('click', () => {
+    renderQuestionGrid();
+    document.getElementById('q-grid-overlay')?.classList.remove('hidden');
+  });
+  document.getElementById('close-q-grid')?.addEventListener('click', () => {
+    document.getElementById('q-grid-overlay')?.classList.add('hidden');
+  });
+  document.getElementById('q-grid-overlay')?.addEventListener('click', (e) => {
+    if (e.target === document.getElementById('q-grid-overlay')) {
+      document.getElementById('q-grid-overlay').classList.add('hidden');
+    }
+  });
+
+
   // Filter changes
   document.getElementById('filter-subject')?.addEventListener('change', () => { updateUnitFilter(); applyFilters(); });
   document.getElementById('filter-grade')?.addEventListener('change', () => { updateUnitFilter(); applyFilters(); });
@@ -2143,6 +2215,12 @@ function setupEventListeners() {
 
   // Search Online
   document.getElementById('btn-search-online')?.addEventListener('click', searchOnline);
+  
+  // ChatGPT
+  document.getElementById('btn-chatgpt')?.addEventListener('click', askChatGPT);
+
+  // Re-render math
+  document.getElementById('btn-rerender')?.addEventListener('click', rerenderMath);
 
   // Explanation tabs
   document.querySelectorAll('.exp-tab').forEach(tab => {
@@ -2409,6 +2487,157 @@ function setupEventListeners() {
 }
 
 // ============================================================
+// NEW FEATURES: Timer, ChatGPT, Font Size, Grid, Goal
+// ============================================================
+
+// Daily Goal
+function updateDailyGoal(increment = false) {
+  if (increment) {
+    State.dailySolved++;
+    saveState();
+  }
+  const pct = Math.min(100, Math.round(State.dailySolved / State.dailyGoal * 100));
+  const fill = document.getElementById('goal-ring-fill');
+  const text = document.getElementById('goal-text');
+  if (fill) {
+    fill.style.strokeDashoffset = 100 - pct;
+  }
+  if (text) {
+    text.textContent = `${State.dailySolved}/${State.dailyGoal}`;
+  }
+  
+  if (increment && State.dailySolved === State.dailyGoal) {
+    showToast('🎉 Daily goal reached! Excellent work!', 'success');
+  }
+}
+
+// Font Size
+function applyFontSize() {
+  document.documentElement.setAttribute('data-font-size', State.fontSize);
+}
+function setFontSize(size) {
+  State.fontSize = size;
+  applyFontSize();
+  saveState();
+}
+
+// ChatGPT Integration
+function askChatGPT() {
+  const q = State.filtered[State.currentIndex];
+  if (!q) return;
+  const ans = State.answered[q.question_id];
+  
+  let optionsText = '';
+  if (q.options) {
+    for (const [k, v] of Object.entries(q.options)) {
+      optionsText += `${k}. ${v}\n`;
+    }
+  }
+  
+  let ansText = '';
+  if (ans) {
+    ansText = `\nMy answer was ${ans.selected}. The correct answer is ${q.correct_answer}.`;
+  }
+  
+  const prompt = `Subject: ${q._subject} | Grade ${q._grade} | Unit ${q._unit}
+
+Question:
+${q.question}
+
+Options:
+${optionsText}${ansText}
+
+Please explain this question in detail.`;
+
+  copyText(prompt, false);
+  showToast('Question copied! Opening ChatGPT...', 'success');
+  setTimeout(() => {
+    window.open('https://chat.openai.com/', '_blank');
+  }, 400);
+}
+
+// Math Re-render
+function rerenderMath() {
+  const card = document.getElementById('question-card');
+  if (card) {
+    typeset(card);
+    showToast('Formula refreshed', 'info');
+  }
+}
+
+// Study Timer
+let studyTimerInterval = null;
+let studyTimeRemaining = 25 * 60; // 25 mins
+let isStudyBreak = false;
+let isStudyTimerRunning = false;
+
+function toggleStudyTimer() {
+  const display = document.getElementById('study-timer-display');
+  const timerBtn = document.getElementById('study-timer');
+  
+  if (isStudyTimerRunning) {
+    clearInterval(studyTimerInterval);
+    isStudyTimerRunning = false;
+    timerBtn.style.opacity = '0.7';
+  } else {
+    isStudyTimerRunning = true;
+    timerBtn.style.opacity = '1';
+    
+    studyTimerInterval = setInterval(() => {
+      studyTimeRemaining--;
+      
+      if (studyTimeRemaining <= 0) {
+        isStudyBreak = !isStudyBreak;
+        studyTimeRemaining = isStudyBreak ? 5 * 60 : 25 * 60; // 5 min break, 25 min study
+        showToast(isStudyBreak ? '☕ Time for a 5-minute break!' : '📚 Break is over. Time to study!', isStudyBreak ? 'success' : 'info');
+        if (timerBtn) timerBtn.classList.toggle('break', isStudyBreak);
+      }
+      
+      const m = Math.floor(studyTimeRemaining / 60).toString().padStart(2, '0');
+      const s = (studyTimeRemaining % 60).toString().padStart(2, '0');
+      if (display) display.textContent = `${m}:${s}`;
+    }, 1000);
+  }
+}
+
+// Question Grid
+function renderQuestionGrid() {
+  const container = document.getElementById('q-grid-container');
+  const count = document.getElementById('q-grid-count');
+  if (!container) return;
+  
+  if (count) count.textContent = `(${State.filtered.length})`;
+  
+  let html = '';
+  const limit = Math.min(State.filtered.length, 300); // cap for performance
+  
+  for (let i = 0; i < limit; i++) {
+    const q = State.filtered[i];
+    const ans = State.answered[q.question_id];
+    let cls = '';
+    if (i === State.currentIndex) cls = 'current';
+    else if (ans) cls = ans.correct ? 'correct' : 'wrong';
+    
+    html += `<div class="q-grid-item ${cls}" data-index="${i}">${i + 1}</div>`;
+  }
+  
+  if (State.filtered.length > 300) {
+    html += `<div style="grid-column: 1/-1; text-align: center; font-size: 0.8rem; color: var(--text-muted); padding: 10px;">Showing first 300 questions</div>`;
+  }
+  
+  container.innerHTML = html;
+  
+  // Attach events
+  container.querySelectorAll('.q-grid-item[data-index]').forEach(item => {
+    item.addEventListener('click', () => {
+      const idx = parseInt(item.dataset.index);
+      goTo(idx);
+      document.getElementById('q-grid-overlay')?.classList.add('hidden');
+    });
+  });
+}
+
+// ============================================================
 // AI ASSIST (Using rich explanations from JSON)
 // ============================================================
 
@@ -2541,9 +2770,10 @@ async function init() {
     setupEventListeners();
     setupKeyboard();
 
-    // Final badge/stat update
     updateBadges();
     updateSidebarStats();
+    updateDailyGoal();
+    applyFontSize();
 
     updateLoader(100, '✅ Ready!');
 
