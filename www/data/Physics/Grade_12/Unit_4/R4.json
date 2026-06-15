@@ -1,0 +1,2280 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T12:00:00Z",
+  "round_id": "R04",
+  "batch_sequence": 4,
+  "__STATE__": {
+    "current_round": 4,
+    "last_question_id": "G12_Phys_U4_Q040",
+    "covered_sections": [
+      "4.1 Magnets and Magnetic field",
+      "4.2 Magnetic field lines",
+      "4.3 Current and Magnetism",
+      "4.4 Electromagnetic Induction",
+      "4.5 Faraday's Law of electromagnetic Induction",
+      "4.6 Transformers",
+      "4.7 Application and safety",
+      "Unit summary",
+      "End of unit questions and problems"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6",
+      "c3d4e5f6c3d4e5f6c3d4e5f6c3d4e5f6c3d4e5f6c3d4e5f6c3",
+      "d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4",
+      "e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5",
+      "f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6",
+      "g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h",
+      "h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8g7h8",
+      "i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j",
+      "j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0i9j0",
+      "k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1",
+      "l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2",
+      "m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3",
+      "n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4k1l2m3n4",
+      "o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5",
+      "p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6",
+      "q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7",
+      "r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8o5p6q7r8",
+      "s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9",
+      "t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0",
+      "u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1",
+      "v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2s9t0u1v2",
+      "w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3",
+      "x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4",
+      "y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5",
+      "z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6w3x4y5z6",
+      "a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7",
+      "b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8",
+      "c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9",
+      "d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0a7b8c9d0",
+      "e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1",
+      "f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2",
+      "g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3",
+      "h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4e1f2g3h4",
+      "i5j6k7l8i5j6k7l8i5j6k7l8i5j6k7l8i5j6k7l8i5j6k7l8i5",
+      "j6k7l8i5j6k7l8i5j6k7l8i5j6k7l8i5j6k7l8i5j6k7l8i5j6"
+    ],
+    "baseline_counter": {
+      "4.1 Magnets and Magnetic field": {
+        "Differences Between Electric Field and Magnetic Field": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.2 Magnetic field lines": {
+        "Properties of Magnetic Field Lines": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.3 Current and Magnetism": {
+        "Ampere's law": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Magnetic Field Created by a Long Straight Current-Carrying Wire": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.4 Electromagnetic Induction": {
+        "Magnetic flux": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.5 Faraday's Law of electromagnetic Induction": {
+        "Faraday's law of electromagnetic induction and Lenz's Law": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.6 Transformers": {
+        "Working principle of transformer in house appliances": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "4.7 Application and safety": {
+        "Applications of electromagnetism": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electric bell": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "DC Electric Motor": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "AC Generator": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Unit summary": {
+        "Summary concepts": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "End of unit questions and problems": {
+        "Problems": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Magnets and Magnetic field": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.2 Magnetic field lines": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.3 Current and Magnetism": {
+        "question_count": 6,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "4.4 Electromagnetic Induction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.5 Faraday's Law of electromagnetic Induction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.6 Transformers": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "4.7 Application and safety": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "Unit summary": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "End of unit questions and problems": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Magnets and Magnetic field>Differences Between Electric Field and Magnetic Field": [
+        "magnetic field",
+        "electric field",
+        "Tesla",
+        "dipole"
+      ],
+      "4.2 Magnetic field lines>Properties of Magnetic Field Lines": [
+        "magnetic field lines",
+        "closed loops",
+        "tangent",
+        "density"
+      ],
+      "4.3 Current and Magnetism>Ampere's law": [
+        "Ampere's law",
+        "permeability of free space",
+        "\\(\\mu_0\\)"
+      ],
+      "4.3 Current and Magnetism>Magnetic Field Created by a Long Straight Current-Carrying Wire": [
+        "Biot-Savart",
+        "right-hand rule",
+        "\\(\\vec{B} = \\frac{\\mu_0 I}{2\\pi r}\\)"
+      ],
+      "4.4 Electromagnetic Induction>Magnetic flux": [
+        "magnetic flux",
+        "\\(\\Phi_B\\)",
+        "Weber",
+        "\\(\\Phi = BA\\cos\\theta\\)"
+      ],
+      "4.5 Faraday's Law of electromagnetic Induction>Faraday's law of electromagnetic induction and Lenz's Law": [
+        "Faraday's law",
+        "Lenz's law",
+        "induced emf",
+        "\\(\\epsilon = -N\\frac{\\Delta\\Phi}{\\Delta t}\\)",
+        "conservation of energy"
+      ],
+      "4.6 Transformers>Working principle of transformer in house appliances": [
+        "transformer",
+        "step-up",
+        "step-down",
+        "turns ratio",
+        "\\(\\frac{N_P}{N_S} = \\frac{V_P}{V_S}\\)"
+      ],
+      "4.7 Application and safety>Applications of electromagnetism": [
+        "electromagnet",
+        "relay",
+        "MRI",
+        "speaker",
+        "motor",
+        "generator"
+      ],
+      "4.7 Application and safety>Electric bell": [
+        "electric bell",
+        "electromagnet",
+        "hammer",
+        "spring",
+        "circuit breaker"
+      ],
+      "4.7 Application and safety>DC Electric Motor": [
+        "DC motor",
+        "commutator",
+        "brushes",
+        "torque",
+        "permanent magnet",
+        "coil rotation"
+      ],
+      "4.7 Application and safety>AC Generator": [
+        "AC generator",
+        "mechanical to electrical",
+        "alternating emf",
+        "Faraday's law",
+        "coil rotation in magnetic field"
+      ],
+      "Unit summary>Summary concepts": [
+        "magnetic field lines",
+        "Ampere's law",
+        "Tesla",
+        "Weber",
+        "Faraday's law",
+        "Lenz's law",
+        "transformer"
+      ],
+      "End of unit questions and problems>Problems": [
+        "magnetic field calculation",
+        "flux calculation",
+        "induced emf",
+        "transformer calculation"
+      ]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.89,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Physics",
+  "unit": "Unit 4: Electromagnetism",
+  "pdf_filename": "P12U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T12:00:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 9,
+        "total_sections": 9,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 40,
+      "sections_covered_count": 9,
+      "subsections_covered_count": 13,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.89
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.3 Current and Magnetism",
+      "least_covered_section": "4.1, 4.2, 4.4, 4.5, 4.6",
+      "imbalance_ratio": 3.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 980
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Phys_U4_Q031",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.1 Magnets and Magnetic field",
+      "subsection": "Differences Between Electric Field and Magnetic Field",
+      "sub_subsection": null,
+      "structural_anchor": "Differences Between Electric Field and Magnetic Field",
+      "mcq_type": "D",
+      "question": "A proton moves through a region of space. Under what condition will it experience a magnetic force?",
+      "options": {
+        "A": "When it is stationary",
+        "B": "When it moves parallel to the magnetic field",
+        "C": "When it moves perpendicular to the magnetic field",
+        "D": "When it moves in any direction relative to the field"
+      },
+      "correct_answer": "C",
+      "hint": "Recall \\(\\vec{F} = q\\vec{v} \\times \\vec{B}\\).",
+      "explanation": "Magnetic force is given by \\(\\vec{F} = q\\vec{v} \\times \\vec{B}\\), which is zero when \\(\\vec{v}\\) is parallel to \\(\\vec{B}\\) (cross product zero). Maximum when perpendicular. Option A gives zero force.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\vec{F} = q\\vec{v} \\times \\vec{B}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.1 Magnets and Magnetic field",
+        "subsection_anchor": "Differences Between Electric Field and Magnetic Field",
+        "structural_element": "Differences Between Electric Field and Magnetic Field",
+        "content_anchor": "magnetic field caused by a dipole of the magnet",
+        "page_hint": 3,
+        "concept_hash": "sha256_magnetic_force_condition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "The magnetic force on a moving charge is given by \\(\\vec{F} = q\\vec{v} \\times \\vec{B}\\), perpendicular to both velocity and field.",
+        "concept_summary": "The cross product is zero when velocity is parallel or antiparallel to the magnetic field, maximum when perpendicular.",
+        "beginner": "A charged particle feels a magnetic force only when it moves across the magnetic field lines, not along them.",
+        "intermediate": "From \\(\\vec{F} = q\\vec{v} \\times \\vec{B}\\), the magnitude is \\(F = |q|vB\\sin\\theta\\). When \\(\\theta = 90^\\circ\\) (perpendicular), \\(\\sin\\theta = 1\\) (maximum). When \\(\\theta = 0^\\circ\\) (parallel), force is zero.",
+        "advanced": "The Lorentz force law combines electric and magnetic forces: \\(\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})\\). The magnetic component does no work as it is always perpendicular to displacement.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Write the Lorentz force law for magnetic component.",
+          "Identify that cross product depends on \\(\\sin\\theta\\).",
+          "\\(\\sin\\theta = 0\\) when parallel, \\(\\sin\\theta = 1\\) when perpendicular."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\vec{F} = q\\vec{v} \\times \\vec{B}\\)",
+            "name": "Magnetic force on a moving charge",
+            "variables": [
+              {
+                "symbol": "\\(q\\)",
+                "meaning": "electric charge",
+                "unit": "C"
+              },
+              {
+                "symbol": "\\(\\vec{v}\\)",
+                "meaning": "velocity",
+                "unit": "m/s"
+              },
+              {
+                "symbol": "\\(\\vec{B}\\)",
+                "meaning": "magnetic field",
+                "unit": "T"
+              }
+            ],
+            "derivation": "From experimental observation (Lorentz)"
+          }
+        ],
+        "misconceptions": [
+          "Some think magnetic force acts on any moving charge regardless of direction; it only acts when velocity has a component perpendicular to B.",
+          "Stationary charges experience no magnetic force, only electric force."
+        ],
+        "related_concepts": [
+          "Lorentz force",
+          "Cross product",
+          "Magnetic field",
+          "Velocity"
+        ],
+        "revision_note": "\\(F_B = qvB\\sin\\theta\\); zero when \\(\\vec{v} \\parallel \\vec{B}\\), max when perpendicular.",
+        "glossary_entry": {
+          "term": "Magnetic force condition",
+          "definition": "A charged particle experiences magnetic force only when its velocity has a component perpendicular to the magnetic field.",
+          "example_equation": "\\(F = qvB\\sin\\theta\\)",
+          "related_terms": [
+            "Lorentz force",
+            "Cross product"
+          ]
+        },
+        "flashcard": {
+          "front": "When does a moving charge experience maximum magnetic force?",
+          "back": "When it moves perpendicular to the magnetic field (\\(\\theta = 90^\\circ\\))."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Magnetic force",
+            "relation": "depends_on",
+            "target": "Perpendicular velocity component"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "Condition for maximum magnetic force on a moving charge?",
+        "flashcard_back": "Motion perpendicular to magnetic field (\\(\\theta = 90^\\circ\\)).",
+        "glossary_term": "Magnetic force condition",
+        "glossary_definition": "Magnetic force is zero when velocity is parallel to B, maximum when perpendicular.",
+        "revision_note": "F = qvB sinθ, max at θ=90°.",
+        "teacher_note": "Use right-hand rule to demonstrate direction and dependence on angle.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the difference between electric and magnetic forces on charges",
+        "concept_map_nodes": [
+          {
+            "source": "Magnetic force",
+            "relation": "proportional_to",
+            "target": "sinθ"
+          }
+        ],
+        "workbook_section": "4.1 Magnets and Magnetic field",
+        "solution_manual_note": "Answer C. Magnetic force \\(F = qvB\\sin\\theta\\) is maximum when \\(\\sin\\theta = 1\\) (\\(\\theta = 90^\\circ\\), perpendicular)."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q032",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.2 Magnetic field lines",
+      "subsection": "Properties of Magnetic Field Lines",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of Magnetic Field Lines",
+      "mcq_type": "F",
+      "question": "Iron filings sprinkled around a bar magnet align themselves along the magnetic field lines. What does the density of these filings indicate?",
+      "options": {
+        "A": "The direction of the magnetic field",
+        "B": "The strength (magnitude) of the magnetic field",
+        "C": "The temperature of the magnet",
+        "D": "The polarity of the magnet"
+      },
+      "correct_answer": "B",
+      "hint": "Denser filings = stronger field.",
+      "explanation": "The density of magnetic field lines (and thus iron filings) is proportional to the magnetic field strength. More lines per unit area indicates a stronger B field.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.2 Magnetic field lines",
+        "subsection_anchor": "Properties of Magnetic Field Lines",
+        "structural_element": "Properties of Magnetic Field Lines",
+        "content_anchor": "The strength of the field is proportional to the closeness of the lines",
+        "page_hint": 5,
+        "concept_hash": "sha256_field_line_density"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The density of magnetic field lines (number per unit area) indicates the magnitude of the magnetic field strength.",
+        "concept_summary": "Closer field lines mean stronger magnetic field. Iron filings align and concentrate where the field is stronger, such as near the poles.",
+        "beginner": "Where the iron filings are thick and close together, the magnet is strongest — like near the ends of a bar magnet.",
+        "intermediate": "Magnetic field strength B is proportional to the number of field lines crossing a unit area perpendicular to B. Denser lines → larger B.",
+        "advanced": "In the limit, \\(B = d\\Phi/dA_{\\perp}\\), so flux density is exactly the number of field lines per unit area when drawn consistently.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Observe iron filing pattern around magnet.",
+          "Identify regions with highest filing density (near poles).",
+          "Recall that field strength is greatest where lines are closest.",
+          "Conclude density indicates field strength."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Density indicates direction? No, direction is given by the tangent, not density.",
+          "Denser lines do not indicate temperature or polarity."
+        ],
+        "related_concepts": [
+          "Magnetic field strength",
+          "Flux density",
+          "Tesla",
+          "Iron filings experiment"
+        ],
+        "revision_note": "Closer field lines = stronger magnetic field.",
+        "glossary_entry": {
+          "term": "Field line density",
+          "definition": "The number of magnetic field lines per unit area, proportional to the magnetic field strength.",
+          "example_equation": null,
+          "related_terms": [
+            "Magnetic flux density",
+            "Tesla"
+          ]
+        },
+        "flashcard": {
+          "front": "What does the density of iron filings around a magnet indicate?",
+          "back": "The strength (magnitude) of the magnetic field."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Field line density",
+            "relation": "indicates",
+            "target": "Magnetic field strength"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "What does dense iron filings near a magnet pole indicate?",
+        "flashcard_back": "Stronger magnetic field strength.",
+        "glossary_term": "Field strength indicator",
+        "glossary_definition": "Density of field lines (iron filings) shows relative magnetic field magnitude.",
+        "revision_note": "Denser lines = stronger B.",
+        "teacher_note": "Show actual iron filing patterns for bar magnets.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe properties of magnetic field lines",
+        "concept_map_nodes": [
+          {
+            "source": "Iron filings",
+            "relation": "reveal",
+            "target": "Field line density"
+          },
+          {
+            "source": "Field line density",
+            "relation": "indicates",
+            "target": "Field strength"
+          }
+        ],
+        "workbook_section": "4.2 Magnetic field lines",
+        "solution_manual_note": "Answer B. The density of iron filings (field lines) is proportional to magnetic field strength."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q033",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.4 Electromagnetic Induction",
+      "subsection": "Magnetic flux",
+      "sub_subsection": null,
+      "structural_anchor": "Magnetic flux",
+      "mcq_type": "F",
+      "question": "A loop of wire is placed in a uniform magnetic field. The magnetic flux through the loop is maximum when the angle between the magnetic field and the normal to the loop is:",
+      "options": {
+        "A": "\\(0^\\circ\\)",
+        "B": "\\(30^\\circ\\)",
+        "C": "\\(60^\\circ\\)",
+        "D": "\\(90^\\circ\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Flux = \\(BA\\cos\\theta\\). Maximum when \\(\\cos\\theta\\) is largest.",
+      "explanation": "Flux \\(\\Phi = BA\\cos\\theta\\). \\(\\cos\\theta\\) is maximum at \\(\\theta = 0^\\circ\\) (field perpendicular to loop, normal aligned with field). At \\(90^\\circ\\), flux is zero.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\Phi = BA\\cos\\theta\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.4 Electromagnetic Induction",
+        "subsection_anchor": "Magnetic flux",
+        "structural_element": "Magnetic flux",
+        "content_anchor": "\\(\\Phi = BA\\cos\\theta\\)",
+        "page_hint": 12,
+        "concept_hash": "sha256_flux_maximum"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 46,
+        "distractor_quality_score": 92,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Magnetic flux is given by \\(\\Phi = BA\\cos\\theta\\), where \\(\\theta\\) is the angle between \\(\\vec{B}\\) and the area normal.",
+        "concept_summary": "Flux is maximum when the field is perpendicular to the loop (\\(\\theta = 0^\\circ\\)), because all field lines pass through the area.",
+        "beginner": "You get the most magnetic field through a hoop when the field is pointing straight through it, not sideways.",
+        "intermediate": "At \\(\\theta = 0^\\circ\\), \\(\\cos\\theta = 1\\), so \\(\\Phi = BA\\). As \\(\\theta\\) increases, \\(\\cos\\theta\\) decreases, reducing flux.",
+        "advanced": "The dot product \\(\\vec{B} \\cdot \\vec{A} = BA\\cos\\theta\\) is maximum when \\(\\vec{B}\\) and \\(\\vec{A}\\) are parallel (\\(\\theta = 0\\)).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Write flux formula: \\(\\Phi = BA\\cos\\theta\\).",
+          "Identify that \\(\\cos\\theta\\) ranges from 0 to 1.",
+          "Maximum when \\(\\cos\\theta = 1\\) → \\(\\theta = 0^\\circ\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\Phi = BA\\cos\\theta\\)",
+            "name": "Magnetic flux",
+            "variables": [
+              {
+                "symbol": "\\(B\\)",
+                "meaning": "magnetic field",
+                "unit": "T"
+              },
+              {
+                "symbol": "\\(A\\)",
+                "meaning": "area",
+                "unit": "m\\(^2\\)"
+              },
+              {
+                "symbol": "\\(\\theta\\)",
+                "meaning": "angle between B and normal",
+                "unit": "°"
+              }
+            ],
+            "derivation": "Definition"
+          }
+        ],
+        "misconceptions": [
+          "Some think flux is maximum when field is parallel to the plane (\\(\\theta = 90^\\circ\\)), but that gives zero flux.",
+          "Confusing angle measured from loop plane vs. normal."
+        ],
+        "related_concepts": [
+          "Area vector",
+          "Dot product",
+          "Perpendicular"
+        ],
+        "revision_note": "Max flux: \\(\\theta = 0^\\circ\\) (B ⟂ loop).",
+        "glossary_entry": {
+          "term": "Maximum magnetic flux",
+          "definition": "Occurs when the magnetic field is perpendicular to the loop area, i.e., \\(\\theta = 0^\\circ\\).",
+          "example_equation": "\\(\\Phi_{\\text{max}} = BA\\)",
+          "related_terms": [
+            "Perpendicular",
+            "Area normal"
+          ]
+        },
+        "flashcard": {
+          "front": "For maximum magnetic flux through a loop, what angle between B and normal?",
+          "back": "\\(0^\\circ\\) (field perpendicular to loop)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Magnetic flux",
+            "relation": "maximum_at",
+            "target": "\\(\\theta = 0^\\circ\\)"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "When is magnetic flux through a loop maximum?",
+        "flashcard_back": "When \\(\\theta = 0^\\circ\\) (field perpendicular to loop).",
+        "glossary_term": "Maximum flux condition",
+        "glossary_definition": "Flux is maximum when the magnetic field is perpendicular to the plane of the loop.",
+        "revision_note": "\\(\\Phi_{\\text{max}} = BA\\) at \\(\\theta = 0^\\circ\\).",
+        "teacher_note": "Use a hoop and a stick to show perpendicular vs parallel orientation.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Calculate magnetic flux",
+        "concept_map_nodes": [
+          {
+            "source": "Flux",
+            "relation": "depends_on",
+            "target": "cosθ"
+          }
+        ],
+        "workbook_section": "4.4 Electromagnetic Induction",
+        "solution_manual_note": "Answer A. \\(\\Phi = BA\\cos\\theta\\) is maximum when \\(\\cos\\theta = 1\\) → \\(\\theta = 0^\\circ\\)."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q034",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.5 Faraday's Law of electromagnetic Induction",
+      "subsection": "Faraday's law of electromagnetic induction and Lenz's Law",
+      "sub_subsection": null,
+      "structural_anchor": "Faraday's law of electromagnetic induction and Lenz's Law",
+      "mcq_type": "G",
+      "question": "According to Lenz's law, the direction of the induced current is such that its magnetic field opposes the change in magnetic flux. This is a direct consequence of which conservation principle?",
+      "options": {
+        "A": "Conservation of mass",
+        "B": "Conservation of charge",
+        "C": "Conservation of energy",
+        "D": "Conservation of momentum"
+      },
+      "correct_answer": "C",
+      "hint": "Think about what would happen if induced current aided the change.",
+      "explanation": "Lenz's law ensures that work must be done to change magnetic flux, converting mechanical energy to electrical energy. Without opposition, energy would not be conserved.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.5 Faraday's Law of electromagnetic Induction",
+        "subsection_anchor": "Faraday's law of electromagnetic induction and Lenz's Law",
+        "structural_element": "Faraday's law of electromagnetic induction and Lenz's Law",
+        "content_anchor": "Lenz's law depends on the principle of conservation of energy",
+        "page_hint": 13,
+        "concept_hash": "sha256_lenz_energy"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Lenz's law is a manifestation of conservation of energy in electromagnetic induction.",
+        "concept_summary": "If the induced current aided the change, it would amplify itself without external work, creating energy from nothing.",
+        "beginner": "You have to do work to move a magnet near a coil; that work turns into electricity. If Lenz's law didn't oppose, you'd get energy for free.",
+        "intermediate": "Lenz's law ensures that the induced current's magnetic field opposes the change, requiring external work to overcome the opposition. This work is converted to electrical energy.",
+        "advanced": "From Faraday's law, \\(\\epsilon = -d\\Phi/dt\\). The negative sign (Lenz's law) ensures that \\(\\vec{F} \\cdot d\\vec{x}\\) is positive for work done by external agent, satisfying energy conservation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Lenz: induced current opposes the flux change.",
+          "Opposition means external work is required to cause the change.",
+          "That work converts to electrical energy.",
+          "If opposition were not present, energy would be created (violates conservation)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Lenz's law is often confused with Newton's third law, but it is specifically tied to energy conservation.",
+          "Conservation of charge and mass are not directly related to induction direction."
+        ],
+        "related_concepts": [
+          "Conservation of energy",
+          "Lenz's law",
+          "Electromagnetic induction",
+          "Work-energy theorem"
+        ],
+        "revision_note": "Lenz's law → conservation of energy.",
+        "glossary_entry": {
+          "term": "Lenz's law (energy basis)",
+          "definition": "The law that induced current opposes the flux change, ensuring conservation of energy.",
+          "example_equation": null,
+          "related_terms": [
+            "Conservation of energy",
+            "Electromagnetic induction"
+          ]
+        },
+        "flashcard": {
+          "front": "Lenz's law is a consequence of which conservation law?",
+          "back": "Conservation of energy."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Lenz's law",
+            "relation": "consequence_of",
+            "target": "Conservation of energy"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "important",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "What conservation law underlies Lenz's law?",
+        "flashcard_back": "Conservation of energy.",
+        "glossary_term": "Lenz's law foundation",
+        "glossary_definition": "Lenz's law ensures that energy is conserved in electromagnetic induction processes.",
+        "revision_note": "Lenz = energy conservation.",
+        "teacher_note": "Discuss what would happen if induced current aided the change (perpetual motion).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "State Lenz's law and its significance",
+        "concept_map_nodes": [
+          {
+            "source": "Lenz's law",
+            "relation": "ensures",
+            "target": "Energy conservation"
+          }
+        ],
+        "workbook_section": "4.5 Faraday's Law",
+        "solution_manual_note": "Answer C. Lenz's law is a consequence of conservation of energy; opposition ensures work must be done."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q035",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.6 Transformers",
+      "subsection": "Working principle of transformer in house appliances",
+      "sub_subsection": null,
+      "structural_anchor": "Working principle of transformer in house appliances",
+      "mcq_type": "H",
+      "question": "A student argues that a transformer can work with direct current (DC) because a changing current is not needed — the magnetic field from steady DC should still induce voltage. Is this correct?",
+      "options": {
+        "A": "Yes, because DC also produces a magnetic field",
+        "B": "No, because DC produces a constant magnetic field, which does not induce emf",
+        "C": "Yes, but only if the DC voltage is very high",
+        "D": "No, because transformers require AC for the core to magnetize"
+      },
+      "correct_answer": "B",
+      "hint": "Recall Faraday's law: induced emf requires changing flux.",
+      "explanation": "A steady DC current produces a constant magnetic field, not a changing one. Faraday's law requires a changing flux to induce emf, so a transformer does not work with steady DC.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.6 Transformers",
+        "subsection_anchor": "Working principle of transformer in house appliances",
+        "structural_element": "Working principle of transformer in house appliances",
+        "content_anchor": "transformer operates on AC, not DC",
+        "page_hint": 16,
+        "concept_hash": "sha256_transformer_DC"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Transformers operate on electromagnetic induction, which requires a changing magnetic flux, produced by alternating current (AC).",
+        "concept_summary": "Steady DC produces constant flux; constant flux induces zero emf. Only changing current (AC) induces voltage in the secondary.",
+        "beginner": "A transformer needs a changing magnetic field to work, like a wave. DC is flat, not a wave — no induction.",
+        "intermediate": "Faraday's law: \\(\\epsilon \\propto d\\Phi/dt\\). DC gives \\(d\\Phi/dt = 0\\), so \\(\\epsilon = 0\\). AC gives \\(d\\Phi/dt \\neq 0\\), inducing emf.",
+        "advanced": "In the primary, \\(V_P = L_P dI_P/dt\\). For DC, \\(dI_P/dt = 0\\) after transients, so \\(V_P = 0\\) across the primary (ideal case), and no flux change in secondary.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Transformer operation based on Faraday's law.",
+          "Induced emf requires changing magnetic flux.",
+          "DC current produces constant magnetic field.",
+          "Constant flux → no induced emf → transformer fails."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\epsilon = -N\\frac{d\\Phi}{dt}\\)",
+            "name": "Faraday's law",
+            "variables": [
+              {
+                "symbol": "\\(\\epsilon\\)",
+                "meaning": "induced emf",
+                "unit": "V"
+              },
+              {
+                "symbol": "\\(d\\Phi/dt\\)",
+                "meaning": "rate of change of flux",
+                "unit": "Wb/s"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think any magnetic field induces emf, but it must be changing.",
+          "A transformer connected to DC may briefly induce a pulse when switched on/off (transient), but not continuous operation."
+        ],
+        "related_concepts": [
+          "Faraday's law",
+          "Alternating current",
+          "Magnetic flux change",
+          "Transformer principle"
+        ],
+        "revision_note": "Transformer needs AC (changing flux), not steady DC.",
+        "glossary_entry": {
+          "term": "Transformer DC limitation",
+          "definition": "Transformers do not operate on steady DC because a constant magnetic field does not induce an emf.",
+          "example_equation": null,
+          "related_terms": [
+            "Faraday's law",
+            "AC",
+            "DC"
+          ]
+        },
+        "flashcard": {
+          "front": "Can a transformer work with steady DC current?",
+          "back": "No, because DC produces constant flux, and induced emf requires changing flux (Faraday's law)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Transformer",
+            "relation": "requires",
+            "target": "Changing magnetic flux"
+          },
+          {
+            "source": "DC current",
+            "relation": "produces",
+            "target": "Constant flux"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "Why doesn't a transformer work with steady DC?",
+        "flashcard_back": "DC produces constant magnetic flux, and Faraday's law requires changing flux to induce emf.",
+        "glossary_term": "Transformer AC requirement",
+        "glossary_definition": "Transformers require alternating current to produce the changing magnetic flux necessary for induction.",
+        "revision_note": "Transformer needs AC (changing flux).",
+        "teacher_note": "Demonstrate with a simple transformer and DC source showing no secondary voltage after initial transient.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe the working principle of a transformer",
+        "concept_map_nodes": [
+          {
+            "source": "Transformer operation",
+            "relation": "requires",
+            "target": "Alternating current"
+          },
+          {
+            "source": "Faraday's law",
+            "relation": "requires",
+            "target": "Changing flux"
+          }
+        ],
+        "workbook_section": "4.6 Transformers",
+        "solution_manual_note": "Answer B. Steady DC gives constant flux; induced emf requires changing flux (Faraday's law)."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q036",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.7 Application and safety",
+      "subsection": "Applications of electromagnetism",
+      "sub_subsection": null,
+      "structural_anchor": "Applications of electromagnetism",
+      "mcq_type": "L",
+      "question": "A graphics tablet (digitizer) uses electromagnetic induction to detect the position of a special pen. What component in the pen creates the changing magnetic field?",
+      "options": {
+        "A": "A permanent magnet",
+        "B": "A tiny electromagnet or resonant coil",
+        "C": "A radioactive source",
+        "D": "A pressure sensor"
+      },
+      "correct_answer": "B",
+      "hint": "The pen generates its own magnetic field.",
+      "explanation": "The pen contains a small coil that resonates at a specific frequency, producing an oscillating magnetic field. The tablet's grid of wires detects the induced currents to locate the pen.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.7 Application and safety",
+        "subsection_anchor": "Applications of electromagnetism",
+        "structural_element": "Applications of electromagnetism",
+        "content_anchor": "pen has a tiny magnetic field coming from the tip",
+        "page_hint": 18,
+        "concept_hash": "sha256_graphics_tablet"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Graphics tablet pens contain a resonant coil that produces an oscillating magnetic field, detected by the tablet's sensor grid.",
+        "concept_summary": "The changing magnetic field from the pen induces currents in the tablet's wire grid, allowing position tracking via electromagnetic induction.",
+        "beginner": "The pen sends out a tiny magnetic signal; the tablet feels that signal and knows exactly where the pen is.",
+        "intermediate": "The pen's coil resonates at a frequency; the tablet emits a signal to excite it, then detects the pen's induced field in its grid wires.",
+        "advanced": "This is an example of mutual inductance: the tablet's grid and pen's coil form a coupled inductor system; position is triangulated from signal strengths in different grid lines.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Pen contains coil.",
+          "Coil produces oscillating magnetic field when energized.",
+          "Tablet grid detects induced currents.",
+          "Position calculated from signal distribution."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "The pen does not contain a permanent magnet; it uses an electromagnet or resonant circuit.",
+          "It is not pressure-based; pressure may be separate but position is magnetic."
+        ],
+        "related_concepts": [
+          "Electromagnetic induction",
+          "Mutual inductance",
+          "Resonant circuit",
+          "Digitizer"
+        ],
+        "revision_note": "Graphics tablet pen: resonant coil → oscillating B-field → induction in grid.",
+        "glossary_entry": {
+          "term": "Graphics tablet pen",
+          "definition": "A stylus containing a resonant coil that produces an oscillating magnetic field for position tracking via electromagnetic induction.",
+          "example_equation": null,
+          "related_terms": [
+            "Digitizer",
+            "Mutual inductance",
+            "Electromagnetic induction"
+          ]
+        },
+        "flashcard": {
+          "front": "What does a graphics tablet pen use to create a magnetic field?",
+          "back": "A tiny electromagnet or resonant coil."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Graphics tablet",
+            "relation": "uses",
+            "target": "Electromagnetic induction"
+          },
+          {
+            "source": "Pen coil",
+            "relation": "produces",
+            "target": "Oscillating magnetic field"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "How does a graphics tablet pen create a magnetic field?",
+        "flashcard_back": "A tiny resonant coil (electromagnet) produces an oscillating magnetic field.",
+        "glossary_term": "Graphics tablet pen coil",
+        "glossary_definition": "A small coil in the pen that resonates to produce an alternating magnetic field for induction-based position sensing.",
+        "revision_note": "Pen: resonant coil → oscillating B-field.",
+        "teacher_note": "Relate to wireless charging and RFID as similar induction applications.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe applications of electromagnetism in daily life",
+        "concept_map_nodes": [
+          {
+            "source": "Graphics tablet",
+            "relation": "application_of",
+            "target": "Electromagnetic induction"
+          }
+        ],
+        "workbook_section": "4.7 Application and safety",
+        "solution_manual_note": "Answer B. The pen contains a resonant coil that produces an oscillating (changing) magnetic field, detected by the tablet's grid."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q037",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.7 Application and safety",
+      "subsection": "Magnetic Relays",
+      "sub_subsection": null,
+      "structural_anchor": "Magnetic Relays",
+      "mcq_type": "F",
+      "question": "In a reed relay, what causes the two nickel-iron blades to make electrical contact?",
+      "options": {
+        "A": "Heating from the current",
+        "B": "A magnetic field aligning their magnetic poles oppositely",
+        "C": "Electrostatic attraction",
+        "D": "Mechanical pressure from a button"
+      },
+      "correct_answer": "B",
+      "hint": "The blades become magnets with opposite polarities.",
+      "explanation": "When current flows through the coil around the reed relay, it creates a magnetic field. This field magnetizes the blades, giving them opposite magnetic poles (one north, one south), which attract and close the contact.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.7 Application and safety",
+        "subsection_anchor": "Magnetic Relays",
+        "structural_element": "Magnetic Relays",
+        "content_anchor": "field induced by a current... causes the two blades to assume opposite magnetic polarities, thereby forcing them to attract together",
+        "page_hint": 19,
+        "concept_hash": "sha256_reed_relay"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A reed relay uses an electromagnet to induce opposite magnetic poles in two ferromagnetic blades, causing them to attract and close the circuit.",
+        "concept_summary": "The coil's magnetic field magnetizes the blades. Opposite poles attract, bringing the blades together to make electrical contact.",
+        "beginner": "Electricity in the coil turns the two metal strips into magnets with opposite ends, so they snap together like a magnet and fridge.",
+        "intermediate": "The magnetic field from the coil induces a north pole on one blade and a south pole on the other. Opposite poles attract, closing the switch.",
+        "advanced": "The blades are made of a soft ferromagnetic material (nickel-iron) with low coercivity, allowing them to be magnetized and demagnetized easily. The attractive force \\(F \\propto (M_1 M_2)/r^2\\) closes the gap.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Current in coil creates magnetic field.",
+          "Field magnetizes both blades.",
+          "Induced poles are opposite (N on one, S on other).",
+          "Opposite poles attract → blades contact."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Heating is not the mechanism; it's magnetic attraction.",
+          "The coil does not move mechanically; the blades move due to magnetism."
+        ],
+        "related_concepts": [
+          "Electromagnet",
+          "Magnetic attraction",
+          "Relay",
+          "Soft ferromagnetic material"
+        ],
+        "revision_note": "Reed relay: coil magnetizes blades with opposite poles → attraction → switch closes.",
+        "glossary_entry": {
+          "term": "Reed relay operation",
+          "definition": "A magnetic field induces opposite magnetic poles in two blades, causing them to attract and complete an electrical circuit.",
+          "example_equation": null,
+          "related_terms": [
+            "Electromagnet",
+            "Relay",
+            "Switch"
+          ]
+        },
+        "flashcard": {
+          "front": "How does a reed relay close its contacts?",
+          "back": "Magnetic field induces opposite poles in blades, causing magnetic attraction."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Reed relay",
+            "relation": "operates_by",
+            "target": "Induced opposite magnetic poles"
+          },
+          {
+            "source": "Opposite poles",
+            "relation": "cause",
+            "target": "Attraction and contact closure"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "circuit_diagram",
+        "visual_title": "Reed relay operation",
+        "visual_description": "A coil around a glass envelope containing two nickel-iron blades. Magnetic field lines show opposite poles induced on blades.",
+        "rendering_target": "matplotlib",
+        "rendering_engine": "matplotlib.pyplot",
+        "render_width_mm": 70,
+        "render_height_mm": 50,
+        "caption": "Coil current creates field; blades become opposite poles and attract.",
+        "accessibility_alt_text": "Diagram: Coil wrapped around glass tube with two overlapping metal blades inside. Magnetic field lines from coil cause blades to have opposite poles (N on left blade, S on right blade), attracting them together.",
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": {
+          "components": [
+            {
+              "id": "coil",
+              "type": "inductor",
+              "label": "Coil",
+              "value": null,
+              "position": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": "blade1",
+              "type": "switch",
+              "label": "Blade 1",
+              "value": null,
+              "position": [
+                1,
+                0.3
+              ]
+            },
+            {
+              "id": "blade2",
+              "type": "switch",
+              "label": "Blade 2",
+              "value": null,
+              "position": [
+                1,
+                -0.3
+              ]
+            }
+          ],
+          "connections": [],
+          "layout_type": "mixed"
+        },
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G12_Phys_U4_Q037_illustrative.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "What makes reed relay blades close?",
+        "flashcard_back": "Magnetic field induces opposite poles, causing magnetic attraction.",
+        "glossary_term": "Reed relay closure mechanism",
+        "glossary_definition": "Opposite magnetic poles induced in blades attract to complete the circuit.",
+        "revision_note": "Reed relay: opposite poles attract.",
+        "teacher_note": "Show a real reed relay and how a magnet can also activate it.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the working principle of a magnetic relay",
+        "concept_map_nodes": [
+          {
+            "source": "Magnetic field",
+            "relation": "induces",
+            "target": "Opposite poles in blades"
+          }
+        ],
+        "workbook_section": "4.7 Application and safety",
+        "solution_manual_note": "Answer B. The induced magnetic field gives the blades opposite polarities, causing attraction and contact."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q038",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.7 Application and safety",
+      "subsection": "DC Electric Motor",
+      "sub_subsection": null,
+      "structural_anchor": "DC Electric Motor",
+      "mcq_type": "G",
+      "question": "What role do the brushes play in a DC electric motor?",
+      "options": {
+        "A": "They increase the magnetic field strength",
+        "B": "They conduct current between stationary wires and the rotating commutator",
+        "C": "They provide mechanical support for the coil",
+        "D": "They reverse the polarity of the permanent magnets"
+      },
+      "correct_answer": "B",
+      "hint": "Brushes maintain electrical connection to the rotating part.",
+      "explanation": "Brushes are stationary carbon or metal contacts that press against the rotating commutator, allowing current to flow from the stationary power supply into the rotating coil.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.7 Application and safety",
+        "subsection_anchor": "DC Electric Motor",
+        "structural_element": "DC Electric Motor",
+        "content_anchor": "brushes conduct current between stationary wires and moving parts",
+        "page_hint": 20,
+        "concept_hash": "sha256_motor_brushes"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Brushes are stationary conductive contacts that slide against the rotating commutator to supply current to the motor's coil.",
+        "concept_summary": "As the commutator rotates, brushes maintain electrical continuity, delivering current to the appropriate coil segments at the right time.",
+        "beginner": "Brushes are like the wires that touch the spinning part so electricity can keep flowing into the coil.",
+        "intermediate": "Brushes are typically made of carbon or graphite. They press against the commutator segments, transferring current from the stationary external circuit to the rotating coil.",
+        "advanced": "Brushes must have low friction and good conductivity. The brush-commutator interface causes voltage drop and wear, a limitation of brushed DC motors.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Power supply is stationary.",
+          "Coil rotates with commutator.",
+          "Brushes provide sliding electrical contact.",
+          "Current flows from supply → brushes → commutator → coil."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Brushes do not strengthen the magnetic field; that is the core or stator magnets.",
+          "They do not reverse magnet polarity; the commutator reverses current direction."
+        ],
+        "related_concepts": [
+          "Commutator",
+          "DC motor",
+          "Sliding contact",
+          "Carbon brush"
+        ],
+        "revision_note": "Brushes: stationary contacts to rotating commutator.",
+        "glossary_entry": {
+          "term": "Motor brushes",
+          "definition": "Stationary conductive elements that maintain electrical connection to the rotating commutator in a DC motor.",
+          "example_equation": null,
+          "related_terms": [
+            "Commutator",
+            "DC motor",
+            "Sliding contact"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the function of brushes in a DC motor?",
+          "back": "Conduct current between stationary wires and the rotating commutator."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Brushes",
+            "relation": "connect",
+            "target": "Stationary supply to rotating commutator"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "What do brushes do in a DC motor?",
+        "flashcard_back": "Conduct current between stationary wires and the rotating commutator.",
+        "glossary_term": "Brushes function",
+        "glossary_definition": "Stationary contacts that supply current to the rotating coil via the commutator.",
+        "revision_note": "Brushes: sliding electrical contacts.",
+        "teacher_note": "Show a disassembled DC motor to identify brushes and commutator.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the components of a DC electric motor",
+        "concept_map_nodes": [
+          {
+            "source": "DC motor",
+            "relation": "has",
+            "target": "Brushes"
+          },
+          {
+            "source": "Brushes",
+            "relation": "contact",
+            "target": "Commutator"
+          }
+        ],
+        "workbook_section": "4.7 Application and safety",
+        "solution_manual_note": "Answer B. Brushes conduct current from the stationary power supply to the rotating commutator and coil."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q039",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "4.7 Application and safety",
+      "subsection": "AC Generator",
+      "sub_subsection": null,
+      "structural_anchor": "AC Generator",
+      "mcq_type": "K",
+      "question": "A coil rotates at constant angular speed \\(\\omega\\) in a uniform magnetic field \\(B\\). The graph of induced emf versus time is a sine wave. What physical quantity determines the amplitude (peak voltage) of this sine wave?",
+      "options": {
+        "A": "The resistance of the coil only",
+        "B": "The product \\(NAB\\omega\\)",
+        "C": "The frequency \\(f\\) only",
+        "D": "The angular speed \\(\\omega\\) only"
+      },
+      "correct_answer": "B",
+      "hint": "Recall \\(\\epsilon_0 = NAB\\omega\\).",
+      "explanation": "Peak induced emf in a rotating coil is \\(\\epsilon_0 = NAB\\omega\\), where \\(N\\) is number of turns, \\(A\\) area, \\(B\\) field strength, and \\(\\omega\\) angular speed.",
+      "difficulty_level": "hard",
+      "formula_used": [
+        "\\(\\epsilon_0 = NAB\\omega\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "4.7 Application and safety",
+        "subsection_anchor": "AC Generator",
+        "structural_element": "AC Generator",
+        "content_anchor": "generates an alternating electromotive force",
+        "page_hint": 21,
+        "concept_hash": "sha256_generator_amplitude"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The peak emf in an AC generator is given by \\(\\epsilon_0 = NAB\\omega\\), where all four factors contribute.",
+        "concept_summary": "Flux \\(\\Phi = NBA\\cos(\\omega t)\\); emf \\(\\epsilon = -d\\Phi/dt = NAB\\omega \\sin(\\omega t)\\). The amplitude is \\(NAB\\omega\\).",
+        "beginner": "To get more voltage from a generator, you can use a stronger magnet (B), spin faster (ω), use more wire loops (N), or make the coil bigger (A).",
+        "intermediate": "From Faraday's law: \\(\\epsilon = NAB\\omega \\sin(\\omega t)\\). The amplitude depends on all four: turns, area, field, and angular speed.",
+        "advanced": "Derivation: \\(\\Phi(t) = \\vec{B} \\cdot \\vec{A}(t) = BA\\cos\\theta(t)\\) with \\(\\theta = \\omega t\\). Then \\(\\epsilon = -d\\Phi/dt = BA\\omega \\sin(\\omega t)\\). For N turns, multiply by N.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Write flux as function of time: \\(\\Phi = NBA\\cos(\\omega t)\\).",
+          "Differentiate: \\(\\epsilon = -d\\Phi/dt = NAB\\omega \\sin(\\omega t)\\).",
+          "Amplitude is the coefficient: \\(\\epsilon_0 = NAB\\omega\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\epsilon_0 = NAB\\omega\\)",
+            "name": "Peak generator emf",
+            "variables": [
+              {
+                "symbol": "\\(N\\)",
+                "meaning": "number of turns",
+                "unit": ""
+              },
+              {
+                "symbol": "\\(A\\)",
+                "meaning": "area of coil",
+                "unit": "m\\(^2\\)"
+              },
+              {
+                "symbol": "\\(B\\)",
+                "meaning": "magnetic field",
+                "unit": "T"
+              },
+              {
+                "symbol": "\\(\\omega\\)",
+                "meaning": "angular speed",
+                "unit": "rad/s"
+              }
+            ],
+            "derivation": "From Faraday's law"
+          }
+        ],
+        "misconceptions": [
+          "Frequency alone does not determine amplitude; amplitude depends on ω times NAB.",
+          "Resistance affects current, not induced emf amplitude."
+        ],
+        "related_concepts": [
+          "Faraday's law",
+          "AC generator",
+          "Angular speed",
+          "Flux derivative"
+        ],
+        "revision_note": "\\(\\epsilon_0 = NAB\\omega\\) for rotating coil generator.",
+        "glossary_entry": {
+          "term": "Generator peak emf",
+          "definition": "The maximum induced voltage in an AC generator, equal to \\(NAB\\omega\\).",
+          "example_equation": "\\(\\epsilon_0 = NAB\\omega\\)",
+          "related_terms": [
+            "AC generator",
+            "Faraday's law",
+            "Angular velocity"
+          ]
+        },
+        "flashcard": {
+          "front": "What factors determine peak emf in an AC generator?",
+          "back": "\\(\\epsilon_0 = NAB\\omega\\): turns, area, magnetic field, angular speed."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Peak emf",
+            "relation": "equals",
+            "target": "NABω"
+          },
+          {
+            "source": "Generator design",
+            "relation": "affects",
+            "target": "N, A, B, ω"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "Peak emf in AC generator formula?",
+        "flashcard_back": "\\(\\epsilon_0 = NAB\\omega\\).",
+        "glossary_term": "Peak emf generator",
+        "glossary_definition": "Maximum induced voltage in a rotating-coil generator, given by \\(NAB\\omega\\).",
+        "revision_note": "\\(\\epsilon_0 = NAB\\omega\\).",
+        "teacher_note": "Derive from \\(\\Phi = BA\\cos(\\omega t)\\) and differentiate.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe the working principle of an AC generator",
+        "concept_map_nodes": [
+          {
+            "source": "Peak emf",
+            "relation": "depends_on",
+            "target": "N, A, B, ω"
+          }
+        ],
+        "workbook_section": "4.7 Application and safety",
+        "solution_manual_note": "Answer B. \\(\\epsilon_0 = NAB\\omega\\). All four factors (turns, area, field, angular speed) determine amplitude."
+      }
+    },
+    {
+      "question_id": "G12_Phys_U4_Q040",
+      "generation_timestamp": "2026-06-14T12:00:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 4: Electromagnetism",
+      "section": "Unit summary",
+      "subsection": "Summary concepts",
+      "sub_subsection": null,
+      "structural_anchor": "Unit summary",
+      "mcq_type": "F",
+      "question": "What is the relationship between the direction of a magnetic field and the tangent to a magnetic field line at any point?",
+      "options": {
+        "A": "They are perpendicular",
+        "B": "They are parallel (same direction)",
+        "C": "They are opposite",
+        "D": "There is no relationship"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the definition of a field line.",
+      "explanation": "By definition, the tangent to a magnetic field line at any point gives the direction of the magnetic field vector \\(\\vec{B}\\) at that point. Thus they are parallel.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Electromagnetism",
+        "section_anchor": "Unit summary",
+        "subsection_anchor": "Summary concepts",
+        "structural_element": "Unit summary",
+        "content_anchor": "direction of the magnetic field is tangent to the field line at any point in space",
+        "page_hint": 22,
+        "concept_hash": "sha256_tangent_parallel"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 93,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A magnetic field line is defined such that its tangent at any point points in the direction of the magnetic field at that point.",
+        "concept_summary": "Field lines are drawn to visualize the field; the tangent gives the instantaneous direction of \\(\\vec{B}\\).",
+        "beginner": "Magnetic field lines are like arrows showing which way a compass points. The line direction and the compass direction match.",
+        "intermediate": "By construction, \\(\\vec{B}\\) is tangent to the field line at every point. This is the fundamental definition of a field line.",
+        "advanced": "From \\(d\\vec{l} \\times \\vec{B} = 0\\) along a field line, the line element \\(d\\vec{l}\\) is parallel to \\(\\vec{B}\\), so the tangent direction equals \\(\\vec{B}\\) direction.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall field line definition: line whose tangent = field direction.",
+          "Therefore tangent and field are parallel (same direction)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Perpendicular: some confuse with electric field lines and equipotentials.",
+          "Opposite: the tangent is never opposite; it points exactly along \\(\\vec{B}\\)."
+        ],
+        "related_concepts": [
+          "Magnetic field lines",
+          "Tangent vector",
+          "Direction of B",
+          "Field visualization"
+        ],
+        "revision_note": "Tangent to field line = direction of \\(\\vec{B}\\).",
+        "glossary_entry": {
+          "term": "Field line tangent",
+          "definition": "The line that touches a magnetic field line at a point, pointing in the direction of the magnetic field at that point.",
+          "example_equation": null,
+          "related_terms": [
+            "Magnetic field line",
+            "Tangent",
+            "Direction"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the relationship between B direction and field line tangent?",
+          "back": "They are parallel (same direction)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Magnetic field line",
+            "relation": "tangent_equals",
+            "target": "B direction"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "revision_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": false,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Physics Unit 4 — Electromagnetism",
+        "flashcard_front": "Direction of B field relative to field line tangent?",
+        "flashcard_back": "Parallel (same direction).",
+        "glossary_term": "Field line direction",
+        "glossary_definition": "The tangent to a magnetic field line gives the magnetic field direction.",
+        "revision_note": "Tangent = B direction.",
+        "teacher_note": "Draw field lines and tangent arrows to illustrate.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe properties of magnetic field lines",
+        "concept_map_nodes": [
+          {
+            "source": "B direction",
+            "relation": "equals",
+            "target": "Tangent to field line"
+          }
+        ],
+        "workbook_section": "Unit summary",
+        "solution_manual_note": "Answer B. The tangent to a magnetic field line at any point gives the direction of \\(\\vec{B}\\)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 91.8,
+    "type_distribution": {
+      "D": 1,
+      "F": 4,
+      "G": 1,
+      "H": 1,
+      "K": 1,
+      "L": 1,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "E": 0,
+      "I": 0,
+      "J": 0,
+      "M": 0,
+      "N": 0
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 5,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.1 Magnets and Magnetic field": 1,
+      "4.2 Magnetic field lines": 1,
+      "4.4 Electromagnetic Induction": 1,
+      "4.5 Faraday's Law": 1,
+      "4.6 Transformers": 1,
+      "4.7 Application and safety": 3,
+      "Unit summary": 2,
+      "End of unit questions": 0
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 1,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

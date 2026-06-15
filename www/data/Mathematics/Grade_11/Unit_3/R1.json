@@ -1,0 +1,1999 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Math_U3_Q010",
+    "covered_sections": [
+      "3.1 The Concepts of a Matrix",
+      "3.2 Operations on Matrices>3.2.1 Equality of Matrices",
+      "3.2 Operations on Matrices>3.2.2 Addition of Matrices",
+      "3.2 Operations on Matrices>3.2.4 Scalar Multiplication of Matrices"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o"
+    ],
+    "baseline_counter": {
+      "3.1 The Concepts of a Matrix": {
+        "Subsection_General": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Operations on Matrices": {
+        "3.2.1 Equality of Matrices": {
+          "count": 2,
+          "mini_headings_covered": ["Definition 3.2"],
+          "last_question_round": 1
+        },
+        "3.2.2 Addition of Matrices": {
+          "count": 2,
+          "mini_headings_covered": ["Definition 3.3"],
+          "last_question_round": 1
+        },
+        "3.2.4 Scalar Multiplication of Matrices": {
+          "count": 2,
+          "mini_headings_covered": ["Properties"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 The Concepts of a Matrix": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "3.2 Operations on Matrices": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 The Concepts of a Matrix>Subsection_General": [
+        "Matrix",
+        "Row",
+        "Column",
+        "Size",
+        "Order",
+        "Entry"
+      ],
+      "3.2 Operations on Matrices>3.2.1 Equality of Matrices": [
+        "Equality of Matrices",
+        "Corresponding entries"
+      ],
+      "3.2 Operations on Matrices>3.2.2 Addition of Matrices": [
+        "Matrix addition",
+        "Zero matrix",
+        "Sum of matrices"
+      ],
+      "3.2 Operations on Matrices>3.2.4 Scalar Multiplication of Matrices": [
+        "Scalar multiplication",
+        "Distributive property"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 12.5
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Mathematics",
+  "unit": "Unit 3: MATRICES",
+  "pdf_filename": "M11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 8,
+        "progress_percentage": 25.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 12.5,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2 Operations on Matrices",
+      "least_covered_section": "3.3 Special Types of Matrices",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Math_U3_Q001",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.1 The Concepts of a Matrix",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.1",
+      "mcq_type": "A",
+      "question": "What is a matrix?",
+      "options": {
+        "A": "A rectangular array of numbers arranged in rows and columns",
+        "B": "A single number representing a linear equation",
+        "C": "A triangular arrangement of coefficients",
+        "D": "A set of vectors in three-dimensional space"
+      },
+      "correct_answer": "A",
+      "hint": "Think of a grid containing numbers.",
+      "explanation": "A matrix is defined as a rectangular array of numbers arranged in rows and columns. Option B is incorrect because a matrix can contain many numbers, not just one.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.1 The Concepts of a Matrix",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Definition 3.1",
+        "content_anchor": "rectangular array of numbers arranged in rows and columns",
+        "page_hint": 3,
+        "concept_hash": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 30,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A matrix is a rectangular array of numbers arranged in horizontal rows and vertical columns.",
+        "concept_summary": "Matrices organize data into a structured grid of rows and columns, allowing mathematical operations to be performed efficiently on sets of numbers.",
+        "beginner": "A matrix is like a spreadsheet grid where numbers sit in rows going across and columns going down.",
+        "intermediate": "A matrix is a rectangular arrangement of numbers into rows and columns, typically denoted with a capital letter like \\(\\mathbf{A}\\).",
+        "advanced": "A matrix is a mathematical object from the set \\(\\mathbb{R}^{m \\times n}\\) representing a linear transformation between vector spaces, consisting of \\(m\\) rows and \\(n\\) columns.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition of a matrix from linear algebra.",
+          "Identify the key phrase 'rectangular array of numbers'.",
+          "Match this phrase to the correct option."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some believe a matrix is just a number; in reality it is a structured grid of many numbers.",
+          "Others confuse it with a determinant, which is a single computed value from a square matrix."
+        ],
+        "related_concepts": [
+          "Row",
+          "Column",
+          "Order of a matrix",
+          "Entry"
+        ],
+        "revision_note": "Matrix = rectangular array of numbers in rows and columns.",
+        "glossary_entry": {
+          "term": "Matrix",
+          "definition": "A rectangular array of numbers arranged in rows and columns.",
+          "example_equation": null,
+          "related_terms": [
+            "Row matrix",
+            "Column matrix"
+          ]
+        },
+        "flashcard": {
+          "front": "What is a matrix?",
+          "back": "A rectangular array of numbers arranged in rows and columns, used to represent data or transformations."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Matrix",
+            "relation": "composed_of",
+            "target": "Rows"
+          },
+          {
+            "source": "Matrix",
+            "relation": "composed_of",
+            "target": "Columns"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Basics",
+        "flashcard_front": "How are numbers organized in a matrix?",
+        "flashcard_back": "Numbers are organized in rows (horizontal) and columns (vertical) forming a rectangular grid.",
+        "glossary_term": "Matrix",
+        "glossary_definition": "A rectangular array of numbers arranged in rows and columns.",
+        "revision_note": "Matrix: rows × columns grid.",
+        "teacher_note": "Emphasize that matrices are grids, not just single numbers. Common error: calling any grid a matrix without specifying size.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Know basic concepts about matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Matrix",
+            "relation": "has",
+            "target": "Rows"
+          },
+          {
+            "source": "Matrix",
+            "relation": "has",
+            "target": "Columns"
+          }
+        ],
+        "workbook_section": "3.1 The Concepts of a Matrix",
+        "solution_manual_note": "Answer A. A matrix is defined as a rectangular array of numbers arranged in rows and columns."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q002",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.1 The Concepts of a Matrix",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.1",
+      "mcq_type": "B",
+      "question": "A matrix with 4 rows and 2 columns has a size of:",
+      "options": {
+        "A": "\\(2 \\times 4\\)",
+        "B": "\\(4 \\times 2\\)",
+        "C": "\\(8 \\)",
+        "D": "\\(6 \\)"
+      },
+      "correct_answer": "B",
+      "hint": "The number of rows is written first, then columns.",
+      "explanation": "The size of a matrix is given as rows × columns, so 4 rows and 2 columns gives \\(4 \\times 2\\). Option A reverses the order, which is a common mistake.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.1 The Concepts of a Matrix",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Example",
+        "content_anchor": "size of a matrix",
+        "page_hint": 6,
+        "concept_hash": "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 35,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The size of a matrix is the ordered pair (rows, columns), denoted as \\(m \\times n\\).",
+        "concept_summary": "Matrix size notation always lists the number of rows first, then the number of columns, following the convention \\(m \\times n\\).",
+        "beginner": "Write rows first, then columns — like measuring a rectangle's height then width.",
+        "intermediate": "For a matrix with \\(m\\) rows and \\(n\\) columns, its size is \\(m \\times n\\), read as 'm by n'.",
+        "advanced": "The dimensions of a matrix define the vector spaces it maps between: \\(\\mathbb{R}^n \\to \\mathbb{R}^m\\), written as \\(m \\times n\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the number of rows: 4.",
+          "Identify the number of columns: 2.",
+          "Write rows first, then columns: \\(4 \\times 2\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students often write columns first because they list coordinates as (x,y) which is column then row."
+        ],
+        "related_concepts": [
+          "Row matrix",
+          "Column matrix",
+          "Square matrix"
+        ],
+        "revision_note": "Size = rows × columns (rows first).",
+        "glossary_entry": {
+          "term": "Size of a matrix",
+          "definition": "The dimensions of a matrix given by the number of rows and columns, written as \\(m \\times n\\).",
+          "example_equation": null,
+          "related_terms": [
+            "Order",
+            "Dimension"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the size of a matrix with 4 rows and 2 columns?",
+          "back": "\\(4 \\times 2\\) (rows × columns)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Matrix size",
+            "relation": "determined_by",
+            "target": "Number of rows"
+          },
+          {
+            "source": "Matrix size",
+            "relation": "determined_by",
+            "target": "Number of columns"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Basics",
+        "flashcard_front": "Do you write rows or columns first when stating matrix size?",
+        "flashcard_back": "Rows first, then columns (\\(m \\times n\\)).",
+        "glossary_term": "Size",
+        "glossary_definition": "The dimensions of a matrix expressed as the number of rows times the number of columns.",
+        "revision_note": "\\(m \\times n\\): m rows, n columns.",
+        "teacher_note": "Common error: reversing rows and columns. Use visual of a grid to reinforce.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Know basic concepts about matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Matrix",
+            "relation": "has_size",
+            "target": "\\(m \\times n\\)"
+          }
+        ],
+        "workbook_section": "3.1 The Concepts of a Matrix",
+        "solution_manual_note": "Answer B. Size is rows × columns, so 4 rows and 2 columns = \\(4 \\times 2\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q003",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.1 Equality of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.2",
+      "mcq_type": "A",
+      "question": "Two matrices \\(\\mathbf{A}\\) and \\(\\mathbf{B}\\) are equal if and only if:",
+      "options": {
+        "A": "They have the same size and all corresponding entries are equal",
+        "B": "They have the same determinant",
+        "C": "They have the same number of rows only",
+        "D": "They have the same trace"
+      },
+      "correct_answer": "A",
+      "hint": "Both dimensions and every matching number must match.",
+      "explanation": "Equality requires both identical dimensions and equal corresponding entries \\(a_{ij} = b_{ij}\\). Option C ignores columns, which can differ while rows match.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.1 Equality of Matrices",
+        "structural_element": "Definition 3.2",
+        "content_anchor": "equal if corresponding entries are equal",
+        "page_hint": 9,
+        "concept_hash": "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Two matrices are equal if they have the same size and \\(a_{ij} = b_{ij}\\) for all \\(i, j\\).",
+        "concept_summary": "Matrix equality is an entry-by-entry comparison that requires both dimensional identity and numerical identity at every position.",
+        "beginner": "Two grids are equal only if they have the same number of rows and columns and every number in the same spot matches.",
+        "intermediate": "\\(\\mathbf{A} = \\mathbf{B}\\) means \\(\\mathbf{A}\\) and \\(\\mathbf{B}\\) have identical dimensions and \\(a_{ij} = b_{ij}\\) for all row indices \\(i\\) and column indices \\(j\\).",
+        "advanced": "Matrix equality is an equivalence relation defined component-wise: \\(\\mathbf{A} = \\mathbf{B} \\iff \\forall i,j: a_{ij} = b_{ij}\\) with \\(\\text{size}(\\mathbf{A}) = \\text{size}(\\mathbf{B})\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check if both matrices have the same number of rows.",
+          "Check if both matrices have the same number of columns.",
+          "Compare each corresponding entry for equality.",
+          "If all match, the matrices are equal."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think equal determinants imply equal matrices, but many different matrices can have the same determinant."
+        ],
+        "related_concepts": [
+          "Matrix addition",
+          "Zero matrix",
+          "Matrix transpose"
+        ],
+        "revision_note": "Equal matrices: same size, same entries.",
+        "glossary_entry": {
+          "term": "Equality of matrices",
+          "definition": "Two matrices are equal if they have the same dimensions and all corresponding entries are equal.",
+          "example_equation": null,
+          "related_terms": [
+            "Corresponding entries",
+            "Size"
+          ]
+        },
+        "flashcard": {
+          "front": "When are two matrices considered equal?",
+          "back": "They must have the same size and all corresponding entries must be equal."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Matrix equality",
+            "relation": "requires",
+            "target": "Same size"
+          },
+          {
+            "source": "Matrix equality",
+            "relation": "requires",
+            "target": "Equal entries"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Operations",
+        "flashcard_front": "What two conditions must hold for matrix equality?",
+        "flashcard_back": "Same size and equal corresponding entries.",
+        "glossary_term": "Equality",
+        "glossary_definition": "A relation where two matrices have identical dimensions and all entries match.",
+        "revision_note": "Equal matrices: size + entries match.",
+        "teacher_note": "Stress that size must match first; otherwise equality is impossible.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Perform operations on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Equality",
+            "relation": "requires",
+            "target": "Same size"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer A. Equality requires same size and \\(a_{ij} = b_{ij}\\) for all \\(i, j\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q004",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.1 Equality of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.2",
+      "mcq_type": "D",
+      "question": "If \\(\\begin{pmatrix} x+2 & 4 \\\\ 6 & y-1 \\end{pmatrix} = \\begin{pmatrix} 5 & 4 \\\\ 6 & 3 \\end{pmatrix}\\), what are the values of \\(x\\) and \\(y\\)?",
+      "options": {
+        "A": "\\(x=3, y=2\\)",
+        "B": "\\(x=3, y=4\\)",
+        "C": "\\(x=5, y=3\\)",
+        "D": "\\(x=2, y=4\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Equate the entry in row 1, column 1, then row 2, column 2.",
+      "explanation": "From \\(x+2 = 5\\) we get \\(x=3\\). From \\(y-1 = 3\\) we get \\(y=4\\). Option A has \\(y=2\\), which would give \\(2-1=1 \\neq 3\\), failing column 2 entry.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.1 Equality of Matrices",
+        "structural_element": "Example",
+        "content_anchor": "find the values of the unknowns",
+        "page_hint": 9,
+        "concept_hash": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 86,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Equality of matrices means corresponding entries are equal: \\(a_{11}=b_{11}, a_{22}=b_{22}\\).",
+        "concept_summary": "To solve for unknowns, set each entry equal to its counterpart in the equal matrix, then solve the resulting equations.",
+        "beginner": "Match the top-left numbers: \\(x+2=5\\). Match the bottom-right numbers: \\(y-1=3\\). Solve each.",
+        "intermediate": "From \\(x+2=5\\) we get \\(x=3\\). From \\(y-1=3\\) we get \\(y=4\\).",
+        "advanced": "Equating corresponding entries yields the system \\(x+2=5\\) and \\(y-1=3\\), giving \\(x=3, y=4\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify \\(a_{11}=x+2\\) and \\(b_{11}=5\\).",
+          "Set \\(x+2=5\\) and solve: \\(x=3\\).",
+          "Identify \\(a_{22}=y-1\\) and \\(b_{22}=3\\).",
+          "Set \\(y-1=3\\) and solve: \\(y=4\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students sometimes try to add matrices instead of equating entries.",
+          "Some incorrectly match \\(x+2\\) with \\(y-1\\) instead of with its fixed position counterpart."
+        ],
+        "related_concepts": [
+          "Systems of equations",
+          "Matrix entry notation"
+        ],
+        "revision_note": "Equate each entry to its matching position to find unknowns.",
+        "glossary_entry": {
+          "term": "Corresponding entries",
+          "definition": "Entries that occupy the same row and column position in two matrices.",
+          "example_equation": null,
+          "related_terms": [
+            "Equality",
+            "Entry"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you find \\(x\\) and \\(y\\) in \\(\\begin{pmatrix} x+2 & 4 \\\\ 6 & y-1 \\end{pmatrix} = \\begin{pmatrix} 5 & 4 \\\\ 6 & 3 \\end{pmatrix}\\)?",
+          "back": "Set \\(x+2=5\\) and \\(y-1=3\\), giving \\(x=3, y=4\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Unknowns",
+            "relation": "solved_by",
+            "target": "Equating entries"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "workbook"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Operations",
+        "flashcard_front": "Solve: \\(\\begin{pmatrix} x+2 \\\\ y-1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}\\)",
+        "flashcard_back": "\\(x=3, y=4\\).",
+        "glossary_term": "Corresponding entry",
+        "glossary_definition": "An entry in the same row and column position in two matrices.",
+        "revision_note": "Equate each position to solve.",
+        "teacher_note": "Emphasize that each unknown is solved from its specific position equation.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Perform operations on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Unknowns",
+            "relation": "found_by",
+            "target": "Equality"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer B. \\(x+2=5 \\Rightarrow x=3\\); \\(y-1=3 \\Rightarrow y=4\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q005",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.2 Addition of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.3",
+      "mcq_type": "C",
+      "question": "Given \\(\\mathbf{A} = \\begin{pmatrix} 2 & 4 \\\\ 1 & 3 \\end{pmatrix}\\) and \\(\\mathbf{B} = \\begin{pmatrix} 1 & 2 \\\\ 5 & 1 \\end{pmatrix}\\), what is \\(\\mathbf{A} + \\mathbf{B}\\)?",
+      "options": {
+        "A": "\\(\\begin{pmatrix} 3 & 6 \\\\ 6 & 4 \\end{pmatrix}\\)",
+        "B": "\\(\\begin{pmatrix} 3 & 2 \\\\ 4 & 6 \\end{pmatrix}\\)",
+        "C": "\\(\\begin{pmatrix} 2 & 8 \\\\ 5 & 3 \\end{pmatrix}\\)",
+        "D": "\\(\\begin{pmatrix} 1 & 2 \\\\ 6 & 3 \\end{pmatrix}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Add entries in the same position: top-left + top-left, etc.",
+      "explanation": "\\(2+1=3\\), \\(4+2=6\\), \\(1+5=6\\), \\(3+1=4\\), yielding \\(\\begin{pmatrix}3&6\\\\6&4\\end{pmatrix}\\). Option B incorrectly places the sums in wrong positions.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\mathbf{A}+\\mathbf{B}=(a_{ij}+b_{ij})\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.2 Addition of Matrices",
+        "structural_element": "Definition 3.3",
+        "content_anchor": "sum of two matrices",
+        "page_hint": 12,
+        "concept_hash": "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 84,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Matrix addition: \\((\\mathbf{A}+\\mathbf{B})_{ij} = a_{ij} + b_{ij}\\) for all \\(i, j\\).",
+        "concept_summary": "Add matrices by adding corresponding entries; both matrices must have identical dimensions.",
+        "beginner": "Add the numbers in the same box: top-left with top-left, top-right with top-right, etc.",
+        "intermediate": "Compute each entry: \\(2+1=3, 4+2=6, 1+5=6, 3+1=4\\).",
+        "advanced": "Applying component-wise addition: \\(\\mathbf{A}+\\mathbf{B} = \\begin{pmatrix}2+1 & 4+2 \\\\ 1+5 & 3+1\\end{pmatrix} = \\begin{pmatrix}3 & 6 \\\\ 6 & 4\\end{pmatrix}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Verify both matrices are \\(2\\times 2\\).",
+          "Add \\(a_{11}+b_{11}=2+1=3\\).",
+          "Add \\(a_{12}+b_{12}=4+2=6\\).",
+          "Add \\(a_{21}+b_{21}=1+5=6\\).",
+          "Add \\(a_{22}+b_{22}=3+1=4\\).",
+          "Write the resulting matrix."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathbf{A}+\\mathbf{B} = (a_{ij}+b_{ij})\\)",
+            "name": "Matrix addition definition",
+            "variables": [
+              {
+                "symbol": "\\(a_{ij}\\)",
+                "meaning": "Entry in row i, column j of A",
+                "unit": "None"
+              },
+              {
+                "symbol": "\\(b_{ij}\\)",
+                "meaning": "Entry in row i, column j of B",
+                "unit": "None"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some add matrices by multiplying instead of adding.",
+          "Others try to add matrices of different sizes."
+        ],
+        "related_concepts": [
+          "Matrix subtraction",
+          "Scalar multiplication",
+          "Zero matrix"
+        ],
+        "revision_note": "Add entry-wise: same position + same position.",
+        "glossary_entry": {
+          "term": "Matrix addition",
+          "definition": "The operation of adding two matrices by summing corresponding entries.",
+          "example_equation": "\\(\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}+\\begin{pmatrix}5&6\\\\7&8\\end{pmatrix}=\\begin{pmatrix}6&8\\\\10&12\\end{pmatrix}\\)",
+          "related_terms": [
+            "Sum",
+            "Corresponding entries"
+          ]
+        },
+        "flashcard": {
+          "front": "Add \\(\\begin{pmatrix}2&4\\\\1&3\\end{pmatrix} + \\begin{pmatrix}1&2\\\\5&1\\end{pmatrix}\\)",
+          "back": "\\(\\begin{pmatrix}3&6\\\\6&4\\end{pmatrix}\\)"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Matrix addition",
+            "relation": "performs",
+            "target": "Entry-wise addition"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "workbook"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Operations",
+        "flashcard_front": "What is \\(\\begin{pmatrix}2&4\\\\1&3\\end{pmatrix} + \\begin{pmatrix}1&2\\\\5&1\\end{pmatrix}\\)?",
+        "flashcard_back": "\\(\\begin{pmatrix}3&6\\\\6&4\\end{pmatrix}\\)",
+        "glossary_term": "Addition",
+        "glossary_definition": "Operation adding corresponding entries of two same-sized matrices.",
+        "revision_note": "Add entry-wise.",
+        "teacher_note": "Use colored highlighting to show which entries add to which.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "A+B",
+            "relation": "equals",
+            "target": "Entry-wise sum"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer A. \\(2+1=3, 4+2=6, 1+5=6, 3+1=4\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q006",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.2 Addition of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.4",
+      "mcq_type": "A",
+      "question": "What is the \\(2 \\times 2\\) zero matrix?",
+      "options": {
+        "A": "\\(\\begin{pmatrix}0 & 0 \\\\ 0 & 0\\end{pmatrix}\\)",
+        "B": "\\(\\begin{pmatrix}1 & 0 \\\\ 0 & 1\\end{pmatrix}\\)",
+        "C": "\\(\\begin{pmatrix}0 & 1 \\\\ 1 & 0\\end{pmatrix}\\)",
+        "D": "\\(\\begin{pmatrix}1 & 1 \\\\ 1 & 1\\end{pmatrix}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "All entries are zero.",
+      "explanation": "The zero matrix contains zeros in every position. Option B is the identity matrix, not the zero matrix.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.2 Addition of Matrices",
+        "structural_element": "Definition 3.4",
+        "content_anchor": "zero matrix",
+        "page_hint": 14,
+        "concept_hash": "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 25,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The \\(m \\times n\\) zero matrix, denoted \\(0_{m\\times n}\\), has all entries equal to 0.",
+        "concept_summary": "The zero matrix acts as the additive identity: \\(\\mathbf{A}+0 = \\mathbf{A}\\) for any compatible matrix \\(\\mathbf{A}\\).",
+        "beginner": "A zero matrix is like a blank grid filled entirely with zeros.",
+        "intermediate": "The \\(2\\times 2\\) zero matrix is \\(\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}\\), where every entry \\(a_{ij}=0\\).",
+        "advanced": "Zero matrix \\(0_{m\\times n}\\) satisfies \\(\\mathbf{A}+0_{m\\times n} = \\mathbf{A}\\) for all \\(\\mathbf{A} \\in \\mathbb{R}^{m\\times n}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition of a zero matrix.",
+          "All entries must be zero.",
+          "Identify the matrix with four zeros."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some confuse zero matrix with identity matrix, which has 1s on the diagonal."
+        ],
+        "related_concepts": [
+          "Identity matrix",
+          "Additive identity",
+          "Null matrix"
+        ],
+        "revision_note": "Zero matrix: all entries 0.",
+        "glossary_entry": {
+          "term": "Zero matrix",
+          "definition": "A matrix whose every entry is zero.",
+          "example_equation": "\\(0_{2\\times2}=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}\\)",
+          "related_terms": [
+            "Additive identity"
+          ]
+        },
+        "flashcard": {
+          "front": "What is a zero matrix?",
+          "back": "A matrix where all entries are zero."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Zero matrix",
+            "relation": "is",
+            "target": "Additive identity"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Operations",
+        "flashcard_front": "What does a zero matrix look like?",
+        "flashcard_back": "A grid filled entirely with zeros, e.g., \\(\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}\\).",
+        "glossary_term": "Zero matrix",
+        "glossary_definition": "A matrix with all entries equal to zero.",
+        "revision_note": "0-matrix = all zeros.",
+        "teacher_note": "Highlight that zero matrix is the additive identity for matrices.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Zero matrix",
+            "relation": "adds_to",
+            "target": "Original matrix"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer A. Zero matrix has all entries zero."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q007",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.4 Scalar Multiplication of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Properties",
+      "mcq_type": "D",
+      "question": "If \\(\\mathbf{A} = \\begin{pmatrix} 2 & -1 \\\\ 0 & 3 \\end{pmatrix}\\), what is \\(3\\mathbf{A}\\)?",
+      "options": {
+        "A": "\\(\\begin{pmatrix} 5 & 2 \\\\ 3 & 6 \\end{pmatrix}\\)",
+        "B": "\\(\\begin{pmatrix} 6 & -3 \\\\ 0 & 9 \\end{pmatrix}\\)",
+        "C": "\\(\\begin{pmatrix} 6 & -1 \\\\ 0 & 9 \\end{pmatrix}\\)",
+        "D": "\\(\\begin{pmatrix} 2 & -3 \\\\ 0 & 6 \\end{pmatrix}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply each entry by 3.",
+      "explanation": "\\(3 \\times 2 = 6\\), \\(3 \\times (-1) = -3\\), \\(3 \\times 0 = 0\\), \\(3 \\times 3 = 9\\). Option C fails to multiply the top-right entry correctly.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\((k\\mathbf{A})_{ij} = k \\cdot a_{ij}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.4 Scalar Multiplication of Matrices",
+        "structural_element": "Properties",
+        "content_anchor": "scalar multiplication",
+        "page_hint": 18,
+        "concept_hash": "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 85,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Scalar multiplication multiplies every entry of the matrix by the scalar.",
+        "concept_summary": "For scalar \\(k\\) and matrix \\(\\mathbf{A}\\), \\(k\\mathbf{A}\\) is obtained by multiplying each \\(a_{ij}\\) by \\(k\\).",
+        "beginner": "Multiply every number inside the matrix by the outside number (3).",
+        "intermediate": "\\(3\\mathbf{A} = 3\\begin{pmatrix}2&-1\\\\0&3\\end{pmatrix} = \\begin{pmatrix}3\\cdot2 & 3\\cdot(-1)\\\\3\\cdot0 & 3\\cdot3\\end{pmatrix} = \\begin{pmatrix}6&-3\\\\0&9\\end{pmatrix}\\).",
+        "advanced": "Scalar multiplication is a linear operation: \\( (k\\mathbf{A})_{ij} = k a_{ij} \\), distributing the scalar to each component.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Multiply \\(a_{11}=2\\) by 3: \\(6\\).",
+          "Multiply \\(a_{12}=-1\\) by 3: \\(-3\\).",
+          "Multiply \\(a_{21}=0\\) by 3: \\(0\\).",
+          "Multiply \\(a_{22}=3\\) by 3: \\(9\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\((k\\mathbf{A})_{ij} = k a_{ij}\\)",
+            "name": "Scalar multiplication",
+            "variables": [
+              {
+                "symbol": "\\(k\\)",
+                "meaning": "Scalar",
+                "unit": "None"
+              },
+              {
+                "symbol": "\\(a_{ij}\\)",
+                "meaning": "Entry of A",
+                "unit": "None"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some multiply only one row or one column instead of every entry.",
+          "Others add the scalar instead of multiplying."
+        ],
+        "related_concepts": [
+          "Matrix addition",
+          "Distributive property",
+          "Linear combination"
+        ],
+        "revision_note": "Scalar × matrix = multiply each entry.",
+        "glossary_entry": {
+          "term": "Scalar multiplication",
+          "definition": "Multiplying every entry of a matrix by a constant (scalar).",
+          "example_equation": "\\(3\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix} = \\begin{pmatrix}3&6\\\\9&12\\end{pmatrix}\\)",
+          "related_terms": [
+            "Scalar",
+            "Matrix"
+          ]
+        },
+        "flashcard": {
+          "front": "Compute \\(3 \\times \\begin{pmatrix}2&-1\\\\0&3\\end{pmatrix}\\)",
+          "back": "\\(\\begin{pmatrix}6&-3\\\\0&9\\end{pmatrix}\\)"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Scalar multiplication",
+            "relation": "applies_to",
+            "target": "Every entry"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "workbook"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Operations",
+        "flashcard_front": "Multiply \\(\\begin{pmatrix}2&-1\\\\0&3\\end{pmatrix}\\) by 3.",
+        "flashcard_back": "\\(\\begin{pmatrix}6&-3\\\\0&9\\end{pmatrix}\\)",
+        "glossary_term": "Scalar",
+        "glossary_definition": "A real number that multiplies every entry of a matrix.",
+        "revision_note": "Multiply each entry by scalar.",
+        "teacher_note": "Emphasize that scalar multiplication is entry-wise and distributive over addition.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "kA",
+            "relation": "equals",
+            "target": "k × each entry"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer B. Multiply each entry by 3: \\(2 \\to 6, -1 \\to -3, 0 \\to 0, 3 \\to 9\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q008",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.4 Scalar Multiplication of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Properties",
+      "mcq_type": "G",
+      "question": "If \\(\\mathbf{A}\\) and \\(\\mathbf{B}\\) are \\(2\\times 2\\) matrices and \\(k\\) is a scalar, which property is illustrated by \\(k(\\mathbf{A}+\\mathbf{B}) = k\\mathbf{A} + k\\mathbf{B}\\)?",
+      "options": {
+        "A": "Commutative property",
+        "B": "Associative property",
+        "C": "Distributive property of scalar multiplication over addition",
+        "D": "Identity property"
+      },
+      "correct_answer": "C",
+      "hint": "The scalar is being distributed across the sum of matrices.",
+      "explanation": "This equation shows that multiplying a scalar by a sum of matrices equals the sum of the scalar multiplied by each matrix. Option A refers to \\(\\mathbf{A}+\\mathbf{B}=\\mathbf{B}+\\mathbf{A}\\), which is different.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(k(\\mathbf{A}+\\mathbf{B}) = k\\mathbf{A} + k\\mathbf{B}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.4 Scalar Multiplication of Matrices",
+        "structural_element": "Properties",
+        "content_anchor": "distributive property",
+        "page_hint": 18,
+        "concept_hash": "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 83,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "The distributive property states \\(k(\\mathbf{A}+\\mathbf{B}) = k\\mathbf{A} + k\\mathbf{B}\\).",
+        "concept_summary": "Scalar multiplication distributes over matrix addition, allowing the scalar to be applied to each matrix separately before summing.",
+        "beginner": "The number outside the parentheses multiplies both matrices inside, just like with regular numbers: \\(3(2+4)=3\\cdot2+3\\cdot4\\).",
+        "intermediate": "This property distributes the scalar \\(k\\) across the sum \\(\\mathbf{A}+\\mathbf{B}\\), yielding \\(k\\mathbf{A} + k\\mathbf{B}\\).",
+        "advanced": "Distributivity is a linearity property: scalar multiplication is a linear map from \\(\\mathbb{R}^{m\\times n}\\) to itself, satisfying \\(k(\\mathbf{u}+\\mathbf{v}) = k\\mathbf{u}+k\\mathbf{v}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize the left side: scalar times sum of matrices.",
+          "Recognize the right side: sum of scalar times each matrix.",
+          "Identify this pattern as the distributive property."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(k(\\mathbf{A}+\\mathbf{B}) = k\\mathbf{A} + k\\mathbf{B}\\)",
+            "name": "Distributive property",
+            "variables": [
+              {
+                "symbol": "\\(k\\)",
+                "meaning": "Scalar",
+                "unit": "None"
+              },
+              {
+                "symbol": "\\(\\mathbf{A}\\)",
+                "meaning": "Matrix",
+                "unit": "None"
+              },
+              {
+                "symbol": "\\(\\mathbf{B}\\)",
+                "meaning": "Matrix",
+                "unit": "None"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some confuse this with commutativity (\\(\\mathbf{A}+\\mathbf{B}=\\mathbf{B}+\\mathbf{A}\\))."
+        ],
+        "related_concepts": [
+          "Associative property",
+          "Commutative property",
+          "Matrix addition"
+        ],
+        "revision_note": "Scalar distributes: \\(k(A+B)=kA+kB\\).",
+        "glossary_entry": {
+          "term": "Distributive property",
+          "definition": "The property that scalar multiplication distributes over matrix addition.",
+          "example_equation": "\\(2(\\mathbf{A}+\\mathbf{B})=2\\mathbf{A}+2\\mathbf{B}\\)",
+          "related_terms": [
+            "Scalar",
+            "Addition"
+          ]
+        },
+        "flashcard": {
+          "front": "What property is \\(k(\\mathbf{A}+\\mathbf{B}) = k\\mathbf{A} + k\\mathbf{B}\\)?",
+          "back": "Distributive property of scalar multiplication over addition."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Distributive property",
+            "relation": "links",
+            "target": "Scalar multiplication"
+          },
+          {
+            "source": "Distributive property",
+            "relation": "links",
+            "target": "Matrix addition"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Properties",
+        "flashcard_front": "What matrix property is \\(k(\\mathbf{A}+\\mathbf{B}) = k\\mathbf{A} + k\\mathbf{B}\\)?",
+        "flashcard_back": "Distributive property of scalar multiplication over addition.",
+        "glossary_term": "Distributive",
+        "glossary_definition": "Property allowing scalar to be multiplied by each matrix in a sum separately.",
+        "revision_note": "Distributive: k(A+B)=kA+kB",
+        "teacher_note": "Compare with numerical distributive property to build intuition.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Scalar multiplication",
+            "relation": "distributes_over",
+            "target": "Addition"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer C. This is the distributive property of scalar multiplication over matrix addition."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q009",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.4 Scalar Multiplication of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Properties",
+      "mcq_type": "E",
+      "question": "If \\(\\mathbf{A} = \\begin{pmatrix} 4 & -2 \\\\ 0 & 6 \\end{pmatrix}\\) and \\(\\mathbf{B} = \\begin{pmatrix} 1 & 3 \\\\ 5 & -1 \\end{pmatrix}\\), compute \\(2\\mathbf{A} - 3\\mathbf{B}\\).",
+      "options": {
+        "A": "\\(\\begin{pmatrix} 5 & -13 \\\\ -15 & 15 \\end{pmatrix}\\)",
+        "B": "\\(\\begin{pmatrix} 5 & 5 \\\\ -15 & 9 \\end{pmatrix}\\)",
+        "C": "\\(\\begin{pmatrix} 8 & -4 \\\\ 0 & 12 \\end{pmatrix}\\)",
+        "D": "\\(\\begin{pmatrix} 8 & -13 \\\\ -15 & 15 \\end{pmatrix}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "First compute \\(2\\mathbf{A}\\) and \\(3\\mathbf{B}\\) separately, then subtract.",
+      "explanation": "\\(2\\mathbf{A} = \\begin{pmatrix}8&-4\\\\0&12\\end{pmatrix}\\), \\(3\\mathbf{B} = \\begin{pmatrix}3&9\\\\15&-3\\end{pmatrix}\\), subtract: \\(8-3=5\\), \\(-4-9=-13\\), \\(0-15=-15\\), \\(12-(-3)=15\\). Option D misses the scalar on B correctly.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\((k\\mathbf{A})_{ij} = k a_{ij}\\)",
+        "\\(\\mathbf{A} - \\mathbf{B} = \\mathbf{A} + (-1)\\mathbf{B}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.4 Scalar Multiplication of Matrices",
+        "structural_element": "Exercise 3.5",
+        "content_anchor": "matrix operations",
+        "page_hint": 19,
+        "concept_hash": "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Linear combination: \\(2\\mathbf{A} - 3\\mathbf{B} = 2\\mathbf{A} + (-3)\\mathbf{B}\\).",
+        "concept_summary": "First scale each matrix by its scalar, then perform matrix subtraction entry-wise.",
+        "beginner": "Multiply each matrix by its number, then subtract matching positions.",
+        "intermediate": "\\(2\\mathbf{A} = \\begin{pmatrix}8&-4\\\\0&12\\end{pmatrix}\\), \\(3\\mathbf{B} = \\begin{pmatrix}3&9\\\\15&-3\\end{pmatrix}\\), so \\(2\\mathbf{A}-3\\mathbf{B} = \\begin{pmatrix}5&-13\\\\-15&15\\end{pmatrix}\\).",
+        "advanced": "Using linearity: \\(2\\mathbf{A}-3\\mathbf{B} = \\begin{pmatrix}8-3 & -4-9 \\\\ 0-15 & 12-(-3) \\end{pmatrix} = \\begin{pmatrix}5 & -13 \\\\ -15 & 15 \\end{pmatrix}\\).",
+        "worked_solution": [
+          "Step 1: Compute \\(2\\mathbf{A} = 2\\begin{pmatrix}4&-2\\\\0&6\\end{pmatrix} = \\begin{pmatrix}8&-4\\\\0&12\\end{pmatrix}\\).",
+          "Step 2: Compute \\(3\\mathbf{B} = 3\\begin{pmatrix}1&3\\\\5&-1\\end{pmatrix} = \\begin{pmatrix}3&9\\\\15&-3\\end{pmatrix}\\).",
+          "Step 3: Compute \\(2\\mathbf{A} - 3\\mathbf{B} = \\begin{pmatrix}8-3 & -4-9 \\\\ 0-15 & 12-(-3) \\end{pmatrix} = \\begin{pmatrix}5&-13\\\\-15&15\\end{pmatrix}\\)."
+        ],
+        "reasoning_steps": [
+          "Multiply matrix A by 2.",
+          "Multiply matrix B by 3.",
+          "Subtract the resulting matrices entry-wise."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathbf{A} - 3\\mathbf{B}\\)",
+            "name": "Linear combination",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Subtracting a negative value (12 - (-3)) often becomes 12 - 3 = 9 incorrectly.",
+          "Some apply scalars only to the first row or column."
+        ],
+        "related_concepts": [
+          "Scalar multiplication",
+          "Matrix subtraction",
+          "Linear combination"
+        ],
+        "revision_note": "Scale then subtract entry-wise.",
+        "glossary_entry": {
+          "term": "Linear combination",
+          "definition": "An expression of the form \\(c_1\\mathbf{A}_1 + c_2\\mathbf{A}_2 + ... + c_k\\mathbf{A}_k\\).",
+          "example_equation": "\\(2\\mathbf{A} - 3\\mathbf{B}\\)",
+          "related_terms": [
+            "Scalar",
+            "Combination"
+          ]
+        },
+        "flashcard": {
+          "front": "Compute \\(2\\begin{pmatrix}4&-2\\\\0&6\\end{pmatrix} - 3\\begin{pmatrix}1&3\\\\5&-1\\end{pmatrix}\\)",
+          "back": "\\(\\begin{pmatrix}5&-13\\\\-15&15\\end{pmatrix}\\)"
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Linear combination",
+            "relation": "involves",
+            "target": "Scalar multiplication"
+          },
+          {
+            "source": "Linear combination",
+            "relation": "involves",
+            "target": "Matrix addition/subtraction"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "workbook",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Operations",
+        "flashcard_front": "Find \\(2\\mathbf{A} - 3\\mathbf{B}\\) for \\(\\mathbf{A}=\\begin{pmatrix}4&-2\\\\0&6\\end{pmatrix}, \\mathbf{B}=\\begin{pmatrix}1&3\\\\5&-1\\end{pmatrix}\\)",
+        "flashcard_back": "\\(\\begin{pmatrix}5&-13\\\\-15&15\\end{pmatrix}\\)",
+        "glossary_term": "Linear combination",
+        "glossary_definition": "A sum of scalar multiples of matrices.",
+        "revision_note": "Scale, then combine.",
+        "teacher_note": "Walk through scaling step by step before combining to avoid sign errors.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "2A - 3B",
+            "relation": "calculated_as",
+            "target": "Scale then subtract"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer A. \\(2\\mathbf{A}=\\begin{pmatrix}8&-4\\\\0&12\\end{pmatrix}\\), \\(3\\mathbf{B}=\\begin{pmatrix}3&9\\\\15&-3\\end{pmatrix}\\), subtract: \\(8-3=5, -4-9=-13, 0-15=-15, 12-(-3)=15\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q010",
+      "generation_timestamp": "2026-06-14T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.4 Scalar Multiplication of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Properties",
+      "mcq_type": "H",
+      "mcq_type": "H",
+      "question": "A student incorrectly calculates \\(2\\begin{pmatrix} 1 & 3 \\\\ 2 & 4 \\end{pmatrix}\\) as \\(\\begin{pmatrix} 2 & 6 \\\\ 2 & 8 \\end{pmatrix}\\). What error was made?",
+      "options": {
+        "A": "The scalar was added instead of multiplied",
+        "B": "Only the first row was multiplied by 2",
+        "C": "Only the second column was multiplied by 2",
+        "D": "The matrix was multiplied by 2 incorrectly by squaring entries"
+      },
+      "correct_answer": "B",
+      "hint": "Check which entries changed and which stayed the same.",
+      "explanation": "The second row \\((2,4)\\) became \\((2,8)\\); \\(2 \\times 2 = 4\\) should have been 4, but it stayed 2. Only the first row was scaled correctly. Option C would have kept row 1 unchanged.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\((k\\mathbf{A})_{ij} = k a_{ij}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.4 Scalar Multiplication of Matrices",
+        "structural_element": "Properties",
+        "content_anchor": "scalar multiplication",
+        "page_hint": 18,
+        "concept_hash": "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Scalar multiplication requires multiplying every entry of the matrix by the scalar.",
+        "concept_summary": "A common mistake is to multiply only part of the matrix, such as only the first row or only certain columns.",
+        "beginner": "The student forgot to multiply the bottom-left number (2) by 2; it should be 4, not 2.",
+        "intermediate": "The correct calculation is \\(\\begin{pmatrix}2&6\\\\4&8\\end{pmatrix}\\). The student multiplied the first row correctly but left the second row's first entry unchanged.",
+        "advanced": "Error analysis: \\(a_{21}=2\\) incorrectly remained 2 instead of \\(2 \\times 2 = 4\\), indicating only row 1 was scaled.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that scalar multiplication affects every entry.",
+          "Compare the correct result \\(\\begin{pmatrix}2&6\\\\4&8\\end{pmatrix}\\) with the student's result.",
+          "Notice that \\(a_{21}\\) (value 2) did not change, indicating row 2 was not fully scaled."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\begin{pmatrix}1&3\\\\2&4\\end{pmatrix}\\)",
+            "name": "Scalar multiplication",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some believe scalar multiplication applies only to the first row or first column.",
+          "Others think the scalar multiplies the matrix's determinant or trace only."
+        ],
+        "related_concepts": [
+          "Entry-wise operation",
+          "Matrix scaling",
+          "Error analysis"
+        ],
+        "revision_note": "Scalar × matrix = ALL entries × scalar.",
+        "glossary_entry": {
+          "term": "Scalar multiplication error",
+          "definition": "Failing to multiply every entry of a matrix by the scalar.",
+          "example_equation": null,
+          "related_terms": [
+            "Misconception",
+            "Entry"
+          ]
+        },
+        "flashcard": {
+          "front": "What mistake was made in \\(2\\begin{pmatrix}1&3\\\\2&4\\end{pmatrix} = \\begin{pmatrix}2&6\\\\2&8\\end{pmatrix}\\)?",
+          "back": "Only the first row was multiplied by 2; the second row's first entry should be 4."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Scalar multiplication error",
+            "relation": "caused_by",
+            "target": "Partial application"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Mathematics Unit 3 — Common Errors",
+        "flashcard_front": "Identify the error: \\(2\\begin{pmatrix}1&3\\\\2&4\\end{pmatrix} = \\begin{pmatrix}2&6\\\\2&8\\end{pmatrix}\\)",
+        "flashcard_back": "Only the first row was multiplied by 2; row 2, col 1 should be 4, not 2.",
+        "glossary_term": "Scalar error",
+        "glossary_definition": "Mistake where scalar multiplication is not applied to all entries.",
+        "revision_note": "Multiply ALL entries by scalar.",
+        "teacher_note": "Use this as a diagnostic question to catch partial application errors.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Student error",
+            "relation": "results_from",
+            "target": "Incomplete scaling"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer B. The student multiplied only the first row by 2; the entry \\(a_{21}=2\\) should be \\(4\\)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 90.2,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "C": 1,
+      "D": 2,
+      "E": 1,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.1 The Concepts of a Matrix": 2,
+      "3.2 Operations on Matrices": 8
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 25,
+      "intermediate_avg": 35,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

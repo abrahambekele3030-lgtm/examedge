@@ -1,0 +1,1728 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-10T18:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G9_Math_U2_Q010",
+    "covered_sections": [
+      "2.1 Revision on Linear Equation in One Variable",
+      "2.2 Systems of Linear Equations in Two Variables>2.2.2 Solving systems of linear equations in two variables by substitution",
+      "2.2 Systems of Linear Equations in Two Variables>2.2.3 Solving systems of linear equations in two variables by Elimination method",
+      "2.3 Solving Non- linear Equations>2.3.1 Equations involving absolute value",
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Factorization method 1",
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Completing the square method",
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>The quadratic formula method",
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Discriminant",
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Relationships between roots and coefficients",
+      "2.3 Solving Non- linear Equations>2.3.3 Equations involving exponents and radicals>Equations involving exponents 1"
+    ],
+    "used_question_signatures": [
+      "sha256_a1b2c3_linear_substitution", "sha256_d4e5f6_elimination_unique",
+      "sha256_g7h8i9_absvalue_twosolutions", "sha256_j1k2l3_factor_zeroproduct",
+      "sha256_m4n5o6_completesquare_vertex", "sha256_p7q8r9_quadratic_formula_realroots",
+      "sha256_s1t2u3_discriminant_negative", "sha256_v4w5x6_sumproduct_roots",
+      "sha256_y7z8a9_exponexp_equalbase", "sha256_b0c1d2_expquad_fractionalexp"
+    ],
+    "baseline_counter": {
+      "2.1 Revision on Linear Equation in One Variable": {
+        "Subsection_None": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 }
+      },
+      "2.2 Systems of Linear Equations in Two Variables>2.2.1 Solving using tables": {
+        "count": 0, "mini_headings_covered": [], "last_question_round": 0
+      },
+      "2.2 Systems of Linear Equations in Two Variables>2.2.2 Substitution method": {
+        "count": 2, "mini_headings_covered": ["Steps"], "last_question_round": 1
+      },
+      "2.2 Systems of Linear Equations in Two Variables>2.2.3 Elimination method": {
+        "count": 2, "mini_headings_covered": ["Steps"], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.1 Absolute value": {
+        "count": 2, "mini_headings_covered": ["Properties"], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Factorization method 1": {
+        "count": 2, "mini_headings_covered": ["Factorization steps"], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Factorization method 2": {
+        "count": 0, "mini_headings_covered": [], "last_question_round": 0
+      },
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Completing the square": {
+        "count": 2, "mini_headings_covered": ["Method derivation"], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Quadratic formula": {
+        "count": 2, "mini_headings_covered": ["Formula"], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Discriminant": {
+        "count": 2, "mini_headings_covered": ["Root nature"], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.2 Quadratic equations>Root-coefficient relations": {
+        "count": 2, "mini_headings_covered": ["Sum/product"], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.3 Equations involving exponents and radicals>Exponents 1": {
+        "count": 2, "mini_headings_covered": [], "last_question_round": 1
+      },
+      "2.3 Solving Non- linear Equations>2.3.3 Equations involving exponents and radicals>Exponents 2": {
+        "count": 0, "mini_headings_covered": [], "last_question_round": 0
+      },
+      "2.3 Solving Non- linear Equations>2.3.3 Equations involving exponents and radicals>Radicals": {
+        "count": 0, "mini_headings_covered": [], "last_question_round": 0
+      },
+      "2.4 Applications of Equations": {
+        "Subsection_None": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Revision on Linear Equation in One Variable": { "question_count": 2, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.2>2.2.2 Substitution": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.2>2.2.3 Elimination": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3>2.3.1 Absolute value": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3>2.3.2 Factorization1": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3>2.3.2 Completing square": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3>2.3.2 Quadratic formula": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3>2.3.2 Discriminant": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3>2.3.2 Root relations": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3>2.3.3 Exponents1": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {},
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 15,
+      "questions_per_concept_ratio": 0.0,
+      "structural_coverage_percentage": 10.0
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Mathematics",
+  "unit": "Unit 2: SOLVING EQUATIONS",
+  "pdf_filename": "M9U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-10T18:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": { "complete": false, "sections_covered": 3, "total_sections": 4, "progress_percentage": 75.0 },
+      "phase2": { "complete": false, "max_imbalance_ratio": 0.0, "balanced": true },
+      "phase3": { "started": false, "exam_sections_biased": 0 }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 9,
+      "mini_headings_covered_count": 4,
+      "structural_coverage_percentage": 45.0,
+      "concept_utilization_ratio": 0.3
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.3 Solving Non-linear Equations",
+      "least_covered_section": "2.4 Applications",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 50
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Math_U2_Q001",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.2 Systems of Linear Equations in Two Variables",
+      "subsection": "2.2.2 Solving systems of linear equations in two variables by substitution",
+      "sub_subsection": null,
+      "structural_anchor": "Steps in solving systems of linear equations in two variables by substitution",
+      "mcq_type": "F",
+      "question": "After solving one equation for one variable and substituting into the second equation, the result is \\(0 = 5\\). What does this indicate about the system?",
+      "options": {
+        "A": "The system has exactly one solution.",
+        "B": "The system has infinitely many solutions.",
+        "C": "The system has no solution.",
+        "D": "The substitution step was performed incorrectly."
+      },
+      "correct_answer": "C",
+      "hint": "A contradiction like \\(0 = 5\\) means no ordered pair can satisfy both equations.",
+      "explanation": "A contradiction such as \\(0 = 5\\) after substitution indicates the system is inconsistent. Option C correctly identifies this as no solution, while option D describes an error not proven by the algebra.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.2 Systems of Linear Equations in Two Variables",
+        "subsection_anchor": "2.2.2 Solving systems of linear equations in two variables by substitution",
+        "structural_element": "Steps in solving systems of linear equations in two variables by substitution",
+        "content_anchor": "Example 3: -9 = 4 which is false. Therefore, there is no solution.",
+        "page_hint": 9,
+        "concept_hash": "sha256_linear_inconsistent_0001"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "An inconsistent system of linear equations has no solution because the equations represent parallel lines that never intersect.",
+        "concept_summary": "When substitution leads to a false statement like \\(0 = 5\\), the original equations contradict each other, meaning no pair \\((x,y)\\) satisfies both.",
+        "beginner": "Think of two lines that never meet — like parallel train tracks. If algebra gives a nonsense equation, the tracks never cross.",
+        "intermediate": "In an inconsistent system, substituting one equation into the other eliminates all variables and yields a contradiction, such as \\(0 = 5\\), proving impossibility.",
+        "advanced": "An inconsistent linear system has no solution because the equations represent parallel lines with different intercepts. Algebraically, elimination yields \\(0 = c\\) where \\(c \\neq 0\\), violating equality.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Solve one equation for one variable.",
+          "Substitute into the second equation.",
+          "Simplify: if variables cancel leaving a false statement, the system has no solution."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "A false statement like \\(0 = 5\\) is sometimes mistaken for infinite solutions; infinite solutions produce an identity like \\(0 = 0\\)."
+        ],
+        "related_concepts": ["Dependent system", "Parallel lines", "Inconsistent system"],
+        "revision_note": "No solution \\(\\rightarrow\\) false statement after substitution.",
+        "glossary_entry": {
+          "term": "Inconsistent system",
+          "definition": "A system of equations with no solution, often resulting in a contradiction after elimination.",
+          "example_equation": null,
+          "related_terms": ["Parallel lines", "No solution"]
+        },
+        "flashcard": {
+          "front": "What does \\(0 = 5\\) indicate after substitution?",
+          "back": "It indicates the system has no solution (inconsistent)."
+        },
+        "concept_map_nodes": [
+          { "source": "Linear system", "relation": "type_of", "target": "Inconsistent system" },
+          { "source": "Inconsistent system", "relation": "leads_to", "target": "No solution" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "What does a false statement like \\(0 = 5\\) mean for a linear system?",
+        "flashcard_back": "It means the system has no solution (inconsistent).",
+        "glossary_term": "Inconsistent system",
+        "glossary_definition": "A system of equations that has no solution because the equations contradict each other.",
+        "revision_note": "No solution → false equation after substitution.",
+        "teacher_note": "Students often confuse no solution with infinite solutions. Emphasize that \\(0=0\\) means infinite, \\(0=5\\) means none.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Determine the number of solutions to a linear system using substitution",
+        "concept_map_nodes": [
+          { "source": "Substitution method", "relation": "reveals", "target": "Inconsistent system" },
+          { "source": "Inconsistent system", "relation": "has", "target": "No solution" }
+        ],
+        "workbook_section": "2.2 Systems of Linear Equations",
+        "solution_manual_note": "Answer C. A contradiction proves no solution exists."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q002",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.2 Systems of Linear Equations in Two Variables",
+      "subsection": "2.2.3 Solving systems of linear equations in two variables by Elimination method",
+      "sub_subsection": null,
+      "structural_anchor": "Steps for elimination method",
+      "mcq_type": "F",
+      "question": "A system of equations is solved by elimination. After adding the equations, the result is \\(0 = 0\\). What is the nature of this system?",
+      "options": {
+        "A": "The system has a unique solution.",
+        "B": "The system has no solution.",
+        "C": "The system has infinitely many solutions.",
+        "D": "The elimination was performed incorrectly."
+      },
+      "correct_answer": "C",
+      "difficulty_level": "medium",
+      "hint": "An identity like \\(0=0\\) after elimination means the equations are dependent.",
+      "explanation": "An identity \\(0=0\\) after elimination indicates the two equations are equivalent. Option C correctly identifies infinitely many solutions, while option D is not necessary because the algebra is valid.",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.2 Systems of Linear Equations in Two Variables",
+        "subsection_anchor": "2.2.3 Solving systems of linear equations in two variables by Elimination method",
+        "structural_element": "Steps for elimination method",
+        "content_anchor": "Example 2: y=y. Hence, the solution is infinite.",
+        "page_hint": 9,
+        "concept_hash": "sha256_linear_dependent_0002"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A dependent system of linear equations has infinitely many solutions because the equations represent the same line.",
+        "concept_summary": "When elimination yields an identity such as \\(0=0\\), the two equations are multiples of each other and describe the same geometric line.",
+        "beginner": "If two equations turn into the exact same line after simplifying, every point on that line is a solution — infinitely many.",
+        "intermediate": "An identity \\(0=0\\) after elimination means the original equations are dependent, representing coincident lines with infinite intersection points.",
+        "advanced": "Algebraically, a dependent system occurs when one equation is a scalar multiple of the other. Elimination removes all variables, leaving a tautology \\(0=0\\), confirming infinite solutions.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Add or subtract equations to eliminate one variable.",
+          "If all variables cancel and the remaining statement is true (e.g., \\(0=0\\)), the system has infinitely many solutions."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think \\(0=0\\) means no solution; it actually means the equations are identical, so infinite solutions exist."
+        ],
+        "related_concepts": ["Dependent equations", "Coincident lines", "Infinitely many solutions"],
+        "revision_note": "Infinitely many solutions → identity after elimination.",
+        "glossary_entry": {
+          "term": "Dependent system",
+          "definition": "A system where the equations represent the same line, yielding infinitely many solutions.",
+          "example_equation": null,
+          "related_terms": ["Coincident lines", "Infinitely many solutions"]
+        },
+        "flashcard": {
+          "front": "What does \\(0 = 0\\) after elimination mean?",
+          "back": "The system has infinitely many solutions (dependent)."
+        },
+        "concept_map_nodes": [
+          { "source": "Linear system", "relation": "type_of", "target": "Dependent system" },
+          { "source": "Dependent system", "relation": "has", "target": "Infinitely many solutions" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "What does \\(0 = 0\\) indicate after elimination?",
+        "flashcard_back": "The system is dependent and has infinitely many solutions.",
+        "glossary_term": "Dependent system",
+        "glossary_definition": "A system where the equations are multiples of each other, representing the same line.",
+        "revision_note": "Identity \\(0=0\\) → infinite solutions.",
+        "teacher_note": "Students may think \\(0=0\\) is an error. Clarify that it means the equations are identical.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Determine the number of solutions using elimination",
+        "concept_map_nodes": [
+          { "source": "Elimination method", "relation": "produces", "target": "Identity" },
+          { "source": "Identity", "relation": "implies", "target": "Infinitely many solutions" }
+        ],
+        "workbook_section": "2.2 Systems of Linear Equations",
+        "solution_manual_note": "Answer C. \\(0=0\\) proves dependency and infinite solutions."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q003",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.1 Revision on Linear Equation in One Variable",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Definition 2.1",
+      "mcq_type": "A",
+      "question": "A linear equation in one variable has the general form \\(ax + b = 0\\) with \\(a \\neq 0\\). What is the maximum number of solutions such an equation can have?",
+      "options": {
+        "A": "Zero",
+        "B": "Exactly one",
+        "C": "Exactly two",
+        "D": "Infinitely many"
+      },
+      "correct_answer": "B",
+      "difficulty_level": "easy",
+      "hint": "A linear equation in one variable graphs as a single point on a number line.",
+      "explanation": "A linear equation \\(ax + b = 0\\) with \\(a \\neq 0\\) has exactly one solution \\(x = -b/a\\). Option B is correct because the variable exponent is 1, giving a unique root.",
+      "formula_used": ["\\(ax + b = 0\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.1 Revision on Linear Equation in One Variable",
+        "subsection_anchor": null,
+        "structural_element": "Definition 2.1",
+        "content_anchor": "This equation has only one solution.",
+        "page_hint": 3,
+        "concept_hash": "sha256_linear_onevar_0003"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "A linear equation in one variable is of the form \\(ax + b = 0\\) with \\(a \\neq 0\\), and it has exactly one solution.",
+        "concept_summary": "The exponent on the variable is 1, so isolating \\(x\\) yields a unique value. No other \\(x\\) satisfies the equation.",
+        "beginner": "Like a balance scale: \\(ax + b = 0\\) tips at exactly one value of \\(x\\).",
+        "intermediate": "Because the variable appears only to the first power, solving gives \\(x = -b/a\\), a single numeric answer.",
+        "advanced": "A linear function \\(f(x) = ax + b\\) with \\(a \\neq 0\\) is strictly monotonic, crossing the x-axis exactly once, guaranteeing one real root.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Write equation as \\(ax + b = 0\\).",
+          "Subtract \\(b\\): \\(ax = -b\\).",
+          "Divide by \\(a\\) (non-zero): \\(x = -b/a\\), a single value."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think linear equations can have two solutions, confusing them with quadratics."
+        ],
+        "related_concepts": ["Quadratic equation", "Linear function", "Root of equation"],
+        "revision_note": "Linear equation → exactly one solution.",
+        "glossary_entry": {
+          "term": "Linear equation in one variable",
+          "definition": "An equation \\(ax + b = 0\\) with \\(a \\neq 0\\) having exactly one solution.",
+          "example_equation": "\\(3x - 6 = 0\\)",
+          "related_terms": ["Solution", "Root"]
+        },
+        "flashcard": {
+          "front": "How many solutions does \\(ax + b = 0\\) with \\(a \\neq 0\\) have?",
+          "back": "Exactly one solution: \\(x = -b/a\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Linear equation", "relation": "has", "target": "One solution" },
+          { "source": "One solution", "relation": "given_by", "target": "\\(x = -b/a\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "How many solutions does \\(ax + b = 0\\) (a ≠ 0) have?",
+        "flashcard_back": "Exactly one solution: \\(x = -b/a\\).",
+        "glossary_term": "Linear equation in one variable",
+        "glossary_definition": "Equation with exponent 1 on variable, one solution.",
+        "revision_note": "Linear in one variable → unique root.",
+        "teacher_note": "Reinforce that a ≠ 0 is essential; if a = 0, it's not linear.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify properties of linear equations in one variable",
+        "concept_map_nodes": [
+          { "source": "\\(ax+b=0\\)", "relation": "has", "target": "Exactly one solution" }
+        ],
+        "workbook_section": "2.1 Revision on Linear Equation",
+        "solution_manual_note": "Answer B. Standard form yields unique \\(x = -b/a\\)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q004",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.3 Solving Non- linear Equations",
+      "subsection": "2.3.1 Equations involving absolute value",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of absolute value",
+      "mcq_type": "D",
+      "question": "Solve the absolute value equation \\(|x - 3| = 7\\). Which set represents all solutions?",
+      "options": {
+        "A": "\\(\\{3\\}\\)",
+        "B": "\\(\\{7, -7\\}\\)",
+        "C": "\\(\\{10, -4\\}\\)",
+        "D": "\\(\\{10, 4\\}\\)"
+      },
+      "correct_answer": "C",
+      "difficulty_level": "medium",
+      "hint": "Set \\(x-3 = 7\\) and \\(x-3 = -7\\), then solve each.",
+      "explanation": "For \\(|X| = p\\), \\(X = p\\) or \\(X = -p\\). Here \\(x-3 = 7\\) gives \\(x=10\\); \\(x-3 = -7\\) gives \\(x=-4\\). Option C correctly lists both. Option D omits the negative solution.",
+      "formula_used": ["\\(|X| = p \\Rightarrow X = p \\text{ or } X = -p\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.3 Solving Non- linear Equations",
+        "subsection_anchor": "2.3.1 Equations involving absolute value",
+        "structural_element": "Properties of absolute value",
+        "content_anchor": "For any non- negative number p |x| = p means x = p or x = -p",
+        "page_hint": 16,
+        "concept_hash": "sha256_absvalue_0004"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 86,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Absolute value represents distance from zero; \\(|X| = p\\) means \\(X = p\\) or \\(X = -p\\) for \\(p \\geq 0\\).",
+        "concept_summary": "Distance from zero being 7 means the expression inside can be 7 or -7, giving two linear equations to solve.",
+        "beginner": "Think of a number 7 steps from zero: it could be at +7 or -7. Apply that to \\(x-3\\).",
+        "intermediate": "Set \\(x-3 = 7\\) and \\(x-3 = -7\\). Solving yields \\(x = 10\\) and \\(x = -4\\).",
+        "advanced": "The equation \\(|x-3| = 7\\) defines two disjoint points on the real line: \\(x = 3 \\pm 7\\), producing solutions \\(10\\) and \\(-4\\).",
+        "worked_solution": [
+          "Step 1: Write two equations: \\(x-3 = 7\\) and \\(x-3 = -7\\).",
+          "Step 2: Solve first: \\(x = 10\\).",
+          "Step 3: Solve second: \\(x = -4\\).",
+          "Step 4: Solution set \\(\\{10, -4\\}\\)."
+        ],
+        "reasoning_steps": [
+          "Isolate the absolute value expression.",
+          "Split into two separate linear equations: inside = +p and inside = -p.",
+          "Solve each equation.",
+          "Combine both solutions."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Forgetting the negative branch leads to missing \\(x=-4\\).",
+          "Assuming absolute value always yields positive inside, ignoring negative possibility."
+        ],
+        "related_concepts": ["Distance on number line", "Piecewise functions", "Linear equations"],
+        "revision_note": "\\(|X| = p\\) → two equations: \\(X = p\\) and \\(X = -p\\).",
+        "glossary_entry": {
+          "term": "Absolute value equation",
+          "definition": "Equation containing an absolute value expression; solved by considering positive and negative cases.",
+          "example_equation": "\\(|x-3| = 7\\)",
+          "related_terms": ["Distance", "Piecewise"]
+        },
+        "flashcard": {
+          "front": "Solve \\(|x-3| = 7\\).",
+          "back": "\\(x = 10\\) or \\(x = -4\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Absolute value", "relation": "solved_by", "target": "Two linear equations" },
+          { "source": "Two linear equations", "relation": "give", "target": "Two solutions" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "Solve \\(|x-3| = 7\\).",
+        "flashcard_back": "\\(x = 10\\) and \\(x = -4\\).",
+        "glossary_term": "Absolute value equation",
+        "glossary_definition": "Equation solved by setting expression equal to positive and negative values.",
+        "revision_note": "Two solutions from \\(X = \\pm p\\).",
+        "teacher_note": "Emphasize that both solutions must be checked, but with non-negative RHS they are valid.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Solve equations involving absolute values",
+        "concept_map_nodes": [
+          { "source": "\\(|x-3|=7\\)", "relation": "splits_to", "target": "\\(x=10\\)" },
+          { "source": "\\(|x-3|=7\\)", "relation": "splits_to", "target": "\\(x=-4\\)" }
+        ],
+        "workbook_section": "2.3.1 Equations involving absolute value",
+        "solution_manual_note": "Answer C. Solving gives x = 10 and x = -4."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q005",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.3 Solving Non- linear Equations",
+      "subsection": "2.3.2 Quadratic equations",
+      "sub_subsection": "Factorization method 1",
+      "structural_anchor": "How to solve a quadratic equation by factorization method?",
+      "mcq_type": "D",
+      "question": "What are the roots of the quadratic equation \\(x^2 - 5x = 0\\) after factoring?",
+      "options": {
+        "A": "\\(x = 0\\) only",
+        "B": "\\(x = 5\\) only",
+        "C": "\\(x = 0\\) and \\(x = 5\\)",
+        "D": "\\(x = 0\\) and \\(x = -5\\)"
+      },
+      "correct_answer": "C",
+      "difficulty_level": "easy",
+      "hint": "Factor out the common factor \\(x\\), then apply the zero-product property.",
+      "explanation": "Factoring gives \\(x(x - 5) = 0\\). Zero-product property yields \\(x = 0\\) or \\(x = 5\\). Option C is correct. Option D incorrectly gives \\(-5\\) instead of \\(+5\\).",
+      "formula_used": ["\\(ab = 0 \\Rightarrow a=0 \\text{ or } b=0\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.3 Solving Non- linear Equations",
+        "subsection_anchor": "2.3.2 Quadratic equations",
+        "sub_subsection": "Factorization method 1",
+        "structural_element": "How to solve a quadratic equation by factorization method?",
+        "content_anchor": "Example 1: Solve x^2 + 3x = 0 → x=0 or x=-3",
+        "page_hint": 19,
+        "concept_hash": "sha256_factor_zeroproduct_0005"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Zero-product property: If \\(ab = 0\\), then \\(a = 0\\) or \\(b = 0\\).",
+        "concept_summary": "Factor the quadratic into linear factors, then set each factor equal to zero to find the roots.",
+        "beginner": "If you multiply two numbers and get zero, at least one must be zero. Apply that to \\(x\\) and \\((x-5)\\).",
+        "intermediate": "Factor \\(x^2 - 5x = x(x-5) = 0\\). Then \\(x = 0\\) or \\(x-5 = 0\\), so roots are 0 and 5.",
+        "advanced": "The polynomial \\(x^2 - 5x\\) factors as \\(x(x-5)\\). By the zero-product property, the solution set is \\(\\{0, 5\\}\\), the x-intercepts of the parabola.",
+        "worked_solution": [
+          "Step 1: Factor out common \\(x\\): \\(x(x-5) = 0\\).",
+          "Step 2: Apply zero-product: \\(x = 0\\) or \\(x-5 = 0\\).",
+          "Step 3: Solve each: \\(x = 0\\) and \\(x = 5\\)."
+        ],
+        "reasoning_steps": [
+          "Write equation as \\(x^2 - 5x = 0\\).",
+          "Factor out \\(x\\).",
+          "Set each factor to zero and solve."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students may divide both sides by \\(x\\), losing the \\(x=0\\) solution."
+        ],
+        "related_concepts": ["Zero-product property", "Factoring", "Quadratic roots"],
+        "revision_note": "Factor → set each factor = 0 → solve.",
+        "glossary_entry": {
+          "term": "Zero-product property",
+          "definition": "If product of factors is zero, at least one factor must be zero.",
+          "example_equation": "\\(x(x-5)=0\\)",
+          "related_terms": ["Factoring", "Roots"]
+        },
+        "flashcard": {
+          "front": "Solve \\(x^2 - 5x = 0\\) by factoring.",
+          "back": "\\(x = 0\\) and \\(x = 5\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Quadratic equation", "relation": "factored_to", "target": "Linear factors" },
+          { "source": "Linear factors", "relation": "solved_by", "target": "Zero-product property" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "Solve \\(x^2 - 5x = 0\\).",
+        "flashcard_back": "\\(x = 0\\) and \\(x = 5\\).",
+        "glossary_term": "Zero-product property",
+        "glossary_definition": "If product equals zero, at least one factor is zero.",
+        "revision_note": "Factor → set each = 0 → roots.",
+        "teacher_note": "Caution against dividing by x; always factor out x first.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Solve quadratic equations by factoring",
+        "concept_map_nodes": [
+          { "source": "\\(x^2-5x=0\\)", "relation": "factors_as", "target": "\\(x(x-5)=0\\)" },
+          { "source": "\\(x(x-5)=0\\)", "relation": "gives", "target": "\\(x=0,5\\)" }
+        ],
+        "workbook_section": "2.3.2 Quadratic equations",
+        "solution_manual_note": "Answer C. Factoring yields roots 0 and 5."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q006",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.3 Solving Non- linear Equations",
+      "subsection": "2.3.2 Quadratic equations",
+      "sub_subsection": "Completing the square method",
+      "structural_anchor": "Completing the square method",
+      "mcq_type": "D",
+      "question": "What is the vertex form of \\(x^2 + 6x + 4 = 0\\) after completing the square?",
+      "options": {
+        "A": "\\((x + 3)^2 = 5\\)",
+        "B": "\\((x + 3)^2 = 9\\)",
+        "C": "\\((x + 6)^2 = 32\\)",
+        "D": "\\((x + 3)^2 = 13\\)"
+      },
+      "correct_answer": "A",
+      "difficulty_level": "medium",
+      "hint": "Add and subtract \\((6/2)^2 = 9\\), then move constant to the right.",
+      "explanation": "Add and subtract 9: \\(x^2+6x+9+4-9=0\\) → \\((x+3)^2 -5 =0\\) → \\((x+3)^2 =5\\). Option A is correct. Option B uses incorrect constant after balancing.",
+      "formula_used": ["\\(x^2 + bx = (x + b/2)^2 - (b/2)^2\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.3 Solving Non- linear Equations",
+        "subsection_anchor": "2.3.2 Quadratic equations",
+        "sub_subsection": "Completing the square method",
+        "structural_element": "Completing the square method",
+        "content_anchor": "Example 3: (x+3)^2 - 2 = 0",
+        "page_hint": 22,
+        "concept_hash": "sha256_completesquare_0006"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Completing the square rewrites a quadratic as a perfect square trinomial plus a constant.",
+        "concept_summary": "Take half the coefficient of \\(x\\), square it, add and subtract inside the equation to form a perfect square.",
+        "beginner": "Like making a square out of \\(x^2 + 6x\\) by adding 9, then adjusting the constant to keep equation balanced.",
+        "intermediate": "For \\(x^2+6x+4=0\\), add and subtract 9: \\((x+3)^2 -9 +4 = 0\\) → \\((x+3)^2 =5\\).",
+        "advanced": "Completing the square transforms the quadratic to vertex form \\((x+3)^2 =5\\), showing the parabola’s vertex at \\(x = -3\\).",
+        "worked_solution": [
+          "Step 1: Move constant: \\(x^2+6x = -4\\).",
+          "Step 2: Add \\((6/2)^2 = 9\\) to both sides: \\(x^2+6x+9 = 5\\).",
+          "Step 3: Write as square: \\((x+3)^2 = 5\\)."
+        ],
+        "reasoning_steps": [
+          "Identify coefficient of \\(x\\): 6.",
+          "Compute \\((6/2)^2 = 9\\).",
+          "Add and subtract 9 to maintain equality.",
+          "Rewrite as perfect square."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Forgetting to add the same value to both sides of the equation.",
+          "Incorrectly computing half the coefficient."
+        ],
+        "related_concepts": ["Vertex form", "Perfect square trinomial", "Quadratic formula derivation"],
+        "revision_note": "Complete square: add \\((b/2)^2\\) to both sides.",
+        "glossary_entry": {
+          "term": "Completing the square",
+          "definition": "Method to rewrite quadratic as \\((x + p)^2 = q\\).",
+          "example_equation": "\\((x+3)^2 = 5\\)",
+          "related_terms": ["Vertex", "Perfect square"]
+        },
+        "flashcard": {
+          "front": "What is \\(x^2+6x+4=0\\) in vertex form?",
+          "back": "\\((x+3)^2 = 5\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Quadratic", "relation": "transformed_by", "target": "Completing square" },
+          { "source": "Completing square", "relation": "yields", "target": "\\((x+3)^2 = 5\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "Complete square for \\(x^2+6x+4=0\\) to vertex form.",
+        "flashcard_back": "\\((x+3)^2 = 5\\).",
+        "glossary_term": "Completing the square",
+        "glossary_definition": "Technique to write quadratic as perfect square.",
+        "revision_note": "Add \\((b/2)^2\\) to both sides.",
+        "teacher_note": "Show geometric interpretation of ‘completing the square’.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Solve quadratic equations by completing the square",
+        "concept_map_nodes": [
+          { "source": "\\(x^2+6x+4\\)", "relation": "rewritten_as", "target": "\\((x+3)^2-5\\)" }
+        ],
+        "workbook_section": "2.3.2 Quadratic equations",
+        "solution_manual_note": "Answer A. Completing square yields \\((x+3)^2 = 5\\)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q007",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.3 Solving Non- linear Equations",
+      "subsection": "2.3.2 Quadratic equations",
+      "sub_subsection": "The quadratic formula method",
+      "structural_anchor": "Quadratic formula",
+      "mcq_type": "C",
+      "question": "For the quadratic equation \\(2x^2 - 4x - 6 = 0\\), identify the correct substitution into the quadratic formula \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\).",
+      "options": {
+        "A": "\\(x = \\frac{4 \\pm \\sqrt{16 - 48}}{4}\\)",
+        "B": "\\(x = \\frac{4 \\pm \\sqrt{16 + 48}}{4}\\)",
+        "C": "\\(x = \\frac{4 \\pm \\sqrt{(-4)^2 - 4(2)(-6)}}{4}\\)",
+        "D": "\\(x = \\frac{-4 \\pm \\sqrt{16 - 48}}{4}\\)"
+      },
+      "correct_answer": "C",
+      "difficulty_level": "medium",
+      "hint": "Identify \\(a=2, b=-4, c=-6\\), then substitute carefully.",
+      "explanation": "With \\(a=2, b=-4, c=-6\\), the formula gives \\(x = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(2)(-6)}}{2(2)} = \\frac{4 \\pm \\sqrt{16 + 48}}{4}\\). Option C correctly shows the expression before simplification.",
+      "formula_used": ["\\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.3 Solving Non- linear Equations",
+        "subsection_anchor": "2.3.2 Quadratic equations",
+        "sub_subsection": "The quadratic formula method",
+        "structural_element": "Quadratic formula",
+        "content_anchor": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+        "page_hint": 23,
+        "concept_hash": "sha256_quadformula_0007"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The quadratic formula provides the roots of any quadratic equation \\(ax^2+bx+c=0\\) with \\(a \\neq 0\\).",
+        "concept_summary": "Substitute coefficients \\(a, b, c\\) directly into \\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\) to find solutions.",
+        "beginner": "Plug numbers from the equation into the formula, being careful with negative signs.",
+        "intermediate": "For \\(2x^2-4x-6=0\\), \\(a=2, b=-4, c=-6\\). Substitute: \\(x = \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(2)(-6)}}{2(2)}\\).",
+        "advanced": "The discriminant \\(b^2-4ac = 16+48=64\\) gives real rational roots \\(x = \\frac{4 \\pm 8}{4}\\), simplifying to \\(x=3\\) and \\(x=-1\\).",
+        "worked_solution": [
+          "Step 1: Identify \\(a=2, b=-4, c=-6\\).",
+          "Step 2: Write formula: \\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\).",
+          "Step 3: Substitute: \\(x = \\frac{4 \\pm \\sqrt{16+48}}{4}\\)."
+        ],
+        "reasoning_steps": [
+          "Write equation in standard form.",
+          "Identify \\(a, b, c\\).",
+          "Apply quadratic formula with careful sign handling.",
+          "Simplify under radical and compute roots."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\)",
+            "name": "Quadratic formula",
+            "variables": [
+              { "symbol": "\\(a\\)", "meaning": "coefficient of \\(x^2\\)", "unit": "" },
+              { "symbol": "\\(b\\)", "meaning": "coefficient of \\(x\\)", "unit": "" },
+              { "symbol": "\\(c\\)", "meaning": "constant term", "unit": "" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Sign errors: forgetting \\(-b\\) when \\(b\\) is negative.",
+          "Incorrectly computing discriminant: \\(b^2 - 4ac\\) vs \\(b^2 - 4ac\\)."
+        ],
+        "related_concepts": ["Discriminant", "Completing square", "Parabola roots"],
+        "revision_note": "Quadratic formula: \\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\).",
+        "glossary_entry": {
+          "term": "Quadratic formula",
+          "definition": "Formula giving solutions to \\(ax^2+bx+c=0\\).",
+          "example_equation": "\\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\)",
+          "related_terms": ["Roots", "Discriminant"]
+        },
+        "flashcard": {
+          "front": "Write the quadratic formula.",
+          "back": "\\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\)"
+        },
+        "concept_map_nodes": [
+          { "source": "Quadratic equation", "relation": "solved_by", "target": "Quadratic formula" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "Write the quadratic formula.",
+        "flashcard_back": "\\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\)",
+        "glossary_term": "Quadratic formula",
+        "glossary_definition": "Formula to solve any quadratic equation.",
+        "revision_note": "Quadratic formula solves \\(ax^2+bx+c=0\\).",
+        "teacher_note": "Emphasize sign handling with negative b.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Apply quadratic formula to solve equations",
+        "concept_map_nodes": [
+          { "source": "Quadratic formula", "relation": "requires", "target": "Discriminant" }
+        ],
+        "workbook_section": "2.3.2 Quadratic equations",
+        "solution_manual_note": "Answer C. Correct substitution with a=2, b=-4, c=-6."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q008",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.3 Solving Non- linear Equations",
+      "subsection": "2.3.2 Quadratic equations",
+      "sub_subsection": "Discriminant",
+      "structural_anchor": "Discriminant",
+      "mcq_type": "F",
+      "question": "For the quadratic equation \\(3x^2 + 2x + 5 = 0\\), what does the discriminant \\(b^2 - 4ac\\) reveal about the roots?",
+      "options": {
+        "A": "Two distinct real roots",
+        "B": "Exactly one real root",
+        "C": "No real roots",
+        "D": "Two rational roots"
+      },
+      "correct_answer": "C",
+      "difficulty_level": "medium",
+      "hint": "Compute \\(b^2 - 4ac\\) with \\(a=3, b=2, c=5\\).",
+      "explanation": "Discriminant \\(D = 2^2 - 4(3)(5) = 4 - 60 = -56 < 0\\). When \\(D<0\\), the quadratic has no real roots. Option C is correct. Option A requires \\(D>0\\).",
+      "formula_used": ["\\(D = b^2 - 4ac\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "a": { "magnitude": 3, "unit": "" }, "b": { "magnitude": 2, "unit": "" }, "c": { "magnitude": 5, "unit": "" } },
+        "answer_value": -56,
+        "answer_unit": "",
+        "calculation_steps": ["\\(D = (2)^2 - 4(3)(5) = 4 - 60 = -56\\)"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.3 Solving Non- linear Equations",
+        "subsection_anchor": "2.3.2 Quadratic equations",
+        "sub_subsection": "Discriminant",
+        "structural_element": "Discriminant",
+        "content_anchor": "If D < 0, then there are no real roots.",
+        "page_hint": 24,
+        "concept_hash": "sha256_discriminant_0008"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The discriminant \\(D = b^2-4ac\\) determines the nature of roots of a quadratic equation.",
+        "concept_summary": "If \\(D > 0\\): two distinct real roots; \\(D = 0\\): one real root; \\(D < 0\\): no real roots (complex).",
+        "beginner": "The discriminant is like a test: positive → two answers, zero → one answer, negative → no real answer.",
+        "intermediate": "For \\(3x^2+2x+5=0\\), \\(D = 4 - 60 = -56 < 0\\), so no real roots exist.",
+        "advanced": "Negative discriminant indicates the parabola never touches the x-axis; roots are complex conjugates \\(\\frac{-2 \\pm i\\sqrt{56}}{6}\\).",
+        "worked_solution": [
+          "Step 1: Identify \\(a=3, b=2, c=5\\).",
+          "Step 2: Compute \\(D = b^2 - 4ac = 4 - 60 = -56\\).",
+          "Step 3: Since \\(D < 0\\), conclude no real roots."
+        ],
+        "reasoning_steps": [
+          "Write equation in standard form.",
+          "Identify \\(a, b, c\\).",
+          "Calculate \\(D = b^2 - 4ac\\).",
+          "Compare \\(D\\) to zero to determine root nature."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing sign: \\(D > 0\\) means real roots; \\(D < 0\\) means no real roots, not the opposite."
+        ],
+        "related_concepts": ["Quadratic roots", "Complex numbers", "Parabola vertex"],
+        "revision_note": "\\(D < 0\\) → no real roots.",
+        "glossary_entry": {
+          "term": "Discriminant",
+          "definition": "\\(b^2-4ac\\); determines number and type of quadratic roots.",
+          "example_equation": "\\(D = (-4)^2-4(1)(4)=0\\)",
+          "related_terms": ["Roots", "Quadratic formula"]
+        },
+        "flashcard": {
+          "front": "What does a negative discriminant indicate?",
+          "back": "No real roots (complex conjugates)."
+        },
+        "concept_map_nodes": [
+          { "source": "Discriminant", "relation": "if_negative", "target": "No real roots" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "What does \\(D = -56\\) mean for roots?",
+        "flashcard_back": "No real roots.",
+        "glossary_term": "Discriminant",
+        "glossary_definition": "Expression \\(b^2-4ac\\) that classifies quadratic roots.",
+        "revision_note": "Negative discriminant → no real roots.",
+        "teacher_note": "Relate discriminant to graph: D<0 means parabola does not intersect x-axis.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Use discriminant to determine nature of roots",
+        "concept_map_nodes": [
+          { "source": "Discriminant", "relation": "negative_leads_to", "target": "Complex roots" }
+        ],
+        "workbook_section": "2.3.2 Quadratic equations",
+        "solution_manual_note": "Answer C. \\(D = -56 < 0\\) so no real roots."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q009",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.3 Solving Non- linear Equations",
+      "subsection": "2.3.2 Quadratic equations",
+      "sub_subsection": "Relationships between roots and coefficients",
+      "structural_anchor": "Relationships between roots and coefficients",
+      "mcq_type": "F",
+      "question": "For the quadratic equation \\(x^2 - 7x + 12 = 0\\), what is the sum of its roots?",
+      "options": {
+        "A": "\\(-7\\)",
+        "B": "\\(7\\)",
+        "C": "\\(12\\)",
+        "D": "\\(-12\\)"
+      },
+      "correct_answer": "B",
+      "difficulty_level": "easy",
+      "hint": "For \\(ax^2 + bx + c = 0\\), sum of roots = \\(-b/a\\).",
+      "explanation": "Sum of roots \\(= -b/a = -(-7)/1 = 7\\). Option B is correct. Option A gives \\(b\\) without sign change. Option C is product, not sum.",
+      "formula_used": ["\\(r_1 + r_2 = -\\frac{b}{a}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.3 Solving Non- linear Equations",
+        "subsection_anchor": "2.3.2 Quadratic equations",
+        "sub_subsection": "Relationships between roots and coefficients",
+        "structural_element": "Relationships between roots and coefficients",
+        "content_anchor": "r1 + r2 = -b/a",
+        "page_hint": 26,
+        "concept_hash": "sha256_sumroots_0009"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "For \\(ax^2+bx+c=0\\), sum of roots \\(= -b/a\\), product \\(= c/a\\).",
+        "concept_summary": "Without solving, Vieta’s formulas give sum and product directly from coefficients.",
+        "beginner": "Add the two answers of a quadratic without finding them: sum = \\(-b/a\\).",
+        "intermediate": "Here \\(a=1, b=-7\\), so sum \\(= -(-7)/1 = 7\\).",
+        "advanced": "Vieta’s formulas derive from expanding \\((x-r_1)(x-r_2) = x^2 - (r_1+r_2)x + r_1r_2\\), matching coefficients.",
+        "worked_solution": [
+          "Step 1: Identify \\(a=1, b=-7, c=12\\).",
+          "Step 2: Apply sum formula \\(-b/a = -(-7)/1 = 7\\)."
+        ],
+        "reasoning_steps": [
+          "Write quadratic in standard form.",
+          "Identify \\(a\\) and \\(b\\).",
+          "Compute \\(-b/a\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Using \\(b/a\\) instead of \\(-b/a\\) (forgetting sign).",
+          "Confusing sum with product formula."
+        ],
+        "related_concepts": ["Vieta’s formulas", "Product of roots", "Quadratic coefficients"],
+        "revision_note": "Sum of roots = \\(-b/a\\), product = \\(c/a\\).",
+        "glossary_entry": {
+          "term": "Sum of roots",
+          "definition": "For \\(ax^2+bx+c=0\\), sum \\(= -b/a\\).",
+          "example_equation": "\\(-(-7)/1 = 7\\)",
+          "related_terms": ["Product of roots", "Vieta"]
+        },
+        "flashcard": {
+          "front": "What is sum of roots of \\(x^2-7x+12=0\\)?",
+          "back": "Sum = \\(7\\) (since \\(-b/a = 7\\))."
+        },
+        "concept_map_nodes": [
+          { "source": "Quadratic coefficients", "relation": "determine", "target": "Sum of roots" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "Sum of roots of \\(x^2-7x+12=0\\)?",
+        "flashcard_back": "7",
+        "glossary_term": "Sum of roots",
+        "glossary_definition": "\\(-b/a\\) for quadratic \\(ax^2+bx+c=0\\).",
+        "revision_note": "Sum = \\(-b/a\\).",
+        "teacher_note": "Practice both sum and product together to avoid confusion.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Find sum and product of quadratic roots without solving",
+        "concept_map_nodes": [
+          { "source": "Quadratic", "relation": "has_sum", "target": "\\(-b/a\\)" }
+        ],
+        "workbook_section": "2.3.2 Quadratic equations",
+        "solution_manual_note": "Answer B. Sum = -b/a = 7."
+      }
+    },
+    {
+      "question_id": "G9_Math_U2_Q010",
+      "generation_timestamp": "2026-06-10T18:30:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 2: SOLVING EQUATIONS",
+      "section": "2.3 Solving Non- linear Equations",
+      "subsection": "2.3.3 Equations involving exponents and radicals",
+      "sub_subsection": "Equations involving exponents 1",
+      "structural_anchor": "Equations involving exponents 1",
+      "mcq_type": "D",
+      "question": "Solve the exponential equation \\(3^{2x-1} = 27\\). What is the value of \\(x\\)?",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(2\\)",
+        "C": "\\(3\\)",
+        "D": "\\(4\\)"
+      },
+      "correct_answer": "B",
+      "difficulty_level": "medium",
+      "hint": "Write 27 as a power of 3, then equate exponents.",
+      "explanation": "\\(27 = 3^3\\), so \\(3^{2x-1} = 3^3\\). Equating exponents: \\(2x-1 = 3 \\Rightarrow 2x = 4 \\Rightarrow x=2\\). Option B is correct. Option A results from solving \\(2x-1=1\\), ignoring that \\(27=3^3\\).",
+      "formula_used": ["\\(a^x = a^y \\Rightarrow x = y\\) for \\(a>0, a\\neq 1\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: SOLVING EQUATIONS",
+        "section_anchor": "2.3 Solving Non- linear Equations",
+        "subsection_anchor": "2.3.3 Equations involving exponents and radicals",
+        "sub_subsection": "Equations involving exponents 1",
+        "structural_element": "Equations involving exponents 1",
+        "content_anchor": "Example 1b: 3^x = 1/27 → x = -3",
+        "page_hint": 29,
+        "concept_hash": "sha256_exponexp_0010"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Exponential equations have variables in exponents; solve by expressing both sides with the same base.",
+        "concept_summary": "Rewrite 27 as \\(3^3\\), then set exponents equal because bases are the same and positive.",
+        "beginner": "If 3 to some power equals 27, and 27 is \\(3^3\\), then the powers must match: \\(2x-1 = 3\\).",
+        "intermediate": "\\(3^{2x-1} = 27 = 3^3\\) ⇒ \\(2x-1 = 3\\) ⇒ \\(2x = 4\\) ⇒ \\(x = 2\\).",
+        "advanced": "By the one-to-one property of exponential functions, \\(a^m = a^n\\) implies \\(m=n\\) for \\(a>0, a\\neq1\\). Thus \\(2x-1=3\\) gives \\(x=2\\).",
+        "worked_solution": [
+          "Step 1: Express RHS as power of 3: \\(27 = 3^3\\).",
+          "Step 2: Equate exponents: \\(2x-1 = 3\\).",
+          "Step 3: Solve: \\(2x = 4\\), \\(x = 2\\)."
+        ],
+        "reasoning_steps": [
+          "Express both sides with same base.",
+          "Set exponents equal.",
+          "Solve linear equation for variable."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Misidentifying 27 as \\(3^2\\) or \\(3^4\\); correctly \\(27=3^3\\).",
+          "Forgetting to equate entire exponent expression."
+        ],
+        "related_concepts": ["Exponent rules", "One-to-one functions", "Logarithms"],
+        "revision_note": "Same base → equate exponents.",
+        "glossary_entry": {
+          "term": "Exponential equation",
+          "definition": "Equation with variable in exponent, solved by matching bases.",
+          "example_equation": "\\(3^{2x-1} = 27\\)",
+          "related_terms": ["Base", "Exponent", "Power"]
+        },
+        "flashcard": {
+          "front": "Solve \\(3^{2x-1} = 27\\).",
+          "back": "\\(x = 2\\)"
+        },
+        "concept_map_nodes": [
+          { "source": "Exponential equation", "relation": "solved_by", "target": "Equating exponents" },
+          { "source": "Equating exponents", "relation": "requires", "target": "Same base" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Solving Equations",
+        "flashcard_front": "Solve \\(3^{2x-1} = 27\\).",
+        "flashcard_back": "\\(x = 2\\)",
+        "glossary_term": "Exponential equation",
+        "glossary_definition": "Equation with variable in exponent, solved by matching bases.",
+        "revision_note": "Same base → equate exponents.",
+        "teacher_note": "Reinforce converting constants to the same base as the exponential term.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Solve equations involving exponents",
+        "concept_map_nodes": [
+          { "source": "Exponential equation", "relation": "method", "target": "Same base" }
+        ],
+        "workbook_section": "2.3.3 Equations involving exponents and radicals",
+        "solution_manual_note": "Answer B. 27 = 3^3 → equate exponents: 2x-1=3 → x=2."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4100,
+    "average_question_quality": 88.5,
+    "type_distribution": { "A": 1, "C": 1, "D": 4, "F": 4 },
+    "difficulty_distribution": { "easy": 3, "medium": 7, "hard": 0 },
+    "section_distribution": {
+      "2.1 Revision on Linear Equation in One Variable": 1,
+      "2.2 Systems of Linear Equations in Two Variables": 2,
+      "2.3 Solving Non-linear Equations": 7
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 45
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

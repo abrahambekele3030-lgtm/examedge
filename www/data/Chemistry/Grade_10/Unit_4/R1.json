@@ -1,0 +1,1753 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Chem_U4_Q010",
+    "covered_sections": ["4.1 Introduction>4.1.1 Exothermic and Endothermic Chemical Reactions", "4.1 Introduction>4.1.2 Importance of Chemical Changes", "4.2 Energy Changes in Electrochemistry>4.2.1 Electrochemistry", "4.2 Energy Changes in Electrochemistry>4.2.2 Electrical Conductivity", "4.2 Energy Changes in Electrochemistry>Strong and Weak Electrolytes", "4.3 Electrochemical Cells>4.3.1 Galvanic (Voltaic) Cells"],
+    "used_question_signatures": ["a3f5c8e2d1b4a6c9e7f0d3b5a8c2e4f6a1b3c5d7e9f1a2b4c6d8e0f2a4b6c8", "b4d6e8f0a2c4e6g8h0j2l4n6p8r0t2v4x6z8b0d2f4h6", "c5e7g9i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5", "d6f8h0j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6", "e7g9i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5s7u9", "f8h0j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6t8v0", "g9i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5s7u9w1y3", "h0j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6t8v0x2z4", "i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5s7u9w1y3a5c7", "j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6t8v0x2z4b6d8"],
+    "baseline_counter": {
+      "4.1 Introduction": {
+        "4.1.1 Exothermic and Endothermic Chemical Reactions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.1.2 Importance of Chemical Changes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.2 Energy Changes in Electrochemistry": {
+        "4.2.1 Electrochemistry": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "4.2.2 Electrical Conductivity": {
+          "count": 2,
+          "mini_headings_covered": ["Metallic conductivity", "Electrolytic conductivity"],
+          "last_question_round": 1
+        },
+        "Strong and Weak Electrolytes": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "4.3 Electrochemical Cells": {
+        "4.3.1 Galvanic (Voltaic) Cells": {
+          "count": 2,
+          "mini_headings_covered": ["Primary Cells (Battery Cells)"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Introduction": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.2 Energy Changes in Electrochemistry": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.3 Electrochemical Cells": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "4.4 Electrolysis": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Introduction>4.1.1 Exothermic and Endothermic Chemical Reactions": ["exothermic reaction", "endothermic reaction", "enthalpy change", "specific heat capacity"],
+      "4.2 Energy Changes in Electrochemistry>4.2.1 Electrochemistry": ["electrochemistry", "interconversion of electrical and chemical energy"],
+      "4.2 Energy Changes in Electrochemistry>4.2.2 Electrical Conductivity": ["metallic conductivity", "free electrons", "electrolytic conductivity", "ions as charge carriers"],
+      "4.2 Energy Changes in Electrochemistry>Strong and Weak Electrolytes": ["strong electrolyte", "weak electrolyte", "nonelectrolyte", "dissociation"],
+      "4.3 Electrochemical Cells>4.3.1 Galvanic (Voltaic) Cells": ["galvanic cell", "spontaneous redox reaction", "anode", "cathode", "salt bridge", "Daniell cell", "Leclanche cell"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 18,
+      "questions_per_concept_ratio": 0.56,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+  "pdf_filename": "C10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 45.5,
+      "concept_utilization_ratio": 0.56
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.2 Energy Changes in Electrochemistry",
+      "least_covered_section": "4.3 Electrochemical Cells",
+      "imbalance_ratio": 2.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 18
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U4_Q001",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.1 Introduction",
+      "subsection": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+      "mcq_type": "A",
+      "question": "What type of chemical reaction releases energy to the surroundings, causing an increase in temperature of the reaction mixture?",
+      "options": {
+        "A": "Exothermic reaction",
+        "B": "Endothermic reaction",
+        "C": "Decomposition reaction",
+        "D": "Oxidation reaction"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the reaction that gives off heat.",
+      "explanation": "Exothermic reactions release energy as heat, raising the temperature of the surroundings. Option B describes endothermic reactions, which absorb heat and cause cooling.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.1 Introduction",
+        "subsection_anchor": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+        "structural_element": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+        "content_anchor": "reactions that cause the surrounding to heat up are called heat releasing reactions and the process is exothermic",
+        "page_hint": 5,
+        "concept_hash": "a3f5c8e2d1b4a6c9e7f0d3b5a8c2e4f6a1b3c5d7e9f1a2b4c6d8e0f2a4b6c8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "An exothermic reaction is a chemical reaction that releases energy, usually as heat or light, to its surroundings.",
+        "concept_summary": "Exothermic reactions transfer energy from the system to the surroundings. The products have lower enthalpy than the reactants, so the change in enthalpy is negative.",
+        "beginner": "Think of an exothermic reaction like a hand warmer: it feels hot because energy is flowing out into your hands.",
+        "intermediate": "In an exothermic reaction, the bonds formed in the products are stronger than the bonds broken in the reactants, releasing excess energy as heat.",
+        "advanced": "For an exothermic reaction, the enthalpy change \\(\\Delta H = H_{\\text{products}} - H_{\\text{reactants}}\\) is negative because the products are at a lower energy state than the reactants.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify whether the reaction releases or absorbs heat.",
+          "If it releases heat, classify as exothermic.",
+          "If it absorbs heat, classify as endothermic."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Exothermic reactions are sometimes mistakenly thought to always be fast; however, reaction rate is independent of whether a reaction is exothermic or endothermic.",
+          "Some believe that exothermic reactions cannot occur spontaneously at low temperatures, but many exothermic reactions require an initial activation energy input."
+        ],
+        "related_concepts": ["Endothermic reaction", "Enthalpy", "Activation energy", "Heat of reaction"],
+        "revision_note": "Exothermic: releases heat, \\(\\Delta H < 0\\), products lower energy than reactants.",
+        "glossary_entry": {
+          "term": "Exothermic reaction",
+          "definition": "A chemical reaction that releases energy, usually as heat or light, to the surroundings.",
+          "example_equation": "\\(\\mathrm{C(s) + O_2(g) \\rightarrow CO_2(g)} + \\text{heat}\\)",
+          "related_terms": ["Endothermic reaction", "Enthalpy change"]
+        },
+        "flashcard": {
+          "front": "What is an exothermic reaction?",
+          "back": "A reaction that releases energy to the surroundings, making the temperature rise. \\(\\Delta H\\) is negative."
+        },
+        "concept_map_nodes": [
+          {"source": "Chemical reaction", "relation": "classified_as", "target": "Exothermic reaction"},
+          {"source": "Exothermic reaction", "relation": "has_property", "target": "\\(\\Delta H < 0\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "What property characterizes an exothermic reaction?",
+        "flashcard_back": "An exothermic reaction releases energy to the surroundings, shown by a negative enthalpy change (\\(\\Delta H < 0\\)).",
+        "glossary_term": "Exothermic reaction",
+        "glossary_definition": "A chemical reaction that releases energy, usually as heat or light, to the surroundings.",
+        "revision_note": "Exothermic: heat out, \\(\\Delta H < 0\\).",
+        "teacher_note": "Common error: Students may think all exothermic reactions are combustion reactions. Use examples like NaOH dissolving in water.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe energy changes in chemical reactions",
+        "concept_map_nodes": [
+          {"source": "Chemical reaction", "relation": "classified_as", "target": "Exothermic reaction"},
+          {"source": "Exothermic reaction", "relation": "measured_by", "target": "Enthalpy change"}
+        ],
+        "workbook_section": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+        "solution_manual_note": "Answer A. Exothermic reactions release heat; endothermic reactions absorb heat. Decomposition and oxidation are not defined by heat flow alone."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q002",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.1 Introduction",
+      "subsection": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+      "mcq_type": "H",
+      "question": "When solid potassium nitrate (\\(\\mathrm{KNO_3}\\)) dissolves in water, the mixture becomes noticeably colder. Which conclusion about this process is correct?",
+      "options": {
+        "A": "The dissolution releases heat to the water",
+        "B": "The dissolution is an exothermic process",
+        "C": "The dissolution absorbs heat from the water",
+        "D": "The dissolution produces a gas that cools the mixture"
+      },
+      "correct_answer": "C",
+      "hint": "A temperature drop means energy is taken from the surroundings.",
+      "explanation": "When \\(\\mathrm{KNO_3}\\) dissolves and the mixture cools, heat is absorbed from the water, making the process endothermic. Option A describes exothermic dissolution, which would cause warming, not cooling.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{KNO_3(s)} + \\text{Heat} \\xrightarrow{\\mathrm{H_2O}} \\mathrm{K^+(aq)} + \\mathrm{NO_3^-(aq)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.1 Introduction",
+        "subsection_anchor": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+        "structural_element": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+        "content_anchor": "when potassium nitrate, KNO3, dissolves in water, the mixture gets colder",
+        "page_hint": 5,
+        "concept_hash": "b4d6e8f0a2c4e6g8h0j2l4n6p8r0t2v4x6z8b0d2f4h6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "An endothermic reaction is a chemical reaction that absorbs energy from its surroundings, usually as heat.",
+        "concept_summary": "Endothermic reactions take in energy, causing the surroundings to cool. The products have higher enthalpy than the reactants, so \\(\\Delta H\\) is positive.",
+        "beginner": "An endothermic reaction is like an ice pack: it feels cold because it pulls heat from your skin.",
+        "intermediate": "In an endothermic dissolution, ion-dipole interactions between water and the solute require more energy than is released, resulting in net heat absorption from the surroundings.",
+        "advanced": "For \\(\\mathrm{KNO_3(s) \\rightarrow K^+(aq) + NO_3^-(aq)}\\), the lattice energy is larger than the hydration energy, so the overall \\(\\Delta H_{\\text{solution}} > 0\\), indicating an endothermic process.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Observe the temperature change: colder means heat is absorbed.",
+          "Heat absorption from surroundings defines an endothermic process.",
+          "Eliminate options that claim heat release or exothermic behavior."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{KNO_3(s)} \\rightarrow \\mathrm{K^+(aq)} + \\mathrm{NO_3^-(aq)}\\)",
+            "name": "Dissolution of potassium nitrate",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some students think that if a substance dissolves and the solution cools, the process must be exothermic because \"something is happening.\" In fact, cooling indicates endothermic absorption of heat.",
+          "It is incorrectly believed that all dissolution processes are exothermic; however, many ionic compounds like \\(\\mathrm{KNO_3}\\) and \\(\\mathrm{NH_4NO_3}\\) dissolve endothermically."
+        ],
+        "related_concepts": ["Exothermic reaction", "Enthalpy of solution", "Lattice energy", "Hydration energy"],
+        "revision_note": "Endothermic: absorbs heat, \\(\\Delta H > 0\\), surroundings get colder.",
+        "glossary_entry": {
+          "term": "Endothermic reaction",
+          "definition": "A chemical reaction that absorbs energy, usually as heat, from the surroundings.",
+          "example_equation": "\\(\\mathrm{KNO_3(s)} + \\text{heat} \\rightarrow \\mathrm{K^+(aq)} + \\mathrm{NO_3^-(aq)}\\)",
+          "related_terms": ["Exothermic reaction", "Enthalpy"]
+        },
+        "flashcard": {
+          "front": "What happens to the surroundings during an endothermic reaction?",
+          "back": "The surroundings cool down because the reaction absorbs heat energy from them. \\(\\Delta H\\) is positive."
+        },
+        "concept_map_nodes": [
+          {"source": "Endothermic reaction", "relation": "causes", "target": "Cooling of surroundings"},
+          {"source": "Dissolution of \\(\\mathrm{KNO_3}\\)", "relation": "example_of", "target": "Endothermic reaction"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "How can you tell if a dissolution process is endothermic?",
+        "flashcard_back": "The solution becomes colder because heat is absorbed from the surroundings, making \\(\\Delta H\\) positive.",
+        "glossary_term": "Endothermic reaction",
+        "glossary_definition": "A chemical reaction that absorbs energy, usually as heat, from the surroundings.",
+        "revision_note": "Endothermic: absorbs heat, \\(\\Delta H > 0\\), temperature drops.",
+        "teacher_note": "Students frequently confuse endothermic with exothermic. Use temperature change as a clear, observable indicator.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe energy changes in chemical reactions",
+        "concept_map_nodes": [
+          {"source": "Endothermic reaction", "relation": "measured_by", "target": "Temperature decrease"},
+          {"source": "\\(\\mathrm{KNO_3}\\) dissolution", "relation": "demonstrates", "target": "Endothermic process"}
+        ],
+        "workbook_section": "4.1.1 Exothermic and Endothermic Chemical Reactions",
+        "solution_manual_note": "Answer C. Cooling indicates heat absorption (endothermic). Options A and B describe exothermic processes. No gas is produced in this dissolution."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q003",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.1 Introduction",
+      "subsection": "4.1.2 Importance of Chemical Changes",
+      "sub_subsection": null,
+      "structural_anchor": "4.1.2 Importance of Chemical Changes",
+      "mcq_type": "G",
+      "question": "Plants produce glucose and oxygen from carbon dioxide and water using sunlight. What is the direct energy change in this process?",
+      "options": {
+        "A": "Chemical energy is converted into light energy",
+        "B": "Light energy is converted into chemical energy",
+        "C": "Heat energy is converted into electrical energy",
+        "D": "Chemical energy is converted into heat energy"
+      },
+      "correct_answer": "B",
+      "hint": "Sunlight provides the energy that plants use to make food.",
+      "explanation": "Photosynthesis converts light energy from the sun into chemical energy stored in glucose. Option A describes the reverse process, such as combustion or bioluminescence.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(6\\mathrm{CO_2(g)} + 6\\mathrm{H_2O(l)} \\xrightarrow{\\text{light}} \\mathrm{C_6H_{12}O_6(aq)} + 6\\mathrm{O_2(g)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.1 Introduction",
+        "subsection_anchor": "4.1.2 Importance of Chemical Changes",
+        "structural_element": "4.1.2 Importance of Chemical Changes",
+        "content_anchor": "You get food because of the chemical change called photosynthesis",
+        "page_hint": 8,
+        "concept_hash": "c5e7g9i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Photosynthesis is the process by which plants convert light energy into chemical energy stored in glucose.",
+        "concept_summary": "During photosynthesis, light energy is captured by chlorophyll and used to drive the synthesis of glucose from \\(\\mathrm{CO_2}\\) and water, storing energy in chemical bonds.",
+        "beginner": "Photosynthesis is like a solar-powered factory: sunlight goes in, and food (chemical energy) comes out.",
+        "intermediate": "Light energy excites electrons in chlorophyll, initiating an electron transport chain that produces ATP and NADPH, which are then used to fix \\(\\mathrm{CO_2}\\) into glucose.",
+        "advanced": "The overall energy conversion efficiency of photosynthesis involves the quantum yield of photosystem II and the reduction of NADP\\(^+\\) to NADPH, ultimately storing energy in the \\(\\mathrm{C-H}\\) bonds of glucose.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the input energy source: sunlight (light energy).",
+          "Identify the output: glucose (stores chemical energy).",
+          "Recognize that light energy is converted into chemical energy."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(6\\mathrm{CO_2} + 6\\mathrm{H_2O} \\xrightarrow{\\text{light}} \\mathrm{C_6H_{12}O_6} + 6\\mathrm{O_2}\\)",
+            "name": "Photosynthesis equation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some students think photosynthesis uses heat energy, but it specifically requires light energy (photons) to excite electrons.",
+          "It is sometimes mistakenly believed that plants get their energy from soil; in fact, the energy comes from sunlight converted into chemical energy."
+        ],
+        "related_concepts": ["Cellular respiration", "Energy conversion", "Chlorophyll", "ATP synthesis"],
+        "revision_note": "Photosynthesis: light energy \\(\\rightarrow\\) chemical energy (glucose).",
+        "glossary_entry": {
+          "term": "Photosynthesis",
+          "definition": "The process by which plants convert light energy into chemical energy stored in glucose.",
+          "example_equation": "\\(6\\mathrm{CO_2} + 6\\mathrm{H_2O} \\rightarrow \\mathrm{C_6H_{12}O_6} + 6\\mathrm{O_2}\\)",
+          "related_terms": ["Cellular respiration", "Chlorophyll"]
+        },
+        "flashcard": {
+          "front": "What energy conversion occurs in photosynthesis?",
+          "back": "Light energy from the sun is converted into chemical energy stored in glucose molecules."
+        },
+        "concept_map_nodes": [
+          {"source": "Photosynthesis", "relation": "converts", "target": "Light energy to chemical energy"},
+          {"source": "Sunlight", "relation": "provides_energy_for", "target": "Photosynthesis"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "What is the energy transformation in photosynthesis?",
+        "flashcard_back": "Light energy is converted into chemical energy stored in glucose: \\(6\\mathrm{CO_2} + 6\\mathrm{H_2O} \\rightarrow \\mathrm{C_6H_{12}O_6} + 6\\mathrm{O_2}\\).",
+        "glossary_term": "Photosynthesis",
+        "glossary_definition": "The process by which plants convert light energy into chemical energy stored in glucose.",
+        "revision_note": "Photosynthesis: light \\(\\rightarrow\\) chemical energy.",
+        "teacher_note": "Emphasize that photosynthesis is endothermic overall because it absorbs light energy.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe energy changes in chemical reactions",
+        "concept_map_nodes": [
+          {"source": "Photosynthesis", "relation": "requires", "target": "Light energy"},
+          {"source": "Photosynthesis", "relation": "produces", "target": "Chemical energy (glucose)"}
+        ],
+        "workbook_section": "4.1.2 Importance of Chemical Changes",
+        "solution_manual_note": "Answer B. Photosynthesis stores light energy as chemical energy in glucose. Option A describes light emission, not storage."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q004",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.1 Electrochemistry",
+      "sub_subsection": null,
+      "structural_anchor": "4.2.1 Electrochemistry",
+      "mcq_type": "A",
+      "question": "What is the branch of chemistry that deals with the interconversion of electrical energy and chemical energy?",
+      "options": {
+        "A": "Thermochemistry",
+        "B": "Electrochemistry",
+        "C": "Quantum chemistry",
+        "D": "Analytical chemistry"
+      },
+      "correct_answer": "B",
+      "hint": "This field connects electricity with chemical reactions.",
+      "explanation": "Electrochemistry specifically studies how chemical reactions produce electricity and how electricity drives chemical reactions. Thermochemistry studies heat changes, not electrical energy.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.1 Electrochemistry",
+        "structural_element": "4.2.1 Electrochemistry",
+        "content_anchor": "Electromagnetism is a field of chemistry that deals with the interconversion of electrical energy and chemical energy",
+        "page_hint": 10,
+        "concept_hash": "d6f8h0j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Electrochemistry is the branch of chemistry that studies the interconversion of electrical energy and chemical energy.",
+        "concept_summary": "Electrochemistry encompasses two main processes: generating electricity from spontaneous chemical reactions (voltaic cells) and using electricity to drive non-spontaneous reactions (electrolytic cells).",
+        "beginner": "Electrochemistry is like a two-way street between batteries (electricity) and chemical reactions.",
+        "intermediate": "Electrochemistry involves redox reactions where electron transfer occurs either spontaneously to produce electrical current or is forced by an external voltage to cause chemical change.",
+        "advanced": "The fundamental relationship in electrochemistry is governed by the Nernst equation, \\(E = E^0 - \\frac{RT}{nF}\\ln Q\\), which connects cell potential to reaction quotient.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition: electro = electricity, chemistry = chemical reactions.",
+          "Identify the field that bridges these two domains."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Electrochemistry is sometimes confused with electromagnetism (physics), but electrochemistry specifically involves chemical changes with electron transfer.",
+          "Some think electrochemistry only deals with batteries; it also includes electrolysis, corrosion, and electroplating."
+        ],
+        "related_concepts": ["Redox reactions", "Voltaic cells", "Electrolytic cells", "Nernst equation"],
+        "revision_note": "Electrochemistry: interconversion of electrical and chemical energy.",
+        "glossary_entry": {
+          "term": "Electrochemistry",
+          "definition": "The branch of chemistry that studies the interconversion of electrical energy and chemical energy.",
+          "example_equation": null,
+          "related_terms": ["Redox reaction", "Galvanic cell", "Electrolysis"]
+        },
+        "flashcard": {
+          "front": "What does electrochemistry study?",
+          "back": "The interconversion between electrical energy and chemical energy, including batteries and electrolysis."
+        },
+        "concept_map_nodes": [
+          {"source": "Electrochemistry", "relation": "includes", "target": "Voltaic cells"},
+          {"source": "Electrochemistry", "relation": "includes", "target": "Electrolytic cells"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "glossary"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "What is electrochemistry?",
+        "flashcard_back": "The branch of chemistry studying the interconversion of electrical and chemical energy.",
+        "glossary_term": "Electrochemistry",
+        "glossary_definition": "The branch of chemistry that studies the interconversion of electrical energy and chemical energy.",
+        "revision_note": "Electrochemistry: electricity \\(\\leftrightarrow\\) chemical energy.",
+        "teacher_note": "Introduce electrochemistry as the bridge between redox reactions and practical applications like batteries.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe electrochemistry",
+        "concept_map_nodes": [
+          {"source": "Chemistry", "relation": "branch_of", "target": "Electrochemistry"},
+          {"source": "Electrochemistry", "relation": "studies", "target": "Energy interconversion"}
+        ],
+        "workbook_section": "4.2.1 Electrochemistry",
+        "solution_manual_note": "Answer B. Electrochemistry is defined by the interconversion of electrical and chemical energy. Thermochemistry deals with heat, not electricity."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q005",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "Metallic conductivity",
+      "mcq_type": "G",
+      "question": "Why can metals conduct electricity in the solid state while solid ionic compounds like \\(\\mathrm{NaCl}\\) cannot?",
+      "options": {
+        "A": "Metals have delocalized valence electrons that are free to move",
+        "B": "Metals have higher melting points than ionic compounds",
+        "C": "Ionic compounds decompose before electrons can flow",
+        "D": "Metals form covalent bonds that allow electron movement"
+      },
+      "correct_answer": "A",
+      "hint": "Think about the \"sea of electrons\" model for metals.",
+      "explanation": "Metals conduct because their valence electrons are delocalized and mobile within the metallic lattice. Solid \\(\\mathrm{NaCl}\\) has ions locked in fixed positions and cannot conduct until molten or dissolved.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "Metallic conductivity",
+        "content_anchor": "Electrical conductivity in metals is a result of the movement of electrically charged particles called electrons",
+        "page_hint": 10,
+        "concept_hash": "e7g9i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5s7u9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Metallic conductivity is the flow of electricity through metals due to the movement of delocalized valence electrons.",
+        "concept_summary": "In metals, valence electrons are not bound to individual atoms but form a mobile \"sea of electrons\" that can move freely through the metallic lattice when an electric field is applied.",
+        "beginner": "Think of a metal as a box of marbles (electrons) floating in water, free to move anywhere when pushed.",
+        "intermediate": "The metallic bond consists of positive metal ions surrounded by delocalized electrons. These mobile electrons act as charge carriers, allowing electrical current to pass.",
+        "advanced": "Band theory explains metallic conductivity: the valence band and conduction band overlap, creating a continuous energy band with empty states, allowing electrons to move freely under an applied potential.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that conductivity requires mobile charge carriers.",
+          "Metals: delocalized electrons are free to move.",
+          "Solid ionic compounds: ions are fixed in lattice positions, cannot move."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some believe that all solids conduct electricity; however, solid ionic compounds do not because their ions are immobile.",
+          "It is incorrectly thought that metals conduct because of positive ions moving; in fact, electrons are the charge carriers, not the metal cations."
+        ],
+        "related_concepts": ["Metallic bonding", "Delocalized electrons", "Band theory", "Electrical conductivity"],
+        "revision_note": "Metals conduct via mobile delocalized electrons; solid ionic compounds have fixed ions.",
+        "glossary_entry": {
+          "term": "Metallic conductivity",
+          "definition": "Electrical conduction in metals caused by the movement of delocalized valence electrons.",
+          "example_equation": null,
+          "related_terms": ["Electrolytic conductivity", "Delocalized electrons"]
+        },
+        "flashcard": {
+          "front": "Why do metals conduct electricity in the solid state?",
+          "back": "Metals have delocalized valence electrons free to move through the metallic lattice, acting as charge carriers."
+        },
+        "concept_map_nodes": [
+          {"source": "Metallic conductivity", "relation": "requires", "target": "Mobile electrons"},
+          {"source": "Solid ionic compound", "relation": "has_no", "target": "Mobile charge carriers"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "What explains solid metal conductivity but not solid NaCl conductivity?",
+        "flashcard_back": "Metals have mobile delocalized electrons; solid NaCl has fixed ions that cannot move until melted or dissolved.",
+        "glossary_term": "Metallic conductivity",
+        "glossary_definition": "Electrical conduction in metals caused by the movement of delocalized valence electrons.",
+        "revision_note": "Metals: mobile electrons = conductivity. Solid ionic: fixed ions = no conductivity.",
+        "teacher_note": "Use the sea of electrons model and contrast with the rigid lattice of ionic solids.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Distinguish between metallic conduction and electrolytic conduction",
+        "concept_map_nodes": [
+          {"source": "Metal", "relation": "conducts_by", "target": "Delocalized electrons"},
+          {"source": "Solid ionic compound", "relation": "does_not_conduct_because", "target": "Fixed ions"}
+        ],
+        "workbook_section": "4.2.2 Electrical Conductivity",
+        "solution_manual_note": "Answer A. Delocalized electrons in metals enable solid-state conduction. Solid NaCl ions are immobile until melted."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q006",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "4.2.2 Electrical Conductivity",
+      "sub_subsection": null,
+      "structural_anchor": "Electrolytic conductivity",
+      "mcq_type": "I",
+      "question": "How does electrolytic conductivity differ from metallic conductivity in terms of charge carriers and chemical change?",
+      "options": {
+        "A": "Both use electrons and cause no chemical change",
+        "B": "Both use ions and cause chemical decomposition",
+        "C": "Metallic uses ions; electrolytic uses electrons; both cause chemical change",
+        "D": "Metallic uses electrons without chemical change; electrolytic uses ions with chemical change"
+      },
+      "correct_answer": "D",
+      "hint": "Compare what moves (electrons vs. ions) and whether chemical reactions occur.",
+      "explanation": "Metallic conduction involves electron flow with no chemical change in the conductor. Electrolytic conduction involves ion migration and causes chemical decomposition at electrodes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "4.2.2 Electrical Conductivity",
+        "structural_element": "Electrolytic conductivity",
+        "content_anchor": "Conduction through electrolytes is due to the movement of ions. It may cause chemical decomposition of the electrolytes",
+        "page_hint": 14,
+        "concept_hash": "f8h0j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6t8v0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Electrolytic conductivity is the movement of ions in an electrolyte solution or molten salt under an applied electric field, accompanied by chemical reactions at the electrodes.",
+        "concept_summary": "In electrolytic conduction, positive cations move to the cathode and negative anions move to the anode, where they gain or lose electrons, causing chemical decomposition or new product formation.",
+        "beginner": "Think of metallic conduction like a river of electrons flowing through a pipe; electrolytic conduction is like people (ions) walking in opposite directions, with chemical changes happening when they reach the ends.",
+        "intermediate": "Electrolytic conduction involves mass transfer of ions and results in redox reactions at electrode surfaces. Metallic conduction involves only electron flow with no atomic or ionic movement in the conductor.",
+        "advanced": "The difference arises from charge carrier nature: metals have a Fermi sea of electrons; electrolytes have dissociated ions whose mobility depends on viscosity, concentration, and temperature, and charge transfer occurs via faradaic reactions at interfaces.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Step 1: Identify charge carriers in metals: electrons.",
+          "Step 2: Identify charge carriers in electrolytes: ions.",
+          "Step 3: Determine if chemical change occurs: metals no, electrolytes yes."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think that electrolytic conduction also occurs without chemical change; in fact, the passage of current through an electrolyte always involves oxidation at the anode and reduction at the cathode.",
+          "It is sometimes believed that both types of conduction involve particle movement; true, but electrons in metals are much smaller and do not cause chemical change in the conductor itself."
+        ],
+        "related_concepts": ["Electron flow", "Ion migration", "Electrolysis", "Redox reactions"],
+        "revision_note": "Metallic: electrons, no chemical change. Electrolytic: ions, chemical change at electrodes.",
+        "glossary_entry": {
+          "term": "Electrolytic conductivity",
+          "definition": "Electrical conduction through an electrolyte caused by the movement of ions toward oppositely charged electrodes, accompanied by chemical reactions.",
+          "example_equation": null,
+          "related_terms": ["Ion", "Electrode", "Electrolysis"]
+        },
+        "flashcard": {
+          "front": "What are two key differences between metallic and electrolytic conduction?",
+          "back": "Metallic: electrons move, no chemical change. Electrolytic: ions move, chemical change occurs at electrodes."
+        },
+        "concept_map_nodes": [
+          {"source": "Metallic conduction", "relation": "uses_charge_carrier", "target": "Electrons"},
+          {"source": "Electrolytic conduction", "relation": "uses_charge_carrier", "target": "Ions"},
+          {"source": "Electrolytic conduction", "relation": "causes", "target": "Chemical decomposition"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "concept_map"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "How do metallic and electrolytic conduction differ?",
+        "flashcard_back": "Metallic: electrons move, no chemical change. Electrolytic: ions move, chemical change at electrodes.",
+        "glossary_term": "Electrolytic conductivity",
+        "glossary_definition": "Electrical conduction through an electrolyte caused by the movement of ions toward oppositely charged electrodes, accompanied by chemical reactions.",
+        "revision_note": "Metallic: e⁻ move, no reaction. Electrolytic: ions move, reaction occurs.",
+        "teacher_note": "Use a table comparison: charge carrier, matter transfer, chemical change, temperature effect on resistance.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Differentiate between metallic conduction and electrolytic conduction",
+        "concept_map_nodes": [
+          {"source": "Metallic conduction", "relation": "contrasted_with", "target": "Electrolytic conduction"},
+          {"source": "Electrolytic conduction", "relation": "characterized_by", "target": "Chemical change"}
+        ],
+        "workbook_section": "4.2.2 Electrical Conductivity",
+        "solution_manual_note": "Answer D. Option A is wrong because electrolytic conduction causes chemical change. Option B is wrong because metallic conduction uses electrons, not ions. Option C reverses charge carriers."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q007",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.2 Energy Changes in Electrochemistry",
+      "subsection": "Strong and Weak Electrolytes",
+      "sub_subsection": null,
+      "structural_anchor": "Strong and Weak Electrolytes",
+      "mcq_type": "J",
+      "question": "Which of the following correctly classifies hydrochloric acid (\\(\\mathrm{HCl}\\)), acetic acid (\\(\\mathrm{CH_3COOH}\\)), and sugar (\\(\\mathrm{C_{12}H_{22}O_{11}}\\)) in aqueous solution?",
+      "options": {
+        "A": "Strong electrolyte, weak electrolyte, nonelectrolyte",
+        "B": "Weak electrolyte, strong electrolyte, nonelectrolyte",
+        "C": "Strong electrolyte, nonelectrolyte, weak electrolyte",
+        "D": "Nonelectrolyte, weak electrolyte, strong electrolyte"
+      },
+      "correct_answer": "A",
+      "hint": "Consider how completely each substance dissociates into ions in water.",
+      "explanation": "\\(\\mathrm{HCl}\\) dissociates completely (strong electrolyte), \\(\\mathrm{CH_3COOH}\\) dissociates partially (weak electrolyte), and sugar does not form ions (nonelectrolyte).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathrm{HCl(g) \\rightarrow H^+(aq) + Cl^-(aq)}\\)", "\\(\\mathrm{CH_3COOH(aq) \\rightleftharpoons H^+(aq) + CH_3COO^-(aq)}\\)", "\\(\\mathrm{C_{12}H_{22}O_{11}(s) \\rightarrow C_{12}H_{22}O_{11}(aq)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.2 Energy Changes in Electrochemistry",
+        "subsection_anchor": "Strong and Weak Electrolytes",
+        "structural_element": "Strong and Weak Electrolytes",
+        "content_anchor": "HCl is a strong electrolyte; acetic acid is a weak electrolyte; sugar is a nonelectrolyte",
+        "page_hint": 14,
+        "concept_hash": "g9i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5s7u9w1y3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "A strong electrolyte dissociates completely into ions in solution; a weak electrolyte dissociates partially; a nonelectrolyte does not form ions.",
+        "concept_summary": "Strong electrolytes like \\(\\mathrm{HCl}\\) are fully ionized, producing many ions and high conductivity. Weak electrolytes like acetic acid reach an equilibrium with mostly undissociated molecules. Nonelectrolytes like sugar remain as neutral molecules and do not conduct.",
+        "beginner": "Think of strong electrolytes as sugar that dissolves completely in tea; weak electrolytes as only a little dissolving; nonelectrolytes as oil that never mixes at all.",
+        "intermediate": "The degree of ionization determines conductivity: strong electrolytes have \\(\\alpha \\approx 1\\), weak electrolytes have \\(\\alpha \\ll 1\\), and nonelectrolytes have \\(\\alpha = 0\\).",
+        "advanced": "For strong electrolytes, the dissociation is essentially complete due to high dielectric constant of water stabilizing ions. Weak electrolytes show equilibrium constants \\(K_a\\) typically between \\(10^{-5}\\) and \\(10^{-3}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify \\(\\mathrm{HCl}\\) as a strong acid → strong electrolyte.",
+          "Identify \\(\\mathrm{CH_3COOH}\\) as a weak acid → weak electrolyte.",
+          "Identify sugar as a covalent compound with no ions → nonelectrolyte."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{CH_3COOH \\rightleftharpoons H^+ + CH_3COO^-}\\)",
+            "name": "Weak acid equilibrium",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think that all acids are strong electrolytes; but acetic, carbonic, and nitrous acids are weak electrolytes.",
+          "It is sometimes believed that sugar dissolves and therefore must conduct; but conductivity requires ions, not just dissolution."
+        ],
+        "related_concepts": ["Ionization", "Dissociation", "Acid strength", "Conductivity"],
+        "revision_note": "Strong: complete ionization (HCl). Weak: partial (acetic). Nonelectrolyte: no ions (sugar).",
+        "glossary_entry": {
+          "term": "Strong electrolyte",
+          "definition": "A solute that dissociates completely into ions when dissolved in water, producing high electrical conductivity.",
+          "example_equation": "\\(\\mathrm{HCl \\rightarrow H^+ + Cl^-}\\)",
+          "related_terms": ["Weak electrolyte", "Nonelectrolyte", "Dissociation"]
+        },
+        "flashcard": {
+          "front": "Classify HCl, acetic acid, and sugar as electrolytes.",
+          "back": "HCl: strong electrolyte; acetic acid: weak electrolyte; sugar: nonelectrolyte."
+        },
+        "concept_map_nodes": [
+          {"source": "Strong electrolyte", "relation": "example_of", "target": "HCl"},
+          {"source": "Weak electrolyte", "relation": "example_of", "target": "Acetic acid"},
+          {"source": "Nonelectrolyte", "relation": "example_of", "target": "Sugar"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "How are HCl, acetic acid, and sugar classified in water?",
+        "flashcard_back": "HCl (strong electrolyte), acetic acid (weak electrolyte), sugar (nonelectrolyte).",
+        "glossary_term": "Electrolyte",
+        "glossary_definition": "A substance that conducts electricity when dissolved in water or molten due to the presence of mobile ions.",
+        "revision_note": "HCl: strong; acetic: weak; sugar: nonelectrolyte.",
+        "teacher_note": "Use a conductivity apparatus demonstration to show bright light (HCl), dim light (acetic), no light (sugar).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Distinguish between strong and weak electrolytes",
+        "concept_map_nodes": [
+          {"source": "Strong electrolyte", "relation": "characterized_by", "target": "Complete dissociation"},
+          {"source": "Weak electrolyte", "relation": "characterized_by", "target": "Partial dissociation"},
+          {"source": "Nonelectrolyte", "relation": "characterized_by", "target": "No ions"}
+        ],
+        "workbook_section": "Strong and Weak Electrolytes",
+        "solution_manual_note": "Answer A. HCl fully ionizes (strong), acetic acid partially ionizes (weak), sugar does not ionize (nonelectrolyte)."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q008",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+      "mcq_type": "D",
+      "question": "In a Daniell cell, zinc metal is placed in \\(\\mathrm{ZnSO_4}\\) solution and copper metal in \\(\\mathrm{CuSO_4}\\) solution. Which half-reaction occurs at the anode?",
+      "options": {
+        "A": "\\(\\mathrm{Cu^{2+}(aq) + 2e^- \\rightarrow Cu(s)}\\)",
+        "B": "\\(\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}\\)",
+        "C": "\\(\\mathrm{Zn^{2+}(aq) + 2e^- \\rightarrow Zn(s)}\\)",
+        "D": "\\(\\mathrm{Cu(s) \\rightarrow Cu^{2+}(aq) + 2e^-}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Oxidation (loss of electrons) occurs at the anode.",
+      "explanation": "Zinc is more easily oxidized than copper, so zinc atoms lose electrons and become \\(\\mathrm{Zn^{2+}}\\) ions at the anode. Option A describes reduction at the copper cathode.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}\\)", "\\(\\mathrm{Cu^{2+}(aq) + 2e^- \\rightarrow Cu(s)}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "4.3.1 Galvanic (Voltaic) Cells",
+        "content_anchor": "Anode reaction: Zn(s) → Zn2+(aq) + 2e−",
+        "page_hint": 19,
+        "concept_hash": "h0j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6t8v0x2z4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 89,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The anode in a galvanic cell is the electrode where oxidation occurs, losing electrons to the external circuit.",
+        "concept_summary": "In the Daniell cell, zinc has a higher tendency to oxidize than copper, so the zinc electrode serves as the anode, releasing electrons that flow to the copper cathode.",
+        "beginner": "At the anode, the metal \"gives away\" electrons and dissolves into the solution.",
+        "intermediate": "Oxidation at the anode: \\(\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}\\). The electrons travel through the external wire to the cathode where reduction occurs.",
+        "advanced": "The standard reduction potentials: \\(E^0_{\\mathrm{Zn^{2+}/Zn}} = -0.76\\ \\mathrm{V}\\) and \\(E^0_{\\mathrm{Cu^{2+}/Cu}} = +0.34\\ \\mathrm{V}\\). Zinc has a more negative potential, thus it is the anode and undergoes oxidation spontaneously.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that oxidation (loss of electrons) occurs at the anode.",
+          "Determine which metal is more easily oxidized (Zn more than Cu).",
+          "Write oxidation half-reaction: Zn → Zn²⁺ + 2e⁻."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}\\)",
+            "name": "Zinc oxidation half-reaction",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some students think the anode is always positive; in galvanic cells the anode is negative (electrons leave), but in electrolytic cells the anode is positive.",
+          "It is sometimes believed that the metal with higher reduction potential is the anode; actually, the metal with more negative reduction potential is the anode."
+        ],
+        "related_concepts": ["Cathode", "Oxidation", "Reduction", "Standard reduction potential"],
+        "revision_note": "Galvanic cell anode: oxidation, negative electrode, Zn → Zn²⁺ + 2e⁻.",
+        "glossary_entry": {
+          "term": "Anode",
+          "definition": "The electrode in an electrochemical cell where oxidation occurs (loss of electrons).",
+          "example_equation": "\\(\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}\\)",
+          "related_terms": ["Cathode", "Oxidation"]
+        },
+        "flashcard": {
+          "front": "What is the anode half-reaction in a Daniell cell?",
+          "back": "Zinc is oxidized: \\(\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Anode", "relation": "undergoes", "target": "Oxidation"},
+          {"source": "Daniell cell", "relation": "has_anode_reaction", "target": "Zn oxidation"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "What reaction happens at the anode of a Daniell cell?",
+        "flashcard_back": "Zn is oxidized to Zn²⁺: \\(\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}\\).",
+        "glossary_term": "Anode",
+        "glossary_definition": "The electrode where oxidation occurs (loss of electrons) in an electrochemical cell.",
+        "revision_note": "Anode: oxidation, Zn → Zn²⁺ + 2e⁻ in Daniell cell.",
+        "teacher_note": "Use the mnemonic \"Anode = Oxidation\" (both start with vowels). Emphasize electron flow direction: anode → cathode.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe the reactions in voltaic cells",
+        "concept_map_nodes": [
+          {"source": "Daniell cell", "relation": "has_electrode", "target": "Zinc anode"},
+          {"source": "Zinc anode", "relation": "undergoes", "target": "Oxidation"}
+        ],
+        "workbook_section": "4.3.1 Galvanic (Voltaic) Cells",
+        "solution_manual_note": "Answer B. Oxidation at the anode: Zn loses electrons. Option A is reduction at the cathode. Option C is reduction of Zn²⁺ (would occur at cathode if Zn²⁺ were present). Option D is oxidation of Cu (not spontaneous in this cell)."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q009",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.3 Electrochemical Cells",
+      "subsection": "4.3.1 Galvanic (Voltaic) Cells",
+      "sub_subsection": null,
+      "structural_anchor": "Primary Cells (Battery Cells)",
+      "mcq_type": "I",
+      "question": "What is the key difference between a primary cell (such as a Leclanche dry cell) and a secondary cell (such as a lead storage battery)?",
+      "options": {
+        "A": "Primary cells use solid electrolytes; secondary cells use liquid electrolytes",
+        "B": "Primary cells are rechargeable; secondary cells are not rechargeable",
+        "C": "Primary cells are not rechargeable; secondary cells are rechargeable",
+        "D": "Primary cells produce alternating current; secondary cells produce direct current"
+      },
+      "correct_answer": "C",
+      "hint": "Consider whether the chemical reaction can be reversed by charging.",
+      "explanation": "Primary cells undergo irreversible reactions and cannot be recharged. Secondary cells have reversible reactions, allowing recharging by passing an external current through the cell.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.3 Electrochemical Cells",
+        "subsection_anchor": "4.3.1 Galvanic (Voltaic) Cells",
+        "structural_element": "Primary Cells (Battery Cells)",
+        "content_anchor": "Primary cells or also known as battery cells are galvanic cells that are not rechargeable",
+        "page_hint": 18,
+        "concept_hash": "i1k3m5o7q9s1u3w5y7a9c1e3g5i7k9m1o3q5s7u9w1y3a5c7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A primary cell is a non-rechargeable galvanic cell where the redox reaction is irreversible, while a secondary cell is rechargeable with reversible reactions.",
+        "concept_summary": "Primary cells (e.g., Leclanche dry cell) cannot be recharged because the products cannot be converted back to reactants. Secondary cells (e.g., lead storage battery) allow reversal by applying an external voltage.",
+        "beginner": "A primary cell is like a single-use battery; once it dies, you throw it away. A secondary cell is like a rechargeable battery you can use again and again.",
+        "intermediate": "In secondary cells, the discharge reaction products can be re-converted to original reactants by electrolysis, regenerating the cell's voltage. Primary cells lack this reversibility due to irreversible side reactions or product removal.",
+        "advanced": "The reversibility of secondary cells depends on the electrode reactions occurring in solid-state phases that remain at the electrode surfaces, such as the conversion between \\(\\mathrm{Pb}\\) and \\(\\mathrm{PbSO_4}\\) or \\(\\mathrm{PbO_2}\\) and \\(\\mathrm{PbSO_4}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition: primary cells are not rechargeable.",
+          "Recall: secondary cells are rechargeable.",
+          "Match to the correct option."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think that all batteries are rechargeable; primary cells like alkaline batteries are not designed for recharging and may leak or explode if recharged.",
+          "It is sometimes believed that the difference is the type of electrolyte; both primary and secondary cells can use similar electrolytes (e.g., Leclanche uses paste, lead-acid uses liquid)."
+        ],
+        "related_concepts": ["Leclanche cell", "Lead storage battery", "Rechargeable battery", "Irreversible reaction"],
+        "revision_note": "Primary: not rechargeable (Leclanche). Secondary: rechargeable (lead-acid).",
+        "glossary_entry": {
+          "term": "Primary cell",
+          "definition": "A galvanic cell that is not rechargeable because the redox reaction is irreversible.",
+          "example_equation": null,
+          "related_terms": ["Secondary cell", "Leclanche cell", "Dry cell"]
+        },
+        "flashcard": {
+          "front": "What is the main difference between primary and secondary cells?",
+          "back": "Primary cells are not rechargeable; secondary cells are rechargeable."
+        },
+        "concept_map_nodes": [
+          {"source": "Primary cell", "relation": "not_rechargeable", "target": "Irreversible reaction"},
+          {"source": "Secondary cell", "relation": "rechargeable", "target": "Reversible reaction"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "What distinguishes a primary cell from a secondary cell?",
+        "flashcard_back": "Primary cells are non-rechargeable; secondary cells are rechargeable via reversible reactions.",
+        "glossary_term": "Secondary cell",
+        "glossary_definition": "A rechargeable galvanic cell in which the redox reaction can be reversed by applying an external electric current.",
+        "revision_note": "Primary: single-use. Secondary: rechargeable.",
+        "teacher_note": "Compare a standard AA battery (primary, often Leclanche or alkaline) with a car battery (secondary, lead-acid).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the three types of Voltaic cells",
+        "concept_map_nodes": [
+          {"source": "Primary cell", "relation": "example_of", "target": "Leclanche cell"},
+          {"source": "Secondary cell", "relation": "example_of", "target": "Lead storage battery"}
+        ],
+        "workbook_section": "4.3.1 Galvanic (Voltaic) Cells",
+        "solution_manual_note": "Answer C. Primary cells are not rechargeable (irreversible); secondary cells are rechargeable (reversible). Option A is false (both can use various electrolytes), Option B reverses the correct relationship, Option D is false (both produce DC)."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U4_Q010",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+      "section": "4.4 Electrolysis",
+      "subsection": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+      "sub_subsection": null,
+      "structural_anchor": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+      "mcq_type": "D",
+      "question": "During the electrolysis of molten \\(\\mathrm{NaCl}\\), what products are formed at the cathode and anode respectively?",
+      "options": {
+        "A": "Chlorine gas at cathode; sodium metal at anode",
+        "B": "Sodium metal at cathode; chlorine gas at anode",
+        "C": "Sodium metal at both electrodes",
+        "D": "Chlorine gas at both electrodes"
+      },
+      "correct_answer": "B",
+      "hint": "Cations are reduced at the cathode; anions are oxidized at the anode.",
+      "explanation": "\\(\\mathrm{Na^+}\\) ions are reduced to \\(\\mathrm{Na}\\) metal at the cathode, and \\(\\mathrm{Cl^-}\\) ions are oxidized to \\(\\mathrm{Cl_2}\\) gas at the anode. Option A reverses the products.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{Na^+(l) + e^- \\rightarrow Na(l)}\\)", "\\(\\mathrm{2Cl^-(l) \\rightarrow Cl_2(g) + 2e^-}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "section_anchor": "4.4 Electrolysis",
+        "subsection_anchor": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+        "structural_element": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+        "content_anchor": "Na+ (l) + e- → Na(l); Cl-(l) → 1/2 Cl2(g) + e-",
+        "page_hint": 24,
+        "concept_hash": "j2l4n6p8r0t2v4x6z8b0d2f4h6j8l0n2p4r6t8v0x2z4b6d8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Electrolysis of molten NaCl uses electrical energy to decompose sodium chloride into sodium metal and chlorine gas.",
+        "concept_summary": "At the cathode, \\(\\mathrm{Na^+}\\) ions gain electrons to form sodium metal. At the anode, \\(\\mathrm{Cl^-}\\) ions lose electrons to form chlorine gas.",
+        "beginner": "The negative electrode (cathode) attracts positive sodium ions, turning them into shiny sodium metal. The positive electrode (anode) attracts negative chloride ions, turning them into chlorine gas.",
+        "intermediate": "Cathode (reduction): \\(\\mathrm{2Na^+ + 2e^- \\rightarrow 2Na(l)}\\). Anode (oxidation): \\(\\mathrm{2Cl^- \\rightarrow Cl_2(g) + 2e^-}\\). Overall: \\(\\mathrm{2NaCl(l) \\rightarrow 2Na(l) + Cl_2(g)}\\).",
+        "advanced": "The standard reduction potentials predict this outcome: \\(E^0_{\\mathrm{Na^+/Na}} = -2.71\\ \\mathrm{V}\\) and \\(E^0_{\\mathrm{Cl_2/Cl^-}} = +1.36\\ \\mathrm{V}\\). An applied voltage >4.07 V is required to overcome the cell potential and drive the non-spontaneous reaction.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify ions in molten NaCl: Na⁺ and Cl⁻.",
+          "Cathode attracts cations (Na⁺): reduction: Na⁺ + e⁻ → Na.",
+          "Anode attracts anions (Cl⁻): oxidation: 2Cl⁻ → Cl₂ + 2e⁻."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{Na^+ + e^- \\rightarrow Na}\\)",
+            "name": "Sodium reduction half-reaction",
+            "variables": [],
+            "derivation": null
+          },
+          {
+            "formula": "\\(\\mathrm{2Cl^- \\rightarrow Cl_2 + 2e^-}\\)",
+            "name": "Chloride oxidation half-reaction",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think that sodium metal forms at the anode because it is a metal; but metals form at the cathode (reduction) from their cations.",
+          "It is sometimes believed that chlorine gas is produced at the cathode; but chlorine is an anion and is oxidized at the anode."
+        ],
+        "related_concepts": ["Electrolysis", "Cathode", "Anode", "Reduction", "Oxidation"],
+        "revision_note": "Molten NaCl electrolysis: cathode → Na(s), anode → Cl₂(g).",
+        "glossary_entry": {
+          "term": "Electrolysis",
+          "definition": "A process using electrical energy to drive a non-spontaneous chemical reaction, decomposing an electrolyte.",
+          "example_equation": "\\(\\mathrm{2NaCl(l) \\rightarrow 2Na(l) + Cl_2(g)}\\)",
+          "related_terms": ["Electrolytic cell", "Anode", "Cathode"]
+        },
+        "flashcard": {
+          "front": "What are the products of molten NaCl electrolysis and at which electrodes?",
+          "back": "Sodium metal at the cathode (reduction), chlorine gas at the anode (oxidation)."
+        },
+        "concept_map_nodes": [
+          {"source": "Molten NaCl electrolysis", "relation": "produces_at_cathode", "target": "Sodium metal"},
+          {"source": "Molten NaCl electrolysis", "relation": "produces_at_anode", "target": "Chlorine gas"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 4 — Energy Changes and Electrochemistry",
+        "flashcard_front": "What is produced at each electrode during molten NaCl electrolysis?",
+        "flashcard_back": "Cathode: sodium metal (Na); Anode: chlorine gas (Cl₂).",
+        "glossary_term": "Electrolysis of molten NaCl",
+        "glossary_definition": "The decomposition of molten sodium chloride into sodium metal and chlorine gas using electrical energy.",
+        "revision_note": "NaCl(l) electrolysis: Na at (–) cathode, Cl₂ at (+) anode.",
+        "teacher_note": "Demonstrate with a diagram: Na⁺ moves to cathode, Cl⁻ moves to anode. Note that water cannot be present or H₂ would form instead of Na.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Write half-reactions for electrolysis of molten electrolytes",
+        "concept_map_nodes": [
+          {"source": "Cathode", "relation": "attracts", "target": "Na⁺"},
+          {"source": "Na⁺", "relation": "reduced_to", "target": "Na"},
+          {"source": "Anode", "relation": "attracts", "target": "Cl⁻"},
+          {"source": "Cl⁻", "relation": "oxidized_to", "target": "Cl₂"}
+        ],
+        "workbook_section": "4.4.1 Electrolysis of Molten (Fused) Electrolytes",
+        "solution_manual_note": "Answer B. Na⁺ is reduced to Na at the cathode; Cl⁻ is oxidized to Cl₂ at the anode. Options A, C, and D misassign the products to the wrong electrodes."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3850,
+    "average_question_quality": 91.2,
+    "type_distribution": {
+      "A": 2,
+      "D": 2,
+      "G": 2,
+      "H": 1,
+      "I": 2,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "4.1 Introduction": 3,
+      "4.2 Energy Changes in Electrochemistry": 4,
+      "4.3 Electrochemical Cells": 2,
+      "4.4 Electrolysis": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 7
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

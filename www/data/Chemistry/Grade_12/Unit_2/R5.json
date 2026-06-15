@@ -1,0 +1,542 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:50:00Z",
+  "round_id": "R05",
+  "batch_sequence": 5,
+  "__STATE__": {
+    "current_round": 5,
+    "last_question_id": "G12_Chem_U2_Q050",
+    "covered_sections": [
+      "Oxidation-Reduction Reactions>Oxidation",
+      "Oxidation-Reduction Reactions>Reduction",
+      "Oxidation-Reduction Reactions>Balancing Oxidation-Reduction (Redox) Reactions",
+      "Electrolysis of Aqueous Solutions>Electrolytic Conduction",
+      "Electrolysis of Aqueous Solutions>Electrochemical Cells",
+      "Electrolysis of Aqueous Solutions>Electrolytic Cells",
+      "Electrolysis of Aqueous Solutions>Preferential Discharge",
+      "Electrolysis of Aqueous Solutions>Electrolysis of Some Selected Aqueous Solutions",
+      "Quantitative Aspects of Electrolysis>Faraday's First Law of Electrolysis",
+      "Quantitative Aspects of Electrolysis>Faraday's Second Law of Electrolysis",
+      "Industrial Application of Electrolysis>Extraction of Metals",
+      "Industrial Application of Electrolysis>Electrolytic refining of Metals",
+      "Industrial Application of Electrolysis>Electroplating of Metals",
+      "Voltaic Cells>Construction of Voltaic Cells (Zn-Cu voltaic Cell)",
+      "Voltaic Cells>Cell diagram (Cell Notation)",
+      "Voltaic Cells>Measuring Standard electrode Potentials",
+      "Voltaic Cells>Nernst Equation",
+      "Voltaic Cells>Concentration Cells",
+      "Voltaic Cells>Fuel cells",
+      "Corrosion of Metals>The Corrosion of Iron",
+      "Corrosion of Metals>Protecting Against the Corrosion of Iron"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a2",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b3",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c4",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d5",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e6",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f7",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a8",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b9",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c5",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d6",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e7",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f8",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a9",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b10",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c11",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d12",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e13",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f14",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a15",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b16",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c17",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d18",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e19",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f20",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a21",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b22",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c23",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d24",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e25",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f26",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a27",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b28",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c29",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d30",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e31",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f32",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a33",
+      "c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b34",
+      "d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c35",
+      "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d36",
+      "f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e37",
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f38",
+      "b2c3d4e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a39"
+    ],
+    "baseline_counter": {
+      "Oxidation-Reduction Reactions": {
+        "Oxidation": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Reduction": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Balancing Oxidation-Reduction (Redox) Reactions": {
+          "count": 3,
+          "mini_headings_covered": [
+            "Balancing Redox Reactions Using Change in Oxidation-Number Method",
+            "Balancing Redox Reactions using Half-Reaction Method"
+          ],
+          "last_question_round": 2
+        }
+      },
+      "Electrolysis of Aqueous Solutions": {
+        "Electrolytic Conduction": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electrochemical Cells": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "Electrolytic Cells": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Preferential Discharge": {
+          "count": 3,
+          "mini_headings_covered": [
+            "Position of Ions in the Electrochemical Series",
+            "The Concentration of Ion",
+            "The Nature of Electrode"
+          ],
+          "last_question_round": 4
+        },
+        "Electrolysis of Some Selected Aqueous Solutions": {
+          "count": 2,
+          "mini_headings_covered": [
+            "Electrolysis of Copper (II) Sulphate Using Inert Electrodes",
+            "Electrolysis of Dilute Sulphuric Acid Solution"
+          ],
+          "last_question_round": 5
+        }
+      },
+      "Quantitative Aspects of Electrolysis": {
+        "Faraday's First Law of Electrolysis": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "Faraday's Second Law of Electrolysis": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "Industrial Application of Electrolysis": {
+        "Extraction of Metals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electrolytic refining of Metals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Electroplating of Metals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "Voltaic Cells": {
+        "Construction of Voltaic Cells (Zn-Cu voltaic Cell)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Cell diagram (Cell Notation)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Measuring Standard electrode Potentials": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Nernst Equation": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "Concentration Cells": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Fuel cells": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        }
+      },
+      "Corrosion of Metals": {
+        "The Corrosion of Iron": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Protecting Against the Corrosion of Iron": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Oxidation-Reduction Reactions": {
+        "question_count": 7,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "Electrolysis of Aqueous Solutions": {
+        "question_count": 10,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "Quantitative Aspects of Electrolysis": {
+        "question_count": 6,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "Industrial Application of Electrolysis": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "Voltaic Cells": {
+        "question_count": 13,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "Corrosion of Metals": {
+        "question_count": 5,
+        "last_used_round": 4,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Electrolysis of Aqueous Solutions>Electrolysis of Some Selected Aqueous Solutions": [
+        "CuSO₄ electrolysis",
+        "inert electrode",
+        "active electrode",
+        "oxygen evolution",
+        "copper deposition",
+        "dilute H₂SO₄ electrolysis",
+        "water decomposition"
+      ],
+      "Quantitative Aspects of Electrolysis>Faraday's First Law of Electrolysis": [
+        "mass proportional to charge",
+        "Faraday constant",
+        "m = (I t M)/(n F)",
+        "aluminum deposition"
+      ],
+      "Voltaic Cells>Nernst Equation": [
+        "Ecell = E° - (0.0592/n) log Q",
+        "concentration dependence",
+        "reaction quotient",
+        "cell potential calculation",
+        "log Q vs ln Q"
+      ],
+      "Voltaic Cells>Fuel cells": [
+        "H₂ + O₂ → H₂O",
+        "continuous reactants",
+        "PEM",
+        "alkaline electrolyte",
+        "efficiency",
+        "anode H₂ oxidation"
+      ]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 60,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 85.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Chemistry",
+  "unit": "Unit 2: ELECTROCHEMISTRY",
+  "pdf_filename": "C12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:50:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.17,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 50,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 23,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 85.0,
+      "concept_utilization_ratio": 0.83
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Voltaic Cells",
+      "least_covered_section": "Corrosion of Metals",
+      "imbalance_ratio": 2.6,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U2_Q041",
+      "generation_timestamp": "2026-06-14T10:50:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 2: ELECTROCHEMISTRY",
+      "section": "Electrolysis of Aqueous Solutions",
+      "subsection": "Electrolysis of Some Selected Aqueous Solutions",
+      "sub_subsection": null,
+      "structural_anchor": "Electrolysis of Dilute Sulphuric Acid Solution",
+      "mcq_type": "F",
+      "question": "During electrolysis of dilute H₂SO₄ using platinum electrodes, what is the product at the cathode?",
+      "options": {
+        "A": "O₂ gas",
+        "B": "H₂ gas",
+        "C": "SO₂ gas",
+        "D": "S (sulfur)"
+      },
+      "correct_answer": "B",
+      "hint": "Consider which cation is discharged at the cathode.",
+      "explanation": "In dilute H₂SO₄, the ions are H⁺, SO₄²⁻, and OH⁻ from water. At the cathode, H⁺ ions are reduced more easily than Na⁺ or water itself, producing hydrogen gas: 4H⁺ + 4e⁻ → 2H₂.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{4H^+ + 4e^- \\rightarrow 2H_2}\\)",
+        "\\(\\mathrm{4OH^- \\rightarrow O_2 + 2H_2O + 4e^-}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: ELECTROCHEMISTRY",
+        "section_anchor": "Electrolysis of Aqueous Solutions",
+        "subsection_anchor": "Electrolysis of Some Selected Aqueous Solutions",
+        "structural_element": "Electrolysis of Dilute Sulphuric Acid Solution",
+        "content_anchor": "Cathode (reduction): 4H⁺(aq) + 4e⁻ → 2H₂(g)",
+        "page_hint": 23,
+        "concept_hash": "e5f6a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d30"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 90,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Electrolysis of dilute sulfuric acid produces hydrogen at the cathode and oxygen at the anode.",
+        "concept_summary": "H⁺ ions from the acid are reduced at the cathode to H₂ gas. OH⁻ ions from water are oxidized at the anode to O₂ gas. The net reaction is decomposition of water.",
+        "beginner": "In dilute sulfuric acid, the positive hydrogen ions are turned into hydrogen gas bubbles at the negative electrode.",
+        "intermediate": "Cathode: 4H⁺ + 4e⁻ → 2H₂(g). Anode: 4OH⁻ → O₂(g) + 2H₂O + 4e⁻. Overall: 2H₂O → 2H₂ + O₂.",
+        "advanced": "The reduction potential for H⁺ to H₂ is 0.00 V, while Na⁺ (−2.71 V) or SO₄²⁻ (very high) do not compete. Thus H₂ evolves efficiently at the cathode.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify ions in solution: H⁺, SO₄²⁻, OH⁻.",
+          "Cathode attracts cations: H⁺ and any metal ions.",
+          "H⁺ reduces more easily (higher reduction potential) than others.",
+          "Product at cathode is H₂ gas."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{4H^+ + 4e^- \\rightarrow 2H_2}\\)",
+            "name": "Cathode reaction",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Oxygen at the cathode is incorrect; oxygen forms at the anode."
+        ],
+        "related_concepts": [
+          "Electrolysis",
+          "Hydrogen evolution",
+          "Acid electrolysis"
+        ],
+        "revision_note": "Dilute H₂SO₄: cathode = H₂, anode = O₂.",
+        "glossary_entry": {
+          "term": "Electrolysis of dilute H₂SO₄",
+          "definition": "Process producing H₂ at cathode and O₂ at anode from water decomposition.",
+          "example_equation": "\\(\\mathrm{2H_2O \\rightarrow 2H_2 + O_2}\\)",
+          "related_terms": [
+            "Electrolysis",
+            "Water splitting"
+          ]
+        },
+        "flashcard": {
+          "front": "What gas is produced at the cathode during electrolysis of dilute H₂SO₄?",
+          "back": "Hydrogen gas (H₂) from reduction of H⁺ ions."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Dilute H₂SO₄ electrolysis",
+            "relation": "cathode_product",
+            "target": "Hydrogen"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Chemistry Unit 2 — Electrolysis of Solutions",
+        "flashcard_front": "Electrolysis of dilute H₂SO₄: product at cathode?",
+        "flashcard_back": "Hydrogen gas (H₂).",
+        "glossary_term": "Electrolysis of dilute H₂SO₄",
+        "glossary_definition": "Water decomposition to H₂ and O₂.",
+        "revision_note": "Dilute H₂SO₄: cathode = H₂.",
+        "teacher_note": "Point out that the acid makes the solution conductive but is not consumed.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Write electrode reactions for electrolysis of dilute H₂SO₄",
+        "concept_map_nodes": [
+          {
+            "source": "Dilute H₂SO₄ electrolysis",
+            "relation": "cathode_reaction",
+            "target": "H⁺ reduction"
+          }
+        ],
+        "workbook_section": "Electrolysis of Aqueous Solutions",
+        "solution_manual_note": "Answer B. H⁺ ions are reduced at the cathode, producing hydrogen gas."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1667 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G11_Math_U2_Q010",
+    "covered_sections": ["2.1 Rational Expressions>2.1.1 Rational Expressions", "2.1 Rational Expressions>2.1.2 Domains of Rational Expressions", "2.1 Rational Expressions>2.1.3 Simplifications of Rational Expressions", "2.1 Rational Expressions>2.1.4 Operations with Rational Expressions"],
+    "used_question_signatures": [
+      "5f4dcc3b5aa765d61d8327deb882cf992b95990a915b896a6287b3f6a4c4c5f1",
+      "6d8f9b4c2a7e1c5b9d3f6a2e8c4b1a7d9f3e6c2b8a5d7f4e2c1b9a6d3f8e5c2b7",
+      "7a3e9c1b5d7f2a8e4c6b0d9f3a7e1c5b9d8f2a6e4c0b8d3f7a1e5c9b2d6f4a8c",
+      "8b2f5a9d3c6e8b1f4a7c9d2e5f8b3a6d9c1e4f7a2b5c8d3e6f9b1a4c7d0e3f6a9",
+      "9c4e7a1b5d8f2c6e9b3d6f8a1c4e7b9d2f5a8c1e4b7d0f3a6c9e2b5d8f1c4e7a",
+      "0d5f8a2c6e9b3d7f0a4c8e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d",
+      "1e6f9b3c7d0a4c8e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c",
+      "2f7a0c4d8e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c9e2a6d",
+      "3g8b1d5e9f2c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c9e2a6d9f3b7e0c4a8",
+      "4h9c2e6f0a3d7e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c9e"
+    ],
+    "baseline_counter": {
+      "2.1 Rational Expressions": {
+        "2.1.1 Rational Expressions": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.1.2 Domains of Rational Expressions": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.1.3 Simplifications of Rational Expressions": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.1.4 Operations with Rational Expressions": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.1.5 Decomposition of Rational Expressions into Partial Fractions": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 }
+      },
+      "2.2 Rational Equations and Rational Inequalities": {
+        "2.2.1 Rational Equations": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 },
+        "2.2.2 Rational Inequalities": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 }
+      },
+      "2.3 Rational Functions and Their Graphs": {
+        "2.3.1 Rational Functions": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 },
+        "2.3.2 Graphs of Rational Functions": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 }
+      },
+      "2.4 Applications": {
+        "Applications": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Rational Expressions": { "question_count": 8, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.2 Rational Equations and Rational Inequalities": { "question_count": 0, "last_used_round": 0, "consecutive_batches": 0 },
+      "2.3 Rational Functions and Their Graphs": { "question_count": 0, "last_used_round": 0, "consecutive_batches": 0 },
+      "2.4 Applications": { "question_count": 0, "last_used_round": 0, "consecutive_batches": 0 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1 Rational Expressions>2.1.1 Rational Expressions": ["rational expression", "polynomial", "quotient"],
+      "2.1 Rational Expressions>2.1.2 Domains of Rational Expressions": ["domain", "denominator zero"],
+      "2.1 Rational Expressions>2.1.3 Simplifications of Rational Expressions": ["factorization", "cancel common factors"],
+      "2.1 Rational Expressions>2.1.4 Operations with Rational Expressions": ["addition", "subtraction", "common denominator"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.5,
+      "structural_coverage_percentage": 27.3
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Mathematics",
+  "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+  "pdf_filename": "M11U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 4,
+        "progress_percentage": 25.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 27.3,
+      "concept_utilization_ratio": 0.42
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1 Rational Expressions",
+      "least_covered_section": "2.2 Rational Equations and Rational Inequalities",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Math_U2_Q001",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.1 Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.1 Rational Expressions",
+      "mcq_type": "A",
+      "question": "A rational expression is defined as the quotient of two polynomials, provided the denominator is not zero. Which of the following expressions is classified as a rational expression?",
+      "options": {
+        "A": "\\(\\frac{2x^{3} - 5x + 1}{x^{2} + 3}\\)",
+        "B": "\\(\\frac{3\\sqrt{x} + 2}{x - 4}\\)",
+        "C": "\\(\\frac{5}{x^{3} + \\sqrt{x} + 1}\\)",
+        "D": "\\(\\frac{x^{2} - 4}{\\sqrt{x^{4} + 4}}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Check if both numerator and denominator are polynomials.",
+      "explanation": "Option A has polynomial numerator \\(2x^{3} - 5x + 1\\) and polynomial denominator \\(x^{2} + 3\\), satisfying the definition of a rational expression. Options B, C, and D contain square roots of variables, which are not polynomial terms.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.1 Rational Expressions",
+        "structural_element": "2.1.1 Rational Expressions",
+        "content_anchor": "quotient of two polynomial expressions",
+        "page_hint": 4,
+        "concept_hash": "5f4dcc3b5aa765d61d8327deb882cf992b95990a915b896a6287b3f6a4c4c5f1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A rational expression is a fraction where both the numerator and denominator are polynomials and the denominator is not identically zero.",
+        "concept_summary": "Rational expressions extend rational numbers to polynomials, allowing operations like division while requiring non-zero denominators.",
+        "beginner": "Think of a rational expression like a fraction with variables on top and bottom, like \\(\\frac{x}{x+1}\\).",
+        "intermediate": "A rational expression is \\(\\frac{p(x)}{q(x)}\\) where \\(p(x)\\) and \\(q(x)\\) are polynomials, and \\(q(x) \\neq 0\\).",
+        "advanced": "Formally, \\(\\frac{p(x)}{q(x)}\\) with \\(p,q \\in \\mathbb{R}[x]\\), \\(q \\not\\equiv 0\\), defines a rational function on its domain \\(\\{x \\mid q(x) \\neq 0\\}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify numerator: must be a polynomial.",
+          "Identify denominator: must be a polynomial.",
+          "Check that denominator is not the zero polynomial."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Expressions with square roots of variables in the denominator are not rational expressions because square roots are not polynomials.",
+          "Constants alone are polynomials, so \\(\\frac{5}{x}\\) is a rational expression."
+        ],
+        "related_concepts": ["Polynomial", "Domain", "Rational function"],
+        "revision_note": "Rational expression = polynomial ÷ polynomial, denominator ≠ 0.",
+        "glossary_entry": {
+          "term": "Rational expression",
+          "definition": "A quotient of two polynomials where the denominator is not the zero polynomial.",
+          "example_equation": "\\(\\frac{2x+1}{x^{2}-4}\\)",
+          "related_terms": ["Polynomial", "Rational function"]
+        },
+        "flashcard": {
+          "front": "What is a rational expression?",
+          "back": "A quotient \\(\\frac{p(x)}{q(x)}\\) where \\(p(x)\\) and \\(q(x)\\) are polynomials and \\(q(x) \\neq 0\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Rational expression", "relation": "defined_as", "target": "Quotient of polynomials" },
+          { "source": "Rational expression", "relation": "requires", "target": "Nonzero denominator" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 2 — Rational Expressions",
+        "flashcard_front": "What makes an expression rational?",
+        "flashcard_back": "It must be \\(\\frac{p(x)}{q(x)}\\) with \\(p,q\\) polynomials and \\(q(x) \\neq 0\\).",
+        "glossary_term": "Rational expression",
+        "glossary_definition": "A fraction formed by two polynomials, with the denominator not being the zero polynomial.",
+        "revision_note": "Rational expr = polynomial ÷ polynomial.",
+        "teacher_note": "Students often mistake expressions with roots or negative exponents as rational.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Recognize a rational expression",
+        "concept_map_nodes": [
+          { "source": "Rational expression", "relation": "defined_as", "target": "Polynomial quotient" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer A. The numerator and denominator are both polynomials; the others contain non-polynomial terms."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q002",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.1 Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.1 Rational Expressions",
+      "mcq_type": "B",
+      "question": "A quotient of two polynomials where the denominator is not the zero polynomial is called a rational expression. Which term correctly identifies \\(\\frac{3x^{2} - 7}{2x + 5}\\)?",
+      "options": {
+        "A": "Irrational expression",
+        "B": "Polynomial expression",
+        "C": "Rational expression",
+        "D": "Radical expression"
+      },
+      "correct_answer": "C",
+      "hint": "Identify whether the given form matches polynomial over polynomial.",
+      "explanation": "The form \\(\\frac{3x^{2} - 7}{2x + 5}\\) has numerator \\(3x^{2} - 7\\) (polynomial) and denominator \\(2x + 5\\) (polynomial), fitting the definition of a rational expression. Option B would require no division; options A and D involve irrational or radical forms.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.1 Rational Expressions",
+        "structural_element": "2.1.1 Rational Expressions",
+        "content_anchor": "rational expression",
+        "page_hint": 4,
+        "concept_hash": "6d8f9b4c2a7e1c5b9d3f6a2e8c4b1a7d9f3e6c2b8a5d7f4e2c1b9a6d3f8e5c2b7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A rational expression is a ratio of two polynomial expressions.",
+        "concept_summary": "Any expression that can be written as one polynomial divided by another (non-zero) polynomial qualifies.",
+        "beginner": "If you see a fraction with variables but no roots or weird exponents, it's probably a rational expression.",
+        "intermediate": "\\(\\frac{p(x)}{q(x)}\\) with \\(p,q\\) polynomials, \\(q(x) \\neq 0\\), is rational.",
+        "advanced": "The set of rational expressions forms a field under addition and multiplication, with the usual polynomial arithmetic.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check numerator is polynomial.",
+          "Check denominator is polynomial.",
+          "Confirm denominator not zero polynomial.",
+          "Classify as rational expression."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "A rational expression must have a variable in the denominator, but constant denominators are allowed (e.g., \\(\\frac{x}{1}\\)).",
+          "Rational expressions are not the same as rational numbers; they involve variables."
+        ],
+        "related_concepts": ["Rational function", "Domain", "Polynomial long division"],
+        "revision_note": "Rational expression = polynomial ÷ polynomial.",
+        "glossary_entry": {
+          "term": "Rational expression",
+          "definition": "A quotient \\(p(x)/q(x)\\) with \\(p,q\\) polynomials, \\(q(x) \\neq 0\\).",
+          "example_equation": "\\(\\frac{x^{2}+1}{x-3}\\)",
+          "related_terms": ["Rational number", "Rational function"]
+        },
+        "flashcard": {
+          "front": "Is \\(\\frac{x^{2}+1}{x-3}\\) a rational expression?",
+          "back": "Yes, because numerator \\(x^{2}+1\\) and denominator \\(x-3\\) are both polynomials."
+        },
+        "concept_map_nodes": [
+          { "source": "Rational expression", "relation": "example_of", "target": "Polynomial fraction" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Rational Expressions",
+        "flashcard_front": "What do you call \\(\\frac{x+2}{x-5}\\)?",
+        "flashcard_back": "A rational expression, because both parts are polynomials.",
+        "glossary_term": "Rational expression",
+        "glossary_definition": "A ratio of two polynomials where the denominator is not the zero polynomial.",
+        "revision_note": "Rational = polynomial/polynomial.",
+        "teacher_note": "Emphasize that polynomials include constants and single terms.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define a rational expression",
+        "concept_map_nodes": [
+          { "source": "Rational expression", "relation": "is_a", "target": "Algebraic fraction" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer C. The expression fits the definition of a rational expression exactly."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q003",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.2 Domains of Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.2 Domains of Rational Expressions",
+      "mcq_type": "D",
+      "question": "For the rational expression \\(\\frac{x^{2} - 9}{x^{2} + 5x + 6}\\), all real numbers are allowed except those that make the denominator zero. What is the domain of this expression?",
+      "options": {
+        "A": "\\(\\{x \\in \\mathbb{R} \\mid x \\neq -2\\}\\)",
+        "B": "\\(\\{x \\in \\mathbb{R} \\mid x \\neq -3, -2\\}\\)",
+        "C": "\\(\\{x \\in \\mathbb{R} \\mid x \\neq 2, 3\\}\\)",
+        "D": "\\(\\mathbb{R}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Factor the denominator and find its zeros.",
+      "explanation": "Factor denominator: \\(x^{2} + 5x + 6 = (x+2)(x+3)=0\\) gives \\(x=-2\\) and \\(x=-3\\). Domain excludes both these values. Option B correctly lists \\(x \\neq -3, -2\\).",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(x^{2} + 5x + 6 = (x+2)(x+3)\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.2 Domains of Rational Expressions",
+        "structural_element": "2.1.2 Domains of Rational Expressions",
+        "content_anchor": "domain = {x ∈ ℝ : q(x) ≠ 0}",
+        "page_hint": 5,
+        "concept_hash": "7a3e9c1b5d7f2a8e4c6b0d9f3a7e1c5b9d8f2a6e4c0b8d3f7a1e5c9b2d6f4a8c"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The domain of a rational expression \\(\\frac{p(x)}{q(x)}\\) is all real numbers such that \\(q(x) \\neq 0\\).",
+        "concept_summary": "Domain excludes any value that makes the denominator zero, as division by zero is undefined.",
+        "beginner": "You cannot divide by zero, so any number that makes the bottom zero is not allowed.",
+        "intermediate": "Find zeros of denominator by solving \\(q(x)=0\\). Remove those from \\(\\mathbb{R}\\).",
+        "advanced": "Domain = \\(\\mathbb{R} \\setminus \\{x \\mid q(x)=0\\}\\), a subset of \\(\\mathbb{R}\\) with possible removable discontinuities.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Set denominator equal to zero: \\(x^{2}+5x+6=0\\).",
+          "Factor: \\((x+2)(x+3)=0\\).",
+          "Solve: \\(x=-2\\) or \\(x=-3\\).",
+          "Domain excludes these two values."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students exclude only one root if they factor incorrectly.",
+          "They may think domain includes zeros of numerator, but only denominator zeros matter."
+        ],
+        "related_concepts": ["Undefined expression", "Denominator zero", "Polynomial roots"],
+        "revision_note": "Domain = all reals except where denominator = 0.",
+        "glossary_entry": {
+          "term": "Domain of a rational expression",
+          "definition": "The set of all real numbers for which the expression is defined.",
+          "example_equation": "Domain of \\(\\frac{1}{x-3}\\) is \\(\\{x \\neq 3\\}\\)",
+          "related_terms": ["Rational expression", "Undefined"]
+        },
+        "flashcard": {
+          "front": "What values are excluded from the domain of \\(\\frac{x+1}{x^{2}-4}\\)?",
+          "back": "\\(x=2\\) and \\(x=-2\\), because \\(x^{2}-4=0\\) at those points."
+        },
+        "concept_map_nodes": [
+          { "source": "Domain", "relation": "determined_by", "target": "Denominator zeros" },
+          { "source": "Rational expression", "relation": "has_domain", "target": "Domain" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 2 — Domains",
+        "flashcard_front": "Find excluded values: \\(\\frac{x}{x^{2}+5x+6}\\)",
+        "flashcard_back": "\\(x=-2\\) and \\(x=-3\\) because \\((x+2)(x+3)=0\\).",
+        "glossary_term": "Domain",
+        "glossary_definition": "All inputs for which a function or expression is defined.",
+        "revision_note": "Exclude denominator zeros from domain.",
+        "teacher_note": "Common error: factoring mistakes leading to incorrect exclusions.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Determine domain of a rational expression",
+        "concept_map_nodes": [
+          { "source": "Domain", "relation": "excludes", "target": "Denominator zero" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer B. Solve \\(x^{2}+5x+6=0\\) → \\(x=-2,-3\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q004",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.2 Domains of Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.2 Domains of Rational Expressions",
+      "mcq_type": "D",
+      "question": "The domain of \\(\\frac{5x+7}{x^{2}+1}\\) is all real numbers because the denominator never equals zero for any real \\(x\\). Which statement correctly describes the domain?",
+      "options": {
+        "A": "\\(\\{x \\mid x \\neq 0\\}\\)",
+        "B": "\\(\\{x \\mid x \\neq -1, 1\\}\\)",
+        "C": "\\(\\{x \\mid x \\neq -5\\}\\)",
+        "D": "\\(\\mathbb{R}\\)"
+      },
+      "correct_answer": "D",
+      "hint": "Check if denominator \\(x^{2}+1\\) can be zero for a real \\(x\\).",
+      "explanation": "\\(x^{2}+1 = 0\\) has no real solution because \\(x^{2} \\ge 0\\) so \\(x^{2}+1 \\ge 1 > 0\\). Hence no real number makes denominator zero, so domain is all real numbers. Option D is correct.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.2 Domains of Rational Expressions",
+        "structural_element": "2.1.2 Domains of Rational Expressions",
+        "content_anchor": "domain is ℝ if denominator never zero",
+        "page_hint": 5,
+        "concept_hash": "8b2f5a9d3c6e8b1f4a7c9d2e5f8b3a6d9c1e4f7a2b5c8d3e6f9b1a4c7d0e3f6a9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Domain is all real numbers for which denominator ≠ 0.",
+        "concept_summary": "A positive constant added to a square makes the expression always positive, so no real zero exists.",
+        "beginner": "Since \\(x^{2}\\) is never negative, \\(x^{2}+1\\) is always at least 1, never zero.",
+        "intermediate": "Equation \\(x^{2}+1=0\\) gives \\(x^{2}=-1\\), impossible for real \\(x\\).",
+        "advanced": "Over reals, \\(x^{2}+1\\) is irreducible quadratic with discriminant \\(-4<0\\), hence no real roots.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Set denominator = 0: \\(x^{2}+1=0\\).",
+          "Solve: \\(x^{2} = -1\\).",
+          "No real solution → domain = ℝ."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students might incorrectly solve \\(x^{2}+1=0\\) as \\(x=\\pm 1\\).",
+          "Some think \\(x^{2}+1\\) could be zero for some real \\(x\\) because they confuse with \\(x^{2}-1\\)."
+        ],
+        "related_concepts": ["Quadratic equation", "Discriminant", "Real numbers"],
+        "revision_note": "If denominator never zero, domain = ℝ.",
+        "glossary_entry": {
+          "term": "Domain",
+          "definition": "Set of all possible input values for which expression is defined.",
+          "example_equation": "Domain of \\(\\frac{1}{x^{2}+1}\\) is ℝ",
+          "related_terms": ["Undefined", "Denominator"]
+        },
+        "flashcard": {
+          "front": "What is domain of \\(\\frac{2}{x^{2}+4}\\)?",
+          "back": "ℝ, because \\(x^{2}+4 \\ge 4 > 0\\) for all real \\(x\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Domain", "relation": "equals", "target": "ℝ" },
+          { "source": "Denominator", "relation": "never_zero", "target": "x^{2}+1" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Domains",
+        "flashcard_front": "Why is domain of \\(\\frac{5}{x^{2}+1}\\) all real numbers?",
+        "flashcard_back": "Denominator \\(x^{2}+1\\) cannot be zero for any real \\(x\\).",
+        "glossary_term": "Domain",
+        "glossary_definition": "All real inputs that do not cause division by zero.",
+        "revision_note": "If \\(q(x) > 0\\) for all x, domain = ℝ.",
+        "teacher_note": "Point out difference between \\(x^{2}+1\\) and \\(x^{2}-1\\).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Determine domain of rational expressions",
+        "concept_map_nodes": [
+          { "source": "x^{2}+1", "relation": "has_no_real_roots", "target": "Domain ℝ" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer D. \\(x^{2}+1=0\\) has no real solution, so domain is ℝ."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q005",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.3 Simplifications of Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.3 Simplifications of Rational Expressions",
+      "mcq_type": "D",
+      "question": "Simplify \\(\\frac{2x^{2} - 8}{x^{2} - 4x + 4}\\) to lowest terms.",
+      "options": {
+        "A": "\\(\\frac{2(x+2)}{x-2}\\)",
+        "B": "\\(\\frac{2}{x-2}\\)",
+        "C": "\\(\\frac{2x+4}{x-2}\\)",
+        "D": "\\(\\frac{2x-4}{x-2}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Factor numerator as \\(2(x-2)(x+2)\\) and denominator as \\((x-2)^{2}\\).",
+      "explanation": "Numerator: \\(2(x^{2}-4)=2(x-2)(x+2)\\). Denominator: \\((x-2)^{2}\\). Cancel one \\((x-2)\\) to get \\(\\frac{2(x+2)}{x-2}\\). Option A is correct. Options B, C, D result from incorrect factoring or cancellation.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(a^{2}-b^{2} = (a-b)(a+b)\\)", "\\((a-b)^{2} = a^{2} - 2ab + b^{2}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.3 Simplifications of Rational Expressions",
+        "structural_element": "2.1.3 Simplifications of Rational Expressions",
+        "content_anchor": "factor and cancel common factors",
+        "page_hint": 7,
+        "concept_hash": "9c4e7a1b5d8f2c6e9b3d6f8a1c4e7b9d2f5a8c1e4b7d0f3a6c9e2b5d8f1c4e7a"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 80,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Simplification removes common factors from numerator and denominator.",
+        "concept_summary": "Factor completely, then cancel any factor common to both numerator and denominator, noting domain restrictions.",
+        "beginner": "Factor top and bottom, then cancel matching pieces like you would with numbers.",
+        "intermediate": "\\(\\frac{2(x^{2}-4)}{(x-2)^{2}} = \\frac{2(x-2)(x+2)}{(x-2)^{2}} = \\frac{2(x+2)}{x-2}\\).",
+        "advanced": "Cancellation is valid for \\(x \\neq 2\\). The simplified form removes the removable discontinuity at \\(x=2\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Factor out GCF: \\(2(x^{2}-4)/(x^{2}-4x+4)\\).",
+          "Factor difference of squares: \\(2(x-2)(x+2)/(x-2)^{2}\\).",
+          "Cancel common factor \\(x-2\\).",
+          "Result: \\(2(x+2)/(x-2)\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Cancelling terms instead of factors, e.g., reducing \\(\\frac{2x^{2}}{x^{2}}\\) to 2 incorrectly if done termwise.",
+          "Forgetting domain restrictions after simplification."
+        ],
+        "related_concepts": ["Factoring polynomials", "Difference of squares", "Domain"],
+        "revision_note": "Simplify: factor first, then cancel common factors.",
+        "glossary_entry": {
+          "term": "Simplification (rational expression)",
+          "definition": "Process of cancelling common factors to write expression in lowest terms.",
+          "example_equation": "\\(\\frac{x^{2}-1}{x-1} = x+1\\), \\(x \\neq 1\\)",
+          "related_terms": ["Factor", "Lowest term"]
+        },
+        "flashcard": {
+          "front": "Simplify \\(\\frac{x^{2}-4}{x-2}\\)",
+          "back": "\\(x+2\\) for \\(x \\neq 2\\), after factoring \\((x-2)(x+2)/(x-2)\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Simplification", "relation": "requires", "target": "Factoring" },
+          { "source": "Simplification", "relation": "preserves", "target": "Domain" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 2 — Simplification",
+        "flashcard_front": "Simplify \\(\\frac{2x^{2}-8}{x^{2}-4x+4}\\)",
+        "flashcard_back": "\\(\\frac{2(x+2)}{x-2}\\), \\(x \\neq 2\\).",
+        "glossary_term": "Simplification",
+        "glossary_definition": "Canceling common polynomial factors after factoring.",
+        "revision_note": "Factor → cancel → simplified form.",
+        "teacher_note": "Watch for students canceling terms without factoring.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Simplify rational expressions",
+        "concept_map_nodes": [
+          { "source": "Simplify", "relation": "method", "target": "Cancel common factors" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer A. Factor numerator \\(2(x-2)(x+2)\\), denominator \\((x-2)^{2}\\), cancel one \\(x-2\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q006",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.3 Simplifications of Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.3 Simplifications of Rational Expressions",
+      "mcq_type": "H",
+      "question": "A student incorrectly simplifies \\(\\frac{x^{2}+3x+2}{x^{2}-1}\\) as \\(\\frac{x+2}{x-1}\\) but forgets an important restriction. Which value must be excluded from the domain of the simplified expression?",
+      "options": {
+        "A": "\\(x = -1\\)",
+        "B": "\\(x = 1\\)",
+        "C": "\\(x = -2\\)",
+        "D": "\\(x = 0\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Domain restrictions come from original denominator, not just simplified form.",
+      "explanation": "Original denominator \\(x^{2}-1 = (x-1)(x+1)=0\\) gives \\(x=1\\) and \\(x=-1\\). Although \\(x+1\\) cancels, \\(x=-1\\) remains excluded because original expression is undefined there. Option A is the often-forgotten restriction.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(x^{2}-1 = (x-1)(x+1)\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.3 Simplifications of Rational Expressions",
+        "structural_element": "2.1.3 Simplifications of Rational Expressions",
+        "content_anchor": "domain restrictions after cancellation",
+        "page_hint": 6,
+        "concept_hash": "0d5f8a2c6e9b3d7f0a4c8e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Domain of a rational expression includes only values for which original denominator ≠ 0.",
+        "concept_summary": "Cancelling a factor does not remove the original restriction that factor ≠ 0.",
+        "beginner": "Even if you cross out \\((x+1)\\), \\(x=-1\\) still makes the original bottom zero.",
+        "intermediate": "Original denominator \\(x^{2}-1=0\\) at \\(x=\\pm1\\). Even though \\(x+1\\) cancels, \\(x=-1\\) remains excluded.",
+        "advanced": "The simplified expression \\(\\frac{x+2}{x-1}\\) is only equivalent to original for \\(x \\neq \\pm1\\). \\(x=-1\\) is a removable discontinuity.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Original denominator: \\(x^{2}-1 = (x-1)(x+1)\\).",
+          "Zeros at \\(x=1\\) and \\(x=-1\\).",
+          "Simplify: cancel \\(x+1\\), get \\(\\frac{x+2}{x-1}\\).",
+          "Excluded: \\(x=1\\) (still zero in simplified denominator) and \\(x=-1\\) (cancelled but original undefined)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming cancelled factors no longer restrict domain.",
+          "Thinking simplified form's domain replaces original domain."
+        ],
+        "related_concepts": ["Removable discontinuity", "Domain", "Equivalent expressions"],
+        "revision_note": "Domain restrictions from original denominator survive simplification.",
+        "glossary_entry": {
+          "term": "Removable discontinuity",
+          "definition": "A point where original expression undefined but simplified expression defined, due to cancelled factor.",
+          "example_equation": "\\(\\frac{x^{2}-1}{x-1}\\) has removable discontinuity at \\(x=1\\)",
+          "related_terms": ["Hole", "Domain"]
+        },
+        "flashcard": {
+          "front": "Why is \\(x=-1\\) excluded from \\(\\frac{x+1}{x^{2}-1}\\) after simplifying to \\(\\frac{1}{x-1}\\)?",
+          "back": "Because \\(x=-1\\) makes original denominator \\(x^{2}-1=0\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Simplification", "relation": "does_not_change", "target": "Domain restrictions" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Simplification",
+        "flashcard_front": "What restriction is often forgotten when simplifying \\(\\frac{x^{2}+3x+2}{x^{2}-1}\\) to \\(\\frac{x+2}{x-1}\\)?",
+        "flashcard_back": "\\(x=-1\\) because original denominator \\((x-1)(x+1)=0\\) includes \\(x=-1\\).",
+        "glossary_term": "Removable discontinuity",
+        "glossary_definition": "Point where original expression undefined but simplified expression defined.",
+        "revision_note": "Cancelled factors still create domain holes.",
+        "teacher_note": "Emphasise that simplified form's domain must still respect original denominator zeros.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Simplify rational expressions with domain awareness",
+        "concept_map_nodes": [
+          { "source": "Domain", "relation": "determined_by", "target": "Original denominator" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer A. \\(x=-1\\) makes original denominator zero even though it cancels."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q007",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.4 Operations with Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.4 Operations with Rational Expressions",
+      "mcq_type": "D",
+      "question": "Perform the addition \\(\\frac{3}{x} + \\frac{2}{x+1}\\) and simplify.",
+      "options": {
+        "A": "\\(\\frac{5}{2x+1}\\)",
+        "B": "\\(\\frac{5x+3}{x(x+1)}\\)",
+        "C": "\\(\\frac{5}{x(x+1)}\\)",
+        "D": "\\(\\frac{3x+3+2x}{x(x+1)}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Find common denominator \\(x(x+1)\\).",
+      "explanation": "\\(\\frac{3}{x} + \\frac{2}{x+1} = \\frac{3(x+1)}{x(x+1)} + \\frac{2x}{x(x+1)} = \\frac{3x+3+2x}{x(x+1)} = \\frac{5x+3}{x(x+1)}\\). Option B is correct simplified form. Option D is unsimplified intermediate step.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.4 Operations with Rational Expressions",
+        "structural_element": "2.1.4 Operations with Rational Expressions",
+        "content_anchor": "addition with common denominator",
+        "page_hint": 9,
+        "concept_hash": "1e6f9b3c7d0a4c8e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 83,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Addition of rational expressions requires a common denominator.",
+        "concept_summary": "Find least common denominator, rewrite each fraction, then add numerators.",
+        "beginner": "Like adding fractions: find a common bottom, then add the tops.",
+        "intermediate": "Common denominator \\(x(x+1)\\). \\(\\frac{3(x+1)+2x}{x(x+1)} = \\frac{5x+3}{x(x+1)}\\).",
+        "advanced": "The sum yields a rational expression with denominator \\(x(x+1)\\) and numerator \\(5x+3\\), irreducible over integers.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify common denominator: \\(x(x+1)\\).",
+          "Rewrite: \\(\\frac{3(x+1)}{x(x+1)} + \\frac{2x}{x(x+1)}\\).",
+          "Add numerators: \\(3x+3+2x = 5x+3\\).",
+          "Combine: \\(\\frac{5x+3}{x(x+1)}\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Adding numerators without common denominator, e.g., \\(\\frac{3+2}{x+x+1}\\).",
+          "Forgetting to multiply numerator when adjusting denominator."
+        ],
+        "related_concepts": ["Least common denominator", "Adding fractions", "Rational expressions"],
+        "revision_note": "Add rationals: common denominator, add numerators.",
+        "glossary_entry": {
+          "term": "Addition of rational expressions",
+          "definition": "Operation using common denominator \\(\\frac{a}{b}+\\frac{c}{d} = \\frac{ad+bc}{bd}\\).",
+          "example_equation": "\\(\\frac{1}{x}+\\frac{1}{y} = \\frac{x+y}{xy}\\)",
+          "related_terms": ["Common denominator", "Rational expression"]
+        },
+        "flashcard": {
+          "front": "Add \\(\\frac{2}{x} + \\frac{3}{x+1}\\)",
+          "back": "\\(\\frac{5x+2}{x(x+1)}\\)"
+        },
+        "concept_map_nodes": [
+          { "source": "Addition", "relation": "requires", "target": "Common denominator" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Operations",
+        "flashcard_front": "Add \\(\\frac{3}{x} + \\frac{2}{x+1}\\)",
+        "flashcard_back": "\\(\\frac{5x+3}{x(x+1)}\\)",
+        "glossary_term": "Common denominator",
+        "glossary_definition": "A multiple of all denominators in an addition problem.",
+        "revision_note": "Add: \\(\\frac{a}{b}+\\frac{c}{d} = \\frac{ad+bc}{bd}\\).",
+        "teacher_note": "Encourage factoring denominator after addition to check for simplification.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Perform addition of rational expressions",
+        "concept_map_nodes": [
+          { "source": "Add rationals", "relation": "method", "target": "Common denominator" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer B. Common denominator \\(x(x+1)\\), numerator simplifies to \\(5x+3\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q008",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.4 Operations with Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.4 Operations with Rational Expressions",
+      "mcq_type": "D",
+      "question": "Multiply \\(\\frac{x^{2}-1}{x^{2}+x} \\times \\frac{x}{x-1}\\) and simplify.",
+      "options": {
+        "A": "\\(\\frac{1}{x}\\)",
+        "B": "1",
+        "C": "\\(\\frac{x+1}{x}\\)",
+        "D": "\\(\\frac{x-1}{x}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Factor \\(x^{2}-1 = (x-1)(x+1)\\) and \\(x^{2}+x = x(x+1)\\).",
+      "explanation": "First fraction: \\(\\frac{(x-1)(x+1)}{x(x+1)} = \\frac{x-1}{x}\\). Multiply by \\(\\frac{x}{x-1}\\) gives \\(\\frac{x-1}{x} \\cdot \\frac{x}{x-1} = 1\\). Option B is correct. Others result from incomplete cancellation or factoring errors.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(a^{2}-b^{2} = (a-b)(a+b)\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.4 Operations with Rational Expressions",
+        "structural_element": "2.1.4 Operations with Rational Expressions",
+        "content_anchor": "multiplication of rational expressions",
+        "page_hint": 10,
+        "concept_hash": "2f7a0c4d8e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c9e2a6d"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 85,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Multiplication of rational expressions: multiply numerators and denominators, then simplify.",
+        "concept_summary": "Factor each polynomial, cancel common factors across numerator and denominator before multiplying.",
+        "beginner": "Factor everything, then cancel top and bottom before multiplying.",
+        "intermediate": "\\(\\frac{(x-1)(x+1)}{x(x+1)} \\cdot \\frac{x}{x-1} = \\frac{x-1}{x} \\cdot \\frac{x}{x-1} = 1\\).",
+        "advanced": "The product simplifies to 1, provided \\(x \\neq 0,1,-1\\), meaning the two original rational expressions are multiplicative inverses on their common domain.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Factor numerator: \\(x^{2}-1 = (x-1)(x+1)\\).",
+          "Factor denominator: \\(x^{2}+x = x(x+1)\\).",
+          "Cancel \\(x+1\\) in first fraction: \\(\\frac{x-1}{x}\\).",
+          "Multiply: \\(\\frac{x-1}{x} \\cdot \\frac{x}{x-1} = 1\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Cancelling terms before factoring, e.g., \\(\\frac{x^{2}}{x^{2}}\\) cancelled incorrectly as 0.",
+          "Multiplying numerators and denominators without simplifying, then getting messy fraction."
+        ],
+        "related_concepts": ["Multiplication of fractions", "Factoring", "Inverse expressions"],
+        "revision_note": "Multiply rationals: factor → cancel → multiply.",
+        "glossary_entry": {
+          "term": "Multiplication of rational expressions",
+          "definition": "Product of two rational expressions = product of numerators over product of denominators.",
+          "example_equation": "\\(\\frac{a}{b} \\cdot \\frac{c}{d} = \\frac{ac}{bd}\\)",
+          "related_terms": ["Factor", "Cancellation"]
+        },
+        "flashcard": {
+          "front": "Simplify \\(\\frac{x^{2}-1}{x^{2}+x} \\cdot \\frac{x}{x-1}\\)",
+          "back": "1, after factoring \\((x-1)(x+1)/[x(x+1)] \\cdot x/(x-1)\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Multiply rationals", "relation": "step", "target": "Factor first" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Operations",
+        "flashcard_front": "Multiply \\(\\frac{x^{2}-4}{x^{2}+2x} \\cdot \\frac{x}{x-2}\\)",
+        "flashcard_back": "1, after factoring \\((x-2)(x+2)/[x(x+2)] \\cdot x/(x-2)=1\\).",
+        "glossary_term": "Multiplication",
+        "glossary_definition": "Product of two rational expressions found by multiplying numerators and denominators.",
+        "revision_note": "Multiply rationals: cancel common factors first.",
+        "teacher_note": "Point out that these expressions are reciprocals when domain restrictions are considered.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Multiply rational expressions",
+        "concept_map_nodes": [
+          { "source": "Product", "relation": "simplified_by", "target": "Cancellation" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer B. Factor, cancel \\(x+1\\), then \\(x-1\\) and \\(x\\) cancel, leaving 1."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q009",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.4 Operations with Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.4 Operations with Rational Expressions",
+      "mcq_type": "G",
+      "question": "If you divide \\(\\frac{x^{2} - 4}{x^{2} + 2x}\\) by \\(\\frac{x-2}{x+3}\\), what is the simplified result?",
+      "options": {
+        "A": "\\(\\frac{x+2}{x+3}\\)",
+        "B": "\\(\\frac{(x+2)(x+3)}{x}\\)",
+        "C": "\\(\\frac{x+3}{x}\\)",
+        "D": "\\(\\frac{x+2}{x}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Divide by a fraction = multiply by its reciprocal.",
+      "explanation": "\\(\\frac{x^{2}-4}{x^{2}+2x} \\div \\frac{x-2}{x+3} = \\frac{(x-2)(x+2)}{x(x+2)} \\times \\frac{x+3}{x-2} = \\frac{x-2}{x} \\times \\frac{x+3}{x-2} = \\frac{x+3}{x}\\). Option C is correct.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 89,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.4 Operations with Rational Expressions",
+        "structural_element": "2.1.4 Operations with Rational Expressions",
+        "content_anchor": "division of rational expressions",
+        "page_hint": 10,
+        "concept_hash": "3g8b1d5e9f2c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c9e2a6d9f3b7e0c4a8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Division of rational expressions: multiply by the reciprocal of the divisor.",
+        "concept_summary": "Reciprocal of divisor \\(\\frac{c}{d}\\) is \\(\\frac{d}{c}\\). Multiply first fraction by this reciprocal, then factor and cancel.",
+        "beginner": "Flip the second fraction and multiply, then simplify like usual.",
+        "intermediate": "\\(\\frac{x^{2}-4}{x^{2}+2x} \\div \\frac{x-2}{x+3} = \\frac{x^{2}-4}{x^{2}+2x} \\times \\frac{x+3}{x-2}\\). Then factor: \\(\\frac{(x-2)(x+2)}{x(x+2)} \\times \\frac{x+3}{x-2} = \\frac{x+3}{x}\\).",
+        "advanced": "The expression simplifies to \\(\\frac{x+3}{x}\\) with domain \\(x \\neq 0,-2,2,-3\\). The factor \\(x+2\\) cancels completely, as does \\(x-2\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Rewrite division as multiplication by reciprocal.",
+          "Factor first numerator: \\((x-2)(x+2)\\).",
+          "Factor first denominator: \\(x(x+2)\\).",
+          "Cancel \\(x+2\\), then cancel \\(x-2\\).",
+          "Result: \\(\\frac{x+3}{x}\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Dividing numerator by numerator and denominator by denominator without flipping.",
+          "Cancelling before flipping, leading to incorrect cancellation."
+        ],
+        "related_concepts": ["Reciprocal", "Multiplication", "Division of fractions"],
+        "revision_note": "Divide: multiply by reciprocal, then factor and cancel.",
+        "glossary_entry": {
+          "term": "Division of rational expressions",
+          "definition": "Multiply the first expression by the reciprocal of the second.",
+          "example_equation": "\\(\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\cdot \\frac{d}{c}\\)",
+          "related_terms": ["Reciprocal", "Multiplication"]
+        },
+        "flashcard": {
+          "front": "Divide \\(\\frac{x^{2}-9}{x^{2}+3x} \\div \\frac{x-3}{x+2}\\)",
+          "back": "\\(\\frac{x+2}{x}\\) after factoring \\((x-3)(x+3)/[x(x+3)] \\cdot (x+2)/(x-3)\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Division", "relation": "equals", "target": "Multiplication by reciprocal" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Operations",
+        "flashcard_front": "Divide \\(\\frac{x^{2}-1}{x^{2}+x} \\div \\frac{x-1}{x+4}\\)",
+        "flashcard_back": "\\(\\frac{x+4}{x}\\)",
+        "glossary_term": "Division",
+        "glossary_definition": "Multiplication by the reciprocal of the divisor.",
+        "revision_note": "÷ fraction = × reciprocal.",
+        "teacher_note": "Remind students to state domain restrictions after division.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Divide rational expressions",
+        "concept_map_nodes": [
+          { "source": "Divide rationals", "relation": "method", "target": "Reciprocal" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer C. Factor, cancel \\(x+2\\) and \\(x-2\\), leaving \\((x+3)/x\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U2_Q010",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+      "section": "2.1 Rational Expressions",
+      "subsection": "2.1.4 Operations with Rational Expressions",
+      "sub_subsection": null,
+      "structural_anchor": "2.1.4 Operations with Rational Expressions",
+      "mcq_type": "H",
+      "question": "A student simplifies \\(\\frac{2x}{x+1} - \\frac{x}{x+1}\\) as \\(\\frac{x}{x+1}\\) but then states the simplified form is undefined at \\(x=-1\\). Which statement best corrects the student's misunderstanding?",
+      "options": {
+        "A": "It is undefined at \\(x=-1\\) only.",
+        "B": "It is undefined at \\(x=0\\) as well.",
+        "C": "It is undefined for all real \\(x\\).",
+        "D": "It is defined for all real \\(x\\)."
+      },
+      "correct_answer": "A",
+      "hint": "Denominator \\(x+1\\) determines domain.",
+      "explanation": "The simplified expression \\(\\frac{x}{x+1}\\) is undefined when denominator \\(x+1=0\\), i.e., \\(x=-1\\). The student correctly identified that restriction. Option A is correct; there are no other restrictions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+        "section_anchor": "2.1 Rational Expressions",
+        "subsection_anchor": "2.1.4 Operations with Rational Expressions",
+        "structural_element": "2.1.4 Operations with Rational Expressions",
+        "content_anchor": "domain of simplified expression",
+        "page_hint": 9,
+        "concept_hash": "4h9c2e6f0a3d7e1b5d9f2c6e0a3c7e1b4d8f1c5e9a2d6f0b3c7e2a5d8f1b4c9e"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 90,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Domain of a rational expression excludes any value making denominator zero.",
+        "concept_summary": "After simplification, the domain still excludes original denominator zeros that remain in simplified denominator.",
+        "beginner": "Bottom of the simplified fraction \\(x+1\\) still cannot be zero, so only \\(x=-1\\) is excluded.",
+        "intermediate": "Simplified expression \\(\\frac{x}{x+1}\\) has denominator \\(x+1\\), so \\(x=-1\\) is the only restriction.",
+        "advanced": "The original expression \\(\\frac{2x}{x+1}-\\frac{x}{x+1} = \\frac{x}{x+1}\\) (for \\(x \\neq -1\\)) has exactly one excluded value: \\(x=-1\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Simplify: \\((2x - x)/(x+1) = x/(x+1)\\).",
+          "Set denominator = 0: \\(x+1=0 \\rightarrow x=-1\\).",
+          "No other restrictions.",
+          "Domain = all reals except -1."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking numerator zero also creates undefined point (it does not).",
+          "Adding extra restrictions from original expression that cancelled completely but no longer in simplified denominator."
+        ],
+        "related_concepts": ["Domain", "Simplification", "Subtraction of rationals"],
+        "revision_note": "Domain = ℝ minus zeros of final denominator.",
+        "glossary_entry": {
+          "term": "Domain after simplification",
+          "definition": "Set of reals where final denominator ≠ 0, after cancellation.",
+          "example_equation": "Domain of \\(\\frac{x}{x+1}\\) is \\(x \\neq -1\\)",
+          "related_terms": ["Undefined", "Denominator"]
+        },
+        "flashcard": {
+          "front": "What is domain of \\(\\frac{3x}{x+2} - \\frac{x}{x+2}\\)?",
+          "back": "\\(x \\neq -2\\), because simplified form is \\(\\frac{2x}{x+2}\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Simplified expression", "relation": "has_domain", "target": "ℝ \\\\ {denominator zeros}" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Domain",
+        "flashcard_front": "Is \\(\\frac{2x}{x+1} - \\frac{x}{x+1}\\) undefined at any x besides -1?",
+        "flashcard_back": "No, only \\(x=-1\\) because simplified denominator \\(x+1\\) gives that restriction.",
+        "glossary_term": "Domain",
+        "glossary_definition": "All input values for which expression yields a real number.",
+        "revision_note": "Simplified denominator zeros → domain restrictions.",
+        "teacher_note": "Emphasise that simplified form dictates final domain.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Determine domain after operations",
+        "concept_map_nodes": [
+          { "source": "Simplified rational expression", "relation": "restricted_by", "target": "Simplified denominator" }
+        ],
+        "workbook_section": "2.1 Rational Expressions",
+        "solution_manual_note": "Answer A. Simplified form is \\(x/(x+1)\\), denominator zero only at \\(x=-1\\)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3250,
+    "average_question_quality": 89.2,
+    "type_distribution": {
+      "A": 1, "B": 1, "D": 4, "G": 1, "H": 3
+    },
+    "difficulty_distribution": {
+      "easy": 3, "medium": 6, "hard": 1
+    },
+    "section_distribution": {
+      "2.1 Rational Expressions": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 6
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

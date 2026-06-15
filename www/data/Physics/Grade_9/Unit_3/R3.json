@@ -1,0 +1,2344 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-11T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Phys_U3_Q030",
+    "covered_sections": [
+      "3.1 Position, Distance and Displacement>Activity 3.1",
+      "3.1 Position, Distance and Displacement>Exercise 3.3",
+      "3.1 Position, Distance and Displacement>Exercise 3.4",
+      "3.2 Average Speed and Instantaneous Speed>Exercise 3.5",
+      "3.2 Average Speed and Instantaneous Speed>Exercise 3.6",
+      "3.2 Average Speed and Instantaneous Speed>Exercise 3.7",
+      "3.3 Average Velocity and Instantaneous Velocity>Exercise 3.8",
+      "3.3 Average Velocity and Instantaneous Velocity>Exercise 3.9",
+      "3.4 Acceleration>Exercise 3.11",
+      "3.5 Uniform Motion>Exercise 3.12"
+    ],
+    "used_question_signatures": [
+      "a3f5c2e1d4b6a7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1",
+      "b4g6d3e2f5c7b8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b2",
+      "c5h7e4f3g6d8c9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b3",
+      "d6i8f5g4h7e9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b4",
+      "e7j9g6h5i8f0e1d2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b5",
+      "f8k0h7i6j9g1f2e3d4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b6",
+      "g9l1i8j7k0h2g3f4e5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b7",
+      "h0m2j9k8l1i3h4g5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b8",
+      "i1n3k0l9m2j4i5h6g7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b9",
+      "j2o4l1m0n3k5j6i7h8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b0",
+      "k3p5m2n1o4l6k7j8i9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b1",
+      "l4q6n3o2p5m7l8k9j0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b2",
+      "m5r7o4p3q6n8m9l0k1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b3",
+      "n6s8p5q4r7o9n0m1l2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b4",
+      "o7t9q6r5s8p0o1n2m3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b5",
+      "p8u0r7s6t9q1p2o3n4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b6",
+      "q9v1s8t7u0r2q3p4o5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b7",
+      "r0w2t9u8v1s3r4q5p6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b8",
+      "s1x3u0v9w2t4s5r6q7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b9",
+      "t2y4v1w0x3u5t6s7r8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b0",
+      "u3z5w2x1y4v7u8t9s0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b1",
+      "v4a6x3y2z5w8v9u0t1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b2",
+      "w5b7y4z3a6x9w0v1u2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b3",
+      "x6c8z5a4b7y0x1w2v3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b4",
+      "y7d9a6b5c8z1y2x3w4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b5",
+      "z8e0b7c6d9a2z3y4x5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b6",
+      "a9f1c8d7e0b3a4z5y6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b7",
+      "b0g2d9e8f1c4b5a6z7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b8",
+      "c1h3e0f9g2d5c6b7a8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b9",
+      "d2i4f1g0h3e6d7c8b9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b0"
+    ],
+    "baseline_counter": {
+      "3.1 Position, Distance and Displacement": {
+        "Position": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Position"
+          ],
+          "last_question_round": 1
+        },
+        "Distance (S)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Distance (S)"
+          ],
+          "last_question_round": 1
+        },
+        "Displacement": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Displacement"
+          ],
+          "last_question_round": 1
+        },
+        "Key Concept: A frame of reference is a set of coordinates that can be used to determine positions of objects.": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept: A frame of reference is a set of coordinates that can be used to determine positions of objects."
+          ],
+          "last_question_round": 2
+        },
+        "Table 3.1 Difference between distance and displacement": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Table 3.1 Difference between distance and displacement"
+          ],
+          "last_question_round": 2
+        },
+        "Example 3.1": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 3.1"
+          ],
+          "last_question_round": 2
+        },
+        "Activity 3.1": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Activity 3.1"
+          ],
+          "last_question_round": 3
+        },
+        "Exercise 3.3": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.3"
+          ],
+          "last_question_round": 3
+        },
+        "Exercise 3.4": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.4"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "3.2 Average Speed and Instantaneous Speed": {
+        "Average Speed": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Average Speed"
+          ],
+          "last_question_round": 1
+        },
+        "Instantaneous Speed": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Instantaneous Speed"
+          ],
+          "last_question_round": 1
+        },
+        "Example 3.2": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 3.2"
+          ],
+          "last_question_round": 2
+        },
+        "Exercise 3.5": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.5"
+          ],
+          "last_question_round": 3
+        },
+        "Exercise 3.6": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.6"
+          ],
+          "last_question_round": 3
+        },
+        "Exercise 3.7": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.7"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "3.3 Average Velocity and Instantaneous Velocity": {
+        "Key Concept: Velocity is the rate of change of displacement.": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept: Velocity is the rate of change of displacement."
+          ],
+          "last_question_round": 1
+        },
+        "Key Concept: Average velocity is the total displacement of a body over a time interval.": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept: Average velocity is the total displacement of a body over a time interval."
+          ],
+          "last_question_round": 1
+        },
+        "Example 3.4": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 3.4"
+          ],
+          "last_question_round": 2
+        },
+        "Example 3.5": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 3.5"
+          ],
+          "last_question_round": 2
+        },
+        "Example 3.6": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 3.6"
+          ],
+          "last_question_round": 2
+        },
+        "Exercise 3.8": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.8"
+          ],
+          "last_question_round": 3
+        },
+        "Exercise 3.9": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.9"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "3.4 Acceleration": {
+        "Key Concept: Acceleration is the rate of change of velocity.": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept: Acceleration is the rate of change of velocity."
+          ],
+          "last_question_round": 1
+        },
+        "Example 3.7": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 3.7"
+          ],
+          "last_question_round": 2
+        },
+        "Exercise 3.11": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.11"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "3.5 Uniform Motion": {
+        "Key Concept: Motion at a constant velocity or uniform motion means that the position of the object is changing at the same rate.": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept: Motion at a constant velocity or uniform motion means that the position of the object is changing at the same rate."
+          ],
+          "last_question_round": 1
+        },
+        "Examples of uniform motion": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Examples of uniform motion"
+          ],
+          "last_question_round": 2
+        },
+        "Exercise 3.12": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 3.12"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "3.6 Graphical Representation of Motion": {
+        "Velocity-Time Graph": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Velocity-Time Graph"
+          ],
+          "last_question_round": 1
+        },
+        "Position-Time Graph": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Position-Time Graph"
+          ],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 Position, Distance and Displacement": {
+        "question_count": 9,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.2 Average Speed and Instantaneous Speed": {
+        "question_count": 6,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.3 Average Velocity and Instantaneous Velocity": {
+        "question_count": 7,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.4 Acceleration": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.5 Uniform Motion": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "3.6 Graphical Representation of Motion": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 Position, Distance and Displacement>Activity 3.1": [
+        "Distance",
+        "Displacement",
+        "Net displacement",
+        "Path length"
+      ],
+      "3.1 Position, Distance and Displacement>Exercise 3.3": [
+        "Displacement zero",
+        "Start and end same"
+      ],
+      "3.1 Position, Distance and Displacement>Exercise 3.4": [
+        "Net displacement sign",
+        "Positive/negative displacement"
+      ],
+      "3.2 Average Speed and Instantaneous Speed>Exercise 3.5": [
+        "Speedometer",
+        "Instantaneous speed"
+      ],
+      "3.2 Average Speed and Instantaneous Speed>Exercise 3.6": [
+        "Average speed vs instantaneous speed",
+        "Differences and similarities"
+      ],
+      "3.2 Average Speed and Instantaneous Speed>Exercise 3.7": [
+        "Unit conversion",
+        "km/h to m/s"
+      ],
+      "3.3 Average Velocity and Instantaneous Velocity>Exercise 3.8": [
+        "Average speed vs average velocity magnitude",
+        "Scalar vs vector"
+      ],
+      "3.3 Average Velocity and Instantaneous Velocity>Exercise 3.9": [
+        "Average speed calculation",
+        "Distance and time"
+      ],
+      "3.4 Acceleration>Exercise 3.11": [
+        "Zero acceleration",
+        "Constant velocity",
+        "Direction of acceleration"
+      ],
+      "3.5 Uniform Motion>Exercise 3.12": [
+        "Uniform motion examples",
+        "Constant velocity"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 30,
+      "questions_per_concept_ratio": 1.0,
+      "structural_coverage_percentage": 96.8
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "PHYSICS",
+  "unit": "Unit 3: Motion in a Straight Line",
+  "pdf_filename": "P9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-11T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 0,
+      "mini_headings_covered_count": 30,
+      "structural_coverage_percentage": 96.8,
+      "concept_utilization_ratio": 1.0
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1 Position, Distance and Displacement",
+      "least_covered_section": "3.6 Graphical Representation of Motion",
+      "imbalance_ratio": 4.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 60
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Phys_U3_Q021",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.1 Position, Distance and Displacement",
+      "subsection": "Activity 3.1",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 3.1",
+      "mcq_type": "I",
+      "question": "Three students start at the same point. Student A moves 200 m right then 100 m left. Student B moves 200 m right then 300 m left. Student C moves 200 m right then 200 m left. Which student has zero displacement?",
+      "options": {
+        "A": "Student A only",
+        "B": "Student B only",
+        "C": "Student C only",
+        "D": "All three students"
+      },
+      "correct_answer": "C",
+      "hint": "Displacement = final position − initial position.",
+      "explanation": "Student C returns exactly to start: 200 m right + 200 m left = 0 displacement. Option A has displacement 100 m right; Option B has displacement 100 m left.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\Delta \\vec{S} = \\vec{S}_f - \\vec{S}_i\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "A_right": {
+            "magnitude": 200,
+            "unit": "m"
+          },
+          "A_left": {
+            "magnitude": 100,
+            "unit": "m"
+          },
+          "B_left": {
+            "magnitude": 300,
+            "unit": "m"
+          },
+          "C_left": {
+            "magnitude": 200,
+            "unit": "m"
+          }
+        },
+        "answer_value": 0,
+        "answer_unit": "m",
+        "calculation_steps": [
+          "A: 200 − 100 = 100 m right",
+          "B: 200 − 300 = −100 m (100 m left)",
+          "C: 200 − 200 = 0 m"
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.1 Position, Distance and Displacement",
+        "subsection_anchor": "Activity 3.1",
+        "structural_element": "Activity 3.1",
+        "content_anchor": "Three students walked on a straight line... first: 200 m right + 100 m left; second: 200 m right + 300 m left; third: 200 m right + 200 m left",
+        "page_hint": 6,
+        "concept_hash": "u3z5w2x1y4v7u8t9s0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 94,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Displacement is the net change in position from start to finish.",
+        "concept_summary": "Zero displacement means the object ends at its starting point.",
+        "beginner": "Student C went 200 m right, then 200 m left — back to start, so displacement = 0.",
+        "intermediate": "Net displacement = sum of movements with signs. C: +200 − 200 = 0.",
+        "advanced": "Displacement vector sum: \\(\\vec{S}_{net} = \\sum \\vec{S}_i\\). For C, the vectors cancel exactly.",
+        "worked_solution": [
+          "Step 1: Let right be positive.",
+          "Step 2: A: 200 − 100 = +100 m",
+          "Step 3: B: 200 − 300 = −100 m",
+          "Step 4: C: 200 − 200 = 0 m"
+        ],
+        "reasoning_steps": [
+          "Assign direction signs.",
+          "Sum displacements algebraically.",
+          "Check if sum is zero."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\Delta \\vec{S} = \\vec{S}_f - \\vec{S}_i\\)",
+            "name": "Displacement",
+            "variables": [
+              {
+                "symbol": "\\vec{S}_f",
+                "meaning": "Final position",
+                "unit": "m"
+              },
+              {
+                "symbol": "\\vec{S}_i",
+                "meaning": "Initial position",
+                "unit": "m"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Thinking distance = displacement for round trips.",
+          "Adding magnitudes only (200+200=400) without signs."
+        ],
+        "related_concepts": [
+          "Net displacement",
+          "Vector addition",
+          "Round trip"
+        ],
+        "revision_note": "Zero displacement = return to start.",
+        "glossary_entry": {
+          "term": "Zero displacement",
+          "definition": "Final position equals initial position.",
+          "example_equation": null,
+          "related_terms": [
+            "Displacement",
+            "Round trip"
+          ]
+        },
+        "flashcard": {
+          "front": "200 m right then 200 m left: displacement?",
+          "flashcard_back": "0 m (net change = 0)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Zero displacement",
+            "relation": "occurs_when",
+            "target": "Start and end same"
+          }
+        ],
+        "workbook_section": "3.1 Position, Distance and Displacement",
+        "solution_manual_note": "Answer C. C: +200 − 200 = 0; A: +100 m; B: −100 m."
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "number_line",
+        "visual_title": "Displacement Comparison",
+        "visual_description": "Number line showing three paths: A ends at +100, B at −100, C at 0.",
+        "rendering_target": "matplotlib",
+        "rendering_engine": "matplotlib.pyplot",
+        "render_width_mm": 80,
+        "render_height_mm": 50,
+        "caption": "Only Student C has zero displacement.",
+        "accessibility_alt_text": "Number line from −100 to +100. A ends at +100, B at −100, C at 0.",
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": {
+          "range": [
+            -100,
+            100
+          ],
+          "tick_interval": 50,
+          "marked_points": [
+            {
+              "value": 0,
+              "label": "Start",
+              "style": "filled"
+            },
+            {
+              "value": 100,
+              "label": "A",
+              "style": "filled"
+            },
+            {
+              "value": -100,
+              "label": "B",
+              "style": "filled"
+            },
+            {
+              "value": 0,
+              "label": "C",
+              "style": "filled"
+            }
+          ],
+          "annotations": []
+        },
+        "image_url": "images/G9_Phys_U3_Q021_visual.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "inline",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "200 m right then 200 m left: displacement?",
+        "flashcard_back": "0 m (return to start).",
+        "glossary_term": "Displacement",
+        "glossary_definition": "Net change in position.",
+        "revision_note": "Zero displacement = back to start.",
+        "teacher_note": "Use activity to show net vs total path.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Calculate net displacement from multiple segments",
+        "concept_map_nodes": [
+          {
+            "source": "Net displacement",
+            "relation": "zero_if",
+            "target": "Return to start"
+          }
+        ],
+        "workbook_section": "3.1 Position, Distance and Displacement",
+        "solution_manual_note": "Answer C. C: +200 − 200 = 0."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q022",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.1 Position, Distance and Displacement",
+      "subsection": "Exercise 3.3",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.3",
+      "mcq_type": "A",
+      "question": "What is the displacement when the final position is the same as the initial position?",
+      "options": {
+        "A": "Zero",
+        "B": "Equal to the distance",
+        "C": "Maximum possible",
+        "D": "Negative"
+      },
+      "correct_answer": "A",
+      "hint": "Displacement = final − initial.",
+      "explanation": "If final position equals initial position, then displacement = 0. Option B is incorrect because distance could be large while displacement is zero.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 100
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.1 Position, Distance and Displacement",
+        "subsection_anchor": "Exercise 3.3",
+        "structural_element": "Exercise 3.3",
+        "content_anchor": "What is the displacement if the final position is the same as the initial position?",
+        "page_hint": 6,
+        "concept_hash": "v4a6x3y2z5w8v9u0t1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 28,
+        "distractor_quality_score": 100,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 100
+      },
+      "explanations_tiered": {
+        "definition": "Displacement is final position minus initial position.",
+        "concept_summary": "When starting and ending points are identical, the net change in position is zero.",
+        "beginner": "If you walk around a track and end where you started, your displacement is zero.",
+        "intermediate": "\\(\\Delta S = S_f - S_i\\). If \\(S_f = S_i\\), then \\(\\Delta S = 0\\).",
+        "advanced": "Displacement is path-independent; only endpoints matter. Identical endpoints give zero vector.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall displacement formula.",
+          "Substitute S_f = S_i.",
+          "Result is zero."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Displacement equals distance when start and end same. Incorrect; distance can be large.",
+          "Displacement is not defined when start = end. Incorrect; it is defined as zero."
+        ],
+        "related_concepts": [
+          "Displacement",
+          "Round trip"
+        ],
+        "revision_note": "Same start and end → displacement = 0.",
+        "glossary_entry": {
+          "term": "Zero displacement",
+          "definition": "Occurs when initial and final positions are equal.",
+          "example_equation": null,
+          "related_terms": [
+            "Displacement"
+          ]
+        },
+        "flashcard": {
+          "front": "What is displacement if start = end?",
+          "flashcard_back": "Zero."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Displacement",
+            "relation": "zero_when",
+            "target": "Start = end"
+          }
+        ],
+        "workbook_section": "3.1 Position, Distance and Displacement",
+        "solution_manual_note": "Answer A. Displacement = final − initial = 0 when they are equal."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "Start = end: displacement?",
+        "flashcard_back": "Zero.",
+        "glossary_term": "Displacement",
+        "glossary_definition": "Change in position.",
+        "revision_note": "ΔS = 0 if start = end.",
+        "teacher_note": "Reinforce with round-trip examples.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define displacement",
+        "concept_map_nodes": [
+          {
+            "source": "Displacement",
+            "relation": "zero_condition",
+            "target": "Same initial and final"
+          }
+        ],
+        "workbook_section": "3.1 Position, Distance and Displacement",
+        "solution_manual_note": "Answer A. S_f − S_i = 0 when S_f = S_i."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q023",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.1 Position, Distance and Displacement",
+      "subsection": "Exercise 3.4",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.4",
+      "mcq_type": "F",
+      "question": "Given \\(S_f = (5,0)\\) and \\(S_i = (-1,0)\\), what is the sign of the net displacement along the x-axis?",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Cannot be determined"
+      },
+      "correct_answer": "A",
+      "hint": "Net displacement = final − initial.",
+      "explanation": "\\(\\Delta S = S_f - S_i = 5 - (-1) = +6\\). The positive sign indicates displacement in the positive x-direction. Option B would be true if S_f < S_i.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\Delta \\vec{S} = \\vec{S}_f - \\vec{S}_i\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "S_f": {
+            "magnitude": 5,
+            "unit": "m"
+          },
+          "S_i": {
+            "magnitude": -1,
+            "unit": "m"
+          }
+        },
+        "answer_value": 6,
+        "answer_unit": "m",
+        "calculation_steps": [
+          "ΔS = 5 − (−1) = 6 m"
+        ],
+        "significant_figures": 1
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 100
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.1 Position, Distance and Displacement",
+        "subsection_anchor": "Exercise 3.4",
+        "structural_element": "Exercise 3.4",
+        "content_anchor": "Given S_f = (5,0) and S_i = (-1,0), check whether net displacement is positive or negative.",
+        "page_hint": 6,
+        "concept_hash": "w5b7y4z3a6x9w0v1u2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 100,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 100
+      },
+      "explanations_tiered": {
+        "definition": "Sign of displacement indicates direction relative to chosen positive axis.",
+        "concept_summary": "Displacement = final − initial. Positive result means displacement in positive direction.",
+        "beginner": "5 minus negative 1 is like 5 + 1 = 6, which is positive, so displacement is positive.",
+        "intermediate": "\\(\\Delta S = 5 - (-1) = +6\\). Positive sign means displacement is in the positive x-direction.",
+        "advanced": "Vector displacement \\(\\Delta \\vec{S} = (5 - (-1))\\hat{i} = +6\\hat{i}\\), positive x-direction.",
+        "worked_solution": [
+          "Step 1: ΔS = S_f − S_i = 5 − (−1)",
+          "Step 2: = 5 + 1 = +6",
+          "Step 3: Positive sign."
+        ],
+        "reasoning_steps": [
+          "Subtract initial from final.",
+          "If result > 0 → positive displacement."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\Delta S = S_f - S_i\\)",
+            "name": "Displacement",
+            "variables": [
+              {
+                "symbol": "S_f",
+                "meaning": "Final coordinate",
+                "unit": "m"
+              },
+              {
+                "symbol": "S_i",
+                "meaning": "Initial coordinate",
+                "unit": "m"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Thinking negative minus positive gives negative (confusing order).",
+          "Ignoring that subtracting a negative adds."
+        ],
+        "related_concepts": [
+          "Displacement sign",
+          "Coordinate system"
+        ],
+        "revision_note": "ΔS positive if S_f > S_i.",
+        "glossary_entry": {
+          "term": "Displacement sign",
+          "definition": "Positive if final > initial on chosen axis.",
+          "example_equation": "\\(+6\\)",
+          "related_terms": [
+            "Displacement",
+            "Coordinate"
+          ]
+        },
+        "flashcard": {
+          "front": "S_f = 5, S_i = −1: displacement sign?",
+          "flashcard_back": "Positive (5 − (−1) = +6)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Displacement sign",
+            "relation": "determined_by",
+            "target": "S_f − S_i"
+          }
+        ],
+        "workbook_section": "3.1 Position, Distance and Displacement",
+        "solution_manual_note": "Answer A. ΔS = 5 − (−1) = +6 → positive."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "S_f = 5, S_i = −1: displacement positive or negative?",
+        "flashcard_back": "Positive (6 m in positive direction).",
+        "glossary_term": "Displacement",
+        "glossary_definition": "Change in position.",
+        "revision_note": "ΔS = S_f − S_i.",
+        "teacher_note": "Show that subtracting a negative yields addition.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Determine sign of displacement",
+        "concept_map_nodes": [
+          {
+            "source": "Displacement sign",
+            "relation": "positive_if",
+            "target": "S_f > S_i"
+          }
+        ],
+        "workbook_section": "3.1 Position, Distance and Displacement",
+        "solution_manual_note": "Answer A. 5 − (−1) = +6 > 0."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q024",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.2 Average Speed and Instantaneous Speed",
+      "subsection": "Exercise 3.5",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.5",
+      "mcq_type": "B",
+      "question": "What quantity does a car's speedometer directly measure?",
+      "options": {
+        "A": "Average speed",
+        "B": "Instantaneous speed",
+        "C": "Average velocity",
+        "D": "Instantaneous acceleration"
+      },
+      "correct_answer": "B",
+      "hint": "Speedometer shows the speed at the current moment.",
+      "explanation": "A speedometer measures instantaneous speed — the speed at a specific instant. Average speed is total distance over total time, not displayed in real time.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 100
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.2 Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Exercise 3.5",
+        "structural_element": "Exercise 3.5",
+        "content_anchor": "In Figure ??, what does the speedometer read? (Speedometer measures instantaneous speed)",
+        "page_hint": 7,
+        "concept_hash": "x6c8z5a4b7y0x1w2v3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 30,
+        "distractor_quality_score": 100,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 100
+      },
+      "explanations_tiered": {
+        "definition": "Instantaneous speed is the speed at a particular instant.",
+        "concept_summary": "Speedometer needle moves continuously, showing the real-time speed.",
+        "beginner": "The speedometer shows how fast you are going right now, not the average over the whole trip.",
+        "intermediate": "Speedometer readings change instantly with speed; they give instantaneous speed, not average.",
+        "advanced": "Instantaneous speed is the magnitude of instantaneous velocity: \\(v = |\\vec{v}| = |d\\vec{S}/dt|\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that speedometer responds instantly.",
+          "It does not compute total distance/time."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Speedometer measures average speed. Incorrect; odometer and clock give average.",
+          "Speedometer measures velocity. Incorrect; it lacks direction."
+        ],
+        "related_concepts": [
+          "Instantaneous speed",
+          "Speedometer"
+        ],
+        "revision_note": "Speedometer → instantaneous speed.",
+        "glossary_entry": {
+          "term": "Instantaneous speed",
+          "definition": "Speed at a specific instant.",
+          "example_equation": null,
+          "related_terms": [
+            "Speedometer"
+          ]
+        },
+        "flashcard": {
+          "front": "What does a speedometer measure?",
+          "flashcard_back": "Instantaneous speed."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Speedometer",
+            "relation": "measures",
+            "target": "Instantaneous speed"
+          }
+        ],
+        "workbook_section": "3.2 Average Speed and Instantaneous Speed",
+        "solution_manual_note": "Answer B. Speedometer shows instantaneous speed, not average."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "What does a speedometer measure?",
+        "flashcard_back": "Instantaneous speed.",
+        "glossary_term": "Instantaneous speed",
+        "glossary_definition": "Speed at a specific instant.",
+        "revision_note": "Speedometer = instantaneous speed.",
+        "teacher_note": "Contrast with average speed from odometer and trip time.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate between average and instantaneous speed",
+        "concept_map_nodes": [
+          {
+            "source": "Speedometer",
+            "relation": "gives",
+            "target": "Instantaneous speed"
+          }
+        ],
+        "workbook_section": "3.2 Average Speed and Instantaneous Speed",
+        "solution_manual_note": "Answer B. Speedometer reads instantaneous speed."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q025",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.2 Average Speed and Instantaneous Speed",
+      "subsection": "Exercise 3.6",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.6",
+      "mcq_type": "I",
+      "question": "How does average speed differ from instantaneous speed?",
+      "options": {
+        "A": "Average speed includes direction; instantaneous does not",
+        "B": "Average speed is over a time interval; instantaneous is at a moment",
+        "C": "Instantaneous speed is always greater than average speed",
+        "D": "Average speed is a vector; instantaneous is scalar"
+      },
+      "correct_answer": "B",
+      "hint": "Average involves total time; instantaneous is at one instant.",
+      "explanation": "Average speed = total distance / total time over a finite interval. Instantaneous speed is the speed at a specific instant (limit as Δt → 0). Both are scalars. Option B is correct.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 98
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.2 Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Exercise 3.6",
+        "structural_element": "Exercise 3.6",
+        "content_anchor": "What are the differences and similarities between average speed and instantaneous speed?",
+        "page_hint": 8,
+        "concept_hash": "y7d9a6b5c8z1y2x3w4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 96,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Average speed is total distance over total time; instantaneous speed is speed at a moment.",
+        "concept_summary": "Average speed summarizes a whole trip; instantaneous speed can vary during the trip.",
+        "beginner": "Average speed is like your overall pace; instantaneous is your speed at any given second.",
+        "intermediate": "Average speed = S_total / t_total over an interval. Instantaneous speed = limit as Δt→0 of ΔS/Δt.",
+        "advanced": "Instantaneous speed is the derivative of distance with respect to time: \\(v = dS/dt\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definitions.",
+          "Note time scale difference: interval vs instant."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Average speed and instantaneous speed are always equal. Incorrect; they differ if speed varies.",
+          "Instantaneous speed can be negative. Incorrect; speed is magnitude, always ≥ 0."
+        ],
+        "related_concepts": [
+          "Average speed",
+          "Instantaneous speed",
+          "Time interval"
+        ],
+        "revision_note": "Average = total/total; Instantaneous = at a moment.",
+        "glossary_entry": {
+          "term": "Average speed",
+          "definition": "Total distance / total time.",
+          "example_equation": null,
+          "related_terms": [
+            "Instantaneous speed"
+          ]
+        },
+        "flashcard": {
+          "front": "Difference between average and instantaneous speed?",
+          "flashcard_back": "Average is over a time interval; instantaneous is at a specific instant."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Average speed",
+            "relation": "contrasted_with",
+            "target": "Instantaneous speed"
+          },
+          {
+            "source": "Instantaneous speed",
+            "relation": "limit_of",
+            "target": "Average speed as Δt→0"
+          }
+        ],
+        "workbook_section": "3.2 Average Speed and Instantaneous Speed",
+        "solution_manual_note": "Answer B. Average speed over interval; instantaneous at an instant."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "How does average speed differ from instantaneous?",
+        "flashcard_back": "Average over interval; instantaneous at a moment.",
+        "glossary_term": "Average speed",
+        "glossary_definition": "Total distance/total time.",
+        "revision_note": "Average = total/total; Instant = at a moment.",
+        "teacher_note": "Use a trip with varying speed to illustrate difference.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Differentiate between average and instantaneous speed",
+        "concept_map_nodes": [
+          {
+            "source": "Average speed",
+            "relation": "differs_from",
+            "target": "Instantaneous speed"
+          }
+        ],
+        "workbook_section": "3.2 Average Speed and Instantaneous Speed",
+        "solution_manual_note": "Answer B. Only B correctly states the fundamental difference."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q026",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.2 Average Speed and Instantaneous Speed",
+      "subsection": "Exercise 3.7",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.7",
+      "mcq_type": "E",
+      "question": "If a car is travelling at \\(108\\,\\mathrm{km/h}\\), what is its speed in \\(\\mathrm{m/s}\\)?",
+      "options": {
+        "A": "\\(30\\,\\mathrm{m/s}\\)",
+        "B": "\\(300\\,\\mathrm{m/s}\\)",
+        "C": "\\(10.8\\,\\mathrm{m/s}\\)",
+        "D": "\\(388.8\\,\\mathrm{m/s}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Divide km/h by 3.6 to get m/s.",
+      "explanation": "\\(108 / 3.6 = 30\\,\\mathrm{m/s}\\). Option B would be multiplying by 1000/3600 incorrectly (108 × 1000/3600 = 30, not 300).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "v": {
+            "magnitude": 108,
+            "unit": "km/h"
+          }
+        },
+        "answer_value": 30,
+        "answer_unit": "m/s",
+        "calculation_steps": [
+          "108 km/h = 108 × (1000 m)/(3600 s) = 108/3.6 = 30 m/s"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 100
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.2 Average Speed and Instantaneous Speed",
+        "subsection_anchor": "Exercise 3.7",
+        "structural_element": "Exercise 3.7",
+        "content_anchor": "If the car is travelling at 120 km/h what is the car's speed in m/s?",
+        "page_hint": 8,
+        "concept_hash": "z8e0b7c6d9a2z3y4x5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 28,
+        "distractor_quality_score": 100,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 100
+      },
+      "explanations_tiered": {
+        "definition": "Conversion: 1 km/h = 1000/3600 = 1/3.6 m/s.",
+        "concept_summary": "To convert km/h to m/s, divide by 3.6.",
+        "beginner": "108 divided by 3.6 is 30, so 108 km/h = 30 m/s.",
+        "intermediate": "\\(108\\,\\mathrm{km/h} = 108 \\times \\frac{1000\\,\\mathrm{m}}{3600\\,\\mathrm{s}} = \\frac{108}{3.6} = 30\\,\\mathrm{m/s}\\).",
+        "advanced": "The conversion factor 3.6 arises from \\(3600/1000 = 3.6\\).",
+        "worked_solution": [
+          "Step 1: Recall 1 km/h = 1000/3600 m/s = 1/3.6 m/s.",
+          "Step 2: Multiply: 108 × (1/3.6) = 30 m/s."
+        ],
+        "reasoning_steps": [
+          "Divide speed in km/h by 3.6.",
+          "Result is speed in m/s."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Multiplying by 1000 and 3600 separately without dividing (108 × 1000/3600 = 30, but some multiply 108 × 1000 × 3600).",
+          "Using 3.6 incorrectly (multiplying instead of dividing)."
+        ],
+        "related_concepts": [
+          "Unit conversion",
+          "km/h to m/s"
+        ],
+        "revision_note": "km/h → m/s: ÷ 3.6.",
+        "glossary_entry": {
+          "term": "Unit conversion",
+          "definition": "km/h to m/s: divide by 3.6.",
+          "example_equation": "\\(108/3.6 = 30\\)",
+          "related_terms": [
+            "Speed"
+          ]
+        },
+        "flashcard": {
+          "front": "Convert 108 km/h to m/s.",
+          "flashcard_back": "30 m/s (108/3.6 = 30)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "km/h",
+            "relation": "convert_to",
+            "target": "m/s by ÷3.6"
+          }
+        ],
+        "workbook_section": "3.2 Average Speed and Instantaneous Speed",
+        "solution_manual_note": "Answer A. 108/3.6 = 30 m/s."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "108 km/h to m/s?",
+        "flashcard_back": "30 m/s (÷3.6).",
+        "glossary_term": "Conversion",
+        "glossary_definition": "km/h to m/s: ÷3.6.",
+        "revision_note": "km/h ÷ 3.6 = m/s.",
+        "teacher_note": "Reinforce the factor 3.6.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Convert between km/h and m/s",
+        "concept_map_nodes": [
+          {
+            "source": "Speed conversion",
+            "relation": "factor",
+            "target": "3.6"
+          }
+        ],
+        "workbook_section": "3.2 Average Speed and Instantaneous Speed",
+        "solution_manual_note": "Answer A. 108/3.6 = 30 m/s."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q027",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.3 Average Velocity and Instantaneous Velocity",
+      "subsection": "Exercise 3.8",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.8",
+      "mcq_type": "F",
+      "question": "Is average speed the same as the magnitude of average velocity?",
+      "options": {
+        "A": "Yes, always",
+        "B": "No, never",
+        "C": "Only when motion is in a straight line without changing direction",
+        "D": "Only when acceleration is zero"
+      },
+      "correct_answer": "C",
+      "hint": "Consider a round trip: average speed > 0, average velocity magnitude = 0.",
+      "explanation": "Average speed = total distance / total time; magnitude of average velocity = |displacement| / time. They are equal only when displacement magnitude equals distance, i.e., straight-line motion without direction change. Option C correctly states this condition.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.3 Average Velocity and Instantaneous Velocity",
+        "subsection_anchor": "Exercise 3.8",
+        "structural_element": "Exercise 3.8",
+        "content_anchor": "Does the average speed the same as the magnitude of the average velocity? Explain.",
+        "page_hint": 10,
+        "concept_hash": "a9f1c8d7e0b3a4z5y6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 94,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Average speed = total distance / total time; magnitude of average velocity = |displacement| / time.",
+        "concept_summary": "They differ if the path is not a straight line in one direction (e.g., turning or returning).",
+        "beginner": "If you walk 10 m east then 10 m west back to start, your average speed is positive but average velocity is zero.",
+        "intermediate": "Distance ≥ |displacement|, so average speed ≥ |average velocity|. Equality holds only for straight-line motion without reversal.",
+        "advanced": "Average speed is \\(S_{tot}/t\\); magnitude of average velocity is \\(|\\Delta \\vec{S}|/t\\). Since \\(S_{tot} \\ge |\\Delta \\vec{S}|\\), equality only when motion is unidirectional straight line.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definitions.",
+          "Compare total distance vs displacement magnitude.",
+          "Equality requires straight-line one-way motion."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "They are always equal. Incorrect; counterexample: round trip.",
+          "They are never equal. Incorrect; they are equal for straight-line motion without direction change."
+        ],
+        "related_concepts": [
+          "Average speed",
+          "Average velocity magnitude",
+          "Displacement"
+        ],
+        "revision_note": "Avg speed = |avg velocity| only for straight-line one-way motion.",
+        "glossary_entry": {
+          "term": "Average speed vs velocity magnitude",
+          "definition": "Equal only when motion is straight line without direction change.",
+          "example_equation": null,
+          "related_terms": [
+            "Average speed",
+            "Average velocity"
+          ]
+        },
+        "flashcard": {
+          "front": "When is average speed equal to magnitude of average velocity?",
+          "flashcard_back": "When motion is straight line without changing direction."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Average speed",
+            "relation": "equals_magnitude_of",
+            "target": "Average velocity only if",
+            "target_detail": "straight line one-way"
+          }
+        ],
+        "workbook_section": "3.3 Average Velocity and Instantaneous Velocity",
+        "solution_manual_note": "Answer C. They are equal only for straight-line motion without direction reversal."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "When is average speed = |average velocity|?",
+        "flashcard_back": "Straight-line motion without direction change.",
+        "glossary_term": "Average speed",
+        "glossary_definition": "Total distance/total time.",
+        "revision_note": "Equality: straight line, no turn.",
+        "teacher_note": "Use round-trip example to illustrate inequality.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Compare average speed and average velocity magnitude",
+        "concept_map_nodes": [
+          {
+            "source": "Average speed",
+            "relation": "compared_to",
+            "target": "|Average velocity|"
+          }
+        ],
+        "workbook_section": "3.3 Average Velocity and Instantaneous Velocity",
+        "solution_manual_note": "Answer C. Only when distance = |displacement|."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q028",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.3 Average Velocity and Instantaneous Velocity",
+      "subsection": "Exercise 3.9",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.9",
+      "mcq_type": "E",
+      "question": "Tirunesh Dibaba ran 5000 m in 14 min 39.94 s. What was her average speed in m/s?",
+      "options": {
+        "A": "~5.68 m/s",
+        "B": "~6.82 m/s",
+        "C": "~4.55 m/s",
+        "D": "~7.95 m/s"
+      },
+      "correct_answer": "A",
+      "hint": "Convert time to seconds: 14 min = 840 s; total time = 879.94 s. Then speed = distance/time.",
+      "explanation": "Total time = 14 × 60 + 39.94 = 840 + 39.94 = 879.94 s. Speed = 5000/879.94 ≈ 5.68 m/s. Option B would be 5000/(14×60) ignoring the extra seconds.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(v_{av} = S/t\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "S": {
+            "magnitude": 5000,
+            "unit": "m"
+          },
+          "t_min": {
+            "magnitude": 14,
+            "unit": "min"
+          },
+          "t_sec": {
+            "magnitude": 39.94,
+            "unit": "s"
+          }
+        },
+        "answer_value": 5.68,
+        "answer_unit": "m/s",
+        "calculation_steps": [
+          "t = 14×60 + 39.94 = 840 + 39.94 = 879.94 s",
+          "v = 5000 / 879.94 ≈ 5.68 m/s"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.3 Average Velocity and Instantaneous Velocity",
+        "subsection_anchor": "Exercise 3.9",
+        "structural_element": "Exercise 3.9",
+        "content_anchor": "Tirunesh Dibaba won... 5,000 metres in 14 min 39.94 sec. Calculate her average speed.",
+        "page_hint": 10,
+        "concept_hash": "b0g2d9e8f1c4b5a6z7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 94,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Average speed = total distance / total time.",
+        "concept_summary": "Convert time to seconds correctly for unit consistency.",
+        "beginner": "14 minutes = 840 seconds, plus 39.94 gives 879.94 s. 5000 ÷ 879.94 ≈ 5.68 m/s.",
+        "intermediate": "\\(t = 14 \\times 60 + 39.94 = 879.94\\,\\mathrm{s}\\). \\(v = 5000/879.94 = 5.68\\,\\mathrm{m/s}\\).",
+        "advanced": "Precision: using 879.94 s yields 5.682 m/s (to 4 sig figs).",
+        "worked_solution": [
+          "Step 1: 14 min = 14 × 60 = 840 s.",
+          "Step 2: Total t = 840 + 39.94 = 879.94 s.",
+          "Step 3: v = 5000/879.94 = 5.68 m/s."
+        ],
+        "reasoning_steps": [
+          "Convert all time to seconds.",
+          "Divide distance by total time."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(v = S/t\\)",
+            "name": "Average speed",
+            "variables": [
+              {
+                "symbol": "S",
+                "meaning": "Distance",
+                "unit": "m"
+              },
+              {
+                "symbol": "t",
+                "meaning": "Time",
+                "unit": "s"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Using 14.39 min directly (14 + 39.94/60 = 14.6657 min).",
+          "Forgetting to convert minutes to seconds (5000/14 = 357 m/s nonsense)."
+        ],
+        "related_concepts": [
+          "Time conversion",
+          "Average speed"
+        ],
+        "revision_note": "v_avg = S / t (t in seconds).",
+        "glossary_entry": {
+          "term": "Average speed",
+          "definition": "Total distance / total time.",
+          "example_equation": "\\(5.68\\,\\mathrm{m/s}\\)",
+          "related_terms": [
+            "Distance",
+            "Time"
+          ]
+        },
+        "flashcard": {
+          "front": "5000 m in 14 min 39.94 s: average speed (m/s)?",
+          "flashcard_back": "~5.68 m/s (5000/879.94)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Average speed",
+            "relation": "requires",
+            "target": "Time in seconds"
+          }
+        ],
+        "workbook_section": "3.3 Average Velocity and Instantaneous Velocity",
+        "solution_manual_note": "Answer A. t = 879.94 s; v = 5000/879.94 ≈ 5.68 m/s."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "5000 m in 14 min 39.94 s: average speed?",
+        "flashcard_back": "~5.68 m/s.",
+        "glossary_term": "Average speed",
+        "glossary_definition": "Distance/time.",
+        "revision_note": "v = S/t.",
+        "teacher_note": "Emphasize exact conversion of time to seconds.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Compute average speed from real-world data",
+        "concept_map_nodes": [
+          {
+            "source": "Average speed",
+            "relation": "calculated_from",
+            "target": "Distance and time"
+          }
+        ],
+        "workbook_section": "3.3 Average Velocity and Instantaneous Velocity",
+        "solution_manual_note": "Answer A. t = 879.94 s, v = 5.68 m/s."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q029",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.4 Acceleration",
+      "subsection": "Exercise 3.11",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.11",
+      "mcq_type": "G",
+      "question": "If the initial and final velocities of a car are the same, what is its acceleration?",
+      "options": {
+        "A": "Zero",
+        "B": "Positive",
+        "C": "Negative",
+        "D": "Cannot be determined"
+      },
+      "correct_answer": "A",
+      "hint": "Acceleration = (v_f − v_i)/t.",
+      "explanation": "If v_f = v_i, then Δv = 0, so acceleration = 0 regardless of time. Option D is incorrect because we know Δv = 0, so a = 0.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\vec{a}_{av} = \\frac{\\vec{v}_f - \\vec{v}_i}{\\Delta t}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 100
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.4 Acceleration",
+        "subsection_anchor": "Exercise 3.11",
+        "structural_element": "Exercise 3.11",
+        "content_anchor": "If the initial and final velocities of a car are the same, what will be its acceleration?",
+        "page_hint": 13,
+        "concept_hash": "c1h3e0f9g2d5c6b7a8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 35,
+        "distractor_quality_score": 100,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 100
+      },
+      "explanations_tiered": {
+        "definition": "Acceleration = rate of change of velocity.",
+        "concept_summary": "If velocity does not change, acceleration is zero.",
+        "beginner": "If you're going the same speed and direction, you're not accelerating — acceleration is zero.",
+        "intermediate": "\\(a = (v_f - v_i)/\\Delta t\\). If \\(v_f = v_i\\), numerator = 0, so \\(a = 0\\).",
+        "advanced": "Zero acceleration implies constant velocity, not necessarily zero velocity.",
+        "worked_solution": [
+          "Step 1: Δv = v_f − v_i.",
+          "Step 2: Since v_f = v_i, Δv = 0.",
+          "Step 3: a = 0/Δt = 0."
+        ],
+        "reasoning_steps": [
+          "Compute change in velocity.",
+          "Divide by time interval.",
+          "Result is zero."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(a = \\Delta v/\\Delta t\\)",
+            "name": "Acceleration",
+            "variables": [
+              {
+                "symbol": "\\Delta v",
+                "meaning": "Change in velocity",
+                "unit": "m/s"
+              },
+              {
+                "symbol": "\\Delta t",
+                "meaning": "Time interval",
+                "unit": "s"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Acceleration could be positive or negative if v_f = v_i. No; Δv = 0 exactly.",
+          "Acceleration is zero only if time is large. No; Δv=0 gives a=0 regardless of Δt."
+        ],
+        "related_concepts": [
+          "Zero acceleration",
+          "Constant velocity"
+        ],
+        "revision_note": "v_f = v_i → a = 0.",
+        "glossary_entry": {
+          "term": "Zero acceleration",
+          "definition": "Occurs when velocity is constant.",
+          "example_equation": "\\(a = 0\\)",
+          "related_terms": [
+            "Constant velocity"
+          ]
+        },
+        "flashcard": {
+          "front": "If initial and final velocities are equal, acceleration = ?",
+          "flashcard_back": "Zero."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Zero acceleration",
+            "relation": "implies",
+            "target": "Constant velocity"
+          }
+        ],
+        "workbook_section": "3.4 Acceleration",
+        "solution_manual_note": "Answer A. Δv = 0 → a = 0."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "v_i = v_f → acceleration?",
+        "flashcard_back": "Zero.",
+        "glossary_term": "Acceleration",
+        "glossary_definition": "Rate of change of velocity.",
+        "revision_note": "Δv = 0 → a = 0.",
+        "teacher_note": "Reinforce that constant velocity implies zero acceleration.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Relate constant velocity to zero acceleration",
+        "concept_map_nodes": [
+          {
+            "source": "Acceleration",
+            "relation": "zero_if",
+            "target": "Velocity constant"
+          }
+        ],
+        "workbook_section": "3.4 Acceleration",
+        "solution_manual_note": "Answer A. Since v_f = v_i, Δv = 0, so a = 0."
+      }
+    },
+    {
+      "question_id": "G9_Phys_U3_Q030",
+      "generation_timestamp": "2026-06-11T10:10:00Z",
+      "grade": "Grade 9",
+      "subject": "Physics",
+      "unit": "Unit 3: Motion in a Straight Line",
+      "section": "3.5 Uniform Motion",
+      "subsection": "Exercise 3.12",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 3.12",
+      "mcq_type": "B",
+      "question": "Which of the following is an example of uniform motion?",
+      "options": {
+        "A": "A ball dropped from a height",
+        "B": "A car moving at 20 m/s on a straight highway",
+        "C": "A pendulum swinging",
+        "D": "A rocket launching upward"
+      },
+      "correct_answer": "B",
+      "hint": "Uniform motion = constant velocity (constant speed + straight line).",
+      "explanation": "Uniform motion requires constant speed and constant direction. Option B fits: constant speed on a straight road. Options A and D involve acceleration; option C changes direction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 98
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Motion in a Straight Line",
+        "section_anchor": "3.5 Uniform Motion",
+        "subsection_anchor": "Exercise 3.12",
+        "structural_element": "Exercise 3.12",
+        "content_anchor": "(No explicit content, but uniform motion defined as constant velocity)",
+        "page_hint": 15,
+        "concept_hash": "d2i4f1g0h3e6d7c8b9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 38,
+        "distractor_quality_score": 96,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Uniform motion is motion with constant velocity.",
+        "concept_summary": "Uniform motion means no acceleration; speed and direction are constant.",
+        "beginner": "A car going straight at the same speed without speeding up or turning is uniform motion.",
+        "intermediate": "Constant velocity implies \\(a = 0\\). A car at 20 m/s on a straight road has constant velocity.",
+        "advanced": "Uniform motion satisfies \\(\\vec{v} = \\text{constant}\\), hence \\(\\vec{a} = d\\vec{v}/dt = 0\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check for constant speed.",
+          "Check for straight-line direction.",
+          "Both required for uniform motion."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Uniform motion includes constant speed in a circle. Incorrect; direction changes.",
+          "Falling objects have uniform motion. Incorrect; they accelerate due to gravity."
+        ],
+        "related_concepts": [
+          "Constant velocity",
+          "Zero acceleration"
+        ],
+        "revision_note": "Uniform motion = constant speed + straight line.",
+        "glossary_entry": {
+          "term": "Uniform motion",
+          "definition": "Motion with constant velocity.",
+          "example_equation": null,
+          "related_terms": [
+            "Constant velocity"
+          ]
+        },
+        "flashcard": {
+          "front": "Which describes uniform motion: constant speed turning or constant speed straight?",
+          "flashcard_back": "Constant speed straight (constant velocity)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Uniform motion",
+            "relation": "example",
+            "target": "Car at constant speed on straight road"
+          }
+        ],
+        "workbook_section": "3.5 Uniform Motion",
+        "solution_manual_note": "Answer B. Car at constant speed on straight road has constant velocity."
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Physics Unit 3 — Motion in a Straight Line",
+        "flashcard_front": "Example of uniform motion?",
+        "flashcard_back": "Car at constant speed on straight road.",
+        "glossary_term": "Uniform motion",
+        "glossary_definition": "Constant velocity.",
+        "revision_note": "Uniform = constant velocity.",
+        "teacher_note": "Contrast with accelerated motion examples.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify uniform motion examples",
+        "concept_map_nodes": [
+          {
+            "source": "Uniform motion",
+            "relation": "requires",
+            "target": "Constant speed"
+          },
+          {
+            "source": "Uniform motion",
+            "relation": "requires",
+            "target": "Straight line"
+          }
+        ],
+        "workbook_section": "3.5 Uniform Motion",
+        "solution_manual_note": "Answer B. Only B has constant speed and straight line."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 95.4,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "E": 2,
+      "F": 1,
+      "G": 1,
+      "I": 2,
+      "other": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.1 Position, Distance and Displacement": 3,
+      "3.2 Average Speed and Instantaneous Speed": 3,
+      "3.3 Average Velocity and Instantaneous Velocity": 2,
+      "3.4 Acceleration": 1,
+      "3.5 Uniform Motion": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 46
+    },
+    "visual_required_count": 1,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 9
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

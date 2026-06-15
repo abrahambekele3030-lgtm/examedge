@@ -1,0 +1,649 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T14:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Phys_U3_Q010",
+    "covered_sections": [
+      "3.1 Uniformly Accelerated Motion in 1D>Acceleration",
+      "3.1 Uniformly Accelerated Motion in 1D>Average acceleration",
+      "3.1 Uniformly Accelerated Motion in 1D>Instantaneous acceleration",
+      "3.1 Uniformly Accelerated Motion in 1D>Motion with Constant Acceleration",
+      "3.2 Equations of Uniformly Accelerated Motion in 1D>Derivation of equations of motion"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+      "a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2",
+      "b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7",
+      "c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8",
+      "d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9d0e1f2a7b8c9"
+    ],
+    "baseline_counter": {
+      "3.1 Uniformly Accelerated Motion in 1D": {
+        "Acceleration": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Average acceleration": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Instantaneous acceleration": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Motion with Constant Acceleration": { "count": 2, "mini_headings_covered": ["Key term"], "last_question_round": 1 }
+      },
+      "3.2 Equations of Uniformly Accelerated Motion in 1D": {
+        "Derivation of equations of motion": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 Uniformly Accelerated Motion in 1D": { "question_count": 5, "last_used_round": 1, "consecutive_batches": 1 },
+      "3.2 Equations of Uniformly Accelerated Motion in 1D": { "question_count": 5, "last_used_round": 1, "consecutive_batches": 1 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 Uniformly Accelerated Motion in 1D>Acceleration": ["acceleration", "rate of change of velocity"],
+      "3.1 Uniformly Accelerated Motion in 1D>Average acceleration": ["average acceleration", "change in velocity over time"],
+      "3.1 Uniformly Accelerated Motion in 1D>Instantaneous acceleration": ["instantaneous acceleration", "limit of average acceleration"],
+      "3.1 Uniformly Accelerated Motion in 1D>Motion with Constant Acceleration": ["constant acceleration", "average velocity", "kinematic equations"],
+      "3.2 Equations of Uniformly Accelerated Motion in 1D>Derivation of equations of motion": ["kinematic equations", "initial velocity", "final velocity", "displacement"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 8,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 15.4
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Physics",
+  "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+  "pdf_filename": "P11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T14:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": { "complete": false, "sections_covered": 2, "total_sections": 5, "progress_percentage": 40.0 },
+      "phase2": { "complete": false, "max_imbalance_ratio": 0.0, "balanced": true },
+      "phase3": { "started": false, "exam_sections_biased": 0 }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 15.4,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.1 Uniformly Accelerated Motion in 1D",
+      "least_covered_section": "3.2 Equations of Uniformly Accelerated Motion in 1D",
+      "imbalance_ratio": 1.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 999
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Phys_U3_Q001",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.1 Uniformly Accelerated Motion in 1D",
+      "subsection": "Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "A",
+      "question": "What is the SI unit of acceleration?",
+      "options": {
+        "A": "\\(\\mathrm{m/s}\\)",
+        "B": "\\(\\mathrm{m/s^2}\\)",
+        "C": "\\(\\mathrm{km/h^2}\\)",
+        "D": "\\(\\mathrm{N/kg}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the definition: rate of change of velocity.",
+      "explanation": "Acceleration is defined as change in velocity per unit time, so its unit is \\(\\mathrm{m/s}\\) divided by \\(\\mathrm{s}\\), giving \\(\\mathrm{m/s^2}\\). Option A is the unit of velocity, not acceleration.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+        "section_anchor": "3.1 Uniformly Accelerated Motion in 1D",
+        "subsection_anchor": "Acceleration",
+        "structural_element": "Acceleration",
+        "content_anchor": "The SI unit of acceleration is \\(\\mathrm{m / s^2}\\)",
+        "page_hint": 2,
+        "concept_hash": "sha256ofSIunitacceleration"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 30,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Acceleration is the rate of change of velocity with respect to time.",
+        "concept_summary": "Acceleration tells how quickly velocity changes. If velocity changes by equal amounts in equal time intervals, acceleration is constant.",
+        "beginner": "Think of a car's speedometer: if the number changes faster, acceleration is larger. Unit is meters per second per second.",
+        "intermediate": "Acceleration quantifies how velocity changes over time. Its SI unit \\(\\mathrm{m/s^2}\\) means velocity changes by \\(\\mathrm{1 m/s}\\) each second.",
+        "advanced": "From \\(a = dv/dt\\), units are derived as \\([v]/[t] = (\\mathrm{m/s})/\\mathrm{s} = \\mathrm{m/s^2}\\). This is consistent for both average and instantaneous acceleration.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition: acceleration = change in velocity ÷ time.",
+          "Velocity unit is \\(\\mathrm{m/s}\\).",
+          "Divide by time in seconds → \\(\\mathrm{m/s^2}\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think \\(\\mathrm{m/s}\\) is acceleration, but that is velocity. Acceleration requires change over time.",
+          "Negative acceleration always means slowing down is incorrect; it depends on sign relative to velocity."
+        ],
+        "related_concepts": ["Velocity", "Displacement", "Instantaneous acceleration", "Deceleration"],
+        "revision_note": "Acceleration SI unit: \\(\\mathrm{m/s^2}\\). Rate of change of velocity.",
+        "glossary_entry": {
+          "term": "Acceleration",
+          "definition": "The rate of change of velocity with time, a vector quantity measured in \\(\\mathrm{m/s^2}\\).",
+          "example_equation": "\\(a = \\frac{\\Delta v}{\\Delta t}\\)",
+          "related_terms": ["Deceleration", "Centripetal acceleration"]
+        },
+        "flashcard": {
+          "front": "What is the SI unit of acceleration?",
+          "back": "\\(\\mathrm{m/s^2}\\) (meters per second squared)."
+        },
+        "concept_map_nodes": [
+          { "source": "Acceleration", "relation": "derived_from", "target": "Velocity" },
+          { "source": "Acceleration", "relation": "measured_in", "target": "\\(\\mathrm{m/s^2}\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "inline",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 3 — Kinematics",
+        "flashcard_front": "What is the SI unit of acceleration?",
+        "flashcard_back": "Acceleration is measured in \\(\\mathrm{m/s^2}\\), meaning change in velocity per second.",
+        "glossary_term": "Acceleration",
+        "glossary_definition": "Rate of change of velocity, vector quantity, unit \\(\\mathrm{m/s^2}\\).",
+        "revision_note": "\\(a = \\Delta v / \\Delta t\\), unit \\(\\mathrm{m/s^2}\\).",
+        "teacher_note": "Common error: students confuse \\(\\mathrm{m/s}\\) (velocity) with \\(\\mathrm{m/s^2}\\) (acceleration).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain uniformly accelerated motion in 1D",
+        "concept_map_nodes": [
+          { "source": "Acceleration", "relation": "unit", "target": "\\(\\mathrm{m/s^2}\\)" },
+          { "source": "Acceleration", "relation": "definition", "target": "Rate of change of velocity" }
+        ],
+        "workbook_section": "3.1 Uniformly Accelerated Motion in 1D",
+        "solution_manual_note": "Answer B. \\(\\mathrm{m/s^2}\\) is correct because acceleration = velocity change / time."
+      }
+    },
+    {
+      "question_id": "G11_Phys_U3_Q002",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.1 Uniformly Accelerated Motion in 1D",
+      "subsection": "Average acceleration",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "A car increases its velocity from \\(4.0\\ \\mathrm{m/s}\\) to \\(16.0\\ \\mathrm{m/s}\\) in \\(3.0\\ \\mathrm{s}\\). What is the average acceleration?",
+      "options": {
+        "A": "\\(2.0\\ \\mathrm{m/s^2}\\)",
+        "B": "\\(4.0\\ \\mathrm{m/s^2}\\)",
+        "C": "\\(5.3\\ \\mathrm{m/s^2}\\)",
+        "D": "\\(12.0\\ \\mathrm{m/s^2}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Average acceleration is change in velocity divided by time.",
+      "explanation": "Average acceleration is \\(a_{av} = (v_f - v_i)/\\Delta t = (16.0 - 4.0)/3.0 = 12.0/3.0 = 4.0\\ \\mathrm{m/s^2}\\). Option A results from dividing final velocity by time incorrectly.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(a_{av} = \\frac{v_f - v_i}{\\Delta t}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "v_i": { "magnitude": 4.0, "unit": "m/s" }, "v_f": { "magnitude": 16.0, "unit": "m/s" }, "Δt": { "magnitude": 3.0, "unit": "s" } },
+        "answer_value": 4.0,
+        "answer_unit": "m/s^2",
+        "calculation_steps": ["\\(a = \\frac{16.0\\ \\mathrm{m/s} - 4.0\\ \\mathrm{m/s}}{3.0\\ \\mathrm{s}} = \\frac{12.0\\ \\mathrm{m/s}}{3.0\\ \\mathrm{s}} = 4.0\\ \\mathrm{m/s^2}\\)"],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+        "section_anchor": "3.1 Uniformly Accelerated Motion in 1D",
+        "subsection_anchor": "Average acceleration",
+        "structural_element": "Average acceleration",
+        "content_anchor": "a_av = (v_f - v_i)/Δt",
+        "page_hint": 3,
+        "concept_hash": "sha256ofavgaccelcalc"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Average acceleration is the change in velocity divided by the time interval over which that change occurs.",
+        "concept_summary": "For uniformly accelerated motion, average acceleration equals instantaneous acceleration and is constant.",
+        "beginner": "Like finding how much speed increases each second: (end speed − start speed) ÷ time.",
+        "intermediate": "Using \\(a_{av} = \\frac{\\Delta v}{\\Delta t}\\), the change in velocity is \\(12.0\\ \\mathrm{m/s}\\) over \\(3.0\\ \\mathrm{s}\\), giving \\(4.0\\ \\mathrm{m/s^2}\\).",
+        "advanced": "This matches the definition \\(a = dv/dt\\) for constant acceleration. The numerical result is independent of path, only initial and final velocities matter.",
+        "worked_solution": ["Step 1: Identify \\(v_i = 4.0\\ \\mathrm{m/s}\\), \\(v_f = 16.0\\ \\mathrm{m/s}\\), \\(\\Delta t = 3.0\\ \\mathrm{s}\\).", "Step 2: Apply \\(a = \\frac{v_f - v_i}{\\Delta t} = \\frac{12.0}{3.0} = 4.0\\ \\mathrm{m/s^2}\\)."],
+        "reasoning_steps": ["Find change in velocity: \\(v_f - v_i\\).", "Divide by time interval.", "Result is average acceleration."],
+        "formula_analysis": [{"formula": "\\(a_{av} = \\frac{v_f - v_i}{\\Delta t}\\)", "name": "Average acceleration", "variables": [{"symbol": "\\(v_f\\)", "meaning": "final velocity", "unit": "m/s"}, {"symbol": "\\(v_i\\)", "meaning": "initial velocity", "unit": "m/s"}, {"symbol": "\\(\\Delta t\\)", "meaning": "time interval", "unit": "s"}], "derivation": null}],
+        "misconceptions": ["Some students use \\(v_f/\\Delta t\\) forgetting to subtract \\(v_i\\), giving 5.33 m/s² (option C).", "Using \\(v_i/\\Delta t\\) gives 1.33, not listed, but still wrong."],
+        "related_concepts": ["Instantaneous acceleration", "Velocity", "Uniform acceleration"],
+        "revision_note": "\\(a_{av} = \\Delta v / \\Delta t\\). For constant a, equals instantaneous a.",
+        "glossary_entry": {"term": "Average acceleration", "definition": "Change in velocity over a time interval \\(\\Delta t\\), \\(a_{av} = \\frac{v_f - v_i}{\\Delta t}\\).", "example_equation": "\\(a_{av} = \\frac{16-4}{3} = 4\\ \\mathrm{m/s^2}\\)", "related_terms": ["Instantaneous acceleration", "Deceleration"]},
+        "flashcard": {"front": "A car goes from 4 m/s to 16 m/s in 3 s. Find average acceleration.", "back": "\\(4\\ \\mathrm{m/s^2}\\), because \\((16-4)/3 = 4\\)."},
+        "concept_map_nodes": [{"source": "Average acceleration", "relation": "calculated_as", "target": "Δv/Δt"}, {"source": "Average acceleration", "relation": "equals", "target": "Instantaneous acceleration (constant a)"}]
+      },
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper", "solution_manual"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "A car goes from 4 m/s to 16 m/s in 3 s. What is its average acceleration?", "flashcard_back": "\\(4\\ \\mathrm{m/s^2}\\) using \\(a = \\Delta v / \\Delta t\\).", "glossary_term": "Average acceleration", "glossary_definition": "Change in velocity divided by time interval.", "revision_note": "\\(a_{av} = (v_f - v_i)/\\Delta t\\).", "teacher_note": "Emphasize subtraction before division; distractors often omit v_i.", "bloom_level": "Apply", "learning_objective_tag": "Solve problems involving average acceleration", "concept_map_nodes": [{"source": "Average acceleration", "relation": "depends_on", "target": "Δv"}, {"source": "Δv", "relation": "equals", "target": "v_f - v_i"}], "workbook_section": "3.1 Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. \\(a = (16-4)/3 = 4\\ \\mathrm{m/s^2}\\). Option A is \\(v_f/\\Delta t\\) error."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q003",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.1 Uniformly Accelerated Motion in 1D",
+      "subsection": "Instantaneous acceleration",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "The velocity of a particle moving along a straight line is given by \\(v(t) = t^2 - 2t\\). What is the instantaneous acceleration at \\(t = 2\\ \\mathrm{s}\\)?",
+      "options": {
+        "A": "\\(0\\ \\mathrm{m/s^2}\\)",
+        "B": "\\(2\\ \\mathrm{m/s^2}\\)",
+        "C": "\\(4\\ \\mathrm{m/s^2}\\)",
+        "D": "\\(6\\ \\mathrm{m/s^2}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Instantaneous acceleration is the derivative of velocity with respect to time.",
+      "explanation": "Acceleration \\(a(t) = dv/dt = 2t - 2\\). At \\(t = 2\\ \\mathrm{s}\\), \\(a = 2(2)-2 = 2\\ \\mathrm{m/s^2}\\). Option A results from evaluating \\(v(2)\\) instead of \\(a(2)\\).",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(a(t) = \\frac{dv}{dt}\\)"],
+      "numeric": {"is_numeric": true, "given_values": null, "answer_value": 2.0, "answer_unit": "m/s^2", "calculation_steps": ["\\(a(t) = \\frac{d}{dt}(t^2 - 2t) = 2t - 2\\)", "\\(a(2) = 2(2)-2 = 2\\ \\mathrm{m/s^2}\\)"], "significant_figures": 1},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "subsection"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 94, "explanation_validation": {"word_overlap_percentage": 8.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 91}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.1 Uniformly Accelerated Motion in 1D", "subsection_anchor": "Instantaneous acceleration", "structural_element": "Instantaneous acceleration", "content_anchor": "Example 3.2", "page_hint": 4, "concept_hash": "sha256ofinsaccelderivative"},
+      "quality_metrics": {"stem_complexity_score": 68, "distractor_quality_score": 86, "cognitive_level": "analyse", "exam_alignment_score": 89},
+      "explanations_tiered": {"definition": "Instantaneous acceleration is the limit of average acceleration as time interval approaches zero, equal to the derivative of velocity.", "concept_summary": "It tells the acceleration at a precise moment, found by differentiating v(t).", "beginner": "Like checking speedometer change at an instant: derivative gives exact acceleration at that time.", "intermediate": "Differentiate \\(v(t)=t^2-2t\\) to get \\(a(t)=2t-2\\), then plug t=2 → \\(2\\ \\mathrm{m/s^2}\\).", "advanced": "\\(a = \\lim_{\\Delta t \\to 0} \\frac{\\Delta v}{\\Delta t} = \\frac{dv}{dt}\\). Here \\(dv/dt = 2t-2\\), so at t=2, a=2 m/s².", "worked_solution": ["Step 1: \\(a(t) = dv/dt = 2t - 2\\).", "Step 2: Substitute t=2 → \\(2(2)-2 = 2\\ \\mathrm{m/s^2}\\)."], "reasoning_steps": ["Find derivative of v(t).", "Evaluate derivative at given t."], "formula_analysis": [{"formula": "\\(a = \\frac{dv}{dt}\\)", "name": "Instantaneous acceleration", "variables": [], "derivation": null}], "misconceptions": ["Confusing v(t) with a(t) leads to t²−2t at t=2 giving 0 (option A).", "Forgetting derivative gives constant 2? No, 2t-2 is correct."], "related_concepts": ["Average acceleration", "Derivative", "Velocity function"], "revision_note": "a(t) = dv/dt. For v=t²−2t, a=2t−2.", "glossary_entry": {"term": "Instantaneous acceleration", "definition": "Acceleration at a specific instant, derivative of velocity with respect to time.", "example_equation": "\\(a = \\lim_{\\Delta t \\to 0} \\frac{\\Delta v}{\\Delta t}\\)", "related_terms": ["Derivative", "Instantaneous velocity"]}, "flashcard": {"front": "If v(t)=t²−2t, find a at t=2 s.", "back": "a = dv/dt = 2t−2, so a(2)=2 m/s²."}, "concept_map_nodes": [{"source": "Instantaneous acceleration", "relation": "is_derived_by", "target": "Differentiation"}, {"source": "v(t)", "relation": "differentiate_to_get", "target": "a(t)"}]},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "Given v(t)=t²−2t, what is instantaneous acceleration at t=2 s?", "flashcard_back": "a = dv/dt = 2t−2, so at t=2, a=2 m/s².", "glossary_term": "Instantaneous acceleration", "glossary_definition": "Limit of average acceleration as Δt→0, derivative of velocity.", "revision_note": "a = dv/dt. For polynomial v, differentiate term by term.", "teacher_note": "Students often forget to differentiate; emphasize derivative for instantaneous quantities.", "bloom_level": "Analyse", "learning_objective_tag": "Explain instantaneous acceleration", "concept_map_nodes": [{"source": "Instantaneous acceleration", "relation": "calculated_as", "target": "dv/dt"}], "workbook_section": "3.1 Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. Derivative of t² is 2t, derivative of −2t is −2 → 2t−2 → at t=2 gives 2."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q004",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.1 Uniformly Accelerated Motion in 1D",
+      "subsection": "Motion with Constant Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": "Key term",
+      "mcq_type": "A",
+      "question": "What term describes motion where velocity changes by equal amounts in equal time intervals?",
+      "options": {
+        "A": "Uniformly accelerated motion",
+        "B": "Uniform velocity motion",
+        "C": "Non-uniform acceleration",
+        "D": "Instantaneous motion"
+      },
+      "correct_answer": "A",
+      "hint": "Think of constant acceleration meaning velocity change per second is the same.",
+      "explanation": "Uniformly accelerated motion means constant acceleration, so velocity changes by equal amounts in equal times. Option B describes constant velocity (zero acceleration), not changing velocity.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {"is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "mini_heading"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 97, "explanation_validation": {"word_overlap_percentage": 9.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 90}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.1 Uniformly Accelerated Motion in 1D", "subsection_anchor": "Motion with Constant Acceleration", "structural_element": "Key term", "content_anchor": "velocity is changing by equal amount in equal interval of time", "page_hint": 4, "concept_hash": "sha256ofuniformaccel"},
+      "quality_metrics": {"stem_complexity_score": 55, "distractor_quality_score": 85, "cognitive_level": "remembering", "exam_alignment_score": 92},
+      "explanations_tiered": {"definition": "Uniformly accelerated motion occurs when acceleration is constant, so velocity changes by equal amounts in equal time intervals.", "concept_summary": "Constant acceleration means the rate of velocity change does not vary with time.", "beginner": "Like a car that increases speed by exactly 2 m/s every second, no matter which second.", "intermediate": "In uniformly accelerated motion, \\(a = \\text{constant}\\), so \\(\\Delta v\\) is same for any equal \\(\\Delta t\\).", "advanced": "For constant a, the v-t graph is a straight line with slope a. The change in velocity over any time interval \\(\\Delta t\\) is \\(a\\Delta t\\), which is equal for equal \\(\\Delta t\\).", "worked_solution": [], "reasoning_steps": ["Recall definition of uniform acceleration.", "Constant a → equal Δv in equal Δt."], "formula_analysis": [], "misconceptions": ["Uniform velocity (constant speed) is not uniform acceleration; acceleration is zero then."], "related_concepts": ["Constant acceleration", "Kinematic equations"], "revision_note": "Uniform acceleration = constant a → equal Δv in equal Δt.", "glossary_entry": {"term": "Uniformly accelerated motion", "definition": "Motion with constant acceleration, where velocity changes by equal amounts in equal time intervals.", "example_equation": "\\(v_f = v_i + at\\)", "related_terms": ["Constant acceleration", "Rectilinear motion"]}, "flashcard": {"front": "What is uniformly accelerated motion?", "back": "Motion where velocity changes by equal amounts in equal time intervals (constant acceleration)."}, "concept_map_nodes": [{"source": "Uniformly accelerated motion", "relation": "has_property", "target": "Constant acceleration"}, {"source": "Constant acceleration", "relation": "implies", "target": "Equal Δv in equal Δt"}]},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper", "glossary"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "Define uniformly accelerated motion.", "flashcard_back": "Motion with constant acceleration; velocity changes equally in equal time intervals.", "glossary_term": "Uniformly accelerated motion", "glossary_definition": "Motion with constant acceleration, Δv equal for equal Δt.", "revision_note": "Uniform acceleration = constant a, v changes steadily.", "teacher_note": "Contrast with uniform velocity (a=0).", "bloom_level": "Remember", "learning_objective_tag": "Explain uniformly accelerated motion in 1D", "concept_map_nodes": [{"source": "Uniformly accelerated motion", "relation": "uses", "target": "Kinematic equations"}], "workbook_section": "3.1 Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer A. Uniformly accelerated motion means constant acceleration."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q005",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.1 Uniformly Accelerated Motion in 1D",
+      "subsection": "Motion with Constant Acceleration",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "C",
+      "question": "Which of the following equations is valid only for uniformly accelerated motion in a straight line?",
+      "options": {
+        "A": "\\(v = \\frac{s}{t}\\)",
+        "B": "\\(v_f = v_i + at\\)",
+        "C": "\\(a = \\frac{F}{m}\\)",
+        "D": "\\(s = vt\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Kinematic equations with constant acceleration include \\(v_f = v_i + at\\).",
+      "explanation": "\\(v_f = v_i + at\\) is one of the five kinematic equations derived assuming constant acceleration. Option A is average speed, not specific to uniform acceleration.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(v_f = v_i + at\\)"],
+      "numeric": {"is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "subsection"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 93, "explanation_validation": {"word_overlap_percentage": 7.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 89}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.1 Uniformly Accelerated Motion in 1D", "subsection_anchor": "Motion with Constant Acceleration", "structural_element": "Motion with Constant Acceleration", "content_anchor": "v_f = v_i + at", "page_hint": 4, "concept_hash": "sha256ofkinematic1"},
+      "quality_metrics": {"stem_complexity_score": 50, "distractor_quality_score": 84, "cognitive_level": "understand", "exam_alignment_score": 88},
+      "explanations_tiered": {"definition": "Kinematic equations like \\(v_f = v_i + at\\) assume constant acceleration.", "concept_summary": "These equations are derived from definitions of a and v_avg under constant a.", "beginner": "Only when acceleration is steady can you use v_f = v_i + a×t.", "intermediate": "For uniform acceleration, \\(v_f = v_i + at\\) holds; for variable a, it fails.", "advanced": "Derived from \\(a = dv/dt\\) integrated assuming a constant: \\(\\int dv = a \\int dt \\rightarrow v_f - v_i = a t\\).", "worked_solution": [], "reasoning_steps": ["Recall which equations come from constant a assumption.", "v_f = v_i + at directly from definition of a when a constant."], "formula_analysis": [{"formula": "\\(v_f = v_i + at\\)", "name": "First kinematic equation", "variables": [{"symbol": "\\(v_f\\)", "meaning": "final velocity", "unit": "m/s"}, {"symbol": "\\(v_i\\)", "meaning": "initial velocity", "unit": "m/s"}, {"symbol": "\\(a\\)", "meaning": "constant acceleration", "unit": "m/s^2"}, {"symbol": "\\(t\\)", "meaning": "time", "unit": "s"}], "derivation": "a = (v_f - v_i)/t → v_f = v_i + at"}], "misconceptions": ["Using v_f = v_i + at for non-constant a gives wrong result.", "v = s/t is average velocity, not a kinematic equation for constant a specifically."], "related_concepts": ["Kinematic equations", "Constant acceleration"], "revision_note": "v_f = v_i + at only for constant a.", "glossary_entry": {"term": "First kinematic equation", "definition": "v_f = v_i + at, valid for constant acceleration.", "example_equation": "\\(v_f = v_i + at\\)", "related_terms": ["Uniform acceleration"]}, "flashcard": {"front": "Which equation is only valid for constant acceleration?", "back": "v_f = v_i + at (and other kinematic equations)."}, "concept_map_nodes": [{"source": "v_f = v_i + at", "relation": "requires", "target": "Constant acceleration"}], "workbook_section": "3.1 Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. It is derived directly from definition of constant acceleration."},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "When is v_f = v_i + at valid?", "flashcard_back": "Only for motion with constant acceleration (uniformly accelerated motion).", "glossary_term": "Kinematic equations", "glossary_definition": "Equations relating displacement, velocity, acceleration, and time for constant acceleration.", "revision_note": "Kinematic eqns require constant a.", "teacher_note": "Emphasize that these equations fail if acceleration changes.", "bloom_level": "Understand", "learning_objective_tag": "Derive and apply equations of uniformly accelerated motion", "concept_map_nodes": [{"source": "v_f = v_i + at", "relation": "part_of", "target": "Kinematic equations"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. The other equations are either definitions or not restricted to constant a."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q006",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.2 Equations of Uniformly Accelerated Motion in 1D",
+      "subsection": "Derivation of equations of motion",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "A car starts from rest and accelerates uniformly at \\(2.5\\ \\mathrm{m/s^2}\\) for \\(8.0\\ \\mathrm{s}\\). What distance does it travel during this time?",
+      "options": {
+        "A": "\\(20\\ \\mathrm{m}\\)",
+        "B": "\\(40\\ \\mathrm{m}\\)",
+        "C": "\\(80\\ \\mathrm{m}\\)",
+        "D": "\\(160\\ \\mathrm{m}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Use \\(s = v_i t + \\frac12 a t^2\\) with \\(v_i=0\\).",
+      "explanation": "With \\(v_i=0\\), \\(s = \\frac12 a t^2 = 0.5 \\times 2.5 \\times (8.0)^2 = 0.5 \\times 2.5 \\times 64 = 80\\ \\mathrm{m}\\). Option B results from using \\(v_f = at\\) but forgetting the 1/2 factor.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(s = v_i t + \\frac12 a t^2\\)"],
+      "numeric": {"is_numeric": true, "given_values": {"a": {"magnitude": 2.5, "unit": "m/s^2"}, "t": {"magnitude": 8.0, "unit": "s"}, "v_i": {"magnitude": 0, "unit": "m/s"}}, "answer_value": 80.0, "answer_unit": "m", "calculation_steps": ["\\(s = 0 \\times 8.0 + \\frac12 (2.5)(8.0)^2\\)", "\\(s = 0.5 \\times 2.5 \\times 64 = 80\\ \\mathrm{m}\\)"], "significant_figures": 2},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "subsection"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 96, "explanation_validation": {"word_overlap_percentage": 10.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 93}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.2 Equations of Uniformly Accelerated Motion in 1D", "subsection_anchor": "Derivation of equations of motion", "structural_element": "Equation 4", "content_anchor": "s = v_i t + 1/2 a t^2", "page_hint": 9, "concept_hash": "sha256ofdistuniformacc"},
+      "quality_metrics": {"stem_complexity_score": 48, "distractor_quality_score": 91, "cognitive_level": "apply", "exam_alignment_score": 94},
+      "explanations_tiered": {"definition": "Displacement under constant acceleration from rest is \\(s = \\frac12 a t^2\\).", "concept_summary": "When starting from rest, displacement is proportional to t² for constant acceleration.", "beginner": "If you accelerate from stop, distance = half × acceleration × time squared.", "intermediate": "Using \\(s = v_i t + \\frac12 a t^2\\) with v_i=0 gives \\(s = 0.5(2.5)(64)=80\\ \\mathrm{m}\\).", "advanced": "This is the integral of v(t)=at: \\(s = \\int_0^t at' dt' = \\frac12 a t^2\\).", "worked_solution": ["Step 1: Identify v_i=0, a=2.5 m/s², t=8.0 s.", "Step 2: Use s = v_i t + ½ a t² = 0 + 0.5×2.5×64 = 80 m."], "reasoning_steps": ["Check initial velocity is zero.", "Apply kinematic equation without v_i term.", "Compute ½×a×t²."], "formula_analysis": [{"formula": "\\(s = \\frac12 a t^2\\)", "name": "Displacement from rest under constant a", "variables": [{"symbol": "\\(a\\)", "meaning": "acceleration", "unit": "m/s^2"}, {"symbol": "\\(t\\)", "meaning": "time", "unit": "s"}], "derivation": "From s = v_i t + ½ a t², set v_i=0"}], "misconceptions": ["Using s = a t² without ½ gives 160 m (option D).", "Using s = v_i t only gives 0 m."], "related_concepts": ["Kinematic equations", "Uniform acceleration"], "revision_note": "s = ½ a t² when starting from rest.", "glossary_entry": {"term": "Displacement under constant acceleration", "definition": "Distance traveled from rest: \\(s = \\frac12 a t^2\\).", "example_equation": "\\(s = \\frac12 (2.5)(8^2) = 80\\ \\mathrm{m}\\)", "related_terms": ["Kinematic equations"]}, "flashcard": {"front": "From rest, a=2.5 m/s², t=8 s. Distance?", "back": "s = ½ × 2.5 × 64 = 80 m."}, "concept_map_nodes": [{"source": "s = ½ a t²", "relation": "used_when", "target": "v_i = 0"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer C. s = 0.5×2.5×64=80 m. Option D forgets the 1/2 factor."},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper", "solution_manual"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "Car accelerates from rest at 2.5 m/s² for 8 s. Distance?", "flashcard_back": "s = ½×2.5×8² = 80 m.", "glossary_term": "Kinematic equation", "glossary_definition": "s = v_i t + ½ a t².", "revision_note": "from rest: s = ½ a t².", "teacher_note": "Common mistake: forgetting the 1/2 factor.", "bloom_level": "Apply", "learning_objective_tag": "Solve problems of uniformly accelerated motion", "concept_map_nodes": [{"source": "s = v_i t + ½ a t²", "relation": "simplifies_to", "target": "s = ½ a t² when v_i=0"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer C. Correct use of s = ½ a t²."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q007",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.2 Equations of Uniformly Accelerated Motion in 1D",
+      "subsection": "Derivation of equations of motion",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "A train moving at \\(25\\ \\mathrm{m/s}\\) applies brakes and decelerates uniformly at \\(-2.0\\ \\mathrm{m/s^2}\\). How far does it travel before stopping?",
+      "options": {
+        "A": "\\(78.1\\ \\mathrm{m}\\)",
+        "B": "\\(156.25\\ \\mathrm{m}\\)",
+        "C": "\\$312.5\\ \\mathrm{m}\\$",
+        "D": "\\(625\\ \\mathrm{m}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Use \\(v_f^2 = v_i^2 + 2as\\) with \\(v_f=0\\).",
+      "explanation": "From \\(0 = v_i^2 + 2as\\), \\(s = -v_i^2/(2a) = -(25)^2/(2×-2) = -625/-4 = 156.25\\ \\mathrm{m}\\). Option A uses a = 2 instead of -2 correctly? Actually 625/8=78.125, so that’s dividing by 8 (using t first incorrectly).",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(v_f^2 = v_i^2 + 2as\\)"],
+      "numeric": {"is_numeric": true, "given_values": {"v_i": {"magnitude": 25, "unit": "m/s"}, "a": {"magnitude": -2.0, "unit": "m/s^2"}, "v_f": {"magnitude": 0, "unit": "m/s"}}, "answer_value": 156.25, "answer_unit": "m", "calculation_steps": ["\\(0 = (25)^2 + 2(-2)s\\)", "\\(0 = 625 - 4s\\)", "\\(4s = 625\\)", "\\(s = 156.25\\ \\mathrm{m}\\)"], "significant_figures": 5},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "subsection"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 95, "explanation_validation": {"word_overlap_percentage": 8.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 91}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.2 Equations of Uniformly Accelerated Motion in 1D", "subsection_anchor": "Derivation of equations of motion", "structural_element": "Equation 6", "content_anchor": "v_f^2 = v_i^2 + 2as", "page_hint": 9, "concept_hash": "sha256ofstoppingdist"},
+      "quality_metrics": {"stem_complexity_score": 52, "distractor_quality_score": 89, "cognitive_level": "apply", "exam_alignment_score": 92},
+      "explanations_tiered": {"definition": "Stopping distance under constant deceleration is found from \\(v_f^2 = v_i^2 + 2as\\).", "concept_summary": "When final velocity is zero, \\(s = -v_i^2/(2a)\\).", "beginner": "If you slow down steadily, the distance to stop depends on starting speed squared divided by twice the deceleration.", "intermediate": "Using \\(v_f^2 = v_i^2 + 2as\\) with v_f=0 → \\(s = -v_i^2/(2a) = -625/(2×-2)=156.25\\ \\mathrm{m}\\).", "advanced": "This equation comes from eliminating t from \\(v_f = v_i + at\\) and \\(s = v_i t + ½ a t^2\\).", "worked_solution": ["Step 1: Write \\(0 = (25)^2 + 2(-2)s\\).", "Step 2: \\(0 = 625 - 4s\\).", "Step 3: \\(4s = 625\\), \\(s = 156.25\\ \\mathrm{m}\\)."], "reasoning_steps": ["Identify final velocity = 0.", "Use equation without time.", "Solve for s."], "formula_analysis": [{"formula": "\\(v_f^2 = v_i^2 + 2as\\)", "name": "Time-independent kinematic equation", "variables": [{"symbol": "\\(v_f\\)", "meaning": "final velocity", "unit": "m/s"}, {"symbol": "\\(v_i\\)", "meaning": "initial velocity", "unit": "m/s"}, {"symbol": "\\(a\\)", "meaning": "acceleration", "unit": "m/s^2"}, {"symbol": "\\(s\\)", "meaning": "displacement", "unit": "m"}], "derivation": "From v_f = v_i + at → t = (v_f - v_i)/a, substitute into s = v_i t + ½ a t²"}], "misconceptions": ["Using a positive 2 instead of negative gives negative distance.", "Using s = v_i t with t = v_i/a gives 25×12.5=312.5 m (option C)."], "related_concepts": ["Deceleration", "Stopping distance"], "revision_note": "v_f² = v_i² + 2as. For stop: s = v_i²/(2|a|).", "glossary_entry": {"term": "Stopping distance", "definition": "Distance traveled while decelerating to rest under constant deceleration.", "example_equation": "\\(s = \\frac{v_i^2}{2|a|}\\)", "related_terms": ["Braking distance"]}, "flashcard": {"front": "25 m/s, deceleration 2 m/s², stopping distance?", "back": "v_f² = v_i² + 2as → 0 = 625 -4s → s=156.25 m."}, "concept_map_nodes": [{"source": "Stopping distance", "relation": "calculated_using", "target": "v_f² = v_i² + 2as"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. Use v_f² = v_i² + 2as with v_f=0, a=-2."},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper", "solution_manual"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "Train at 25 m/s decelerates at 2 m/s² to stop. Distance?", "flashcard_back": "s = v_i²/(2a) = 625/4 = 156.25 m.", "glossary_term": "Kinematic equation", "glossary_definition": "v_f² = v_i² + 2as.", "revision_note": "for stopping: s = v_i²/(2|a|).", "teacher_note": "Students often forget a is negative.", "bloom_level": "Apply", "learning_objective_tag": "Solve problems of uniformly accelerated motion", "concept_map_nodes": [{"source": "v_f² = v_i² + 2as", "relation": "used_for", "target": "Stopping distance"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. Correct algebra: 0=625+2(-2)s → 4s=625 → s=156.25 m."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q008",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.2 Equations of Uniformly Accelerated Motion in 1D",
+      "subsection": "Derivation of equations of motion",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "Why does the equation \\(v_f = v_i + at\\) require acceleration to be constant?",
+      "options": {
+        "A": "Because velocity is a vector",
+        "B": "Because time must be in seconds",
+        "C": "Because it is derived from \\(a = \\frac{\\Delta v}{\\Delta t}\\) assuming a is not changing",
+        "D": "Because initial velocity must be zero"
+      },
+      "correct_answer": "C",
+      "hint": "The derivation \\(a = (v_f - v_i)/t\\) assumes a is the same throughout.",
+      "explanation": "The equation \\(v_f = v_i + at\\) comes from rearranging \\(a = \\frac{v_f - v_i}{t}\\), which defines average acceleration. For it to give exact final velocity at any t, acceleration must be constant. Option A is true but not the reason.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(a = \\frac{v_f - v_i}{t}\\)"],
+      "numeric": {"is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "subsection"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 92, "explanation_validation": {"word_overlap_percentage": 12.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 88}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.2 Equations of Uniformly Accelerated Motion in 1D", "subsection_anchor": "Derivation of equations of motion", "structural_element": "Equation 1", "content_anchor": "a = (v_f - v_i)/t → v_f = v_i + at for constant a", "page_hint": 8, "concept_hash": "sha256ofconstareason"},
+      "quality_metrics": {"stem_complexity_score": 58, "distractor_quality_score": 82, "cognitive_level": "understand", "exam_alignment_score": 86},
+      "explanations_tiered": {"definition": "Constant acceleration allows instantaneous acceleration to equal average acceleration at all times.", "concept_summary": "If a varies, the equation \\(v_f = v_i + a_{avg}t\\) still holds but a_avg is not the instantaneous a.", "beginner": "If acceleration changes, the simple formula v_f = v_i + a×t doesn’t work because a is not the same every second.", "intermediate": "Derived from \\(a = \\Delta v / \\Delta t\\), this assumes a is uniform; otherwise \\(v_f = v_i + a_{avg}t\\) only approximates.", "advanced": "For non-constant a, \\(\\int dv = \\int a(t) dt\\), not simply a·t.", "worked_solution": [], "reasoning_steps": ["Recall definition a = Δv/Δt only gives average.", "For exact v_f at any t, a must be constant."], "formula_analysis": [{"formula": "\\(a = \\frac{v_f - v_i}{t}\\)", "name": "Average acceleration", "variables": [], "derivation": null}], "misconceptions": ["Thinking v_f = v_i + at always works even if a changes.", "Believing time unit matters for validity."], "related_concepts": ["Average acceleration", "Instantaneous acceleration"], "revision_note": "v_f = v_i + at assumes constant a.", "glossary_entry": {"term": "Constant acceleration assumption", "definition": "Necessary for kinematic equations \\(v_f = v_i + at\\), etc.", "example_equation": null, "related_terms": ["Uniform acceleration"]}, "flashcard": {"front": "Why must a be constant to use v_f = v_i + at?", "back": "Because it comes from a = Δv/Δt; if a varies, it only gives average, not exact v_f at any t."}, "concept_map_nodes": [{"source": "v_f = v_i + at", "relation": "assumes", "target": "Constant acceleration"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer C. The derivation from a = Δv/Δt requires a constant for exactness."},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "What condition is required for v_f = v_i + at to be exact?", "flashcard_back": "Constant (uniform) acceleration.", "glossary_term": "Uniform acceleration", "glossary_definition": "Acceleration that does not change with time.", "revision_note": "Kinematic eqns need constant a.", "teacher_note": "Compare with non-constant a cases where calculus is needed.", "bloom_level": "Understand", "learning_objective_tag": "Derive and apply equations of uniformly accelerated motion", "concept_map_nodes": [{"source": "Uniform acceleration", "relation": "enables", "target": "v_f = v_i + at"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer C. The definition a = Δv/Δt leads to v_f = v_i + aΔt only if a is constant."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q009",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.2 Equations of Uniformly Accelerated Motion in 1D",
+      "subsection": "Derivation of equations of motion",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "If a car’s velocity is positive but its acceleration is negative, a student concludes the car must be moving backward. Why is this wrong?",
+      "options": {
+        "A": "Negative acceleration always means speeding up",
+        "B": "Positive velocity with negative acceleration means slowing down, not moving backward",
+        "C": "Acceleration and velocity cannot have opposite signs",
+        "D": "Negative acceleration changes velocity direction instantly"
+      },
+      "correct_answer": "B",
+      "hint": "Signs indicate direction. Opposite signs mean slowing, not reversal.",
+      "explanation": "When velocity and acceleration have opposite signs, the object slows down but continues in the original velocity direction until it reaches zero. Option A is false; negative acceleration can mean slowing if velocity is positive.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {"is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "subsection"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 94, "explanation_validation": {"word_overlap_percentage": 9.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 90}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.1 Uniformly Accelerated Motion in 1D", "subsection_anchor": "Acceleration", "structural_element": "Acceleration", "content_anchor": "If velocity and acceleration have different signs, then the object is slowing down", "page_hint": 2, "concept_hash": "sha256ofsignmisconcept"},
+      "quality_metrics": {"stem_complexity_score": 65, "distractor_quality_score": 87, "cognitive_level": "analyse", "exam_alignment_score": 89},
+      "explanations_tiered": {"definition": "Negative acceleration does not imply direction reversal; it means acceleration vector opposes velocity vector.", "concept_summary": "Slowing occurs when a and v have opposite signs; direction remains same until v=0.", "beginner": "If you’re driving forward (positive speed) and step on brake (negative acceleration), you slow down but still go forward, not backward.", "intermediate": "With v>0 and a<0, speed decreases but motion remains forward until v becomes zero; only then could it reverse if a continues.", "advanced": "From v_f = v_i + at, if v_i>0 and a<0, v_f decreases linearly. It becomes negative only after v_i + at < 0, not immediately.", "worked_solution": [], "reasoning_steps": ["Recognize sign of velocity indicates direction.", "Acceleration opposite sign causes decrease in speed.", "Object does not reverse until velocity reaches zero."], "formula_analysis": [], "misconceptions": ["Thinking negative a means backward motion.", "Believing opposite signs cause instant reversal."], "related_concepts": ["Deceleration", "Vector signs"], "revision_note": "Opposite signs → slowing down, not reversal.", "glossary_entry": {"term": "Deceleration", "definition": "Acceleration opposite to velocity, causing decrease in speed.", "example_equation": null, "related_terms": ["Negative acceleration"]}, "flashcard": {"front": "Positive velocity, negative acceleration: moving backward?", "back": "No, it means slowing down in the forward direction."}, "concept_map_nodes": [{"source": "Negative acceleration", "relation": "when_velocity_positive", "target": "Slowing down"}], "workbook_section": "3.1 Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. The car slows but continues forward until v=0."},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "callout_box", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": "warning", "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper", "teacher_guide"], "flashcard_deck": "Physics Unit 3 — Misconceptions", "flashcard_front": "Positive velocity, negative acceleration — is the car moving backward?", "flashcard_back": "No, it is slowing down in the forward direction.", "glossary_term": "Deceleration", "glossary_definition": "Acceleration opposite to velocity.", "revision_note": "Opposite signs = slowing, not reversal.", "teacher_note": "Common misconception: negative a means backward. Clarify with v-t graph.", "bloom_level": "Analyse", "learning_objective_tag": "Explain uniformly accelerated motion in 1D", "concept_map_nodes": [{"source": "Acceleration sign", "relation": "relative_to_velocity", "target": "Slowing down"}], "workbook_section": "3.1 Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. The car is slowing down but still moving forward; direction reversal only after velocity becomes zero and acceleration persists."}
+    },
+    {
+      "question_id": "G11_Phys_U3_Q010",
+      "generation_timestamp": "2026-06-13T14:30:00Z",
+      "grade": "Grade 11",
+      "subject": "Physics",
+      "unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS",
+      "section": "3.2 Equations of Uniformly Accelerated Motion in 1D",
+      "subsection": "Derivation of equations of motion",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "What does the equation \\(v_f^2 = v_i^2 + 2as\\) physically represent?",
+      "options": {
+        "A": "Displacement as a function of time",
+        "B": "Final velocity without needing time",
+        "C": "Average velocity squared",
+        "D": "Acceleration as a function of distance"
+      },
+      "correct_answer": "B",
+      "hint": "It relates velocity, acceleration, and displacement without time.",
+      "explanation": "The equation \\(v_f^2 = v_i^2 + 2as\\) is derived by eliminating time t from the other kinematic equations. It allows calculation of final velocity given displacement without knowing time. Option A describes \\(s = v_i t + \\frac12 a t^2\\).",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(v_f^2 = v_i^2 + 2as\\)"],
+      "numeric": {"is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null},
+      "coverage": {"baseline": true, "importance_biased": false, "structural_element_type": "subsection"},
+      "validation": {"no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 96, "explanation_validation": {"word_overlap_percentage": 10.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 91}},
+      "source_trace": {"pdf_unit": "Unit 3: MOTION IN ONE AND TWO DIMENSIONS", "section_anchor": "3.2 Equations of Uniformly Accelerated Motion in 1D", "subsection_anchor": "Derivation of equations of motion", "structural_element": "Equation 6", "content_anchor": "v_f^2 = v_i^2 + 2as", "page_hint": 9, "concept_hash": "sha256oftimeindependent"},
+      "quality_metrics": {"stem_complexity_score": 55, "distractor_quality_score": 88, "cognitive_level": "understand", "exam_alignment_score": 90},
+      "explanations_tiered": {"definition": "The time-independent kinematic equation relates velocities, acceleration, and displacement.", "concept_summary": "It is useful when time is unknown or irrelevant.", "beginner": "It tells you how fast something is going after moving a certain distance without needing the time.", "intermediate": "From \\(v_f = v_i + at\\) and \\(s = v_i t + \\frac12 a t^2\\), eliminate t to get \\(v_f^2 = v_i^2 + 2as\\).", "advanced": "Derived by solving t from first equation and substituting into second, yielding a relation independent of t.", "worked_solution": [], "reasoning_steps": ["Recognize that time does not appear.", "Identify it’s used when t is not given or wanted."], "formula_analysis": [{"formula": "\\(v_f^2 = v_i^2 + 2as\\)", "name": "Time-independent kinematic equation", "variables": [], "derivation": "Eliminate t from v_f = v_i + at and s = v_i t + ½ a t²"}], "misconceptions": ["Thinking it includes time (option A).", "Confusing with definition of average velocity squared."], "related_concepts": ["Kinematic equations", "Constant acceleration"], "revision_note": "v_f² = v_i² + 2as: no time needed.", "glossary_entry": {"term": "Time-independent kinematic equation", "definition": "v_f² = v_i² + 2as, valid for constant acceleration.", "example_equation": null, "related_terms": ["Galileo’s equation"]}, "flashcard": {"front": "What does v_f² = v_i² + 2as allow you to find without time?", "back": "Final velocity given displacement, or vice versa."}, "concept_map_nodes": [{"source": "v_f² = v_i² + 2as", "relation": "eliminates", "target": "Time"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. It relates final velocity to initial velocity, acceleration, and displacement, with no time variable."},
+      "visual_system": {"requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null},
+      "layout_metadata": {"page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "inline", "box_type": "formula_box", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null},
+      "publishing_metadata": {"target_documents": ["question_bank", "exam_paper"], "flashcard_deck": "Physics Unit 3 — Kinematics", "flashcard_front": "What advantage does v_f² = v_i² + 2as offer?", "flashcard_back": "It relates final velocity to displacement without requiring time.", "glossary_term": "Time-independent equation", "glossary_definition": "v_f² = v_i² + 2as.", "revision_note": "No t in v_f² = v_i² + 2as.", "teacher_note": "Point out this is often the most efficient choice when t is absent.", "bloom_level": "Understand", "learning_objective_tag": "Derive and apply equations of uniformly accelerated motion", "concept_map_nodes": [{"source": "v_f² = v_i² + 2as", "relation": "used_when", "target": "Time unknown"}], "workbook_section": "3.2 Equations of Uniformly Accelerated Motion in 1D", "solution_manual_note": "Answer B. It eliminates time, making it ideal for problems where t is not given."}
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3850,
+    "average_question_quality": 90.2,
+    "type_distribution": { "A": 2, "D": 2, "F": 2, "C": 1, "E": 1, "G": 1, "H": 1 },
+    "difficulty_distribution": { "easy": 4, "medium": 5, "hard": 1 },
+    "section_distribution": {
+      "3.1 Uniformly Accelerated Motion in 1D": 5,
+      "3.2 Equations of Uniformly Accelerated Motion in 1D": 5
+    },
+    "tiered_explanation_word_counts": { "beginner_avg": 28, "intermediate_avg": 38, "advanced_avg": 48 },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 9
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,1795 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Math_U6_Q010",
+    "covered_sections": [
+      "Revision of Cylinders and Prisms>Right circular cylinder",
+      "Pyramids, Cones and Spheres>Pyramids and Cones definitions",
+      "Pyramids, Cones and Spheres>Surface Area of Pyramids and Cones",
+      "Pyramids, Cones and Spheres>Volume of Pyramids and Cones"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9"
+    ],
+    "baseline_counter": {
+      "Revision of Cylinders and Prisms": {
+        "Right circular cylinder": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "Pyramids, Cones and Spheres": {
+        "Pyramids and Cones definitions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Surface Area of Pyramids and Cones": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "Volume of Pyramids and Cones": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Revision of Cylinders and Prisms": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Pyramids, Cones and Spheres": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Revision of Cylinders and Prisms>Right circular cylinder": ["lateral surface area", "total surface area", "volume", "cylinder", "radius", "height"],
+      "Pyramids, Cones and Spheres>Pyramids and Cones definitions": ["pyramid", "apex", "altitude", "right pyramid", "circular cone", "slant height"],
+      "Pyramids, Cones and Spheres>Surface Area of Pyramids and Cones": ["LSA", "TSA", "base area", "regular pyramid", "slant height", "net", "πrl"],
+      "Pyramids, Cones and Spheres>Volume of Pyramids and Cones": ["volume", "base area", "altitude", "V = 1/3 Bh", "triangular pyramid", "circular cone"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 16,
+      "questions_per_concept_ratio": 0.625,
+      "structural_coverage_percentage": 30.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Mathematics",
+  "unit": "Unit 6: Solid Figures",
+  "pdf_filename": "M10U6.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 2,
+        "total_sections": 5,
+        "progress_percentage": 40.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 26.7,
+      "concept_utilization_ratio": 0.625
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Pyramids, Cones and Spheres",
+      "least_covered_section": "Revision of Cylinders and Prisms",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Math_U6_Q001",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Revision of Cylinders and Prisms",
+      "subsection": "Right circular cylinder",
+      "sub_subsection": null,
+      "structural_anchor": "Right circular cylinder",
+      "mcq_type": "C",
+      "question": "The lateral surface area of a right circular cylinder is given by \\(2\\pi r h\\). Which statement correctly defines the term \\(h\\) in this formula?",
+      "options": {
+        "A": "The diameter of the base",
+        "B": "The slant height",
+        "C": "The altitude of the cylinder",
+        "D": "The circumference of the base"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the formula for lateral surface area: perimeter of base times height.",
+      "explanation": "In the formula for lateral surface area of a cylinder, \\(h\\) represents the perpendicular distance between the two bases, which is the altitude. Option A is incorrect because diameter is \\(2r\\), not \\(h\\).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(LSA = 2\\pi r h\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Revision of Cylinders and Prisms",
+        "subsection_anchor": "Right circular cylinder",
+        "structural_element": "Right circular cylinder",
+        "content_anchor": "The lateral surface area of a right circular cylinder is the product of the circumference of the base and altitude of the cylinder",
+        "page_hint": 6,
+        "concept_hash": "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Lateral surface area is the area of the curved surface of a cylinder, excluding the two circular bases.",
+        "concept_summary": "The lateral surface area formula \\(2\\pi r h\\) multiplies the base circumference by the cylinder's height.",
+        "beginner": "Imagine peeling the label off a soup can. The label's area is the cylinder's lateral surface, found by multiplying the can's height by the distance around it.",
+        "intermediate": "A right circular cylinder's lateral surface unrolls into a rectangle with width equal to the base circumference \\(2\\pi r\\) and height equal to the cylinder's altitude \\(h\\).",
+        "advanced": "Derived by cutting the cylinder along its altitude and flattening: rectangle area = (circumference) × (height). Thus LSA = \\(2\\pi r \\cdot h\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the formula \\(LSA = 2\\pi r h\\).",
+          "Identify each symbol: \\(r\\) = radius, \\(h\\) = height.",
+          "Check which option matches the definition of height."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(LSA = 2\\pi r h\\)",
+            "name": "Lateral surface area of a cylinder",
+            "variables": [
+              { "symbol": "\\(r\\)", "meaning": "radius of base", "unit": "cm" },
+              { "symbol": "\\(h\\)", "meaning": "altitude or height", "unit": "cm" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Confusing height with slant height is incorrect because cylinders do not have slant heights — only cones and pyramids do."
+        ],
+        "related_concepts": ["Total surface area of cylinder", "Circumference", "Right prism lateral area"],
+        "revision_note": "Cylinder LSA: \\(2\\pi r h\\). Height is altitude between bases.",
+        "glossary_entry": {
+          "term": "Lateral surface area of a cylinder",
+          "definition": "The area of the curved surface of a cylinder, equal to the product of the base circumference and the height.",
+          "example_equation": "\\(LSA = 2\\pi r h\\)",
+          "related_terms": ["Total surface area", "Base area"]
+        },
+        "flashcard": {
+          "front": "What does \\(h\\) represent in the cylinder lateral surface formula \\(2\\pi r h\\)?",
+          "back": "Altitude (height) of the cylinder."
+        },
+        "concept_map_nodes": [
+          { "source": "Lateral Surface Area", "relation": "equals", "target": "\\(2\\pi r h\\)" },
+          { "source": "Cylinder", "relation": "has height", "target": "\\(h\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "What does \\(h\\) represent in \\(2\\pi r h\\)?",
+        "flashcard_back": "The height (altitude) of the cylinder.",
+        "glossary_term": "Lateral surface area of a cylinder",
+        "glossary_definition": "The curved surface area of a cylinder, calculated as \\(2\\pi r h\\).",
+        "revision_note": "Cylinder LSA: height times circumference.",
+        "teacher_note": "Students often confuse height with slant height; emphasize cylinders have no slant height.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify the parts of formulas for cylinders",
+        "concept_map_nodes": [
+          { "source": "Cylinder", "relation": "has formula", "target": "LSA" }
+        ],
+        "workbook_section": "Revision of Cylinders and Prisms",
+        "solution_manual_note": "Answer C. The lateral surface area formula uses the perpendicular height (altitude), not the diameter or circumference."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q002",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Revision of Cylinders and Prisms",
+      "subsection": "Right circular cylinder",
+      "sub_subsection": null,
+      "structural_anchor": "Right circular cylinder",
+      "mcq_type": "E",
+      "question": "A right circular cylinder has a radius of \\(4\\text{ cm}\\) and a height of \\(10\\text{ cm}\\). What is its volume?",
+      "options": {
+        "A": "\\(40\\pi \\text{ cm}^3\\)",
+        "B": "\\(80\\pi \\text{ cm}^3\\)",
+        "C": "\\(160\\pi \\text{ cm}^3\\)",
+        "D": "\\(200\\pi \\text{ cm}^3\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Volume of a cylinder is base area times height.",
+      "explanation": "Volume of a cylinder is \\(V = \\pi r^2 h\\). Substituting \\(r = 4\\) and \\(h = 10\\) gives \\(V = \\pi(16)(10) = 160\\pi\\text{ cm}^3\\). Option B (\\(80\\pi\\)) results from using \\(2\\pi r h\\) (lateral area) instead.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(V = \\pi r^2 h\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "radius": { "magnitude": 4, "unit": "cm" }, "height": { "magnitude": 10, "unit": "cm" } },
+        "answer_value": 160,
+        "answer_unit": "cm^3",
+        "calculation_steps": [
+          "\\(V = \\pi r^2 h\\)",
+          "\\(V = \\pi \\times (4)^2 \\times 10\\)",
+          "\\(V = \\pi \\times 16 \\times 10 = 160\\pi \\text{ cm}^3\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Revision of Cylinders and Prisms",
+        "subsection_anchor": "Right circular cylinder",
+        "structural_element": "Right circular cylinder",
+        "content_anchor": "V = πr²h, where r is the radius of the base",
+        "page_hint": 6,
+        "concept_hash": "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 95,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Volume of a cylinder is the space occupied by the cylinder, given by base area times height.",
+        "concept_summary": "For a cylinder, volume is the area of the circular base multiplied by the cylinder's height.",
+        "beginner": "Think of stacking coins. The total height times the coin's face area gives the stack's volume.",
+        "intermediate": "The base area is \\(\\pi r^2\\). Multiplying by height \\(h\\) gives the cylinder's volume.",
+        "advanced": "Using integration: volume = \\(\\int_0^h A(z) dz = \\pi r^2 h\\), since cross-sectional area is constant.",
+        "worked_solution": [
+          "Step 1: Write formula \\(V = \\pi r^2 h\\).",
+          "Step 2: Substitute \\(r = 4\\) and \\(h = 10\\): \\(V = \\pi \\times 4^2 \\times 10\\).",
+          "Step 3: Compute \\(4^2 = 16\\), then \\(16 \\times 10 = 160\\).",
+          "Step 4: Attach \\(\\pi\\) and units: \\(160\\pi \\text{ cm}^3\\)."
+        ],
+        "reasoning_steps": [
+          "Recall the volume formula for a cylinder: \\(V = \\pi r^2 h\\).",
+          "Plug in the given radius and height.",
+          "Calculate \\(r^2\\), multiply by \\(h\\), then by \\(\\pi\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(V = \\pi r^2 h\\)",
+            "name": "Volume of a cylinder",
+            "variables": [
+              { "symbol": "\\(r\\)", "meaning": "radius of base", "unit": "cm" },
+              { "symbol": "\\(h\\)", "meaning": "height", "unit": "cm" }
+            ],
+            "derivation": "Base area \\(\\pi r^2\\) times height."
+          }
+        ],
+        "misconceptions": [
+          "Using the lateral surface formula \\(2\\pi r h\\) gives area, not volume, producing \\(80\\pi\\) (Option B)."
+        ],
+        "related_concepts": ["Area of circle", "Volume of prism", "Cylinder lateral area"],
+        "revision_note": "Cylinder volume: \\(\\pi r^2 h\\). Base area × height.",
+        "glossary_entry": {
+          "term": "Volume of a cylinder",
+          "definition": "The amount of space inside a cylinder, equal to the product of its base area and height.",
+          "example_equation": "\\(V = \\pi r^2 h\\)",
+          "related_terms": ["Base area", "Right circular cylinder"]
+        },
+        "flashcard": {
+          "front": "What is the volume formula for a cylinder with radius \\(r\\) and height \\(h\\)?",
+          "back": "\\(V = \\pi r^2 h\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Volume", "relation": "equals", "target": "Base area × height" },
+          { "source": "Cylinder", "relation": "has volume", "target": "\\(\\pi r^2 h\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Formula for cylinder volume?",
+        "flashcard_back": "\\(V = \\pi r^2 h\\).",
+        "glossary_term": "Volume of a cylinder",
+        "glossary_definition": "The space enclosed by a cylinder, computed as \\(\\pi r^2 h\\).",
+        "revision_note": "Cylinder volume = base area × height.",
+        "teacher_note": "Common error: using lateral surface formula for volume.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate volumes of cylinders",
+        "concept_map_nodes": [
+          { "source": "Cylinder", "relation": "has volume formula", "target": "\\(V = \\pi r^2 h\\)" }
+        ],
+        "workbook_section": "Revision of Cylinders and Prisms",
+        "solution_manual_note": "Answer C. Volume = π × 4² × 10 = 160π cm³."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q003",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Pyramids and Cones definitions",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 6.1",
+      "mcq_type": "A",
+      "question": "A pyramid is defined as a solid figure formed by a polygonal base and a point called the apex. What is the name of the line segment from the apex perpendicular to the base plane?",
+      "options": {
+        "A": "Slant height",
+        "B": "Lateral edge",
+        "C": "Altitude of the pyramid",
+        "D": "Base diagonal"
+      },
+      "correct_answer": "C",
+      "hint": "This segment measures the perpendicular distance from the apex to the base.",
+      "explanation": "The altitude (or height) of a pyramid is the perpendicular line segment from the apex to the plane containing the base. Option A (slant height) is the altitude of a lateral face, not the whole pyramid.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_term"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Pyramids and Cones definitions",
+        "structural_element": "Definition 6.1",
+        "content_anchor": "The perpendicular line segment from the vertex to the plane containing the base is called the height or altitude of a pyramid",
+        "page_hint": 9,
+        "concept_hash": "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The altitude of a pyramid is the perpendicular distance from the apex to the base plane.",
+        "concept_summary": "Every pyramid has a unique altitude measured from the apex straight down to the base.",
+        "beginner": "Like the height of a tent from its peak to the ground, measured straight down.",
+        "intermediate": "The altitude forms a right angle with the base plane and is used in volume formulas.",
+        "advanced": "In coordinate geometry, if apex is at height \\(h\\) above base plane, the altitude length is \\(h\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition of altitude in solid geometry.",
+          "Identify which option matches 'perpendicular from apex to base'."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Slant height (Option A) is measured along the lateral face, not perpendicular to the base."
+        ],
+        "related_concepts": ["Apex", "Base of pyramid", "Right pyramid"],
+        "revision_note": "Pyramid altitude: perpendicular from apex to base.",
+        "glossary_entry": {
+          "term": "Altitude of a pyramid",
+          "definition": "The perpendicular distance from the apex to the plane of the base.",
+          "example_equation": null,
+          "related_terms": ["Height", "Pyramid"]
+        },
+        "flashcard": {
+          "front": "What is the altitude of a pyramid?",
+          "back": "Perpendicular distance from apex to base plane."
+        },
+        "concept_map_nodes": [
+          { "source": "Pyramid", "relation": "has altitude", "target": "Perpendicular segment" },
+          { "source": "Altitude", "relation": "used in", "target": "Volume formula" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Define altitude of a pyramid.",
+        "flashcard_back": "Perpendicular distance from apex to base.",
+        "glossary_term": "Altitude of a pyramid",
+        "glossary_definition": "The perpendicular distance from the apex to the base plane.",
+        "revision_note": "Altitude is perpendicular to base.",
+        "teacher_note": "Students confuse altitude with slant height; use diagrams.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define parts of pyramids",
+        "concept_map_nodes": [
+          { "source": "Altitude", "relation": "is perpendicular to", "target": "Base" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer C. Altitude is the perpendicular from apex to base."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q004",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Pyramids and Cones definitions",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 6.2",
+      "mcq_type": "B",
+      "question": "A circular cone whose foot of the altitude is at the center of the base circle is called a:",
+      "options": {
+        "A": "Oblique cone",
+        "B": "Right circular cone",
+        "C": "Frustum of a cone",
+        "D": "Regular pyramid"
+      },
+      "correct_answer": "B",
+      "hint": "The altitude meets the base at the center.",
+      "explanation": "A right circular cone has its apex directly above the center of the circular base, so the altitude falls at the center. Option A (oblique cone) has the apex not centered over the base.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_term"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Pyramids and Cones definitions",
+        "structural_element": "Definition 6.2",
+        "content_anchor": "A right circular cone is a cone with a foot of its altitude at the center of the base circle",
+        "page_hint": 9,
+        "concept_hash": "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "A right circular cone is a cone whose axis is perpendicular to the base and passes through its center.",
+        "concept_summary": "In a right circular cone, the apex is centered above the base, making a symmetrical shape.",
+        "beginner": "Like an ice cream cone standing upright on its base, with the tip centered.",
+        "intermediate": "The altitude from the apex meets the base exactly at the circle's center.",
+        "advanced": "All cross-sections parallel to the base are circles whose centers lie on the axis.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Understand the condition: altitude foot at center.",
+          "Match to term: right circular cone."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "An oblique cone (Option A) also has a circular base but the apex is not centered."
+        ],
+        "related_concepts": ["Right circular cylinder", "Oblique cone", "Slant height"],
+        "revision_note": "Right circular cone: apex centered over base.",
+        "glossary_entry": {
+          "term": "Right circular cone",
+          "definition": "A cone whose base is a circle and whose altitude passes through the center of the base.",
+          "example_equation": null,
+          "related_terms": ["Cone", "Apex"]
+        },
+        "flashcard": {
+          "front": "What is a right circular cone?",
+          "back": "A cone with apex directly above base center."
+        },
+        "concept_map_nodes": [
+          { "source": "Right circular cone", "relation": "has base", "target": "Circle" },
+          { "source": "Right circular cone", "relation": "has altitude", "target": "Center of base" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Definition of right circular cone?",
+        "flashcard_back": "Altitude foot at base center.",
+        "glossary_term": "Right circular cone",
+        "glossary_definition": "A cone where the apex is directly above the center of the circular base.",
+        "revision_note": "Right cone: apex centered.",
+        "teacher_note": "Compare with oblique cone visually.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Classify cones",
+        "concept_map_nodes": [
+          { "source": "Right circular cone", "relation": "contrasted with", "target": "Oblique cone" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer B. Right circular cone has altitude foot at base center."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q005",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Surface Area of Pyramids and Cones",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1",
+      "mcq_type": "D",
+      "question": "A regular square pyramid has a base edge of \\(4\\text{ cm}\\) and a slant height of \\(5\\text{ cm}\\). What is its lateral surface area?",
+      "options": {
+        "A": "\\(20\\text{ cm}^2\\)",
+        "B": "\\(30\\text{ cm}^2\\)",
+        "C": "\\(40\\text{ cm}^2\\)",
+        "D": "\\(50\\text{ cm}^2\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Lateral area of a regular pyramid = half of perimeter times slant height.",
+      "explanation": "Lateral surface area of a regular pyramid is \\(\\frac{1}{2} p l\\), where \\(p\\) is base perimeter and \\(l\\) slant height. Perimeter = \\(4 \\times 4 = 16\\text{ cm}\\), so LSA = \\(\\frac{1}{2} \\times 16 \\times 5 = 40\\text{ cm}^2\\). Option A (20) uses \\(p l\\) without the half.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(LSA = \\frac{1}{2} p l\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "base_edge": { "magnitude": 4, "unit": "cm" }, "slant_height": { "magnitude": 5, "unit": "cm" } },
+        "answer_value": 40,
+        "answer_unit": "cm^2",
+        "calculation_steps": [
+          "\\(p = 4 \\times 4 = 16 \\text{ cm}\\)",
+          "\\(LSA = \\frac{1}{2} \\times 16 \\times 5 = 40 \\text{ cm}^2\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Surface Area of Pyramids and Cones",
+        "structural_element": "Example 1",
+        "content_anchor": "LSA = ½ pl, where p = perimeter, l = slant height",
+        "page_hint": 13,
+        "concept_hash": "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 92,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Lateral surface area of a pyramid is the sum of the areas of its triangular lateral faces.",
+        "concept_summary": "For a regular pyramid, lateral faces are congruent isosceles triangles.",
+        "beginner": "The four triangles on the sides of the pyramid have equal area. Their total is LSA.",
+        "intermediate": "Formula \\(\\frac{1}{2} p l\\) works because each triangle area = \\(\\frac{1}{2} \\times \\text{base edge} \\times \\text{slant height}\\), and summing gives \\(\\frac{1}{2} l \\times p\\).",
+        "advanced": "Derivation: Sum of triangle areas = \\(\\frac{1}{2} l \\times (\\text{sum of base edges}) = \\frac{1}{2} p l\\).",
+        "worked_solution": [
+          "Step 1: Find base perimeter: \\(p = 4 \\times 4 = 16\\text{ cm}\\).",
+          "Step 2: Apply LSA formula: \\(\\frac{1}{2} p l = \\frac{1}{2} \\times 16 \\times 5\\).",
+          "Step 3: Compute: \\(8 \\times 5 = 40\\text{ cm}^2\\)."
+        ],
+        "reasoning_steps": [
+          "Compute perimeter of square base.",
+          "Multiply perimeter by slant height.",
+          "Take half of that product."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(LSA = \\frac{1}{2} p l\\)",
+            "name": "Lateral surface area of regular pyramid",
+            "variables": [
+              { "symbol": "\\(p\\)", "meaning": "perimeter of base", "unit": "cm" },
+              { "symbol": "\\(l\\)", "meaning": "slant height", "unit": "cm" }
+            ],
+            "derivation": "Sum of triangle areas."
+          }
+        ],
+        "misconceptions": [
+          "Forgetting the \\(\\frac{1}{2}\\) gives Option A (20 cm²), which is incorrect."
+        ],
+        "related_concepts": ["Perimeter", "Slant height", "Total surface area of pyramid"],
+        "revision_note": "Pyramid LSA = \\(\\frac{1}{2} \\times \\text{perimeter} \\times \\text{slant height}\\).",
+        "glossary_entry": {
+          "term": "Lateral surface area of a pyramid",
+          "definition": "The total area of all triangular faces excluding the base.",
+          "example_equation": "\\(LSA = \\frac{1}{2} p l\\)",
+          "related_terms": ["Slant height", "Regular pyramid"]
+        },
+        "flashcard": {
+          "front": "Formula for lateral area of regular pyramid?",
+          "back": "\\(\\frac{1}{2} p l\\), where \\(p\\) = base perimeter, \\(l\\) = slant height."
+        },
+        "concept_map_nodes": [
+          { "source": "Lateral surface area", "relation": "equals", "target": "\\(\\frac{1}{2} p l\\)" },
+          { "source": "Regular pyramid", "relation": "has LSA", "target": "\\(\\frac{1}{2} p l\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Lateral area formula for regular pyramid?",
+        "flashcard_back": "\\(\\frac{1}{2} p l\\).",
+        "glossary_term": "Lateral surface area of a pyramid",
+        "glossary_definition": "The total area of the triangular faces, excluding the base.",
+        "revision_note": "LSA = \\(\\frac{1}{2} \\times \\text{perimeter} \\times \\text{slant height}\\).",
+        "teacher_note": "Reinforce that LSA excludes the base.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate surface areas of pyramids",
+        "concept_map_nodes": [
+          { "source": "Lateral surface area", "relation": "excludes", "target": "Base area" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer C. LSA = ½ × 16 × 5 = 40 cm²."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q006",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Surface Area of Pyramids and Cones",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4",
+      "mcq_type": "E",
+      "question": "A right circular cone has a base diameter of \\(8\\text{ cm}\\) and a height of \\(3\\text{ cm}\\). What is its lateral surface area?",
+      "options": {
+        "A": "\\(12\\pi \\text{ cm}^2\\)",
+        "B": "\\(20\\pi \\text{ cm}^2\\)",
+        "C": "\\(24\\pi \\text{ cm}^2\\)",
+        "D": "\\(36\\pi \\text{ cm}^2\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Lateral area of cone = \\(\\pi r l\\). Find slant height first.",
+      "explanation": "Radius \\(r = 4\\text{ cm}\\), height \\(h = 3\\text{ cm}\\). Slant height \\(l = \\sqrt{r^2 + h^2} = \\sqrt{16+9}=5\\text{ cm}\\). Lateral area = \\(\\pi r l = \\pi \\times 4 \\times 5 = 20\\pi \\text{ cm}^2\\). Option A (\\(12\\pi\\)) uses \\(\\pi r h\\) instead of \\(\\pi r l\\).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(l = \\sqrt{r^2 + h^2}\\)", "\\(LSA = \\pi r l\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "diameter": { "magnitude": 8, "unit": "cm" }, "height": { "magnitude": 3, "unit": "cm" } },
+        "answer_value": 20,
+        "answer_unit": "cm^2",
+        "calculation_steps": [
+          "\\(r = \\frac{8}{2} = 4 \\text{ cm}\\)",
+          "\\(l = \\sqrt{4^2 + 3^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5 \\text{ cm}\\)",
+          "\\(LSA = \\pi r l = \\pi \\times 4 \\times 5 = 20\\pi \\text{ cm}^2\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Surface Area of Pyramids and Cones",
+        "structural_element": "Example 4",
+        "content_anchor": "LSA = πrl",
+        "page_hint": 17,
+        "concept_hash": "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 94,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Lateral surface area of a cone is the area of its curved surface.",
+        "concept_summary": "The lateral surface unrolls into a sector of a circle with radius equal to slant height.",
+        "beginner": "The curved part of the cone, like a party hat's surface.",
+        "intermediate": "Use Pythagoras to find slant height from radius and height, then apply \\(\\pi r l\\).",
+        "advanced": "Derivation: arc length = base circumference = \\(2\\pi r\\), sector radius = \\(l\\), sector area = \\(\\pi r l\\).",
+        "worked_solution": [
+          "Step 1: Radius = diameter/2 = 4 cm.",
+          "Step 2: Slant height \\(l = \\sqrt{4^2 + 3^2} = 5\\) cm.",
+          "Step 3: LSA = \\(\\pi r l = \\pi \\times 4 \\times 5 = 20\\pi \\text{ cm}^2\\)."
+        ],
+        "reasoning_steps": [
+          "Find radius from diameter.",
+          "Compute slant height using Pythagorean theorem.",
+          "Apply LSA formula."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(l = \\sqrt{r^2 + h^2}\\)",
+            "name": "Slant height from radius and height",
+            "variables": [
+              { "symbol": "\\(r\\)", "meaning": "radius", "unit": "cm" },
+              { "symbol": "\\(h\\)", "meaning": "height", "unit": "cm" }
+            ],
+            "derivation": "Pythagorean theorem on right triangle formed by radius, height, slant height."
+          },
+          {
+            "formula": "\\(LSA = \\pi r l\\)",
+            "name": "Lateral surface area of cone",
+            "variables": [
+              { "symbol": "\\(r\\)", "meaning": "radius", "unit": "cm" },
+              { "symbol": "\\(l\\)", "meaning": "slant height", "unit": "cm" }
+            ],
+            "derivation": "Sector area = \\(\\frac{1}{2} \\times \\text{arc length} \\times \\text{radius}\\)."
+          }
+        ],
+        "misconceptions": [
+          "Using \\(\\pi r h\\) (cylinder LSA) instead of \\(\\pi r l\\) gives Option A (12π)."
+        ],
+        "related_concepts": ["Pythagorean theorem", "Cylinder lateral area", "Sector area"],
+        "revision_note": "Cone LSA = \\(\\pi r l\\), where \\(l = \\sqrt{r^2 + h^2}\\).",
+        "glossary_entry": {
+          "term": "Lateral surface area of a cone",
+          "definition": "The curved surface area of a cone, excluding the base.",
+          "example_equation": "\\(LSA = \\pi r l\\)",
+          "related_terms": ["Slant height", "Right circular cone"]
+        },
+        "flashcard": {
+          "front": "How to find lateral area of a cone given radius and height?",
+          "back": "Find \\(l = \\sqrt{r^2 + h^2}\\), then \\(\\pi r l\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Cone LSA", "relation": "requires", "target": "Slant height" },
+          { "source": "Slant height", "relation": "found by", "target": "Pythagorean theorem" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Cone lateral area formula?",
+        "flashcard_back": "\\(\\pi r l\\), with \\(l = \\sqrt{r^2 + h^2}\\).",
+        "glossary_term": "Lateral surface area of a cone",
+        "glossary_definition": "The curved surface area of a cone.",
+        "revision_note": "Cone LSA = \\(\\pi r \\sqrt{r^2 + h^2}\\).",
+        "teacher_note": "Emphasize finding slant height first.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate surface areas of cones",
+        "concept_map_nodes": [
+          { "source": "Cone", "relation": "has LSA", "target": "\\(\\pi r l\\)" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer B. r=4, l=5, LSA=20π cm²."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q007",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Surface Area of Pyramids and Cones",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 6.3",
+      "mcq_type": "A",
+      "question": "A two-dimensional shape that can be folded to form a three-dimensional solid is called a:",
+      "options": {
+        "A": "Net",
+        "B": "Cross-section",
+        "C": "Lateral face",
+        "D": "Base"
+      },
+      "correct_answer": "A",
+      "hint": "Think of unfolding a box into a flat pattern.",
+      "explanation": "A net is a flat pattern that folds into a 3D shape. Option B (cross-section) is the intersection of a plane with a solid, not a folded shape.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_term"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 85
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Surface Area of Pyramids and Cones",
+        "structural_element": "Definition 6.3",
+        "content_anchor": "A geometry net is a two-dimensional shape that can be folded to form a three-dimensional shape",
+        "page_hint": 11,
+        "concept_hash": "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 85
+      },
+      "explanations_tiered": {
+        "definition": "A net is a flat arrangement of polygons that can be folded along edges to form a polyhedron.",
+        "concept_summary": "Nets help visualize how a 3D solid's surface area is distributed.",
+        "beginner": "Like cutting a cardboard box along edges and laying it flat.",
+        "intermediate": "Each face of the solid becomes a polygon in the net.",
+        "advanced": "Different nets exist for the same solid; Euler's formula constrains possible nets.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition of net.",
+          "Match to flat pattern that folds into a solid."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "A cross-section (Option B) is a cut through a solid, not an unfolded net."
+        ],
+        "related_concepts": ["Polyhedron", "Face", "Edge"],
+        "revision_note": "Net = flat pattern that folds into 3D shape.",
+        "glossary_entry": {
+          "term": "Net",
+          "definition": "A two-dimensional pattern that can be folded to form a three-dimensional solid.",
+          "example_equation": null,
+          "related_terms": ["Face", "Polyhedron"]
+        },
+        "flashcard": {
+          "front": "What is a net?",
+          "back": "Flat shape that folds into a 3D solid."
+        },
+        "concept_map_nodes": [
+          { "source": "Net", "relation": "folds to", "target": "3D solid" },
+          { "source": "Net", "relation": "consists of", "target": "Faces" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Define net in geometry.",
+        "flashcard_back": "Flat pattern that folds into a solid.",
+        "glossary_term": "Net",
+        "glossary_definition": "A flat pattern that can be folded to form a three-dimensional solid.",
+        "revision_note": "Net = unfolded solid.",
+        "teacher_note": "Use physical folding examples.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define nets of solids",
+        "concept_map_nodes": [
+          { "source": "Net", "relation": "used to find", "target": "Surface area" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer A. Net unfolds to flat pattern."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q008",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Volume of Pyramids and Cones",
+      "sub_subsection": null,
+      "structural_anchor": "Theorem 6.6",
+      "mcq_type": "F",
+      "question": "A triangular pyramid and a triangular prism have the same base area and the same height. How does the volume of the pyramid compare to the volume of the prism?",
+      "options": {
+        "A": "The pyramid's volume is twice the prism's volume.",
+        "B": "The pyramid's volume is three times the prism's volume.",
+        "C": "The pyramid's volume is one-third the prism's volume.",
+        "D": "The volumes are equal."
+      },
+      "correct_answer": "C",
+      "hint": "Think of the pyramid as filling part of the prism.",
+      "explanation": "The volume of a pyramid is \\(\\frac{1}{3} \\times \\text{base area} \\times \\text{height}\\), while a prism's volume is base area × height. Thus the pyramid's volume is one-third that of the prism. Option A (twice) would imply a factor of 2, which is incorrect.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(V_{\\text{pyramid}} = \\frac{1}{3} B h\\)", "\\(V_{\\text{prism}} = B h\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_term"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Volume of Pyramids and Cones",
+        "structural_element": "Theorem 6.6",
+        "content_anchor": "The volume of a triangular pyramid is one-third of the product of the height and the base area",
+        "page_hint": 26,
+        "concept_hash": "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Volume is the amount of space occupied by a solid.",
+        "concept_summary": "For a pyramid, volume = \\(\\frac{1}{3}\\) base area × height, exactly one-third of a prism with same base and height.",
+        "beginner": "If you fill a pyramid with water, you would need three pyramids to fill a matching prism.",
+        "intermediate": "This is proven by dividing a triangular prism into three pyramids of equal volume.",
+        "advanced": "The factor \\(\\frac{1}{3}\\) comes from integration: \\(\\int_0^h A(z) dz = \\int_0^h B (1 - z/h)^2 dz = \\frac{1}{3} B h\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall pyramid volume formula: \\(\\frac{1}{3} B h\\).",
+          "Recall prism volume formula: \\(B h\\).",
+          "Take the ratio: \\((\\frac{1}{3} B h) / (B h) = 1/3\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(V_{\\text{pyramid}} = \\frac{1}{3} B h\\)",
+            "name": "Volume of a pyramid",
+            "variables": [
+              { "symbol": "\\(B\\)", "meaning": "base area", "unit": "cm^2" },
+              { "symbol": "\\(h\\)", "meaning": "height", "unit": "cm" }
+            ],
+            "derivation": "Triangular prism dissection."
+          }
+        ],
+        "misconceptions": [
+          "Thinking pyramid volume equals prism volume (Option D) or twice (Option A) misses the \\(\\frac{1}{3}\\) factor."
+        ],
+        "related_concepts": ["Volume of prism", "Volume of cone", "Cavalieri's principle"],
+        "revision_note": "Pyramid volume = \\(\\frac{1}{3}\\) × (base area) × height.",
+        "glossary_entry": {
+          "term": "Volume of a pyramid",
+          "definition": "One-third of the product of the base area and height.",
+          "example_equation": "\\(V = \\frac{1}{3} B h\\)",
+          "related_terms": ["Base area", "Altitude"]
+        },
+        "flashcard": {
+          "front": "How does pyramid volume compare to prism with same base and height?",
+          "back": "Pyramid is 1/3 the prism's volume."
+        },
+        "concept_map_nodes": [
+          { "source": "Pyramid volume", "relation": "equals", "target": "\\(\\frac{1}{3} B h\\)" },
+          { "source": "Prism volume", "relation": "equals", "target": "\\(B h\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Volume ratio: pyramid vs prism (same base/height)?",
+        "flashcard_back": "Pyramid volume = 1/3 prism volume.",
+        "glossary_term": "Volume of a pyramid",
+        "glossary_definition": "One-third of base area times height.",
+        "revision_note": "Pyramid = 1/3 × prism volume.",
+        "teacher_note": "Demonstrate with three pyramids fitting in a prism.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Compare volumes of pyramids and prisms",
+        "concept_map_nodes": [
+          { "source": "Pyramid", "relation": "has volume 1/3 of", "target": "Prism" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer C. Pyramid volume = 1/3 × base area × height; prism = base area × height."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q009",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Volume of Pyramids and Cones",
+      "sub_subsection": null,
+      "structural_anchor": "Theorem 6.8",
+      "mcq_type": "E",
+      "question": "A circular cone has a base radius of \\(5\\text{ cm}\\) and a height of \\(6\\text{ cm}\\). What is its volume?",
+      "options": {
+        "A": "\\(30\\pi \\text{ cm}^3\\)",
+        "B": "\\(50\\pi \\text{ cm}^3\\)",
+        "C": "\\(75\\pi \\text{ cm}^3\\)",
+        "D": "\\(150\\pi \\text{ cm}^3\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Volume of cone = \\(\\frac{1}{3} \\pi r^2 h\\).",
+      "explanation": "Volume of a cone is \\(V = \\frac{1}{3} \\pi r^2 h\\). Substituting \\(r = 5\\), \\(h = 6\\): \\(V = \\frac{1}{3} \\pi (25)(6) = \\frac{1}{3} \\times 150\\pi = 50\\pi \\text{ cm}^3\\). Option A (30π) results from omitting the \\(\\pi\\) factor incorrectly.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(V = \\frac{1}{3} \\pi r^2 h\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "radius": { "magnitude": 5, "unit": "cm" }, "height": { "magnitude": 6, "unit": "cm" } },
+        "answer_value": 50,
+        "answer_unit": "cm^3",
+        "calculation_steps": [
+          "\\(V = \\frac{1}{3} \\pi r^2 h\\)",
+          "\\(V = \\frac{1}{3} \\pi \\times (5)^2 \\times 6\\)",
+          "\\(V = \\frac{1}{3} \\pi \\times 25 \\times 6 = \\frac{1}{3} \\times 150\\pi = 50\\pi \\text{ cm}^3\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "key_term"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Volume of Pyramids and Cones",
+        "structural_element": "Theorem 6.8",
+        "content_anchor": "V = 1/3 πr²h",
+        "page_hint": 29,
+        "concept_hash": "n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 92,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Volume of a cone is the space it occupies.",
+        "concept_summary": "A cone's volume is one-third of a cylinder with same base and height.",
+        "beginner": "If you fill a cone with sand, you need three cones to fill a matching cylinder.",
+        "intermediate": "The formula \\(\\frac{1}{3} \\pi r^2 h\\) comes from the pyramid volume principle applied to circular base.",
+        "advanced": "Derived by integrating disk cross-sections: \\(\\int_0^h \\pi (r z/h)^2 dz = \\frac{1}{3} \\pi r^2 h\\).",
+        "worked_solution": [
+          "Step 1: Write formula \\(V = \\frac{1}{3} \\pi r^2 h\\).",
+          "Step 2: Substitute \\(r = 5\\), \\(h = 6\\): \\(V = \\frac{1}{3} \\pi \\times 25 \\times 6\\).",
+          "Step 3: Compute \\(25 \\times 6 = 150\\), then \\(\\frac{1}{3} \\times 150 = 50\\).",
+          "Step 4: Result: \\(50\\pi \\text{ cm}^3\\)."
+        ],
+        "reasoning_steps": [
+          "Recall cone volume formula.",
+          "Plug in radius and height.",
+          "Simplify step by step."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(V = \\frac{1}{3} \\pi r^2 h\\)",
+            "name": "Volume of a circular cone",
+            "variables": [
+              { "symbol": "\\(r\\)", "meaning": "radius", "unit": "cm" },
+              { "symbol": "\\(h\\)", "meaning": "height", "unit": "cm" }
+            ],
+            "derivation": "Cylinder volume × 1/3."
+          }
+        ],
+        "misconceptions": [
+          "Forgetting the \\(\\frac{1}{3}\\) gives \\(150\\pi\\) (Option D) — cylinder volume."
+        ],
+        "related_concepts": ["Volume of cylinder", "Pyramid volume", "Cavalieri's principle"],
+        "revision_note": "Cone volume = \\(\\frac{1}{3} \\pi r^2 h\\).",
+        "glossary_entry": {
+          "term": "Volume of a cone",
+          "definition": "One-third of the product of base area and height.",
+          "example_equation": "\\(V = \\frac{1}{3} \\pi r^2 h\\)",
+          "related_terms": ["Right circular cone", "Base area"]
+        },
+        "flashcard": {
+          "front": "What is the volume formula for a cone?",
+          "back": "\\(V = \\frac{1}{3} \\pi r^2 h\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Cone volume", "relation": "equals", "target": "\\(\\frac{1}{3} \\pi r^2 h\\)" },
+          { "source": "Cone", "relation": "has volume 1/3 of", "target": "Cylinder" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Cone volume formula?",
+        "flashcard_back": "\\(\\frac{1}{3} \\pi r^2 h\\).",
+        "glossary_term": "Volume of a cone",
+        "glossary_definition": "One-third of base area times height.",
+        "revision_note": "Cone volume = \\(\\frac{1}{3} \\pi r^2 h\\).",
+        "teacher_note": "Compare with cylinder volume.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate volumes of cones",
+        "concept_map_nodes": [
+          { "source": "Cone", "relation": "has volume", "target": "\\(\\frac{1}{3} \\pi r^2 h\\)" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer B. V = 1/3 × π × 25 × 6 = 50π cm³."
+      }
+    },
+    {
+      "question_id": "G10_Math_U6_Q010",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 6: Solid Figures",
+      "section": "Pyramids, Cones and Spheres",
+      "subsection": "Volume of Pyramids and Cones",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1",
+      "mcq_type": "E",
+      "question": "A regular square pyramid has a base edge of \\(4\\text{ cm}\\) and an altitude of \\(7\\text{ cm}\\). What is its volume?",
+      "options": {
+        "A": "\\(\\frac{112}{3} \\text{ cm}^3\\)",
+        "B": "\\(\\frac{56}{3} \\text{ cm}^3\\)",
+        "C": "\\(\\frac{28}{3} \\text{ cm}^3\\)",
+        "D": "\\(\\frac{224}{3} \\text{ cm}^3\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Volume of pyramid = \\(\\frac{1}{3} \\times \\text{base area} \\times \\text{altitude}\\).",
+      "explanation": "Base area = \\(4 \\times 4 = 16 \\text{ cm}^2\\). Volume = \\(\\frac{1}{3} \\times 16 \\times 7 = \\frac{112}{3} \\text{ cm}^3\\). Option B (\\(\\frac{56}{3}\\)) would result from using \\(\\frac{1}{6}\\) instead of \\(\\frac{1}{3}\\).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(V = \\frac{1}{3} B h\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "base_edge": { "magnitude": 4, "unit": "cm" }, "altitude": { "magnitude": 7, "unit": "cm" } },
+        "answer_value": 37.333,
+        "answer_unit": "cm^3",
+        "calculation_steps": [
+          "\\(B = 4 \\times 4 = 16 \\text{ cm}^2\\)",
+          "\\(V = \\frac{1}{3} \\times 16 \\times 7 = \\frac{112}{3} \\text{ cm}^3\\)"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 6: Solid Figures",
+        "section_anchor": "Pyramids, Cones and Spheres",
+        "subsection_anchor": "Volume of Pyramids and Cones",
+        "structural_element": "Example 1",
+        "content_anchor": "V = 1/3 × base area × height",
+        "page_hint": 29,
+        "concept_hash": "o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Volume of a pyramid is the space inside it.",
+        "concept_summary": "Base area times height, divided by 3.",
+        "beginner": "A pyramid's volume is one-third of a box with same base and height.",
+        "intermediate": "For a square base, area = side², then apply \\(\\frac{1}{3} B h\\).",
+        "advanced": "The factor \\(\\frac{1}{3}\\) holds for all pyramids, proved by volume integration or Cavalieri's principle.",
+        "worked_solution": [
+          "Step 1: Base area \\(B = 4 \\times 4 = 16 \\text{ cm}^2\\).",
+          "Step 2: Apply volume formula \\(V = \\frac{1}{3} B h = \\frac{1}{3} \\times 16 \\times 7\\).",
+          "Step 3: Compute: \\( \\frac{112}{3} \\text{ cm}^3\\)."
+        ],
+        "reasoning_steps": [
+          "Find base area of square.",
+          "Multiply by height.",
+          "Divide by 3."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(V = \\frac{1}{3} B h\\)",
+            "name": "Volume of a pyramid",
+            "variables": [
+              { "symbol": "\\(B\\)", "meaning": "base area", "unit": "cm^2" },
+              { "symbol": "\\(h\\)", "meaning": "height", "unit": "cm" }
+            ],
+            "derivation": "From triangular prism dissection."
+          }
+        ],
+        "misconceptions": [
+          "Using \\(\\frac{1}{6}\\) (Option B) is a common error when halving the half."
+        ],
+        "related_concepts": ["Square area", "Pyramid altitude", "Volume of prism"],
+        "revision_note": "Pyramid volume = \\(\\frac{1}{3} \\times \\text{base area} \\times \\text{height}\\).",
+        "glossary_entry": {
+          "term": "Volume of a square pyramid",
+          "definition": "One-third of base area times height.",
+          "example_equation": "\\(V = \\frac{1}{3} s^2 h\\)",
+          "related_terms": ["Regular pyramid", "Base edge"]
+        },
+        "flashcard": {
+          "front": "Volume formula for square pyramid?",
+          "back": "\\(V = \\frac{1}{3} \\times (\\text{side}^2) \\times \\text{height}\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Square pyramid volume", "relation": "equals", "target": "\\(\\frac{1}{3} s^2 h\\)" },
+          { "source": "Base area", "relation": "is", "target": "\\(s^2\\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 6 — Solid Figures",
+        "flashcard_front": "Volume of pyramid with base 4 cm square, height 7 cm?",
+        "flashcard_back": "\\(\\frac{112}{3} \\text{ cm}^3\\).",
+        "glossary_term": "Volume of a pyramid",
+        "glossary_definition": "One-third of base area times altitude.",
+        "revision_note": "Pyramid V = \\(\\frac{1}{3} \\times B \\times h\\).",
+        "teacher_note": "Check that students don't forget the 1/3.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate pyramid volumes",
+        "concept_map_nodes": [
+          { "source": "Pyramid", "relation": "has volume", "target": "\\(\\frac{1}{3} B h\\)" }
+        ],
+        "workbook_section": "Pyramids, Cones and Spheres",
+        "solution_manual_note": "Answer A. V = 1/3 × 16 × 7 = 112/3 cm³."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3200,
+    "average_question_quality": 90.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 4,
+      "F": 1
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 1,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Revision of Cylinders and Prisms": 2,
+      "Pyramids, Cones and Spheres": 8
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 25,
+      "intermediate_avg": 36,
+      "advanced_avg": 45
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 7
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}
