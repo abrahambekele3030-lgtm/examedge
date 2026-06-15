@@ -839,11 +839,17 @@ function getCopyText(mode) {
 function searchOnline() {
   const q = State.filtered[State.currentIndex];
   if (!q) return;
+  
+  // Instantly copy full question with formatting per user request
+  copyText(getCopyText('all'));
+  
   const ans = State.answered[q.question_id];
-  let query = q.question.substring(0, 200);
-  if (ans) query += ` ${q.options?.[ans.selected] || ''}`;
+  let query = stripHtmlAndNormalizeMath(q.question).substring(0, 200);
+  if (ans) query += ` ${stripHtmlAndNormalizeMath(q.options?.[ans.selected] || '')}`;
   const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
-  window.open(url, '_blank');
+  
+  // Delay the open slightly so the copy toast can be seen
+  setTimeout(() => window.open(url, '_blank'), 400);
 }
 
 // ============================================================
@@ -2203,15 +2209,11 @@ function setupEventListeners() {
   });
   document.getElementById('btn-hint')?.addEventListener('click', toggleHint);
 
-  // Copy menu
+  // Copy Button
   document.getElementById('btn-copy-toggle')?.addEventListener('click', (e) => {
     e.stopPropagation();
-    document.getElementById('copy-menu')?.classList.toggle('hidden');
+    copyText(getCopyText('all'));
   });
-  document.addEventListener('click', () => document.getElementById('copy-menu')?.classList.add('hidden'));
-  document.getElementById('btn-copy-question')?.addEventListener('click', (e) => { e.stopPropagation(); copyText(getCopyText('question')); document.getElementById('copy-menu')?.classList.add('hidden'); });
-  document.getElementById('btn-copy-options')?.addEventListener('click', (e) => { e.stopPropagation(); copyText(getCopyText('options')); document.getElementById('copy-menu')?.classList.add('hidden'); });
-  document.getElementById('btn-copy-all')?.addEventListener('click', (e) => { e.stopPropagation(); copyText(getCopyText('all')); document.getElementById('copy-menu')?.classList.add('hidden'); });
 
   // Search Online
   document.getElementById('btn-search-online')?.addEventListener('click', searchOnline);
@@ -2542,24 +2544,27 @@ function askChatGPT() {
   const prompt = `Subject: ${q._subject} | Grade ${q._grade} | Unit ${q._unit}
 
 Question:
-${q.question}
+${stripHtmlAndNormalizeMath(q.question)}
 
 Options:
 ${optionsText}${ansText}
 
 Please explain this question in detail.`;
 
-  copyText(prompt, false);
-  showToast('Question copied! Opening ChatGPT...', 'success');
+  // Provide to user to paste in their local ChatGPT instead of opening the web browser
+  copyText(prompt);
   setTimeout(() => {
-    window.open('https://chat.openai.com/', '_blank');
-  }, 400);
+    showToast('Question copied! Open your local ChatGPT app.', 'success');
+  }, 100);
 }
 
 // Math Re-render
 function rerenderMath() {
   const card = document.getElementById('question-card');
   if (card) {
+    if (window.MathJax && window.MathJax.typesetClear) {
+      window.MathJax.typesetClear([card]);
+    }
     typeset(card);
     showToast('Formula refreshed', 'info');
   }
