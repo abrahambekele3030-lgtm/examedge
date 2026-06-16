@@ -144,6 +144,7 @@ async function discoverAndLoadQuestions() {
 
   const allQuestions = [];
   let fileCount = 0;
+  State.missingFiles = [];
 
   const CONCURRENCY = 12;
   const total = filePaths.length;
@@ -152,10 +153,10 @@ async function discoverAndLoadQuestions() {
   async function fetchFile(path) {
     try {
       const res = await fetch(path);
-      if (!res.ok) return null;
+      if (!res.ok) { State.missingFiles.push(path); return null; }
       const data = await res.json();
       return { path, data };
-    } catch { return null; }
+    } catch { State.missingFiles.push(path); return null; }
   }
 
   for (let i = 0; i < filePaths.length; i += CONCURRENCY) {
@@ -2226,7 +2227,51 @@ function setupEventListeners() {
   });
 
   // Study Timer
-  document.getElementById('study-timer')?.addEventListener('click', toggleStudyTimer);
+  const timerEl = document.getElementById('study-timer');
+  if (timerEl) {
+    let isDragging = false;
+    let hasMoved = false;
+    let startX, startY, initialLeft, initialTop;
+
+    timerEl.addEventListener('pointerdown', e => {
+      isDragging = true;
+      hasMoved = false;
+      startX = e.clientX;
+      startY = e.clientY;
+      const rect = timerEl.getBoundingClientRect();
+      initialLeft = rect.left;
+      initialTop = rect.top;
+      timerEl.setPointerCapture(e.pointerId);
+      timerEl.style.transition = 'none';
+      e.preventDefault();
+    });
+
+    timerEl.addEventListener('pointermove', e => {
+      if (!isDragging) return;
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) hasMoved = true;
+      let newLeft = initialLeft + dx;
+      let newTop = initialTop + dy;
+      
+      // Constrain to viewport
+      newLeft = Math.max(0, Math.min(newLeft, window.innerWidth - timerEl.offsetWidth));
+      newTop = Math.max(0, Math.min(newTop, window.innerHeight - timerEl.offsetHeight));
+
+      timerEl.style.left = newLeft + 'px';
+      timerEl.style.top = newTop + 'px';
+      timerEl.style.right = 'auto';
+    });
+
+    timerEl.addEventListener('pointerup', e => {
+      isDragging = false;
+      timerEl.releasePointerCapture(e.pointerId);
+      timerEl.style.transition = 'box-shadow var(--transition-fast)';
+      if (!hasMoved) {
+        toggleStudyTimer();
+      }
+    });
+  }
 
   // Question Grid
   document.getElementById('btn-grid-view')?.addEventListener('click', () => {
@@ -2554,6 +2599,21 @@ function setupEventListeners() {
     };
     reader.readAsText(file);
     e.target.value = '';
+  });
+
+  // Diagnostics
+  document.getElementById('btn-diagnostics')?.addEventListener('click', () => {
+    document.getElementById('diagnostics-overlay').classList.remove('hidden');
+    const content = document.getElementById('diagnostics-content');
+    if (!State.missingFiles || State.missingFiles.length === 0) {
+      content.innerHTML = '<p style="color:var(--accent-success)">All files loaded successfully!</p>';
+    } else {
+      content.innerHTML = '<p style="color:var(--accent-danger);margin-bottom:10px">' + State.missingFiles.length + ' file(s) failed to load:</p><ul style="padding-left:20px;word-break:break-all">' + State.missingFiles.map(f => '<li>'+escapeHtml(f)+'</li>').join('') + '</ul>';
+    }
+  });
+
+  document.getElementById('close-diagnostics')?.addEventListener('click', () => {
+    document.getElementById('diagnostics-overlay').classList.add('hidden');
   });
 
   // Stats reset

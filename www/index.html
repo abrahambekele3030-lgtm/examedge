@@ -670,6 +670,7 @@
               Import Data
               <input type="file" id="btn-import-data" accept=".json" style="display: none">
             </label>
+            <button class="filter-btn" id="btn-diagnostics" style="background:rgba(59,130,246,0.15);color:#3b82f6;font-size:0.8rem">Data Diagnostics</button>
             <button class="filter-btn" id="btn-reset-stats" style="background:rgba(239,68,68,0.15);color:#f87171;font-size:0.8rem">Reset Progress</button>
           </div>
         </div>
@@ -763,6 +764,15 @@
         <div><kbd>Esc</kbd> — Close overlays</div>
         <div><kbd>?</kbd> — This panel</div>
       </div>
+    </div>
+  </div>
+
+  <!-- Diagnostics Modal -->
+  <div class="shortcuts-overlay hidden" id="diagnostics-overlay">
+    <div class="shortcuts-modal" style="max-width: 600px; padding: 1.5rem">
+      <h2 style="margin-bottom: 1rem">Data Diagnostics</h2>
+      <button class="ai-close" id="close-diagnostics">x</button>
+      <div id="diagnostics-content" style="max-height: 400px; overflow-y: auto; font-size: 0.85rem; color: var(--text-primary);"></div>
     </div>
   </div>
 

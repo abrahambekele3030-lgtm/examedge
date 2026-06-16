@@ -37,23 +37,24 @@ self.addEventListener('activate', event => {
 
 // Fetch Event
 self.addEventListener('fetch', event => {
+  if (event.request.method !== 'GET') return;
   event.respondWith(
     caches.match(event.request)
       .then(response => {
-        // Return cache if found
-        if (response) {
-          return response;
-        }
-        
-        // Otherwise fetch from network
+        if (response) return response;
         return fetch(event.request).then(
           function(networkResponse) {
-            // Optional: Clone the response and add to cache dynamically
-            // (Skipping dynamic caching here to keep it simple and safe for large question banks)
+            // Dynamically cache everything that is successfully fetched
+            // This ensures questions (data/*.json) and MathJax fonts are cached for true offline support
+            if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic' || event.request.url.includes('cdn.jsdelivr.net')) {
+              const responseToCache = networkResponse.clone();
+              caches.open(CACHE_NAME).then(cache => {
+                cache.put(event.request, responseToCache);
+              });
+            }
             return networkResponse;
           }
         ).catch(() => {
-          // Fallback if offline and not in cache
           console.log('Offline and resource not found in cache.');
         });
       })

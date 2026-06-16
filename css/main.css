@@ -1460,18 +1460,14 @@ kbd {
     left: 0.75rem; right: 0.75rem; z-index: 60; box-shadow: var(--shadow-lg);
   }
   .filter-row.mobile-open { display: flex; }
-  .filter-select {
-  background: var(--input-bg);
-  border: 1px solid var(--border);
-  color: var(--text-primary);
-  padding: 0.6rem 0.9rem;
-  border-radius: var(--radius-md);
-  font-size: 0.95rem;
-  cursor: pointer;
-  transition: border-color var(--transition-fast);
-  min-width: 130px;
-  max-width: 220px;
-}
+  .filter-select, .custom-select-wrapper, .filter-btn, .custom-select-display {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    box-sizing: border-box;
+  }
 
   /* Floating action buttons for Prev/Next */
   .nav-controls {

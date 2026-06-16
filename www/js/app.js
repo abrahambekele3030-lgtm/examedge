@@ -144,6 +144,7 @@ async function discoverAndLoadQuestions() {
 
   const allQuestions = [];
   let fileCount = 0;
+  State.missingFiles = [];
 
   const CONCURRENCY = 12;
   const total = filePaths.length;
@@ -152,10 +153,10 @@ async function discoverAndLoadQuestions() {
   async function fetchFile(path) {
     try {
       const res = await fetch(path);
-      if (!res.ok) return null;
+      if (!res.ok) { State.missingFiles.push(path); return null; }
       const data = await res.json();
       return { path, data };
-    } catch { return null; }
+    } catch { State.missingFiles.push(path); return null; }
   }
 
   for (let i = 0; i < filePaths.length; i += CONCURRENCY) {
@@ -716,7 +717,10 @@ function clearOptionStates() {
 function goTo(index) {
   const clamped = Math.max(0, Math.min(index, State.filtered.length - 1));
   State.currentIndex = clamped;
+  // Stop TTS when navigating
+  if (_ttsActive) { window.speechSynthesis.cancel(); _ttsActive = false; document.getElementById('btn-tts')?.classList.remove('tts-active'); }
   renderQuestion();
+  updateNoteDot();
 }
 
 function goNext() {
@@ -839,11 +843,17 @@ function getCopyText(mode) {
 function searchOnline() {
   const q = State.filtered[State.currentIndex];
   if (!q) return;
+  
+  // Instantly copy full question with formatting per user request
+  copyText(getCopyText('all'));
+  
   const ans = State.answered[q.question_id];
-  let query = q.question.substring(0, 200);
-  if (ans) query += ` ${q.options?.[ans.selected] || ''}`;
+  let query = stripHtmlAndNormalizeMath(q.question).substring(0, 200);
+  if (ans) query += ` ${stripHtmlAndNormalizeMath(q.options?.[ans.selected] || '')}`;
   const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
-  window.open(url, '_blank');
+  
+  // Delay the open slightly so the copy toast can be seen
+  setTimeout(() => window.open(url, '_blank'), 400);
 }
 
 // ============================================================
@@ -909,7 +919,81 @@ function fillSelect(id, items, placeholder) {
     opt.textContent = item;
     el.appendChild(opt);
   }
+  // Also sync the custom dropdown UI for filter selects
+  syncCustomSelect(id);
 }
+
+// Build / refresh the custom-select-dropdown list from the hidden <select>
+function syncCustomSelect(id) {
+  const select = document.getElementById(id);
+  if (!select) return;
+  const wrapper = select.closest('.custom-select-wrapper');
+  if (!wrapper) return;
+  const dropdown = wrapper.querySelector('.custom-select-dropdown');
+  const textEl   = wrapper.querySelector('.custom-select-text');
+  if (!dropdown) return;
+
+  dropdown.innerHTML = '';
+  for (const opt of select.options) {
+    const div = document.createElement('div');
+    div.className = 'custom-select-option' + (opt.selected ? ' selected' : '');
+    div.dataset.value = opt.value;
+    div.textContent = opt.text;
+    div.addEventListener('click', () => {
+      select.value = opt.value;
+      // Mark selected
+      dropdown.querySelectorAll('.custom-select-option').forEach(d => d.classList.remove('selected'));
+      div.classList.add('selected');
+      // Update label
+      if (textEl) textEl.textContent = opt.text;
+      // Close
+      wrapper.classList.remove('open');
+      // Fire change event on real select
+      select.dispatchEvent(new Event('change'));
+    });
+    dropdown.appendChild(div);
+  }
+  // Sync label to current value
+  if (textEl && select.options[select.selectedIndex]) {
+    textEl.textContent = select.options[select.selectedIndex].text;
+  }
+}
+
+// Wire open/close for all custom-select-wrappers in the filter bar
+function initCustomSelects() {
+  document.querySelectorAll('.custom-select-wrapper').forEach(wrapper => {
+    const display = wrapper.querySelector('.custom-select-display');
+    const select  = wrapper.querySelector('select');
+    if (!display || !select) return;
+
+    // Build initial list from the hidden select's existing options
+    syncCustomSelect(select.id);
+
+    // Toggle open on click
+    display.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = wrapper.classList.contains('open');
+      // Close all other dropdowns
+      document.querySelectorAll('.custom-select-wrapper.open').forEach(w => w.classList.remove('open'));
+      if (!isOpen) wrapper.classList.add('open');
+    });
+
+    display.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        display.click();
+      } else if (e.key === 'Escape') {
+        wrapper.classList.remove('open');
+      }
+    });
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.custom-select-wrapper.open').forEach(w => w.classList.remove('open'));
+  });
+}
+
 
 function updateUnitFilter() {
   const subject = document.getElementById('filter-subject')?.value || '';
@@ -2110,8 +2194,20 @@ function setupEventListeners() {
   });
 
   // Mobile nav toggles
-  document.getElementById('btn-mobile-filter')?.addEventListener('click', () => {
+  document.getElementById('btn-mobile-filter')?.addEventListener('click', (e) => {
+    e.stopPropagation();
     document.getElementById('filter-row-container')?.classList.toggle('mobile-open');
+  });
+  
+  // Close mobile filter when clicking outside
+  document.addEventListener('click', (e) => {
+    const filterRow = document.getElementById('filter-row-container');
+    const filterBtn = document.getElementById('btn-mobile-filter');
+    if (filterRow?.classList.contains('mobile-open') && 
+        !filterRow.contains(e.target) && 
+        (!filterBtn || !filterBtn.contains(e.target))) {
+      filterRow.classList.remove('mobile-open');
+    }
   });
   document.getElementById('m-nav-menu')?.addEventListener('click', () => {
     document.getElementById('sidebar')?.classList.add('mobile-open');
@@ -2131,7 +2227,51 @@ function setupEventListeners() {
   });
 
   // Study Timer
-  document.getElementById('study-timer')?.addEventListener('click', toggleStudyTimer);
+  const timerEl = document.getElementById('study-timer');
+  if (timerEl) {
+    let isDragging = false;
+    let hasMoved = false;
+    let startX, startY, initialLeft, initialTop;
+
+    timerEl.addEventListener('pointerdown', e => {
+      isDragging = true;
+      hasMoved = false;
+      startX = e.clientX;
+      startY = e.clientY;
+      const rect = timerEl.getBoundingClientRect();
+      initialLeft = rect.left;
+      initialTop = rect.top;
+      timerEl.setPointerCapture(e.pointerId);
+      timerEl.style.transition = 'none';
+      e.preventDefault();
+    });
+
+    timerEl.addEventListener('pointermove', e => {
+      if (!isDragging) return;
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) hasMoved = true;
+      let newLeft = initialLeft + dx;
+      let newTop = initialTop + dy;
+      
+      // Constrain to viewport
+      newLeft = Math.max(0, Math.min(newLeft, window.innerWidth - timerEl.offsetWidth));
+      newTop = Math.max(0, Math.min(newTop, window.innerHeight - timerEl.offsetHeight));
+
+      timerEl.style.left = newLeft + 'px';
+      timerEl.style.top = newTop + 'px';
+      timerEl.style.right = 'auto';
+    });
+
+    timerEl.addEventListener('pointerup', e => {
+      isDragging = false;
+      timerEl.releasePointerCapture(e.pointerId);
+      timerEl.style.transition = 'box-shadow var(--transition-fast)';
+      if (!hasMoved) {
+        toggleStudyTimer();
+      }
+    });
+  }
 
   // Question Grid
   document.getElementById('btn-grid-view')?.addEventListener('click', () => {
@@ -2203,21 +2343,44 @@ function setupEventListeners() {
   });
   document.getElementById('btn-hint')?.addEventListener('click', toggleHint);
 
-  // Copy menu
+  // Copy Button
   document.getElementById('btn-copy-toggle')?.addEventListener('click', (e) => {
     e.stopPropagation();
-    document.getElementById('copy-menu')?.classList.toggle('hidden');
+    copyText(getCopyText('all'));
   });
-  document.addEventListener('click', () => document.getElementById('copy-menu')?.classList.add('hidden'));
-  document.getElementById('btn-copy-question')?.addEventListener('click', (e) => { e.stopPropagation(); copyText(getCopyText('question')); document.getElementById('copy-menu')?.classList.add('hidden'); });
-  document.getElementById('btn-copy-options')?.addEventListener('click', (e) => { e.stopPropagation(); copyText(getCopyText('options')); document.getElementById('copy-menu')?.classList.add('hidden'); });
-  document.getElementById('btn-copy-all')?.addEventListener('click', (e) => { e.stopPropagation(); copyText(getCopyText('all')); document.getElementById('copy-menu')?.classList.add('hidden'); });
 
   // Search Online
   document.getElementById('btn-search-online')?.addEventListener('click', searchOnline);
-  
-  // ChatGPT
-  document.getElementById('btn-chatgpt')?.addEventListener('click', askChatGPT);
+
+  // Ask AI button → open sheet
+  document.getElementById('btn-ask-ai')?.addEventListener('click', openAIPromptSheet);
+
+  // AI Sheet: prompt card selection
+  document.querySelectorAll('.prompt-option-card').forEach(card => {
+    card.addEventListener('click', () => {
+      document.querySelectorAll('.prompt-option-card').forEach(c => c.classList.remove('selected'));
+      card.classList.add('selected');
+      _selectedPromptType = card.dataset.prompt;
+    });
+  });
+  document.getElementById('ai-choice-share')?.addEventListener('click', () => sendToAI('share'));
+  document.getElementById('ai-choice-copy')?.addEventListener('click',  () => sendToAI('copy'));
+  document.getElementById('ai-sheet-close')?.addEventListener('click', closeAIPromptSheet);
+  document.getElementById('ai-sheet-overlay')?.addEventListener('click', e => {
+    if (e.target === document.getElementById('ai-sheet-overlay')) closeAIPromptSheet();
+  });
+
+  // Note button
+  document.getElementById('btn-note')?.addEventListener('click', openNoteSheet);
+  document.getElementById('note-sheet-close')?.addEventListener('click', closeNoteSheet);
+  document.getElementById('note-btn-save')?.addEventListener('click', saveCurrentNote);
+  document.getElementById('note-btn-delete')?.addEventListener('click', deleteCurrentNote);
+  document.getElementById('note-sheet-overlay')?.addEventListener('click', e => {
+    if (e.target === document.getElementById('note-sheet-overlay')) closeNoteSheet();
+  });
+
+  // TTS button
+  document.getElementById('btn-tts')?.addEventListener('click', toggleTTS);
 
   // Re-render math
   document.getElementById('btn-rerender')?.addEventListener('click', rerenderMath);
@@ -2438,6 +2601,21 @@ function setupEventListeners() {
     e.target.value = '';
   });
 
+  // Diagnostics
+  document.getElementById('btn-diagnostics')?.addEventListener('click', () => {
+    document.getElementById('diagnostics-overlay').classList.remove('hidden');
+    const content = document.getElementById('diagnostics-content');
+    if (!State.missingFiles || State.missingFiles.length === 0) {
+      content.innerHTML = '<p style="color:var(--accent-success)">All files loaded successfully!</p>';
+    } else {
+      content.innerHTML = '<p style="color:var(--accent-danger);margin-bottom:10px">' + State.missingFiles.length + ' file(s) failed to load:</p><ul style="padding-left:20px;word-break:break-all">' + State.missingFiles.map(f => '<li>'+escapeHtml(f)+'</li>').join('') + '</ul>';
+    }
+  });
+
+  document.getElementById('close-diagnostics')?.addEventListener('click', () => {
+    document.getElementById('diagnostics-overlay').classList.add('hidden');
+  });
+
   // Stats reset
   document.getElementById('btn-reset-stats')?.addEventListener('click', () => {
     if (confirm('Reset ALL progress? This action cannot be undone!')) {
@@ -2521,45 +2699,324 @@ function setFontSize(size) {
   saveState();
 }
 
-// ChatGPT Integration
-function askChatGPT() {
+// ============================================================
+// AI PROMPT SHEET
+// ============================================================
+let _selectedPromptType = 'explain';
+
+function buildAIPrompt(type) {
   const q = State.filtered[State.currentIndex];
-  if (!q) return;
-  const ans = State.answered[q.question_id];
-  
+  if (!q) return '';
   let optionsText = '';
   if (q.options) {
     for (const [k, v] of Object.entries(q.options)) {
       optionsText += `${k}. ${v}\n`;
     }
   }
-  
-  let ansText = '';
-  if (ans) {
-    ansText = `\nMy answer was ${ans.selected}. The correct answer is ${q.correct_answer}.`;
+  const qText = stripHtmlAndNormalizeMath(q.question);
+  const ans = State.answered[q.question_id];
+  const ansLine = ans ? `\nNote: The correct answer is ${q.correct_answer}.` : '';
+
+  const prompts = {
+    explain: `Question:\n${qText}\n\nOptions:\n${optionsText}${ansLine}\n\nPlease explain this question clearly and in detail.`,
+    options: `Question:\n${qText}\n\nOptions:\n${optionsText}${ansLine}\n\nPlease explain each option one by one — why it is correct or incorrect.`,
+    steps:   `Question:\n${qText}\n\nOptions:\n${optionsText}${ansLine}\n\nWalk me through a step-by-step solution to this question.`,
+    correct: `Question:\n${qText}\n\nOptions:\n${optionsText}${ansLine}\n\nWhy is the correct answer right? Explain the reasoning in depth.`,
+    hint:    `Question:\n${qText}\n\nOptions:\n${optionsText}\n\nGive me a helpful hint to guide me toward the answer. Do NOT reveal the answer itself.`,
+    simple:  `Question:\n${qText}\n\nOptions:\n${optionsText}${ansLine}\n\nExplain this question as simply as possible, as if I am a beginner.`
+  };
+  return prompts[type] || prompts.explain;
+}
+
+function openAIPromptSheet() {
+  const overlay = document.getElementById('ai-sheet-overlay');
+  if (!overlay) return;
+  overlay.classList.remove('hidden');
+  // Default selection
+  document.querySelectorAll('.prompt-option-card').forEach(c => c.classList.remove('selected'));
+  const def = document.querySelector(`.prompt-option-card[data-prompt="${_selectedPromptType}"]`);
+  if (def) def.classList.add('selected');
+}
+
+function closeAIPromptSheet() {
+  document.getElementById('ai-sheet-overlay')?.classList.add('hidden');
+}
+
+function sendToAI(appChoice) {
+  const prompt = buildAIPrompt(_selectedPromptType);
+  if (!prompt) return;
+  copyText(prompt);
+
+  if (appChoice === 'share' && navigator.share) {
+    navigator.share({ text: prompt })
+      .then(() => showToast('Shared!', 'success'))
+      .catch(() => showToast('Prompt copied to clipboard!', 'info'));
+  } else if (appChoice === 'share') {
+    // Fallback: try intent URL for ChatGPT, else just copy
+    showToast('Prompt copied! Open your AI app and paste.', 'info');
+    try { window.location.href = 'intent://#Intent;package=com.openai.chatgpt;end'; } catch(e) {}
+  } else {
+    showToast('Prompt copied to clipboard!', 'success');
   }
-  
-  const prompt = `Subject: ${q._subject} | Grade ${q._grade} | Unit ${q._unit}
+  closeAIPromptSheet();
+}
 
-Question:
-${q.question}
+// ============================================================
+// QUICK NOTES
+// ============================================================
+let _notes = {};
 
-Options:
-${optionsText}${ansText}
+function loadNotes() {
+  try { _notes = JSON.parse(localStorage.getItem('examedge_notes') || '{}'); } catch(e) { _notes = {}; }
+}
 
-Please explain this question in detail.`;
+function saveNotes() {
+  try { localStorage.setItem('examedge_notes', JSON.stringify(_notes)); } catch(e) {}
+}
 
-  copyText(prompt, false);
-  showToast('Question copied! Opening ChatGPT...', 'success');
-  setTimeout(() => {
-    window.open('https://chat.openai.com/', '_blank');
-  }, 400);
+function openNoteSheet() {
+  const q = State.filtered[State.currentIndex];
+  if (!q) return;
+  const overlay = document.getElementById('note-sheet-overlay');
+  const textarea = document.getElementById('note-textarea');
+  if (!overlay || !textarea) return;
+  textarea.value = _notes[q.question_id] || '';
+  overlay.classList.remove('hidden');
+  setTimeout(() => textarea.focus(), 350);
+}
+
+function closeNoteSheet() {
+  document.getElementById('note-sheet-overlay')?.classList.add('hidden');
+}
+
+function saveCurrentNote() {
+  const q = State.filtered[State.currentIndex];
+  if (!q) return;
+  const text = document.getElementById('note-textarea')?.value.trim() || '';
+  if (text) {
+    _notes[q.question_id] = text;
+  } else {
+    delete _notes[q.question_id];
+  }
+  saveNotes();
+  updateNoteDot();
+  closeNoteSheet();
+  showToast('Note saved!', 'success');
+}
+
+function deleteCurrentNote() {
+  const q = State.filtered[State.currentIndex];
+  if (!q) return;
+  delete _notes[q.question_id];
+  saveNotes();
+  updateNoteDot();
+  if (document.getElementById('note-textarea')) document.getElementById('note-textarea').value = '';
+  closeNoteSheet();
+  showToast('Note deleted', 'info');
+}
+
+function updateNoteDot() {
+  const q = State.filtered[State.currentIndex];
+  const dot = document.getElementById('note-dot');
+  if (!dot) return;
+  if (q && _notes[q.question_id]) {
+    dot.classList.remove('hidden');
+  } else {
+    dot.classList.add('hidden');
+  }
+}
+
+// ============================================================
+// TEXT-TO-SPEECH
+// ============================================================
+let _ttsUtterance = null;
+let _ttsActive = false;
+
+function toggleTTS() {
+  if (_ttsActive) {
+    window.speechSynthesis.cancel();
+    _ttsActive = false;
+    document.getElementById('btn-tts')?.classList.remove('tts-active');
+    return;
+  }
+  const q = State.filtered[State.currentIndex];
+  if (!q) return;
+
+  let optionsText = '';
+  if (q.options) {
+    for (const [k, v] of Object.entries(q.options)) {
+      optionsText += ` Option ${k}: ${stripHtmlAndNormalizeMath(v)}.`;
+    }
+  }
+  const text = `Question: ${stripHtmlAndNormalizeMath(q.question)}. ${optionsText}`;
+
+  _ttsUtterance = new SpeechSynthesisUtterance(text);
+  _ttsUtterance.lang = 'en-US';
+  _ttsUtterance.rate = 0.92;
+  _ttsUtterance.onend = () => {
+    _ttsActive = false;
+    document.getElementById('btn-tts')?.classList.remove('tts-active');
+  };
+  window.speechSynthesis.speak(_ttsUtterance);
+  _ttsActive = true;
+  document.getElementById('btn-tts')?.classList.add('tts-active');
+  showToast('Reading question aloud...', 'info');
+}
+
+// ============================================================
+// SWIPE GESTURES
+// ============================================================
+function setupSwipeGestures() {
+  const card = document.getElementById('question-card');
+  if (!card) return;
+  let startX = 0, startY = 0;
+
+  card.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+  }, { passive: true });
+
+  card.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - startX;
+    const dy = e.changedTouches[0].clientY - startY;
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 50) {
+      if (dx < 0) goNext();
+      else goPrev();
+    }
+  }, { passive: true });
+}
+
+// ============================================================
+// DICTIONARY (Free Dictionary API)
+// ============================================================
+let _dictPopup = null;
+let _dictAudio = null;
+
+function setupDictionary() {
+  // Create popup element
+  if (!document.getElementById('dict-popup')) {
+    const popup = document.createElement('div');
+    popup.id = 'dict-popup';
+    popup.className = 'dict-popup hidden';
+    popup.innerHTML = `
+      <div class="dict-header">
+        <div>
+          <span class="dict-word" id="dict-word"></span>
+          <span class="dict-phonetic" id="dict-phonetic"></span>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center">
+          <button id="dict-audio-btn" class="dict-audio-btn hidden" title="Pronounce">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 010 7.07"/></svg>
+          </button>
+          <button class="dict-close-btn" id="dict-close">&times;</button>
+        </div>
+      </div>
+      <div class="dict-body" id="dict-body"></div>
+    `;
+    document.body.appendChild(popup);
+    _dictPopup = popup;
+
+    document.getElementById('dict-close').addEventListener('click', closeDictPopup);
+    document.addEventListener('click', e => {
+      if (_dictPopup && !_dictPopup.classList.contains('hidden') && !_dictPopup.contains(e.target)) {
+        closeDictPopup();
+      }
+    });
+  }
+
+  // Long-press / double-tap on question area to look up selected word
+  const qArea = document.getElementById('main-content');
+  if (!qArea) return;
+
+  let holdTimer = null;
+  qArea.addEventListener('touchstart', e => {
+    holdTimer = setTimeout(() => {
+      const sel = window.getSelection()?.toString().trim();
+      if (sel && sel.split(' ').length <= 3) lookupWord(sel);
+    }, 600);
+  }, { passive: true });
+  qArea.addEventListener('touchend', () => clearTimeout(holdTimer), { passive: true });
+  qArea.addEventListener('touchmove', () => clearTimeout(holdTimer), { passive: true });
+
+  // Desktop: double-click on a word
+  qArea.addEventListener('dblclick', () => {
+    const sel = window.getSelection()?.toString().trim();
+    if (sel && sel.split(' ').length <= 3) lookupWord(sel);
+  });
+}
+
+async function lookupWord(word) {
+  if (!word) return;
+  const cleanWord = word.replace(/[^a-zA-Z\-]/g, '');
+  if (!cleanWord) return;
+
+  showDictPopup(cleanWord, null, 'Loading...');
+  try {
+    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(cleanWord)}`);
+    if (!res.ok) throw new Error('Not found');
+    const data = await res.json();
+    displayDictResult(data[0]);
+  } catch(e) {
+    showDictPopup(cleanWord, null, `<p class="dict-error">No definition found for "${cleanWord}"</p>`);
+  }
+}
+
+function showDictPopup(word, phonetic, bodyHtml) {
+  if (!_dictPopup) setupDictionary();
+  const popup = document.getElementById('dict-popup');
+  if (!popup) return;
+  document.getElementById('dict-word').textContent = word;
+  document.getElementById('dict-phonetic').textContent = phonetic || '';
+  document.getElementById('dict-body').innerHTML = bodyHtml;
+  popup.classList.remove('hidden');
+}
+
+function closeDictPopup() {
+  document.getElementById('dict-popup')?.classList.add('hidden');
+  if (_dictAudio) { _dictAudio.pause(); _dictAudio = null; }
+}
+
+function displayDictResult(entry) {
+  if (!entry) return;
+  const phonetics = entry.phonetics || [];
+  const phonetic = (entry.phonetic || phonetics.find(p => p.text)?.text || '');
+  const audioUrl = phonetics.find(p => p.audio)?.audio || '';
+
+  const audioBtn = document.getElementById('dict-audio-btn');
+  if (audioUrl && audioBtn) {
+    audioBtn.classList.remove('hidden');
+    audioBtn.onclick = () => {
+      if (_dictAudio) _dictAudio.pause();
+      _dictAudio = new Audio(audioUrl);
+      _dictAudio.play();
+    };
+  } else if (audioBtn) {
+    audioBtn.classList.add('hidden');
+  }
+
+  let html = '';
+  for (const meaning of (entry.meanings || []).slice(0, 3)) {
+    html += `<div class="dict-pos">${meaning.partOfSpeech}</div>`;
+    for (const def of (meaning.definitions || []).slice(0, 2)) {
+      html += `<div class="dict-def">${def.definition}</div>`;
+      if (def.example) html += `<div class="dict-example">"${def.example}"</div>`;
+    }
+    const syns = (meaning.synonyms || []).slice(0, 5);
+    if (syns.length) html += `<div class="dict-synonyms">Synonyms: ${syns.map(s => `<span class="dict-syn" onclick="lookupWord('${s}')">${s}</span>`).join(', ')}</div>`;
+  }
+
+  if (document.getElementById('dict-word')) document.getElementById('dict-word').textContent = entry.word || '';
+  if (document.getElementById('dict-phonetic')) document.getElementById('dict-phonetic').textContent = phonetic;
+  if (document.getElementById('dict-body')) document.getElementById('dict-body').innerHTML = html;
 }
 
 // Math Re-render
 function rerenderMath() {
   const card = document.getElementById('question-card');
   if (card) {
+    if (window.MathJax && window.MathJax.typesetClear) {
+      window.MathJax.typesetClear([card]);
+    }
     typeset(card);
     showToast('Formula refreshed', 'info');
   }
@@ -2763,12 +3220,21 @@ async function init() {
       if (document.getElementById('filter-status')) document.getElementById('filter-status').value = State.filters.status || '';
     }
 
+    // Initialise custom dropdown wrappers (filter bar)
+    initCustomSelects();
+    // Sync custom dropdown labels to restored values
+    ['filter-subject','filter-grade','filter-unit','filter-section','filter-difficulty','filter-status'].forEach(syncCustomSelect);
+
     // Apply initial filter
     applyFilters();
 
     // Setup events
     setupEventListeners();
     setupKeyboard();
+    setupSwipeGestures();
+    setupDictionary();
+    loadNotes();
+    updateNoteDot();
 
     updateBadges();
     updateSidebarStats();
@@ -2802,3 +3268,6 @@ async function init() {
 
 // Start
 init();
+
+
+
