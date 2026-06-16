@@ -290,13 +290,13 @@ input, select { font-family: inherit; }
   background: var(--input-bg);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  padding: 0.5rem 0.75rem;
+  padding: 0.6rem 0.9rem;
   border-radius: var(--radius-md);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   cursor: pointer;
   transition: border-color var(--transition-fast);
-  min-width: 110px;
-  max-width: 180px;
+  min-width: 130px;
+  max-width: 220px;
 }
 .filter-select:focus { outline: none; border-color: var(--accent-primary); }
 .filter-btn {
@@ -304,9 +304,9 @@ input, select { font-family: inherit; }
   background: var(--bg-3);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   border-radius: var(--radius-md);
-  font-size: 0.9rem; font-weight: 500;
+  font-size: 0.95rem; font-weight: 500;
   transition: all var(--transition-fast);
   white-space: nowrap;
 }
@@ -1195,6 +1195,8 @@ kbd {
 .stats-section {
   background: var(--card-bg); border: 1px solid var(--border);
   border-radius: var(--radius-lg); padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-sm);
 }
 .stats-section.full-width { grid-column: 1 / -1; }
 .stats-section h2 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.875rem; color: var(--text-primary); }
@@ -1333,12 +1335,12 @@ kbd {
 
 /* Study Timer */
 .study-timer {
-  position: fixed; top: 1.5rem; right: 1.5rem; z-index: 100;
+  position: fixed; top: 1.5rem; right: 1.5rem; z-index: 1000;
   display: flex; align-items: center; gap: 6px;
   background: var(--card-bg); border: 1px solid var(--border);
   padding: 0.5rem 0.875rem; border-radius: var(--radius-full);
   font-size: 0.9rem; font-weight: 600; color: var(--text-primary);
-  box-shadow: var(--shadow-sm); cursor: pointer; transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm); cursor: move; touch-action: none; transition: transform 0.1s ease-out, box-shadow var(--transition-fast);
   animation: float-pulse 3s infinite ease-in-out;
 }
 @keyframes float-pulse {
@@ -1407,7 +1409,18 @@ kbd {
   .question-area { padding: 0.875rem 0.875rem 0.5rem; }
   .question-card { padding: 1.25rem; }
   .filter-row { gap: 5px; }
-  .filter-select { min-width: 90px; font-size: 0.76rem; max-width: 140px; }
+  .filter-select {
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+  min-width: 130px;
+  max-width: 220px;
+}
   .stats-grid { grid-template-columns: 1fr; }
   .stats-overview { grid-template-columns: repeat(2, 1fr); }
   .exam-setup { padding: 1rem; }
@@ -1447,7 +1460,18 @@ kbd {
     left: 0.75rem; right: 0.75rem; z-index: 60; box-shadow: var(--shadow-lg);
   }
   .filter-row.mobile-open { display: flex; }
-  .filter-select { max-width: 100%; }
+  .filter-select {
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+  min-width: 130px;
+  max-width: 220px;
+}
 
   /* Floating action buttons for Prev/Next */
   .nav-controls {
@@ -1486,7 +1510,18 @@ kbd {
     padding-bottom: 4px; 
   }
   .filter-row::-webkit-scrollbar { height: 0; }
-  .filter-select { flex-shrink: 0; }
+  .filter-select {
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+  min-width: 130px;
+  max-width: 220px;
+}
 }
 
 @media (max-width: 480px) {
@@ -1583,8 +1618,8 @@ kbd {
 /* Custom Dropdown Filters */
 .custom-select-wrapper {
   position: relative;
-  min-width: 130px;
-  max-width: 200px;
+  min-width: 150px;
+  max-width: 250px;
   flex: 1;
 }
 
@@ -1592,9 +1627,9 @@ kbd {
   background: var(--input-bg);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  padding: 0.5rem 0.75rem;
+  padding: 0.6rem 0.9rem;
   border-radius: var(--radius-md);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   cursor: pointer;
   transition: border-color var(--transition-fast);
   display: flex;
@@ -1609,9 +1644,9 @@ kbd {
   background: var(--input-bg);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  padding: 0.5rem 0.75rem;
+  padding: 0.6rem 0.9rem;
   border-radius: var(--radius-md);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   cursor: pointer;
   transition: border-color var(--transition-fast);
   display: flex;
@@ -1675,7 +1710,12 @@ kbd {
 }
 
 @media (max-width: 768px) {
-  .custom-select-wrapper { flex: none; width: auto; max-width: 100%; }
+  .custom-select-wrapper {
+  position: relative;
+  min-width: 150px;
+  max-width: 250px;
+  flex: 1;
+}
 }
 
 /* ============================================================
@@ -1852,5 +1892,11 @@ kbd {
 }
 .dict-syn:hover { color: var(--accent-secondary); }
 .dict-error { color: var(--text-muted); font-style: italic; text-align: center; padding: 0.5rem; }
+
+
+
+
+
+
 
 
