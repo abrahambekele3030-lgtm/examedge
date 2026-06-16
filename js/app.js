@@ -2193,8 +2193,20 @@ function setupEventListeners() {
   });
 
   // Mobile nav toggles
-  document.getElementById('btn-mobile-filter')?.addEventListener('click', () => {
+  document.getElementById('btn-mobile-filter')?.addEventListener('click', (e) => {
+    e.stopPropagation();
     document.getElementById('filter-row-container')?.classList.toggle('mobile-open');
+  });
+  
+  // Close mobile filter when clicking outside
+  document.addEventListener('click', (e) => {
+    const filterRow = document.getElementById('filter-row-container');
+    const filterBtn = document.getElementById('btn-mobile-filter');
+    if (filterRow?.classList.contains('mobile-open') && 
+        !filterRow.contains(e.target) && 
+        (!filterBtn || !filterBtn.contains(e.target))) {
+      filterRow.classList.remove('mobile-open');
+    }
   });
   document.getElementById('m-nav-menu')?.addEventListener('click', () => {
     document.getElementById('sidebar')?.classList.add('mobile-open');

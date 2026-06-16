@@ -290,9 +290,9 @@ input, select { font-family: inherit; }
   background: var(--input-bg);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  padding: 0.4rem 0.625rem;
+  padding: 0.5rem 0.75rem;
   border-radius: var(--radius-md);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: border-color var(--transition-fast);
   min-width: 110px;
@@ -304,9 +304,9 @@ input, select { font-family: inherit; }
   background: var(--bg-3);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  padding: 0.4rem 0.875rem;
+  padding: 0.5rem 1rem;
   border-radius: var(--radius-md);
-  font-size: 0.8rem; font-weight: 500;
+  font-size: 0.9rem; font-weight: 500;
   transition: all var(--transition-fast);
   white-space: nowrap;
 }
@@ -1593,9 +1593,9 @@ kbd {
   background: var(--input-bg);
   border: 1px solid var(--border);
   color: var(--text-primary);
-  padding: 0.4rem 0.625rem;
+  padding: 0.5rem 0.75rem;
   border-radius: var(--radius-md);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: border-color var(--transition-fast);
   display: flex;
@@ -1607,8 +1607,20 @@ kbd {
 }
 
 .custom-select-display:focus, .custom-select-wrapper.open .custom-select-display {
-  outline: none;
-  border-color: var(--accent-primary);
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  white-space: nowrap;
+  user-select: none;
 }
 
 .custom-select-display svg {
@@ -1841,3 +1853,5 @@ kbd {
 }
 .dict-syn:hover { color: var(--accent-secondary); }
 .dict-error { color: var(--text-muted); font-style: italic; text-align: center; padding: 0.5rem; }
+
+
