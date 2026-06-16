@@ -1891,6 +1891,11 @@ function switchView(view) {
   const navEl = document.getElementById(`nav-${view}`);
   if (navEl) navEl.classList.add('active');
 
+  // Sync mobile bottom nav active state
+  document.querySelectorAll('.bottom-nav-item').forEach(b => b.classList.remove('active'));
+  const mNavEl = document.getElementById(`m-nav-${view}`);
+  if (mNavEl) mNavEl.classList.add('active');
+
   // View-specific rendering
   if (view === 'stats') renderStats();
   if (view === 'wrong') renderWrongView('all');
@@ -2217,11 +2222,11 @@ function setupEventListeners() {
     document.getElementById('sidebar')?.classList.remove('mobile-open');
     document.getElementById('mobile-sidebar-overlay')?.classList.add('hidden');
   });
-  // Mobile bottom nav buttons
-  ['practice', 'exam', 'search'].forEach(view => {
+  // Mobile bottom nav buttons (all views)
+  ['practice', 'exam', 'search', 'wrong', 'bookmarks', 'flashcards', 'stats'].forEach(view => {
     document.getElementById(`m-nav-${view}`)?.addEventListener('click', () => {
       document.querySelectorAll('.bottom-nav-item').forEach(b => b.classList.remove('active'));
-      document.getElementById(`m-nav-${view}`).classList.add('active');
+      document.getElementById(`m-nav-${view}`)?.classList.add('active');
       switchView(view);
     });
   });
