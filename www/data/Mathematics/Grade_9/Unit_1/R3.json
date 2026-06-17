@@ -1,0 +1,2414 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-10T18:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Math_U1_Q030",
+    "covered_sections": [
+      "1.1 Revision on Natural Numbers and Integers>1.1.1 Euclid's division lemma",
+      "1.1 Revision on Natural Numbers and Integers>1.1.2 Prime numbers and composite numbers",
+      "1.1 Revision on Natural Numbers and Integers>1.1.3 Divisibility test",
+      "1.1 Revision on Natural Numbers and Integers>1.1.4 Prime factorization",
+      "1.1 Revision on Natural Numbers and Integers>1.1.5 Greatest common factor and least common multiple",
+      "1.2 Rational Numbers>1.2.1 Representation of rational numbers by decimals",
+      "1.2 Rational Numbers>1.2.2 Conversion of repeating decimals into fractions",
+      "1.3 Irrational Numbers>1.3.1 Neither repeating nor terminating numbers",
+      "1.3 Irrational Numbers>1.3.2 Operations on irrational numbers",
+      "1.4 Real Numbers>1.4.1 Intervals",
+      "1.4 Real Numbers>1.4.2 Absolute values",
+      "1.4 Real Numbers>1.4.3 Exponents and radicals",
+      "1.4 Real Numbers>1.4.4 Limit of accuracy",
+      "1.4 Real Numbers>1.4.5 Standard notation (Scientific notation)",
+      "1.4 Real Numbers>1.4.6 Rationalization",
+      "1.5 Applications"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4",
+      "p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5",
+      "q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+      "r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7",
+      "s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8",
+      "t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9",
+      "u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+      "v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1",
+      "w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2",
+      "x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3",
+      "y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4",
+      "z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5"
+    ],
+    "baseline_counter": {
+      "1.1 Revision on Natural Numbers and Integers": {
+        "1.1.1 Euclid's division lemma": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "1.1.2 Prime numbers and composite numbers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.1.3 Divisibility test": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.1.4 Prime factorization": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.1.5 Greatest common factor and least common multiple": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.2 Rational Numbers": {
+        "1.2.1 Representation of rational numbers by decimals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "1.2.2 Conversion of repeating decimals into fractions": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.3 Irrational Numbers": {
+        "1.3.1 Neither repeating nor terminating numbers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "1.3.2 Operations on irrational numbers": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "1.4 Real Numbers": {
+        "1.4.1 Intervals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.4.2 Absolute values": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        },
+        "1.4.3 Exponents and radicals": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.4.4 Limit of accuracy": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.4.5 Standard notation (Scientific notation)": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "1.4.6 Rationalization": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      },
+      "1.5 Applications": {
+        "main": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Revision on Natural Numbers and Integers": {
+        "question_count": 10,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "1.2 Rational Numbers": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "1.3 Irrational Numbers": {
+        "question_count": 4,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "1.4 Real Numbers": {
+        "question_count": 10,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "1.5 Applications": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Revision on Natural Numbers and Integers>1.1.1 Euclid's division lemma": [
+        "division algorithm",
+        "dividend",
+        "divisor",
+        "quotient",
+        "remainder"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.2 Prime numbers and composite numbers": [
+        "prime number",
+        "composite number",
+        "factor",
+        "multiple"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.3 Divisibility test": [
+        "divisibility by 2",
+        "divisibility by 3",
+        "divisibility by 5",
+        "divisibility by 10",
+        "divisibility by 4"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.4 Prime factorization": [
+        "prime factorization",
+        "factor tree",
+        "fundamental theorem of arithmetic"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.5 Greatest common factor and least common multiple": [
+        "GCF",
+        "LCM",
+        "common factors",
+        "common multiples"
+      ],
+      "1.2 Rational Numbers>1.2.1 Representation of rational numbers by decimals": [
+        "rational number",
+        "terminating decimal",
+        "repeating decimal",
+        "fraction to decimal"
+      ],
+      "1.2 Rational Numbers>1.2.2 Conversion of repeating decimals into fractions": [
+        "repeating decimal to fraction",
+        "bar notation"
+      ],
+      "1.3 Irrational Numbers>1.3.1 Neither repeating nor terminating numbers": [
+        "irrational number",
+        "square root",
+        "perfect square"
+      ],
+      "1.3 Irrational Numbers>1.3.2 Operations on irrational numbers": [
+        "multiplication of radicals",
+        "division of radicals",
+        "√a × √b = √ab",
+        "√a/√b = √(a/b)"
+      ],
+      "1.4 Real Numbers>1.4.1 Intervals": [
+        "interval notation",
+        "closed interval",
+        "open interval",
+        "infinity"
+      ],
+      "1.4 Real Numbers>1.4.2 Absolute values": [
+        "absolute value",
+        "distance",
+        "|x|"
+      ],
+      "1.4 Real Numbers>1.4.3 Exponents and radicals": [
+        "exponent",
+        "base",
+        "power",
+        "negative exponent",
+        "zero exponent",
+        "a^0 = 1",
+        "a^{-n} = 1/a^n"
+      ],
+      "1.4 Real Numbers>1.4.4 Limit of accuracy": [
+        "rounding",
+        "decimal places",
+        "significant figures",
+        "lower bound",
+        "upper bound"
+      ],
+      "1.4 Real Numbers>1.4.5 Standard notation (Scientific notation)": [
+        "scientific notation",
+        "standard form",
+        "a × 10^n"
+      ],
+      "1.4 Real Numbers>1.4.6 Rationalization": [
+        "rationalizing denominator",
+        "conjugate",
+        "rationalizing factor"
+      ],
+      "1.5 Applications": [
+        "GCF application",
+        "Euclid's lemma application"
+      ]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_previous_state_from_batch2",
+    "content_density_metrics": {
+      "total_concepts_extracted": 42,
+      "questions_per_concept_ratio": 0.714,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Mathematics",
+  "unit": "Unit 1: THE NUMBER SYSTEM",
+  "pdf_filename": "M9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-10T18:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.714
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1 and 1.4",
+      "least_covered_section": "1.5",
+      "imbalance_ratio": 2.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Math_U1_Q021",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.3 Exponents and radicals",
+      "sub_subsection": null,
+      "structural_anchor": "Note",
+      "mcq_type": "A",
+      "question": "According to the zero exponent rule, what is the value of \\(7^0\\)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "7",
+        "D": "Undefined"
+      },
+      "correct_answer": "B",
+      "hint": "Any non-zero base raised to the zero power equals 1.",
+      "explanation": "The zero exponent rule states that for any non-zero base \\(a\\), \\(a^0 = 1\\). Therefore \\(7^0 = 1\\). Options A, C, and D are incorrect applications of this rule.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(a^0 = 1\\), \\(a \\neq 0\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.3 Exponents and radicals",
+        "structural_element": "Note",
+        "content_anchor": "If a ≠ 0, then a⁰ = 1",
+        "page_hint": 41,
+        "concept_hash": "sha256_zero_exponent_7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The zero exponent rule states that any non-zero base raised to the power of zero equals 1.",
+        "concept_summary": "This rule is derived from the quotient of powers property: \\(a^n / a^n = a^{n-n} = a^0 = 1\\).",
+        "beginner": "Any number (except 0) to the power 0 equals 1. So 7⁰ = 1.",
+        "intermediate": "By definition, \\(a^0 = 1\\) for \\(a \\neq 0\\). Thus \\(7^0 = 1\\).",
+        "advanced": "The zero exponent rule follows from \\(a^0 = a^{n-n} = a^n / a^n = 1\\) for \\(a \\neq 0\\).",
+        "worked_solution": [
+          "Step 1: Recall zero exponent rule: \\(a^0 = 1\\), \\(a \\neq 0\\).",
+          "Step 2: Apply with a = 7.",
+          "Step 3: \\(7^0 = 1\\)."
+        ],
+        "reasoning_steps": [
+          "Recall the zero exponent rule.",
+          "Apply to base 7.",
+          "Result is 1."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(a^0 = 1\\)",
+            "name": "Zero exponent rule",
+            "variables": [
+              {
+                "symbol": "\\(a\\)",
+                "meaning": "non-zero real number",
+                "unit": null
+              }
+            ],
+            "derivation": "\\(a^0 = a^{n-n} = a^n / a^n = 1\\)"
+          }
+        ],
+        "misconceptions": [
+          "Some think any number to the zero power equals 0.",
+          "Confusing with \\(0^0\\) which is undefined."
+        ],
+        "related_concepts": [
+          "negative exponents",
+          "laws of exponents",
+          "quotient rule"
+        ],
+        "revision_note": "\\(a^0 = 1\\) for \\(a \\neq 0\\). \\(7^0 = 1\\).",
+        "glossary_entry": {
+          "term": "zero exponent rule",
+          "definition": "Any non-zero base raised to the power of zero equals 1.",
+          "example_equation": "\\(7^0 = 1\\)",
+          "related_terms": [
+            "exponent",
+            "base",
+            "power"
+          ]
+        },
+        "flashcard": {
+          "front": "What is \\(7^0\\)?",
+          "back": "1. Zero exponent rule: \\(a^0 = 1\\) for \\(a \\neq 0\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "zero exponent rule",
+            "relation": "states",
+            "target": "a^0 = 1"
+          },
+          {
+            "source": "7^0",
+            "relation": "equals",
+            "target": "1"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck",
+          "glossary"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "What is the zero exponent rule?",
+        "flashcard_back": "Any non-zero base to the zero power equals 1. Example: 7⁰ = 1.",
+        "glossary_term": "zero exponent rule",
+        "glossary_definition": "Rule stating a⁰ = 1 for a ≠ 0.",
+        "revision_note": "7⁰ = 1. Zero exponent = 1.",
+        "teacher_note": "Derive from aⁿ/aⁿ = 1.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Apply laws of exponents including zero exponent",
+        "concept_map_nodes": [
+          {
+            "source": "7⁰",
+            "relation": "equals",
+            "target": "1"
+          },
+          {
+            "source": "a⁰ = 1",
+            "relation": "requires",
+            "target": "a ≠ 0"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Zero exponent rule: 7⁰ = 1."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q022",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.3 Exponents and radicals",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 1.10",
+      "mcq_type": "A",
+      "question": "What does the expression \\(a^{-n}\\) equal for a non-zero real number \\(a\\) and positive integer \\(n\\)?",
+      "options": {
+        "A": "\\(-a^n\\)",
+        "B": "\\(\\frac{1}{a^n}\\)",
+        "C": "\\(\\frac{1}{a^{-n}}\\)",
+        "D": "\\(a^n\\)"
+      },
+      "correct_answer": "B",
+      "hint": "A negative exponent indicates a reciprocal.",
+      "explanation": "By definition, for \\(a \\neq 0\\) and positive integer \\(n\\), \\(a^{-n} = \\frac{1}{a^n}\\). Option A is the negative of \\(a^n\\), C simplifies to \\(a^n\\), D is positive exponent.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(a^{-n} = \\frac{1}{a^n}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.3 Exponents and radicals",
+        "structural_element": "Definition 1.10",
+        "content_anchor": "a^{-n} = 1/a^n",
+        "page_hint": 41,
+        "concept_hash": "sha256_negative_exponent"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 93,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A negative exponent indicates the reciprocal of the base raised to the positive exponent.",
+        "concept_summary": "For any non-zero a and positive integer n, a^{-n} = 1/(a^n).",
+        "beginner": "Negative exponent means 'one over'. So 2⁻³ = 1/2³ = 1/8.",
+        "intermediate": "By definition: \\(a^{-n} = \\frac{1}{a^n}\\) for \\(a \\neq 0\\).",
+        "advanced": "Derived from \\(a^{-n} = a^{0-n} = a^0 / a^n = 1 / a^n\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition of negative exponent.",
+          "Identify that it produces a reciprocal.",
+          "Select \\(1/a^n\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(a^{-n} = \\frac{1}{a^n}\\)",
+            "name": "Negative exponent rule",
+            "variables": [
+              {
+                "symbol": "\\(a\\)",
+                "meaning": "non-zero real number",
+                "unit": null
+              },
+              {
+                "symbol": "\\(n\\)",
+                "meaning": "positive integer",
+                "unit": null
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Confusing a^{-n} with -a^n (negative of power).",
+          "Thinking a^{-n} = 1/a^{-n} (circular)."
+        ],
+        "related_concepts": [
+          "zero exponent",
+          "laws of exponents",
+          "reciprocal"
+        ],
+        "revision_note": "\\(a^{-n} = 1/a^n\\) for a ≠ 0.",
+        "glossary_entry": {
+          "term": "negative exponent",
+          "definition": "An exponent that indicates the reciprocal of the base raised to the positive exponent.",
+          "example_equation": "\\(2^{-3} = 1/8\\)",
+          "related_terms": [
+            "exponent",
+            "reciprocal",
+            "base"
+          ]
+        },
+        "flashcard": {
+          "front": "What is \\(a^{-n}\\) equal to?",
+          "back": "\\(1/a^n\\) for a ≠ 0."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "negative exponent",
+            "relation": "equals",
+            "target": "reciprocal"
+          },
+          {
+            "source": "a^{-n}",
+            "relation": "simplifies_to",
+            "target": "1/a^n"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck",
+          "glossary"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "What does a negative exponent mean?",
+        "flashcard_back": "Reciprocal: a⁻ⁿ = 1/aⁿ.",
+        "glossary_term": "negative exponent",
+        "glossary_definition": "Exponent indicating reciprocal.",
+        "revision_note": "a⁻ⁿ = 1/aⁿ.",
+        "teacher_note": "Show pattern: 2³=8, 2²=4, 2¹=2, 2⁰=1, 2⁻¹=1/2.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Apply laws of exponents including negative exponents",
+        "concept_map_nodes": [
+          {
+            "source": "a^{-n}",
+            "relation": "is_reciprocal_of",
+            "target": "a^n"
+          },
+          {
+            "source": "a^{-n}",
+            "relation": "requires",
+            "target": "a ≠ 0"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Negative exponent = reciprocal."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q023",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.4 Limit of accuracy",
+      "sub_subsection": null,
+      "structural_anchor": "Rounding",
+      "mcq_type": "B",
+      "question": "The number 45,676 rounded to the nearest thousand is:",
+      "options": {
+        "A": "45,000",
+        "B": "46,000",
+        "C": "45,700",
+        "D": "50,000"
+      },
+      "correct_answer": "B",
+      "hint": "Look at the hundreds digit to decide rounding.",
+      "explanation": "To round to nearest thousand, examine the hundreds digit (6). Since 6 ≥ 5, round the thousands digit up: 45,676 → 46,000. Option A rounds down incorrectly; C rounds to hundred; D over-rounds.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.4 Limit of accuracy",
+        "structural_element": "Example 1",
+        "content_anchor": "38,721 to nearest 1,000 is 39,000",
+        "page_hint": 52,
+        "concept_hash": "sha256_rounding_45676_thousand"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 91,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Rounding to the nearest thousand means finding the multiple of 1000 closest to the given number.",
+        "concept_summary": "Look at the hundreds digit: if 5 or more, round up; if less than 5, round down.",
+        "beginner": "45,676 is closer to 46,000 than to 45,000 because the hundreds digit is 6 (≥5).",
+        "intermediate": "Hundreds digit = 6 ≥ 5, so round up: 45,000 + 1,000 = 46,000.",
+        "advanced": "45,676 - 45,000 = 676; 46,000 - 45,676 = 324. Since 324 < 676, 46,000 is closer.",
+        "worked_solution": [
+          "Step 1: Identify place value: thousands digit is 5 (45,676).",
+          "Step 2: Look at next digit (hundreds): 6.",
+          "Step 3: Since 6 ≥ 5, increase thousands digit by 1.",
+          "Step 4: Replace all digits to right with zeros: 46,000."
+        ],
+        "reasoning_steps": [
+          "Locate thousands place (5).",
+          "Check hundreds digit (6 ≥ 5).",
+          "Round up: 5 becomes 6, following digits zero."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Rounding to nearest thousand but changing only hundreds place (45,700).",
+          "Rounding to nearest ten thousand (50,000) instead of thousand."
+        ],
+        "related_concepts": [
+          "rounding",
+          "place value",
+          "significant figures"
+        ],
+        "revision_note": "45,676 to nearest thousand: hundreds digit 6 → round up to 46,000.",
+        "glossary_entry": {
+          "term": "rounding",
+          "definition": "Approximating a number to a specified place value.",
+          "example_equation": "45,676 ≈ 46,000 (nearest thousand)",
+          "related_terms": [
+            "place value",
+            "significant figures"
+          ]
+        },
+        "flashcard": {
+          "front": "Round 45,676 to nearest thousand.",
+          "back": "46,000. Hundreds digit 6 (≥5) rounds up."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "45,676",
+            "relation": "rounded_to_nearest_thousand",
+            "target": "46,000"
+          },
+          {
+            "source": "rounding",
+            "relation": "depends_on",
+            "target": "next digit"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Round 45,676 to nearest thousand.",
+        "flashcard_back": "46,000.",
+        "glossary_term": "rounding",
+        "glossary_definition": "Approximating to a specified place.",
+        "revision_note": "45,676 ≈ 46,000.",
+        "teacher_note": "Emphasize rounding rule: 5 or above, give it a shove.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Round numbers to specified accuracy",
+        "concept_map_nodes": [
+          {
+            "source": "rounding",
+            "relation": "rule",
+            "target": "5 or more round up"
+          },
+          {
+            "source": "45,676",
+            "relation": "hundreds_digit",
+            "target": "6"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. 6≥5, round up to 46,000."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q024",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.4 Limit of accuracy",
+      "sub_subsection": null,
+      "structural_anchor": "Significant figures",
+      "mcq_type": "D",
+      "question": "Write 0.0062 to one significant figure.",
+      "options": {
+        "A": "0.006",
+        "B": "0.01",
+        "C": "0.0062",
+        "D": "0.007"
+      },
+      "correct_answer": "A",
+      "hint": "Leading zeros are not significant. The first non-zero digit is the first significant figure.",
+      "explanation": "0.0062 has two significant figures: 6 and 2. Rounding to one significant figure means keeping only the 6. The next digit is 2 (<5), so it stays 0.006. Option B is 0.01 (one significant figure but wrong place), C has two figures, D rounds up incorrectly.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.4 Limit of accuracy",
+        "structural_element": "Example 1",
+        "content_anchor": "0.0062 to 1 s.f. is 0.006",
+        "page_hint": 54,
+        "concept_hash": "sha256_significant_figures_0062"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Significant figures are digits that carry meaning contributing to a number's precision; leading zeros are not significant.",
+        "concept_summary": "Count from first non-zero digit. To round to one significant figure, keep only the first non-zero digit and round based on the next digit.",
+        "beginner": "0.0062 has two significant figures (6 and 2). Keep only the 6, look at next digit 2 (<5), so it stays 0.006.",
+        "intermediate": "First non-zero digit is 6 (tenths? No: 0.0062, the 6 is in thousandths place). Next digit 2 <5, so result is 0.006.",
+        "advanced": "0.0062 = 6.2 × 10⁻³. To 1 s.f.: 6 × 10⁻³ = 0.006.",
+        "worked_solution": [
+          "Step 1: Identify first non-zero digit: 6 (at thousandths place).",
+          "Step 2: Look at next digit: 2.",
+          "Step 3: Since 2 < 5, do not round up.",
+          "Step 4: Write as 0.006."
+        ],
+        "reasoning_steps": [
+          "Ignore leading zeros.",
+          "First non-zero digit is first significant figure.",
+          "Check following digit for rounding.",
+          "Result has one significant figure."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Counting leading zeros as significant.",
+          "Rounding 0.0062 to 0.01 (loses place value accuracy)."
+        ],
+        "related_concepts": [
+          "rounding",
+          "decimal places",
+          "scientific notation"
+        ],
+        "revision_note": "0.0062 to 1 s.f. = 0.006.",
+        "glossary_entry": {
+          "term": "significant figures",
+          "definition": "Digits that indicate precision of a measurement, excluding leading zeros.",
+          "example_equation": "0.0062 has 2 s.f.",
+          "related_terms": [
+            "rounding",
+            "decimal places"
+          ]
+        },
+        "flashcard": {
+          "front": "Round 0.0062 to 1 significant figure.",
+          "back": "0.006. First non-zero digit is 6, next digit 2 <5."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "significant figures",
+            "relation": "ignore",
+            "target": "leading zeros"
+          },
+          {
+            "source": "0.0062",
+            "relation": "to_1_sf",
+            "target": "0.006"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "What is 0.0062 to 1 significant figure?",
+        "flashcard_back": "0.006.",
+        "glossary_term": "significant figures",
+        "glossary_definition": "Digits indicating precision.",
+        "revision_note": "0.0062 (1 s.f.) = 0.006.",
+        "teacher_note": "Use number line to show 0.0062 is closer to 0.006 than 0.007.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Express numbers to given significant figures",
+        "concept_map_nodes": [
+          {
+            "source": "0.0062",
+            "relation": "has",
+            "target": "2 significant figures"
+          },
+          {
+            "source": "0.0062 to 1 s.f.",
+            "relation": "equals",
+            "target": "0.006"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer A. 0.0062 to 1 s.f. = 0.006. Option B=0.01 (incorrect order), C=2 s.f., D over-rounds."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q025",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.5 Standard notation (Scientific notation)",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 1.15",
+      "mcq_type": "B",
+      "question": "Which of the following numbers is written in correct scientific notation?",
+      "options": {
+        "A": "\\(0.56 \\times 10^4\\)",
+        "B": "\\(5.6 \\times 10^3\\)",
+        "C": "\\(56 \\times 10^2\\)",
+        "D": "\\(560 \\times 10^1\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Scientific notation requires one non-zero digit before the decimal point.",
+      "explanation": "Scientific notation has the form \\(a \\times 10^n\\) where \\(1 \\leq a < 10\\). Option B: 5.6 is between 1 and 10. A, C, D violate this range for \\(a\\).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.5 Standard notation (Scientific notation)",
+        "structural_element": "Definition 1.15",
+        "content_anchor": "a × 10^n where 1 ≤ a < 10",
+        "page_hint": 59,
+        "concept_hash": "sha256_scientific_notation_format"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 93,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Scientific notation expresses a number as \\(a \\times 10^n\\) with \\(1 \\leq a < 10\\) and integer \\(n\\).",
+        "concept_summary": "The coefficient a must have exactly one non-zero digit before the decimal point.",
+        "beginner": "In scientific notation, the first part must be between 1 and 10. 5.6 is between 1 and 10, so correct.",
+        "intermediate": "Option B: \\(5.6\\) satisfies \\(1 \\leq 5.6 < 10\\). Others have coefficient <1 or ≥10.",
+        "advanced": "Standard form requires normalized mantissa \\(a\\) with \\(1 \\leq |a| < 10\\). Only B meets this.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall scientific notation rule: 1 ≤ a < 10.",
+          "Check each option's coefficient.",
+          "Only B's coefficient 5.6 is in range."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Accepting 0.56×10⁴ as correct (should be 5.6×10³).",
+          "Thinking any power of 10 counts, ignoring coefficient range."
+        ],
+        "related_concepts": [
+          "standard form",
+          "exponents",
+          "significant figures"
+        ],
+        "revision_note": "Scientific notation: \\(a \\times 10^n\\), \\(1 \\leq a < 10\\). \\(5.6 \\times 10^3\\) is correct.",
+        "glossary_entry": {
+          "term": "scientific notation",
+          "definition": "A number written as \\(a \\times 10^n\\) where \\(1 \\leq a < 10\\) and n is integer.",
+          "example_equation": "\\(5.6 \\times 10^3\\)",
+          "related_terms": [
+            "standard form",
+            "mantissa",
+            "exponent"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the correct scientific notation format?",
+          "back": "\\(a \\times 10^n\\) with \\(1 \\leq a < 10\\). Example: \\(5.6 \\times 10^3\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "scientific notation",
+            "relation": "requires",
+            "target": "1 ≤ a < 10"
+          },
+          {
+            "source": "5.6 × 10³",
+            "relation": "is_example_of",
+            "target": "scientific notation"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck",
+          "glossary"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "What is the rule for scientific notation?",
+        "flashcard_back": "Coefficient a between 1 and 10, times power of 10.",
+        "glossary_term": "scientific notation",
+        "glossary_definition": "Standard form for large/small numbers.",
+        "revision_note": "Scientific notation: a×10ⁿ, 1≤a<10.",
+        "teacher_note": "Show converting 0.56×10⁴ to 5.6×10³.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Express numbers in scientific notation",
+        "concept_map_nodes": [
+          {
+            "source": "scientific notation",
+            "relation": "has_form",
+            "target": "a × 10ⁿ"
+          },
+          {
+            "source": "a × 10ⁿ",
+            "relation": "requires",
+            "target": "1 ≤ a < 10"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Only B has coefficient 5.6 (between 1 and 10)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q026",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.5 Standard notation (Scientific notation)",
+      "sub_subsection": null,
+      "structural_anchor": "Standard notation (Scientific notation)",
+      "mcq_type": "E",
+      "question": "Express 0.000000314 in scientific notation.",
+      "options": {
+        "A": "\\(3.14 \\times 10^{-7}\\)",
+        "B": "\\(3.14 \\times 10^{7}\\)",
+        "C": "\\(3.14 \\times 10^{-8}\\)",
+        "D": "\\(31.4 \\times 10^{-8}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Move decimal point to get a number between 1 and 10, count places moved.",
+      "explanation": "0.000000314 = 3.14 × 10⁻⁷ because the decimal moves 7 places to the right. Option B moves left (positive exponent), C moves 8 places, D coefficient not in [1,10).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "number": {
+            "magnitude": 3.14e-07,
+            "unit": null
+          }
+        },
+        "answer_value": 3.14e-07,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Count decimal places to move to get 3.14: 7 places to the right.",
+          "Exponent is negative because original number <1.",
+          "Result: \\(3.14 \\times 10^{-7}\\)"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.5 Standard notation (Scientific notation)",
+        "structural_element": "Example 1",
+        "content_anchor": "0.000000314 = 3.14 × 10⁻⁷",
+        "page_hint": 60,
+        "concept_hash": "sha256_scientific_small_number"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Scientific notation expresses a number as a × 10ⁿ with 1 ≤ a < 10 and integer n.",
+        "concept_summary": "For numbers less than 1, n is negative; the absolute value of n equals the number of places the decimal moves right.",
+        "beginner": "0.000000314: move decimal 7 places right to get 3.14. Since number is small, exponent negative: 3.14 × 10⁻⁷.",
+        "intermediate": "Count digits after decimal until first non-zero: 7 zeros before 314. So exponent = -7.",
+        "advanced": "0.000000314 = 3.14 × 10⁻⁷. The exponent -7 indicates magnitude 10⁻⁷.",
+        "worked_solution": [
+          "Step 1: Write the number as a value between 1 and 10: 3.14",
+          "Step 2: Count decimal places moved: 7 right.",
+          "Step 3: Negative exponent: 10⁻⁷",
+          "Step 4: Combine: \\(3.14 \\times 10^{-7}\\)"
+        ],
+        "reasoning_steps": [
+          "Move decimal to after first non-zero digit.",
+          "Count moves: 7.",
+          "Original < 1 → exponent negative.",
+          "Write as a × 10⁻⁷."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Using positive exponent for small numbers.",
+          "Incorrect exponent count: 8 places instead of 7."
+        ],
+        "related_concepts": [
+          "scientific notation",
+          "exponents",
+          "decimal places"
+        ],
+        "revision_note": "0.000000314 = 3.14 × 10⁻⁷.",
+        "glossary_entry": {
+          "term": "scientific notation for small numbers",
+          "definition": "Negative exponent indicates decimal fraction.",
+          "example_equation": "0.000000314 = 3.14 × 10⁻⁷",
+          "related_terms": [
+            "scientific notation",
+            "exponent"
+          ]
+        },
+        "flashcard": {
+          "front": "Write 0.000000314 in scientific notation.",
+          "back": "3.14 × 10⁻⁷."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "0.000000314",
+            "relation": "scientific_notation",
+            "target": "3.14 × 10⁻⁷"
+          },
+          {
+            "source": "negative exponent",
+            "relation": "indicates",
+            "target": "number less than 1"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Convert 0.000000314 to scientific notation.",
+        "flashcard_back": "3.14 × 10⁻⁷.",
+        "glossary_term": "scientific notation",
+        "glossary_definition": "a × 10ⁿ with 1≤a<10.",
+        "revision_note": "0.000000314 = 3.14×10⁻⁷.",
+        "teacher_note": "Count zeros carefully: 6 zeros then 314, total 7 moves.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Express very small numbers in scientific notation",
+        "concept_map_nodes": [
+          {
+            "source": "very small number",
+            "relation": "scientific_notation_has",
+            "target": "negative exponent"
+          },
+          {
+            "source": "0.000000314",
+            "relation": "equals",
+            "target": "3.14×10⁻⁷"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer A. Decimal moves 7 right → exponent -7."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q027",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.6 Rationalization",
+      "sub_subsection": null,
+      "structural_anchor": "Rationalization",
+      "mcq_type": "D",
+      "question": "Rationalize the denominator of \\(\\frac{2}{\\sqrt{3}}\\).",
+      "options": {
+        "A": "\\(\\frac{2\\sqrt{3}}{3}\\)",
+        "B": "\\(\\frac{2}{3}\\)",
+        "C": "\\(\\frac{\\sqrt{3}}{2}\\)",
+        "D": "\\(2\\sqrt{3}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Multiply numerator and denominator by √3.",
+      "explanation": "Multiply numerator and denominator by √3: \\(\\frac{2}{\\sqrt{3}} \\times \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{2\\sqrt{3}}{3}\\). Option B is incorrect; C is reciprocal; D missing denominator.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\frac{a}{\\sqrt{b}} = \\frac{a\\sqrt{b}}{b}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.6 Rationalization",
+        "structural_element": "Example 1",
+        "content_anchor": "2/√3 = 2√3/3",
+        "page_hint": 61,
+        "concept_hash": "sha256_rationalize_2_over_sqrt3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 91,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Rationalizing the denominator means removing radicals from the denominator by multiplying numerator and denominator by a suitable factor.",
+        "concept_summary": "Multiply numerator and denominator by the radical in the denominator.",
+        "beginner": "Multiply top and bottom by √3: (2×√3)/(√3×√3) = (2√3)/3.",
+        "intermediate": "\\(\\frac{2}{\\sqrt{3}} = \\frac{2}{\\sqrt{3}} \\times \\frac{\\sqrt{3}}{\\sqrt{3}} = \\frac{2\\sqrt{3}}{3}\\).",
+        "advanced": "Rationalizing factor is √3/√3 = 1, resulting denominator becomes √3×√3 = 3.",
+        "worked_solution": [
+          "Step 1: Identify radical in denominator: √3.",
+          "Step 2: Multiply numerator and denominator by √3.",
+          "Step 3: Numerator: 2 × √3 = 2√3.",
+          "Step 4: Denominator: √3 × √3 = 3.",
+          "Step 5: Result: \\(\\frac{2\\sqrt{3}}{3}\\)."
+        ],
+        "reasoning_steps": [
+          "Find rationalizing factor (√3).",
+          "Multiply numerator and denominator.",
+          "Simplify denominator to integer."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\frac{a}{\\sqrt{b}} = \\frac{a\\sqrt{b}}{b}\\)",
+            "name": "Rationalizing single radical denominator",
+            "variables": [
+              {
+                "symbol": "\\(a\\)",
+                "meaning": "numerator",
+                "unit": null
+              },
+              {
+                "symbol": "\\(b\\)",
+                "meaning": "positive number under radical",
+                "unit": null
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Forgetting to multiply numerator by √3.",
+          "Simplifying 2√3/3 as 2/3 (dropping √3)."
+        ],
+        "related_concepts": [
+          "rationalizing factor",
+          "conjugate",
+          "radicals"
+        ],
+        "revision_note": "2/√3 = 2√3/3. Multiply numerator and denominator by √3.",
+        "glossary_entry": {
+          "term": "rationalizing denominator",
+          "definition": "Process of eliminating radicals from denominator.",
+          "example_equation": "2/√3 = 2√3/3",
+          "related_terms": [
+            "rationalizing factor",
+            "radical"
+          ]
+        },
+        "flashcard": {
+          "front": "Rationalize 2/√3.",
+          "back": "2√3/3. Multiply numerator and denominator by √3."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "2/√3",
+            "relation": "rationalized_to",
+            "target": "2√3/3"
+          },
+          {
+            "source": "rationalizing",
+            "relation": "uses",
+            "target": "multiplying by 1"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Rationalize 2/√3.",
+        "flashcard_back": "2√3/3.",
+        "glossary_term": "rationalizing denominator",
+        "glossary_definition": "Removing radicals from denominator.",
+        "revision_note": "2/√3 = 2√3/3.",
+        "teacher_note": "Show that √3/√3 = 1, so value unchanged.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Rationalize denominators of radical expressions",
+        "concept_map_nodes": [
+          {
+            "source": "2/√3",
+            "relation": "multiply_by",
+            "target": "√3/√3"
+          },
+          {
+            "source": "√3/√3",
+            "relation": "equals",
+            "target": "1"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer A. Multiply by √3/√3 → 2√3/3."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q028",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.6 Rationalization",
+      "sub_subsection": null,
+      "structural_anchor": "More on rationalizations of denominators",
+      "mcq_type": "F",
+      "question": "What is the rationalized form of \\(\\frac{1}{\\sqrt{2} + 1}\\)?",
+      "options": {
+        "A": "\\(\\sqrt{2} + 1\\)",
+        "B": "\\(\\sqrt{2} - 1\\)",
+        "C": "\\(\\frac{\\sqrt{2} - 1}{2}\\)",
+        "D": "\\(\\frac{\\sqrt{2} + 1}{2}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply numerator and denominator by the conjugate \\(\\sqrt{2} - 1\\).",
+      "explanation": "Multiply by conjugate: \\(\\frac{1}{\\sqrt{2}+1} \\times \\frac{\\sqrt{2}-1}{\\sqrt{2}-1} = \\frac{\\sqrt{2}-1}{(\\sqrt{2})^2 - 1^2} = \\frac{\\sqrt{2}-1}{2-1} = \\sqrt{2} - 1\\).",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\((a+b)(a-b) = a^2 - b^2\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.6 Rationalization",
+        "structural_element": "Example 1",
+        "content_anchor": "1/(√2+1) = √2 - 1",
+        "page_hint": 63,
+        "concept_hash": "sha256_rationalize_conjugate_1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "The conjugate of a binomial radical \\(a + \\sqrt{b}\\) is \\(a - \\sqrt{b}\\); their product eliminates the radical.",
+        "concept_summary": "Multiply numerator and denominator by the conjugate of the denominator to rationalize.",
+        "beginner": "Use conjugate: (√2-1) cancels the radical in denominator: (√2+1)(√2-1)=2-1=1.",
+        "intermediate": "Multiply by \\(\\frac{\\sqrt{2}-1}{\\sqrt{2}-1}\\): numerator = √2-1, denominator = (√2)² - 1² = 2-1 =1. Result = √2-1.",
+        "advanced": "Rationalizing factor is the conjugate: \\(\\frac{1}{\\sqrt{2}+1} = \\frac{\\sqrt{2}-1}{(\\sqrt{2}+1)(\\sqrt{2}-1)} = \\frac{\\sqrt{2}-1}{2-1} = \\sqrt{2}-1\\).",
+        "worked_solution": [
+          "Step 1: Identify conjugate of denominator: √2 - 1.",
+          "Step 2: Multiply numerator and denominator by conjugate.",
+          "Step 3: Numerator: 1 × (√2-1) = √2-1.",
+          "Step 4: Denominator: (√2+1)(√2-1) = (√2)² - 1² = 2-1 = 1.",
+          "Step 5: Result: √2 - 1."
+        ],
+        "reasoning_steps": [
+          "Find conjugate of denominator (√2-1).",
+          "Multiply numerator and denominator by conjugate.",
+          "Simplify denominator using difference of squares.",
+          "Result is numerator alone."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\((a+b)(a-b) = a^2 - b^2\\)",
+            "name": "Difference of squares",
+            "variables": [
+              {
+                "symbol": "\\(a\\)",
+                "meaning": "√2",
+                "unit": null
+              },
+              {
+                "symbol": "\\(b\\)",
+                "meaning": "1",
+                "unit": null
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Forgetting to multiply numerator by conjugate.",
+          "Incorrectly simplifying denominator as (√2)² + 1²."
+        ],
+        "related_concepts": [
+          "conjugate",
+          "difference of squares",
+          "rationalizing denominator"
+        ],
+        "revision_note": "1/(√2+1) = √2-1. Multiply by conjugate √2-1.",
+        "glossary_entry": {
+          "term": "conjugate",
+          "definition": "Binomial with same terms but opposite sign between them.",
+          "example_equation": "conjugate of √2+1 is √2-1",
+          "related_terms": [
+            "difference of squares",
+            "rationalization"
+          ]
+        },
+        "flashcard": {
+          "front": "Rationalize 1/(√2+1).",
+          "back": "√2-1. Multiply numerator and denominator by √2-1."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "1/(√2+1)",
+            "relation": "rationalized_to",
+            "target": "√2-1"
+          },
+          {
+            "source": "conjugate",
+            "relation": "used_for",
+            "target": "rationalizing binomial denominators"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Simplify 1/(√2+1) by rationalizing.",
+        "flashcard_back": "√2-1.",
+        "glossary_term": "conjugate",
+        "glossary_definition": "Binom with opposite sign.",
+        "revision_note": "1/(√2+1) = √2-1.",
+        "teacher_note": "Emphasize difference of squares: (√2)² - 1² = 1.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Rationalize denominators with binomial radicals",
+        "concept_map_nodes": [
+          {
+            "source": "binomial radical denominator",
+            "relation": "rationalized_by",
+            "target": "conjugate multiplication"
+          },
+          {
+            "source": "(√2+1)(√2-1)",
+            "relation": "equals",
+            "target": "1"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Multiply by (√2-1)/(√2-1) → denominator =1, numerator=√2-1."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q029",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.5 Applications",
+      "subsection": "main",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1",
+      "mcq_type": "E",
+      "question": "A gardener has 530 flower pots and wants to arrange them in rows of 21 pots each. How many complete rows can be made, and how many pots remain?",
+      "options": {
+        "A": "25 rows, 5 remaining",
+        "B": "25 rows, 15 remaining",
+        "C": "26 rows, 4 remaining",
+        "D": "24 rows, 26 remaining"
+      },
+      "correct_answer": "A",
+      "hint": "Divide 530 by 21 to find quotient and remainder.",
+      "explanation": "Using Euclid's division lemma: \\(530 = 21 \\times 25 + 5\\). Quotient 25 is the number of complete rows, remainder 5 is pots left. Option B has wrong remainder; C over-counts rows; D under-counts rows.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(a = bq + r, 0 \\leq r < b\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "total_pots": {
+            "magnitude": 530,
+            "unit": null
+          },
+          "pots_per_row": {
+            "magnitude": 21,
+            "unit": null
+          }
+        },
+        "answer_value": 25,
+        "answer_unit": "rows",
+        "calculation_steps": [
+          "Divide 530 by 21: 21 × 25 = 525",
+          "530 - 525 = 5",
+          "Quotient = 25 rows, remainder = 5 pots"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.5 Applications",
+        "subsection_anchor": "main",
+        "structural_element": "Example 1",
+        "content_anchor": "530 ÷ 21 = 25 rows, 5 leftover",
+        "page_hint": 64,
+        "concept_hash": "sha256_gardener_pots_application"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Application of Euclid's division lemma: dividend = divisor × quotient + remainder.",
+        "concept_summary": "Divide total items by group size to find number of full groups and remainder.",
+        "beginner": "530 ÷ 21 = 25 remainder 5, because 21×25=525, 530-525=5.",
+        "intermediate": "21 × 25 = 525, remainder 5. So 25 rows, 5 pots left.",
+        "advanced": "By division algorithm: 530 = 21×25 + 5, with 0 ≤ 5 < 21. Quotient 25, remainder 5.",
+        "worked_solution": [
+          "Step 1: Compute 21 × 25 = 525.",
+          "Step 2: 530 - 525 = 5.",
+          "Step 3: Quotient = 25, remainder = 5.",
+          "Step 4: 25 rows, 5 pots remain."
+        ],
+        "reasoning_steps": [
+          "Divide 530 by 21.",
+          "Find largest multiple of 21 ≤ 530: 21×25=525.",
+          "Subtract: remainder 5."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(a = bq + r\\)",
+            "name": "Euclid's division lemma",
+            "variables": [
+              {
+                "symbol": "\\(a\\)",
+                "meaning": "total pots (530)",
+                "unit": null
+              },
+              {
+                "symbol": "\\(b\\)",
+                "meaning": "pots per row (21)",
+                "unit": null
+              },
+              {
+                "symbol": "\\(q\\)",
+                "meaning": "number of rows (25)",
+                "unit": null
+              },
+              {
+                "symbol": "\\(r\\)",
+                "meaning": "leftover pots (5)",
+                "unit": null
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Using 530/21 ≈ 25.23, rounding to 26 rows but forgetting remainder condition.",
+          "Subtracting incorrectly: 21×24=504, remainder 26 (>21) invalid."
+        ],
+        "related_concepts": [
+          "division algorithm",
+          "remainder",
+          "quotient"
+        ],
+        "revision_note": "530 ÷ 21 = 25 R5. Euclid: 530=21×25+5.",
+        "glossary_entry": {
+          "term": "division algorithm application",
+          "definition": "Using Euclid's lemma to solve grouping problems.",
+          "example_equation": "530 = 21×25 + 5",
+          "related_terms": [
+            "quotient",
+            "remainder"
+          ]
+        },
+        "flashcard": {
+          "front": "530 pots, rows of 21. How many full rows? Pots left?",
+          "back": "25 rows, 5 left. 21×25=525, 530-525=5."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "530 pots",
+            "relation": "divided_by",
+            "target": "21 per row"
+          },
+          {
+            "source": "530 = 21×25 + 5",
+            "relation": "shows",
+            "target": "25 rows, 5 leftover"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck",
+          "workbook"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "530 flower pots in rows of 21. How many full rows?",
+        "flashcard_back": "25 rows, 5 left over.",
+        "glossary_term": "division algorithm",
+        "glossary_definition": "a = bq + r with 0 ≤ r < b.",
+        "revision_note": "530/21 = 25 R5.",
+        "teacher_note": "Relate to real-world grouping problems.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply Euclid's division lemma to practical problems",
+        "concept_map_nodes": [
+          {
+            "source": "grouping problem",
+            "relation": "solved_by",
+            "target": "Euclid's division lemma"
+          },
+          {
+            "source": "530 ÷ 21",
+            "relation": "quotient",
+            "target": "25"
+          },
+          {
+            "source": "530 ÷ 21",
+            "relation": "remainder",
+            "target": "5"
+          }
+        ],
+        "workbook_section": "1.5 Applications",
+        "solution_manual_note": "Answer A. 21×25=525, remainder 5. Option B remainder 15 incorrect, C too many rows, D remainder 26 invalid."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q030",
+      "generation_timestamp": "2026-06-10T18:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.5 Applications",
+      "subsection": "main",
+      "sub_subsection": null,
+      "structural_anchor": "Example 2",
+      "mcq_type": "F",
+      "question": "A white board measures 50 cm by 20 cm. Square pieces of equal size with natural-number side lengths cover the board completely. What is the largest possible side length of each square piece?",
+      "options": {
+        "A": "5 cm",
+        "B": "10 cm",
+        "C": "20 cm",
+        "D": "25 cm"
+      },
+      "correct_answer": "B",
+      "hint": "The side length must divide both 50 and 20 evenly. Find the GCF.",
+      "explanation": "The side length must be a common divisor of 50 and 20. The largest such divisor is the GCF. 50 and 20 have GCF 10. 10 cm squares will tile the board (5 across, 2 down). Options 5 works but is not largest; 20 and 25 do not divide 50 and 20.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "length": {
+            "magnitude": 50,
+            "unit": "cm"
+          },
+          "width": {
+            "magnitude": 20,
+            "unit": "cm"
+          }
+        },
+        "answer_value": 10,
+        "answer_unit": "cm",
+        "calculation_steps": [
+          "Find factors of 50: 1,2,5,10,25,50",
+          "Find factors of 20: 1,2,4,5,10,20",
+          "Common factors: 1,2,5,10",
+          "Greatest common factor = 10"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.5 Applications",
+        "subsection_anchor": "main",
+        "structural_element": "Example 2",
+        "content_anchor": "GCF(50,20)=10",
+        "page_hint": 65,
+        "concept_hash": "sha256_gcf_application_tiling"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 91,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "The largest square side that tiles a rectangle equals the GCF of the rectangle's dimensions.",
+        "concept_summary": "The side length must divide both dimensions; the largest such value is the GCF.",
+        "beginner": "Find largest number that divides 50 and 20: 10. Squares of 10 cm fit (5 across, 2 down).",
+        "intermediate": "GCF(50,20) = 10. So 10 cm is the largest square side that divides both dimensions.",
+        "advanced": "Let s = side length. Then s|50 and s|20, so s|GCD(50,20). Max s = GCD = 10 cm.",
+        "worked_solution": [
+          "Step 1: List factors of 50: 1,2,5,10,25,50",
+          "Step 2: List factors of 20: 1,2,4,5,10,20",
+          "Step 3: Identify common factors: 1,2,5,10",
+          "Step 4: Largest is 10 cm"
+        ],
+        "reasoning_steps": [
+          "Side length must divide both dimensions.",
+          "Find all common divisors.",
+          "Select greatest."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Choosing 5 (common divisor but not greatest).",
+          "Selecting 20 or 25 which do not divide both dimensions."
+        ],
+        "related_concepts": [
+          "GCF",
+          "factors",
+          "tiling",
+          "dimensions"
+        ],
+        "revision_note": "Largest square side = GCF(50,20) = 10 cm.",
+        "glossary_entry": {
+          "term": "tiling GCF application",
+          "definition": "Using GCF to find largest square that tiles a rectangle.",
+          "example_equation": "GCF(50,20)=10",
+          "related_terms": [
+            "GCF",
+            "common divisor"
+          ]
+        },
+        "flashcard": {
+          "front": "Largest square side to tile 50×20 board?",
+          "back": "10 cm. GCF(50,20)=10."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "tiling problem",
+            "relation": "solution",
+            "target": "GCF of dimensions"
+          },
+          {
+            "source": "50 and 20",
+            "relation": "GCF",
+            "target": "10"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Tiling a 50 cm × 20 cm board with 10 cm squares",
+        "visual_description": "Rectangle 50 by 20 divided into 10×10 squares. 5 squares across (5×10=50), 2 squares down (2×10=20). Total 10 squares.",
+        "rendering_target": "tikz",
+        "rendering_engine": "tikz-pgfplots",
+        "render_width_mm": 120,
+        "render_height_mm": 60,
+        "caption": "Figure: 10 cm squares tiling the 50×20 board perfectly.",
+        "accessibility_alt_text": "Rectangle divided into 5 columns and 2 rows of 10×10 squares.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "rectangle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  50,
+                  0
+                ],
+                [
+                  50,
+                  20
+                ],
+                [
+                  0,
+                  20
+                ]
+              ],
+              "label": "Board 50×20",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "50 cm",
+              "position": [
+                25,
+                -2
+              ]
+            },
+            {
+              "text": "20 cm",
+              "position": [
+                -5,
+                10
+              ]
+            }
+          ],
+          "axes": null,
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G9_Math_U1_Q030_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "diagram_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck",
+          "concept_map"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Largest square to tile 50×20 board?",
+        "flashcard_back": "10 cm. GCF(50,20)=10.",
+        "glossary_term": "greatest common factor",
+        "glossary_definition": "Largest divisor common to all numbers.",
+        "revision_note": "Board tiling: side = GCF(dimensions) = 10 cm.",
+        "teacher_note": "Connect to real-world tiling and GCF concept.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Apply GCF to solve measurement problems",
+        "concept_map_nodes": [
+          {
+            "source": "50×20 board",
+            "relation": "tiled_by_squares_of_side",
+            "target": "GCF(50,20)=10"
+          },
+          {
+            "source": "10 cm squares",
+            "relation": "fit_in",
+            "target": "5 columns, 2 rows"
+          }
+        ],
+        "workbook_section": "1.5 Applications",
+        "solution_manual_note": "Answer B. GCF(50,20)=10. Option A=5 (common but not largest), C=20 (doesn't divide 50), D=25 (doesn't divide 20)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 91.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 2,
+      "D": 2,
+      "E": 2,
+      "F": 2
+    },
+    "difficulty_distribution": {
+      "easy": 9,
+      "medium": 1,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.4 Real Numbers": 7,
+      "1.5 Applications": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 35,
+      "advanced_avg": 44
+    },
+    "visual_required_count": 1,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 9
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,1783 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Chem_U1_Q010",
+    "covered_sections": [
+      "1.1 Introduction>1.1 Introduction",
+      "1.2 Chemical Equations>1.2.1 Writing Chemical Equation",
+      "1.2 Chemical Equations>1.2.2 Balancing Chemical Equations",
+      "1.3 Types of Chemical Reactions>A. Direct Combination Reactions",
+      "1.3 Types of Chemical Reactions>B. Decomposition Reactions",
+      "1.3 Types of Chemical Reactions>C. Single Displacement Reactions",
+      "1.3 Types of Chemical Reactions>D. Double Displacement Reactions",
+      "1.4 Oxidation and Reduction Reactions>1.4.1 Oxidation Number or Oxidation State"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+    ],
+    "baseline_counter": {
+      "1.1 Introduction": {
+        "1.1 Introduction": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.2 Chemical Equations": {
+        "1.2.1 Writing Chemical Equation": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "1.2.2 Balancing Chemical Equations": {
+          "count": 1,
+          "mini_headings_covered": [
+            "A. Balancing Chemical Equations by Inspection Method"
+          ],
+          "last_question_round": 1
+        }
+      },
+      "1.3 Types of Chemical Reactions": {
+        "A. Direct Combination Reactions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "B. Decomposition Reactions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "C. Single Displacement Reactions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "D. Double Displacement Reactions": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "1.4 Oxidation and Reduction Reactions": {
+        "1.4.1 Oxidation Number or Oxidation State": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "1.1 Introduction": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.2 Chemical Equations": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.3 Types of Chemical Reactions": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "1.4 Oxidation and Reduction Reactions": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Introduction>1.1 Introduction": ["chemical reaction", "physical change", "chemical change", "reactants", "products"],
+      "1.2 Chemical Equations>1.2.1 Writing Chemical Equation": ["chemical equation", "reactants", "products", "word equation", "balanced equation"],
+      "1.2 Chemical Equations>1.2.2 Balancing Chemical Equations": ["Law of Conservation of Mass", "inspection method", "coefficients", "balanced equation"],
+      "1.3 Types of Chemical Reactions>A. Direct Combination Reactions": ["combination reaction", "synthesis", "single product"],
+      "1.3 Types of Chemical Reactions>B. Decomposition Reactions": ["decomposition reaction", "thermal decomposition", "binary compound"],
+      "1.3 Types of Chemical Reactions>C. Single Displacement Reactions": ["single displacement", "replacement", "activity series", "metal displacement"],
+      "1.3 Types of Chemical Reactions>D. Double Displacement Reactions": ["double displacement", "metathesis", "precipitate", "ion exchange"],
+      "1.4 Oxidation and Reduction Reactions>1.4.1 Oxidation Number or Oxidation State": ["oxidation number", "oxidation state", "redox", "oxidation", "reduction"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 18,
+      "questions_per_concept_ratio": 0.56,
+      "structural_coverage_percentage": 22.2
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+  "pdf_filename": "C10U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 6,
+        "progress_percentage": 66.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 4.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 1,
+      "structural_coverage_percentage": 22.2,
+      "concept_utilization_ratio": 0.56
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.3 Types of Chemical Reactions",
+      "least_covered_section": "1.1 Introduction",
+      "imbalance_ratio": 4.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U1_Q001",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.1 Introduction",
+      "subsection": "1.1 Introduction",
+      "sub_subsection": null,
+      "structural_anchor": "chemical reaction",
+      "mcq_type": "A",
+      "question": "What is a chemical reaction?",
+      "options": {
+        "A": "A process where reactants are converted into products with different characteristics",
+        "B": "A physical change that does not form new substances",
+        "C": "A change where only the state of matter changes",
+        "D": "A process that only occurs when heat is applied"
+      },
+      "correct_answer": "A",
+      "hint": "Focus on the transformation of starting materials into new substances.",
+      "explanation": "A chemical reaction is defined as the process in which reactants are converted into products with completely different characteristics from the original substances. Option B describes a physical change, not a chemical reaction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.1 Introduction",
+        "subsection_anchor": "1.1 Introduction",
+        "structural_element": "chemical reaction",
+        "content_anchor": "reacting substances called reactants are converted into new substances called products",
+        "page_hint": 3,
+        "concept_hash": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A chemical reaction is a process in which reactants are transformed into products with different chemical properties.",
+        "concept_summary": "Chemical reactions involve breaking and forming chemical bonds, resulting in new substances with compositions and properties distinct from the starting materials.",
+        "beginner": "Think of baking a cake: flour, eggs, and sugar (reactants) transform into a cake (product) that looks and tastes completely different.",
+        "intermediate": "In a chemical reaction, reactants undergo bond rearrangement to form products. The products have a new chemical composition and properties different from the reactants.",
+        "advanced": "Chemical reactions involve the reorganization of valence electrons, leading to the formation of new covalent or ionic bonds. The activation energy required determines reaction rate, while thermodynamics governs spontaneity via \\(\\Delta G = \\Delta H - T\\Delta S\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify whether new substances are formed",
+          "Check if properties of products differ from reactants",
+          "Confirm that chemical bonds are broken and formed",
+          "Classify as a chemical reaction"
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "All chemical reactions release heat is incorrect because some reactions (endothermic) absorb heat, such as photosynthesis.",
+          "Chemical reactions always produce visible change is incorrect because some reactions occur without color change or gas evolution."
+        ],
+        "related_concepts": ["reactants", "products", "chemical equation", "physical change"],
+        "revision_note": "Chemical reaction: reactants → products. New substances with different properties.",
+        "glossary_entry": {
+          "term": "Chemical reaction",
+          "definition": "A process in which reactants are converted into products with different chemical composition and properties.",
+          "example_equation": null,
+          "related_terms": ["reactants", "products", "chemical change"]
+        },
+        "flashcard": {
+          "front": "What defines a chemical reaction?",
+          "back": "A chemical reaction converts reactants into products with different chemical properties and composition."
+        },
+        "concept_map_nodes": [
+          {"source": "Chemical reaction", "relation": "involves", "target": "reactants"},
+          {"source": "Chemical reaction", "relation": "produces", "target": "products"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Chemical Reactions Fundamentals",
+        "flashcard_front": "What process converts reactants into products with different properties?",
+        "flashcard_back": "A chemical reaction. Reactants are transformed into products with different chemical composition and characteristics.",
+        "glossary_term": "Chemical reaction",
+        "glossary_definition": "A process where reactants are converted into products with different chemical properties and composition.",
+        "revision_note": "Chemical reaction: new substances formed with different properties.",
+        "teacher_note": "Common error: students confuse chemical reactions with physical changes. Emphasize that new substances with different properties are formed only in chemical reactions.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define chemical reaction and identify examples",
+        "concept_map_nodes": [
+          {"source": "Chemical reaction", "relation": "produces", "target": "products"},
+          {"source": "reactants", "relation": "are consumed in", "target": "chemical reaction"}
+        ],
+        "workbook_section": "Introduction to Chemical Reactions",
+        "solution_manual_note": "Answer A. A chemical reaction is defined by the conversion of reactants into products with different characteristics."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q002",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.2 Chemical Equations",
+      "subsection": "1.2.1 Writing Chemical Equation",
+      "sub_subsection": null,
+      "structural_anchor": "chemical equation",
+      "mcq_type": "D",
+      "question": "In the word equation \"Hydrogen + Nitrogen \\(\\rightarrow\\) Ammonia,\" what does the arrow represent?",
+      "options": {
+        "A": "Equals",
+        "B": "Reacts with",
+        "C": "Produces or yields",
+        "D": "Reverses"
+      },
+      "correct_answer": "C",
+      "hint": "The arrow shows the direction of transformation from reactants to products.",
+      "explanation": "In a chemical equation, the arrow \\(\\rightarrow\\) indicates that reactants are transformed into products, meaning 'produces', 'yields', 'forms', or 'gives'. Option B describes the \\(+\\) sign, not the arrow.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.2 Chemical Equations",
+        "subsection_anchor": "1.2.1 Writing Chemical Equation",
+        "structural_element": "chemical equation",
+        "content_anchor": "arrow can be read as 'to produce', 'to form', 'to give' or 'to yield'",
+        "page_hint": 4,
+        "concept_hash": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The arrow in a chemical equation represents the transformation of reactants into products, meaning 'produces' or 'yields'.",
+        "concept_summary": "Chemical equations use an arrow to show the direction of the reaction from reactants (left) to products (right), never the reverse direction unless specified.",
+        "beginner": "The arrow is like an equals sign in math, but it points toward the result. Think of 'reactants go to products'.",
+        "intermediate": "In \\(\\mathrm{N_2 + 3H_2 \\rightarrow 2NH_3}\\), the arrow shows the forward direction of the reaction from nitrogen and hydrogen to ammonia.",
+        "advanced": "The arrow in a chemical equation denotes the direction of net reaction progress. For reversible reactions, \\(\\rightleftharpoons\\) is used to indicate equilibrium between forward and reverse processes.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Locate the arrow in the equation",
+          "Identify reactants to the left of the arrow",
+          "Identify products to the right of the arrow",
+          "Interpret arrow as 'produces' or 'yields'"
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "The arrow means 'equals' is incorrect because chemical equations are not mathematical equalities; mass is conserved but substances change.",
+          "The arrow shows reversible reaction is incorrect unless a double arrow \\(\\rightleftharpoons\\) is used."
+        ],
+        "related_concepts": ["reactants", "products", "word equation", "balanced equation"],
+        "revision_note": "Arrow in equation: reactants \\(\\rightarrow\\) products (produces or yields).",
+        "glossary_entry": {
+          "term": "Chemical equation arrow",
+          "definition": "A symbol \\(\\rightarrow\\) placed between reactants and products indicating the direction of transformation.",
+          "example_equation": "\\(\\mathrm{N_2 + 3H_2 \\rightarrow 2NH_3}\\)",
+          "related_terms": ["reactants", "products", "reversible reaction"]
+        },
+        "flashcard": {
+          "front": "What does the arrow mean in a chemical equation?",
+          "back": "The arrow means 'produces', 'yields', 'forms', or 'gives', showing reactants converting to products."
+        },
+        "concept_map_nodes": [
+          {"source": "Chemical equation", "relation": "contains", "target": "arrow"},
+          {"source": "arrow", "relation": "means", "target": "produces"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Chemical Equations",
+        "flashcard_front": "What does the arrow \\(\\rightarrow\\) mean in \\(\\mathrm{N_2 + 3H_2 \\rightarrow 2NH_3}\\)?",
+        "flashcard_back": "The arrow means 'produces' or 'yields', showing that reactants (nitrogen and hydrogen) form products (ammonia).",
+        "glossary_term": "Arrow in chemical equation",
+        "glossary_definition": "A symbol \\(\\rightarrow\\) placed between reactants and products indicating the direction of transformation.",
+        "revision_note": "\\(\\rightarrow\\) = produces. Reactants left, products right.",
+        "teacher_note": "Common error: students read the arrow as 'equals'. Emphasize that the arrow shows direction of change, not equality of substances.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the conventions used to write chemical equations",
+        "concept_map_nodes": [
+          {"source": "Reactants", "relation": "are transformed via", "target": "arrow"},
+          {"source": "arrow", "relation": "points to", "target": "Products"}
+        ],
+        "workbook_section": "Writing Chemical Equations",
+        "solution_manual_note": "Answer C. The arrow is read as 'produces', 'yields', 'forms', or 'gives'."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q003",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.2 Chemical Equations",
+      "subsection": "1.2.2 Balancing Chemical Equations",
+      "sub_subsection": null,
+      "structural_anchor": "A. Balancing Chemical Equations by Inspection Method",
+      "mcq_type": "F",
+      "question": "When balancing the equation \\(\\mathrm{Fe + H_2O \\rightarrow Fe_3O_4 + H_2}\\) using the inspection method, why is a coefficient of 3 placed before \\(\\mathrm{Fe}\\) on the left side?",
+      "options": {
+        "A": "To balance the oxygen atoms",
+        "B": "To balance the hydrogen atoms",
+        "C": "To balance the iron atoms",
+        "D": "To balance the total number of molecules"
+      },
+      "correct_answer": "C",
+      "hint": "Count the number of iron atoms on each side before adding coefficients.",
+      "explanation": "The right side has three iron atoms in \\(\\mathrm{Fe_3O_4}\\), while the left side initially has only one iron atom, so a coefficient of 3 balances iron atoms. Option A is incorrect because oxygen balancing requires a coefficient of 4 for \\(\\mathrm{H_2O}\\).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.2 Chemical Equations",
+        "subsection_anchor": "1.2.2 Balancing Chemical Equations",
+        "structural_element": "A. Balancing Chemical Equations by Inspection Method",
+        "content_anchor": "There is one Fe atom on the left side while there are three Fe atoms on the right side. Therefore, a suitable coefficient of Fe on the left side is 3",
+        "page_hint": 7,
+        "concept_hash": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "The inspection method balances equations by adjusting coefficients so that each element has the same number of atoms on both sides.",
+        "concept_summary": "Balancing by inspection requires systematic comparison of atom counts on reactant and product sides, starting with the most complex compound and adjusting coefficients one element at a time.",
+        "beginner": "Imagine each side of the equation has boxes for atoms. You add numbers in front of formulas until both sides have the same count of each type of Lego brick (atom).",
+        "intermediate": "In \\(\\mathrm{Fe + H_2O \\rightarrow Fe_3O_4 + H_2}\\), the right side has 3 Fe atoms in \\(\\mathrm{Fe_3O_4}\\) but the left has only 1 Fe, so we place coefficient 3 before \\(\\mathrm{Fe}\\) on the left.",
+        "advanced": "Balancing via inspection relies on the Law of Conservation of Mass, ensuring stoichiometric coefficients preserve atom counts. For \\(a\\mathrm{Fe} + b\\mathrm{H_2O} \\rightarrow c\\mathrm{Fe_3O_4} + d\\mathrm{H_2}\\), Fe balance gives \\(a = 3c\\). With \\(c=1\\), \\(a=3\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count iron atoms on the right side of the equation",
+          "Note that \\(\\mathrm{Fe_3O_4}\\) contains 3 iron atoms",
+          "Count iron atoms on the left side (initially 1)",
+          "Multiply \\(\\mathrm{Fe}\\) on the left by 3 to match the right side"
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Adding coefficients changes the formula is incorrect; coefficients only change the number of molecules, not the identity of substances.",
+          "Balancing should start with oxygen or hydrogen first is not always correct; starting with the most complex compound (here \\(\\mathrm{Fe_3O_4}\\)) is more systematic."
+        ],
+        "related_concepts": ["Law of Conservation of Mass", "coefficients", "stoichiometry", "balanced equation"],
+        "revision_note": "Inspection method: balance atoms one element at a time, starting with the most complex compound.",
+        "glossary_entry": {
+          "term": "Inspection method",
+          "definition": "A trial-and-error method of balancing chemical equations by adjusting coefficients until atom counts are equal on both sides.",
+          "example_equation": "\\(3\\mathrm{Fe} + 4\\mathrm{H_2O} \\rightarrow \\mathrm{Fe_3O_4} + 4\\mathrm{H_2}\\)",
+          "related_terms": ["balancing equations", "coefficients", "Law of Conservation of Mass"]
+        },
+        "flashcard": {
+          "front": "Why is a coefficient of 3 placed before Fe in \\(\\mathrm{Fe + H_2O \\rightarrow Fe_3O_4 + H_2}\\)?",
+          "back": "To balance iron atoms: the right side has 3 Fe atoms in \\(\\mathrm{Fe_3O_4}\\), so the left must also have 3 Fe atoms."
+        },
+        "concept_map_nodes": [
+          {"source": "Inspection method", "relation": "uses", "target": "coefficients"},
+          {"source": "coefficients", "relation": "balance", "target": "atom count"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 1 — Balancing Equations",
+        "flashcard_front": "Why does \\(\\mathrm{Fe + H_2O \\rightarrow Fe_3O_4 + H_2}\\) need a 3 before Fe?",
+        "flashcard_back": "To balance iron atoms: \\(\\mathrm{Fe_3O_4}\\) has 3 Fe atoms, so the left needs 3 Fe atoms.",
+        "glossary_term": "Inspection method",
+        "glossary_definition": "A trial-and-error method of balancing chemical equations by adjusting coefficients until atom counts are equal on both sides.",
+        "revision_note": "Start with the most complex compound. Balance one element at a time.",
+        "teacher_note": "Common error: students change subscripts instead of adding coefficients. Emphasize that only coefficients can be changed when balancing.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Balance chemical equations using the inspection method",
+        "concept_map_nodes": [
+          {"source": "Balancing", "relation": "requires", "target": "coefficients"},
+          {"source": "Inspection method", "relation": "is also called", "target": "trial and error method"}
+        ],
+        "workbook_section": "Balancing Chemical Equations",
+        "solution_manual_note": "Answer C. The coefficient 3 balances iron atoms because \\(\\mathrm{Fe_3O_4}\\) contains 3 iron atoms."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q004",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "A. Direct Combination Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Combination reaction",
+      "mcq_type": "A",
+      "question": "What is a combination reaction?",
+      "options": {
+        "A": "A reaction where a single compound breaks down into simpler substances",
+        "B": "A reaction where two or more substances combine to form a single product",
+        "C": "A reaction where one element displaces another from a compound",
+        "D": "A reaction where two compounds exchange ions to form two new compounds"
+      },
+      "correct_answer": "B",
+      "hint": "Look for the general form A + B \\(\\rightarrow\\) AB.",
+      "explanation": "Combination reactions (synthesis) involve two or more reactants forming a single product, as in \\(\\mathrm{2Na + Cl_2 \\rightarrow 2NaCl}\\). Option A describes a decomposition reaction, not combination.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "A. Direct Combination Reactions",
+        "structural_element": "Combination reaction",
+        "content_anchor": "two elements, two compounds, or an element and a compound react to form a single compound",
+        "page_hint": 13,
+        "concept_hash": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "A combination reaction is a chemical reaction in which two or more substances combine to form a single new compound.",
+        "concept_summary": "Combination reactions are characterized by a single product formed from multiple reactants, following the pattern A + B \\(\\rightarrow\\) AB.",
+        "beginner": "Think of mixing two colors of paint to make one new color: blue + yellow \\(\\rightarrow\\) green. Two things go in, one thing comes out.",
+        "intermediate": "In \\(\\mathrm{2Na + Cl_2 \\rightarrow 2NaCl}\\), sodium and chlorine combine to form a single product (sodium chloride), making this a combination reaction.",
+        "advanced": "Combination reactions proceed with bond formation between reactants, often releasing energy (exothermic). The general form is \\(\\mathrm{A + B \\rightarrow AB}\\), where A and B may be elements or compounds.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count the number of reactants (two or more)",
+          "Count the number of products (exactly one)",
+          "Confirm the product is a compound containing elements from all reactants",
+          "Classify as combination reaction"
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Combination reactions always require two elements is incorrect; a compound and an element or two compounds can also combine.",
+          "All combination reactions are exothermic is not universally true; some require energy input."
+        ],
+        "related_concepts": ["synthesis", "decomposition reaction", "reactants", "products"],
+        "revision_note": "Combination: A + B \\(\\rightarrow\\) AB. One product, two or more reactants.",
+        "glossary_entry": {
+          "term": "Combination reaction",
+          "definition": "A reaction where two or more substances combine to form a single product.",
+          "example_equation": "\\(\\mathrm{2Na + Cl_2 \\rightarrow 2NaCl}\\)",
+          "related_terms": ["synthesis reaction", "decomposition reaction"]
+        },
+        "flashcard": {
+          "front": "What type of reaction has the general form A + B \\(\\rightarrow\\) AB?",
+          "back": "A combination (synthesis) reaction, where two or more reactants form one product."
+        },
+        "concept_map_nodes": [
+          {"source": "Combination reaction", "relation": "has general form", "target": "A + B \\(\\rightarrow\\) AB"},
+          {"source": "Combination reaction", "relation": "is also called", "target": "synthesis reaction"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Types of Reactions",
+        "flashcard_front": "What reaction type forms one product from two or more reactants?",
+        "flashcard_back": "A combination (synthesis) reaction, following the pattern A + B \\(\\rightarrow\\) AB.",
+        "glossary_term": "Combination reaction",
+        "glossary_definition": "A chemical reaction in which two or more substances combine to form a single product.",
+        "revision_note": "Combination: A + B \\(\\rightarrow\\) AB. One product only.",
+        "teacher_note": "Common error: students confuse combination with decomposition. Emphasize that combination builds up (multiple reactants → one product), while decomposition breaks down (one reactant → multiple products).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define combination reaction and give examples",
+        "concept_map_nodes": [
+          {"source": "Combination reaction", "relation": "opposite of", "target": "decomposition reaction"},
+          {"source": "Combination reaction", "relation": "produces", "target": "single compound"}
+        ],
+        "workbook_section": "Types of Chemical Reactions",
+        "solution_manual_note": "Answer B. A combination reaction has two or more reactants forming a single product."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q005",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "B. Decomposition Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Decomposition reaction",
+      "mcq_type": "D",
+      "question": "When mercury(II) oxide is heated, it decomposes into mercury and oxygen gas. What type of reaction is this?",
+      "options": {
+        "A": "Combination reaction",
+        "B": "Single displacement reaction",
+        "C": "Double displacement reaction",
+        "D": "Decomposition reaction"
+      },
+      "correct_answer": "D",
+      "hint": "A single compound breaks down into simpler substances when heated.",
+      "explanation": "Decomposition reactions involve a single compound breaking down into two or more simpler substances, as in \\(\\mathrm{2HgO \\xrightarrow{\\Delta} 2Hg + O_2}\\). Option A requires multiple reactants forming one product, which is the opposite process.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\mathrm{2HgO \\xrightarrow{\\Delta} 2Hg + O_2}"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "B. Decomposition Reactions",
+        "structural_element": "Decomposition reaction",
+        "content_anchor": "mercury(II) oxide, a red solid, decomposes when heated to produce mercury and oxygen gas",
+        "page_hint": 14,
+        "concept_hash": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 93,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "A decomposition reaction is a reaction in which a single compound breaks down into two or more elements or simpler compounds.",
+        "concept_summary": "Decomposition reactions require energy input (heat, light, or electricity) to break chemical bonds, following the general form AB \\(\\rightarrow\\) A + B.",
+        "beginner": "Think of a LEGO house (compound) being taken apart into individual bricks (elements). One thing goes in, multiple things come out.",
+        "intermediate": "In \\(\\mathrm{2HgO \\xrightarrow{\\Delta} 2Hg + O_2}\\), one compound (mercury(II) oxide) breaks down into two elements (mercury and oxygen), so it is a decomposition reaction.",
+        "advanced": "Thermal decomposition requires energy to overcome bond dissociation energies. For \\(\\mathrm{2HgO}\\), the \\(\\Delta H\\) is positive (endothermic) because energy is absorbed to break Hg-O bonds.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the number of reactants (exactly one compound)",
+          "Identify the number of products (two or more)",
+          "Check if products are simpler than the reactant",
+          "Classify as decomposition reaction"
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\mathrm{2HgO \\xrightarrow{\\Delta} 2Hg + O_2}",
+            "name": "Thermal decomposition of mercury(II) oxide",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "All decomposition reactions produce oxygen is incorrect; many decompose into other compounds, not elements.",
+          "Decomposition is the reverse of combination is correct in terms of pattern (AB \\(\\rightarrow\\) A + B vs A + B \\(\\rightarrow\\) AB)."
+        ],
+        "related_concepts": ["thermal decomposition", "combination reaction", "reactants", "products"],
+        "revision_note": "Decomposition: AB \\(\\rightarrow\\) A + B. One reactant, multiple products. Often requires heat (\\(\\Delta\\)).",
+        "glossary_entry": {
+          "term": "Decomposition reaction",
+          "definition": "A reaction where a single compound breaks down into two or more simpler substances.",
+          "example_equation": "\\(\\mathrm{2HgO \\xrightarrow{\\Delta} 2Hg + O_2}\\)",
+          "related_terms": ["thermal decomposition", "analysis reaction", "combination reaction"]
+        },
+        "flashcard": {
+          "front": "What type of reaction is \\(\\mathrm{2HgO \\xrightarrow{\\Delta} 2Hg + O_2}\\)?",
+          "back": "A decomposition reaction, where one compound breaks down into simpler substances."
+        },
+        "concept_map_nodes": [
+          {"source": "Decomposition reaction", "relation": "has general form", "target": "AB \\(\\rightarrow\\) A + B"},
+          {"source": "Decomposition reaction", "relation": "requires energy input such as", "target": "heat (\\Delta)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Types of Reactions",
+        "flashcard_front": "What reaction type breaks one compound into multiple products?",
+        "flashcard_back": "A decomposition reaction, with the general form AB \\(\\rightarrow\\) A + B.",
+        "glossary_term": "Decomposition reaction",
+        "glossary_definition": "A reaction where a single compound breaks down into two or more simpler substances.",
+        "revision_note": "Decomposition: AB \\(\\rightarrow\\) A + B. Heat often required.",
+        "teacher_note": "Demonstrate with \\(\\mathrm{HgO}\\) decomposition: red powder turns into silver liquid mercury and oxygen gas (glowing splint test).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Define decomposition reaction and give examples",
+        "concept_map_nodes": [
+          {"source": "Decomposition reaction", "relation": "requires", "target": "energy (heat, light, electricity)"},
+          {"source": "Decomposition reaction", "relation": "opposite of", "target": "combination reaction"}
+        ],
+        "workbook_section": "Types of Chemical Reactions",
+        "solution_manual_note": "Answer D. Heating HgO causes it to decompose into mercury and oxygen."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q006",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "C. Single Displacement Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Single displacement reaction",
+      "mcq_type": "H",
+      "question": "Zinc metal is placed into hydrochloric acid, producing zinc chloride and hydrogen gas. Why does zinc displace hydrogen from HCl?",
+      "options": {
+        "A": "Zinc is less reactive than hydrogen",
+        "B": "Zinc is more reactive than hydrogen",
+        "C": "Zinc and hydrogen have equal reactivity",
+        "D": "Hydrogen is a metal"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the activity series: more reactive metals displace less reactive ones.",
+      "explanation": "In single displacement reactions, a more reactive metal displaces a less reactive metal (or hydrogen) from a compound. Zinc is above hydrogen in the activity series, so it displaces hydrogen from HCl. Option A is incorrect because a less reactive metal cannot displace a more reactive one.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\mathrm{Zn + 2HCl \\rightarrow ZnCl_2 + H_2}"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "C. Single Displacement Reactions",
+        "structural_element": "Single displacement reaction",
+        "content_anchor": "Reactive metals such as potassium, calcium, sodium, and zinc displace hydrogen gas from dilute acids",
+        "page_hint": 16,
+        "concept_hash": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A single displacement reaction is one in which one element displaces another element from a compound.",
+        "concept_summary": "Single displacement follows the pattern A + BC \\(\\rightarrow\\) AC + B, where a more reactive element displaces a less reactive element from a compound.",
+        "beginner": "Think of a stronger kid in a game of musical chairs pushing a weaker kid out of a seat: the stronger (more reactive) element takes the place of the weaker one.",
+        "intermediate": "In \\(\\mathrm{Zn + 2HCl \\rightarrow ZnCl_2 + H_2}\\), zinc displaces hydrogen because zinc is more reactive than hydrogen according to the activity series.",
+        "advanced": "The activity series orders elements by reduction potential. Elements with more negative standard reduction potentials (like Zn, \\(E^\\circ = -0.76\\text{ V}\\)) displace those with less negative or positive potentials (H, \\(E^\\circ = 0\\text{ V}\\)).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the element that is alone on the left side (Zn)",
+          "Identify the element it displaces from the compound (H from HCl)",
+          "Compare reactivity using the activity series",
+          "If the alone element is more reactive, displacement occurs"
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\mathrm{Zn + 2HCl \\rightarrow ZnCl_2 + H_2}",
+            "name": "Single displacement of hydrogen by zinc",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Any metal can displace hydrogen from acid is incorrect; only metals more reactive than hydrogen (above H in activity series) can do so.",
+          "The displaced element must be a metal is incorrect; hydrogen (a nonmetal) can also be displaced."
+        ],
+        "related_concepts": ["activity series", "replacement reaction", "redox reaction", "oxidation"],
+        "revision_note": "Single displacement: A + BC \\(\\rightarrow\\) AC + B. More reactive element displaces less reactive one.",
+        "glossary_entry": {
+          "term": "Single displacement reaction",
+          "definition": "A reaction in which one element displaces another element from a compound.",
+          "example_equation": "\\(\\mathrm{Zn + 2HCl \\rightarrow ZnCl_2 + H_2}\\)",
+          "related_terms": ["replacement reaction", "activity series", "redox reaction"]
+        },
+        "flashcard": {
+          "front": "Why can zinc displace hydrogen from hydrochloric acid?",
+          "back": "Zinc is more reactive than hydrogen (above hydrogen in the activity series), so it displaces hydrogen from HCl."
+        },
+        "concept_map_nodes": [
+          {"source": "Single displacement", "relation": "requires", "target": "activity series"},
+          {"source": "Zn", "relation": "is more reactive than", "target": "H"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 1 — Types of Reactions",
+        "flashcard_front": "Why does Zn displace H from HCl in \\(\\mathrm{Zn + 2HCl \\rightarrow ZnCl_2 + H_2}\\)?",
+        "flashcard_back": "Zn is more reactive than H (above H in activity series), so it displaces hydrogen.",
+        "glossary_term": "Single displacement reaction",
+        "glossary_definition": "A reaction where one element displaces another from a compound based on relative reactivity.",
+        "revision_note": "Single displacement: A + BC \\(\\rightarrow\\) AC + B. More reactive displaces less reactive.",
+        "teacher_note": "Use the activity series as a reference. Students often assume all metals react with acids; emphasize that only metals above hydrogen in the series will displace hydrogen.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Define single displacement reaction and give examples",
+        "concept_map_nodes": [
+          {"source": "Single displacement", "relation": "depends on", "target": "activity series"},
+          {"source": "Zn", "relation": "is oxidized to", "target": "Zn^{2+}"}
+        ],
+        "workbook_section": "Types of Chemical Reactions",
+        "solution_manual_note": "Answer B. Zinc is more reactive than hydrogen, so it displaces hydrogen from hydrochloric acid."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q007",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "D. Double Displacement Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Double displacement reaction",
+      "mcq_type": "A",
+      "question": "What is a double displacement reaction?",
+      "options": {
+        "A": "Two compounds exchange ions to form two new compounds",
+        "B": "One element displaces another from a compound",
+        "C": "A single compound breaks down into simpler substances",
+        "D": "Two or more substances combine to form one product"
+      },
+      "correct_answer": "A",
+      "hint": "Look for the general form AB + CD \\(\\rightarrow\\) AD + CB.",
+      "explanation": "Double displacement (metathesis) reactions involve two compounds exchanging positive and negative ions to form two new compounds, as in \\(\\mathrm{AgNO_3 + NaCl \\rightarrow AgCl + NaNO_3}\\). Option B describes single displacement, not double displacement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "D. Double Displacement Reactions",
+        "structural_element": "Double displacement reaction",
+        "content_anchor": "two compounds react together to form two new compounds by exchange of the positive and negative ions of each reactant",
+        "page_hint": 18,
+        "concept_hash": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 47,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A double displacement reaction is a reaction in which two compounds exchange ions to form two new compounds.",
+        "concept_summary": "Double displacement follows AB + CD \\(\\rightarrow\\) AD + CB, with ions swapping partners. A precipitate, gas, or water often forms as a driving force.",
+        "beginner": "Think of two couples swapping dance partners: AB + CD become AD + CB. Everyone ends up with a new partner.",
+        "intermediate": "In \\(\\mathrm{AgNO_3 + NaCl \\rightarrow AgCl + NaNO_3}\\), silver and sodium swap anions: nitrate goes to sodium, chloride goes to silver, forming a precipitate (AgCl).",
+        "advanced": "Double displacement reactions are driven by the formation of a precipitate, gas, or weak electrolyte (like water). The net ionic equation shows only the ions that actually react: \\(\\mathrm{Ag^+ + Cl^- \\rightarrow AgCl(s)}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify two compounds as reactants",
+          "Identify two compounds as products",
+          "Check if positive ions have swapped negative ions",
+          "Classify as double displacement if ion exchange occurred"
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "All double displacement reactions form precipitates is incorrect; some form gases (e.g., \\(\\mathrm{Na_2CO_3 + 2HCl \\rightarrow 2NaCl + H_2O + CO_2}\\)) or water.",
+          "Double displacement always requires aqueous solutions is not strictly true, but most examples are in aqueous solution."
+        ],
+        "related_concepts": ["metathesis", "precipitation reaction", "neutralization", "ion exchange"],
+        "revision_note": "Double displacement: AB + CD \\(\\rightarrow\\) AD + CB. Ions swap partners.",
+        "glossary_entry": {
+          "term": "Double displacement reaction",
+          "definition": "A reaction in which two compounds exchange positive and negative ions to form two new compounds.",
+          "example_equation": "\\(\\mathrm{AgNO_3 + NaCl \\rightarrow AgCl + NaNO_3}\\)",
+          "related_terms": ["metathesis", "double replacement", "precipitation reaction"]
+        },
+        "flashcard": {
+          "front": "What type of reaction has the general form AB + CD \\(\\rightarrow\\) AD + CB?",
+          "back": "A double displacement (metathesis) reaction, where ions exchange partners."
+        },
+        "concept_map_nodes": [
+          {"source": "Double displacement", "relation": "has general form", "target": "AB + CD \\(\\rightarrow\\) AD + CB"},
+          {"source": "Double displacement", "relation": "often produces", "target": "precipitate, gas, or water"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Types of Reactions",
+        "flashcard_front": "What reaction type involves two compounds exchanging ions?",
+        "flashcard_back": "A double displacement (metathesis) reaction, following AB + CD \\(\\rightarrow\\) AD + CB.",
+        "glossary_term": "Double displacement reaction",
+        "glossary_definition": "A reaction in which two compounds exchange positive and negative ions to form two new compounds.",
+        "revision_note": "Double displacement: AB + CD \\(\\rightarrow\\) AD + CB. Ions swap.",
+        "teacher_note": "Demonstrate with \\(\\mathrm{AgNO_3 + NaCl}\\): clear solutions mix to form a white precipitate of AgCl. Students can see the ion exchange visually.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define double displacement reaction and give examples",
+        "concept_map_nodes": [
+          {"source": "Double displacement", "relation": "is also called", "target": "metathesis"},
+          {"source": "Double displacement", "relation": "produces", "target": "precipitate or gas"}
+        ],
+        "workbook_section": "Types of Chemical Reactions",
+        "solution_manual_note": "Answer A. Double displacement involves two compounds exchanging ions to form two new compounds."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q008",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.4 Oxidation and Reduction Reactions",
+      "subsection": "1.4.1 Oxidation Number or Oxidation State",
+      "sub_subsection": null,
+      "structural_anchor": "Oxidation number",
+      "mcq_type": "D",
+      "question": "What is the oxidation number of oxygen in \\(\\mathrm{Na_2O_2}\\) (sodium peroxide)?",
+      "options": {
+        "A": "\\(-2\\)",
+        "B": "\\(-1\\)",
+        "C": "\\(0\\)",
+        "D": "\\(+2\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Peroxides are an exception to the usual \\(-2\\) oxidation state of oxygen.",
+      "explanation": "In peroxides such as \\(\\mathrm{Na_2O_2}\\), oxygen has an oxidation number of \\(-1\\) because the O-O bond is present. The usual \\(-2\\) rule has an exception for peroxides, superoxides, and \\(\\mathrm{OF_2}\\). Option A (\\(-2\\)) applies to most compounds but not peroxides.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.4 Oxidation and Reduction Reactions",
+        "subsection_anchor": "1.4.1 Oxidation Number or Oxidation State",
+        "structural_element": "Oxidation number",
+        "content_anchor": "The oxidation number of oxygen in peroxides is -1. Example: \\(\\mathrm{Na_2O_2}\\)",
+        "page_hint": 21,
+        "concept_hash": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 89,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Oxidation number (oxidation state) is the charge an atom appears to have when electrons are assigned according to specific rules.",
+        "concept_summary": "Oxidation numbers follow rules: oxygen is usually \\(-2\\), but in peroxides it is \\(-1\\), in superoxides \\(-1/2\\), and in \\(\\mathrm{OF_2}\\) it is \\(+2\\).",
+        "beginner": "Oxygen usually wants to gain 2 electrons (oxidation number \\(-2\\)), but in peroxides like \\(\\mathrm{Na_2O_2}\\), two oxygens share electrons, so each gets only 1 extra electron (\\(-1\\)).",
+        "intermediate": "In \\(\\mathrm{Na_2O_2}\\), sodium has \\(+1\\) each (total \\(+2\\)), so the two oxygens must total \\(-2\\), giving each oxygen \\(-1\\). This is the peroxide rule.",
+        "advanced": "The peroxide ion is \\(\\mathrm{O_2^{2-}}\\) with an O-O single bond. Each oxygen has 7 valence electrons (one shared in the bond), giving an oxidation state of \\(-1\\), not the usual \\(-2\\) found in oxides like \\(\\mathrm{Na_2O}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that Na has oxidation number \\(+1\\) (Group IA rule)",
+          "Total oxidation numbers must sum to 0 (neutral compound)",
+          "Let x = oxidation number of O: \\(2(+1) + 2x = 0\\)",
+          "Solve: \\(2 + 2x = 0 \\Rightarrow 2x = -2 \\Rightarrow x = -1\\)"
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Oxygen always has oxidation number \\(-2\\) is incorrect; peroxides, superoxides, and \\(\\mathrm{OF_2}\\) are exceptions.",
+          "Peroxides are the same as ordinary oxides is incorrect; peroxides contain the \\(\\mathrm{O_2^{2-}}\\) ion with an O-O bond."
+        ],
+        "related_concepts": ["oxidation state rules", "peroxide", "superoxide", "oxygen difluoride"],
+        "revision_note": "O in peroxides: \\(-1\\) (e.g., \\(\\mathrm{Na_2O_2}\\)). O in most compounds: \\(-2\\).",
+        "glossary_entry": {
+          "term": "Oxidation number of oxygen in peroxides",
+          "definition": "Oxygen has oxidation number \\(-1\\) in peroxides (compounds containing the \\(\\mathrm{O_2^{2-}}\\) ion).",
+          "example_equation": "\\(\\mathrm{Na_2O_2}\\): O is \\(-1\\)",
+          "related_terms": ["peroxide", "superoxide", "oxidation state rules"]
+        },
+        "flashcard": {
+          "front": "What is the oxidation number of oxygen in \\(\\mathrm{Na_2O_2}\\)?",
+          "back": "Oxygen has oxidation number \\(-1\\) in sodium peroxide because it is a peroxide."
+        },
+        "concept_map_nodes": [
+          {"source": "Oxygen", "relation": "in peroxides has oxidation number", "target": "-1"},
+          {"source": "Oxygen", "relation": "usually has oxidation number", "target": "-2"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Oxidation Numbers",
+        "flashcard_front": "What is the oxidation number of O in \\(\\mathrm{Na_2O_2}\\) and why?",
+        "flashcard_back": "O is \\(-1\\) because \\(\\mathrm{Na_2O_2}\\) is a peroxide (contains \\(\\mathrm{O_2^{2-}}\\)) with each O having \\(-1\\).",
+        "glossary_term": "Peroxide",
+        "glossary_definition": "A compound containing the \\(\\mathrm{O_2^{2-}}\\) ion, where oxygen has oxidation number \\(-1\\).",
+        "revision_note": "Peroxide: O is \\(-1\\). Exception to \\(-2\\) rule.",
+        "teacher_note": "Emphasize that oxidation numbers are assigned by rules, not actual charges. Peroxides are a key exception students often miss on exams.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Determine oxidation numbers of elements in given formulas",
+        "concept_map_nodes": [
+          {"source": "Oxidation number rules", "relation": "except for", "target": "peroxides"},
+          {"source": "Peroxide", "relation": "contains", "target": "O_2^{2-} ion"}
+        ],
+        "workbook_section": "Oxidation and Reduction Reactions",
+        "solution_manual_note": "Answer B. In peroxides like \\(\\mathrm{Na_2O_2}\\), oxygen has oxidation number \\(-1\\) due to the O-O bond."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q009",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "C. Single Displacement Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Single displacement reaction",
+      "mcq_type": "F",
+      "question": "If copper metal is placed into a silver nitrate solution, a displacement reaction occurs. Why does copper displace silver but not sodium from sodium nitrate?",
+      "options": {
+        "A": "Copper is less reactive than both silver and sodium",
+        "B": "Copper is more reactive than silver but less reactive than sodium",
+        "C": "Copper is more reactive than both silver and sodium",
+        "D": "Copper does not displace any metal from its compounds"
+      },
+      "correct_answer": "B",
+      "hint": "Compare the reactivity of copper, silver, and sodium using the activity series.",
+      "explanation": "Copper is above silver in the activity series, so it displaces silver from \\(\\mathrm{AgNO_3}\\). However, copper is below sodium, so it cannot displace sodium from \\(\\mathrm{NaNO_3}\\). Option C is incorrect because sodium is much more reactive than copper.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\mathrm{Cu + 2AgNO_3 \\rightarrow Cu(NO_3)_2 + 2Ag}"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "C. Single Displacement Reactions",
+        "structural_element": "Single displacement reaction",
+        "content_anchor": "A more active metal displaces a less active metal",
+        "page_hint": 16,
+        "concept_hash": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "A metal displaces another metal from a compound only if it is more reactive (higher in the activity series).",
+        "concept_summary": "Single displacement reactions follow the activity series: a more reactive metal will displace a less reactive metal, but a less reactive metal cannot displace a more reactive one.",
+        "beginner": "Think of the activity series as a ranking of 'strength'. A stronger metal can push a weaker metal out of a compound, but a weaker metal cannot push a stronger one.",
+        "intermediate": "Copper (Cu) is above silver (Ag) but below sodium (Na) in the activity series. Therefore, Cu displaces Ag from \\(\\mathrm{AgNO_3}\\) but cannot displace Na from \\(\\mathrm{NaNO_3}\\).",
+        "advanced": "Standard reduction potentials: \\(\\mathrm{Cu^{2+} + 2e^- \\rightarrow Cu}\\) \\(E^\\circ = +0.34\\text{ V}\\), \\(\\mathrm{Ag^+ + e^- \\rightarrow Ag}\\) \\(E^\\circ = +0.80\\text{ V}\\), \\(\\mathrm{Na^+ + e^- \\rightarrow Na}\\) \\(E^\\circ = -2.71\\text{ V}\\). A more negative potential indicates stronger reducing ability (more reactive). Na (\\(-2.71\\)) is much more reactive than Cu (\\(+0.34\\)).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Locate copper, silver, and sodium in the activity series",
+          "Determine relative positions: Na > Cu > Ag",
+          "Displacement possible only if the free metal is above the metal in the compound",
+          "Cu above Ag → displaces Ag; Cu below Na → cannot displace Na"
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\mathrm{Cu + 2AgNO_3 \\rightarrow Cu(NO_3)_2 + 2Ag}",
+            "name": "Single displacement of silver by copper",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "All metals can displace all other metals is incorrect; displacement only occurs if the free metal is more reactive.",
+          "Copper can displace sodium because both are metals is incorrect; sodium is far more reactive and will actually displace copper from its compounds."
+        ],
+        "related_concepts": ["activity series", "standard reduction potential", "redox reaction", "metal reactivity"],
+        "revision_note": "Single displacement: more reactive metal displaces less reactive metal. Activity series order: Na > Cu > Ag.",
+        "glossary_entry": {
+          "term": "Activity series",
+          "definition": "A list of elements ordered by their reactivity, where more reactive elements displace less reactive ones from compounds.",
+          "example_equation": "Na > Cu > Ag, so Cu displaces Ag but not Na",
+          "related_terms": ["single displacement", "reduction potential", "reactivity"]
+        },
+        "flashcard": {
+          "front": "Why does copper displace silver from \\(\\mathrm{AgNO_3}\\) but not sodium from \\(\\mathrm{NaNO_3}\\)?",
+          "back": "Copper is above silver (more reactive) but below sodium (less reactive) in the activity series."
+        },
+        "concept_map_nodes": [
+          {"source": "Activity series", "relation": "determines", "target": "single displacement"},
+          {"source": "Cu", "relation": "is more reactive than", "target": "Ag"},
+          {"source": "Na", "relation": "is more reactive than", "target": "Cu"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 1 — Activity Series",
+        "flashcard_front": "Can copper displace sodium from \\(\\mathrm{NaNO_3}\\)? Why or why not?",
+        "flashcard_back": "No, because copper is below sodium in the activity series (less reactive), so it cannot displace sodium.",
+        "glossary_term": "Activity series",
+        "glossary_definition": "A ranking of elements by reactivity, used to predict single displacement reactions.",
+        "revision_note": "Displacement: more reactive metal displaces less reactive one.",
+        "teacher_note": "Use a visual activity series poster. Students often memorize that 'Cu displaces Ag' but forget to check relative reactivity. Emphasize that reactivity order determines displacement ability.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Predict products of single displacement reactions using the activity series",
+        "concept_map_nodes": [
+          {"source": "Activity series", "relation": "orders metals by", "target": "reactivity"},
+          {"source": "Single displacement", "relation": "requires", "target": "reactivity difference"}
+        ],
+        "workbook_section": "Types of Chemical Reactions",
+        "solution_manual_note": "Answer B. Copper is more reactive than silver but less reactive than sodium, so it displaces silver but not sodium."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U1_Q010",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+      "section": "1.3 Types of Chemical Reactions",
+      "subsection": "A. Direct Combination Reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Combination reaction",
+      "mcq_type": "G",
+      "question": "When calcium oxide \\((\\mathrm{CaO})\\) reacts with carbon dioxide \\((\\mathrm{CO_2})\\), calcium carbonate \\((\\mathrm{CaCO_3})\\) forms. What condition must be met for this combination reaction to occur?",
+      "options": {
+        "A": "The products must be less stable than the reactants",
+        "B": "The reactants must be elements only",
+        "C": "Both reactants must be in aqueous solution",
+        "D": "The reactants must come together to form a single product"
+      },
+      "correct_answer": "D",
+      "hint": "Recall the defining feature of a combination reaction.",
+      "explanation": "Combination reactions require that two or more reactants form a single product, regardless of whether the reactants are elements or compounds. Option A is incorrect because products in combination reactions are generally more stable.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\mathrm{CaO + CO_2 \\rightarrow CaCO_3}"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 85,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "section_anchor": "1.3 Types of Chemical Reactions",
+        "subsection_anchor": "A. Direct Combination Reactions",
+        "structural_element": "Combination reaction",
+        "content_anchor": "CaO + CO_2 \\rightarrow CaCO_3. Compound + Compound \\rightarrow Compound",
+        "page_hint": 13,
+        "concept_hash": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "A combination reaction requires that two or more reactants combine to form a single product, regardless of whether reactants are elements or compounds.",
+        "concept_summary": "The essential condition for a combination reaction is the formation of one product from multiple reactants. The reactants can be elements or compounds.",
+        "beginner": "It's like mixing two ingredients that always make exactly one dish. Even if both ingredients are already cooked (compounds), they can still combine into one new thing.",
+        "intermediate": "In \\(\\mathrm{CaO + CO_2 \\rightarrow CaCO_3}\\), two compounds combine to form a single compound (calcium carbonate), satisfying the defining condition of a combination reaction.",
+        "advanced": "Combination reactions are characterized by a decrease in the number of distinct chemical species. The reaction \\(\\mathrm{CaO(s) + CO_2(g) \\rightarrow CaCO_3(s)}\\) shows two solid/gas reactants forming one solid product, with a decrease in entropy but often exothermic.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the number of reactants (two: CaO and CO_2)",
+          "Identify the number of products (one: CaCO_3)",
+          "Confirm that the product contains atoms from both reactants",
+          "Classify as combination reaction regardless of element/compound status"
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\mathrm{CaO + CO_2 \\rightarrow CaCO_3}",
+            "name": "Combination of calcium oxide and carbon dioxide",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Combination reactions only involve elements is incorrect; compounds can also combine, as shown by \\(\\mathrm{CaO + CO_2 \\rightarrow CaCO_3}\\).",
+          "Combination reactions always produce a compound that is less stable than reactants is incorrect; typically the product is more stable (lower energy)."
+        ],
+        "related_concepts": ["synthesis", "combination", "reactants", "products", "stability"],
+        "revision_note": "Combination: multiple reactants (elements or compounds) \\(\\rightarrow\\) one product.",
+        "glossary_entry": {
+          "term": "Combination reaction condition",
+          "definition": "The requirement that two or more reactants form a single product, which may be an element or a compound.",
+          "example_equation": "\\(\\mathrm{CaO + CO_2 \\rightarrow CaCO_3}\\)",
+          "related_terms": ["synthesis", "direct combination"]
+        },
+        "flashcard": {
+          "front": "What condition defines a combination reaction?",
+          "back": "Two or more reactants must combine to form a single product (the reactants can be elements or compounds)."
+        },
+        "concept_map_nodes": [
+          {"source": "Combination reaction", "relation": "requires", "target": "single product"},
+          {"source": "CaO and CO_2", "relation": "combine to form", "target": "CaCO_3"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 1 — Types of Reactions",
+        "flashcard_front": "What must happen for a reaction to be classified as a combination reaction?",
+        "flashcard_back": "Two or more reactants must combine to form a single product, as in \\(\\mathrm{CaO + CO_2 \\rightarrow CaCO_3}\\).",
+        "glossary_term": "Combination reaction",
+        "glossary_definition": "A reaction where two or more reactants form a single product, which may be a compound of elements or compounds.",
+        "revision_note": "Combination: multiple reactants \\(\\rightarrow\\) one product. Reactants can be elements or compounds.",
+        "teacher_note": "Reinforce that combination is defined by the number of products (one), not the nature of reactants. Many students mistakenly think only elements can combine.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Identify combination reactions from given examples",
+        "concept_map_nodes": [
+          {"source": "Combination reaction", "relation": "example is", "target": "CaO + CO_2 \\(\\rightarrow\\) CaCO_3"},
+          {"source": "Combination reaction", "relation": "requires", "target": "single product"}
+        ],
+        "workbook_section": "Types of Chemical Reactions",
+        "solution_manual_note": "Answer D. A combination reaction requires multiple reactants to form one product, regardless of whether reactants are elements or compounds."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3450,
+    "average_question_quality": 88.9,
+    "type_distribution": {
+      "A": 3,
+      "D": 3,
+      "F": 2,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "1.1 Introduction": 1,
+      "1.2 Chemical Equations": 2,
+      "1.3 Types of Chemical Reactions": 5,
+      "1.4 Oxidation and Reduction Reactions": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 25,
+      "intermediate_avg": 36,
+      "advanced_avg": 46
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,1822 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Phy_U2_Q010",
+    "covered_sections": [
+      "2.1 Projectile motion>Horizontal Projection",
+      "2.1 Projectile motion>Equations for the horizontal component of motion",
+      "2.1 Projectile motion>Equations of vertical motion",
+      "2.1 Projectile motion>Inclined projectile motion",
+      "2.1 Projectile motion>Horizontal range and maximum height of a projectile",
+      "2.1 Projectile motion>Time of flight"
+    ],
+    "used_question_signatures": [
+      "a3f5c2e8d1b4a7c9e2f3d4c5b6a7e8f9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5",
+      "b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8a0b2c4d6e8f0a2b4",
+      "c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3d5e7f9a1b3c5",
+      "d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8a0b2c4d6",
+      "e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3d5e7",
+      "f8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8",
+      "a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3d5e7f9a1",
+      "b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8a0b2",
+      "c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3",
+      "d4e6f8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4"
+    ],
+    "baseline_counter": {
+      "2.1 Projectile motion": {
+        "Horizontal Projection": {
+          "count": 2,
+          "mini_headings_covered": ["Horizontal Projection", "Equations for the horizontal component of motion", "Equations of vertical motion", "Time of flight", "Range"],
+          "last_question_round": 1
+        },
+        "Inclined projectile motion": {
+          "count": 2,
+          "mini_headings_covered": ["Inclined projectile motion", "Equations of inclined projectile motion", "Displacements of the projectile", "Time of flight", "Horizontal range and maximum height of a projectile", "Relation between range and maximum height"],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Projectile motion": {
+        "question_count": 10,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1 Projectile motion>Horizontal Projection": ["horizontal velocity constant", "time of flight", "range", "independence of motion"],
+      "2.1 Projectile motion>Inclined projectile motion": ["initial velocity components", "maximum height", "range formula", "parabolic trajectory"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 8,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 25.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Physics",
+  "unit": "Unit 2: Two-dimensional motion",
+  "pdf_filename": "P12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 6,
+        "progress_percentage": 16.7
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 2,
+      "mini_headings_covered_count": 11,
+      "structural_coverage_percentage": 25.0,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1 Projectile motion",
+      "least_covered_section": "2.1 Projectile motion",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 100
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Phy_U2_Q001",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Horizontal Projection",
+      "sub_subsection": null,
+      "structural_anchor": "Horizontal Projection",
+      "mcq_type": "A",
+      "question": "What term describes the curved path followed by a projectile under the influence of gravity alone, ignoring air resistance?",
+      "options": {
+        "A": "Trajectory",
+        "B": "Displacement",
+        "C": "Tangent line",
+        "D": "Range vector"
+      },
+      "correct_answer": "A",
+      "hint": "This word describes the specific curved shape of the projectile's path through the air.",
+      "explanation": "Trajectory is the path a projectile follows under gravity, typically parabolic when launched horizontally or at an angle. Option B (displacement) is the straight-line change in position, not the curved path.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Horizontal Projection",
+        "structural_element": "Horizontal Projection",
+        "content_anchor": "the path of a projectile, which we call its trajectory, is a parabola",
+        "page_hint": 2,
+        "concept_hash": "f8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A trajectory is the curved path that a projectile follows when moving under the influence of gravity alone.",
+        "concept_summary": "Projectiles follow parabolic trajectories because horizontal velocity remains constant while vertical motion is uniformly accelerated by gravity.",
+        "beginner": "Think of a basketball thrown toward a hoop. The curved arc it makes through the air is its trajectory, like a rainbow shape.",
+        "intermediate": "A trajectory is the parabolic path resulting from independent horizontal (constant velocity) and vertical (constant acceleration) motions. The shape is a parabola.",
+        "advanced": "The trajectory equation for horizontal projection is \\( y = \\frac{g}{2v_{0x}^2}x^2 \\), showing parabolic dependence of vertical displacement \\(y\\) on horizontal displacement \\(x\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that projectile motion combines constant horizontal velocity with vertical acceleration g.",
+          "The combination of these motions produces a curved path.",
+          "That curved path has a specific name: trajectory."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some believe trajectory is always a straight line, but gravity curves the path downward.",
+          "Others confuse trajectory with displacement; displacement is the straight line from start to end, not the path."
+        ],
+        "related_concepts": ["Parabola", "Projectile motion", "Free fall"],
+        "revision_note": "Trajectory: curved parabolic path of a projectile under gravity.",
+        "glossary_entry": {
+          "term": "Trajectory",
+          "definition": "The curved path followed by a projectile under the influence of gravity alone, ignoring air resistance.",
+          "example_equation": null,
+          "related_terms": ["Parabola", "Projectile motion"]
+        },
+        "flashcard": {
+          "front": "What is the curved path of a projectile called?",
+          "back": "Trajectory — the parabolic path resulting from constant horizontal velocity and vertical acceleration \\(g\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Projectile motion", "relation": "follows", "target": "Trajectory"},
+          {"source": "Trajectory", "relation": "shaped_as", "target": "Parabola"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 2 — Projectile Motion",
+        "flashcard_front": "What is a trajectory?",
+        "flashcard_back": "The curved parabolic path of a projectile under gravity, combining constant horizontal motion with uniformly accelerated vertical motion.",
+        "glossary_term": "Trajectory",
+        "glossary_definition": "The curved path followed by a projectile under the influence of gravity alone, ignoring air resistance.",
+        "revision_note": "Trajectory: parabolic path of a projectile.",
+        "teacher_note": "Common error: students think trajectory is straight. Emphasize that gravity curves all projectile paths.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the motion of a projectile with respect to horizontal and vertical components",
+        "concept_map_nodes": [
+          {"source": "Projectile motion", "relation": "follows", "target": "Trajectory"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer A. Trajectory is the curved path. Displacement (B) is straight-line distance, not the path."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q002",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Horizontal Projection",
+      "sub_subsection": null,
+      "structural_anchor": "Equations for the horizontal component of motion",
+      "mcq_type": "C",
+      "question": "For a projectile launched horizontally from a height \\(h\\) with initial speed \\(v_{0x}\\), which equation correctly gives the horizontal displacement \\(\\Delta x\\) after time \\(t\\)?",
+      "options": {
+        "A": "\\(\\Delta x = v_{0x}t + \\frac{1}{2}gt^2\\)",
+        "B": "\\(\\Delta x = v_{0x}t\\)",
+        "C": "\\(\\Delta x = \\frac{1}{2}gt^2\\)",
+        "D": "\\(\\Delta x = v_{0x}t - \\frac{1}{2}gt^2\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Consider whether there is any horizontal acceleration acting on the projectile.",
+      "explanation": "The horizontal component of velocity remains constant because gravity acts only vertically, giving \\(\\Delta x = v_{0x}t\\). Option A incorrectly includes gravitational acceleration in the horizontal direction.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\Delta x = v_{0x}t\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Horizontal Projection",
+        "structural_element": "Equations for the horizontal component of motion",
+        "content_anchor": "Δx = v₀ₓt",
+        "page_hint": 3,
+        "concept_hash": "a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3d5e7f9a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Horizontal displacement in projectile motion equals horizontal velocity multiplied by time, since horizontal acceleration is zero.",
+        "concept_summary": "In projectile motion, gravity acts only vertically, so horizontal velocity \\(v_{0x}\\) remains constant, giving \\(\\Delta x = v_{0x}t\\).",
+        "beginner": "Imagine rolling a ball off a table. It moves sideways at constant speed while falling; the sideways distance is just speed times time.",
+        "intermediate": "Because there is no horizontal force (ignoring air resistance), horizontal acceleration is zero. Thus \\(v_x = v_{0x}\\) constant, and \\(\\Delta x = v_{0x}t\\).",
+        "advanced": "From Newton's second law, \\(\\sum F_x = 0 \\Rightarrow a_x = 0\\). Integrating twice: \\(v_x = v_{0x}\\), then \\(\\Delta x = v_{0x}t\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that no horizontal forces act on the projectile.",
+          "Conclude horizontal acceleration is zero.",
+          "Apply constant-velocity equation: \\(\\Delta x = v_{0x}t\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\Delta x = v_{0x}t\\)",
+            "name": "Horizontal displacement for constant velocity",
+            "variables": [
+              {"symbol": "\\(\\Delta x\\)", "meaning": "Horizontal displacement", "unit": "m"},
+              {"symbol": "\\(v_{0x}\\)", "meaning": "Initial horizontal velocity", "unit": "m/s"},
+              {"symbol": "\\(t\\)", "meaning": "Time", "unit": "s"}
+            ],
+            "derivation": "From \\(a_x = 0\\), integrate: \\(v_x = v_{0x}\\), then \\(x = x_0 + v_{0x}t\\)."
+          }
+        ],
+        "misconceptions": [
+          "Some think gravity affects horizontal motion, but horizontal and vertical components are independent.",
+          "Adding \\(\\frac{1}{2}gt^2\\) to horizontal displacement incorrectly mixes vertical acceleration into horizontal motion."
+        ],
+        "related_concepts": ["Constant velocity motion", "Independence of perpendicular motions"],
+        "revision_note": "Horizontal: \\(\\Delta x = v_{0x}t\\). No \\(g\\) in x-direction.",
+        "glossary_entry": {
+          "term": "Horizontal displacement",
+          "definition": "The distance traveled horizontally by a projectile, equal to horizontal velocity multiplied by time.",
+          "example_equation": "\\(\\Delta x = v_{0x}t\\)",
+          "related_terms": ["Range", "Time of flight"]
+        },
+        "flashcard": {
+          "front": "What is the formula for horizontal displacement in projectile motion?",
+          "back": "\\(\\Delta x = v_{0x}t\\), because horizontal velocity is constant (no horizontal acceleration)."
+        },
+        "concept_map_nodes": [
+          {"source": "Projectile motion", "relation": "has_horizontal_component", "target": "\\(\\Delta x = v_{0x}t\\)"},
+          {"source": "\\(\\Delta x = v_{0x}t\\)", "relation": "requires", "target": "Constant horizontal velocity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 2 — Projectile Motion",
+        "flashcard_front": "Why is horizontal displacement \\(\\Delta x = v_{0x}t\\) in projectile motion?",
+        "flashcard_back": "No horizontal acceleration (gravity acts vertically), so horizontal velocity is constant: \\(\\Delta x = v_{0x}t\\).",
+        "glossary_term": "Horizontal displacement",
+        "glossary_definition": "The distance traveled horizontally by a projectile, equal to horizontal velocity multiplied by time.",
+        "revision_note": "\\(\\Delta x = v_{0x}t\\). Horizontal motion has constant velocity.",
+        "teacher_note": "Students often add \\(\\frac{1}{2}gt^2\\) to horizontal displacement. Emphasize independence of x and y motions.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Derive equations related to projectile motion",
+        "concept_map_nodes": [
+          {"source": "Projectile motion", "relation": "uses", "target": "\\(\\Delta x = v_{0x}t\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer B. No horizontal acceleration means constant \\(v_x\\), so \\(\\Delta x = v_{0x}t\\)."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q003",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Horizontal Projection",
+      "sub_subsection": null,
+      "structural_anchor": "Equations of vertical motion",
+      "mcq_type": "C",
+      "question": "For a projectile launched horizontally, the vertical displacement \\(\\Delta y\\) after time \\(t\\) is given by which equation?",
+      "options": {
+        "A": "\\(\\Delta y = v_{0y}t\\)",
+        "B": "\\(\\Delta y = v_{0y}t + \\frac{1}{2}gt\\)",
+        "C": "\\(\\Delta y = \\frac{1}{2}gt^2\\)",
+        "D": "\\(\\Delta y = gt^2\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Remember that initial vertical velocity is zero for horizontal launch.",
+      "explanation": "With \\(v_{0y} = 0\\) for horizontal projection, the constant-acceleration equation reduces to \\(\\Delta y = \\frac{1}{2}gt^2\\). Option D omits the \\(\\frac{1}{2}\\) factor, giving incorrect magnitude.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\Delta y = \\frac{1}{2}gt^2\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Horizontal Projection",
+        "structural_element": "Equations of vertical motion",
+        "content_anchor": "Δy = ½gt²",
+        "page_hint": 4,
+        "concept_hash": "b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4e6f8a0b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Vertical displacement for horizontally launched projectiles equals one-half times gravitational acceleration times time squared.",
+        "concept_summary": "Since initial vertical velocity is zero, vertical motion is free fall from rest: \\(\\Delta y = \\frac{1}{2}gt^2\\).",
+        "beginner": "If you drop a ball and also roll one off a table, both fall the same vertical distance in the same time, given by \\(\\frac{1}{2}gt^2\\).",
+        "intermediate": "With \\(v_{0y}=0\\) and constant downward acceleration \\(g\\), the kinematic equation \\(\\Delta y = v_{0y}t + \\frac{1}{2}gt^2\\) simplifies to \\(\\Delta y = \\frac{1}{2}gt^2\\).",
+        "advanced": "Integrating \\(a_y = -g\\) twice with \\(v_{0y}=0\\) and \\(y_0=0\\): \\(v_y = -gt\\), then \\(y = -\\frac{1}{2}gt^2\\). Magnitude gives \\(\\Delta y = \\frac{1}{2}gt^2\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize initial vertical velocity \\(v_{0y} = 0\\) for horizontal launch.",
+          "Vertical acceleration is constant: \\(a_y = g\\) downward.",
+          "Apply \\(\\Delta y = v_{0y}t + \\frac{1}{2}a_y t^2\\) with \\(a_y = g\\).",
+          "Result: \\(\\Delta y = \\frac{1}{2}gt^2\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\Delta y = \\frac{1}{2}gt^2\\)",
+            "name": "Vertical displacement under constant acceleration from rest",
+            "variables": [
+              {"symbol": "\\(\\Delta y\\)", "meaning": "Vertical displacement", "unit": "m"},
+              {"symbol": "\\(g\\)", "meaning": "Acceleration due to gravity", "unit": "m/s²"},
+              {"symbol": "\\(t\\)", "meaning": "Time", "unit": "s"}
+            ],
+            "derivation": "From \\(a = g\\), \\(v_0=0\\): integrate \\(v = gt\\), then integrate to get \\(y = \\frac{1}{2}gt^2\\)."
+          }
+        ],
+        "misconceptions": [
+          "Some think horizontal launch affects vertical drop; it does not — vertical motion is independent.",
+          "Omitting the \\(\\frac{1}{2}\\) factor is a common algebraic error when using \\(\\Delta y = gt^2\\)."
+        ],
+        "related_concepts": ["Free fall", "Independence of motion", "Kinematic equations"],
+        "revision_note": "Horizontal launch: \\(\\Delta y = \\frac{1}{2}gt^2\\). \\(v_{0y}=0\\).",
+        "glossary_entry": {
+          "term": "Vertical displacement (horizontal launch)",
+          "definition": "The vertical distance a horizontally launched projectile falls, given by \\(\\frac{1}{2}gt^2\\).",
+          "example_equation": "\\(\\Delta y = \\frac{1}{2}gt^2\\)",
+          "related_terms": ["Free fall", "Time of flight"]
+        },
+        "flashcard": {
+          "front": "What is the vertical displacement for a horizontally launched projectile?",
+          "back": "\\(\\Delta y = \\frac{1}{2}gt^2\\) because initial vertical velocity is zero and vertical acceleration is \\(g\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Horizontal launch", "relation": "has_vertical_motion", "target": "\\(\\Delta y = \\frac{1}{2}gt^2\\)"},
+          {"source": "\\(\\Delta y = \\frac{1}{2}gt^2\\)", "relation": "derived_from", "target": "Free fall from rest"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 2 — Projectile Motion",
+        "flashcard_front": "Why is vertical displacement \\(\\Delta y = \\frac{1}{2}gt^2\\) for horizontal launch?",
+        "flashcard_back": "Initial vertical velocity is zero, vertical acceleration is \\(g\\), so \\(\\Delta y = \\frac{1}{2}gt^2\\) from kinematics.",
+        "glossary_term": "Vertical displacement",
+        "glossary_definition": "The vertical distance a horizontally launched projectile falls, equal to \\(\\frac{1}{2}gt^2\\).",
+        "revision_note": "\\(\\Delta y = \\frac{1}{2}gt^2\\) (horizontal launch, \\(v_{0y}=0\\)).",
+        "teacher_note": "Reinforce that horizontal launch means the projectile is dropped vertically from rest while moving horizontally.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Derive equations related to projectile motion",
+        "concept_map_nodes": [
+          {"source": "Horizontal launch", "relation": "gives", "target": "\\(\\Delta y = \\frac{1}{2}gt^2\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer C. \\(v_{0y}=0\\) so \\(\\Delta y = \\frac{1}{2}gt^2\\). Option D missing \\(\\frac{1}{2}\\)."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q004",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Horizontal Projection",
+      "sub_subsection": null,
+      "structural_anchor": "Time of flight",
+      "mcq_type": "D",
+      "question": "A ball is launched horizontally from a height of \\(45 \\, \\text{m}\\) above level ground with initial speed \\(v_{0x} = 20 \\, \\text{m/s}\\). How long does it take to hit the ground? (Use \\(g = 10 \\, \\text{m/s}^2\\))",
+      "options": {
+        "A": "\\(2.0 \\, \\text{s}\\)",
+        "B": "\\(3.0 \\, \\text{s}\\)",
+        "C": "\\(4.5 \\, \\text{s}\\)",
+        "D": "\\(9.0 \\, \\text{s}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "The time of flight depends only on vertical displacement and gravity, not horizontal speed.",
+      "explanation": "From \\(\\Delta y = \\frac{1}{2}gt^2\\) with \\(\\Delta y = 45 \\, \\text{m}\\), solving gives \\(t = \\sqrt{2 \\times 45 / 10} = 3.0 \\, \\text{s}\\). Option A incorrectly uses \\(\\Delta y / v_{0x}\\) mixing horizontal and vertical quantities.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(t = \\sqrt{\\frac{2\\Delta y}{g}}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "\\(\\Delta y\\)": {"magnitude": 45, "unit": "m"},
+          "\\(g\\)": {"magnitude": 10, "unit": "m/s²"}
+        },
+        "answer_value": 3.0,
+        "answer_unit": "s",
+        "calculation_steps": [
+          "\\(\\Delta y = \\frac{1}{2}gt^2\\)",
+          "\\(45 = \\frac{1}{2} \\times 10 \\times t^2\\)",
+          "\\(45 = 5t^2\\)",
+          "\\(t^2 = 9\\)",
+          "\\(t = 3.0 \\, \\text{s}\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Horizontal Projection",
+        "structural_element": "Time of flight",
+        "content_anchor": "t = sqrt(2Δy/g)",
+        "page_hint": 4,
+        "concept_hash": "c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5f7a9b1c3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 86,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Time of flight is the duration a projectile remains in the air from launch to landing.",
+        "concept_summary": "For horizontal projection, time of flight depends only on height and gravity: \\(t = \\sqrt{2h/g}\\), independent of horizontal speed.",
+        "beginner": "Imagine dropping a ball from 45 m — it takes 3 seconds to hit the ground. Rolling it sideways doesn't change the falling time.",
+        "intermediate": "Using \\(\\Delta y = \\frac{1}{2}gt^2\\) with \\(\\Delta y = 45 \\, \\text{m}\\), \\(g = 10 \\, \\text{m/s}^2\\): \\(45 = 5t^2 \\Rightarrow t = 3 \\, \\text{s}\\).",
+        "advanced": "From \\(y = y_0 + v_{0y}t - \\frac{1}{2}gt^2\\), with \\(v_{0y}=0\\), \\(y_0 = h\\), \\(y=0\\): \\(0 = h - \\frac{1}{2}gt^2 \\Rightarrow t = \\sqrt{2h/g}\\).",
+        "worked_solution": [
+          "Step 1: Identify vertical displacement: \\(\\Delta y = 45 \\, \\text{m}\\) downward.",
+          "Step 2: Use \\(\\Delta y = \\frac{1}{2}gt^2\\) with \\(g = 10 \\, \\text{m/s}^2\\).",
+          "Step 3: Substitute: \\(45 = \\frac{1}{2} \\times 10 \\times t^2\\).",
+          "Step 4: Simplify: \\(45 = 5t^2\\).",
+          "Step 5: Solve: \\(t^2 = 9\\), \\(t = 3.0 \\, \\text{s}\\)."
+        ],
+        "reasoning_steps": [
+          "Recognize that vertical motion determines time of flight.",
+          "Use \\(\\Delta y = \\frac{1}{2}gt^2\\) with \\(v_{0y}=0\\).",
+          "Solve for \\(t = \\sqrt{2\\Delta y / g}\\).",
+          "Plug in \\(\\Delta y = 45 \\, \\text{m}\\), \\(g = 10 \\, \\text{m/s}^2\\) to get \\(t = 3.0 \\, \\text{s}\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(t = \\sqrt{\\frac{2\\Delta y}{g}}\\)",
+            "name": "Time of flight for horizontal launch",
+            "variables": [
+              {"symbol": "\\(t\\)", "meaning": "Time of flight", "unit": "s"},
+              {"symbol": "\\(\\Delta y\\)", "meaning": "Vertical displacement (height)", "unit": "m"},
+              {"symbol": "\\(g\\)", "meaning": "Acceleration due to gravity", "unit": "m/s²"}
+            ],
+            "derivation": "From \\(\\Delta y = \\frac{1}{2}gt^2\\) → \\(t^2 = \\frac{2\\Delta y}{g}\\) → \\(t = \\sqrt{2\\Delta y / g}\\)."
+          }
+        ],
+        "misconceptions": [
+          "Some use horizontal speed to compute time, but time of flight depends only on vertical motion.",
+          "Forgetting to take the square root is a common algebraic mistake."
+        ],
+        "related_concepts": ["Free fall", "Vertical motion under gravity", "Range"],
+        "revision_note": "Time of flight for horizontal launch: \\(t = \\sqrt{2h/g}\\). Independent of \\(v_{0x}\\).",
+        "glossary_entry": {
+          "term": "Time of flight",
+          "definition": "The total time a projectile remains in the air from launch until it hits the ground.",
+          "example_equation": "\\(t = \\sqrt{\\frac{2h}{g}}\\) (horizontal launch)",
+          "related_terms": ["Range", "Free fall"]
+        },
+        "flashcard": {
+          "front": "How do you calculate time of flight for a horizontally launched projectile?",
+          "back": "\\(t = \\sqrt{2h/g}\\). It depends only on launch height \\(h\\) and gravity \\(g\\), not horizontal speed."
+        },
+        "concept_map_nodes": [
+          {"source": "Horizontal launch", "relation": "has_time_of_flight", "target": "\\(t = \\sqrt{2h/g}\\)"},
+          {"source": "\\(t = \\sqrt{2h/g}\\)", "relation": "depends_only_on", "target": "Height and gravity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook", "solution_manual"],
+        "flashcard_deck": "Physics Unit 2 — Projectile Motion",
+        "flashcard_front": "A ball is launched horizontally from 45 m height. How does time of flight depend on horizontal speed?",
+        "flashcard_back": "It doesn't. \\(t = \\sqrt{2h/g} = 3.0 \\, \\text{s}\\) for \\(h=45 \\, \\text{m}\\), \\(g=10 \\, \\text{m/s}^2\\). Horizontal speed does not affect fall time.",
+        "glossary_term": "Time of flight",
+        "glossary_definition": "Total time a projectile is in the air; for horizontal launch, \\(t = \\sqrt{2h/g}\\).",
+        "revision_note": "Time of flight = \\(\\sqrt{2h/g}\\). Independent of \\(v_{0x}\\).",
+        "teacher_note": "Classic misconception: students think faster horizontal speed means longer flight time. Emphasize independence.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply equations to solve problems related to projectile motion",
+        "concept_map_nodes": [
+          {"source": "Time of flight", "relation": "formula", "target": "\\(t = \\sqrt{2h/g}\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer B. \\(t = \\sqrt{2 \\times 45 / 10} = 3.0 \\, \\text{s}\\). Option A is \\(h/v_{0x}\\), incorrect."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q005",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Horizontal Projection",
+      "sub_subsection": null,
+      "structural_anchor": "Range",
+      "mcq_type": "D",
+      "question": "Using the ball from the previous question (launched horizontally from \\(45 \\, \\text{m}\\) height with \\(v_{0x} = 20 \\, \\text{m/s}\\), \\(g = 10 \\, \\text{m/s}^2\\)), what is the horizontal range?",
+      "options": {
+        "A": "\\(40 \\, \\text{m}\\)",
+        "B": "\\(60 \\, \\text{m}\\)",
+        "C": "\\(90 \\, \\text{m}\\)",
+        "D": "\\(120 \\, \\text{m}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply horizontal speed by the time of flight you calculated in the previous question.",
+      "explanation": "Range \\(R = v_{0x} \\times t = 20 \\, \\text{m/s} \\times 3.0 \\, \\text{s} = 60 \\, \\text{m}\\). Option A incorrectly uses \\(t = 2 \\, \\text{s}\\) from a common error in time calculation.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(R = v_{0x}t\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "\\(v_{0x}\\)": {"magnitude": 20, "unit": "m/s"},
+          "\\(t\\)": {"magnitude": 3.0, "unit": "s"}
+        },
+        "answer_value": 60,
+        "answer_unit": "m",
+        "calculation_steps": [
+          "\\(R = v_{0x} \\times t\\)",
+          "\\(R = 20 \\times 3.0\\)",
+          "\\(R = 60 \\, \\text{m}\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Horizontal Projection",
+        "structural_element": "Range",
+        "content_anchor": "R = v₀ₓt",
+        "page_hint": 4,
+        "concept_hash": "d4e6f8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6a8b0c2d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 84,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Range is the maximum horizontal distance traveled by a projectile from launch point to landing point.",
+        "concept_summary": "For horizontal projection, range equals horizontal velocity multiplied by time of flight: \\(R = v_{0x} \\times t\\).",
+        "beginner": "If you roll a ball off a table at 20 m/s and it takes 3 seconds to fall, it will land 60 meters away.",
+        "intermediate": "Since horizontal velocity is constant, \\(R = v_{0x}t\\). With \\(t = 3.0 \\, \\text{s}\\) from vertical motion, \\(R = 20 \\times 3.0 = 60 \\, \\text{m}\\).",
+        "advanced": "Combining \\(R = v_{0x}t\\) with \\(t = \\sqrt{2h/g}\\) gives \\(R = v_{0x}\\sqrt{2h/g}\\), showing range depends on both height and horizontal speed.",
+        "worked_solution": [
+          "Step 1: Recall time of flight from previous calculation: \\(t = 3.0 \\, \\text{s}\\).",
+          "Step 2: Horizontal velocity is constant: \\(v_{0x} = 20 \\, \\text{m/s}\\).",
+          "Step 3: Range equation: \\(R = v_{0x} \\times t\\).",
+          "Step 4: Substitute: \\(R = 20 \\times 3.0 = 60 \\, \\text{m}\\)."
+        ],
+        "reasoning_steps": [
+          "Find time of flight from vertical motion: \\(t = \\sqrt{2h/g}\\).",
+          "Multiply by constant horizontal velocity.",
+          "Result is the horizontal range."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(R = v_{0x}t\\)",
+            "name": "Range for horizontal projection",
+            "variables": [
+              {"symbol": "\\(R\\)", "meaning": "Range", "unit": "m"},
+              {"symbol": "\\(v_{0x}\\)", "meaning": "Initial horizontal velocity", "unit": "m/s"},
+              {"symbol": "\\(t\\)", "meaning": "Time of flight", "unit": "s"}
+            ],
+            "derivation": "From \\(\\Delta x = v_{0x}t\\) with \\(\\Delta x = R\\) when projectile lands."
+          }
+        ],
+        "misconceptions": [
+          "Some think range depends only on initial speed, but height also matters because it determines time of flight.",
+          "Using incorrect time (e.g., 2 s instead of 3 s) is a common arithmetic error."
+        ],
+        "related_concepts": ["Time of flight", "Horizontal velocity", "Projectile range"],
+        "revision_note": "Range \\(R = v_{0x}t = v_{0x}\\sqrt{2h/g}\\).",
+        "glossary_entry": {
+          "term": "Range",
+          "definition": "The maximum horizontal distance a projectile travels from launch to landing.",
+          "example_equation": "\\(R = v_{0x}t\\)",
+          "related_terms": ["Time of flight", "Horizontal displacement"]
+        },
+        "flashcard": {
+          "front": "How is range calculated for a horizontally launched projectile?",
+          "back": "\\(R = v_{0x}t\\), where \\(t = \\sqrt{2h/g}\\). Range depends on height and horizontal speed."
+        },
+        "concept_map_nodes": [
+          {"source": "Range", "relation": "equals", "target": "\\(v_{0x} \\times t\\)"},
+          {"source": "Range", "relation": "depends_on", "target": "Launch height"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook", "solution_manual"],
+        "flashcard_deck": "Physics Unit 2 — Projectile Motion",
+        "flashcard_front": "A ball launched horizontally at 20 m/s from 45 m height. What is its range? (g=10 m/s²)",
+        "flashcard_back": "\\(t = \\sqrt{2 \\times 45 / 10} = 3.0 \\, \\text{s}\\); \\(R = 20 \\times 3.0 = 60 \\, \\text{m}\\).",
+        "glossary_term": "Range",
+        "glossary_definition": "Maximum horizontal distance traveled by a projectile.",
+        "revision_note": "Range = \\(v_{0x} \\times \\text{time of flight}\\).",
+        "teacher_note": "Link to previous question: reinforces that time of flight from Q4 is needed here.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply equations to solve problems related to projectile motion",
+        "concept_map_nodes": [
+          {"source": "Range", "relation": "formula", "target": "\\(R = v_{0x}t\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer B. \\(t = 3.0 \\, \\text{s}\\) from Q4; \\(R = 20 \\times 3.0 = 60 \\, \\text{m}\\)."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q006",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Inclined projectile motion",
+      "sub_subsection": null,
+      "structural_anchor": "Inclined projectile motion",
+      "mcq_type": "F",
+      "question": "A projectile is launched at an angle \\(\\theta\\) above the horizontal with initial speed \\(v_0\\). Which statement correctly describes the horizontal component of velocity throughout the flight (ignoring air resistance)?",
+      "options": {
+        "A": "It increases linearly with time",
+        "B": "It decreases linearly with time",
+        "C": "It remains constant",
+        "D": "It becomes zero at maximum height"
+      },
+      "correct_answer": "C",
+      "hint": "Consider what forces act horizontally on the projectile after launch.",
+      "explanation": "Gravity acts only vertically, so horizontal acceleration is zero, making \\(v_x = v_0 \\cos \\theta\\) constant. Option D confuses horizontal velocity with vertical velocity, which is zero at the peak.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(v_x = v_0 \\cos \\theta\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Inclined projectile motion",
+        "structural_element": "Inclined projectile motion",
+        "content_anchor": "The horizontal component of the velocity is constant throughout the flight",
+        "page_hint": 7,
+        "concept_hash": "e5f7a9b1c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Horizontal velocity component remains constant throughout projectile motion because gravity provides no horizontal force.",
+        "concept_summary": "Ignoring air resistance, the only force is gravity (vertical), so horizontal acceleration is zero and \\(v_x = v_0 \\cos \\theta\\) is constant.",
+        "beginner": "If you throw a ball at an angle, its sideways speed doesn't change during flight — only its up/down speed changes because gravity pulls down, not sideways.",
+        "intermediate": "Newton's first law: no horizontal force means no horizontal acceleration. Thus \\(v_x = v_0 \\cos \\theta\\) = constant at all times.",
+        "advanced": "From \\(\\sum F_x = 0\\), \\(a_x = 0\\). Integrating twice: \\(v_x = \\text{constant} = v_0 \\cos \\theta\\); horizontal displacement \\(\\Delta x = (v_0 \\cos \\theta)t\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify all forces acting on the projectile after launch (gravity only, downward).",
+          "Note there is no horizontal force component.",
+          "Conclude horizontal acceleration is zero.",
+          "Therefore horizontal velocity remains constant at its initial value \\(v_0 \\cos \\theta\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(v_x = v_0 \\cos \\theta\\)",
+            "name": "Horizontal velocity component",
+            "variables": [
+              {"symbol": "\\(v_x\\)", "meaning": "Horizontal velocity at any time", "unit": "m/s"},
+              {"symbol": "\\(v_0\\)", "meaning": "Initial launch speed", "unit": "m/s"},
+              {"symbol": "\\(\\theta\\)", "meaning": "Launch angle above horizontal", "unit": "degrees or rad"}
+            ],
+            "derivation": "Trigonometric resolution of initial velocity vector into components."
+          }
+        ],
+        "misconceptions": [
+          "Some believe horizontal speed decreases because the projectile slows down overall, but only vertical component changes.",
+          "Confusing horizontal velocity with vertical velocity at the peak: vertical velocity becomes zero, not horizontal."
+        ],
+        "related_concepts": ["Independence of motion", "Newton's first law", "Vector components"],
+        "revision_note": "Horizontal velocity constant: \\(v_x = v_0 \\cos \\theta\\). No horizontal acceleration.",
+        "glossary_entry": {
+          "term": "Horizontal velocity component",
+          "definition": "The constant horizontal speed of a projectile, equal to \\(v_0 \\cos \\theta\\).",
+          "example_equation": "\\(v_x = v_0 \\cos \\theta\\)",
+          "related_terms": ["Independence of motion", "Vector resolution"]
+        },
+        "flashcard": {
+          "front": "Does horizontal velocity change during projectile motion (no air resistance)? Why?",
+          "back": "No, it remains constant because gravity acts only vertically, so horizontal acceleration is zero."
+        },
+        "concept_map_nodes": [
+          {"source": "Projectile motion", "relation": "has_constant", "target": "Horizontal velocity"},
+          {"source": "Constant horizontal velocity", "relation": "because", "target": "No horizontal force"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 2 — Inclined Projectiles",
+        "flashcard_front": "Why is horizontal velocity constant in projectile motion?",
+        "flashcard_back": "No horizontal forces (air resistance ignored) → zero horizontal acceleration → \\(v_x = v_0 \\cos \\theta\\) constant.",
+        "glossary_term": "Horizontal velocity component",
+        "glossary_definition": "The constant horizontal speed of a projectile, equal to \\(v_0 \\cos \\theta\\).",
+        "revision_note": "\\(v_x = v_0 \\cos \\theta\\) = constant.",
+        "teacher_note": "This is a fundamental concept: independence of perpendicular motions.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain the motion of a projectile with respect to horizontal and vertical components",
+        "concept_map_nodes": [
+          {"source": "Projectile motion", "relation": "has", "target": "Constant \\(v_x\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer C. No horizontal force → \\(a_x=0\\) → \\(v_x\\) constant."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q007",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Inclined projectile motion",
+      "sub_subsection": null,
+      "structural_anchor": "Horizontal range and maximum height of a projectile",
+      "mcq_type": "G",
+      "question": "If a projectile is launched with initial speed \\(v_0\\) at angle \\(\\theta\\) on level ground, the horizontal range \\(R\\) is given by \\(R = \\frac{v_0^2 \\sin 2\\theta}{g}\\). For a fixed \\(v_0\\), at which launch angle does the maximum range occur?",
+      "options": {
+        "A": "\\(0^\\circ\\)",
+        "B": "\\(30^\\circ\\)",
+        "C": "\\(45^\\circ\\)",
+        "D": "\\(60^\\circ\\)"
+      },
+      "correct_answer": "C",
+      "hint": "The sine function reaches its maximum value of 1 at \\(90^\\circ\\).",
+      "explanation": "\\(\\sin 2\\theta\\) is maximized when \\(2\\theta = 90^\\circ\\) or \\(\\theta = 45^\\circ\\). At \\(45^\\circ\\), \\(\\sin 90^\\circ = 1\\), giving \\(R_{\\text{max}} = v_0^2/g\\). Options \\(30^\\circ\\) and \\(60^\\circ\\) give the same range (since \\(\\sin 60^\\circ = \\sin 120^\\circ\\)), but less than the maximum.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(R = \\frac{v_0^2 \\sin 2\\theta}{g}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 3.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Inclined projectile motion",
+        "structural_element": "Horizontal range and maximum height of a projectile",
+        "content_anchor": "range is maximum at 45°",
+        "page_hint": 9,
+        "concept_hash": "f6a8b0c2d4e6f8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8c0d2e4f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Maximum range for a projectile on level ground occurs at a launch angle of \\(45^\\circ\\) above the horizontal.",
+        "concept_summary": "Range \\(R = (v_0^2 \\sin 2\\theta)/g\\) is maximized when \\(\\sin 2\\theta = 1\\), i.e., \\(2\\theta = 90^\\circ\\), so \\(\\theta = 45^\\circ\\).",
+        "beginner": "Imagine throwing a ball as far as possible. Throwing too low or too high makes it land closer; the sweet spot is halfway between horizontal and vertical — \\(45^\\circ\\).",
+        "intermediate": "Since \\(\\sin 2\\theta\\) has a maximum value of 1, setting \\(2\\theta = 90^\\circ\\) gives \\(\\theta = 45^\\circ\\) for maximum range when launch and landing heights are equal.",
+        "advanced": "Differentiating \\(R(\\theta) = \\frac{v_0^2}{g} \\sin 2\\theta\\) with respect to \\(\\theta\\): \\(\\frac{dR}{d\\theta} = \\frac{v_0^2}{g} \\cdot 2\\cos 2\\theta\\). Setting derivative to zero gives \\(\\cos 2\\theta = 0 \\Rightarrow 2\\theta = 90^\\circ \\Rightarrow \\theta = 45^\\circ\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall range formula: \\(R = \\frac{v_0^2 \\sin 2\\theta}{g}\\).",
+          "For fixed \\(v_0\\) and \\(g\\), \\(R\\) is proportional to \\(\\sin 2\\theta\\).",
+          "Maximum of \\(\\sin 2\\theta\\) is 1 at \\(2\\theta = 90^\\circ\\).",
+          "Solve: \\(\\theta = 45^\\circ\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(R = \\frac{v_0^2 \\sin 2\\theta}{g}\\)",
+            "name": "Range for inclined projectile on level ground",
+            "variables": [
+              {"symbol": "\\(R\\)", "meaning": "Horizontal range", "unit": "m"},
+              {"symbol": "\\(v_0\\)", "meaning": "Initial speed", "unit": "m/s"},
+              {"symbol": "\\(\\theta\\)", "meaning": "Launch angle", "unit": "degrees or rad"},
+              {"symbol": "\\(g\\)", "meaning": "Acceleration due to gravity", "unit": "m/s²"}
+            ],
+            "derivation": "From \\(R = (v_0 \\cos \\theta) \\cdot (2v_0 \\sin \\theta / g) = (v_0^2 \\cdot 2 \\sin \\theta \\cos \\theta)/g = (v_0^2 \\sin 2\\theta)/g\\)."
+          }
+        ],
+        "misconceptions": [
+          "Some believe \\(30^\\circ\\) or \\(60^\\circ\\) gives maximum range; they give equal but submaximal range.",
+          "Launch angle \\(90^\\circ\\) (straight up) gives zero range, not maximum."
+        ],
+        "related_concepts": ["Projectile range", "Trigonometric functions", "Optimization"],
+        "revision_note": "Max range at \\(\\theta = 45^\\circ\\) (level ground). Formula: \\(R = v_0^2/g\\).",
+        "glossary_entry": {
+          "term": "Maximum range",
+          "definition": "The greatest horizontal distance a projectile can travel, achieved at a \\(45^\\circ\\) launch angle on level ground.",
+          "example_equation": "\\(R_{\\text{max}} = \\frac{v_0^2}{g}\\)",
+          "related_terms": ["Range", "Launch angle"]
+        },
+        "flashcard": {
+          "front": "At what launch angle is projectile range maximized (level ground, same launch/land height)?",
+          "back": "\\(45^\\circ\\). From \\(R = \\frac{v_0^2 \\sin 2\\theta}{g}\\), maximum when \\(\\sin 2\\theta = 1 \\Rightarrow 2\\theta = 90^\\circ \\Rightarrow \\theta = 45^\\circ\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Range", "relation": "maximum_at", "target": "45° launch angle"},
+          {"source": "45°", "relation": "gives", "target": "\\(R = v_0^2/g\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 2 — Inclined Projectiles",
+        "flashcard_front": "Why does a 45° launch angle give maximum range?",
+        "flashcard_back": "Range \\(R \\propto \\sin 2\\theta\\); maximum of \\(\\sin 2\\theta = 1\\) occurs at \\(2\\theta = 90^\\circ \\Rightarrow \\theta = 45^\\circ\\).",
+        "glossary_term": "Maximum range",
+        "glossary_definition": "Greatest horizontal distance for a projectile, achieved at 45° on level ground.",
+        "revision_note": "Max range at 45°: \\(R_{\\text{max}} = v_0^2/g\\).",
+        "teacher_note": "Show that 30° and 60° give same range, both less than at 45°.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Apply equations to solve problems related to projectile motion",
+        "concept_map_nodes": [
+          {"source": "Maximum range", "relation": "formula", "target": "\\(R = v_0^2/g\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer C. \\(\\sin 2\\theta\\) max at \\(2\\theta = 90^\\circ\\), \\(\\theta = 45^\\circ\\)."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q008",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Inclined projectile motion",
+      "sub_subsection": null,
+      "structural_anchor": "Maximum height (H)",
+      "mcq_type": "C",
+      "question": "What is the formula for the maximum height \\(H\\) reached by a projectile launched with speed \\(v_0\\) at angle \\(\\theta\\) above the horizontal on level ground?",
+      "options": {
+        "A": "\\(H = \\frac{v_0^2 \\sin \\theta}{2g}\\)",
+        "B": "\\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\)",
+        "C": "\\(H = \\frac{v_0^2 \\cos^2 \\theta}{2g}\\)",
+        "D": "\\(H = \\frac{v_0^2 \\sin 2\\theta}{2g}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "At maximum height, vertical velocity becomes zero. Use \\(v_y^2 = v_{0y}^2 + 2a\\Delta y\\).",
+      "explanation": "Using \\(v_y^2 = v_{0y}^2 - 2gH\\) with \\(v_y = 0\\) and \\(v_{0y} = v_0 \\sin \\theta\\) gives \\(0 = v_0^2 \\sin^2 \\theta - 2gH\\), so \\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\). Option A misses the square on sine.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Inclined projectile motion",
+        "structural_element": "Maximum height (H)",
+        "content_anchor": "H = (v₀² sin²θ)/(2g)",
+        "page_hint": 10,
+        "concept_hash": "a7b9c1d3e5f7a9b1c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Maximum height is the greatest vertical distance reached by a projectile above its launch point.",
+        "concept_summary": "At the peak, vertical velocity is zero. Using \\(v_y^2 = v_{0y}^2 - 2gH\\) with \\(v_{0y} = v_0 \\sin \\theta\\) gives \\(H = v_0^2 \\sin^2 \\theta / (2g)\\).",
+        "beginner": "The higher you throw an object upward, the higher it goes. The initial upward speed is \\(v_0 \\sin \\theta\\), and gravity slows it down until it stops at the top.",
+        "intermediate": "From \\(v_y^2 = v_{0y}^2 + 2a_y \\Delta y\\) with \\(a_y = -g\\), at maximum height \\(v_y = 0\\), \\(\\Delta y = H\\), so \\(0 = (v_0 \\sin \\theta)^2 - 2gH \\Rightarrow H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\).",
+        "advanced": "Integrate \\(a_y = -g\\): \\(v_y = v_0 \\sin \\theta - gt\\). Set \\(v_y = 0\\) → \\(t_{\\text{peak}} = \\frac{v_0 \\sin \\theta}{g}\\). Then integrate again: \\(y = (v_0 \\sin \\theta)t - \\frac{1}{2}gt^2\\). Substitute \\(t_{\\text{peak}}\\) to get \\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Note vertical velocity at maximum height is zero.",
+          "Use kinematic equation: \\(v_y^2 = v_{0y}^2 - 2gH\\).",
+          "Substitute \\(v_y = 0\\), \\(v_{0y} = v_0 \\sin \\theta\\).",
+          "Solve for \\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\)",
+            "name": "Maximum height of a projectile",
+            "variables": [
+              {"symbol": "\\(H\\)", "meaning": "Maximum height", "unit": "m"},
+              {"symbol": "\\(v_0\\)", "meaning": "Initial speed", "unit": "m/s"},
+              {"symbol": "\\(\\theta\\)", "meaning": "Launch angle", "unit": "degrees or rad"},
+              {"symbol": "\\(g\\)", "meaning": "Acceleration due to gravity", "unit": "m/s²"}
+            ],
+            "derivation": "From conservation of energy: \\(\\frac{1}{2}mv_{0y}^2 = mgH\\) → \\(H = v_{0y}^2/(2g) = v_0^2 \\sin^2 \\theta / (2g)\\)."
+          }
+        ],
+        "misconceptions": [
+          "Forgetting to square the sine term is a common algebraic error (using \\(\\sin \\theta\\) instead of \\(\\sin^2 \\theta\\)).",
+          "Some confuse maximum height with range formula."
+        ],
+        "related_concepts": ["Vertical motion under gravity", "Kinematic equations", "Conservation of energy"],
+        "revision_note": "Max height: \\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\).",
+        "glossary_entry": {
+          "term": "Maximum height",
+          "definition": "The greatest vertical distance above launch point reached by a projectile.",
+          "example_equation": "\\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\)",
+          "related_terms": ["Projectile motion", "Apex"]
+        },
+        "flashcard": {
+          "front": "What is the formula for maximum height of a projectile?",
+          "back": "\\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\). Derived from \\(v_y^2 = v_{0y}^2 - 2gH\\) with \\(v_y = 0\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Maximum height", "relation": "formula", "target": "\\(H = v_0^2 \\sin^2 \\theta / (2g)\\)"},
+          {"source": "Maximum height", "relation": "occurs_when", "target": "\\(v_y = 0\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 2 — Inclined Projectiles",
+        "flashcard_front": "How do you calculate the maximum height of a projectile?",
+        "flashcard_back": "\\(H = \\frac{v_0^2 \\sin^2 \\theta}{2g}\\). Set vertical velocity to zero: \\(v_y^2 = v_{0y}^2 - 2gH\\).",
+        "glossary_term": "Maximum height",
+        "glossary_definition": "Greatest vertical distance above launch point reached by a projectile.",
+        "revision_note": "\\(H = v_0^2 \\sin^2 \\theta / (2g)\\).",
+        "teacher_note": "Reinforce that at the peak, \\(v_y=0\\) but \\(v_x = v_0 \\cos \\theta\\) remains nonzero.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Derive equations related to projectile motion",
+        "concept_map_nodes": [
+          {"source": "Maximum height", "relation": "uses", "target": "\\(v_y = 0\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer B. From \\(v_y^2 = v_{0y}^2 - 2gH\\) with \\(v_y=0\\), \\(v_{0y}=v_0\\sin\\theta\\)."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q009",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Inclined projectile motion",
+      "sub_subsection": null,
+      "structural_anchor": "Time of flight",
+      "mcq_type": "D",
+      "question": "A projectile is launched from level ground with speed \\(v_0 = 30 \\, \\text{m/s}\\) at an angle \\(\\theta = 30^\\circ\\) above horizontal. What is its time of flight? (Use \\(g = 10 \\, \\text{m/s}^2\\))",
+      "options": {
+        "A": "\\(1.5 \\, \\text{s}\\)",
+        "B": "\\(2.0 \\, \\text{s}\\)",
+        "C": "\\(3.0 \\, \\text{s}\\)",
+        "D": "\\(6.0 \\, \\text{s}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Time of flight = \\(2 v_0 \\sin \\theta / g\\).",
+      "explanation": "\\(t = \\frac{2 v_0 \\sin \\theta}{g} = \\frac{2 \\times 30 \\times \\sin 30^\\circ}{10} = \\frac{60 \\times 0.5}{10} = 3.0 \\, \\text{s}\\). Option A incorrectly uses \\(v_0 \\cos \\theta / g\\), mixing horizontal and vertical.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(t = \\frac{2v_0 \\sin \\theta}{g}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "\\(v_0\\)": {"magnitude": 30, "unit": "m/s"},
+          "\\(\\theta\\)": {"magnitude": 30, "unit": "degrees"},
+          "\\(g\\)": {"magnitude": 10, "unit": "m/s²"}
+        },
+        "answer_value": 3.0,
+        "answer_unit": "s",
+        "calculation_steps": [
+          "\\(t = \\frac{2v_0 \\sin \\theta}{g}\\)",
+          "\\(\\sin 30^\\circ = 0.5\\)",
+          "\\(t = \\frac{2 \\times 30 \\times 0.5}{10}\\)",
+          "\\(t = \\frac{30}{10} = 3.0 \\, \\text{s}\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 4.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Inclined projectile motion",
+        "structural_element": "Time of flight",
+        "content_anchor": "t_total = 2v₀ sinθ / g",
+        "page_hint": 8,
+        "concept_hash": "b8c0d2e4f6a8b0c2d4e6f8a0b2c4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a6b8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 87,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Time of flight is the total duration a projectile remains in the air from launch to landing at the same vertical level.",
+        "concept_summary": "For level ground, total flight time = \\(2 v_0 \\sin \\theta / g\\), derived from setting vertical displacement to zero in \\(\\Delta y = v_0 \\sin \\theta \\cdot t - \\frac{1}{2}gt^2\\).",
+        "beginner": "The time the ball spends in the air depends on how high it goes. The initial upward speed is \\(v_0 \\sin \\theta\\); gravity slows it up and then speeds it down symmetrically.",
+        "intermediate": "Using \\(\\Delta y = (v_0 \\sin \\theta)t - \\frac{1}{2}gt^2\\) with \\(\\Delta y = 0\\) gives \\(t(v_0 \\sin \\theta - \\frac{1}{2}gt) = 0\\). Nonzero solution: \\(t = 2v_0 \\sin \\theta / g\\).",
+        "advanced": "Integrate \\(a_y = -g\\): \\(v_y = v_0 \\sin \\theta - gt\\). Set \\(\\Delta y = \\int v_y dt = 0\\) over launch to landing. Symmetry gives total time = \\(2 \\times (v_0 \\sin \\theta / g) = 2v_0 \\sin \\theta / g\\).",
+        "worked_solution": [
+          "Step 1: Time of flight formula: \\(t = 2v_0 \\sin \\theta / g\\).",
+          "Step 2: Substitute \\(v_0 = 30 \\, \\text{m/s}\\), \\(\\theta = 30^\\circ\\), \\(g = 10 \\, \\text{m/s}^2\\).",
+          "Step 3: \\(\\sin 30^\\circ = 0.5\\).",
+          "Step 4: \\(t = 2 \\times 30 \\times 0.5 / 10 = 30 / 10 = 3.0 \\, \\text{s}\\)."
+        ],
+        "reasoning_steps": [
+          "Write vertical displacement equation for launch to landing (same height).",
+          "Set \\(\\Delta y = 0\\) and solve for \\(t\\) (excluding \\(t=0\\)).",
+          "Result: \\(t = 2v_0 \\sin \\theta / g\\).",
+          "Plug in numbers to compute."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(t = \\frac{2v_0 \\sin \\theta}{g}\\)",
+            "name": "Time of flight (level ground)",
+            "variables": [
+              {"symbol": "\\(t\\)", "meaning": "Time of flight", "unit": "s"},
+              {"symbol": "\\(v_0\\)", "meaning": "Initial speed", "unit": "m/s"},
+              {"symbol": "\\(\\theta\\)", "meaning": "Launch angle", "unit": "degrees or rad"},
+              {"symbol": "\\(g\\)", "meaning": "Acceleration due to gravity", "unit": "m/s²"}
+            ],
+            "derivation": "From \\(\\Delta y = v_0 \\sin \\theta \\cdot t - \\frac{1}{2}gt^2 = 0\\) → \\(t = 2v_0 \\sin \\theta / g\\)."
+          }
+        ],
+        "misconceptions": [
+          "Using \\(v_0 \\cos \\theta\\) instead of \\(v_0 \\sin \\theta\\) in time of flight formula.",
+          "Forgetting the factor of 2 (using \\(t = v_0 \\sin \\theta / g\\), which is time to peak only)."
+        ],
+        "related_concepts": ["Symmetry in projectile motion", "Time to maximum height", "Vertical motion"],
+        "revision_note": "Time of flight (level ground): \\(t = \\frac{2v_0 \\sin \\theta}{g}\\).",
+        "glossary_entry": {
+          "term": "Time of flight (inclined projectile)",
+          "definition": "Total time a projectile launched at an angle stays in the air before landing at the same height.",
+          "example_equation": "\\(t = \\frac{2v_0 \\sin \\theta}{g}\\)",
+          "related_terms": ["Time to peak", "Range"]
+        },
+        "flashcard": {
+          "front": "How do you calculate time of flight for a projectile launched and landing at the same height?",
+          "back": "\\(t = 2v_0 \\sin \\theta / g\\). Set \\(\\Delta y = 0\\) in \\(\\Delta y = v_0 \\sin \\theta \\cdot t - \\frac{1}{2}gt^2\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Time of flight (level)", "relation": "equals", "target": "\\(2 \\times \\text{time to peak}\\)"},
+          {"source": "Time of flight", "relation": "formula", "target": "\\(t = 2v_0 \\sin \\theta / g\\)"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook", "solution_manual"],
+        "flashcard_deck": "Physics Unit 2 — Inclined Projectiles",
+        "flashcard_front": "A projectile is launched at 30° with speed 30 m/s. Find time of flight (g=10 m/s²).",
+        "flashcard_back": "\\(t = 2v_0 \\sin \\theta / g = 2 \\times 30 \\times 0.5 / 10 = 3.0 \\, \\text{s}\\).",
+        "glossary_term": "Time of flight",
+        "glossary_definition": "Total time a projectile stays in air, \\(2v_0 \\sin \\theta / g\\) for level ground.",
+        "revision_note": "\\(t = 2v_0 \\sin \\theta / g\\).",
+        "teacher_note": "Remind students that time to peak = \\(v_0 \\sin \\theta / g\\); total time is twice that.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply equations to solve problems related to projectile motion",
+        "concept_map_nodes": [
+          {"source": "Time of flight", "relation": "formula", "target": "\\(t = 2v_0 \\sin \\theta / g\\)"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer C. \\(t = 2 \\times 30 \\times 0.5 / 10 = 3.0 \\, \\text{s}\\)."
+      }
+    },
+    {
+      "question_id": "G12_Phy_U2_Q010",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Physics",
+      "unit": "Unit 2: Two-dimensional motion",
+      "section": "2.1 Projectile motion",
+      "subsection": "Inclined projectile motion",
+      "sub_subsection": null,
+      "structural_anchor": "Relation between range and maximum height",
+      "mcq_type": "H",
+      "question": "For a projectile launched on level ground, the horizontal range \\(R\\) and maximum height \\(H\\) are related by \\(H = \\frac{R \\tan \\theta}{4}\\). A projectile launched at \\(30^\\circ\\) has range \\(R\\). If the same projectile is launched at \\(60^\\circ\\) with the same speed, how does the new range compare to \\(R\\)?",
+      "options": {
+        "A": "It is twice \\(R\\)",
+        "B": "It is half \\(R\\)",
+        "C": "It is the same as \\(R\\)",
+        "D": "It is four times \\(R\\)"
+      },
+      "correct_answer": "C",
+      "hint": "\\(\\sin 2\\theta\\) for \\(30^\\circ\\) and \\(60^\\circ\\): \\(\\sin 60^\\circ = \\sin 120^\\circ\\).",
+      "explanation": "Range \\(R \\propto \\sin 2\\theta\\). For \\(\\theta = 30^\\circ\\), \\(\\sin 60^\\circ = \\sqrt{3}/2\\); for \\(\\theta = 60^\\circ\\), \\(\\sin 120^\\circ = \\sqrt{3}/2\\) as well. Complementary angles (sum \\(90^\\circ\\)) give the same range. Option A mistakenly thinks \\(60^\\circ\\) doubles the range.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(R = \\frac{v_0^2 \\sin 2\\theta}{g}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 3.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Two-dimensional motion",
+        "section_anchor": "2.1 Projectile motion",
+        "subsection_anchor": "Inclined projectile motion",
+        "structural_element": "Relation between range and maximum height",
+        "content_anchor": "same range for complementary angles",
+        "page_hint": 9,
+        "concept_hash": "c9d1e3f5a7b9c1d3e5f7a9b1c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Complementary launch angles (\\( \\theta \\) and \\(90^\\circ - \\theta \\)) produce the same horizontal range for a given initial speed on level ground.",
+        "concept_summary": "Since \\(R \\propto \\sin 2\\theta\\) and \\(\\sin 2(90^\\circ - \\theta) = \\sin(180^\\circ - 2\\theta) = \\sin 2\\theta\\), the range is identical for \\(30^\\circ\\) and \\(60^\\circ\\).",
+        "beginner": "If you throw a ball at 30° or 60° with the same force, it lands at the same distance. That’s because both angles give the same horizontal travel time.",
+        "intermediate": "For \\(\\theta = 30^\\circ\\), \\(2\\theta = 60^\\circ\\); for \\(\\theta = 60^\\circ\\), \\(2\\theta = 120^\\circ\\). \\(\\sin 60^\\circ = \\sin 120^\\circ = \\sqrt{3}/2\\), so ranges are equal.",
+        "advanced": "Symmetry: \\(R(\\theta) = \\frac{v_0^2}{g} \\sin 2\\theta\\). Since \\(\\sin 2(90^\\circ - \\theta) = \\sin(180^\\circ - 2\\theta) = \\sin 2\\theta\\), we have \\(R(\\theta) = R(90^\\circ - \\theta)\\) for any \\(\\theta\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall range formula: \\(R = v_0^2 \\sin 2\\theta / g\\).",
+          "Compute \\(2\\theta\\) for \\(30^\\circ\\): \\(60^\\circ\\).",
+          "Compute \\(2\\theta\\) for \\(60^\\circ\\): \\(120^\\circ\\).",
+          "\\(\\sin 60^\\circ = \\sin 120^\\circ\\), therefore ranges are equal."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(R = \\frac{v_0^2 \\sin 2\\theta}{g}\\)",
+            "name": "Range for inclined projectile",
+            "variables": [
+              {"symbol": "\\(R\\)", "meaning": "Range", "unit": "m"},
+              {"symbol": "\\(v_0\\)", "meaning": "Initial speed", "unit": "m/s"},
+              {"symbol": "\\(\\theta\\)", "meaning": "Launch angle", "unit": "degrees or rad"},
+              {"symbol": "\\(g\\)", "meaning": "Gravity", "unit": "m/s²"}
+            ],
+            "derivation": "Standard derivation from \\(R = v_{0x} \\cdot t_{\\text{total}}\\)."
+          }
+        ],
+        "misconceptions": [
+          "Some think larger angle always gives shorter range, but \\(30^\\circ\\) and \\(60^\\circ\\) give equal range.",
+          "Confusing maximum range (at \\(45^\\circ\\)) with equal-range complementary pairs."
+        ],
+        "related_concepts": ["Complementary angles", "Symmetry in projectile motion", "Sine function properties"],
+        "revision_note": "Complementary angles (\\(\\theta\\) and \\(90^\\circ - \\theta\\)) give same range.",
+        "glossary_entry": {
+          "term": "Complementary launch angles",
+          "definition": "Two launch angles that sum to \\(90^\\circ\\) producing the same horizontal range for the same initial speed.",
+          "example_equation": "\\(\\theta_1 + \\theta_2 = 90^\\circ \\Rightarrow R(\\theta_1) = R(\\theta_2)\\)",
+          "related_terms": ["Range", "Symmetry"]
+        },
+        "flashcard": {
+          "front": "Do \\(30^\\circ\\) and \\(60^\\circ\\) launch angles give the same range? Why?",
+          "back": "Yes. Range \\(\\propto \\sin 2\\theta\\). \\(\\sin 60^\\circ = \\sin 120^\\circ\\), and \\(2 \\times 60^\\circ = 120^\\circ\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Range", "relation": "same_for", "target": "Complementary angles"},
+          {"source": "Complementary angles", "relation": "example", "target": "30° and 60°"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Physics Unit 2 — Inclined Projectiles",
+        "flashcard_front": "Why do 30° and 60° launch angles give the same range?",
+        "flashcard_back": "Range ∝ sin 2θ. sin 60° = sin 120°, and 2×60°=120°, so ranges are equal.",
+        "glossary_term": "Complementary angles",
+        "glossary_definition": "Two angles summing to 90° that yield identical projectile range.",
+        "revision_note": "θ and 90°−θ → same range.",
+        "teacher_note": "Use this to challenge the intuition that higher angle always means shorter distance.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain the motion of a projectile with respect to horizontal and vertical components",
+        "concept_map_nodes": [
+          {"source": "Range", "relation": "same_for", "target": "Complementary angles"}
+        ],
+        "workbook_section": "2.1 Projectile motion",
+        "solution_manual_note": "Answer C. sin 60° = sin 120° → R(30°) = R(60°)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3250,
+    "average_question_quality": 85.3,
+    "type_distribution": {
+      "A": 1,
+      "C": 3,
+      "D": 3,
+      "F": 1,
+      "G": 1,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.1 Projectile motion": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

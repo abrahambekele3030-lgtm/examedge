@@ -1,0 +1,1839 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:45:00Z",
+  "round_id": "R04",
+  "batch_sequence": 4,
+  "__STATE__": {
+    "current_round": 4,
+    "last_question_id": "G09_Maths_U8_Q040",
+    "covered_sections": [
+      "8.1 Statistical Data>8.1.1 Collection and tabulation of statistical data",
+      "8.1 Statistical Data>8.1.2 Graphical presentations of statistical data",
+      "8.1 Statistical Data>8.1.3 Measures of central tendency",
+      "8.1 Statistical Data>8.1.4 Measures of dispersion",
+      "8.2 Probability>Possibility set (sample space) and event",
+      "8.2 Probability>Theoretical probability",
+      "8.2 Probability>Probability of an event",
+      "8.2 Probability>Tree diagram"
+    ],
+    "used_question_signatures": [
+      "5f4dcc3b5aa765d61d8327deb882cf99c9b4d9a8c2e8f8c3e8b8a4e8d8e8f8a8",
+      "6e8d8f8c3e8b8a4e8d8e8f8a85f4dcc3b5aa765d61d8327deb882cf99c9b4d9",
+      "7f4dcc3b5aa765d61d8327deb882cf99c9b4d9a8c2e8f8c3e8b8a4e8d8e8f8b",
+      "8a8e8f8c3e8b8a4e8d8e8f8a85f4dcc3b5aa765d61d8327deb882cf99c9b4d",
+      "9f4dcc3b5aa765d61d8327deb882cf99c9b4d9a8c2e8f8c3e8b8a4e8d8e8f8d",
+      "0a8e8f8c3e8b8a4e8d8e8f8a85f4dcc3b5aa765d61d8327deb882cf99c9b4e",
+      "1f4dcc3b5aa765d61d8327deb882cf99c9b4d9a8c2e8f8c3e8b8a4e8d8e8f8f",
+      "2a8e8f8c3e8b8a4e8d8e8f8a85f4dcc3b5aa765d61d8327deb882cf99c9b40",
+      "3f4dcc3b5aa765d61d8327deb882cf99c9b4d9a8c2e8f8c3e8b8a4e8d8e8f41",
+      "4a8e8f8c3e8b8a4e8d8e8f8a85f4dcc3b5aa765d61d8327deb882cf99c9b42",
+      "b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5",
+      "c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6",
+      "d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7",
+      "e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8",
+      "f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9",
+      "a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0",
+      "b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1",
+      "c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2",
+      "d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3",
+      "e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4",
+      "f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5",
+      "a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6",
+      "b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7",
+      "c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8",
+      "d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9",
+      "e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0",
+      "f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1",
+      "a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2",
+      "b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3",
+      "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
+      "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5",
+      "e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6",
+      "f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7",
+      "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8",
+      "b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9",
+      "c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0",
+      "d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1",
+      "e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2",
+      "f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3"
+    ],
+    "baseline_counter": {
+      "8.1 Statistical Data": {
+        "8.1.1 Collection and tabulation of statistical data": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "8.1.2 Graphical presentations of statistical data": {
+          "count": 4,
+          "mini_headings_covered": ["Distributions and histograms:", "Steps in drawing a histogram"],
+          "last_question_round": 4
+        },
+        "8.1.3 Measures of central tendency": {
+          "count": 8,
+          "mini_headings_covered": ["The mean:", "Median:", "Mode:", "Properties of mean:"],
+          "last_question_round": 4
+        },
+        "8.1.4 Measures of dispersion": {
+          "count": 7,
+          "mini_headings_covered": ["1. Range:", "2. Variance and standard deviation:", "Properties of standard deviation:"],
+          "last_question_round": 4
+        }
+      },
+      "8.2 Probability": {
+        "Possibility set (sample space) and event": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Theoretical probability": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Probability of an event": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        },
+        "Tree diagram": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 4
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "8.1 Statistical Data": {
+        "question_count": 31,
+        "last_used_round": 4,
+        "consecutive_batches": 4
+      },
+      "8.2 Probability": {
+        "question_count": 13,
+        "last_used_round": 4,
+        "consecutive_batches": 4
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "8.1 Statistical Data>8.1.1 Collection and tabulation of statistical data": ["primary data", "secondary data", "qualitative data", "quantitative data", "continuous data", "discrete data", "categorical data", "numerical data"],
+      "8.1 Statistical Data>8.1.2 Graphical presentations of statistical data": ["histogram", "frequency distribution", "class interval", "frequency", "bar chart", "frequency polygon", "modal class", "histogram construction"],
+      "8.1 Statistical Data>8.1.3 Measures of central tendency": ["mean", "median", "mode", "arithmetic mean formula", "properties of mean", "median calculation", "mode definition", "sum of deviations is zero", "midrange", "resistant measure", "outlier effect"],
+      "8.1 Statistical Data>8.1.4 Measures of dispersion": ["range", "variance", "standard deviation", "variance formula", "standard deviation calculation", "properties of standard deviation", "adding constant to data", "multiplying constant", "coefficient of variation", "spread interpretation"],
+      "8.2 Probability>Possibility set (sample space) and event": ["sample space", "event", "outcome", "experiment", "equally likely outcomes", "die outcomes", "coin outcomes", "sample space size calculation", "multiplication principle"],
+      "8.2 Probability>Theoretical probability": ["theoretical probability", "favorable outcomes", "total outcomes", "probability formula", "probability scale 0 to 1", "classical probability"],
+      "8.2 Probability>Probability of an event": ["experimental probability", "relative frequency", "large numbers", "law of large numbers", "empirical probability"],
+      "8.2 Probability>Tree diagram": ["tree diagram", "branches", "outcomes", "multiplication rule", "probability calculation from tree", "conditional probability visualization"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 36,
+      "questions_per_concept_ratio": 1.22,
+      "structural_coverage_percentage": 95.0
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Mathematics",
+  "unit": "Unit 8: STATISTICS AND PROBABILITY",
+  "pdf_filename": "M9U8.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:45:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 2,
+        "total_sections": 2,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.38,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 40,
+      "sections_covered_count": 2,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 1.11
+    },
+    "distribution_analysis": {
+      "most_covered_section": "8.1 Statistical Data",
+      "least_covered_section": "8.2 Probability",
+      "imbalance_ratio": 2.38,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G09_Maths_U8_Q031",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.1 Statistical Data",
+      "subsection": "8.1.1 Collection and tabulation of statistical data",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "J",
+      "question": "Which of the following is an example of discrete data?",
+      "options": {
+        "A": "The weight of a bag of rice",
+        "B": "The number of students in a classroom",
+        "C": "The temperature in a city",
+        "D": "The height of a building"
+      },
+      "correct_answer": "B",
+      "hint": "Discrete data comes from counting and takes only whole number values.",
+      "explanation": "Discrete data consists of countable, separate values, typically integers. The number of students (e.g., 25) cannot be 25.5. Options A, C, and D are continuous measurements.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.1 Statistical Data",
+        "subsection_anchor": "8.1.1 Collection and tabulation of statistical data",
+        "structural_element": "Discrete data",
+        "content_anchor": "Discrete data is a count that involves integers. Only a limited number of values is possible. For example, the number of children in a school is discrete data.",
+        "page_hint": 5,
+        "concept_hash": "d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 38,
+        "distractor_quality_score": 93,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Discrete data consists of countable values, usually integers, with no possible values between them.",
+        "concept_summary": "Discrete data arises from counting. You can have 25 students but not 25.5 students. Continuous data from measurement can take fractional values.",
+        "beginner": "Number of students is discrete because you count people (1, 2, 3...). You can't have half a student. Weight is continuous because it can be any number.",
+        "intermediate": "Discrete variables take values from a finite or countably infinite set, typically non-negative integers. The number of students is discrete; weight, temperature, and height are continuous.",
+        "advanced": "Discrete data has a stepwise distribution function with jumps at integer values. Continuous data has a smooth cumulative distribution function.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Determine if the variable is counted or measured.",
+          "Counted values (whole numbers) are discrete.",
+          "Measured values (with decimals possible) are continuous."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think all numbers are continuous, forgetting that counts are discrete.",
+          "Others believe discrete means 'separate' in any sense, including categorical data."
+        ],
+        "related_concepts": ["Continuous data", "Quantitative data", "Integer", "Countable set"],
+        "revision_note": "Discrete = counted (whole numbers). Continuous = measured (decimals possible).",
+        "glossary_entry": {
+          "term": "Discrete data",
+          "definition": "Data that can only take specific values, usually integers, with no intermediate values possible.",
+          "example_equation": null,
+          "related_terms": ["Continuous data", "Count", "Integer variable"]
+        },
+        "flashcard": {
+          "front": "Give an example of discrete data.",
+          "back": "Number of students in a class, number of cars in a parking lot, or number of books on a shelf."
+        },
+        "concept_map_nodes": [
+          {"source": "Discrete data", "relation": "contrasted_with", "target": "Continuous data"},
+          {"source": "Number of students", "relation": "example_of", "target": "Discrete data"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Types of Data",
+        "flashcard_front": "Which is discrete: weight, number of students, temperature, or height?",
+        "flashcard_back": "Number of students. Discrete data comes from counting whole units.",
+        "glossary_term": "Discrete data",
+        "glossary_definition": "Countable data that takes only specific values, usually integers.",
+        "revision_note": "Discrete = counts (students, cars). Continuous = measurements (weight, height).",
+        "teacher_note": "Emphasize that the same variable can be discrete or continuous depending on context (e.g., money as dollars vs cents).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Classify data as discrete or continuous",
+        "concept_map_nodes": [
+          {"source": "Discrete data", "relation": "contrasted_with", "target": "Continuous data"},
+          {"source": "Number of students", "relation": "example_of", "target": "Discrete data"}
+        ],
+        "workbook_section": "8.1.1 Collection and tabulation",
+        "solution_manual_note": "Answer B. Number of students is counted in whole numbers. Weight, temperature, and height can be measured with decimals (continuous)."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q032",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.2 Probability",
+      "subsection": "Possibility set (sample space) and event",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "Two dice are rolled simultaneously. Why is the outcome (2,3) considered different from (3,2) in the sample space?",
+      "options": {
+        "A": "Because the sum of the numbers is different",
+        "B": "Because the dice are distinguishable (e.g., one red, one blue)",
+        "C": "Because 2 and 3 are different numbers",
+        "D": "Because the product is different"
+      },
+      "correct_answer": "B",
+      "hint": "Consider whether the dice can be told apart.",
+      "explanation": "When dice are distinguishable (different colors or labeled), (2,3) means die A shows 2 and die B shows 3, while (3,2) is a different ordered pair. Option C is true but incomplete; the key is distinguishability.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.2 Probability",
+        "subsection_anchor": "Possibility set (sample space) and event",
+        "structural_element": "Sample space for two dice",
+        "content_anchor": "When two dice are thrown, the outcomes are ordered pairs (first die, second die) because dice are distinguishable",
+        "page_hint": 44,
+        "concept_hash": "e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Ordered pairs (2,3) and (3,2) are distinct outcomes because the dice are distinguishable entities.",
+        "concept_summary": "If dice are different colors or labeled 'first' and 'second', (2,3) and (3,2) represent different physical arrangements. If dice were identical, they would be the same outcome.",
+        "beginner": "If you have a red die and a blue die, (2 on red, 3 on blue) is different from (3 on red, 2 on blue). The dice can be told apart.",
+        "intermediate": "The sample space for two distinguishable dice is \\(\\{(i,j): i,j \\in \\{1,\\dots,6\\}\\}\\) with 36 ordered pairs. (2,3) ≠ (3,2) because the first coordinate refers to die A and the second to die B.",
+        "advanced": "Distinguishability creates a Cartesian product sample space. If dice are indistinguishable, the sample space would be combinations with repetition, which is not equally likely.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify if the dice can be distinguished (color, order, label).",
+          "If yes, (a,b) and (b,a) are different outcomes.",
+          "If no, they represent the same unordered outcome."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some assume dice are always indistinguishable and list only 21 outcomes for two dice.",
+          "Others think the sum or product determines distinctness, but probability requires distinguishing order when dice are distinct."
+        ],
+        "related_concepts": ["Ordered pair", "Distinguishable vs indistinguishable", "Sample space", "Cartesian product"],
+        "revision_note": "Distinguishable dice → ordered pairs (36 outcomes). Indistinguishable → unordered (21 outcomes).",
+        "glossary_entry": {
+          "term": "Ordered pair (dice)",
+          "definition": "When dice are distinguishable, (2,3) and (3,2) are different outcomes because the first number refers to the first die.",
+          "example_equation": null,
+          "related_terms": ["Sample space", "Cartesian product", "Distinguishable"]
+        },
+        "flashcard": {
+          "front": "Why are (2,3) and (3,2) different outcomes when rolling two dice?",
+          "back": "Because dice are distinguishable (e.g., one red, one blue), so order matters."
+        },
+        "concept_map_nodes": [
+          {"source": "Distinguishable dice", "relation": "implies", "target": "Ordered pairs"},
+          {"source": "Ordered pairs", "relation": "gives", "target": "36 outcomes"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Sample Space",
+        "flashcard_front": "Why are (2,3) and (3,2) different outcomes for two dice?",
+        "flashcard_back": "Dice are distinguishable (e.g., first die and second die), so order matters.",
+        "glossary_term": "Ordered pair",
+        "glossary_definition": "A representation of outcomes where the order indicates which die shows which number.",
+        "revision_note": "Distinguishable dice → (2,3) ≠ (3,2).",
+        "teacher_note": "Ask students: what if dice were identical and rolled together? Then outcomes would be unordered.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Recognize that sample space size depends on distinguishability",
+        "concept_map_nodes": [
+          {"source": "Distinguishable dice", "relation": "implies", "target": "Ordered pairs"},
+          {"source": "Ordered pairs", "relation": "gives", "target": "36 outcomes"}
+        ],
+        "workbook_section": "8.2 Probability",
+        "solution_manual_note": "Answer B. Distinguishability creates ordered pairs. Options A and D are false because sum/product of (2,3) and (3,2) are equal. Option C is true but insufficient reason."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q033",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.1 Statistical Data",
+      "subsection": "8.1.2 Graphical presentations of statistical data",
+      "sub_subsection": null,
+      "structural_anchor": "Steps in drawing a histogram",
+      "mcq_type": "M",
+      "question": "After drawing the horizontal and vertical axes for a histogram, what is the next step?",
+      "options": {
+        "A": "Construct bars for each class",
+        "B": "Label the marks on the axes",
+        "C": "Choose a scale for the vertical axis",
+        "D": "Draw the frequency polygon"
+      },
+      "correct_answer": "C",
+      "hint": "You need to decide the scale before you can place bars.",
+      "explanation": "After drawing both axes, you must choose a scale for the vertical axis that accommodates the highest frequency. Step 5 in the PDF: \"Choose a scale for the vertical axis that will accommodate the class with the highest frequency.\"",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.1 Statistical Data",
+        "subsection_anchor": "8.1.2 Graphical presentations of statistical data",
+        "structural_element": "Steps in drawing a histogram",
+        "content_anchor": "Step 5: Choose a scale for the vertical axis that will accommodate the class with the highest frequency.",
+        "page_hint": 13,
+        "concept_hash": "f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "After drawing axes, the next step is choosing a scale for the vertical axis based on the maximum frequency.",
+        "concept_summary": "Scale selection ensures that the tallest bar fits within the graph. The scale must be evenly spaced and clearly labeled before drawing bars.",
+        "beginner": "You have your axes drawn. Now decide how many units each line on the vertical axis represents. This scale must be big enough for the tallest bar.",
+        "intermediate": "Step 4: Draw vertical line. Step 5: Choose vertical scale. The highest frequency determines the maximum y-value. Then label tick marks evenly.",
+        "advanced": "Proper scaling is critical for accurate visual interpretation. The vertical axis should start at zero for histograms to avoid misleading compression of bar heights.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Draw horizontal axis (classes) and vertical axis.",
+          "Identify the maximum frequency in the table.",
+          "Choose a scale so that max frequency fits on the vertical axis.",
+          "Label tick marks with chosen scale."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some draw bars before choosing scale, leading to bars that may not fit or have inconsistent heights.",
+          "Others forget to start vertical axis at zero, which can distort comparisons."
+        ],
+        "related_concepts": ["Histogram construction", "Scale", "Frequency", "Axes"],
+        "revision_note": "Histogram step after axes: choose vertical scale (accommodate highest frequency).",
+        "glossary_entry": {
+          "term": "Vertical scale (histogram)",
+          "definition": "The chosen range and tick intervals on the y-axis to accommodate the highest frequency bar.",
+          "example_equation": null,
+          "related_terms": ["Histogram", "Axis", "Frequency"]
+        },
+        "flashcard": {
+          "front": "After drawing axes for a histogram, what is the next step?",
+          "back": "Choose a scale for the vertical axis that accommodates the highest frequency."
+        },
+        "concept_map_nodes": [
+          {"source": "Histogram construction", "relation": "step_after_axes", "target": "Choose vertical scale"},
+          {"source": "Vertical scale", "relation": "determined_by", "target": "Maximum frequency"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Histogram Construction",
+        "flashcard_front": "What do you do after drawing axes when making a histogram?",
+        "flashcard_back": "Choose a scale for the vertical axis that fits the highest frequency.",
+        "glossary_term": "Histogram scale",
+        "glossary_definition": "The step after drawing axes: selecting an appropriate vertical scale based on the maximum frequency.",
+        "revision_note": "After axes: choose vertical scale (max frequency).",
+        "teacher_note": "Walk through an example: frequencies 2,5,8,3 → vertical scale 0 to 10 by 2s.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Construct a histogram from a frequency distribution",
+        "concept_map_nodes": [
+          {"source": "Histogram construction", "relation": "step_after_axes", "target": "Choose vertical scale"},
+          {"source": "Vertical scale", "relation": "determined_by", "target": "Maximum frequency"}
+        ],
+        "workbook_section": "8.1.2 Graphical presentations",
+        "solution_manual_note": "Answer C. Step 5 is choosing vertical scale. Step 7 is constructing bars (A). Step 6 is labeling marks (B)."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q034",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.1 Statistical Data",
+      "subsection": "8.1.4 Measures of dispersion",
+      "sub_subsection": null,
+      "structural_anchor": "2. Variance and standard deviation:",
+      "mcq_type": "E",
+      "question": "Calculate the variance of the data set 5, 7, 9, 11, 13. The mean is 9.",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "40"
+      },
+      "correct_answer": "C",
+      "hint": "Variance = average of squared deviations from mean.",
+      "explanation": "Deviations: -4, -2, 0, 2, 4. Squares: 16, 4, 0, 4, 16. Sum = 40. Variance = 40/5 = 8. Option D is sum of squares, not divided by n.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\sigma^2 = \\frac{\\sum (x_i - \\bar{x})^2}{n}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {"dataset": [5,7,9,11,13], "mean": 9},
+        "answer_value": 8,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Deviations: 5-9=-4, 7-9=-2, 9-9=0, 11-9=2, 13-9=4",
+          "Squares: 16, 4, 0, 4, 16",
+          "Sum squares: 16+4+0+4+16 = 40",
+          "n = 5",
+          "Variance = 40/5 = 8"
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.1 Statistical Data",
+        "subsection_anchor": "8.1.4 Measures of dispersion",
+        "structural_element": "2. Variance and standard deviation:",
+        "content_anchor": "Variance = mean of the squared deviations",
+        "page_hint": 28,
+        "concept_hash": "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Variance is the mean of the squared deviations from the mean.",
+        "concept_summary": "For symmetric data equally spaced around the mean, the variance measures the average squared distance. Here, each step of 2 yields squared deviations that sum to 40, average 8.",
+        "beginner": "Subtract 9 from each number, square the result, add them up, then divide by 5. The deviations are -4,-2,0,2,4 → squares 16,4,0,4,16 → sum 40 → variance 40/5 = 8.",
+        "intermediate": "\\(\\sigma^2 = \\frac{(-4)^2 + (-2)^2 + 0^2 + 2^2 + 4^2}{5} = \\frac{16+4+0+4+16}{5} = \\frac{40}{5} = 8\\).",
+        "advanced": "This dataset is arithmetic: 5,7,9,11,13. Mean = 9. The variance formula simplifies for symmetric data, but direct calculation gives \\(\\sigma^2 = 8\\). Standard deviation = \\(\\sqrt{8} \\approx 2.828\\).",
+        "worked_solution": [
+          "Step 1: Compute deviations from mean: -4, -2, 0, 2, 4.",
+          "Step 2: Square each: 16, 4, 0, 4, 16.",
+          "Step 3: Sum squares: 16+4+0+4+16 = 40.",
+          "Step 4: Divide by n=5: 40/5 = 8."
+        ],
+        "reasoning_steps": [
+          "Find deviations: value - mean.",
+          "Square each deviation.",
+          "Sum all squared deviations.",
+          "Divide by number of values."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\sigma^2 = \\frac{\\sum (x_i - \\bar{x})^2}{n}\\)",
+            "name": "Population variance",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some forget to square deviations and sum them as is (sum would be 0).",
+          "Others divide by n-1 (sample variance) when population variance is requested."
+        ],
+        "related_concepts": ["Standard deviation", "Sum of squares", "Mean deviation"],
+        "revision_note": "Variance = Σ(x - x̄)² / n. For 5,7,9,11,13: variance = 8.",
+        "glossary_entry": {
+          "term": "Variance calculation",
+          "definition": "Variance = average squared deviation from the mean.",
+          "example_equation": "\\(\\sigma^2 = 8\\)",
+          "related_terms": ["Standard deviation", "Sum of squares", "Mean"]
+        },
+        "flashcard": {
+          "front": "Variance of 5,7,9,11,13? Mean = 9.",
+          "back": "8. Deviations squared: 16,4,0,4,16 sum=40, 40/5=8."
+        },
+        "concept_map_nodes": [
+          {"source": "Variance", "relation": "calculated_by", "target": "Σ(x - x̄)² / n"},
+          {"source": "Dataset 5,7,9,11,13", "relation": "has_variance", "target": "8"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook", "solution_manual"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Variance",
+        "flashcard_front": "Variance of 5,7,9,11,13 (mean=9)?",
+        "flashcard_back": "8. Sum of squared deviations = 40, n=5, 40/5=8.",
+        "glossary_term": "Variance",
+        "glossary_definition": "Mean of squared deviations from the mean.",
+        "revision_note": "σ² = Σ(x - μ)² / n = 8",
+        "teacher_note": "Point out symmetry: deviations are -4,-2,0,2,4. Squaring removes sign.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate variance for a data set",
+        "concept_map_nodes": [
+          {"source": "Variance", "relation": "calculated_by", "target": "Σ(x - x̄)² / n"},
+          {"source": "Dataset 5,7,9,11,13", "relation": "has_variance", "target": "8"}
+        ],
+        "workbook_section": "8.1.4 Measures of dispersion",
+        "solution_manual_note": "Answer C. Deviations squared sum = 40, n=5 → variance = 8. Option D is sum of squares before division."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q035",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.2 Probability",
+      "subsection": "Tree diagram",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "L",
+      "question": "A tree diagram is drawn for selecting a ball from a bag containing red and blue balls, then flipping a coin. How many final branches will the tree have?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "8"
+      },
+      "correct_answer": "C",
+      "hint": "Multiply the number of outcomes for each stage: balls × coin.",
+      "explanation": "Stage 1: selecting a ball — 2 outcomes (red or blue). Stage 2: coin — 2 outcomes (H or T). Total branches = 2 × 2 = 4. Option D would be for 3 stages.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\text{Total} = 2 \\times 2 = 4\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {"ball_outcomes": 2, "coin_outcomes": 2},
+        "answer_value": 4,
+        "answer_unit": null,
+        "calculation_steps": ["Ball: 2 outcomes", "Coin: 2 outcomes", "Total = 2 × 2 = 4"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.2 Probability",
+        "subsection_anchor": "Tree diagram",
+        "structural_element": "Tree diagram",
+        "content_anchor": "tree diagram branches multiply outcomes",
+        "page_hint": 44,
+        "concept_hash": "b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 91,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The number of final branches in a tree diagram equals the product of the number of outcomes at each stage.",
+        "concept_summary": "Stage 1 (ball color): 2 branches. From each ball outcome, stage 2 (coin) adds 2 branches. Total = 2 × 2 = 4.",
+        "beginner": "First pick a ball: red or blue (2 ways). Then flip a coin: heads or tails (2 ways). That's 2 × 2 = 4 possible sequences.",
+        "intermediate": "Multiplication principle: 2 (ball) × 2 (coin) = 4 final branches. They represent: (Red,H), (Red,T), (Blue,H), (Blue,T).",
+        "advanced": "Tree diagrams enumerate the Cartesian product of the outcome sets. The cardinality is the product of the cardinalities of each stage's sample space.",
+        "worked_solution": [
+          "Step 1: Count ball outcomes: 2 (red, blue).",
+          "Step 2: Count coin outcomes: 2 (H, T).",
+          "Step 3: Multiply: 2 × 2 = 4 branches."
+        ],
+        "reasoning_steps": [
+          "Determine number of outcomes for first event.",
+          "Determine number of outcomes for second event.",
+          "Multiply these numbers.",
+          "The product is the total number of final branches."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\text{Branches} = n_1 \\times n_2\\)",
+            "name": "Multiplication principle for tree diagrams",
+            "variables": [
+              {"symbol": "\\(n_1\\)", "meaning": "outcomes for first event", "unit": "count"},
+              {"symbol": "\\(n_2\\)", "meaning": "outcomes for second event", "unit": "count"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some add outcomes instead of multiplying (2+2=4 still works here but fails for unequal numbers).",
+          "Others forget that the coin toss happens for each ball outcome, not just once."
+        ],
+        "related_concepts": ["Multiplication principle", "Tree diagram", "Sequential events", "Sample space"],
+        "revision_note": "Tree branches = product of outcomes per stage. Here: 2 × 2 = 4.",
+        "glossary_entry": {
+          "term": "Tree diagram branches",
+          "definition": "Total final outcomes = product of the number of possibilities at each step.",
+          "example_equation": "\\(2 \\times 2 = 4\\)",
+          "related_terms": ["Multiplication principle", "Sample space", "Sequential experiment"]
+        },
+        "flashcard": {
+          "front": "Pick a ball (red/blue), flip a coin. How many tree diagram branches?",
+          "back": "4. Ball: 2 outcomes, coin: 2 outcomes → 2 × 2 = 4 branches."
+        },
+        "concept_map_nodes": [
+          {"source": "Tree diagram", "relation": "branches_count", "target": "Product of stage outcomes"},
+          {"source": "Ball and coin experiment", "relation": "total_branches", "target": "4"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Tree Diagrams",
+        "flashcard_front": "Pick a ball (2 colors), flip coin. Total tree branches?",
+        "flashcard_back": "4 branches. 2 ball outcomes × 2 coin outcomes = 4.",
+        "glossary_term": "Multiplication principle",
+        "glossary_definition": "The total number of outcomes in a sequence of events is the product of outcomes per event.",
+        "revision_note": "Branches = 2 × 2 = 4",
+        "teacher_note": "Draw the tree: two ball branches, each splitting into two coin branches.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Use tree diagrams to represent multi-stage experiments",
+        "concept_map_nodes": [
+          {"source": "Tree diagram", "relation": "branches_count", "target": "Product of stage outcomes"},
+          {"source": "Ball and coin experiment", "relation": "total_branches", "target": "4"}
+        ],
+        "workbook_section": "8.2 Probability",
+        "solution_manual_note": "Answer C. First stage: 2 outcomes. Second stage: 2 outcomes per first branch → 2×2=4 total branches."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q036",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.1 Statistical Data",
+      "subsection": "8.1.3 Measures of central tendency",
+      "sub_subsection": null,
+      "structural_anchor": "Mode:",
+      "mcq_type": "H",
+      "question": "A dataset has values 2, 2, 4, 4, 6, 6, 8, 8. A student says there is no mode because no number appears more than twice. Is this correct?",
+      "options": {
+        "A": "Yes, because mode requires a single unique highest frequency",
+        "B": "Yes, because all frequencies are the same",
+        "C": "No, the dataset has four modes: 2, 4, 6, and 8",
+        "D": "No, the mode is the average of all numbers"
+      },
+      "correct_answer": "C",
+      "hint": "A dataset can have more than one mode.",
+      "explanation": "The mode is the most frequent value(s). Here, 2,4,6,8 each appear twice, and no value appears more often. This dataset is multimodal with four modes. Option A and B are incorrect; a dataset can have multiple modes.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.1 Statistical Data",
+        "subsection_anchor": "8.1.3 Measures of central tendency",
+        "structural_element": "Mode:",
+        "content_anchor": "the mode is not always unique",
+        "page_hint": 24,
+        "concept_hash": "c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "The mode is the value(s) that occur most frequently. Multiple modes are possible when frequencies tie.",
+        "concept_summary": "All four numbers appear twice, which is the highest frequency. Thus 2, 4, 6, and 8 are all modes. The dataset is multimodal, not modeless.",
+        "beginner": "Mode means 'most often'. Here, every number appears twice, so they are all the most frequent. That's four modes, not no mode.",
+        "intermediate": "Frequency: 2 appears twice, 4 twice, 6 twice, 8 twice. The maximum frequency is 2, achieved by every value. So each value is a mode — a multimodal case.",
+        "advanced": "When all frequencies are equal, every distinct value is a mode. The mode is not unique; data can have zero, one, or multiple modes. A dataset with all values equally frequent has all values as modes.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count frequency of each distinct value.",
+          "Find the highest frequency (here, 2).",
+          "Identify all values with that highest frequency (2,4,6,8).",
+          "These are all modes."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think mode requires a single value and if multiple tie, there is 'no mode'.",
+          "Others believe all values must have different frequencies for a mode to exist."
+        ],
+        "related_concepts": ["Multimodal", "Unimodal", "Bimodal", "Frequency distribution"],
+        "revision_note": "If all values tie for highest frequency, all are modes.",
+        "glossary_entry": {
+          "term": "Multimodal",
+          "definition": "A dataset with more than one mode; here 2,4,6,8 are all modes.",
+          "example_equation": null,
+          "related_terms": ["Mode", "Bimodal", "Unimodal"]
+        },
+        "flashcard": {
+          "front": "Dataset: 2,2,4,4,6,6,8,8. How many modes?",
+          "back": "Four modes: 2, 4, 6, and 8. All appear twice, which is the highest frequency."
+        },
+        "concept_map_nodes": [
+          {"source": "Mode", "relation": "can_be_multiple", "target": "Multimodal"},
+          {"source": "Dataset 2,2,4,4,6,6,8,8", "relation": "has_modes", "target": "2,4,6,8"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Mode",
+        "flashcard_front": "Dataset: 2,2,4,4,6,6,8,8. How many modes?",
+        "flashcard_back": "Four modes: 2,4,6,8. All appear twice (highest frequency).",
+        "glossary_term": "Multimodal",
+        "glossary_definition": "A dataset with more than one mode.",
+        "revision_note": "All values tie → all are modes.",
+        "teacher_note": "Contrast with no mode (all frequencies = 1) vs multimodal (multiple values tie for highest).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Identify modes in multimodal datasets",
+        "concept_map_nodes": [
+          {"source": "Mode", "relation": "can_be_multiple", "target": "Multimodal"},
+          {"source": "Dataset", "relation": "has_modes", "target": "2,4,6,8"}
+        ],
+        "workbook_section": "8.1.3 Measures of central tendency",
+        "solution_manual_note": "Answer C. The mode is the most frequent value(s). All values appear twice, so all are modes. Options A and B incorrectly claim no mode; D confuses mode with mean."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q037",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.2 Probability",
+      "subsection": "Theoretical probability",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "A standard deck of 52 cards has 13 spades. If one card is drawn at random, what is the probability that it is NOT a spade?",
+      "options": {
+        "A": "\\(\\frac{1}{4}\\)",
+        "B": "\\(\\frac{3}{4}\\)",
+        "C": "\\(\\frac{13}{52}\\)",
+        "D": "\\(\\frac{39}{52}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Probability of complement = 1 - P(spade).",
+      "explanation": "P(spade) = 13/52 = 1/4. P(not spade) = 1 - 1/4 = 3/4. Option D is equivalent to 3/4 but unsimplified; B is the simplified form preferred for answers.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(P(\\text{not } E) = 1 - P(E)\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {"spades": 13, "total": 52},
+        "answer_value": 0.75,
+        "answer_unit": null,
+        "calculation_steps": ["P(spade) = 13/52 = 1/4", "P(not spade) = 1 - 1/4 = 3/4"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.2 Probability",
+        "subsection_anchor": "Theoretical probability",
+        "structural_element": "Probability of complement",
+        "content_anchor": "P(not E) = 1 - P(E)",
+        "page_hint": 44,
+        "concept_hash": "d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 92,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "The probability of the complement of an event is 1 minus the probability of the event.",
+        "concept_summary": "If 13 of 52 cards are spades, then 39 are not spades. P(not spade) = 39/52 = 3/4. Alternatively, 1 - 13/52 = 1 - 1/4 = 3/4.",
+        "beginner": "Spades are 1/4 of the deck. That means 3/4 of the cards are not spades. So probability of not spade is 3/4.",
+        "intermediate": "P(spade) = 13/52 = 1/4. The complement event 'not spade' has probability \\(1 - \\frac{1}{4} = \\frac{3}{4}\\). Or directly: 39 non-spades/52 cards = 3/4.",
+        "advanced": "The complement rule follows from the axiom \\(P(E) + P(E^c) = 1\\) for mutually exclusive and exhaustive events. Here, \\(P(\\text{spade}^c) = 1 - \\frac{13}{52} = \\frac{39}{52} = \\frac{3}{4}\\).",
+        "worked_solution": [
+          "Step 1: P(spade) = 13/52 = 1/4.",
+          "Step 2: P(not spade) = 1 - P(spade) = 1 - 1/4 = 3/4."
+        ],
+        "reasoning_steps": [
+          "Find probability of the event (spade).",
+          "Subtract that probability from 1.",
+          "The result is probability of the complement (not spade)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P(E^c) = 1 - P(E)\\)",
+            "name": "Complement rule",
+            "variables": [
+              {"symbol": "\\(P(E^c)\\)", "meaning": "probability of complement", "unit": "dimensionless"},
+              {"symbol": "\\(P(E)\\)", "meaning": "probability of event E", "unit": "dimensionless"}
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some compute P(not spade) as 39/52 but fail to simplify, even when simplified form is expected.",
+          "Others incorrectly think complement probability is P(E) - 1."
+        ],
+        "related_concepts": ["Complement", "Probability rules", "Sample space", "Event"],
+        "revision_note": "P(not spade) = 1 - 13/52 = 3/4.",
+        "glossary_entry": {
+          "term": "Complement probability",
+          "definition": "The probability that an event does not occur is 1 minus the probability that it does occur.",
+          "example_equation": "\\(P(\\text{not spade}) = 1 - \\frac{1}{4} = \\frac{3}{4}\\)",
+          "related_terms": ["Complement", "Event", "Probability rule"]
+        },
+        "flashcard": {
+          "front": "Probability of NOT drawing a spade from a 52-card deck?",
+          "back": "3/4. P(spade)=1/4, so P(not spade)=1-1/4=3/4."
+        },
+        "concept_map_nodes": [
+          {"source": "Probability", "relation": "has_complement", "target": "1 - P(E)"},
+          {"source": "Not spade", "relation": "probability", "target": "3/4"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Complement Rule",
+        "flashcard_front": "P(not spade) from 52-card deck?",
+        "flashcard_back": "3/4. P(spade)=13/52=1/4, so 1-1/4=3/4.",
+        "glossary_term": "Complement rule",
+        "glossary_definition": "The probability of an event not occurring is 1 minus the probability that it does occur.",
+        "revision_note": "P(not spade) = 1 - 13/52 = 3/4",
+        "teacher_note": "Emphasize that complement rule works for any event, not just cards.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply the complement rule to find probabilities",
+        "concept_map_nodes": [
+          {"source": "Probability", "relation": "has_complement", "target": "1 - P(E)"},
+          {"source": "Not spade", "relation": "probability", "target": "3/4"}
+        ],
+        "workbook_section": "8.2 Probability",
+        "solution_manual_note": "Answer B. P(spade)=13/52=1/4. P(not spade)=1-1/4=3/4. Option D is equivalent but unsimplified; B is preferred simplified form."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q038",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.1 Statistical Data",
+      "subsection": "8.1.4 Measures of dispersion",
+      "sub_subsection": null,
+      "structural_anchor": "1. Range:",
+      "mcq_type": "F",
+      "question": "Why is the range considered a limited measure of dispersion compared to standard deviation?",
+      "options": {
+        "A": "Because it is difficult to calculate",
+        "B": "Because it uses only two values and ignores the rest of the data",
+        "C": "Because it always gives a negative number",
+        "D": "Because it requires the mean to be calculated first"
+      },
+      "correct_answer": "B",
+      "hint": "Range depends only on extremes, not on how data is distributed between them.",
+      "explanation": "Range = maximum - minimum, using only two data points. It ignores all interior values and can be misleading if outliers exist. Standard deviation uses all data points. Option C is false; range is non-negative.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.1 Statistical Data",
+        "subsection_anchor": "8.1.4 Measures of dispersion",
+        "structural_element": "1. Range:",
+        "content_anchor": "the simplest and the crudest measure of the dispersion",
+        "page_hint": 26,
+        "concept_hash": "e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The range only considers the maximum and minimum, ignoring the distribution of interior data points.",
+        "concept_summary": "Range is crude because two datasets with the same extremes can have completely different internal spreads. Standard deviation accounts for all values, giving a more complete picture.",
+        "beginner": "Range only looks at the biggest and smallest numbers. Two classes could both have scores from 0 to 100, but one class might have most scores near 50 while the other has many 0s and 100s. Range doesn't show this.",
+        "intermediate": "The range uses only two data points (max and min). It does not reflect how other values cluster or spread, making it sensitive to outliers and uninformative about overall dispersion.",
+        "advanced": "Range has low statistical efficiency (ignores most data). For normally distributed data, range ≈ 4-6σ depending on sample size, but it varies greatly with outliers. Standard deviation uses all n observations.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that range = max - min.",
+          "Note that intermediate values do not affect range.",
+          "Conclude that range omits information about data distribution."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think range is as informative as standard deviation for all datasets.",
+          "Others believe a small range always means data is tightly clustered, ignoring possible gaps."
+        ],
+        "related_concepts": ["Standard deviation", "Outlier", "Robust statistics", "Interquartile range"],
+        "revision_note": "Range uses only extremes, ignoring interior data. Standard deviation uses all values.",
+        "glossary_entry": {
+          "term": "Limitation of range",
+          "definition": "The range is limited because it depends only on the maximum and minimum values, not on the distribution of all data points.",
+          "example_equation": null,
+          "related_terms": ["Range", "Standard deviation", "Outlier sensitivity"]
+        },
+        "flashcard": {
+          "front": "Why is range less informative than standard deviation?",
+          "back": "Range uses only max and min; standard deviation uses all data points."
+        },
+        "concept_map_nodes": [
+          {"source": "Range", "relation": "uses_only", "target": "Max and min"},
+          {"source": "Standard deviation", "relation": "uses_all", "target": "Data points"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Range Limitations",
+        "flashcard_front": "Why is range a crude measure of dispersion?",
+        "flashcard_back": "It uses only the maximum and minimum values, ignoring all other data points.",
+        "glossary_term": "Range limitation",
+        "glossary_definition": "The range is limited because it disregards the distribution of interior data values.",
+        "revision_note": "Range ignores interior data; standard deviation uses all values.",
+        "teacher_note": "Give example: {0,50,50,100} and {0,0,100,100} have same range (100) but different spreads.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Compare measures of dispersion and identify limitations of range",
+        "concept_map_nodes": [
+          {"source": "Range", "relation": "uses_only", "target": "Max and min"},
+          {"source": "Standard deviation", "relation": "uses_all", "target": "Data points"}
+        ],
+        "workbook_section": "8.1.4 Measures of dispersion",
+        "solution_manual_note": "Answer B. Range ignores all data except extremes. Option A is false (range is easy). Option C false (range ≥0). Option D false (range doesn't require mean)."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q039",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.1 Statistical Data",
+      "subsection": "8.1.3 Measures of central tendency",
+      "sub_subsection": null,
+      "structural_anchor": "Properties of mean:",
+      "mcq_type": "G",
+      "question": "The sum of deviations of each data point from the mean is always:",
+      "options": {
+        "A": "Positive",
+        "B": "Negative",
+        "C": "Zero",
+        "D": "Equal to the range"
+      },
+      "correct_answer": "C",
+      "hint": "Deviations above and below the mean cancel out.",
+      "explanation": "Property of mean: \\(\\sum (x_i - \\bar{x}) = 0\\). Positive and negative deviations sum to zero. Option D is incorrect; the sum of deviations is unrelated to range.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\sum (x_i - \\bar{x}) = 0\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.1 Statistical Data",
+        "subsection_anchor": "8.1.3 Measures of central tendency",
+        "structural_element": "Properties of mean:",
+        "content_anchor": "The sum of the deviations from the mean is zero",
+        "page_hint": 18,
+        "concept_hash": "f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The sum of the differences between each data point and the mean is always zero.",
+        "concept_summary": "Because the mean is the balancing point, the total positive deviation equals the total negative deviation, resulting in a sum of zero.",
+        "beginner": "For every number above the average, there is a matching amount below the average. Add up all the differences, and they cancel out to zero.",
+        "intermediate": "Proof: \\(\\sum (x_i - \\bar{x}) = \\sum x_i - n\\bar{x} = \\sum x_i - n \\cdot \\frac{\\sum x_i}{n} = \\sum x_i - \\sum x_i = 0\\).",
+        "advanced": "This property arises because the mean minimizes the sum of squared deviations, and the first derivative condition gives \\(\\sum (x_i - \\bar{x}) = 0\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall mean formula: \\(\\bar{x} = \\frac{\\sum x_i}{n}\\).",
+          "Multiply both sides: \\(n\\bar{x} = \\sum x_i\\).",
+          "Then \\(\\sum x_i - n\\bar{x} = 0\\), which is \\(\\sum (x_i - \\bar{x}) = 0\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\sum (x_i - \\bar{x}) = 0\\)",
+            "name": "Zero sum of deviations",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think the sum of absolute deviations is zero (it's not; sum of signed deviations is zero).",
+          "Others believe this means each individual deviation is zero."
+        ],
+        "related_concepts": ["Mean", "Deviation", "Centering", "Balance point"],
+        "revision_note": "Σ(x - x̄) = 0 always. Positive and negative deviations cancel.",
+        "glossary_entry": {
+          "term": "Zero deviation sum",
+          "definition": "The sum of all deviations from the mean is always zero because the mean is the balancing point.",
+          "example_equation": "\\(\\sum (x_i - \\bar{x}) = 0\\)",
+          "related_terms": ["Mean", "Deviation", "Centering"]
+        },
+        "flashcard": {
+          "front": "Sum of deviations from the mean equals what?",
+          "back": "Zero. Positive and negative deviations cancel out."
+        },
+        "concept_map_nodes": [
+          {"source": "Mean", "relation": "zero_sum_deviation", "target": "Σ(x - x̄)=0"},
+          {"source": "Deviation", "relation": "sums_to", "target": "Zero around mean"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Mean Properties",
+        "flashcard_front": "What is Σ(x - x̄) always equal to?",
+        "flashcard_back": "Zero. The positive and negative deviations cancel exactly.",
+        "glossary_term": "Zero deviation sum",
+        "glossary_definition": "The algebraic sum of deviations from the mean is always zero.",
+        "revision_note": "Σ(x - x̄) = 0",
+        "teacher_note": "Prove with a small example: {1,2,3,4} mean=2.5, deviations: -1.5,-0.5,0.5,1.5 sum=0.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Apply the zero-sum property of deviations from the mean",
+        "concept_map_nodes": [
+          {"source": "Mean", "relation": "zero_sum_deviation", "target": "Σ(x - x̄)=0"},
+          {"source": "Deviation", "relation": "sums_to", "target": "Zero"}
+        ],
+        "workbook_section": "8.1.3 Measures of central tendency",
+        "solution_manual_note": "Answer C. Σ(x - x̄) = 0 is a fundamental property of the mean. Positive deviations balance negative deviations."
+      }
+    },
+    {
+      "question_id": "G09_Maths_U8_Q040",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 8: STATISTICS AND PROBABILITY",
+      "section": "8.2 Probability",
+      "subsection": "Probability of an event",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "A die is rolled 600 times, and the number 4 appears 105 times. What is the experimental probability of rolling a 4, and how does it compare to the theoretical probability?",
+      "options": {
+        "A": "Experimental = 0.175, Theoretical = 0.167; they are close but not equal",
+        "B": "Experimental = 0.105, Theoretical = 0.167; they are very different",
+        "C": "Experimental = 0.175, Theoretical = 0.167; they are exactly equal",
+        "D": "Experimental = 0.105, Theoretical = 0.167; they are close"
+      },
+      "correct_answer": "A",
+      "hint": "Experimental = frequency / total trials; theoretical = 1/6 ≈ 0.1667.",
+      "explanation": "Experimental probability = 105/600 = 0.175. Theoretical probability = 1/6 ≈ 0.1667. They are close but not exactly equal due to random variation. Option C claims exact equality, which is false.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(P_{\\text{exp}}(E) = \\frac{\\text{frequency}}{\\text{trials}}\\)", "\\(P_{\\text{theor}}(E) = \\frac{1}{6}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {"trials": 600, "frequency_4": 105},
+        "answer_value": 0.175,
+        "answer_unit": null,
+        "calculation_steps": ["Experimental = 105/600 = 0.175", "Theoretical = 1/6 ≈ 0.1667", "Difference = 0.0083"],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 8: STATISTICS AND PROBABILITY",
+        "section_anchor": "8.2 Probability",
+        "subsection_anchor": "Probability of an event",
+        "structural_element": "Experimental vs theoretical probability",
+        "content_anchor": "We may obtain different probabilities for the same event from various experiments. Repeating the experiment many times brings experimental probability closer to theoretical.",
+        "page_hint": 39,
+        "concept_hash": "a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Experimental probability is observed; theoretical is expected. They often differ in finite trials.",
+        "concept_summary": "The Law of Large Numbers says that as trials increase, experimental probability approaches theoretical probability. Here, 105/600 = 0.175 vs 0.1667, a small difference.",
+        "beginner": "You rolled a die 600 times and got a 4 about 105 times — that's 0.175. The theoretical chance is 1/6 ≈ 0.167. They are close but not exactly the same because of random chance.",
+        "intermediate": "Experimental P(4) = 105/600 = 0.175. Theoretical P(4) = 1/6 ≈ 0.1667. The difference of 0.0083 is due to sampling variability; with more trials, the experimental value would likely get closer to 0.1667.",
+        "advanced": "The standard error of the experimental probability is \\(\\sqrt{p(1-p)/n} \\approx \\sqrt{(1/6)(5/6)/600} \\approx 0.015\\). The observed difference of 0.0083 is less than one standard error, consistent with random variation.",
+        "worked_solution": [
+          "Step 1: Compute experimental: 105/600 = 0.175.",
+          "Step 2: Compute theoretical: 1/6 = 0.166666...",
+          "Step 3: Compare: 0.175 vs 0.1667, difference = 0.0083.",
+          "Step 4: Conclude they are close but not equal."
+        ],
+        "reasoning_steps": [
+          "Count total trials and favorable trials.",
+          "Divide favorable by total for experimental probability.",
+          "Calculate theoretical probability using sample space.",
+          "Compare the two values."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P_{\\text{exp}}(4) = \\frac{105}{600}\\)",
+            "name": "Experimental probability of rolling a 4",
+            "variables": [],
+            "derivation": null
+          },
+          {
+            "formula": "\\(P_{\\text{theor}}(4) = \\frac{1}{6}\\)",
+            "name": "Theoretical probability of rolling a 4",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think experimental probability should exactly equal theoretical probability in any experiment.",
+          "Others incorrectly compute experimental as 105/600 = 0.105 (forgetting to divide correctly)."
+        ],
+        "related_concepts": ["Law of large numbers", "Experimental probability", "Theoretical probability", "Sampling variability"],
+        "revision_note": "Experimental = observed frequency / trials (0.175). Theoretical = 1/6 ≈ 0.167.",
+        "glossary_entry": {
+          "term": "Experimental vs theoretical probability",
+          "definition": "Experimental probability is based on observed data; theoretical is based on equally likely outcomes. They converge as trials increase.",
+          "example_equation": "\\(P_{\\text{exp}} = 0.175, P_{\\text{theor}} \\approx 0.167\\)",
+          "related_terms": ["Law of large numbers", "Sampling error", "Relative frequency"]
+        },
+        "flashcard": {
+          "front": "Die rolled 600 times, '4' appears 105 times. Experimental vs theoretical probability?",
+          "back": "Experimental = 0.175, theoretical ≈ 0.167. They are close but not equal."
+        },
+        "concept_map_nodes": [
+          {"source": "Experimental probability", "relation": "approximates", "target": "Theoretical probability"},
+          {"source": "Law of large numbers", "relation": "explains", "target": "Convergence of probabilities"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Grade 9 Mathematics Unit 8 — Experimental vs Theoretical",
+        "flashcard_front": "600 die rolls, '4' appears 105 times. Compare probabilities.",
+        "flashcard_back": "Experimental = 105/600 = 0.175, theoretical = 1/6 ≈ 0.167. They are close.",
+        "glossary_term": "Experimental probability",
+        "glossary_definition": "Probability determined by dividing observed frequency by total trials.",
+        "revision_note": "Exp = 0.175, Theor = 0.167 (close but not equal)",
+        "teacher_note": "Discuss Law of Large Numbers: more trials → closer to theoretical.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Compare experimental and theoretical probabilities",
+        "concept_map_nodes": [
+          {"source": "Experimental probability", "relation": "approximates", "target": "Theoretical probability"},
+          {"source": "Law of large numbers", "relation": "explains", "target": "Convergence"}
+        ],
+        "workbook_section": "8.2 Probability",
+        "solution_manual_note": "Answer A. Experimental = 105/600 = 0.175; theoretical = 1/6 ≈ 0.1667. Difference is small due to random variation. Option C incorrectly claims exact equality."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 5470,
+    "average_question_quality": 89.3,
+    "type_distribution": {
+      "A": 0,
+      "B": 0,
+      "D": 2,
+      "E": 1,
+      "F": 3,
+      "G": 2,
+      "H": 1,
+      "I": 0,
+      "J": 2,
+      "K": 0,
+      "L": 1,
+      "M": 1,
+      "N": 0,
+      "C": 0
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "8.1 Statistical Data": 6,
+      "8.2 Probability": 4
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 45
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

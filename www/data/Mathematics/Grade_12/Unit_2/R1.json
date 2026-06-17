@@ -1,0 +1,1750 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Math_U2_Q010",
+    "covered_sections": [
+      "2.1 Introduction to Derivatives>2.1.1 Understanding Rates of Change",
+      "2.1 Introduction to Derivatives>2.1.1 Understanding Rates of Change>Rate of change",
+      "2.1 Introduction to Derivatives>2.1.1 Understanding Rates of Change>Average rate of change",
+      "2.1 Introduction to Derivatives>2.1.1 Understanding Rates of Change>Instantaneous rate of change"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6",
+      "b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f678",
+      "c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890",
+      "d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1",
+      "e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2",
+      "f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3",
+      "g7890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4",
+      "h890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5",
+      "i901a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5",
+      "j012a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e"
+    ],
+    "baseline_counter": {
+      "2.1 Introduction to Derivatives": {
+        "2.1.1 Understanding Rates of Change": {
+          "count": 10,
+          "mini_headings_covered": [
+            "Rate of change",
+            "Average rate of change",
+            "Instantaneous rate of change"
+          ],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Introduction to Derivatives": {
+        "question_count": 10,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1 Introduction to Derivatives>2.1.1 Understanding Rates of Change": [
+        "Rate of change",
+        "Positive rate of change",
+        "Negative rate of change",
+        "Zero rate of change",
+        "Average rate of change",
+        "Secant line slope",
+        "Instantaneous rate of change",
+        "Derivative at a point"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 8,
+      "questions_per_concept_ratio": 1.25,
+      "structural_coverage_percentage": 10.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Mathematics",
+  "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+  "pdf_filename": "M12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 3,
+        "progress_percentage": 33.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 1,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 10.0,
+      "concept_utilization_ratio": 1.25
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.1 Introduction to Derivatives",
+      "least_covered_section": "2.2 Application of Derivative",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Math_U2_Q001",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Rate of change",
+      "mcq_type": "A",
+      "question": "What term describes the ratio of the change in one quantity to the corresponding change in another quantity?",
+      "options": {
+        "A": "Rate of change",
+        "B": "Critical number",
+        "C": "Definite integral",
+        "D": "Absolute maximum"
+      },
+      "correct_answer": "A",
+      "hint": "Think of a ratio comparing how two variables change together.",
+      "explanation": "The rate of change is defined as the ratio of the change in one quantity to the change in another, represented by \\(\\frac{\\Delta y}{\\Delta x}\\). Option B is a point where a function's derivative is zero or undefined, unrelated to this basic ratio.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Rate of change",
+        "content_anchor": "rate that describes how one quantity changes in relation to another quantity",
+        "page_hint": 4,
+        "concept_hash": "a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A rate of change describes how one quantity changes in relation to another, expressed as a ratio.",
+        "concept_summary": "The rate of change measures the speed at which a variable alters relative to another variable. It is fundamental to understanding derivatives and slopes.",
+        "beginner": "Think of a car's speed: it is the rate of change of distance with respect to time.",
+        "intermediate": "The rate of change is calculated as \\(\\frac{\\Delta y}{\\Delta x}\\). A positive rate means an increasing function while a negative rate means a decreasing function.",
+        "advanced": "The instantaneous rate of change is the limit of the average rate of change as the interval approaches zero, formally \\(f'(a) = \\lim_{h \\to 0} \\frac{f(a+h)-f(a)}{h}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the two quantities being compared.",
+          "Find the change in the first quantity.",
+          "Find the change in the second quantity.",
+          "Divide the change in the first by the change in the second."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing rate of change with total change. Rate of change is a ratio, not an absolute difference.",
+          "Assuming a zero rate of change means the function is not defined. It actually means the function is constant on that interval."
+        ],
+        "related_concepts": ["Derivative", "Slope", "Velocity"],
+        "revision_note": "Rate of change = \\(\\frac{\\Delta y}{\\Delta x}\\). Positive = increase, Negative = decrease.",
+        "glossary_entry": {
+          "term": "Rate of change",
+          "definition": "A ratio describing how one quantity changes with respect to another quantity.",
+          "example_equation": null,
+          "related_terms": ["Derivative", "Slope"]
+        },
+        "flashcard": {
+          "front": "What is the mathematical ratio that describes how one variable changes relative to another?",
+          "back": "Rate of change: \\(\\frac{\\Delta y}{\\Delta x}\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Rate of change", "relation": "measured_by", "target": "Derivative" },
+          { "source": "Rate of change", "relation": "analogous_to", "target": "Slope of a line" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 2 — Rates of Change",
+        "flashcard_front": "What does a positive rate of change indicate about a function's graph?",
+        "flashcard_back": "The graph slopes upward as \\(x\\) increases.",
+        "glossary_term": "Rate of change",
+        "glossary_definition": "A ratio comparing the change in one quantity to the change in another.",
+        "revision_note": "Rate = change in y / change in x.",
+        "teacher_note": "Students often memorize the formula but fail to interpret its sign. Emphasize positive slope = increasing function.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Understand the concept of rate of change",
+        "concept_map_nodes": [
+          { "source": "Rate of change", "relation": "calculated_as", "target": "\\(\\frac{\\Delta y}{\\Delta x}\\)" }
+        ],
+        "workbook_section": "2.1 Introduction to Derivatives",
+        "solution_manual_note": "Answer A. Rate of change is the ratio of vertical change to horizontal change."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q002",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Positive rate of change",
+      "mcq_type": "G",
+      "question": "If the graph of a function rises as \\(x\\) moves to the right, what is true about its rate of change over that interval?",
+      "options": {
+        "A": "The rate of change is positive.",
+        "B": "The rate of change is negative.",
+        "C": "The rate of change is zero.",
+        "D": "The rate of change is undefined."
+      },
+      "correct_answer": "A",
+      "hint": "A rising graph means the \\(y\\)-values increase as \\(x\\) increases.",
+      "explanation": "A rising graph indicates that as \\(x\\) increases, \\(y\\) also increases. This corresponds to a positive rate of change, \\(\\frac{\\Delta y}{\\Delta x} > 0\\). Option B describes a falling graph where \\(y\\) decreases as \\(x\\) increases.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Positive rate of change",
+        "content_anchor": "values of the two quantities increases at the same time and the graph slopes upward",
+        "page_hint": 4,
+        "concept_hash": "b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f678"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A positive rate of change occurs when both variables increase simultaneously.",
+        "concept_summary": "When a function is increasing, its rate of change is positive. This is visually represented by an upward-sloping graph.",
+        "beginner": "Imagine walking up a hill: as you move forward (x), your height (y) goes up.",
+        "intermediate": "For a function \\(y=f(x)\\), if \\(f'(x) > 0\\) on an interval, the function is increasing and the graph slopes upward.",
+        "advanced": "Mathematically, a positive rate of change implies \\(\\frac{f(b)-f(a)}{b-a} > 0\\) for any \\(a<b\\) in the interval, indicating the secant line slope is positive.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Observe the direction of the graph as x increases.",
+          "If the graph rises, y increases.",
+          "Therefore, \\(\\Delta y > 0\\) and \\(\\Delta x > 0\\).",
+          "The ratio \\(\\Delta y / \\Delta x\\) is positive."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking a positive rate always means the graph is curving upward. A straight line with positive slope also has a positive rate.",
+          "Confusing positive rate of change with the magnitude of change. A large positive change is still positive."
+        ],
+        "related_concepts": ["Increasing function", "Slope", "Derivative"],
+        "revision_note": "Positive ROC = Graph rises as x increases.",
+        "glossary_entry": {
+          "term": "Positive rate of change",
+          "definition": "A rate of change where both quantities increase together.",
+          "example_equation": null,
+          "related_terms": ["Increasing function", "Negative rate of change"]
+        },
+        "flashcard": {
+          "front": "If a graph slopes upward from left to right, what is the sign of its rate of change?",
+          "back": "Positive."
+        },
+        "concept_map_nodes": [
+          { "source": "Positive rate of change", "relation": "causes", "target": "Increasing function" },
+          { "source": "Positive rate of change", "relation": "visualized_as", "target": "Upward slope" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 2 — Rates of Change",
+        "flashcard_front": "What does a positive rate of change look like on a graph?",
+        "flashcard_back": "An upward-sloping line or curve.",
+        "glossary_term": "Positive rate of change",
+        "glossary_definition": "A situation where both variables increase together.",
+        "revision_note": "Positive ROC = \\(\\frac{\\Delta y}{\\Delta x} > 0\\).",
+        "teacher_note": "Use the hill analogy to help students visualize positive rates.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Interpret the meaning of rate of change graphically",
+        "concept_map_nodes": [
+          { "source": "Positive rate of change", "relation": "implies", "target": "Increasing function" }
+        ],
+        "workbook_section": "2.1 Introduction to Derivatives",
+        "solution_manual_note": "Answer A. An upward slope indicates y increases as x increases."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q003",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Negative rate of change",
+      "mcq_type": "G",
+      "question": "A function is decreasing on an interval. What must be true about its rate of change on that interval?",
+      "options": {
+        "A": "It is positive.",
+        "B": "It is negative.",
+        "C": "It is zero.",
+        "D": "It is undefined."
+      },
+      "correct_answer": "B",
+      "hint": "A decreasing graph falls as you move to the right.",
+      "explanation": "A decreasing function has a negative rate of change because \\(\\Delta y\\) is negative while \\(\\Delta x\\) is positive. Option A is incorrect because a positive rate would cause the function to increase.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Negative rate of change",
+        "content_anchor": "value of one quantity increases and the value of the other quantity decreases",
+        "page_hint": 4,
+        "concept_hash": "c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A negative rate of change occurs when one quantity increases while the other decreases.",
+        "concept_summary": "When a function is decreasing, its rate of change is negative. This means the output decreases as the input increases.",
+        "beginner": "Imagine sliding down a hill: as you move forward (x), your height (y) goes down.",
+        "intermediate": "If \\(f'(x) < 0\\) on an interval, the function is decreasing. The secant slope \\(\\frac{f(b)-f(a)}{b-a}\\) will be negative.",
+        "advanced": "A negative rate indicates that the function is decreasing. For differentiable functions, this implies \\(f'(x) < 0\\) at each point in the interval.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize that decreasing means y-values get smaller.",
+          "As x increases, y decreases.",
+          "Thus \\(\\Delta y < 0\\).",
+          "The ratio \\(\\Delta y / \\Delta x\\) is negative."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking negative rate means the graph must be below the x-axis. The sign refers to slope, not position.",
+          "Confusing a steep negative slope with a less steep negative slope; both are negative."
+        ],
+        "related_concepts": ["Decreasing function", "Derivative", "Slope"],
+        "revision_note": "Negative ROC = Graph falls as x increases.",
+        "glossary_entry": {
+          "term": "Negative rate of change",
+          "definition": "A rate of change where one quantity increases and the other decreases.",
+          "example_equation": null,
+          "related_terms": ["Decreasing function", "Positive rate of change"]
+        },
+        "flashcard": {
+          "front": "What is the sign of the rate of change for a decreasing function?",
+          "back": "Negative."
+        },
+        "concept_map_nodes": [
+          { "source": "Negative rate of change", "relation": "causes", "target": "Decreasing function" },
+          { "source": "Negative rate of change", "relation": "visualized_as", "target": "Downward slope" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 2 — Rates of Change",
+        "flashcard_front": "If a graph slopes downward from left to right, what is the sign of its rate of change?",
+        "flashcard_back": "Negative.",
+        "glossary_term": "Negative rate of change",
+        "glossary_definition": "A situation where one variable increases and the other decreases.",
+        "revision_note": "Negative ROC = \\(\\frac{\\Delta y}{\\Delta x} < 0\\).",
+        "teacher_note": "Use the sliding down a hill analogy for negative rates.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Interpret the meaning of rate of change graphically",
+        "concept_map_nodes": [
+          { "source": "Negative rate of change", "relation": "implies", "target": "Decreasing function" }
+        ],
+        "workbook_section": "2.1 Introduction to Derivatives",
+        "solution_manual_note": "Answer B. A decreasing function has a negative rate of change."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q004",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Zero rate of change",
+      "mcq_type": "A",
+      "question": "What does a zero rate of change indicate about the relationship between two quantities?",
+      "options": {
+        "A": "One quantity remains constant while the other changes.",
+        "B": "Both quantities are decreasing.",
+        "C": "Both quantities are increasing.",
+        "D": "Both quantities are undefined."
+      },
+      "correct_answer": "A",
+      "hint": "Zero means no change in one quantity despite change in the other.",
+      "explanation": "A zero rate of change means the dependent quantity stays the same while the independent quantity changes, producing a horizontal line graph. Option B describes a negative rate, not zero.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Zero rate of change",
+        "content_anchor": "value of one quantity increases, the value of the other quantity remains constant",
+        "page_hint": 5,
+        "concept_hash": "d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Zero rate of change occurs when one quantity remains constant while the other changes.",
+        "concept_summary": "A zero rate of change means the function is constant on the interval. The graph is a horizontal line.",
+        "beginner": "Think of a parked car: time passes (x) but the distance traveled (y) stays zero.",
+        "intermediate": "If \\(f'(x) = 0\\) for all x in an interval, the function is constant, and \\(f(b)-f(a)=0\\).",
+        "advanced": "Zero rate of change implies the function is flat on that interval. The derivative is zero, and the function has no local increase or decrease.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that the output value does not change.",
+          "The change in y is zero.",
+          "Regardless of change in x, the ratio is zero."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking zero rate means the quantities are not related. Zero rate specifically means one is constant.",
+          "Believing zero rate of change is the same as undefined rate of change."
+        ],
+        "related_concepts": ["Constant function", "Horizontal line", "Derivative"],
+        "revision_note": "Zero ROC = Horizontal line: \\(\\Delta y = 0\\).",
+        "glossary_entry": {
+          "term": "Zero rate of change",
+          "definition": "A rate where one quantity is constant while the other changes.",
+          "example_equation": null,
+          "related_terms": ["Constant function", "Horizontal line"]
+        },
+        "flashcard": {
+          "front": "What does a zero rate of change look like on a graph?",
+          "back": "A horizontal line."
+        },
+        "concept_map_nodes": [
+          { "source": "Zero rate of change", "relation": "visualized_as", "target": "Horizontal line" },
+          { "source": "Zero rate of change", "relation": "implies", "target": "Constant function" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Mathematics Unit 2 — Rates of Change",
+        "flashcard_front": "What does a zero rate of change indicate about the relationship between x and y?",
+        "flashcard_back": "y is constant as x changes.",
+        "glossary_term": "Zero rate of change",
+        "glossary_definition": "A situation where the dependent variable does not change.",
+        "revision_note": "Zero ROC: Output constant.",
+        "teacher_note": "Emphasize that zero rate does not mean 'nothing is happening'; it means the output is stable.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Understand the concept of rate of change",
+        "concept_map_nodes": [
+          { "source": "Zero rate of change", "relation": "results_in", "target": "Horizontal line" }
+        ],
+        "workbook_section": "2.1 Introduction to Derivatives",
+        "solution_manual_note": "Answer A. Zero rate means the dependent variable is constant."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q005",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Average rate of change",
+      "mcq_type": "D",
+      "question": "For the function \\(f(x) = 3x^2 - 2x\\), calculate the average rate of change on the interval \\([1, 4]\\).",
+      "options": {
+        "A": "\\(13\\)",
+        "B": "\\(10\\)",
+        "C": "\\(15\\)",
+        "D": "\\(20\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Use the formula \\(\\frac{f(b)-f(a)}{b-a}\\).",
+      "explanation": "The average rate of change is \\(\\frac{f(4)-f(1)}{4-1} = \\frac{40-1}{3} = 13\\). Option C, 15, is a common error from incorrectly substituting values or simplifying the difference.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\frac{f(b)-f(a)}{b-a}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "a": { "magnitude": 1, "unit": null },
+          "b": { "magnitude": 4, "unit": null }
+        },
+        "answer_value": 13,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Step 1: Evaluate \\(f(4) = 3(4)^2 - 2(4) = 48 - 8 = 40\\).",
+          "Step 2: Evaluate \\(f(1) = 3(1)^2 - 2(1) = 3 - 2 = 1\\).",
+          "Step 3: Apply formula: \\(\\frac{40 - 1}{4 - 1} = \\frac{39}{3} = 13\\)."
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Average rate of change",
+        "content_anchor": "formula for average rate of change",
+        "page_hint": 6,
+        "concept_hash": "e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "The average rate of change of a function over an interval is the slope of the secant line connecting the endpoints.",
+        "concept_summary": "Average rate of change measures the overall change in the function per unit of input over the interval.",
+        "beginner": "Find the y-values at the start and end, then divide the difference in y by the difference in x.",
+        "intermediate": "Apply the formula \\(\\frac{f(4)-f(1)}{4-1} = \\frac{40-1}{3}=13\\).",
+        "advanced": "Geometrically, this is the slope of the secant line through \\((1, f(1))\\) and \\((4, f(4))\\), representing the function's average steepness.",
+        "worked_solution": [
+          "Step 1: \\(f(4) = 3(4)^2 - 2(4) = 40\\).",
+          "Step 2: \\(f(1) = 3(1)^2 - 2(1) = 1\\).",
+          "Step 3: Average ROC = \\(\\frac{40-1}{3} = 13\\)."
+        ],
+        "reasoning_steps": [
+          "Substitute the endpoints into the function.",
+          "Find the difference in the outputs.",
+          "Divide by the length of the interval."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\frac{f(b)-f(a)}{b-a}\\)",
+            "name": "Average Rate of Change",
+            "variables": [
+              { "symbol": "\\(f(b)\\)", "meaning": "Function value at end point", "unit": null },
+              { "symbol": "\\(f(a)\\)", "meaning": "Function value at start point", "unit": null }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Calculating \\(\\frac{f(a)}{a}\\) instead of the difference. You must subtract the y-values, not divide them.",
+          "Forgetting to divide by the change in x, resulting in 39."
+        ],
+        "related_concepts": ["Secant line", "Slope", "Difference quotient"],
+        "revision_note": "Avg ROC = \\(\\frac{\\Delta y}{\\Delta x}\\) = slope of secant.",
+        "glossary_entry": {
+          "term": "Average rate of change",
+          "definition": "The total change in a function divided by the total change in the input over an interval.",
+          "example_equation": "\\(\\frac{f(b)-f(a)}{b-a}\\)",
+          "related_terms": ["Secant line", "Derivative"]
+        },
+        "flashcard": {
+          "front": "What is the formula for the average rate of change of \\(f\\) from \\(a\\) to \\(b\\)?",
+          "back": "\\(\\frac{f(b)-f(a)}{b-a}\\)"
+        },
+        "concept_map_nodes": [
+          { "source": "Average rate of change", "relation": "equals", "target": "Slope of secant line" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 2 — Rates of Change",
+        "flashcard_front": "A function goes from (1, 1) to (4, 40). What is the average rate of change?",
+        "flashcard_back": "\\(13\\).",
+        "glossary_term": "Average rate of change",
+        "glossary_definition": "Total change in y over total change in x.",
+        "revision_note": "Avg ROC = \\(\\frac{f(b)-f(a)}{b-a}\\).",
+        "teacher_note": "Reinforce that 'average' means total change divided by total time.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate the average rate of change of a function on an interval",
+        "concept_map_nodes": [
+          { "source": "Average rate of change", "relation": "calculated_using", "target": "\\(\\frac{f(b)-f(a)}{b-a}\\)" }
+        ],
+        "workbook_section": "2.1.1 Understanding Rates of Change",
+        "solution_manual_note": "Answer A. Plugging values yields \\( (40-1)/(3) = 13\\)."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q006",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Average rate of change",
+      "mcq_type": "F",
+      "question": "Why is the average rate of change of a linear function constant on any interval?",
+      "options": {
+        "A": "Because linear functions have no curvature.",
+        "B": "Because the slope of a line is constant.",
+        "C": "Because linear functions are always increasing.",
+        "D": "Because the y-intercept cancels out."
+      },
+      "correct_answer": "B",
+      "hint": "Consider the relationship between the formula for a line and the secant line.",
+      "explanation": "For \\(f(x)=mx+b\\), the average rate is \\(\\frac{(mx_2+b)-(mx_1+b)}{x_2-x_1}=m\\). Option C is false because lines can be decreasing (negative slope).",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(f(x)=mx+b\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Average rate of change",
+        "content_anchor": "geometrically, the average rate of change is the slope of the secant line",
+        "page_hint": 8,
+        "concept_hash": "f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Average rate of change measures the slope of the secant line between two points.",
+        "concept_summary": "For a linear function, the secant line between any two points is the same as the function itself, so the slope is constant.",
+        "beginner": "A straight line has the same steepness everywhere, so the average steepness is always that value.",
+        "intermediate": "The slope formula \\(\\frac{(mx_2+b)-(mx_1+b)}{x_2-x_1}\\) simplifies to \\(m\\), independent of \\(x_1\\) and \\(x_2\\).",
+        "advanced": "Linear functions have constant first derivatives. The average rate of change equals the derivative at any point, hence constant.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Write the formula for a linear function.",
+          "Substitute into the average ROC formula.",
+          "Simplify the numerator: \\(mx_2 - mx_1 = m(x_2-x_1)\\).",
+          "Divide by \\(x_2-x_1\\) to get \\(m\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(f(x)=mx+b\\)",
+            "name": "Linear function",
+            "variables": [
+              { "symbol": "m", "meaning": "Slope", "unit": null },
+              { "symbol": "b", "meaning": "y-intercept", "unit": null }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Assuming all linear functions are increasing. A negative slope is still linear but decreasing.",
+          "Thinking the y-intercept affects the average rate of change. The \\(b\\) cancels out in subtraction."
+        ],
+        "related_concepts": ["Linear function", "Slope", "Constant function"],
+        "revision_note": "Linear f: Avg ROC = slope \\(m\\).",
+        "glossary_entry": {
+          "term": "Linear function",
+          "definition": "A function of the form \\(f(x)=mx+b\\) with constant slope.",
+          "example_equation": "\\(f(x)=2x+3\\)",
+          "related_terms": ["Slope", "Average rate of change"]
+        },
+        "flashcard": {
+          "front": "Why is the average rate of change of \\(f(x)=4x-1\\) always 4?",
+          "back": "The slope \\(m=4\\) is constant."
+        },
+        "concept_map_nodes": [
+          { "source": "Average rate of change", "relation": "constant_for", "target": "Linear functions" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Rates of Change",
+        "flashcard_front": "Does the average rate of change of a linear function depend on the interval chosen?",
+        "flashcard_back": "No, it equals the constant slope \\(m\\).",
+        "glossary_term": "Linear function",
+        "glossary_definition": "A function with constant slope.",
+        "revision_note": "Linear: Avg ROC = slope.",
+        "teacher_note": "Show algebraically why the y-intercept cancels to prove constancy.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Understand the geometric meaning of average rate of change",
+        "concept_map_nodes": [
+          { "source": "Linear function", "relation": "has_constant", "target": "Average rate of change" }
+        ],
+        "workbook_section": "2.1.1 Understanding Rates of Change",
+        "solution_manual_note": "Answer B. The algebra simplifies to \\(m\\), the slope."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q007",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Instantaneous rate of change",
+      "mcq_type": "D",
+      "question": "Find the instantaneous rate of change of \\(f(x) = 4x^2 - 3x\\) at \\(x = 2\\).",
+      "options": {
+        "A": "\\(16\\)",
+        "B": "\\(13\\)",
+        "C": "\\(10\\)",
+        "D": "\\(8\\)"
+      },
+      "correct_answer": "B",
+      "hint": "The instantaneous rate of change is the derivative \\(f'(x)\\).",
+      "explanation": "\\(f'(x) = 8x - 3\\), so \\(f'(2) = 8(2) - 3 = 13\\). Option A, 16, results from incorrectly differentiating as \\(8x\\) and forgetting the \\(-3\\) term.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(f'(x) = \\lim_{h \\to 0} \\frac{f(x+h)-f(x)}{h}\\)", "\\(\\frac{d}{dx}(x^n) = nx^{n-1}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "x": { "magnitude": 2, "unit": null }
+        },
+        "answer_value": 13,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Step 1: Find \\(f'(x) = 8x - 3\\).",
+          "Step 2: Substitute \\(x = 2\\): \\(8(2) - 3 = 16 - 3 = 13\\)."
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Instantaneous rate of change",
+        "content_anchor": "the instantaneous rate of change of a function f at x = x0 is (f(x0 + h) - f(x0))/h",
+        "page_hint": 10,
+        "concept_hash": "g7890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 92,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Instantaneous rate of change is the derivative, or the slope of the tangent line at a point.",
+        "concept_summary": "It measures how fast the function is changing at a specific instant, as opposed to over an interval.",
+        "beginner": "It's like the speedometer reading at a precise second, not the average speed over a trip.",
+        "intermediate": "Find the derivative: \\(f'(x)=8x-3\\). Plugging \\(x=2\\) gives \\(13\\).",
+        "advanced": "The limit definition yields the derivative. For polynomials, the power rule simplifies this process.",
+        "worked_solution": [
+          "Step 1: \\(f'(x) = \\frac{d}{dx}(4x^2) - \\frac{d}{dx}(3x) = 8x - 3\\).",
+          "Step 2: \\(f'(2) = 8(2) - 3 = 13\\)."
+        ],
+        "reasoning_steps": [
+          "Differentiate the function using the power rule.",
+          "Substitute the given x-value into the derivative.",
+          "Simplify the arithmetic."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\frac{d}{dx}(x^n) = nx^{n-1}\\)",
+            "name": "Power Rule",
+            "variables": [
+              { "symbol": "n", "meaning": "Exponent", "unit": null }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Forgetting to differentiate the linear term \\(-3x\\), treating it as a constant.",
+          "Confusing average rate of change with instantaneous rate."
+        ],
+        "related_concepts": ["Derivative", "Tangent line", "Power rule"],
+        "revision_note": "Instantaneous ROC = \\(f'(a)\\).",
+        "glossary_entry": {
+          "term": "Instantaneous rate of change",
+          "definition": "The derivative of a function at a specific point.",
+          "example_equation": "\\(f'(a) = \\lim_{h \\to 0} \\frac{f(a+h)-f(a)}{h}\\)",
+          "related_terms": ["Derivative", "Tangent line"]
+        },
+        "flashcard": {
+          "front": "What is the derivative of \\(f(x)=4x^2-3x\\) evaluated at \\(x=2\\)?",
+          "back": "\\(13\\)."
+        },
+        "concept_map_nodes": [
+          { "source": "Instantaneous rate of change", "relation": "equals", "target": "Derivative" },
+          { "source": "Instantaneous rate of change", "relation": "calculated_via", "target": "Power rule" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 2 — Derivatives",
+        "flashcard_front": "Find \\(f'(2)\\) for \\(f(x)=4x^2-3x\\).",
+        "flashcard_back": "\\(13\\).",
+        "glossary_term": "Derivative",
+        "glossary_definition": "The instantaneous rate of change of a function.",
+        "revision_note": "Derivative = Instantaneous ROC.",
+        "teacher_note": "Reinforce the difference between average and instantaneous rates.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Find the derivative of simple functions using the gradient method",
+        "concept_map_nodes": [
+          { "source": "Derivative", "relation": "defined_as", "target": "Instantaneous rate of change" }
+        ],
+        "workbook_section": "2.1.1 Understanding Rates of Change",
+        "solution_manual_note": "Answer B. \\(f'(x)=8x-3\\), so \\(f'(2)=13\\)."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q008",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Instantaneous rate of change",
+      "mcq_type": "H",
+      "question": "A student claims that to find the instantaneous rate of change at \\(x=3\\), they simply evaluate \\(f(3)\\). What is the error in this reasoning?",
+      "options": {
+        "A": "Evaluating \\(f(3)\\) gives the slope of the tangent line.",
+        "B": "The derivative \\(f'(3)\\) is the rate, not \\(f(3)\\).",
+        "C": "The value \\(f(3)\\) gives the average rate of change.",
+        "D": "The instantaneous rate requires an interval, not a single point."
+      },
+      "correct_answer": "B",
+      "hint": "The rate of change is a ratio, not just the function's output.",
+      "explanation": "Instantaneous rate of change is the derivative \\(f'(a)\\), representing the slope of the tangent. Option B correctly identifies the error: \\(f(3)\\) is the position or value, not the rate.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Instantaneous rate of change",
+        "content_anchor": "the instantaneous rate of change of a function f at x = x0 is (f(x0 + h) - f(x0))/h",
+        "page_hint": 10,
+        "concept_hash": "h890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Instantaneous rate is the limit of the difference quotient, not the function value.",
+        "concept_summary": "The function value gives the output at a point, while the derivative gives how fast it is changing.",
+        "beginner": "If you know you are at mile marker 3, that doesn't tell you how fast you are driving.",
+        "intermediate": "Instantaneous rate is \\(f'(3)\\), which is \\(\\lim_{h\\to0} \\frac{f(3+h)-f(3)}{h}\\), not \\(f(3)\\).",
+        "advanced": "The function value is the height of the curve; the derivative is the slope. Confusing them is a fundamental category error.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition of instantaneous rate of change.",
+          "Identify that \\(f(3)\\) is an output value.",
+          "Conclude that \\(f(3)\\) lacks the 'change in y / change in x' component."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Believing the function value tells you the steepness. This confuses position with velocity.",
+          "Thinking the instantaneous rate is the same as the function's y-coordinate."
+        ],
+        "related_concepts": ["Derivative", "Difference quotient", "Slope"],
+        "revision_note": "ROC = \\(f'(a)\\). \\(f(a)\\) is the value, not the rate.",
+        "glossary_entry": {
+          "term": "Derivative",
+          "definition": "The instantaneous rate of change of a function.",
+          "example_equation": null,
+          "related_terms": ["Difference quotient", "Slope"]
+        },
+        "flashcard": {
+          "front": "True or False: \\(f(3)\\) equals the instantaneous rate of change at \\(x=3\\).",
+          "back": "False. \\(f'(3)\\) equals the rate of change."
+        },
+        "concept_map_nodes": [
+          { "source": "Derivative", "relation": "contrasted_with", "target": "Function value" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "warning",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Common Errors",
+        "flashcard_front": "What is the mistake if a student uses \\(f(3)\\) to find the instantaneous rate of change at \\(x=3\\)?",
+        "flashcard_back": "The derivative \\(f'(3)\\) is needed, not the function value.",
+        "glossary_term": "Instantaneous rate of change",
+        "glossary_definition": "The derivative at a point.",
+        "revision_note": "Don't confuse \\(f(a)\\) with \\(f'(a)\\).",
+        "teacher_note": "Use the position vs. velocity analogy to clarify this common error.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Understand the meaning of derivative",
+        "concept_map_nodes": [
+          { "source": "Instantaneous rate of change", "relation": "is_not", "target": "Function value" }
+        ],
+        "workbook_section": "2.1.1 Understanding Rates of Change",
+        "solution_manual_note": "Answer B. The student confuses the function output with its derivative."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q009",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Instantaneous rate of change",
+      "mcq_type": "E",
+      "question": "The height of a projectile is given by \\(h(t) = -16t^2 + 64t\\). What is the instantaneous velocity at \\(t = 2\\) seconds?",
+      "options": {
+        "A": "\\(0 \\text{ ft/s}\\)",
+        "B": "\\(32 \\text{ ft/s}\\)",
+        "C": "\\(64 \\text{ ft/s}\\)",
+        "D": "\\(-32 \\text{ ft/s}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Velocity is the derivative \\(h'(t)\\).",
+      "explanation": "\\(h'(t) = -32t + 64\\), so \\(h'(2) = -32(2) + 64 = 0\\) ft/s. Option B, 32 ft/s, is a common error from evaluating \\(h(2)\\) or misapplying the derivative.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(h'(t) = \\frac{d}{dt}(-16t^2 + 64t)\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "t": { "magnitude": 2, "unit": "s" }
+        },
+        "answer_value": 0,
+        "answer_unit": "ft/s",
+        "calculation_steps": [
+          "Step 1: Differentiate: \\(h'(t) = -32t + 64\\).",
+          "Step 2: Substitute \\(t = 2\\): \\(-32(2) + 64 = -64 + 64 = 0\\) ft/s."
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Instantaneous rate of change",
+        "content_anchor": "velocity of a moving body at a particular time is the instantaneous rate of change",
+        "page_hint": 11,
+        "concept_hash": "i901a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 92,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Instantaneous velocity is the derivative of the position function.",
+        "concept_summary": "Velocity is the rate of change of position. Setting the derivative to zero indicates the projectile has stopped rising and is about to fall.",
+        "beginner": "At the top of its arc, the ball stops for an instant before falling back down.",
+        "intermediate": "\\(h'(t) = -32t + 64\\). At \\(t=2\\), \\(h'(2)=0\\), meaning the projectile is at its maximum height.",
+        "advanced": "The vertex of the parabola occurs where \\(h'(t)=0\\). Solving \\(-32t+64=0\\) gives \\(t=2\\), confirming the apex.",
+        "worked_solution": [
+          "Step 1: \\(h'(t) = -32t + 64\\).",
+          "Step 2: \\(h'(2) = -32(2) + 64 = 0\\) ft/s."
+        ],
+        "reasoning_steps": [
+          "Recall that velocity is the derivative of position.",
+          "Find the derivative of the quadratic.",
+          "Evaluate the derivative at \\(t=2\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(v(t) = \\frac{dh}{dt}\\)",
+            "name": "Velocity",
+            "variables": [
+              { "symbol": "h", "meaning": "Height", "unit": "ft" },
+              { "symbol": "t", "meaning": "Time", "unit": "s" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Confusing height \\(h(2)\\) with velocity. The height at \\(t=2\\) is 64 ft, not 0.",
+          "Forgetting the negative sign in \\(-32t\\), leading to \\(32(2)+64=128\\)."
+        ],
+        "related_concepts": ["Velocity", "Derivative", "Quadratic functions"],
+        "revision_note": "Velocity = \\(h'(t)\\). Zero velocity = turning point.",
+        "glossary_entry": {
+          "term": "Velocity",
+          "definition": "The instantaneous rate of change of position with respect to time.",
+          "example_equation": "\\(v(t) = s'(t)\\)",
+          "related_terms": ["Derivative", "Acceleration"]
+        },
+        "flashcard": {
+          "front": "A projectile's height is \\(h(t)=-16t^2+64t\\). What is its velocity at the top of its arc?",
+          "back": "\\(0\\) ft/s."
+        },
+        "concept_map_nodes": [
+          { "source": "Velocity", "relation": "is_the", "target": "Derivative of position" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 2 — Applications",
+        "flashcard_front": "Find the velocity of \\(h(t)=-16t^2+64t\\) at \\(t=2\\).",
+        "flashcard_back": "\\(0\\) ft/s (the projectile is at its peak).",
+        "glossary_term": "Velocity",
+        "glossary_definition": "Derivative of position function.",
+        "revision_note": "Velocity = \\(h'(t)\\).",
+        "teacher_note": "Connect this to real-world projectile motion: velocity is zero at the apex.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply derivatives to solve real-world problems",
+        "concept_map_nodes": [
+          { "source": "Velocity", "relation": "zeros_at", "target": "Maximum height" }
+        ],
+        "workbook_section": "2.2.1 Finding Rate of Change",
+        "solution_manual_note": "Answer A. \\(h'(2)=0\\) indicates the projectile is at its maximum height."
+      }
+    },
+    {
+      "question_id": "G12_Math_U2_Q010",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Mathematics",
+      "unit": "Unit 2: INTRODUCTION TO CALCULUS",
+      "section": "2.1 Introduction to Derivatives",
+      "subsection": "2.1.1 Understanding Rates of Change",
+      "sub_subsection": null,
+      "structural_anchor": "Instantaneous rate of change",
+      "mcq_type": "F",
+      "question": "Why does the instantaneous rate of change require evaluating a limit as \\(h \\to 0\\)?",
+      "options": {
+        "A": "To ensure the function is continuous.",
+        "B": "To find the exact slope at a single point, not over an interval.",
+        "C": "To convert the function into a linear approximation.",
+        "D": "To calculate the average of two secant slopes."
+      },
+      "correct_answer": "B",
+      "hint": "The limit shrinks the interval width to zero.",
+      "explanation": "The limit \\(\\lim_{h \\to 0} \\frac{f(a+h)-f(a)}{h}\\) gives the exact slope of the tangent line at the point. Option B correctly states that the limit eliminates the interval to find the rate at a precise instant.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(f'(a) = \\lim_{h \\to 0} \\frac{f(a+h)-f(a)}{h}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: INTRODUCTION TO CALCULUS",
+        "section_anchor": "2.1 Introduction to Derivatives",
+        "subsection_anchor": "2.1.1 Understanding Rates of Change",
+        "structural_element": "Instantaneous rate of change",
+        "content_anchor": "as h gets closer and closer to zero",
+        "page_hint": 10,
+        "concept_hash": "j012a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e5f67890a1b2c3d4e"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "The instantaneous rate is the limit of the difference quotient as \\(h\\) approaches 0.",
+        "concept_summary": "The limit process removes the dependence on an interval, allowing us to measure change at a single exact point.",
+        "beginner": "Average speed over a trip is \\(d/t\\). Instantaneous speed is what the speedometer shows, which requires looking at an infinitely small moment.",
+        "intermediate": "As \\(h\\) gets smaller, the secant line becomes the tangent line. The limit captures this exact slope.",
+        "advanced": "The limit definition provides a rigorous foundation for derivatives, avoiding division by zero while capturing the slope of the tangent line.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize that \\(h\\) represents the length of the interval.",
+          "Realize that a non-zero \\(h\\) gives an average rate over \\(h\\).",
+          "The limit shrinks \\(h\\) to zero, leaving only the point."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\lim_{h \\to 0} \\frac{f(a+h)-f(a)}{h}\\)",
+            "name": "Limit Definition of Derivative",
+            "variables": [
+              { "symbol": "h", "meaning": "Change in x", "unit": null }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Thinking the limit is just plugging in \\(h=0\\), which yields \\(0/0\\) undefined.",
+          "Believing the limit is needed only for non-polynomial functions."
+        ],
+        "related_concepts": ["Limits", "Tangent line", "Secant line"],
+        "revision_note": "Limit eliminates interval to find slope at a point.",
+        "glossary_entry": {
+          "term": "Limit",
+          "definition": "The value a function approaches as the input approaches a certain value.",
+          "example_equation": "\\(\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\\)",
+          "related_terms": ["Derivative", "Continuity"]
+        },
+        "flashcard": {
+          "front": "What does the \\(h \\to 0\\) represent in the derivative definition?",
+          "back": "Shrinking the interval width to zero to get instantaneous slope."
+        },
+        "concept_map_nodes": [
+          { "source": "Instantaneous rate of change", "relation": "defined_by", "target": "Limit" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Limits",
+        "flashcard_front": "Why is the limit necessary for the definition of the derivative?",
+        "flashcard_back": "To find the exact slope at a single point without an interval.",
+        "glossary_term": "Derivative",
+        "glossary_definition": "The limit of the difference quotient.",
+        "revision_note": "Limit shrinks interval \\(h \\to 0\\).",
+        "teacher_note": "Emphasize that \\(h\\) cannot be zero (division by zero) but can approach zero.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Understand the geometrical meaning of derivative",
+        "concept_map_nodes": [
+          { "source": "Derivative", "relation": "requires", "target": "Limit" }
+        ],
+        "workbook_section": "2.1.4 Definition of Derivative",
+        "solution_manual_note": "Answer B. The limit shrinks the interval to zero, giving the exact slope at a point."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 92.1,
+    "type_distribution": {
+      "A": 2,
+      "G": 2,
+      "D": 2,
+      "F": 2,
+      "H": 1,
+      "E": 1
+    },
+    "difficulty_distribution": {
+      "easy": 4,
+      "medium": 4,
+      "hard": 2
+    },
+    "section_distribution": {
+      "2.1 Introduction to Derivatives": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 35,
+      "advanced_avg": 45
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 6
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

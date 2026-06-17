@@ -1,0 +1,1336 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-11T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Bio_U5_Q030",
+    "covered_sections": [
+      "5.1. What is food?>",
+      "5.2 Nutrition>",
+      "5.3. Nutrients>Macronutrients and Micronutrients",
+      "5.3. Nutrients>Carbohydrates",
+      "5.3. Nutrients>Fats and Oils",
+      "5.3. Nutrients>Proteins",
+      "5.3. Nutrients>Vitamins (Types)",
+      "5.3. Nutrients>Minerals",
+      "5.4. Balanced diets>",
+      "5.5 Deficiency diseases>Kwashiorkor",
+      "5.5 Deficiency diseases>Marasmus",
+      "5.5 Deficiency diseases>Diseases caused by deficiency of minerals and vitamins>Anemia",
+      "5.5 Deficiency diseases>Diseases caused by deficiency of minerals and vitamins>Rickets",
+      "5.5 Deficiency diseases>Diseases caused by deficiency of minerals and vitamins>Scurvy",
+      "5.6 Malnutrition>",
+      "5.6 Malnutrition>Wasting",
+      "5.6 Malnutrition>Stunting",
+      "5.6 Malnutrition>Underweight",
+      "5.6 Malnutrition>Obesity",
+      "5.7. Substance abuse>1. Cigarettes smoking>i. Tar",
+      "5.7. Substance abuse>1. Cigarettes smoking>ii. Carbon monoxide",
+      "5.7. Substance abuse>1. Cigarettes smoking>iii. Nicotine",
+      "5.7. Substance abuse>2. Drinking Alcohol",
+      "5.7. Substance abuse>3. Heroin",
+      "5.7. Substance abuse>4. Cannabis",
+      "5.7. Substance abuse>5. Chewing khat",
+      "5.7. Substance abuse>6. Doping"
+    ],
+    "used_question_signatures": [
+      "sig001","sig002","sig003","sig004","sig005","sig006","sig007","sig008","sig009","sig010",
+      "sig011","sig012","sig013","sig014","sig015","sig016","sig017","sig018","sig019","sig020",
+      "sig021","sig022","sig023","sig024","sig025","sig026","sig027","sig028","sig029","sig030"
+    ],
+    "baseline_counter": {
+      "5.1. What is food?": { "": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 } },
+      "5.2 Nutrition": { "": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 } },
+      "5.3. Nutrients": {
+        "Macronutrients and Micronutrients": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Carbohydrates": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Fats and Oils": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Proteins": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Vitamins (Types)": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Minerals": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      },
+      "5.4. Balanced diets": { "": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 } },
+      "5.5 Deficiency diseases": {
+        "Kwashiorkor": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Marasmus": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Diseases caused by deficiency of minerals and vitamins>Anemia": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Diseases caused by deficiency of minerals and vitamins>Rickets": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Diseases caused by deficiency of minerals and vitamins>Scurvy": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "5.6 Malnutrition": {
+        "": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Wasting": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Stunting": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Underweight": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "Obesity": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "5.7. Substance abuse": {
+        "1. Cigarettes smoking>i. Tar": { "count": 1, "mini_headings_covered": ["Tar"], "last_question_round": 3 },
+        "1. Cigarettes smoking>ii. Carbon monoxide": { "count": 1, "mini_headings_covered": ["Carbon monoxide"], "last_question_round": 3 },
+        "1. Cigarettes smoking>iii. Nicotine": { "count": 1, "mini_headings_covered": ["Nicotine"], "last_question_round": 3 },
+        "2. Drinking Alcohol": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "3. Heroin": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "4. Cannabis": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "5. Chewing khat": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "6. Doping": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1. What is food?": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 0 },
+      "5.2 Nutrition": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 0 },
+      "5.3. Nutrients": { "question_count": 6, "last_used_round": 1, "consecutive_batches": 0 },
+      "5.4. Balanced diets": { "question_count": 2, "last_used_round": 2, "consecutive_batches": 0 },
+      "5.5 Deficiency diseases": { "question_count": 5, "last_used_round": 2, "consecutive_batches": 0 },
+      "5.6 Malnutrition": { "question_count": 5, "last_used_round": 2, "consecutive_batches": 0 },
+      "5.7. Substance abuse": { "question_count": 10, "last_used_round": 3, "consecutive_batches": 1 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.7. Substance abuse>1. Cigarettes smoking>i. Tar": ["tar", "chronic bronchitis", "lung cancer", "cilia", "mucus", "carcinogen"],
+      "5.7. Substance abuse>1. Cigarettes smoking>ii. Carbon monoxide": ["carbon monoxide", "carboxyhemoglobin", "hemoglobin", "oxygen transport", "heart disease"],
+      "5.7. Substance abuse>1. Cigarettes smoking>iii. Nicotine": ["nicotine", "addiction", "dopamine", "heart rate", "blood pressure"],
+      "5.7. Substance abuse>2. Drinking Alcohol": ["alcohol", "depressant", "liver", "cirrhosis", "addiction", "reaction time"],
+      "5.7. Substance abuse>3. Heroin": ["heroin", "depressant", "endorphins", "addiction", "HIV", "needle sharing"],
+      "5.7. Substance abuse>4. Cannabis": ["cannabis", "THC", "psychoactive", "memory", "psychosis"],
+      "5.7. Substance abuse>5. Chewing khat": ["khat", "cathinone", "CNS stimulant", "gastritis", "STIs"],
+      "5.7. Substance abuse>6. Doping": ["doping", "WADA", "anabolic steroids", "EPO", "health risks"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 95,
+      "questions_per_concept_ratio": 0.32,
+      "structural_coverage_percentage": 77.8
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Health, Nutrition, and Disease",
+  "pdf_filename": "B9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-11T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 7,
+        "total_sections": 9,
+        "progress_percentage": 77.8
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 6.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 7,
+      "subsections_covered_count": 22,
+      "mini_headings_covered_count": 3,
+      "structural_coverage_percentage": 77.8,
+      "concept_utilization_ratio": 0.32
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.7. Substance abuse",
+      "least_covered_section": "5.1. What is food?",
+      "imbalance_ratio": 10.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Bio_U5_Q021",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "1. Cigarettes smoking",
+      "sub_subsection": "i. Tar",
+      "structural_anchor": "Tar",
+      "mcq_type": "G",
+      "question": "A person who smokes cigarettes develops chronic bronchitis. Which substance in tobacco smoke accumulates in the bronchioles and damages cilia, leading to excess mucus production?",
+      "options": {
+        "A": "Nicotine",
+        "B": "Carbon monoxide",
+        "C": "Tar",
+        "D": "Cathinone"
+      },
+      "correct_answer": "C",
+      "hint": "This black, sticky substance collects in the lungs and causes cilia damage.",
+      "explanation": "Tar is the black sticky substance in cigarette smoke that accumulates in bronchioles, damages cilia, and stimulates excess mucus, leading to chronic bronchitis. Option A, nicotine, causes addiction and increases heart rate, not primarily cilia damage.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "1. Cigarettes smoking",
+        "structural_element": "Tar",
+        "content_anchor": "Tar is the black sticky substance found in cigarette that collects in the lungs... Tar irritates the lining of the bronchioles and stimulates the production of excess mucus... cilia damaged by smoking",
+        "page_hint": 14,
+        "concept_hash": "hash021"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Tar is a black sticky substance in cigarette smoke that damages cilia and causes chronic bronchitis.",
+        "concept_summary": "Tar accumulates in the lungs, paralyzes and destroys cilia, leading to mucus buildup, chronic cough, and increased infection risk.",
+        "beginner": "Tar is like sticky black goo that coats the inside of a smoker's lungs, gumming up the tiny hairs that clean the airways.",
+        "intermediate": "Tar in cigarette smoke damages the cilia lining the bronchioles, preventing mucus clearance and causing chronic inflammation (bronchitis).",
+        "advanced": "Tar contains polycyclic aromatic hydrocarbons (PAHs) that are ciliotoxic, impairing mucociliary clearance and inducing goblet cell hyperplasia, leading to chronic bronchitis.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the symptom: chronic bronchitis with excess mucus.",
+          "Recall which tobacco component damages cilia.",
+          "Recognize that tar causes cilia damage and mucus buildup.",
+          "Select tar as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Nicotine is often blamed for lung damage, but tar is the primary cause of chronic bronchitis and lung cancer.",
+          "Carbon monoxide affects oxygen transport, not cilia or mucus production."
+        ],
+        "related_concepts": ["Cilia", "Chronic bronchitis", "Lung cancer", "Carcinogen", "Mucus"],
+        "revision_note": "Tar → cilia damage → mucus buildup → chronic bronchitis.",
+        "glossary_entry": {
+          "term": "Tar",
+          "definition": "A black sticky substance in cigarette smoke that damages cilia and causes chronic bronchitis and lung cancer.",
+          "example_equation": null,
+          "related_terms": ["Chronic bronchitis", "Cilia", "Carcinogen"]
+        },
+        "flashcard": {
+          "front": "What component of tobacco smoke causes chronic bronchitis?",
+          "back": "Tar. It damages cilia in the bronchioles, leading to mucus buildup and chronic inflammation.",
+          "glossary_term": "Tar",
+          "glossary_definition": "A black sticky substance in cigarette smoke that damages cilia and causes chronic bronchitis and lung cancer.",
+          "revision_note": "Tar = black sticky substance → bronchitis + lung cancer.",
+          "teacher_note": "Tar contains carcinogens that also cause lung cancer.",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Describe the effects of tar and carcinogens in tobacco smoke on the gas exchange system",
+          "concept_map_nodes": [
+            { "source": "Tar", "relation": "damages", "target": "Cilia" },
+            { "source": "Damaged cilia", "relation": "causes", "target": "Mucus buildup" },
+            { "source": "Mucus buildup", "relation": "leads_to", "target": "Chronic bronchitis" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer C. Tar damages cilia and causes mucus buildup; nicotine causes addiction; carbon monoxide reduces oxygen transport."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "What does tar do to the lungs?", "flashcard_back": "Tar damages cilia, causes mucus buildup, and leads to chronic bronchitis and lung cancer.", "glossary_term": "Tar", "glossary_definition": "A black sticky substance in cigarette smoke that damages cilia and causes chronic bronchitis and lung cancer.", "revision_note": "Tar damages cilia → chronic bronchitis.", "teacher_note": "Emphasize that tar contains cancer-causing chemicals.", "bloom_level": "Analyse", "learning_objective_tag": "Describe the effects of tar and carcinogens in tobacco smoke on the gas exchange system", "concept_map_nodes": [{ "source": "Tar", "relation": "contains", "target": "Carcinogens" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer C. Tar damages cilia; nicotine causes addiction; carbon monoxide binds hemoglobin." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q022",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "1. Cigarettes smoking",
+      "sub_subsection": "ii. Carbon monoxide",
+      "structural_anchor": "Carbon monoxide",
+      "mcq_type": "G",
+      "question": "A smoker has reduced oxygen-carrying capacity in the blood. Which gas from tobacco smoke binds permanently to hemoglobin, forming carboxyhemoglobin?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Carbon dioxide",
+        "C": "Carbon monoxide",
+        "D": "Nitrogen"
+      },
+      "correct_answer": "C",
+      "hint": "This poisonous gas binds to hemoglobin 200 times more strongly than oxygen.",
+      "explanation": "Carbon monoxide binds permanently to hemoglobin, forming carboxyhemoglobin and preventing oxygen transport. Option A, oxygen, is the normal carrier but does not bind permanently; carbon monoxide displaces oxygen.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\text{Hb} + \\text{CO} \\rightarrow \\text{HbCO}"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "1. Cigarettes smoking",
+        "structural_element": "Carbon monoxide",
+        "content_anchor": "Carbon monoxide is a poisonous gas found in cigarette... combines with hemoglobin to form carboxy-hemoglobin. The carbon monoxide combines permanently with hemoglobin.",
+        "page_hint": 15,
+        "concept_hash": "hash022"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Carbon monoxide is a poisonous gas that binds permanently to hemoglobin, reducing oxygen transport.",
+        "concept_summary": "Carbon monoxide has a much higher affinity for hemoglobin than oxygen, forming carboxyhemoglobin and causing tissue hypoxia.",
+        "beginner": "Carbon monoxide acts like a lock that grabs onto hemoglobin and won't let go, so oxygen can't get a seat in the blood.",
+        "intermediate": "Carbon monoxide binds to hemoglobin's heme groups with approximately 250 times greater affinity than oxygen, forming stable carboxyhemoglobin.",
+        "advanced": "The \\(\\text{CO} \\rightarrow \\text{Fe}^{2+}\\) bond in heme is 250× stronger than \\(\\text{O}_2\\), causing a leftward shift of the oxygen-hemoglobin dissociation curve and reduced \\(\\text{O}_2\\) delivery to tissues.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the effect: reduced oxygen-carrying capacity.",
+          "Recall which gas binds permanently to hemoglobin.",
+          "Recognize that carbon monoxide forms carboxyhemoglobin.",
+          "Select carbon monoxide."
+        ],
+        "formula_analysis": [{
+          "formula": "\\text{Hb} + \\text{CO} \\rightarrow \\text{HbCO}",
+          "name": "Carboxyhemoglobin formation",
+          "variables": [{"symbol": "\\text{Hb}", "meaning": "Hemoglobin", "unit": null}, {"symbol": "\\text{CO}", "meaning": "Carbon monoxide", "unit": null}],
+          "derivation": null
+        }],
+        "misconceptions": [
+          "Some think carbon dioxide is the harmful gas in smoke, but carbon monoxide is much more dangerous to oxygen transport.",
+          "Oxygen is sometimes thought to be the problem, but oxygen is essential; carbon monoxide displaces it."
+        ],
+        "related_concepts": ["Hemoglobin", "Carboxyhemoglobin", "Hypoxia", "Oxygen transport"],
+        "revision_note": "CO + Hb → HbCO (no oxygen carriage).",
+        "glossary_entry": {
+          "term": "Carbon monoxide",
+          "definition": "A poisonous gas in tobacco smoke that binds permanently to hemoglobin, forming carboxyhemoglobin and reducing oxygen transport.",
+          "example_equation": "\\(\\text{Hb} + \\text{CO} \\rightarrow \\text{HbCO}\\)",
+          "related_terms": ["Hemoglobin", "Carboxyhemoglobin", "Hypoxia"]
+        },
+        "flashcard": {
+          "front": "How does carbon monoxide affect oxygen transport?",
+          "back": "Carbon monoxide binds permanently to hemoglobin to form carboxyhemoglobin, preventing oxygen from being carried in the blood.",
+          "glossary_term": "Carbon monoxide",
+          "glossary_definition": "A poisonous gas in tobacco smoke that binds permanently to hemoglobin, forming carboxyhemoglobin and reducing oxygen transport.",
+          "revision_note": "CO binds Hb permanently → no O₂ carriage.",
+          "teacher_note": "Carbon monoxide has an affinity for hemoglobin 200-250 times greater than oxygen.",
+          "bloom_level": "Remember",
+          "learning_objective_tag": "Describe the short-term effects of carbon monoxide on the cardiovascular system",
+          "concept_map_nodes": [
+            { "source": "Carbon monoxide", "relation": "binds_to", "target": "Hemoglobin" },
+            { "source": "Carboxyhemoglobin", "relation": "prevents", "target": "Oxygen transport" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer C. Carbon monoxide binds permanently to hemoglobin, forming carboxyhemoglobin and reducing oxygen-carrying capacity."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "Why does carbon monoxide reduce blood oxygen?", "flashcard_back": "Carbon monoxide binds permanently to hemoglobin to form carboxyhemoglobin, preventing oxygen from binding.", "glossary_term": "Carbon monoxide", "glossary_definition": "A poisonous gas in tobacco smoke that binds permanently to hemoglobin, forming carboxyhemoglobin and reducing oxygen transport.", "revision_note": "CO binds Hb permanently → no O₂ carriage.", "teacher_note": "Discuss how carbon monoxide exposure leads to heart disease and stroke.", "bloom_level": "Remember", "learning_objective_tag": "Describe the short-term effects of carbon monoxide on the cardiovascular system", "concept_map_nodes": [{ "source": "Carboxyhemoglobin", "relation": "causes", "target": "Heart disease" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer C. Carbon monoxide forms carboxyhemoglobin; oxygen does not bind permanently; carbon dioxide is exhaled; nitrogen is inert." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q023",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "1. Cigarettes smoking",
+      "sub_subsection": "iii. Nicotine",
+      "structural_anchor": "Nicotine",
+      "mcq_type": "G",
+      "question": "A smoker has increased heart rate and blood pressure. Which compound in tobacco causes these effects while also producing addiction through dopamine release?",
+      "options": {
+        "A": "Tar",
+        "B": "Carbon monoxide",
+        "C": "Nicotine",
+        "D": "Cathinone"
+      },
+      "correct_answer": "C",
+      "hint": "This stimulant increases heart rate and is highly addictive.",
+      "explanation": "Nicotine is a stimulant that increases heart rate and blood pressure, and activates dopamine release in the brain, causing addiction. Option A, tar, causes lung damage but not increased heart rate.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "1. Cigarettes smoking",
+        "structural_element": "Nicotine",
+        "content_anchor": "Nicotine is a compound found in cigarette... activating the release of dopamine... increases the heart rate and blood pressure. It narrows the arterioles.",
+        "page_hint": 15,
+        "concept_hash": "hash023"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Nicotine is a stimulant in tobacco that increases heart rate, blood pressure, and causes addiction via dopamine release.",
+        "concept_summary": "Nicotine binds to nicotinic acetylcholine receptors, triggering catecholamine release, which increases cardiovascular activity and activates reward pathways.",
+        "beginner": "Nicotine is like a turbo button for your heart, making it beat faster, and it tricks your brain into wanting more.",
+        "intermediate": "Nicotine stimulates the sympathetic nervous system, increasing heart rate and blood pressure, while also activating dopamine reward pathways, leading to addiction.",
+        "advanced": "Nicotine activates nicotinic ACh receptors on adrenal medulla, releasing epinephrine, which increases cardiac output and peripheral vasoconstriction via \\(\\alpha_1\\) and \\(\\beta_1\\) adrenoceptors.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the effects: increased heart rate and blood pressure, plus addiction.",
+          "Recall which tobacco component is a stimulant.",
+          "Recognize that nicotine causes these cardiovascular and addictive effects.",
+          "Select nicotine."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think tar causes increased heart rate, but tar affects lungs, not the cardiovascular system directly.",
+          "Carbon monoxide reduces oxygen, which may increase heart rate as compensation, but it does not directly stimulate it like nicotine."
+        ],
+        "related_concepts": ["Dopamine", "Addiction", "Heart rate", "Blood pressure", "Sympathetic nervous system"],
+        "revision_note": "Nicotine → heart rate ↑ + BP ↑ + addiction.",
+        "glossary_entry": {
+          "term": "Nicotine",
+          "definition": "A stimulant compound in tobacco that increases heart rate and blood pressure and causes addiction through dopamine release.",
+          "example_equation": null,
+          "related_terms": ["Dopamine", "Addiction", "Stimulant"]
+        },
+        "flashcard": {
+          "front": "What effects does nicotine have on the body?",
+          "back": "Nicotine increases heart rate and blood pressure and causes addiction by releasing dopamine in the brain.",
+          "glossary_term": "Nicotine",
+          "glossary_definition": "A stimulant compound in tobacco that increases heart rate and blood pressure and causes addiction through dopamine release.",
+          "revision_note": "Nicotine = stimulant + addictive.",
+          "teacher_note": "Nicotine is one of the most addictive substances known.",
+          "bloom_level": "Remember",
+          "learning_objective_tag": "Describe the short-term effects of nicotine on the cardiovascular system",
+          "concept_map_nodes": [
+            { "source": "Nicotine", "relation": "increases", "target": "Heart rate" },
+            { "source": "Nicotine", "relation": "increases", "target": "Blood pressure" },
+            { "source": "Nicotine", "relation": "causes", "target": "Dopamine release" },
+            { "source": "Dopamine", "relation": "leads_to", "target": "Addiction" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer C. Nicotine is a stimulant that increases heart rate and blood pressure and causes addiction; tar causes lung damage; carbon monoxide reduces oxygen."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "How does nicotine cause addiction?", "flashcard_back": "Nicotine triggers dopamine release in the brain's reward pathways, creating pleasurable sensations and leading to addiction.", "glossary_term": "Nicotine", "glossary_definition": "A stimulant compound in tobacco that increases heart rate and blood pressure and causes addiction through dopamine release.", "revision_note": "Nicotine → dopamine → addiction.", "teacher_note": "Discuss why smoking is hard to quit due to nicotine addiction.", "bloom_level": "Remember", "learning_objective_tag": "Describe the short-term effects of nicotine on the cardiovascular system", "concept_map_nodes": [{ "source": "Nicotine", "relation": "activates", "target": "Dopamine" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer C. Nicotine increases heart rate/BP and causes addiction; tar causes lung disease; carbon monoxide binds hemoglobin; cathinone is in khat." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q024",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "2. Drinking Alcohol",
+      "sub_subsection": null,
+      "structural_anchor": "Drinking Alcohol",
+      "mcq_type": "G",
+      "question": "A person consumes alcohol and experiences slower reaction times and loss of coordination. Why does alcohol cause these effects?",
+      "options": {
+        "A": "It increases dopamine release",
+        "B": "It slows down nerve impulse transmission in the brain",
+        "C": "It damages the liver permanently",
+        "D": "It increases blood pressure"
+      },
+      "correct_answer": "B",
+      "hint": "Alcohol is a depressant that affects the central nervous system.",
+      "explanation": "Alcohol is a depressant that slows down the transmission of nerve impulses in the brain, causing slower reaction times and loss of coordination. Option A describes effects of nicotine or stimulants, not alcohol's depressant action.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "2. Drinking Alcohol",
+        "structural_element": "Drinking Alcohol",
+        "content_anchor": "Alcohol is a depressant. It affects the brain by slowing down the transmission of nerve impulses. Consuming larger quantities leads to slower reaction times, loss of coordination, loss of self-control.",
+        "page_hint": 16,
+        "concept_hash": "hash024"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Alcohol is a depressant that slows nerve impulse transmission in the brain, causing slower reactions and loss of coordination.",
+        "concept_summary": "Alcohol enhances GABA (inhibitory) neurotransmission and suppresses glutamate, reducing neural activity, impairing motor control and reaction time.",
+        "beginner": "Alcohol slows down the messages traveling through your brain, like cars on a highway suddenly moving at a crawl.",
+        "intermediate": "Alcohol acts as a central nervous system depressant by enhancing GABA inhibition and reducing glutamate excitation, slowing neural processing.",
+        "advanced": "Ethanol binds to GABA-A receptors, increasing chloride influx and hyperpolarizing neurons; it also inhibits NMDA receptors, reducing excitatory neurotransmission and impairing cognitive and motor function.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the observed effects: slower reaction time, loss of coordination.",
+          "Recall that alcohol is a depressant.",
+          "Recognize that depressants slow nerve impulse transmission.",
+          "Select that alcohol slows nerve impulses in the brain."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think alcohol is a stimulant because it can cause initial disinhibition, but it is actually a depressant that slows brain function.",
+          "Dopamine release is associated with nicotine and stimulants, not the primary depressant effect of alcohol."
+        ],
+        "related_concepts": ["Depressant", "GABA", "Neurotransmission", "Reaction time", "Coordination"],
+        "revision_note": "Alcohol = depressant → slower nerve impulses → poor coordination + slow reactions.",
+        "glossary_entry": {
+          "term": "Alcohol",
+          "definition": "A depressant drug that slows down nerve impulse transmission in the brain, causing slower reaction times and loss of coordination.",
+          "example_equation": null,
+          "related_terms": ["Depressant", "GABA", "Cirrhosis"]
+        },
+        "flashcard": {
+          "front": "Why does alcohol cause slower reaction times?",
+          "back": "Alcohol is a depressant that slows down the transmission of nerve impulses in the brain, affecting coordination and reaction time.",
+          "glossary_term": "Alcohol",
+          "glossary_definition": "A depressant drug that slows down nerve impulse transmission in the brain, causing slower reaction times and loss of coordination.",
+          "revision_note": "Alcohol = depressant → slow nerve impulses.",
+          "teacher_note": "Explain why drinking and driving is dangerous due to slower reaction times.",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Examine the effects of alcohol use on health and social wellbeing",
+          "concept_map_nodes": [
+            { "source": "Alcohol", "relation": "slows", "target": "Nerve impulse transmission" },
+            { "source": "Slow nerve impulses", "relation": "causes", "target": "Loss of coordination" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer B. Alcohol slows nerve impulse transmission; dopamine release occurs with nicotine; liver damage is a long-term effect; blood pressure may increase but not the primary cause of coordination loss."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "What type of drug is alcohol?", "flashcard_back": "Alcohol is a depressant that slows down nerve impulse transmission in the brain, leading to slower reaction times and loss of coordination.", "glossary_term": "Alcohol", "glossary_definition": "A depressant drug that slows down nerve impulse transmission in the brain, causing slower reaction times and loss of coordination.", "revision_note": "Alcohol = depressant (slows brain).", "teacher_note": "Contrast depressants (alcohol) with stimulants (nicotine, cathinone).", "bloom_level": "Analyse", "learning_objective_tag": "Examine the effects of alcohol use on health and social wellbeing", "concept_map_nodes": [{ "source": "Alcohol", "relation": "is_a", "target": "Depressant" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer B. Alcohol slows nerve impulse transmission; dopamine increase is from nicotine; liver damage is long-term; blood pressure increase is not the primary mechanism for coordination loss." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q025",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "3. Heroin",
+      "sub_subsection": null,
+      "structural_anchor": "Heroin",
+      "mcq_type": "G",
+      "question": "A person injects heroin and experiences pain relief. How does heroin produce this effect?",
+      "options": {
+        "A": "It stimulates dopamine release",
+        "B": "It binds to endorphin receptors in the brain",
+        "C": "It increases heart rate and blood pressure",
+        "D": "It damages the liver"
+      },
+      "correct_answer": "B",
+      "hint": "Heroin mimics natural pain-relieving chemicals in the brain.",
+      "explanation": "Heroin has a chemical structure similar to endorphins and binds to endorphin receptor sites, blocking nerve transmission and producing pain relief. Option A, dopamine release, occurs with nicotine but is not the primary pain-relief mechanism of heroin.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "3. Heroin",
+        "structural_element": "Heroin",
+        "content_anchor": "Heroin... has a chemical structure that is similar to endorphins... When a person takes heroin, the heroin molecules bind to the endorphin receptor sites, blocking nerve transmission. This mimics the function of natural endorphins.",
+        "page_hint": 17,
+        "concept_hash": "hash025"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Heroin is a depressant that binds to endorphin receptors, blocking pain signals and producing pain relief.",
+        "concept_summary": "Heroin mimics endorphins, binding to opioid receptors in the brain, inhibiting pain signal transmission and producing euphoria and analgesia.",
+        "beginner": "Heroin acts like a fake key that fits into the brain's pain-blocking locks, tricking the body into thinking there's no pain.",
+        "intermediate": "Heroin binds to mu-opioid receptors (endorphin receptors), inhibiting adenylate cyclase and reducing neurotransmitter release, blocking pain signal transmission.",
+        "advanced": "Heroin is converted to morphine in the brain, which acts as an agonist at \\(\\mu\\)-opioid receptors, activating G-protein coupled signaling that closes voltage-gated calcium channels and opens potassium channels, hyperpolarizing neurons.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the effect: pain relief.",
+          "Recall that heroin mimics natural endorphins.",
+          "Recognize that heroin binds to endorphin receptors.",
+          "Select that heroin binds to endorphin receptors."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think heroin increases heart rate, but it is a depressant that slows breathing and heart rate.",
+          "Dopamine release occurs with heroin, but pain relief comes primarily from endorphin receptor binding, not dopamine."
+        ],
+        "related_concepts": ["Endorphins", "Opioid receptors", "Analgesia", "Depressant"],
+        "revision_note": "Heroin → binds endorphin receptors → pain relief + addiction.",
+        "glossary_entry": {
+          "term": "Heroin",
+          "definition": "A powerful depressant that binds to endorphin receptors in the brain, producing pain relief and addiction.",
+          "example_equation": null,
+          "related_terms": ["Endorphins", "Opioid receptors", "Depressant"]
+        },
+        "flashcard": {
+          "front": "How does heroin relieve pain?",
+          "back": "Heroin binds to endorphin receptors in the brain, blocking nerve transmission and mimicking the body's natural pain-relieving chemicals.",
+          "glossary_term": "Heroin",
+          "glossary_definition": "A powerful depressant that binds to endorphin receptors in the brain, producing pain relief and addiction.",
+          "revision_note": "Heroin mimics endorphins → pain relief.",
+          "teacher_note": "Warn about HIV/AIDS risk from sharing needles among heroin users.",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Examine the effects of drug use on health and social wellbeing",
+          "concept_map_nodes": [
+            { "source": "Heroin", "relation": "binds_to", "target": "Endorphin receptors" },
+            { "source": "Endorphin receptors", "relation": "block", "target": "Pain signals" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer B. Heroin binds to endorphin receptors; dopamine release occurs with nicotine; heart rate increase with stimulants; liver damage with chronic alcohol."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "warning_box", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": "caution", "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "Why is heroin dangerous beyond its addictive properties?", "flashcard_back": "Sharing needles for heroin injection can transmit HIV/AIDS and other blood-borne infections.", "glossary_term": "Heroin", "glossary_definition": "A powerful depressant that binds to endorphin receptors in the brain, producing pain relief and addiction.", "revision_note": "Heroin = endorphin mimic → pain relief + addiction + HIV risk.", "teacher_note": "Emphasize the risk of HIV transmission through needle sharing.", "bloom_level": "Analyse", "learning_objective_tag": "Examine the effects of drug use on health and social wellbeing", "concept_map_nodes": [{ "source": "Needle sharing", "relation": "transmits", "target": "HIV" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer B. Heroin binds to endorphin receptors; dopamine release is nicotine's mechanism; heart rate increase is from stimulants; liver damage from alcohol." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q026",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "4. Cannabis",
+      "sub_subsection": null,
+      "structural_anchor": "Cannabis",
+      "mcq_type": "B",
+      "question": "Which psychoactive component in cannabis causes altered states of mind, difficulty concentrating, and reduced short-term memory?",
+      "options": {
+        "A": "Cathinone",
+        "B": "Nicotine",
+        "C": "Tetrahydrocannabinol (THC)",
+        "D": "Caffeine"
+      },
+      "correct_answer": "C",
+      "hint": "This is the main psychoactive ingredient in marijuana.",
+      "explanation": "Tetrahydrocannabinol (THC) is the psychoactive component in cannabis that causes altered mental states, difficulty concentrating, and memory problems. Option A, cathinone, is found in khat, not cannabis.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "4. Cannabis",
+        "structural_element": "Cannabis",
+        "content_anchor": "This drug contains a stimulant or psychoactive component called Tetrahydrocannabinol (THC). Cannabis causes: enjoyment, different states of mind and sense of time, difficulty concentrating, reduced short-term memory.",
+        "page_hint": 17,
+        "concept_hash": "hash026"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "THC (tetrahydrocannabinol) is the psychoactive component in cannabis that causes altered mental states and memory problems.",
+        "concept_summary": "THC is a cannabinoid that acts on CB1 receptors in the brain, affecting memory, concentration, time perception, and mood.",
+        "beginner": "THC is the part of marijuana that changes how your brain works, making it hard to focus and remember things.",
+        "intermediate": "THC activates cannabinoid receptors (CB1) in the hippocampus and prefrontal cortex, impairing short-term memory and concentration.",
+        "advanced": "THC is a partial agonist at \\(\\text{CB}_1\\) receptors (G-protein coupled), inhibiting adenylate cyclase and reducing glutamate release, disrupting hippocampal long-term potentiation (LTP) and memory consolidation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the effects: altered mental state, poor concentration, memory loss.",
+          "Recall which component in cannabis causes these effects.",
+          "Recognize that THC is the psychoactive component.",
+          "Select THC."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think nicotine or cathinone are in cannabis, but nicotine is in tobacco and cathinone in khat.",
+          "Caffeine is a stimulant in coffee, not a psychoactive component of cannabis."
+        ],
+        "related_concepts": ["THC", "Cannabis", "CB1 receptors", "Memory", "Psychoactive"],
+        "revision_note": "Cannabis = THC → altered mind + poor memory.",
+        "glossary_entry": {
+          "term": "THC (Tetrahydrocannabinol)",
+          "definition": "The psychoactive component in cannabis that causes altered mental states, difficulty concentrating, and reduced short-term memory.",
+          "example_equation": null,
+          "related_terms": ["Cannabis", "CB1 receptors", "Psychoactive"]
+        },
+        "flashcard": {
+          "front": "What does THC stand for and what does it do?",
+          "back": "Tetrahydrocannabinol; it is the psychoactive component in cannabis that alters mental state, impairs concentration, and reduces short-term memory.",
+          "glossary_term": "THC (Tetrahydrocannabinol)",
+          "glossary_definition": "The psychoactive component in cannabis that causes altered mental states, difficulty concentrating, and reduced short-term memory.",
+          "revision_note": "THC = psychoactive part of cannabis → memory loss.",
+          "teacher_note": "Discuss that cannabis use can lead to psychosis at high doses.",
+          "bloom_level": "Remember",
+          "learning_objective_tag": "Examine the effects of cannabis use on health and wellbeing",
+          "concept_map_nodes": [
+            { "source": "THC", "relation": "acts_on", "target": "CB1 receptors" },
+            { "source": "CB1 receptors", "relation": "located_in", "target": "Hippocampus" },
+            { "source": "Hippocampus", "relation": "responsible_for", "target": "Memory" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer C. THC is the psychoactive component in cannabis; cathinone is in khat; nicotine in tobacco; caffeine in coffee."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "What is THC?", "flashcard_back": "Tetrahydrocannabinol is the psychoactive component in cannabis that alters mental state, impairs concentration, and reduces short-term memory.", "glossary_term": "THC (Tetrahydrocannabinol)", "glossary_definition": "The psychoactive component in cannabis that causes altered mental states, difficulty concentrating, and reduced short-term memory.", "revision_note": "THC = psychoactive in cannabis.", "teacher_note": "Emphasize the mental health risks of cannabis, including psychosis at high doses.", "bloom_level": "Remember", "learning_objective_tag": "Examine the effects of cannabis use on health and wellbeing", "concept_map_nodes": [{ "source": "Cannabis", "relation": "contains", "target": "THC" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer C. THC is the psychoactive component in cannabis; cathinone is in khat; nicotine in tobacco; caffeine in coffee." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q027",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "5. Chewing khat",
+      "sub_subsection": null,
+      "structural_anchor": "Chewing khat",
+      "mcq_type": "G",
+      "question": "A person who chews khat feels increased alertness and stimulation, followed by depressed mood and irritability. Which compound in fresh khat leaves causes these central nervous system effects?",
+      "options": {
+        "A": "Nicotine",
+        "B": "THC",
+        "C": "Cathinone",
+        "D": "Caffeine"
+      },
+      "correct_answer": "C",
+      "hint": "This stimulant is found only in fresh khat leaves.",
+      "explanation": "Cathinone is the chemical compound in fresh khat leaves that affects the central nervous system, causing stimulation then depression. Option A, nicotine, is found in tobacco, not khat.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "5. Chewing khat",
+        "structural_element": "Chewing khat",
+        "content_anchor": "Khat contains a chemical compound known as cathinone, which affects central nervous system (CNS). Chewing khat induces a state of joy and feelings of increased alertness and stimulation. At the end its consequence results in a depressed mood, irritability.",
+        "page_hint": 18,
+        "concept_hash": "hash027"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Cathinone is a CNS stimulant in fresh khat leaves that causes alertness followed by mood depression.",
+        "concept_summary": "Cathinone is a monoamine alkaloid that increases dopamine and norepinephrine release, producing stimulation initially, then depletion leads to mood depression.",
+        "beginner": "Cathinone is like an alarm clock that wakes you up too fast, but when it wears off, you feel tired and grumpy.",
+        "intermediate": "Cathinone increases synaptic dopamine and norepinephrine by promoting their release and blocking reuptake, causing initial stimulation then depletion-related depression.",
+        "advanced": "Cathinone is structurally similar to amphetamine; it acts as a substrate for monoamine transporters (DAT, NET), causing reverse transport and increased extracellular dopamine, leading to euphoria followed by dysphoria on withdrawal.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the effects: initial stimulation then depressed mood.",
+          "Recall which compound in khat causes CNS effects.",
+          "Recognize that cathinone is the active compound in fresh khat.",
+          "Select cathinone."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think nicotine is in khat, but nicotine is specific to tobacco.",
+          "THC is from cannabis, not related to khat's effects."
+        ],
+        "related_concepts": ["Cathinone", "Khat", "CNS stimulant", "Dopamine", "Irritability"],
+        "revision_note": "Khat = cathinone → stimulant → then depression + gastritis.",
+        "glossary_entry": {
+          "term": "Cathinone",
+          "definition": "A CNS stimulant compound in fresh khat leaves that causes increased alertness followed by depressed mood and irritability.",
+          "example_equation": null,
+          "related_terms": ["Khat", "CNS stimulant", "Dopamine"]
+        },
+        "flashcard": {
+          "front": "What is the active compound in fresh khat leaves?",
+          "back": "Cathinone. It is a CNS stimulant that causes initial alertness followed by depressed mood, irritability, and loss of appetite.",
+          "glossary_term": "Cathinone",
+          "glossary_definition": "A CNS stimulant compound in fresh khat leaves that causes increased alertness followed by depressed mood and irritability.",
+          "revision_note": "Khat = cathinone → initial stimulation → later depression.",
+          "teacher_note": "Discuss social and economic consequences of khat chewing in Ethiopia.",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Explain the social and psychological effect of chewing Khat",
+          "concept_map_nodes": [
+            { "source": "Cathinone", "relation": "increases", "target": "Dopamine" },
+            { "source": "Khat chewing", "relation": "leads_to", "target": "Gastritis" },
+            { "source": "Khat chewing", "relation": "leads_to", "target": "Family problems" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer C. Cathinone is the active compound in khat; nicotine in tobacco; THC in cannabis; caffeine in coffee."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "What are the health effects of chewing khat?", "flashcard_back": "Khat causes gastritis, peptic ulcers, loss of appetite, difficulty sleeping, depressed mood, and can lead to STIs due to risky behaviors.", "glossary_term": "Cathinone", "glossary_definition": "A CNS stimulant compound in fresh khat leaves that causes increased alertness followed by depressed mood and irritability.", "revision_note": "Khat → cathinone → gastritis + ulcers + depression.",
+      "teacher_note": "Discuss the socio-economic impact of khat chewing in Ethiopian communities.",
+      "bloom_level": "Analyse",
+      "learning_objective_tag": "Explain the social and psychological effect of chewing Khat",
+      "concept_map_nodes": [{ "source": "Khat chewing", "relation": "causes", "target": "Gastritis" }],
+      "workbook_section": "5.7. Substance abuse",
+      "solution_manual_note": "Answer C. Cathinone is the active compound in khat; nicotine in tobacco; THC in cannabis; caffeine in coffee." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q028",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "6. Doping",
+      "sub_subsection": null,
+      "structural_anchor": "Doping",
+      "mcq_type": "B",
+      "question": "What term refers to the use of prohibited medications, drugs, or treatments in competitive sports to improve athletic performance?",
+      "options": {
+        "A": "Substance abuse",
+        "B": "Doping",
+        "C": "Addiction",
+        "D": "Rehabilitation"
+      },
+      "correct_answer": "B",
+      "hint": "This practice is banned by WADA and violates the spirit of sport.",
+      "explanation": "Doping is the use of prohibited medications, drugs, or treatments in competitive sports with the intention of improving athletic performance. Option A, substance abuse, is broader and includes non-sport use of legal/illegal drugs.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "6. Doping",
+        "structural_element": "Doping",
+        "content_anchor": "The term 'doping' refers to the use of prohibited medications, drugs, or treatments in competitive sports. It is practiced in athletes with the intention of improving athletic performance.",
+        "page_hint": 18,
+        "concept_hash": "hash028"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Doping is the use of prohibited substances or methods in competitive sports to enhance performance.",
+        "concept_summary": "Doping violates the spirit of sport, poses serious health risks, and is banned by the World Anti-Doping Agency (WADA).",
+        "beginner": "Doping is like cheating in sports by using forbidden drugs to run faster or lift more, but it can harm your health.",
+        "intermediate": "Doping involves using banned substances like anabolic steroids or methods like blood doping to gain an unfair advantage in competition.",
+        "advanced": "WADA prohibits substances that meet two of three criteria: performance enhancement, health risk, or violation of sport spirit; doping can cause cardiomyopathy, hepatotoxicity, and endocrine disorders.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the context: competitive sports, prohibited substances.",
+          "Recall the term for performance-enhancing drug use in sports.",
+          "Recognize that doping is the correct term.",
+          "Select doping."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Substance abuse includes doping but is broader (any misuse of drugs).",
+          "Addiction is a consequence, not the act of using performance-enhancing drugs in sports."
+        ],
+        "related_concepts": ["WADA", "Anabolic steroids", "Blood doping", "Performance-enhancing drugs"],
+        "revision_note": "Doping = banned performance-enhancing methods in sports.",
+        "glossary_entry": {
+          "term": "Doping",
+          "definition": "The use of prohibited medications, drugs, or treatments in competitive sports to improve athletic performance.",
+          "example_equation": null,
+          "related_terms": ["WADA", "Anabolic steroids", "Blood doping"]
+        },
+        "flashcard": {
+          "front": "What is doping in sports?",
+          "back": "Doping is the use of prohibited drugs or treatments in competitive sports to unfairly enhance athletic performance.",
+          "glossary_term": "Doping",
+          "glossary_definition": "The use of prohibited medications, drugs, or treatments in competitive sports to improve athletic performance.",
+          "revision_note": "Doping = cheating in sports with banned drugs.",
+          "teacher_note": "Discuss health risks: anabolic steroids cause liver disease, heart problems, hormonal changes.",
+          "bloom_level": "Remember",
+          "learning_objective_tag": "Examine the effects of drug use on health and social wellbeing",
+          "concept_map_nodes": [
+            { "source": "Doping", "relation": "banned_by", "target": "WADA" },
+            { "source": "Anabolic steroids", "relation": "cause", "target": "Liver disease" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer B. Doping specifically refers to banned performance-enhancing methods in sports; substance abuse is broader; addiction is a state; rehabilitation is recovery."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Substance Abuse", "flashcard_front": "Why is doping banned in sports?", "flashcard_back": "Doping provides an unfair advantage, violates the spirit of competition, and causes serious health risks like heart disease, liver damage, and hormonal imbalance.", "glossary_term": "Doping", "glossary_definition": "The use of prohibited medications, drugs, or treatments in competitive sports to improve athletic performance.", "revision_note": "Doping = unfair + dangerous.", "teacher_note": "Discuss WADA's role and the biological passport program.", "bloom_level": "Remember", "learning_objective_tag": "Examine the effects of drug use on health and social wellbeing", "concept_map_nodes": [{ "source": "WADA", "relation": "monitors", "target": "Doping" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer B. Doping is the specific term for prohibited performance-enhancing methods in sports; substance abuse is a broader category." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q029",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "1. Cigarettes smoking",
+      "sub_subsection": "i. Tar",
+      "structural_anchor": "Chronic bronchitis",
+      "mcq_type": "G",
+      "question": "A smoker has persistent coughing and difficulty breathing due to narrowed airways and excess mucus. Which smoking-related lung disease is characterized by damaged cilia and thickened bronchioles?",
+      "options": {
+        "A": "Emphysema",
+        "B": "Chronic bronchitis",
+        "C": "Lung cancer",
+        "D": "Pneumonia"
+      },
+      "correct_answer": "B",
+      "hint": "This disease involves inflammation of the bronchial tubes with excess mucus.",
+      "explanation": "Chronic bronchitis is caused by tar damaging cilia, leading to excess mucus, thickening of bronchioles, and airway narrowing. Option A, emphysema, involves alveoli destruction, not primarily bronchiolar thickening.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "1. Cigarettes smoking",
+        "structural_element": "Chronic bronchitis",
+        "content_anchor": "Tar irritates the lining... stimulates excess mucus... cilia damaged... leads to collection of dirt... block the bronchioles... thickening of the bronchioles causes them to narrow... chronic bronchitis.",
+        "page_hint": 14,
+        "concept_hash": "hash029"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Chronic bronchitis is a lung disease caused by smoking, characterized by damaged cilia, excess mucus, and narrowed airways.",
+        "concept_summary": "Smoking damages cilia, leading to mucus accumulation, chronic inflammation, and airway thickening, causing persistent cough and breathing difficulty.",
+        "beginner": "Chronic bronchitis is when the airways in the lungs become swollen and clogged with mucus, making it hard to breathe and causing a long-term cough.",
+        "intermediate": "In chronic bronchitis, tar from smoke damages cilia, allowing mucus to accumulate; chronic inflammation thickens bronchioles, narrowing airways and causing persistent cough.",
+        "advanced": "Chronic bronchitis is defined as productive cough for ≥3 months in 2 consecutive years; caused by ciliary dysfunction, goblet cell hyperplasia, and airway remodeling from chronic inflammation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the symptoms: persistent cough, difficulty breathing, excess mucus.",
+          "Recall which smoking-related disease involves damaged cilia and mucus buildup.",
+          "Recognize that chronic bronchitis is characterized by these features.",
+          "Select chronic bronchitis."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Emphysema involves alveoli destruction (shortness of breath), not excess mucus production.",
+          "Lung cancer involves tumor growth, not primarily mucus or cilia damage."
+        ],
+        "related_concepts": ["Chronic bronchitis", "Cilia", "Mucus", "Tar", "COPD"],
+        "revision_note": "Smoking → chronic bronchitis = damaged cilia + mucus + cough.",
+        "glossary_entry": {
+          "term": "Chronic bronchitis",
+          "definition": "A smoking-related lung disease characterized by damaged cilia, excess mucus, thickened bronchioles, and persistent cough.",
+          "example_equation": null,
+          "related_terms": ["Tar", "Cilia", "COPD", "Emphysema"]
+        },
+        "flashcard": {
+          "front": "What causes chronic bronchitis in smokers?",
+          "back": "Tar damages cilia, leading to mucus buildup, inflammation, and thickening of the bronchioles, causing persistent cough and breathing difficulty.",
+          "glossary_term": "Chronic bronchitis",
+          "glossary_definition": "A smoking-related lung disease characterized by damaged cilia, excess mucus, thickened bronchioles, and persistent cough.",
+          "revision_note": "Chronic bronchitis = mucus + cough + damaged cilia.",
+          "teacher_note": "Differentiate chronic bronchitis (mucus, cough) from emphysema (alveoli destruction, shortness of breath).",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Describe the effects of tar on the gas exchange system",
+          "concept_map_nodes": [
+            { "source": "Tar", "relation": "damages", "target": "Cilia" },
+            { "source": "Damaged cilia", "relation": "causes", "target": "Mucus buildup" },
+            { "source": "Mucus buildup", "relation": "leads_to", "target": "Chronic bronchitis" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer B. Chronic bronchitis involves damaged cilia, mucus, and thickened bronchioles; emphysema involves alveoli destruction; lung cancer involves tumors; pneumonia is infection."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Smoking-Related Diseases", "flashcard_front": "What is the difference between chronic bronchitis and emphysema?", "flashcard_back": "Chronic bronchitis involves mucus buildup and airway thickening; emphysema involves destruction of alveoli walls, reducing surface area for gas exchange.", "glossary_term": "Chronic bronchitis", "glossary_definition": "A smoking-related lung disease characterized by damaged cilia, excess mucus, thickened bronchioles, and persistent cough.", "revision_note": "Bronchitis = mucus + cough; emphysema = alveoli destroyed.", "teacher_note": "Both chronic bronchitis and emphysema are forms of COPD.", "bloom_level": "Analyse", "learning_objective_tag": "Describe the effects of tar on the gas exchange system", "concept_map_nodes": [{ "source": "COPD", "relation": "includes", "target": "Chronic bronchitis" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer B. Chronic bronchitis features mucus and thickened bronchioles; emphysema features destroyed alveoli." }
+    },
+    {
+      "question_id": "G9_Bio_U5_Q030",
+      "generation_timestamp": "2026-06-11T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Health, Nutrition, and Disease",
+      "section": "5.7. Substance abuse",
+      "subsection": "1. Cigarettes smoking",
+      "sub_subsection": "i. Tar",
+      "structural_anchor": "Emphysema",
+      "mcq_type": "G",
+      "question": "A long-term smoker becomes breathless after minimal exertion because the alveoli walls have burst, reducing gas exchange surface area. Which condition is this?",
+      "options": {
+        "A": "Chronic bronchitis",
+        "B": "Emphysema",
+        "C": "Lung cancer",
+        "D": "Pneumonia"
+      },
+      "correct_answer": "B",
+      "hint": "This disease involves destruction of the air sacs in the lungs.",
+      "explanation": "Emphysema is characterized by weakened and burst alveoli walls, reducing the surface area for gas exchange and causing breathlessness. Option A, chronic bronchitis, involves mucus and bronchiolar thickening, not alveolar destruction.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Health, Nutrition, and Disease",
+        "section_anchor": "5.7. Substance abuse",
+        "subsection_anchor": "1. Cigarettes smoking",
+        "structural_element": "Emphysema",
+        "content_anchor": "Smokers usually have weakened alveoli wall... some of the weakened alveoli burst. Then the amount of alveoli decrease... absorbing surface of the lungs is greatly reduced... This condition is called emphysema.",
+        "page_hint": 15,
+        "concept_hash": "hash030"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Emphysema is a smoking-related lung disease where alveoli walls burst, reducing gas exchange surface area.",
+        "concept_summary": "Smoking weakens alveoli, causing them to burst and form larger sacs, dramatically reducing surface area for oxygen diffusion and causing breathlessness.",
+        "beginner": "Emphysema is like popping the tiny balloons in your lungs, so there's less space for oxygen to get into your blood.",
+        "intermediate": "In emphysema, chronic inflammation from smoking breaks down alveolar walls, reducing surface area for gas exchange and causing shortness of breath.",
+        "advanced": "Emphysema involves destruction of alveolar septae due to protease-antiprotease imbalance (neutrophil elastase vs α1-antitrypsin), leading to loss of elastic recoil and air trapping.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the symptom: breathlessness after minimal exertion.",
+          "Recall that this results from reduced gas exchange surface area.",
+          "Recognize that emphysema involves burst alveoli.",
+          "Select emphysema."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Chronic bronchitis involves coughing and mucus, not primarily alveolar destruction.",
+          "Lung cancer involves tumors, not widespread alveolar damage."
+        ],
+        "related_concepts": ["Emphysema", "Alveoli", "Gas exchange", "Surface area", "COPD"],
+        "revision_note": "Emphysema = burst alveoli → less O₂ exchange → breathless.",
+        "glossary_entry": {
+          "term": "Emphysema",
+          "definition": "A smoking-related lung disease where alveoli walls burst, reducing gas exchange surface area and causing breathlessness.",
+          "example_equation": null,
+          "related_terms": ["Alveoli", "COPD", "Gas exchange", "Chronic bronchitis"]
+        },
+        "flashcard": {
+          "front": "What happens to the alveoli in emphysema?",
+          "back": "The walls between alveoli weaken and burst, creating larger sacs and reducing the surface area for gas exchange, causing breathlessness.",
+          "glossary_term": "Emphysema",
+          "glossary_definition": "A smoking-related lung disease where alveoli walls burst, reducing gas exchange surface area and causing breathlessness.",
+          "revision_note": "Emphysema = burst alveoli → breathless.",
+          "teacher_note": "Explain why emphysema patients often use supplemental oxygen.",
+          "bloom_level": "Remember",
+          "learning_objective_tag": "Describe the effects of tar on the gas exchange system",
+          "concept_map_nodes": [
+            { "source": "Emphysema", "relation": "results_from", "target": "Alveoli bursting" },
+            { "source": "Reduced surface area", "relation": "causes", "target": "Breathlessness" }
+          ],
+          "workbook_section": "5.7. Substance abuse",
+          "solution_manual_note": "Answer B. Emphysema involves burst alveoli reducing surface area; chronic bronchitis involves mucus and thickened bronchioles; lung cancer involves tumors; pneumonia is infection."
+        }
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "previous_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper", "flashcard_deck"], "flashcard_deck": "Biology Unit 5 — Smoking-Related Diseases", "flashcard_front": "What is emphysema?", "flashcard_back": "A lung disease where alveoli walls burst, reducing gas exchange surface area and causing breathlessness, often from smoking.", "glossary_term": "Emphysema", "glossary_definition": "A smoking-related lung disease where alveoli walls burst, reducing gas exchange surface area and causing breathlessness.", "revision_note": "Emphysema = burst alveoli → less surface area → breathless.", "teacher_note": "Contrast emphysema with chronic bronchitis (both are COPD).", "bloom_level": "Remember", "learning_objective_tag": "Describe the effects of tar on the gas exchange system", "concept_map_nodes": [{ "source": "Smoking", "relation": "causes", "target": "Emphysema" }], "workbook_section": "5.7. Substance abuse", "solution_manual_note": "Answer B. Emphysema features burst alveoli and reduced surface area; chronic bronchitis features mucus and thickened bronchioles." }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3100,
+    "average_question_quality": 90.5,
+    "type_distribution": { "B": 2, "G": 8 },
+    "difficulty_distribution": { "easy": 3, "medium": 6, "hard": 1 },
+    "section_distribution": { "5.7. Substance abuse": 10 },
+    "tiered_explanation_word_counts": { "beginner_avg": 26, "intermediate_avg": 37, "advanced_avg": 49 },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

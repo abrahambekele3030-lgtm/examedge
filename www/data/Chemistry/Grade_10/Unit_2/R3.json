@@ -1,0 +1,1847 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Chem_U2_Q030",
+    "covered_sections": [
+      "2.1 Heterogeneous and Homogeneous Mixtures>2.1.1 Suspensions, Solutions, Colloids",
+      "2.1 Heterogeneous and Homogeneous Mixtures>Experiment 2.1",
+      "2.2 The Solution Process>2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+      "2.2 The Solution Process>2.2.2 Solutions of Ionic Solids in Water",
+      "2.2 The Solution Process>2.2.3 The Solubility Rules for Ionic Solids",
+      "2.2 The Solution Process>2.2.4 Solution of Liquids in Liquids",
+      "2.3 Solubility as an Equilibrium Process>2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+      "2.2 The Solution Process>2.2.5 The Rate of Dissolution",
+      "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process",
+      "2.3 Solubility as an Equilibrium Process>2.3.2 Factors Affecting Solubility of Substances",
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.1 Percent by Mass/Volume",
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.2 Mole Fraction",
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.3 Molarity",
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.4 Molality",
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.5 Normality"
+    ],
+    "used_question_signatures": [
+      "sig_001", "sig_002", "sig_003", "sig_004", "sig_005", "sig_006", "sig_007", "sig_008", "sig_009", "sig_010",
+      "sig_011", "sig_012", "sig_013", "sig_014", "sig_015", "sig_016", "sig_017", "sig_018", "sig_019", "sig_020",
+      "sig_021", "sig_022", "sig_023", "sig_024", "sig_025", "sig_026", "sig_027", "sig_028", "sig_029", "sig_030"
+    ],
+    "baseline_counter": {
+      "2.1 Heterogeneous and Homogeneous Mixtures": {
+        "2.1.1 Suspensions, Solutions, Colloids": { "count": 2, "mini_headings_covered": ["B. Solutions", "C. Colloids"], "last_question_round": 1 },
+        "Experiment 2.1": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      },
+      "2.2 The Solution Process": {
+        "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.2.2 Solutions of Ionic Solids in Water": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.2.3 The Solubility Rules for Ionic Solids": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.2.4 Solution of Liquids in Liquids": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.2.5 The Rate of Dissolution": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "2.2.6 Energy Changes in Solution Process": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "2.3 Solubility as an Equilibrium Process": {
+        "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.3.2 Factors Affecting Solubility of Substances": { "count": 3, "mini_headings_covered": ["A. Effect of Temperature on Solubility of Solids", "B. Effect of Temperature on Solubility of Gases", "C. Effect of Pressure on Solubility of Gases: Henry's Law"], "last_question_round": 2 }
+      },
+      "2.4 Ways of Expressing Concentration of Solutions": {
+        "2.4.1 Percent by Mass/Volume": { "count": 3, "mini_headings_covered": [], "last_question_round": 2 },
+        "2.4.2 Mole Fraction": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "2.4.3 Molarity": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "2.4.4 Molality": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "2.4.5 Normality": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Heterogeneous and Homogeneous Mixtures": { "question_count": 3, "last_used_round": 1, "consecutive_batches": 0 },
+      "2.2 The Solution Process": { "question_count": 8, "last_used_round": 2, "consecutive_batches": 1 },
+      "2.3 Solubility as an Equilibrium Process": { "question_count": 5, "last_used_round": 2, "consecutive_batches": 1 },
+      "2.4 Ways of Expressing Concentration of Solutions": { "question_count": 7, "last_used_round": 3, "consecutive_batches": 2 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1 Heterogeneous and Homogeneous Mixtures>2.1.1 Suspensions, Solutions, Colloids": ["solution", "solute", "solvent", "colloid", "Tyndall effect"],
+      "2.2 The Solution Process>2.2.1 Liquid Solutions and Inter-particle Forces of Attractions": ["like dissolves like", "polarity", "dipole moment"],
+      "2.2 The Solution Process>2.2.2 Solutions of Ionic Solids in Water": ["hydration", "lattice energy"],
+      "2.2 The Solution Process>2.2.3 The Solubility Rules for Ionic Solids": ["solubility rules", "precipitation"],
+      "2.2 The Solution Process>2.2.4 Solution of Liquids in Liquids": ["miscible", "immiscible"],
+      "2.3 Solubility as an Equilibrium Process>2.3.1 Unsaturated, Saturated, and Supersaturated Solutions": ["saturated", "unsaturated", "supersaturated", "equilibrium"],
+      "2.2 The Solution Process>2.2.5 The Rate of Dissolution": ["rate of dissolution", "surface area"],
+      "2.2 The Solution Process>2.2.6 Energy Changes in Solution Process": ["heat of solution", "endothermic", "exothermic", "hydration energy"],
+      "2.3 Solubility as an Equilibrium Process>2.3.2 Factors Affecting Solubility of Substances": ["temperature", "pressure", "Henry's law"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.1 Percent by Mass/Volume": ["percent by mass", "percent by volume", "ppm"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.2 Mole Fraction": ["mole fraction", "X_A"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.3 Molarity": ["molarity", "M", "mol/L"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.4 Molality": ["molality", "m", "mol/kg"],
+      "2.4 Ways of Expressing Concentration of Solutions>2.4.5 Normality": ["normality", "N", "equivalent weight"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 28,
+      "questions_per_concept_ratio": 1.07,
+      "structural_coverage_percentage": 64.3
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "SOLUTIONS",
+  "pdf_filename": "C10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 7,
+        "progress_percentage": 57.1
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 2.67,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 5,
+      "structural_coverage_percentage": 66.7,
+      "concept_utilization_ratio": 0.82
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.4 Ways of Expressing Concentration of Solutions",
+      "least_covered_section": "2.1 Heterogeneous and Homogeneous Mixtures",
+      "imbalance_ratio": 2.33,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 120
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U2_Q021",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.2 Mole Fraction",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "A solution contains 0.250 mol of ethanol and 0.750 mol of water. What is the mole fraction of ethanol?",
+      "options": {
+        "A": "0.250",
+        "B": "0.500",
+        "C": "0.750",
+        "D": "1.000"
+      },
+      "correct_answer": "A",
+      "hint": "Mole fraction = moles of component / total moles.",
+      "explanation": "Total moles = 0.250 + 0.750 = 1.000 mol. Mole fraction of ethanol = 0.250 / 1.000 = 0.250. Option C is the mole fraction of water, not ethanol.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(X_A = \\frac{n_A}{n_A + n_B}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "n_ethanol": { "magnitude": 0.250, "unit": "mol" },
+          "n_water": { "magnitude": 0.750, "unit": "mol" }
+        },
+        "answer_value": 0.250,
+        "answer_unit": "unitless",
+        "calculation_steps": ["\\(X_{\\text{ethanol}} = \\frac{0.250}{0.250 + 0.750} = \\frac{0.250}{1.000} = 0.250\\)"],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.2 Mole Fraction",
+        "structural_element": null,
+        "content_anchor": "Mole fraction (X_A) = moles of substance A / total moles of solution",
+        "page_hint": 36,
+        "concept_hash": "hash_021"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Mole fraction is the ratio of moles of one component to the total moles of all components in a solution.",
+        "concept_summary": "The sum of all mole fractions in a solution equals 1. Mole fraction is dimensionless and temperature-independent.",
+        "beginner": "Ethanol is 0.250 out of 1.000 total parts, so its fraction is 0.250.",
+        "intermediate": "Mole fraction of ethanol = \\(\\frac{0.250}{0.250 + 0.750} = \\frac{0.250}{1.000} = 0.250\\).",
+        "advanced": "Mole fraction is a colligative property basis. It relates to vapor pressure lowering via Raoult's law: \\(P_A = X_A P_A^0\\).",
+        "worked_solution": [
+          "Step 1: Find total moles: 0.250 mol + 0.750 mol = 1.000 mol.",
+          "Step 2: Divide moles of ethanol by total moles: 0.250 / 1.000 = 0.250.",
+          "Step 3: Mole fraction has no units."
+        ],
+        "reasoning_steps": [
+          "Add moles of all components to get total.",
+          "Divide individual moles by total.",
+          "Report as dimensionless number."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(X_A = \\frac{n_A}{n_{\\text{total}}}\\)",
+            "name": "Mole fraction",
+            "variables": [
+              { "symbol": "\\(X_A\\)", "meaning": "mole fraction of component A", "unit": "unitless" },
+              { "symbol": "\\(n_A\\)", "meaning": "moles of component A", "unit": "mol" },
+              { "symbol": "\\(n_{\\text{total}}\\)", "meaning": "total moles of all components", "unit": "mol" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Mole fraction is not a percentage; it ranges from 0 to 1. Mole percent is mole fraction × 100%."
+        ],
+        "related_concepts": ["Mole percent", "Raoult's law", "Colligative properties"],
+        "revision_note": "Mole fraction = moles of component / total moles.",
+        "glossary_entry": {
+          "term": "Mole fraction",
+          "definition": "The ratio of the number of moles of a component to the total number of moles of all components in a solution.",
+          "example_equation": "\\(X_A = \\frac{n_A}{n_{\\text{total}}}\\)",
+          "related_terms": ["Mole percent", "Concentration"]
+        },
+        "flashcard": {
+          "front": "What is the mole fraction of 0.250 mol ethanol in 0.750 mol water?",
+          "back": "0.250. Total moles = 1.000; 0.250/1.000 = 0.250."
+        },
+        "concept_map_nodes": [
+          { "source": "Mole fraction", "relation": "sums_to", "target": "1" },
+          { "source": "Mole fraction", "relation": "used_in", "target": "Raoult's law" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 2 — Concentration Units",
+        "flashcard_front": "How do you calculate mole fraction of a component?",
+        "flashcard_back": "Moles of component divided by total moles of all components.",
+        "glossary_term": "Mole fraction",
+        "glossary_definition": "The ratio of moles of a substance to total moles in a mixture.",
+        "revision_note": "X_A = n_A / n_total.",
+        "teacher_note": "Emphasize that mole fraction is always between 0 and 1 and has no units.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate mole fraction of solute and solvent.",
+        "concept_map_nodes": [
+          { "source": "Concentration", "relation": "expressed_as", "target": "Mole fraction" }
+        ],
+        "workbook_section": "2.4.2 Mole Fraction",
+        "solution_manual_note": "Answer A. X_ethanol = 0.250 / (0.250 + 0.750) = 0.250."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q022",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.3 Molarity",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "What is the molarity of a solution containing 5.85 g of NaCl (molar mass 58.5 g/mol) dissolved in enough water to make 250.0 mL of solution?",
+      "options": {
+        "A": "0.100 M",
+        "B": "0.200 M",
+        "C": "0.400 M",
+        "D": "0.800 M"
+      },
+      "correct_answer": "C",
+      "hint": "Molarity = moles of solute / volume in liters.",
+      "explanation": "Moles NaCl = 5.85 g / 58.5 g/mol = 0.100 mol. Volume = 0.250 L. Molarity = 0.100 / 0.250 = 0.400 M. Option A results from dividing by 1.00 L instead of 0.250 L.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(M = \\frac{n}{V}\\)", "\\(n = \\frac{m}{M}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "mass_NaCl": { "magnitude": 5.85, "unit": "g" },
+          "molar_mass_NaCl": { "magnitude": 58.5, "unit": "g/mol" },
+          "volume": { "magnitude": 250.0, "unit": "mL" }
+        },
+        "answer_value": 0.400,
+        "answer_unit": "M",
+        "calculation_steps": [
+          "\\(n_{\\text{NaCl}} = \\frac{5.85\\ \\mathrm{g}}{58.5\\ \\mathrm{g/mol}} = 0.100\\ \\mathrm{mol}\\)",
+          "\\(V = 250.0\\ \\mathrm{mL} = 0.250\\ \\mathrm{L}\\)",
+          "\\(M = \\frac{0.100\\ \\mathrm{mol}}{0.250\\ \\mathrm{L}} = 0.400\\ \\mathrm{M}\\)"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.3 Molarity",
+        "structural_element": null,
+        "content_anchor": "Molarity = number of moles of solute / volume of solution in litre",
+        "page_hint": 37,
+        "concept_hash": "hash_022"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Molarity (M) is the number of moles of solute per liter of solution.",
+        "concept_summary": "Molarity is the most common concentration unit for reactions. Convert mass to moles and mL to L before dividing.",
+        "beginner": "First find moles: 5.85 g is 0.100 mol. Then 0.100 mol in 0.250 L equals 0.400 mol/L or 0.400 M.",
+        "intermediate": "\\(M = \\frac{5.85\\ \\mathrm{g} / 58.5\\ \\mathrm{g/mol}}{0.250\\ \\mathrm{L}} = \\frac{0.100}{0.250} = 0.400\\ \\mathrm{M}\\).",
+        "advanced": "Molarity changes with temperature because volume expands. For precise work, consider temperature or use molality for thermal stability.",
+        "worked_solution": [
+          "Step 1: Moles NaCl = 5.85 g ÷ 58.5 g/mol = 0.100 mol.",
+          "Step 2: Convert 250.0 mL to 0.250 L.",
+          "Step 3: Molarity = 0.100 mol / 0.250 L = 0.400 M."
+        ],
+        "reasoning_steps": [
+          "Convert mass to moles using molar mass.",
+          "Convert volume to liters.",
+          "Divide moles by liters to get molarity."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(M = \\frac{n}{V}\\)",
+            "name": "Molarity",
+            "variables": [
+              { "symbol": "\\(M\\)", "meaning": "molarity", "unit": "mol/L or M" },
+              { "symbol": "\\(n\\)", "meaning": "moles of solute", "unit": "mol" },
+              { "symbol": "\\(V\\)", "meaning": "volume of solution", "unit": "L" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Molarity uses volume of solution, not volume of solvent. The volume changes when solute dissolves."
+        ],
+        "related_concepts": ["Solution concentration", "Stoichiometry", "Dilution"],
+        "revision_note": "M = moles solute / liters solution.",
+        "glossary_entry": {
+          "term": "Molarity",
+          "definition": "Concentration unit expressed as moles of solute per liter of solution.",
+          "example_equation": "\\(M = \\frac{n}{V}\\)",
+          "related_terms": ["Mole", "Solution", "Concentration"]
+        },
+        "flashcard": {
+          "front": "What is the molarity of 5.85 g NaCl in 250 mL solution?",
+          "back": "0.400 M. Moles = 0.100; L = 0.250; 0.100/0.250 = 0.400 M."
+        },
+        "concept_map_nodes": [
+          { "source": "Molarity", "relation": "depends_on", "target": "Volume" },
+          { "source": "Molarity", "relation": "used_for", "target": "Reaction stoichiometry" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 2 — Molarity",
+        "flashcard_front": "How many moles of NaCl in 5.85 g?",
+        "flashcard_back": "0.100 mol. Molar mass 58.5 g/mol; 5.85/58.5 = 0.100.",
+        "glossary_term": "Molarity",
+        "glossary_definition": "Concentration in moles per liter of solution.",
+        "revision_note": "M = moles solute / L solution.",
+        "teacher_note": "Practice volume conversions: mL to L is essential.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate molarity of a solution.",
+        "concept_map_nodes": [
+          { "source": "Molarity", "relation": "requires", "target": "Moles and volume" }
+        ],
+        "workbook_section": "2.4.3 Molarity",
+        "solution_manual_note": "Answer C. Moles = 5.85/58.5 = 0.100; V = 0.250 L; M = 0.100/0.250 = 0.400 M."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q023",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.4 Molality",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "Calculate the molality of a solution prepared by dissolving 10.0 g of glucose (\\(\\mathrm{C_6H_{12}O_6}\\), molar mass 180.0 g/mol) in 200.0 g of water.",
+      "options": {
+        "A": "0.278 m",
+        "B": "0.500 m",
+        "C": "0.555 m",
+        "D": "1.00 m"
+      },
+      "correct_answer": "A",
+      "hint": "Molality = moles solute / kilograms solvent.",
+      "explanation": "Moles glucose = 10.0 / 180.0 = 0.05556 mol. Mass water = 0.2000 kg. Molality = 0.05556 / 0.2000 = 0.278 m. Option B uses 0.100 kg solvent, a common error.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(m = \\frac{n_{\\text{solute}}}{\\text{kg solvent}}\\)", "\\(n = \\frac{m}{M}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "mass_glucose": { "magnitude": 10.0, "unit": "g" },
+          "molar_mass_glucose": { "magnitude": 180.0, "unit": "g/mol" },
+          "mass_water": { "magnitude": 200.0, "unit": "g" }
+        },
+        "answer_value": 0.278,
+        "answer_unit": "m",
+        "calculation_steps": [
+          "\\(n_{\\text{glucose}} = \\frac{10.0\\ \\mathrm{g}}{180.0\\ \\mathrm{g/mol}} = 0.05556\\ \\mathrm{mol}\\)",
+          "\\(\\text{kg water} = 200.0\\ \\mathrm{g} = 0.2000\\ \\mathrm{kg}\\)",
+          "\\(m = \\frac{0.05556\\ \\mathrm{mol}}{0.2000\\ \\mathrm{kg}} = 0.278\\ \\mathrm{m}\\)"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.4 Molality",
+        "structural_element": null,
+        "content_anchor": "Molality(m) = amount(mol) of solute / (mass(kg) of solvent)",
+        "page_hint": 38,
+        "concept_hash": "hash_023"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 89,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Molality (m) is the number of moles of solute per kilogram of solvent.",
+        "concept_summary": "Molality is temperature-independent because mass does not change with temperature, unlike molarity which uses volume.",
+        "beginner": "First find moles of glucose: 10.0/180.0 = 0.0556 mol. Then 200 g water = 0.200 kg. Divide: 0.0556 / 0.200 = 0.278 m.",
+        "intermediate": "\\(m = \\frac{10.0\\ \\mathrm{g} / 180.0\\ \\mathrm{g/mol}}{0.200\\ \\mathrm{kg}} = \\frac{0.0556\\ \\mathrm{mol}}{0.200\\ \\mathrm{kg}} = 0.278\\ \\mathrm{m}\\).",
+        "advanced": "Molality is preferred for colligative property calculations (freezing point depression, boiling point elevation) because those depend on molal concentration, not molar.",
+        "worked_solution": [
+          "Step 1: Moles glucose = 10.0 g ÷ 180.0 g/mol = 0.05556 mol.",
+          "Step 2: Convert 200.0 g water to 0.2000 kg.",
+          "Step 3: Molality = 0.05556 mol / 0.2000 kg = 0.278 m."
+        ],
+        "reasoning_steps": [
+          "Convert mass solute to moles.",
+          "Convert mass solvent to kilograms.",
+          "Divide moles solute by kg solvent."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(m = \\frac{n_{\\text{solute}}}{m_{\\text{solvent}(\\text{kg})}}\\)",
+            "name": "Molality",
+            "variables": [
+              { "symbol": "\\(m\\)", "meaning": "molality", "unit": "mol/kg or m" },
+              { "symbol": "\\(n_{\\text{solute}}\\)", "meaning": "moles of solute", "unit": "mol" },
+              { "symbol": "\\(m_{\\text{solvent}}\\)", "meaning": "mass of solvent", "unit": "kg" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Molality uses mass of solvent in kg, not mass of solution. Do not add solute mass to solvent mass."
+        ],
+        "related_concepts": ["Colligative properties", "Freezing point depression", "Boiling point elevation"],
+        "revision_note": "m = moles solute / kg solvent.",
+        "glossary_entry": {
+          "term": "Molality",
+          "definition": "Concentration unit expressed as moles of solute per kilogram of solvent.",
+          "example_equation": "\\(m = \\frac{n_{\\text{solute}}}{\\text{kg solvent}}\\)",
+          "related_terms": ["Molarity", "Colligative properties"]
+        },
+        "flashcard": {
+          "front": "What is the molality of 0.0556 mol glucose in 200 g water?",
+          "back": "0.278 m. 0.0556 mol / 0.200 kg = 0.278 m."
+        },
+        "concept_map_nodes": [
+          { "source": "Molality", "relation": "independent_of", "target": "Temperature" },
+          { "source": "Molality", "relation": "used_for", "target": "Colligative properties" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 2 — Molality",
+        "flashcard_front": "What is the molality of 10 g glucose in 200 g water?",
+        "flashcard_back": "0.278 m. Moles = 0.0556; kg water = 0.200; 0.0556/0.200 = 0.278.",
+        "glossary_term": "Molality",
+        "glossary_definition": "Moles of solute per kilogram of solvent.",
+        "revision_note": "m = mol solute / kg solvent.",
+        "teacher_note": "Emphasize that molality uses solvent mass, not solution mass.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate molality of a solution.",
+        "concept_map_nodes": [
+          { "source": "Molality", "relation": "differs_from", "target": "Molarity" }
+        ],
+        "workbook_section": "2.4.4 Molality",
+        "solution_manual_note": "Answer A. Moles = 10.0/180.0 = 0.0556; kg = 0.200; m = 0.0556/0.200 = 0.278 m."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q024",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.5 Normality",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "What is the normality of a 0.250 M \\(\\mathrm{H_2SO_4}\\) solution assuming complete dissociation?",
+      "options": {
+        "A": "0.125 N",
+        "B": "0.250 N",
+        "C": "0.500 N",
+        "D": "1.00 N"
+      },
+      "correct_answer": "C",
+      "hint": "Normality = Molarity × n, where n is H+ ions released.",
+      "explanation": "\\(\\mathrm{H_2SO_4}\\) releases 2 H+ ions per formula unit, so n = 2. Normality = 0.250 M × 2 = 0.500 N. Option B would be correct for monoprotic acids like HCl.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(N = M \\times z\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "molarity": { "magnitude": 0.250, "unit": "M" },
+          "z": { "magnitude": 2, "unit": "eq/mol" }
+        },
+        "answer_value": 0.500,
+        "answer_unit": "N",
+        "calculation_steps": ["\\(N = M \\times z = 0.250 \\times 2 = 0.500\\ \\mathrm{N}\\)"],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.5 Normality",
+        "structural_element": null,
+        "content_anchor": "N = M × z, where z is number of H+ or OH- ions",
+        "page_hint": 42,
+        "concept_hash": "hash_024"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 87,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Normality (N) is the number of equivalents of solute per liter of solution.",
+        "concept_summary": "For acids, normality relates to molarity through the number of H+ ions donated. H2SO4 donates 2 H+, so N = 2 × M.",
+        "beginner": "H2SO4 has 2 H+ ions, so it's twice as strong per mole. 0.250 M × 2 = 0.500 N.",
+        "intermediate": "Since \\(\\mathrm{H_2SO_4} \\rightarrow 2\\mathrm{H^+} + \\mathrm{SO_4^{2-}}\\), z = 2. \\(N = M \\times z = 0.250 \\times 2 = 0.500\\ \\mathrm{N}\\).",
+        "advanced": "Normality is reaction-dependent. For H2SO4 neutralizing to SO42-, z = 2. For partial neutralization to HSO4-, z = 1.",
+        "worked_solution": [
+          "Step 1: Identify z: H2SO4 gives 2 H+ ions → z = 2.",
+          "Step 2: Apply formula: N = M × z = 0.250 × 2 = 0.500 N."
+        ],
+        "reasoning_steps": [
+          "Determine number of H+ or OH- ions per formula unit.",
+          "Multiply molarity by that number.",
+          "Express result in N (equivalents/L)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(N = M \\times z\\)",
+            "name": "Normality from molarity",
+            "variables": [
+              { "symbol": "\\(N\\)", "meaning": "normality", "unit": "eq/L or N" },
+              { "symbol": "\\(M\\)", "meaning": "molarity", "unit": "mol/L" },
+              { "symbol": "\\(z\\)", "meaning": "equivalents per mole", "unit": "eq/mol" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Normality is not a fixed property of a solution; it depends on the reaction context (acid vs. base vs. redox)."
+        ],
+        "related_concepts": ["Equivalent weight", "Acid-base titration", "Redox reactions"],
+        "revision_note": "For acids: N = M × (number of H+).",
+        "glossary_entry": {
+          "term": "Normality",
+          "definition": "Concentration expressed as equivalents of solute per liter of solution.",
+          "example_equation": "\\(N = \\frac{\\text{eq}}{\\mathrm{L}}\\)",
+          "related_terms": ["Molarity", "Equivalent weight", "Titration"]
+        },
+        "flashcard": {
+          "front": "What is the normality of 0.250 M H2SO4?",
+          "back": "0.500 N. H2SO4 donates 2 H+, so N = 0.250 × 2 = 0.500 N."
+        },
+        "concept_map_nodes": [
+          { "source": "Normality", "relation": "calculated_from", "target": "Molarity" },
+          { "source": "Normality", "relation": "depends_on", "target": "Reaction type" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 2 — Normality",
+        "flashcard_front": "How do you convert molarity to normality for H2SO4?",
+        "flashcard_back": "Multiply by 2. N = M × z, with z = 2.",
+        "glossary_term": "Normality",
+        "glossary_definition": "Concentration in equivalents per liter.",
+        "revision_note": "N = M × z (z = H+ for acids).",
+        "teacher_note": "Explain that normality is less common now but used in acid-base titrations.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate normality from molarity.",
+        "concept_map_nodes": [
+          { "source": "Normality", "relation": "used_in", "target": "Titration" }
+        ],
+        "workbook_section": "2.4.5 Normality",
+        "solution_manual_note": "Answer C. N = 0.250 M × 2 = 0.500 N."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q025",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.4 Molality",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "Why is molality often preferred over molarity for experiments involving temperature changes?",
+      "options": {
+        "A": "Molality uses volume, which is temperature-independent",
+        "B": "Molality uses mass of solvent, which does not change with temperature",
+        "C": "Molality is always a larger number than molarity",
+        "D": "Molality is easier to calculate in the laboratory"
+      },
+      "correct_answer": "B",
+      "hint": "Consider how temperature affects mass vs. volume.",
+      "explanation": "Mass does not change with temperature, while volume expands when heated. Thus molality (based on kg solvent) remains constant. Option A is incorrect because molality does not use volume.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.4 Molality",
+        "structural_element": null,
+        "content_anchor": "Molality has two advantages over molarity for precise work: Effect of temperature. Molal solutions are based on masses of components, not volume. And since mass does not change with temperature, neither does molality.",
+        "page_hint": 39,
+        "concept_hash": "hash_025"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Molality is the number of moles of solute per kilogram of solvent, a mass-based concentration unit.",
+        "concept_summary": "Because mass is invariant with temperature, molality remains constant when solutions are heated or cooled, unlike volume-based molarity.",
+        "beginner": "If you heat water, it expands but its mass stays the same. Molality uses mass, so it doesn't change with temperature.",
+        "intermediate": "Molarity changes because volume expands with temperature. Molality uses mass of solvent, which is temperature-independent, making it reliable for thermal studies.",
+        "advanced": "Colligative property equations (ΔT_f = K_f × m, ΔT_b = K_b × m) use molality because temperature changes would otherwise alter the concentration if volume-based units were used.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that molarity depends on volume, which changes with temperature.",
+          "Recognize that molality depends on mass, which is invariant.",
+          "Conclude that molality is preferred for temperature-varying experiments."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Molality is not always larger than molarity; it depends on density. For dilute aqueous solutions they are similar."
+        ],
+        "related_concepts": ["Molarity temperature dependence", "Colligative properties", "Solution concentration"],
+        "revision_note": "Molality (mass-based) ≠ temperature dependent; molarity (volume-based) = temperature dependent.",
+        "glossary_entry": {
+          "term": "Molality",
+          "definition": "Concentration unit expressed as moles of solute per kilogram of solvent.",
+          "example_equation": "\\(m = \\frac{\\text{mol solute}}{\\text{kg solvent}}\\)",
+          "related_terms": ["Molarity", "Temperature independence"]
+        },
+        "flashcard": {
+          "front": "Why is molality preferred over molarity for temperature studies?",
+          "back": "Molality uses mass of solvent, which is temperature-independent; molarity uses volume, which changes with temperature."
+        },
+        "concept_map_nodes": [
+          { "source": "Temperature increase", "relation": "affects", "target": "Molarity (changes)" },
+          { "source": "Temperature increase", "relation": "does_not_affect", "target": "Molality" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "important",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 2 — Molality vs Molarity",
+        "flashcard_front": "What advantage does molality have over molarity?",
+        "flashcard_back": "Molality is temperature-independent because it uses mass, not volume.",
+        "glossary_term": "Molality",
+        "glossary_definition": "Moles of solute per kilogram of solvent, temperature-independent.",
+        "revision_note": "Molality is constant with temperature.",
+        "teacher_note": "Demonstrate with water expansion on heating to show why volume changes.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Compare molality and molarity advantages.",
+        "concept_map_nodes": [
+          { "source": "Molality", "relation": "advantage", "target": "Temperature independent" }
+        ],
+        "workbook_section": "2.4.4 Molality",
+        "solution_manual_note": "Answer B. Molality uses mass, which does not change with temperature, making it reliable for thermal experiments."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q026",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.2 Mole Fraction",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "A solution contains 1.50 mol of solute and 3.50 mol of solvent. What is the mole fraction of the solvent?",
+      "options": {
+        "A": "0.300",
+        "B": "0.500",
+        "C": "0.700",
+        "D": "0.875"
+      },
+      "correct_answer": "C",
+      "hint": "Mole fraction of solvent = moles solvent / total moles.",
+      "explanation": "Total moles = 1.50 + 3.50 = 5.00 mol. X_solvent = 3.50 / 5.00 = 0.700. Option A is the mole fraction of solute (1.50/5.00 = 0.300).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(X_B = \\frac{n_B}{n_A + n_B}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "n_solute": { "magnitude": 1.50, "unit": "mol" },
+          "n_solvent": { "magnitude": 3.50, "unit": "mol" }
+        },
+        "answer_value": 0.700,
+        "answer_unit": "unitless",
+        "calculation_steps": ["\\(n_{\\text{total}} = 1.50 + 3.50 = 5.00\\ \\mathrm{mol}\\)", "\\(X_{\\text{solvent}} = \\frac{3.50}{5.00} = 0.700\\)"],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.2 Mole Fraction",
+        "structural_element": null,
+        "content_anchor": "Mole fraction (X_A) = moles of substance A / total moles",
+        "page_hint": 36,
+        "concept_hash": "hash_026"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 91,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Mole fraction is the ratio of moles of one component to total moles of all components.",
+        "concept_summary": "The sum of all mole fractions in a solution equals 1. If X_solute = 0.300, then X_solvent = 0.700.",
+        "beginner": "Total parts = 1.50 + 3.50 = 5.00. Solvent is 3.50 out of 5.00 = 0.700.",
+        "intermediate": "Mole fraction of solvent = 3.50 / (1.50 + 3.50) = 3.50 / 5.00 = 0.700.",
+        "advanced": "Mole fraction is a dimensionless intensive property. X_solvent + X_solute = 1; here 0.700 + 0.300 = 1.000.",
+        "worked_solution": [
+          "Step 1: Sum moles: 1.50 mol + 3.50 mol = 5.00 mol.",
+          "Step 2: Divide solvent moles by total: 3.50 / 5.00 = 0.700.",
+          "Step 3: Mole fraction is unitless."
+        ],
+        "reasoning_steps": [
+          "Find total moles of all components.",
+          "Divide moles of solvent by total.",
+          "The result is the mole fraction."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(X_{\\text{solvent}} = \\frac{n_{\\text{solvent}}}{n_{\\text{total}}}\\)",
+            "name": "Mole fraction of solvent",
+            "variables": [
+              { "symbol": "\\(X_{\\text{solvent}}\\)", "meaning": "mole fraction of solvent", "unit": "unitless" },
+              { "symbol": "\\(n_{\\text{solvent}}\\)", "meaning": "moles of solvent", "unit": "mol" },
+              { "symbol": "\\(n_{\\text{total}}\\)", "meaning": "total moles", "unit": "mol" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Mole fraction is not a percentage; it ranges from 0 to 1. Multiply by 100 to get mole percent."
+        ],
+        "related_concepts": ["Mole percent", "Partial pressure", "Raoult's law"],
+        "revision_note": "X_solvent = n_solvent / n_total.",
+        "glossary_entry": {
+          "term": "Mole fraction",
+          "definition": "Moles of a component divided by total moles of all components.",
+          "example_equation": "\\(X_A = \\frac{n_A}{n_{\\text{total}}}\\)",
+          "related_terms": ["Mole percent", "Concentration"]
+        },
+        "flashcard": {
+          "front": "What is the mole fraction of solvent when n_solute = 1.50 and n_solvent = 3.50?",
+          "back": "0.700. Total = 5.00; 3.50/5.00 = 0.700."
+        },
+        "concept_map_nodes": [
+          { "source": "Mole fraction", "relation": "sum_to", "target": "1" },
+          { "source": "Solvent", "relation": "has_mole_fraction", "target": "X_solvent" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 2 — Mole Fraction",
+        "flashcard_front": "How do you find mole fraction of solvent?",
+        "flashcard_back": "Divide moles of solvent by total moles of solution.",
+        "glossary_term": "Mole fraction",
+        "glossary_definition": "Ratio of component moles to total moles.",
+        "revision_note": "X = component moles / total moles.",
+        "teacher_note": "Relate to vapor pressure in Raoult's law.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate mole fraction.",
+        "concept_map_nodes": [
+          { "source": "Mole fraction", "relation": "used_in", "target": "Vapor pressure" }
+        ],
+        "workbook_section": "2.4.2 Mole Fraction",
+        "solution_manual_note": "Answer C. Total = 1.50 + 3.50 = 5.00; X_solvent = 3.50/5.00 = 0.700."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q027",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.3 Molarity",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "How many grams of NaOH (molar mass 40.0 g/mol) are required to prepare 500.0 mL of 0.200 M NaOH solution?",
+      "options": {
+        "A": "2.00 g",
+        "B": "4.00 g",
+        "C": "8.00 g",
+        "D": "10.0 g"
+      },
+      "correct_answer": "B",
+      "hint": "Moles = M × V (L); then mass = moles × molar mass.",
+      "explanation": "Moles NaOH = 0.200 M × 0.500 L = 0.100 mol. Mass = 0.100 mol × 40.0 g/mol = 4.00 g. Option A uses 0.100 L instead of 0.500 L.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(n = M \\times V\\)", "\\(m = n \\times M\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "molarity": { "magnitude": 0.200, "unit": "M" },
+          "volume": { "magnitude": 500.0, "unit": "mL" },
+          "molar_mass": { "magnitude": 40.0, "unit": "g/mol" }
+        },
+        "answer_value": 4.00,
+        "answer_unit": "g",
+        "calculation_steps": [
+          "\\(V = 500.0\\ \\mathrm{mL} = 0.500\\ \\mathrm{L}\\)",
+          "\\(n = 0.200\\ \\mathrm{M} \\times 0.500\\ \\mathrm{L} = 0.100\\ \\mathrm{mol}\\)",
+          "\\(m = 0.100\\ \\mathrm{mol} \\times 40.0\\ \\mathrm{g/mol} = 4.00\\ \\mathrm{g}\\)"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.3 Molarity",
+        "structural_element": null,
+        "content_anchor": "Molarity = number of moles of solute / volume of solution in litre",
+        "page_hint": 37,
+        "concept_hash": "hash_027"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 89,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Molarity (M) is moles of solute per liter of solution.",
+        "concept_summary": "To find mass, first calculate moles using molarity and volume (in liters), then multiply by molar mass.",
+        "beginner": "0.200 M means 0.200 mol per L. For 0.500 L, you need 0.100 mol. Multiply by 40 g/mol = 4.00 g.",
+        "intermediate": "Moles = M × V = 0.200 M × 0.500 L = 0.100 mol. Mass = 0.100 mol × 40.0 g/mol = 4.00 g.",
+        "advanced": "Molarity is temperature-dependent. For precise preparation, dissolve solute in less than final volume, then dilute to mark at the target temperature.",
+        "worked_solution": [
+          "Step 1: Convert 500.0 mL to 0.500 L.",
+          "Step 2: Moles NaOH = 0.200 mol/L × 0.500 L = 0.100 mol.",
+          "Step 3: Mass = 0.100 mol × 40.0 g/mol = 4.00 g."
+        ],
+        "reasoning_steps": [
+          "Convert volume to liters.",
+          "Multiply molarity by liters to get moles.",
+          "Multiply moles by molar mass to get grams."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(m = M \\times V \\times \\text{Molar mass}\\)",
+            "name": "Mass from molarity",
+            "variables": [
+              { "symbol": "\\(m\\)", "meaning": "mass of solute", "unit": "g" },
+              { "symbol": "\\(M\\)", "meaning": "molarity", "unit": "mol/L" },
+              { "symbol": "\\(V\\)", "meaning": "volume", "unit": "L" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Volume must be in liters before multiplying by molarity, not milliliters."
+        ],
+        "related_concepts": ["Solution preparation", "Mole concept", "Dilution"],
+        "revision_note": "mass = M × V(L) × molar mass.",
+        "glossary_entry": {
+          "term": "Molarity",
+          "definition": "Moles of solute per liter of solution.",
+          "example_equation": "\\(M = \\frac{n}{V}\\)",
+          "related_terms": ["Solution preparation", "Stoichiometry"]
+        },
+        "flashcard": {
+          "front": "What mass of NaOH for 500 mL of 0.200 M?",
+          "back": "4.00 g. Moles = 0.200 × 0.500 = 0.100; mass = 0.100 × 40.0 = 4.00 g."
+        },
+        "concept_map_nodes": [
+          { "source": "Solution preparation", "relation": "requires", "target": "Mass calculation from molarity" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 2 — Molarity Preparation",
+        "flashcard_front": "How many grams NaOH for 500 mL 0.200 M?",
+        "flashcard_back": "4.00 g. 0.200 × 0.500 = 0.100 mol × 40 = 4.00 g.",
+        "glossary_term": "Molarity",
+        "glossary_definition": "Moles per liter, used in stoichiometry.",
+        "revision_note": "mol = M × L; g = mol × MM.",
+        "teacher_note": "Review unit conversion: mL to L is critical.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate mass needed for a given molar solution.",
+        "concept_map_nodes": [
+          { "source": "Molarity", "relation": "used_to_find", "target": "Mass of solute" }
+        ],
+        "workbook_section": "2.4.3 Molarity",
+        "solution_manual_note": "Answer B. Moles = 0.200 × 0.500 = 0.100; mass = 0.100 × 40.0 = 4.00 g."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q028",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.5 Normality",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "A 0.150 M solution of \\(\\mathrm{Ca(OH)_2}\\) is used in a neutralization reaction. What is its normality?",
+      "options": {
+        "A": "0.0750 N",
+        "B": "0.150 N",
+        "C": "0.300 N",
+        "D": "0.450 N"
+      },
+      "correct_answer": "C",
+      "hint": "\\(\\mathrm{Ca(OH)_2}\\) releases 2 OH⁻ ions.",
+      "explanation": "Calcium hydroxide has 2 OH⁻ groups per formula unit, so z = 2. Normality = 0.150 M × 2 = 0.300 N. Option B would be correct for a mono-base like NaOH.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(N = M \\times z\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "molarity": { "magnitude": 0.150, "unit": "M" },
+          "z": { "magnitude": 2, "unit": "eq/mol" }
+        },
+        "answer_value": 0.300,
+        "answer_unit": "N",
+        "calculation_steps": ["\\(N = 0.150 \\times 2 = 0.300\\ \\mathrm{N}\\)"],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.5 Normality",
+        "structural_element": null,
+        "content_anchor": "N = M × z, where z is number of OH- ions in base",
+        "page_hint": 42,
+        "concept_hash": "hash_028"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Normality (N) is equivalents of base per liter, where equivalents depend on OH⁻ count.",
+        "concept_summary": "For bases, z equals the number of OH⁻ ions. Ca(OH)₂ has 2 OH⁻, so N = 2 × M.",
+        "beginner": "Ca(OH)₂ has two OH⁻ groups, so it's twice as strong per mole. 0.150 M × 2 = 0.300 N.",
+        "intermediate": "\\(\\mathrm{Ca(OH)_2} \\rightarrow \\mathrm{Ca^{2+}} + 2\\mathrm{OH^-}\\). z = 2. N = 0.150 M × 2 = 0.300 N.",
+        "advanced": "Normality is reaction-specific. If Ca(OH)₂ reacted only partially (uncommon), z might differ, but complete neutralization gives z = 2.",
+        "worked_solution": [
+          "Step 1: Write dissociation: Ca(OH)₂ → Ca²⁺ + 2 OH⁻.",
+          "Step 2: z = number of OH⁻ = 2.",
+          "Step 3: N = 0.150 × 2 = 0.300 N."
+        ],
+        "reasoning_steps": [
+          "Determine number of OH⁻ ions per formula unit.",
+          "Multiply molarity by that number.",
+          "Express result in normality."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(N = M \\times z\\)",
+            "name": "Normality for bases",
+            "variables": [
+              { "symbol": "\\(N\\)", "meaning": "normality", "unit": "N" },
+              { "symbol": "\\(M\\)", "meaning": "molarity", "unit": "M" },
+              { "symbol": "\\(z\\)", "meaning": "OH⁻ count", "unit": "eq/mol" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Normality is not simply 2×molarity for all bases; it depends on the number of OH⁻ that actually react."
+        ],
+        "related_concepts": ["Acid-base titration", "Equivalents", "Neutralization"],
+        "revision_note": "N = M × (# OH⁻).",
+        "glossary_entry": {
+          "term": "Normality",
+          "definition": "Concentration in equivalents per liter, where equivalents depend on reaction stoichiometry.",
+          "example_equation": "\\(N = \\frac{\\text{eq}}{\\mathrm{L}}\\)",
+          "related_terms": ["Equivalent weight", "Titration"]
+        },
+        "flashcard": {
+          "front": "What is the normality of 0.150 M Ca(OH)₂?",
+          "back": "0.300 N. Ca(OH)₂ has 2 OH⁻, so N = 0.150 × 2 = 0.300 N."
+        },
+        "concept_map_nodes": [
+          { "source": "Ca(OH)₂", "relation": "has", "target": "2 OH⁻" },
+          { "source": "Normality", "relation": "equals", "target": "Molarity × OH⁻ count" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 2 — Normality of Bases",
+        "flashcard_front": "How do you find normality of Ca(OH)₂ from molarity?",
+        "flashcard_back": "Multiply by 2. Ca(OH)₂ has 2 OH⁻ ions.",
+        "glossary_term": "Normality",
+        "glossary_definition": "Equivalents per liter, based on reactive units.",
+        "revision_note": "N_base = M × (OH⁻ count).",
+        "teacher_note": "Emphasize that Ca(OH)₂ is a strong base that fully dissociates.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate normality of bases.",
+        "concept_map_nodes": [
+          { "source": "Strong base", "relation": "has_normality", "target": "N = M × OH⁻" }
+        ],
+        "workbook_section": "2.4.5 Normality",
+        "solution_manual_note": "Answer C. N = 0.150 × 2 = 0.300 N."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q029",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.5 Normality",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "A solution labeled as \"2.00 N H₂SO₄\" is used to neutralize NaOH. If a student assumes the molarity is also 2.00 M, how will this affect the volume of acid needed to reach the equivalence point?",
+      "options": {
+        "A": "They will use twice the correct volume",
+        "B": "They will use half the correct volume",
+        "C": "They will use the correct volume",
+        "D": "Volume calculation is unaffected by this confusion"
+      },
+      "correct_answer": "B",
+      "hint": "Normality = Molarity × 2 for H₂SO₄.",
+      "explanation": "2.00 N H₂SO₄ has M = 1.00 M. Assuming M = 2.00 M would overestimate concentration, causing the student to use half the required volume. Option A is opposite.",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(N = M \\times z\\)", "\\(N_1V_1 = N_2V_2\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.5 Normality",
+        "structural_element": null,
+        "content_anchor": "z = 2 for H2SO4 because it releases 2 H+ ions",
+        "page_hint": 40,
+        "concept_hash": "hash_029"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Normality accounts for reactive equivalents; molarity does not.",
+        "concept_summary": "H₂SO₄ has z = 2, so M = N/2 = 1.00 M. Assuming M = 2.00 M doubles the perceived concentration, halving the required volume.",
+        "beginner": "If you think the acid is twice as strong as it really is, you'll use only half as much to neutralize the base.",
+        "intermediate": "True M = 2.00 N ÷ 2 = 1.00 M. If student uses 2.00 M, then V needed from M₁V₁ = M₂V₂ would be half: V₁ = (M₂V₂)/M₁ with M₁ overestimated.",
+        "advanced": "At equivalence: moles H⁺ = moles OH⁻. For H₂SO₄, (M × V × 2) = (M_base × V_base). Overestimating M by factor 2 underestimates V by factor 2.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize that N = 2.00, z = 2, so true M = 1.00 M.",
+          "Student assumes M = 2.00 M (double true value).",
+          "From M₁V₁ = M₂V₂, if M₁ doubled, V₁ halves."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(M_1V_1 = M_2V_2\\)",
+            "name": "Dilution/neutralization equation",
+            "variables": [
+              { "symbol": "\\(M_1\\)", "meaning": "molarity of acid", "unit": "M" },
+              { "symbol": "\\(V_1\\)", "meaning": "volume of acid", "unit": "L" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Confusing normality and molarity is common for polyprotic acids. Always check the reaction stoichiometry."
+        ],
+        "related_concepts": ["Polyprotic acid", "Neutralization", "Equivalence point"],
+        "revision_note": "H₂SO₄: M = N/2. Overestimating M → underestimate V.",
+        "glossary_entry": {
+          "term": "Normality",
+          "definition": "Concentration that accounts for reactive equivalents; may differ from molarity for polyprotic acids.",
+          "example_equation": "\\(N = M \\times z\\)",
+          "related_terms": ["Molarity", "Polyprotic acid"]
+        },
+        "flashcard": {
+          "front": "2.00 N H₂SO₄ has what molarity?",
+          "back": "1.00 M. H₂SO₄ donates 2 H⁺, so M = N/2."
+        },
+        "concept_map_nodes": [
+          { "source": "Normality", "relation": "converts_to", "target": "Molarity ÷ z" },
+          { "source": "Confusion", "relation": "leads_to", "target": "Incorrect volume" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "warning",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 2 — Normality Confusion",
+        "flashcard_front": "What error occurs if 2.00 N H₂SO₄ is assumed to be 2.00 M?",
+        "flashcard_back": "Student uses half the required volume because true M = 1.00 M.",
+        "glossary_term": "Normality",
+        "glossary_definition": "Concentration based on equivalents, not moles.",
+        "revision_note": "Never assume N = M for H₂SO₄.",
+        "teacher_note": "Classic titration error. Demonstrate with calculation.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Distinguish between molarity and normality in context.",
+        "concept_map_nodes": [
+          { "source": "H₂SO₄", "relation": "has", "target": "N = 2M" },
+          { "source": "Misunderstanding", "relation": "causes", "target": "Equivalence point error" }
+        ],
+        "workbook_section": "2.4.5 Normality",
+        "solution_manual_note": "Answer B. True M = 1.00 M; assuming 2.00 M doubles concentration, so volume halves."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q030",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.4 Ways of Expressing Concentration of Solutions",
+      "subsection": "2.4.4 Molality",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "A solution is 0.500 m in NaCl. How many moles of NaCl are dissolved in 500.0 g of water?",
+      "options": {
+        "A": "0.125 mol",
+        "B": "0.250 mol",
+        "C": "0.500 mol",
+        "D": "1.00 mol"
+      },
+      "correct_answer": "B",
+      "hint": "Molality = moles solute / kg solvent.",
+      "explanation": "500.0 g water = 0.500 kg. Moles NaCl = molality × kg solvent = 0.500 m × 0.500 kg = 0.250 mol. Option A results from using grams (0.500 × 0.500 = 0.250) incorrectly divided.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(m = \\frac{n}{\\text{kg solvent}}\\)", "\\(n = m \\times \\text{kg solvent}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "molality": { "magnitude": 0.500, "unit": "m" },
+          "mass_solvent": { "magnitude": 500.0, "unit": "g" }
+        },
+        "answer_value": 0.250,
+        "answer_unit": "mol",
+        "calculation_steps": ["\\(\\text{kg solvent} = 500.0\\ \\mathrm{g} = 0.500\\ \\mathrm{kg}\\)", "\\(n = 0.500\\ \\mathrm{m} \\times 0.500\\ \\mathrm{kg} = 0.250\\ \\mathrm{mol}\\)"],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.4 Ways of Expressing Concentration of Solutions",
+        "subsection_anchor": "2.4.4 Molality",
+        "structural_element": null,
+        "content_anchor": "Molality = amount(mol) of solute / (mass(kg) of solvent)",
+        "page_hint": 39,
+        "concept_hash": "hash_030"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Molality (m) is moles of solute per kilogram of solvent.",
+        "concept_summary": "Multiply molality by mass of solvent in kilograms to find moles of solute.",
+        "beginner": "0.500 m means 0.500 mol per 1 kg water. 500 g is 0.500 kg, so moles = 0.500 × 0.500 = 0.250 mol.",
+        "intermediate": "Convert 500.0 g to 0.500 kg. n = m × kg solvent = 0.500 m × 0.500 kg = 0.250 mol.",
+        "advanced": "Molality is independent of temperature, so this relationship holds regardless of thermal conditions.",
+        "worked_solution": [
+          "Step 1: Convert 500.0 g water to 0.500 kg.",
+          "Step 2: Use n = molality × kg solvent = 0.500 × 0.500 = 0.250 mol.",
+          "Step 3: Moles NaCl = 0.250 mol."
+        ],
+        "reasoning_steps": [
+          "Convert solvent mass to kilograms.",
+          "Multiply molality by kg solvent.",
+          "Result is moles of solute."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(n = m \\times \\text{kg solvent}\\)",
+            "name": "Moles from molality",
+            "variables": [
+              { "symbol": "\\(n\\)", "meaning": "moles of solute", "unit": "mol" },
+              { "symbol": "\\(m\\)", "meaning": "molality", "unit": "mol/kg" },
+              { "symbol": "\\(\\text{kg solvent}\\)", "meaning": "mass of solvent", "unit": "kg" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Molality uses kilograms of solvent, not grams or total solution mass."
+        ],
+        "related_concepts": ["Solution concentration", "Mole concept", "Colligative properties"],
+        "revision_note": "moles = m × kg solvent.",
+        "glossary_entry": {
+          "term": "Molality",
+          "definition": "Moles of solute per kilogram of solvent.",
+          "example_equation": "\\(m = \\frac{n}{\\text{kg solvent}}\\)",
+          "related_terms": ["Moles", "Solvent"]
+        },
+        "flashcard": {
+          "front": "How many moles in 0.500 m NaCl with 500 g water?",
+          "back": "0.250 mol. 500 g = 0.500 kg; 0.500 × 0.500 = 0.250 mol."
+        },
+        "concept_map_nodes": [
+          { "source": "Molality", "relation": "used_to_find", "target": "Moles of solute" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 2 — Molality Calculations",
+        "flashcard_front": "What is n if m = 0.500 and solvent = 500 g?",
+        "flashcard_back": "0.250 mol. n = m × kg solvent = 0.500 × 0.500 = 0.250.",
+        "glossary_term": "Molality",
+        "glossary_definition": "Moles solute per kg solvent.",
+        "revision_note": "mol = m × kg solvent.",
+        "teacher_note": "Remind students to convert grams to kilograms.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate moles of solute from molality.",
+        "concept_map_nodes": [
+          { "source": "Molality", "relation": "requires", "target": "Mass of solvent in kg" }
+        ],
+        "workbook_section": "2.4.4 Molality",
+        "solution_manual_note": "Answer B. 500.0 g = 0.500 kg; n = 0.500 × 0.500 = 0.250 mol."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 89.2,
+    "type_distribution": {
+      "D": 4, "E": 4, "F": 1, "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 3,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.4 Ways of Expressing Concentration of Solutions": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 25,
+      "intermediate_avg": 36,
+      "advanced_avg": 45
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

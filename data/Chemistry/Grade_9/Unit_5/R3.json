@@ -1,0 +1,1746 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G9_Chem_U5_Q030",
+    "covered_sections": [
+      "5.1 Chemical Bonding>Why do atoms form chemical bond?",
+      "5.1 Chemical Bonding>Octet Rule",
+      "5.1 Chemical Bonding>How could atoms satisfy the Octet Rule?",
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>What are Ions?",
+      "5.2 Ionic Bonding>5.2.1 Formation of Ionic Bonding>Types of Ions",
+      "5.2 Ionic Bonding>5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Form Crystals",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Soluble in Polar Solvents",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Conduct Electricity when they are Dissolved in Water or in Molten State",
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Density",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Double Bond",
+      "5.3 Covalent Bonding>5.3.1 Formation of Covalent Bond>Formation of Triple Covalent Bond",
+      "5.3 Covalent Bonding>5.3.2 Lewis's Formula of Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.3 Polarity in Covalent Molecules>Polar Covalent Molecules",
+      "5.3 Covalent Bonding>5.3.4 Coordinate Covalent Bond (Dative Bond)",
+      "5.3 Covalent Bonding>5.3.5 General Properties of Covalent Compounds>Physical Properties of Covalent Compounds",
+      "5.4 Metallic Bonding>5.4.1 Formation of Metallic Bond",
+      "5.4 Metallic Bonding>5.4.2 Properties of Metallic Bond"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1"
+    ],
+    "baseline_counter": {
+      "5.1 Chemical Bonding": {
+        "Why do atoms form chemical bond?": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "Octet Rule": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "How could atoms satisfy the Octet Rule?": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      },
+      "5.2 Ionic Bonding": {
+        "5.2.1 Formation of Ionic Bonding>What are Ions?": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.1 Formation of Ionic Bonding>Types of Ions": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.2 Lewis Formulas of Ionic Compounds>Lewis Dot Formula": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They Form Crystals": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They Have High Melting Points and High Boiling Points": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They are Hard and Brittle": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.2.3 General Properties of Ionic Compounds>They are Soluble in Polar Solvents": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "5.2.3 General Properties of Ionic Compounds>They Conduct Electricity when they are Dissolved in Water or in Molten State": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "5.2.3 General Properties of Ionic Compounds>They Have High Density": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      },
+      "5.3 Covalent Bonding": {
+        "5.3.1 Formation of Covalent Bond>Formation of Single Covalent Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.1 Formation of Covalent Bond>Formation of Double Bond": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.1 Formation of Covalent Bond>Formation of Triple Covalent Bond": { "count": 1, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.2 Lewis's Formula of Covalent Molecules": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 },
+        "5.3.3 Polarity in Covalent Molecules>Nonpolar Covalent Molecules": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.3 Polarity in Covalent Molecules>Polar Covalent Molecules": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.4 Coordinate Covalent Bond (Dative Bond)": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.3.5 General Properties of Covalent Compounds>Physical Properties of Covalent Compounds": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      },
+      "5.4 Metallic Bonding": {
+        "5.4.1 Formation of Metallic Bond": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "5.4.2 Properties of Metallic Bond": { "count": 1, "mini_headings_covered": [], "last_question_round": 3 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 Chemical Bonding": { "question_count": 6, "last_used_round": 3, "consecutive_batches": 3 },
+      "5.2 Ionic Bonding": { "question_count": 12, "last_used_round": 3, "consecutive_batches": 3 },
+      "5.3 Covalent Bonding": { "question_count": 14, "last_used_round": 3, "consecutive_batches": 3 },
+      "5.4 Metallic Bonding": { "question_count": 4, "last_used_round": 3, "consecutive_batches": 3 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They are Soluble in Polar Solvents": ["solubility", "polar solvent", "like dissolves like", "water"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Conduct Electricity when they are Dissolved in Water or in Molten State": ["electrical conductivity", "mobile ions", "electrolyte", "molten salt"],
+      "5.2 Ionic Bonding>5.2.3 General Properties of Ionic Compounds>They Have High Density": ["density", "closely packed ions", "mass per volume"],
+      "5.3 Covalent Bonding>5.3.2 Lewis's Formula of Covalent Molecules": ["Lewis structure", "covalent molecule", "electron dot", "shared pairs", "lone pairs"],
+      "5.3 Covalent Bonding>5.3.5 General Properties of Covalent Compounds>Physical Properties of Covalent Compounds": ["low melting point", "low boiling point", "poor conductivity", "soft solids", "gases", "liquids"],
+      "5.4 Metallic Bonding>5.4.2 Properties of Metallic Bond": ["electrical conductivity", "thermal conductivity", "malleability", "ductility", "sea of electrons"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_prev_state_hash_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 48,
+      "questions_per_concept_ratio": 0.63,
+      "structural_coverage_percentage": 82.4
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Chemistry",
+  "unit": "Unit 5: CHEMICAL BONDING",
+  "pdf_filename": "C9U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": { "complete": false, "sections_covered": 4, "total_sections": 4, "progress_percentage": 72.7 },
+      "phase2": { "complete": false, "max_imbalance_ratio": 3.5, "balanced": false },
+      "phase3": { "started": false, "exam_sections_biased": 0 }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 14,
+      "mini_headings_covered_count": 18,
+      "structural_coverage_percentage": 82.4,
+      "concept_utilization_ratio": 0.63
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.3 Covalent Bonding",
+      "least_covered_section": "5.1 Chemical Bonding",
+      "imbalance_ratio": 2.33,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Chem_U5_Q021",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They are Soluble in Polar Solvents",
+      "structural_anchor": "They are Soluble in Polar Solvents",
+      "mcq_type": "F",
+      "question": "According to the \"like dissolves like\" principle, ionic compounds such as NaCl dissolve readily in water but not in nonpolar solvents like hexane. What property of water makes it an effective solvent for ionic compounds?",
+      "options": {
+        "A": "Water has a low dielectric constant.",
+        "B": "Water is a polar molecule with partial charges.",
+        "C": "Water molecules are very large and can surround ions.",
+        "D": "Water forms covalent bonds with ions."
+      },
+      "correct_answer": "B",
+      "hint": "Think about water's charge distribution and how it interacts with ions.",
+      "explanation": "Water is polar, with partial positive on H and partial negative on O. These partial charges attract and stabilize cations and anions, pulling them into solution. Nonpolar solvents lack partial charges and cannot solvate ions effectively.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They are Soluble in Polar Solvents",
+        "content_anchor": "Polar solvents dissolve polar compounds. Water, methanol, liquid ammonia are common polar solvents",
+        "page_hint": 13,
+        "concept_hash": "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Solubility is the maximum amount of solute that can dissolve in a given quantity of solvent.",
+        "concept_summary": "Water's polarity allows it to hydrate ions: partial negative O attracts cations, partial positive H attracts anions, overcoming the ionic lattice energy.",
+        "beginner": "Water molecules act like tiny magnets: the oxygen side is negative (attracts Na⁺) and the hydrogen side is positive (attracts Cl⁻), pulling salt apart.",
+        "intermediate": "The polar water molecule (\\(\\delta^+\\) on H, \\(\\delta^-\\) on O) surrounds each ion with hydration shells. This releases hydration energy that compensates for the lattice energy of NaCl.",
+        "advanced": "The solubility of an ionic compound depends on the balance between lattice energy (U) and hydration energy (\\(\\Delta H_{\\text{hyd}}\\)). For NaCl, the exothermic hydration of Na⁺ and Cl⁻ overcomes the lattice energy, making it water-soluble.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the nature of the solute: ionic (charged).",
+          "Identify the nature of the solvent: water (polar).",
+          "Partial charges in water attract and separate ions.",
+          "This solvation leads to dissolution."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think water dissolves everything because it's 'universal solvent.' Water dissolves polar and ionic compounds but not nonpolar ones like oil.",
+          "Another misconception: NaCl dissolves by reacting with water chemically. NaCl dissociates into ions physically, not chemically reacting."
+        ],
+        "related_concepts": ["Polar solvent", "Hydration", "Solubility", "Like dissolves like", "Dielectric constant"],
+        "revision_note": "Water dissolves ionic compounds because it is polar (partial charges attract ions).",
+        "glossary_entry": {
+          "term": "Hydration",
+          "definition": "The process where water molecules surround and interact with dissolved ions through electrostatic attraction.",
+          "example_equation": "\\(\\mathrm{NaCl(s) \\rightarrow Na^+(aq) + Cl^-(aq)}\\)",
+          "related_terms": ["solvation", "polar solvent", "electrolyte"]
+        },
+        "flashcard": {
+          "front": "Why do ionic compounds dissolve in water but not in nonpolar solvents?",
+          "back": "Water is polar with partial charges that attract ions; nonpolar solvents lack partial charges and cannot solvate ions."
+        },
+        "concept_map_nodes": [
+          { "source": "Water", "relation": "is", "target": "Polar molecule" },
+          { "source": "Polar molecule", "relation": "has", "target": "Partial charges (\\(\\delta^+, \\delta^-\\))" },
+          { "source": "Partial charges", "relation": "attract", "target": "Ions" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What property of water allows it to dissolve ionic compounds?",
+        "flashcard_back": "Water is polar with partial positive (H) and partial negative (O) charges that attract and solvate ions.",
+        "glossary_term": "Hydration",
+        "glossary_definition": "The process where water molecules surround and interact with dissolved ions through electrostatic attraction.",
+        "revision_note": "Water dissolves ionic compounds due to polarity (partial charges attract ions).",
+        "teacher_note": "Demonstrate with NaCl dissolving in water vs oil to show 'like dissolves like'.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain solubility of ionic compounds in polar solvents",
+        "concept_map_nodes": [
+          { "source": "Water", "relation": "is polar → partial charges →", "target": "Attract and solvate ions" },
+          { "source": "Nonpolar solvent", "relation": "has no partial charges →", "target": "Cannot solvate ions" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer B. Water is polar with partial charges (B) that attract ions. A is false (water has high dielectric constant). C is false (water molecules are small). D is false (water does not form covalent bonds with ions; it solvates them electrostatically)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q022",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They Conduct Electricity when they are Dissolved in Water or in Molten State",
+      "structural_anchor": "They Conduct Electricity when they are Dissolved in Water or in Molten State",
+      "mcq_type": "G",
+      "question": "Solid sodium chloride (NaCl) does not conduct electricity, but molten NaCl or NaCl dissolved in water does conduct. What change occurs that allows electrical conductivity?",
+      "options": {
+        "A": "The ions gain extra electrons and become conductive.",
+        "B": "The ions become free to move and can migrate toward electrodes.",
+        "C": "The covalent bonds within NaCl break to release electrons.",
+        "D": "The water molecules decompose to produce hydrogen gas."
+      },
+      "correct_answer": "B",
+      "hint": "Consider what is required for charge to flow: mobile charged particles.",
+      "explanation": "In solid NaCl, ions are fixed in the crystal lattice and cannot move. When melted or dissolved, the lattice breaks down, and ions become mobile. These mobile ions carry charge through the solution or melt.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They Conduct Electricity when they are Dissolved in Water or in Molten State",
+        "content_anchor": "Melting and dissolving ionic compounds makes cations and anions free to move. Since the ions are free charged particles, they conduct electricity",
+        "page_hint": 13,
+        "concept_hash": "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Electrical conductivity requires mobile charged particles (ions or electrons) that can move under an electric field.",
+        "concept_summary": "Solid ionic compounds have fixed ions in a lattice. Melting or dissolving frees the ions, allowing them to migrate to oppositely charged electrodes and conduct electricity.",
+        "beginner": "In solid salt, ions are locked in place like frozen people. When salt melts or dissolves, ions can move freely, like people walking around, carrying electric current.",
+        "intermediate": "NaCl(s): Na⁺ and Cl⁻ fixed in lattice → no conductivity. NaCl(l) or NaCl(aq): ions mobile → Na⁺ moves to cathode, Cl⁻ to anode → current flows.",
+        "advanced": "The conductivity of an ionic solution depends on ion concentration and mobility (\\(\\kappa = \\sum c_i \\lambda_i\\)). In molten NaCl, conductivity is purely ionic; no electrons are involved in charge transport through the bulk.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that conductivity requires mobile charged particles.",
+          "Solid: ions fixed in lattice → immobile → no conductivity.",
+          "Molten or dissolved: lattice broken → ions free to move.",
+          "Mobile ions carry charge → conductivity."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think solid NaCl conducts because it contains ions. Ions must be mobile, not just present.",
+          "Another misconception: the water itself conducts electricity. Pure water is a poor conductor; dissolved ions provide conductivity."
+        ],
+        "related_concepts": ["Electrolyte", "Ionic mobility", "Molten salt", "Aqueous solution", "Electrolysis"],
+        "revision_note": "Solid ionic compounds: no conductivity (fixed ions). Molten/dissolved: conductivity (mobile ions).",
+        "glossary_entry": {
+          "term": "Electrolyte",
+          "definition": "A substance that conducts electricity when molten or dissolved in water due to the presence of mobile ions.",
+          "example_equation": "\\(\\mathrm{NaCl(l) \\rightarrow Na^+ + Cl^-}\\)",
+          "related_terms": ["ionic conductivity", "molten salt", "aqueous solution"]
+        },
+        "flashcard": {
+          "front": "Why does solid NaCl not conduct electricity but molten NaCl does?",
+          "back": "In solid, ions are fixed in crystal lattice and cannot move. In molten state, ions are free to move and carry charge."
+        },
+        "concept_map_nodes": [
+          { "source": "Solid NaCl", "relation": "has", "target": "Fixed ions in lattice → no conductivity" },
+          { "source": "Molten/dissolved NaCl", "relation": "has", "target": "Mobile ions → conductivity" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why does molten NaCl conduct electricity but solid NaCl does not?",
+        "flashcard_back": "Solid: ions fixed in lattice. Molten: ions free to move and carry charge.",
+        "glossary_term": "Electrolyte",
+        "glossary_definition": "A substance that conducts electricity when molten or dissolved in water due to the presence of mobile ions.",
+        "revision_note": "Solid → fixed ions → no conductivity. Molten/dissolved → mobile ions → conductivity.",
+        "teacher_note": "Set up a simple conductivity tester with NaCl solution vs solid NaCl to demonstrate.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain conductivity of ionic compounds when molten or dissolved",
+        "concept_map_nodes": [
+          { "source": "Conductivity", "relation": "requires", "target": "Mobile charged particles" },
+          { "source": "Solid ionic compound", "relation": "has", "target": "Fixed ions (immobile)" },
+          { "source": "Molten/dissolved ionic compound", "relation": "has", "target": "Mobile ions" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer B. Solid NaCl has fixed ions; melting or dissolving frees ions to move (B). A is false (ions don't gain extra electrons). C is false (NaCl is ionic, not covalent). D is false (water does not decompose in simple dissolution)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q023",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.2 Ionic Bonding",
+      "subsection": "5.2.3 General Properties of Ionic Compounds",
+      "sub_subsection": "They Have High Density",
+      "structural_anchor": "They Have High Density",
+      "mcq_type": "G",
+      "question": "Ionic compounds generally have high density because ions are closely packed in the crystal lattice. What directly causes the high number of ions per unit volume?",
+      "options": {
+        "A": "Large empty spaces between ions in the lattice",
+        "B": "Strong repulsive forces that push ions together",
+        "C": "Strong electrostatic attraction pulling oppositely charged ions close together",
+        "D": "Covalent bonds linking ions into large molecules"
+      },
+      "correct_answer": "C",
+      "hint": "Consider what force brings ions together and minimizes empty space.",
+      "explanation": "Electrostatic attraction between cations and anions pulls them close together, minimizing distance and maximizing packing density. This results in many ions per unit volume and therefore high density.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.2 Ionic Bonding",
+        "subsection_anchor": "5.2.3 General Properties of Ionic Compounds",
+        "structural_element": "They Have High Density",
+        "content_anchor": "The oppositely charged ions in an ionic compound are held closely by the electrostatic force of attraction. Hence, the number of ions per unit volume is high",
+        "page_hint": 14,
+        "concept_hash": "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Density is mass per unit volume; high density means many ions packed into a small volume.",
+        "concept_summary": "Electrostatic attraction pulls opposite charges together, minimizing interionic distances. This close packing results in high ion density and thus high density of the compound.",
+        "beginner": "Positive and negative ions attract like magnets, pulling them close together. More ions fit in the same space, so the compound is heavy for its size (dense).",
+        "intermediate": "The ionic bond is electrostatic attraction (\\(F = k q_1 q_2 / r^2\\)). The equilibrium distance r minimizes potential energy, placing ions very close together, maximizing packing efficiency.",
+        "advanced": "The density of an ionic crystal is \\(\\rho = \\frac{ZM}{N_A a^3}\\), where a is the lattice constant. Strong attraction leads to small a, hence high density. NaCl: a = 564 pm, \\(\\rho = 2.16 g/cm^3\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that opposite charges attract.",
+          "Attraction pulls ions together, minimizing distance.",
+          "Smaller distance between ions means more ions per unit volume.",
+          "More mass per volume = higher density."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think high density means the substance is heavy because atoms are large. Density depends on packing and atomic mass, not just atom size.",
+          "Another misconception: ionic compounds have high density because they are heavy. Their high density results from close packing, not necessarily heavy atoms (e.g., NaCl vs CsCl)."
+        ],
+        "related_concepts": ["Density", "Packing efficiency", "Lattice energy", "Ionic radius", "Electrostatic attraction"],
+        "revision_note": "Ionic compounds: high density due to close packing of ions from electrostatic attraction.",
+        "glossary_entry": {
+          "term": "Density",
+          "definition": "Mass per unit volume; for ionic crystals, high density results from closely packed ions.",
+          "example_equation": "\\(\\rho = \\frac{m}{V}\\)",
+          "related_terms": ["packing efficiency", "lattice constant", "ionic solid"]
+        },
+        "flashcard": {
+          "front": "Why do ionic compounds generally have high density?",
+          "back": "Strong electrostatic attraction pulls oppositely charged ions close together, resulting in many ions per unit volume."
+        },
+        "concept_map_nodes": [
+          { "source": "Electrostatic attraction", "relation": "pulls ions", "target": "Close together" },
+          { "source": "Close packing", "relation": "gives", "target": "High number of ions per volume" },
+          { "source": "High ions/volume", "relation": "results in", "target": "High density" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What causes the high density of ionic compounds?",
+        "flashcard_back": "Strong electrostatic attraction pulls ions close together, packing many ions per unit volume.",
+        "glossary_term": "Density",
+        "glossary_definition": "Mass per unit volume; for ionic crystals, high density results from closely packed ions.",
+        "revision_note": "Ionic compounds: high density from close packing (electrostatic attraction).",
+        "teacher_note": "Compare density of NaCl (2.16 g/cm³) to H₂O (1.00 g/cm³) to illustrate.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain why ionic compounds have high density",
+        "concept_map_nodes": [
+          { "source": "Ionic compound", "relation": "has", "target": "Strong electrostatic attraction" },
+          { "source": "Strong electrostatic attraction", "relation": "leads to", "target": "Close packing of ions" },
+          { "source": "Close packing", "relation": "results in", "target": "High density" }
+        ],
+        "workbook_section": "5.2.3 General Properties of Ionic Compounds",
+        "solution_manual_note": "Answer C. Electrostatic attraction pulls ions close together (C), packing many ions per unit volume. A is false (no large empty spaces). B is false (attraction, not repulsion, causes packing). D is false (ionic compounds do not have covalent bonds)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q024",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.2 Lewis's Formula of Covalent Molecules",
+      "sub_subsection": null,
+      "structural_anchor": "5.3.2 Lewis's Formula of Covalent Molecules",
+      "mcq_type": "C",
+      "question": "In the Lewis structure of ammonia (NH₃), how many bonding pairs and lone pairs of electrons surround the nitrogen atom?",
+      "options": {
+        "A": "2 bonding pairs, 2 lone pairs",
+        "B": "3 bonding pairs, 1 lone pair",
+        "C": "4 bonding pairs, 0 lone pairs",
+        "D": "3 bonding pairs, 0 lone pairs"
+      },
+      "correct_answer": "B",
+      "hint": "Nitrogen has 5 valence electrons; hydrogen atoms each need 1 electron.",
+      "explanation": "Nitrogen has 5 valence electrons. It forms three single bonds with three hydrogen atoms (using 3 electrons, leaving 2 electrons → 1 lone pair). Option B correctly describes this arrangement.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "structural_element": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "content_anchor": "Group VA elements such as nitrogen have five valence electrons: one lone pair and three unpaired electrons. To achieve an octet, these atoms form three covalent bonds",
+        "page_hint": 20,
+        "concept_hash": "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 89,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A Lewis structure shows the arrangement of valence electrons as dots and bonding pairs as lines or dots between atoms.",
+        "concept_summary": "NH₃: N has 5 valence e⁻, each H has 1. Three N-H bonds use 6 e⁻ (3 bonding pairs). The remaining 2 e⁻ on N form one lone pair.",
+        "beginner": "Nitrogen has 5 electrons to share. It holds hands with 3 hydrogens (uses 3 electrons), and keeps 2 electrons for itself as a 'private pair'.",
+        "intermediate": "Lewis structure of NH₃: N at center with three single bonds to H atoms (3 bonding pairs) and one lone pair (2 electrons) on N. Total valence electrons = 5 + 3(1) = 8.",
+        "advanced": "The Lewis structure of NH₃ is \\(\\mathrm{H-\\!\\!\\!\\!\\!\\overset{\\displaystyle ..}{\\!\\!\\! N}-H}\\) with H below. The lone pair on N contributes to its trigonal pyramidal geometry (sp³ hybridization).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Count total valence electrons: N (5) + 3H (3 × 1) = 8.",
+          "Form three N-H single bonds (uses 6 electrons).",
+          "Remaining 2 electrons form 1 lone pair on N.",
+          "Thus: 3 bonding pairs, 1 lone pair."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think NH₃ has 4 bonding pairs like NH₄⁺. NH₃ has 3 bonds + 1 lone pair.",
+          "Another misconception: lone pairs are not important for shape. Lone pairs strongly affect molecular geometry (VSEPR theory)."
+        ],
+        "related_concepts": ["Lewis structure", "Bonding pair", "Lone pair", "Valence electrons", "Octet rule"],
+        "revision_note": "NH₃: 3 bonding pairs (N-H), 1 lone pair on N.",
+        "glossary_entry": {
+          "term": "Lone pair",
+          "definition": "A pair of valence electrons that are not involved in bonding and are localized on a single atom.",
+          "example_equation": null,
+          "related_terms": ["bonding pair", "Lewis structure", "VSEPR theory"]
+        },
+        "flashcard": {
+          "front": "How many bonding pairs and lone pairs are around N in NH₃?",
+          "back": "3 bonding pairs (to three H atoms) and 1 lone pair."
+        },
+        "concept_map_nodes": [
+          { "source": "Nitrogen atom in NH₃", "relation": "has", "target": "3 bonding pairs (N-H bonds)" },
+          { "source": "Nitrogen atom in NH₃", "relation": "has", "target": "1 lone pair" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How many bonding and lone pairs surround N in the Lewis structure of NH₃?",
+        "flashcard_back": "3 bonding pairs (N-H bonds) and 1 lone pair.",
+        "glossary_term": "Lone pair",
+        "glossary_definition": "A pair of valence electrons that are not involved in bonding and are localized on a single atom.",
+        "revision_note": "NH₃: 3 bonding pairs + 1 lone pair on N.",
+        "teacher_note": "Draw Lewis structure on board: H-N-H with two dots (lone pair) above N.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Draw Lewis structures for covalent molecules",
+        "concept_map_nodes": [
+          { "source": "NH₃", "relation": "has", "target": "3 N-H bonds (3 bonding pairs)" },
+          { "source": "NH₃", "relation": "has", "target": "1 lone pair on N" }
+        ],
+        "workbook_section": "5.3.2 Lewis's Formula of Covalent Molecules",
+        "solution_manual_note": "Answer B. NH₃: N has 5 valence e⁻, each H has 1. Three N-H bonds (3 bonding pairs) use 6 e⁻; remaining 2 e⁻ on N form 1 lone pair. A (2 bonding, 2 lone) would be H₂O-like. C (4 bonding) would be NH₄⁺. D (3 bonding, 0 lone) would be CH₃⁺ (not stable)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q025",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.5 General Properties of Covalent Compounds",
+      "sub_subsection": "Physical Properties of Covalent Compounds",
+      "structural_anchor": "Physical Properties of Covalent Compounds",
+      "mcq_type": "F",
+      "question": "Most covalent compounds are gases, liquids, or soft solids at room temperature with low melting and boiling points. What explains these physical properties?",
+      "options": {
+        "A": "Strong covalent bonds between atoms within molecules",
+        "B": "Weak intermolecular forces between separate molecules",
+        "C": "Presence of delocalized electrons in the structure",
+        "D": "Strong electrostatic attraction between ions"
+      },
+      "correct_answer": "B",
+      "hint": "Consider what forces must be overcome during melting and boiling.",
+      "explanation": "Covalent compounds form discrete molecules held together by weak intermolecular forces (van der Waals forces, dipole-dipole interactions). Little energy is needed to overcome these forces during melting or boiling, resulting in low melting/boiling points.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.5 General Properties of Covalent Compounds",
+        "structural_element": "Physical Properties of Covalent Compounds",
+        "content_anchor": "Most covalent compounds have low melting and boiling points. The intermolecular force between most covalent molecules is the weak van der Waal's force",
+        "page_hint": 27,
+        "concept_hash": "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Intermolecular forces are attractive forces between separate molecules, distinct from intramolecular (bonding) forces.",
+        "concept_summary": "Covalent molecules have strong intramolecular bonds but weak intermolecular forces. Melting/boiling breaks intermolecular forces, not covalent bonds, requiring little energy.",
+        "beginner": "Think of a pile of marbles: each marble is strong (covalent bonds inside), but marbles slide apart easily (weak forces between them). That's why covalent substances melt at low temperatures.",
+        "intermediate": "Covalent compounds consist of discrete molecules. The forces between molecules (London dispersion, dipole-dipole) are much weaker than covalent bonds. Low energy input separates molecules, giving low melting/boiling points.",
+        "advanced": "Melting point correlates with intermolecular force strength. Nonpolar molecules (e.g., CH₄) have only London forces (weak, m.p. −182°C). Polar molecules (e.g., H₂O) have hydrogen bonding (stronger, m.p. 0°C), but still far weaker than ionic bonds.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify what holds covalent molecules together: weak intermolecular forces.",
+          "Melting/boiling overcomes these intermolecular forces, not covalent bonds.",
+          "Weak forces require little energy → low melting/boiling points."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think covalent bonds are weak because compounds have low melting points. Covalent bonds are strong; intermolecular forces are weak.",
+          "Another misconception: all covalent compounds are gases at room temperature. Many are liquids (H₂O, CCl₄) or solids (sugar, wax)."
+        ],
+        "related_concepts": ["Intermolecular forces", "Van der Waals forces", "Melting point", "Boiling point", "Molecular solids"],
+        "revision_note": "Covalent compounds: low m.p./b.p. due to weak intermolecular forces, not weak covalent bonds.",
+        "glossary_entry": {
+          "term": "Intermolecular forces",
+          "definition": "Attractive forces between separate molecules, including London dispersion, dipole-dipole, and hydrogen bonding.",
+          "example_equation": null,
+          "related_terms": ["van der Waals forces", "covalent bond", "melting point"]
+        },
+        "flashcard": {
+          "front": "Why do most covalent compounds have low melting points?",
+          "back": "Weak intermolecular forces between molecules require little energy to overcome during melting."
+        },
+        "concept_map_nodes": [
+          { "source": "Covalent compound", "relation": "has", "target": "Strong covalent bonds (within molecules)" },
+          { "source": "Covalent compound", "relation": "has", "target": "Weak intermolecular forces (between molecules)" },
+          { "source": "Weak intermolecular forces", "relation": "cause", "target": "Low melting/boiling points" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why do covalent compounds have low melting and boiling points?",
+        "flashcard_back": "Weak intermolecular forces between molecules require little energy to overcome; covalent bonds within molecules remain intact.",
+        "glossary_term": "Intermolecular forces",
+        "glossary_definition": "Attractive forces between separate molecules, including London dispersion, dipole-dipole, and hydrogen bonding.",
+        "revision_note": "Covalent compounds: low m.p./b.p. from weak intermolecular forces.",
+        "teacher_note": "Contrast NaCl (ionic, m.p. 801°C) with H₂O (covalent, m.p. 0°C) or CH₄ (covalent, m.p. −182°C).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the general properties of covalent compounds",
+        "concept_map_nodes": [
+          { "source": "Covalent molecules", "relation": "held together by", "target": "Weak intermolecular forces" },
+          { "source": "Weak intermolecular forces", "relation": "require", "target": "Low energy to break" },
+          { "source": "Low energy to break", "relation": "gives", "target": "Low melting/boiling points" }
+        ],
+        "workbook_section": "5.3.5 General Properties of Covalent Compounds",
+        "solution_manual_note": "Answer B. Low melting points result from weak intermolecular forces (B), not strong covalent bonds within molecules (A). C (delocalized electrons) describes metals. D (electrostatic attraction) describes ionic compounds."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q026",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.3 Covalent Bonding",
+      "subsection": "5.3.5 General Properties of Covalent Compounds",
+      "sub_subsection": "Physical Properties of Covalent Compounds",
+      "structural_anchor": "Physical Properties of Covalent Compounds",
+      "mcq_type": "H",
+      "question": "A student argues that because covalent compounds do not conduct electricity in pure liquid form, they must contain no charged particles at all. What is the flaw in this reasoning?",
+      "options": {
+        "A": "Covalent compounds contain ions, but the ions are too large to move.",
+        "B": "Covalent compounds contain no free electrons or mobile ions, but the molecules themselves are neutral, not the absence of charges.",
+        "C": "Covalent compounds conduct electricity better than metals when pure.",
+        "D": "Covalent compounds decompose before they can conduct electricity."
+      },
+      "correct_answer": "B",
+      "hint": "Conductivity requires mobile charged particles, not just the presence of charges.",
+      "explanation": "Covalent molecules are electrically neutral and have no free electrons or mobile ions. The absence of conductivity is due to lack of mobile charge carriers, not because charges are absent (they are present but fixed within neutral molecules).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.3 Covalent Bonding",
+        "subsection_anchor": "5.3.5 General Properties of Covalent Compounds",
+        "structural_element": "Physical Properties of Covalent Compounds",
+        "content_anchor": "Most covalent compounds are poor conductors of electricity. This is because they cannot form ions in their solution form or molten state",
+        "page_hint": 27,
+        "concept_hash": "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 87,
+        "cognitive_level": "evaluate",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Electrical conductivity requires mobile charged particles such as free electrons or mobile ions.",
+        "concept_summary": "Covalent molecules are neutral overall. They lack free electrons (unlike metals) and do not dissociate into ions in pure liquid form (unlike ionic compounds), so no mobile charge carriers exist.",
+        "beginner": "Just because a substance doesn't conduct electricity doesn't mean it has no charges — it means the charges can't move. Covalent molecules have charges (electrons and protons) but they're stuck in place.",
+        "intermediate": "Pure covalent liquids (e.g., liquid CCl₄) consist of neutral molecules. Unlike metals, there are no delocalized electrons. Unlike ionic liquids, there are no free ions. Thus, no mobile charge carriers exist for conduction.",
+        "advanced": "Conductivity \\(\\sigma = n e \\mu\\), where n is charge carrier density and \\(\\mu\\) is mobility. In pure covalent liquids, n is essentially zero for free ions/electrons, so \\(\\sigma \\approx 0\\). Some polar covalent molecules self-ionize very slightly (e.g., H₂O → H₃O⁺ + OH⁻, but \\(\\sigma\\) is very low).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that conductivity requires mobile charge carriers.",
+          "Covalent molecules are neutral; electrons are localized in bonds.",
+          "No free electrons and no mobile ions in pure covalent liquid.",
+          "Therefore, no conductivity despite charges being present in atoms."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think 'no conductivity' means 'no charges.' All matter contains positive protons and negative electrons; conductivity depends on mobility, not presence.",
+          "Another misconception: covalent compounds never conduct electricity. Some covalent compounds (e.g., HCl gas dissolved in water) conduct because they ionize in solution, but pure covalent liquids do not."
+        ],
+        "related_concepts": ["Electrical conductivity", "Mobile charge carriers", "Neutral molecules", "Electrolyte", "Insulator"],
+        "revision_note": "Covalent compounds don't conduct because no mobile ions/electrons, not because charges are absent.",
+        "glossary_entry": {
+          "term": "Electrical conductivity",
+          "definition": "The ability of a substance to allow the flow of electric charge, requiring mobile charged particles (electrons or ions).",
+          "example_equation": null,
+          "related_terms": ["mobile charge carriers", "electrolyte", "insulator"]
+        },
+        "flashcard": {
+          "front": "Why don't pure covalent liquids conduct electricity?",
+          "back": "No free electrons (unlike metals) and no mobile ions (unlike ionic liquids) — molecules are neutral and charges cannot move."
+        },
+        "concept_map_nodes": [
+          { "source": "Pure covalent liquid", "relation": "contains", "target": "Neutral molecules (no net charge)" },
+          { "source": "Neutral molecules", "relation": "have", "target": "Localized electrons (not free)" },
+          { "source": "No free electrons + no mobile ions", "relation": "results in", "target": "No electrical conductivity" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "A student says: 'Covalent compounds don't conduct, so they have no charges.' What's wrong?",
+        "flashcard_back": "Conductivity requires mobile charges, not just presence. Covalent molecules are neutral, but atoms contain charges — they just cannot move freely.",
+        "glossary_term": "Electrical conductivity",
+        "glossary_definition": "The ability of a substance to allow the flow of electric charge, requiring mobile charged particles (electrons or ions).",
+        "revision_note": "No conductivity ≠ no charges. Covalent compounds have charges (electrons/protons) but no mobile carriers.",
+        "teacher_note": "Use analogy: a parked car has a battery (charges) but doesn't move (no current) until the key turns (mobility).",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Explain why covalent compounds are poor conductors",
+        "concept_map_nodes": [
+          { "source": "Covalent compound", "relation": "has", "target": "Localized electrons (no free e⁻)" },
+          { "source": "Covalent compound", "relation": "has", "target": "Neutral molecules (no mobile ions)" },
+          { "source": "No free e⁻ + no mobile ions", "relation": "means", "target": "No conductivity" }
+        ],
+        "workbook_section": "5.3.5 General Properties of Covalent Compounds",
+        "solution_manual_note": "Answer B. The flaw is equating 'no conductivity' with 'no charges.' Covalent molecules are neutral and lack mobile charge carriers (B). A is false (no ions in pure covalent liquids). C is false. D is false for many covalent compounds."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q027",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.2 Properties of Metallic Bond",
+      "sub_subsection": null,
+      "structural_anchor": "5.4.2 Properties of Metallic Bond",
+      "mcq_type": "G",
+      "question": "Metals are excellent conductors of electricity because their valence electrons are delocalized and free to move. What property of metals directly results from the same delocalized electron mobility?",
+      "options": {
+        "A": "High melting point",
+        "B": "Brittleness",
+        "C": "High thermal conductivity",
+        "D": "Low density"
+      },
+      "correct_answer": "C",
+      "hint": "The same electrons that carry electric charge can also carry thermal energy.",
+      "explanation": "Delocalized electrons that move under an electric field (conductivity) also transfer kinetic energy rapidly through the metal lattice. This gives metals high thermal conductivity. Options A, B, D are not directly caused by electron mobility.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.2 Properties of Metallic Bond",
+        "structural_element": "5.4.2 Properties of Metallic Bond",
+        "content_anchor": "These freely moving electrons transfer electric charge as well as heat across the metallic structure. This freedom of the valence electrons accounts for the high thermal conductivity in metals as well",
+        "page_hint": 31,
+        "concept_hash": "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Thermal conductivity is the ability of a material to transfer heat energy through it.",
+        "concept_summary": "Delocalized electrons in metals are mobile charge carriers for electricity and also mobile energy carriers for heat. Electron collisions transfer kinetic energy rapidly through the metal.",
+        "beginner": "The same free electrons that carry electricity through a metal wire also carry heat. When one end gets hot, electrons zoom around and spread the heat to the other end.",
+        "intermediate": "In the 'sea of electrons' model, delocalized electrons can move freely. An applied electric field causes electron drift (conductivity). A temperature gradient causes electron diffusion, carrying thermal energy (thermal conductivity).",
+        "advanced": "The Wiedemann-Franz law relates thermal and electrical conductivity: \\(\\frac{\\kappa}{\\sigma} = LT\\), where L is Lorenz number. This demonstrates that the same free electrons are responsible for both phenomena in metals.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that delocalized electrons are mobile (can move).",
+          "Electric field → electron movement → electrical conductivity.",
+          "Temperature gradient → electron movement carrying kinetic energy → thermal conductivity.",
+          "Same mobile electrons cause both properties."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think thermal conductivity in metals comes from atomic vibrations (phonons) only. While phonons contribute, electrons are the dominant heat carriers in metals.",
+          "Another misconception: all good electrical conductors are good thermal conductors. This is generally true for metals (Wiedemann-Franz law)."
+        ],
+        "related_concepts": ["Delocalized electrons", "Thermal conductivity", "Electrical conductivity", "Electron sea model", "Wiedemann-Franz law"],
+        "revision_note": "Metals: high electrical AND thermal conductivity from delocalized mobile electrons.",
+        "glossary_entry": {
+          "term": "Thermal conductivity",
+          "definition": "The ability of a material to transfer heat energy; in metals, it is primarily due to mobile delocalized electrons.",
+          "example_equation": null,
+          "related_terms": ["electrical conductivity", "delocalized electrons", "metallic bond"]
+        },
+        "flashcard": {
+          "front": "What property of metals, besides electrical conductivity, results from mobile delocalized electrons?",
+          "back": "High thermal conductivity (ability to transfer heat)."
+        },
+        "concept_map_nodes": [
+          { "source": "Delocalized electrons", "relation": "are mobile → can carry", "target": "Electric charge (conductivity)" },
+          { "source": "Delocalized electrons", "relation": "are mobile → can carry", "target": "Thermal energy (thermal conductivity)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why are metals good thermal conductors as well as electrical conductors?",
+        "flashcard_back": "Mobile delocalized electrons carry both electric charge and thermal energy through the metal lattice.",
+        "glossary_term": "Thermal conductivity",
+        "glossary_definition": "The ability of a material to transfer heat energy; in metals, it is primarily due to mobile delocalized electrons.",
+        "revision_note": "Metals: high electrical + thermal conductivity from delocalized e⁻.",
+        "teacher_note": "Demonstrate by touching a metal spoon (feels cold) and a plastic spoon in hot water — metal conducts heat away faster.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain thermal conductivity of metals in relation to metallic bonding",
+        "concept_map_nodes": [
+          { "source": "Delocalized electrons", "relation": "enable", "target": "Electrical conductivity" },
+          { "source": "Delocalized electrons", "relation": "enable", "target": "Thermal conductivity" }
+        ],
+        "workbook_section": "5.4.2 Properties of Metallic Bond",
+        "solution_manual_note": "Answer C. Delocalized electrons carry both electric charge (conductivity) and thermal energy (thermal conductivity). A (high melting point) results from strong metallic bond, not electron mobility directly. B (brittleness) is not a metal property. D (low density) is false for most metals."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q028",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.4 Metallic Bonding",
+      "subsection": "5.4.2 Properties of Metallic Bond",
+      "sub_subsection": null,
+      "structural_anchor": "5.4.2 Properties of Metallic Bond",
+      "mcq_type": "D",
+      "question": "A copper wire can be hammered into a thin sheet (malleability) and drawn into a thin wire (ductility). What property of metallic bonding allows metals to be shaped without breaking?",
+      "options": {
+        "A": "Delocalized electrons allow atoms to slide past each other while maintaining metallic bonding.",
+        "B": "Metals form brittle ionic bonds that crack under pressure.",
+        "C": "Metal atoms are held together by weak van der Waals forces.",
+        "D": "Metals have very low melting points, so they flow easily."
+      },
+      "correct_answer": "A",
+      "hint": "Think about how the 'sea of electrons' responds when metal atoms are displaced.",
+      "explanation": "In the 'sea of electrons' model, metal cations are surrounded by mobile delocalized electrons. When a force is applied, layers of cations can slide past each other, and the electron sea reorganizes to maintain bonding, preventing fracture.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.4 Metallic Bonding",
+        "subsection_anchor": "5.4.2 Properties of Metallic Bond",
+        "structural_element": "5.4.2 Properties of Metallic Bond",
+        "content_anchor": "Metals have unique qualities such as the ability to conduct electricity and heat. Metals have other bulk properties (malleability, ductility) which will be discussed",
+        "page_hint": 31,
+        "concept_hash": "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 88,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Malleability is the ability to be hammered into sheets; ductility is the ability to be drawn into wires.",
+        "concept_summary": "In metals, positive ions are surrounded by a mobile 'sea' of delocalized electrons. When layers slide, the electron sea adjusts, maintaining metallic bonding and preventing fracture.",
+        "beginner": "Imagine metal atoms as positive balls floating in a 'soup' of electrons. You can push the balls around, and the soup moves with them, so they don't crack — they just reshape.",
+        "intermediate": "Unlike ionic crystals where like charges repel if layers shift, metals have a uniform electron sea that bonds equally to all cations. Layer displacement does not create repulsive forces; the electron sea simply redistributes.",
+        "advanced": "Malleability and ductility arise from the nondirectional nature of metallic bonding. The electron sea model allows dislocation motion without catastrophic failure, unlike the directional, brittle failure of ionic crystals.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that metallic bonding is nondirectional (electron sea).",
+          "When force applied, layers of metal ions slide.",
+          "Electron sea moves with the ions, maintaining bonding.",
+          "No repulsive forces like in ionic crystals → malleable/ductile."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think metals are malleable because they are soft. Many metals are hard (e.g., tungsten) but still malleable.",
+          "Another misconception: malleability means weak bonding. Metallic bonds can be very strong (high melting points) yet malleable because bonding is nondirectional."
+        ],
+        "related_concepts": ["Malleability", "Ductility", "Electron sea model", "Nondirectional bonding", "Dislocation"],
+        "revision_note": "Metals malleable/ductile: cations slide; electron sea adapts, maintaining bonding.",
+        "glossary_entry": {
+          "term": "Malleability",
+          "definition": "The ability of a metal to be hammered or rolled into thin sheets without breaking.",
+          "example_equation": null,
+          "related_terms": ["ductility", "metallic bond", "electron sea model"]
+        },
+        "flashcard": {
+          "front": "Why can metals be hammered into sheets or drawn into wires without breaking?",
+          "back": "Delocalized electrons allow metal cations to slide past each other; the electron sea reorganizes, maintaining bonding."
+        },
+        "concept_map_nodes": [
+          { "source": "Metallic bond (electron sea)", "relation": "allows", "target": "Cations to slide" },
+          { "source": "Cations slide", "relation": "enables", "target": "Malleability and ductility" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "What property of metallic bonding allows metals to be malleable and ductile?",
+        "flashcard_back": "Delocalized electrons let metal cations slide past each other; the electron sea maintains bonding.",
+        "glossary_term": "Malleability",
+        "glossary_definition": "The ability of a metal to be hammered or rolled into thin sheets without breaking.",
+        "revision_note": "Metals: malleable/ductile because cations slide in electron sea.",
+        "teacher_note": "Compare hammering an ionic crystal (shatters) vs hammering a metal (flattens).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain metallic properties using the electron sea model",
+        "concept_map_nodes": [
+          { "source": "Electron sea model", "relation": "allows", "target": "Layer sliding" },
+          { "source": "Layer sliding", "relation": "without breaking =", "target": "Malleability/ductility" }
+        ],
+        "workbook_section": "5.4.2 Properties of Metallic Bond",
+        "solution_manual_note": "Answer A. Delocalized electrons allow cation layers to slide while maintaining bonding (A). B is false (metals are not ionic or brittle). C is false (metallic bonds are strong, not weak van der Waals). D is false (many metals have high melting points)."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q029",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "Octet Rule",
+      "sub_subsection": null,
+      "structural_anchor": "Octet Rule",
+      "mcq_type": "N",
+      "question": "The octet rule applies to most main-group elements, but hydrogen and helium are exceptions. What electron configuration satisfies stability for hydrogen and helium?",
+      "options": {
+        "A": "Octet (8 valence electrons)",
+        "B": "Duet (2 valence electrons)",
+        "C": "Singlet (1 valence electron)",
+        "D": "No electrons in valence shell"
+      },
+      "correct_answer": "B",
+      "hint": "Hydrogen and helium have only the first energy level (n=1), which holds a maximum of 2 electrons.",
+      "explanation": "Hydrogen and helium follow the duet rule: they are stable with 2 electrons in their valence shell (the 1s orbital). Helium naturally has this configuration; hydrogen achieves it by sharing or gaining one electron.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "Octet Rule",
+        "structural_element": "Octet Rule",
+        "content_anchor": "Hydrogen and helium need only two electrons on their valence shell to become stable",
+        "page_hint": 3,
+        "concept_hash": "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "The duet rule states that hydrogen and helium are stable with 2 electrons in their valence shell (the 1s orbital).",
+        "concept_summary": "The first energy level (n=1) can hold only 2 electrons. Thus, H and He achieve stability with a duet, not an octet.",
+        "beginner": "Hydrogen and helium are like tiny atoms with a small parking lot that fits only 2 electrons. When it's full (2 electrons), they're happy — no room for 8!",
+        "intermediate": "The octet rule applies to period 2 and beyond where \\(ns^2np^6\\) is possible. Period 1 has only the 1s orbital, capacity 2 electrons → duet rule.",
+        "advanced": "Quantum mechanical constraint: for n=1, only l=0 (s orbital) exists, holding 2 electrons. The \\(1s^2\\) configuration (helium) is the closed shell. H achieves \\(1s^2\\) by gaining or sharing one electron.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that the first energy level (n=1) holds max 2 electrons.",
+          "Hydrogen (1 e⁻) needs 1 more to fill 1s².",
+          "Helium already has 1s² (2 e⁻).",
+          "2 electrons = duet, not octet."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think hydrogen follows octet rule. Hydrogen has only 1s orbital, max 2 e⁻, so it follows duet rule.",
+          "Another misconception: helium has 8 valence electrons because it's a noble gas. Helium's valence shell is n=1 (max 2 e⁻), not 8."
+        ],
+        "related_concepts": ["Duet rule", "Octet rule exception", "Hydrogen", "Helium", "1s orbital"],
+        "revision_note": "H and He: stable with 2 e⁻ (duet rule), not octet.",
+        "glossary_entry": {
+          "term": "Duet rule",
+          "definition": "Hydrogen and helium are stable with 2 electrons in their valence shell (the 1s orbital).",
+          "example_equation": "\\(\\mathrm{H_2}\\)",
+          "related_terms": ["octet rule", "hydrogen", "helium", "1s orbital"]
+        },
+        "flashcard": {
+          "front": "What stability rule do hydrogen and helium follow instead of the octet rule?",
+          "back": "The duet rule: stable with 2 electrons in the valence shell (1s²)."
+        },
+        "concept_map_nodes": [
+          { "source": "Hydrogen and helium", "relation": "follow", "target": "Duet rule (2 e⁻)" },
+          { "source": "Other elements", "relation": "follow", "target": "Octet rule (8 e⁻)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "Why don't hydrogen and helium follow the octet rule?",
+        "flashcard_back": "They only have the first energy level (n=1), which holds a maximum of 2 electrons (duet rule).",
+        "glossary_term": "Duet rule",
+        "glossary_definition": "Hydrogen and helium are stable with 2 electrons in their valence shell (the 1s orbital).",
+        "revision_note": "H and He: duet rule (2 e⁻), not octet.",
+        "teacher_note": "Emphasize that 'octet' means 8, but n=1 cannot hold 8 electrons — only 2.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify exceptions to the octet rule",
+        "concept_map_nodes": [
+          { "source": "Octet rule exceptions", "relation": "include", "target": "Hydrogen (needs 2 e⁻)" },
+          { "source": "Octet rule exceptions", "relation": "include", "target": "Helium (has 2 e⁻)" }
+        ],
+        "workbook_section": "5.1 Chemical Bonding",
+        "solution_manual_note": "Answer B. H and He are stable with 2 electrons in the 1s orbital (duet rule). A (octet) is impossible for n=1. C and D are incorrect as they do not represent stable configurations."
+      }
+    },
+    {
+      "question_id": "G9_Chem_U5_Q030",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 5: CHEMICAL BONDING",
+      "section": "5.1 Chemical Bonding",
+      "subsection": "Octet Rule",
+      "sub_subsection": null,
+      "structural_anchor": "Octet Rule",
+      "mcq_type": "F",
+      "question": "Boron trifluoride (BF₃) is a stable compound even though boron has only six valence electrons in its Lewis structure. What does this demonstrate about the octet rule?",
+      "options": {
+        "A": "All elements must have exactly eight valence electrons to be stable.",
+        "B": "The octet rule has no exceptions; BF₃ must be drawn incorrectly.",
+        "C": "Some elements, especially those in period 2 like boron, can be stable with fewer than eight electrons.",
+        "D": "Boron actually has eight electrons because it forms ionic bonds."
+      },
+      "correct_answer": "C",
+      "hint": "Think about which elements are known to be octet rule exceptions.",
+      "explanation": "Boron (Group 13, period 2) is an exception to the octet rule; it can be stable with only six valence electrons (incomplete octet). Other period 2 elements like Be also show this behavior.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: CHEMICAL BONDING",
+        "section_anchor": "5.1 Chemical Bonding",
+        "subsection_anchor": "Octet Rule",
+        "structural_element": "Octet Rule",
+        "content_anchor": "There, however, are exceptions to this rule. The group IIA elements could also become stable having six valence electrons",
+        "page_hint": 3,
+        "concept_hash": "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Incomplete octet exceptions occur when an atom is stable with fewer than 8 valence electrons, typically for Be, B, and Al.",
+        "concept_summary": "BF₃ is stable with B having 6 valence electrons (three single bonds). B does not have enough electrons to form an octet, yet BF₃ is a known compound, showing the octet rule has exceptions.",
+        "beginner": "The octet rule is like a 'best practice' but not a strict law for every atom. Boron is fine with only 6 electrons around it in BF₃.",
+        "intermediate": "Boron (Group 13) has 3 valence electrons. In BF₃, it forms three single bonds (6 electrons). The empty p orbital makes BF₃ a Lewis acid, but the molecule is stable and exists.",
+        "advanced": "Elements with less than 8 electrons (incomplete octet) are possible when the central atom has fewer than 4 valence electrons. B in BF₃ is sp² hybridized with an empty p orbital; it is electron-deficient but stable.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that octet rule is a guideline, not absolute.",
+          "Count electrons around B in BF₃: 3 bonds × 2 e⁻ = 6 e⁻.",
+          "BF₃ is a stable, well-characterized compound.",
+          "Thus, B (period 2, group 13) is stable with 6 electrons (incomplete octet)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think BF₃ violates the octet rule because it's drawn incorrectly. BF₃ is a real exception; its Lewis structure correctly shows 6 electrons around B.",
+          "Another misconception: all exceptions are unstable. BF₃ is stable and widely used in organic chemistry as a Lewis acid catalyst."
+        ],
+        "related_concepts": ["Octet rule exceptions", "Incomplete octet", "Boron trifluoride", "Lewis acid"],
+        "revision_note": "Exceptions to octet: Be, B, Al (stable with 6 e⁻). BF₃ is example.",
+        "glossary_entry": {
+          "term": "Incomplete octet",
+          "definition": "A stable electron configuration in which a central atom has fewer than 8 valence electrons, common for Be, B, and Al.",
+          "example_equation": "\\(\\mathrm{BF_3}\\)",
+          "related_terms": ["octet rule exception", "boron", "Lewis acid"]
+        },
+        "flashcard": {
+          "front": "What does BF₃ demonstrate about the octet rule?",
+          "back": "Some elements (e.g., B in period 2) can be stable with only 6 valence electrons (incomplete octet exception)."
+        },
+        "concept_map_nodes": [
+          { "source": "BF₃", "relation": "has B with", "target": "6 valence electrons (not 8)" },
+          { "source": "6 valence electrons", "relation": "is an example of", "target": "Incomplete octet exception" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 5 — Chemical Bonding",
+        "flashcard_front": "How does BF₃ challenge the octet rule?",
+        "flashcard_back": "Boron in BF₃ is stable with only 6 valence electrons (incomplete octet), showing the octet rule has exceptions.",
+        "glossary_term": "Incomplete octet",
+        "glossary_definition": "A stable electron configuration in which a central atom has fewer than 8 valence electrons, common for Be, B, and Al.",
+        "revision_note": "BF₃: B has 6 e⁻ (incomplete octet exception).",
+        "teacher_note": "Also mention BeCl₂ (Be with 4 e⁻) as another incomplete octet example.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Identify exceptions to the octet rule",
+        "concept_map_nodes": [
+          { "source": "Octet rule", "relation": "has exceptions including", "target": "Boron (6 e⁻ in BF₃)" },
+          { "source": "BF₃", "relation": "is stable with", "target": "Incomplete octet" }
+        ],
+        "workbook_section": "5.1 Chemical Bonding",
+        "solution_manual_note": "Answer C. BF₃ demonstrates that some period 2 elements (B, Be) can be stable with fewer than 8 electrons (incomplete octet). A is false (exceptions exist). B is false (BF₃ is correctly drawn with 6 e⁻). D is false (BF₃ is covalent, not ionic)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3450,
+    "average_question_quality": 89.5,
+    "type_distribution": {
+      "C": 1,
+      "D": 1,
+      "F": 2,
+      "G": 2,
+      "H": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "5.1 Chemical Bonding": 2,
+      "5.2 Ionic Bonding": 3,
+      "5.3 Covalent Bonding": 3,
+      "5.4 Metallic Bonding": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 38,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,2304 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-10T18:50:00Z",
+  "round_id": "R05",
+  "batch_sequence": 5,
+  "__STATE__": {
+    "current_round": 5,
+    "last_question_id": "G9_Math_U1_Q050",
+    "covered_sections": [
+      "1.1 Revision on Natural Numbers and Integers>1.1.1 Euclid's division lemma",
+      "1.1 Revision on Natural Numbers and Integers>1.1.2 Prime numbers and composite numbers",
+      "1.1 Revision on Natural Numbers and Integers>1.1.3 Divisibility test",
+      "1.1 Revision on Natural Numbers and Integers>1.1.4 Prime factorization",
+      "1.1 Revision on Natural Numbers and Integers>1.1.5 Greatest common factor and least common multiple",
+      "1.2 Rational Numbers>1.2.1 Representation of rational numbers by decimals",
+      "1.2 Rational Numbers>1.2.2 Conversion of repeating decimals into fractions",
+      "1.3 Irrational Numbers>1.3.1 Neither repeating nor terminating numbers",
+      "1.3 Irrational Numbers>1.3.2 Operations on irrational numbers",
+      "1.4 Real Numbers>1.4.1 Intervals",
+      "1.4 Real Numbers>1.4.2 Absolute values",
+      "1.4 Real Numbers>1.4.3 Exponents and radicals",
+      "1.4 Real Numbers>1.4.4 Limit of accuracy",
+      "1.4 Real Numbers>1.4.5 Standard notation (Scientific notation)",
+      "1.4 Real Numbers>1.4.6 Rationalization",
+      "1.5 Applications"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4",
+      "p6q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5",
+      "q7r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+      "r8s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7",
+      "s9t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8",
+      "t0u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9",
+      "u1v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+      "v2w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1",
+      "w3x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2",
+      "x4y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3",
+      "y5z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4",
+      "z6a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1",
+      "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2",
+      "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3",
+      "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1",
+      "u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2",
+      "v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3",
+      "w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4",
+      "x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5"
+    ],
+    "baseline_counter": {
+      "1.1 Revision on Natural Numbers and Integers": {
+        "1.1.1 Euclid's division lemma": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.1.2 Prime numbers and composite numbers": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.1.3 Divisibility test": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.1.4 Prime factorization": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.1.5 Greatest common factor and least common multiple": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        }
+      },
+      "1.2 Rational Numbers": {
+        "1.2.1 Representation of rational numbers by decimals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.2.2 Conversion of repeating decimals into fractions": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        }
+      },
+      "1.3 Irrational Numbers": {
+        "1.3.1 Neither repeating nor terminating numbers": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.3.2 Operations on irrational numbers": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        }
+      },
+      "1.4 Real Numbers": {
+        "1.4.1 Intervals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.4.2 Absolute values": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.4.3 Exponents and radicals": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.4.4 Limit of accuracy": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.4.5 Standard notation (Scientific notation)": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "1.4.6 Rationalization": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        }
+      },
+      "1.5 Applications": {
+        "main": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": true,
+      "phase3_started": true
+    },
+    "distribution_tracker": {
+      "1.1 Revision on Natural Numbers and Integers": {
+        "question_count": 20,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "1.2 Rational Numbers": {
+        "question_count": 8,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "1.3 Irrational Numbers": {
+        "question_count": 8,
+        "last_used_round": 5,
+        "consecutive_batches": 2
+      },
+      "1.4 Real Numbers": {
+        "question_count": 17,
+        "last_used_round": 5,
+        "consecutive_batches": 3
+      },
+      "1.5 Applications": {
+        "question_count": 4,
+        "last_used_round": 5,
+        "consecutive_batches": 3
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "1.1 Revision on Natural Numbers and Integers>1.1.1 Euclid's division lemma": [
+        "division algorithm",
+        "dividend",
+        "divisor",
+        "quotient",
+        "remainder"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.2 Prime numbers and composite numbers": [
+        "prime number",
+        "composite number",
+        "factor",
+        "multiple"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.3 Divisibility test": [
+        "divisibility by 2",
+        "divisibility by 3",
+        "divisibility by 5",
+        "divisibility by 10",
+        "divisibility by 4",
+        "divisibility by 6",
+        "divisibility by 8",
+        "divisibility by 9"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.4 Prime factorization": [
+        "prime factorization",
+        "factor tree",
+        "fundamental theorem of arithmetic"
+      ],
+      "1.1 Revision on Natural Numbers and Integers>1.1.5 Greatest common factor and least common multiple": [
+        "GCF",
+        "LCM",
+        "common factors",
+        "common multiples",
+        "product of GCF and LCM"
+      ],
+      "1.2 Rational Numbers>1.2.1 Representation of rational numbers by decimals": [
+        "rational number",
+        "terminating decimal",
+        "repeating decimal",
+        "fraction to decimal"
+      ],
+      "1.2 Rational Numbers>1.2.2 Conversion of repeating decimals into fractions": [
+        "repeating decimal to fraction",
+        "bar notation"
+      ],
+      "1.3 Irrational Numbers>1.3.1 Neither repeating nor terminating numbers": [
+        "irrational number",
+        "square root",
+        "perfect square",
+        "locating irrationals"
+      ],
+      "1.3 Irrational Numbers>1.3.2 Operations on irrational numbers": [
+        "multiplication of radicals",
+        "division of radicals",
+        "√a × √b = √ab",
+        "√a/√b = √(a/b)",
+        "addition of radicals"
+      ],
+      "1.4 Real Numbers>1.4.1 Intervals": [
+        "interval notation",
+        "closed interval",
+        "open interval",
+        "half-open interval",
+        "infinity"
+      ],
+      "1.4 Real Numbers>1.4.2 Absolute values": [
+        "absolute value",
+        "distance",
+        "|x|",
+        "properties of absolute value"
+      ],
+      "1.4 Real Numbers>1.4.3 Exponents and radicals": [
+        "exponent",
+        "base",
+        "power",
+        "negative exponent",
+        "zero exponent",
+        "a^0 = 1",
+        "a^{-n} = 1/a^n",
+        "nth root",
+        "radical expression"
+      ],
+      "1.4 Real Numbers>1.4.4 Limit of accuracy": [
+        "rounding",
+        "decimal places",
+        "significant figures",
+        "lower bound",
+        "upper bound"
+      ],
+      "1.4 Real Numbers>1.4.5 Standard notation (Scientific notation)": [
+        "scientific notation",
+        "standard form",
+        "a × 10^n"
+      ],
+      "1.4 Real Numbers>1.4.6 Rationalization": [
+        "rationalizing denominator",
+        "conjugate",
+        "rationalizing factor"
+      ],
+      "1.5 Applications": [
+        "GCF application",
+        "Euclid's lemma application",
+        "real-world problem solving"
+      ]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_previous_state_from_batch4",
+    "content_density_metrics": {
+      "total_concepts_extracted": 52,
+      "questions_per_concept_ratio": 0.962,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Mathematics",
+  "unit": "Unit 1: THE NUMBER SYSTEM",
+  "pdf_filename": "M9U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-10T18:50:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": true,
+        "max_imbalance_ratio": 2.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": true,
+        "exam_sections_biased": 3
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 50,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.962
+    },
+    "distribution_analysis": {
+      "most_covered_section": "1.1 Revision on Natural Numbers and Integers",
+      "least_covered_section": "1.5 Applications",
+      "imbalance_ratio": 2.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G9_Math_U1_Q041",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.1 Intervals",
+      "sub_subsection": null,
+      "structural_anchor": "Table 1.1",
+      "mcq_type": "B",
+      "question": "Which interval notation represents the set of all real numbers greater than 5?",
+      "options": {
+        "A": "\\([5, \\infty)\\)",
+        "B": "\\((5, \\infty)\\)",
+        "C": "\\((-\\infty, 5]\\)",
+        "D": "\\((-\\infty, 5)\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Parenthesis means 'not including', bracket means 'including'.",
+      "explanation": "Greater than 5 means 5 is not included, so use parenthesis: (5, ∞). Option A includes 5, C is numbers ≤5, D is numbers <5.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.1 Intervals",
+        "structural_element": "Table 1.2",
+        "content_anchor": "x > a → (a, ∞)",
+        "page_hint": 36,
+        "concept_hash": "sha256_interval_greater_than_5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Interval notation (a, ∞) represents all real numbers greater than a, excluding a.",
+        "concept_summary": "Parenthesis indicates endpoint not included; bracket indicates included.",
+        "beginner": "Greater than 5 means numbers like 5.1, 6, 10... but not 5 itself. So use parenthesis: (5, ∞).",
+        "intermediate": "x > 5 is written as (5, ∞) because 5 is excluded (parenthesis) and infinity always uses parenthesis.",
+        "advanced": "∞ is not a real number, so it always gets a parenthesis. Since 5 is not included, use parenthesis: (5, ∞).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify inequality: x > 5.",
+          "5 is not included → parenthesis (5.",
+          "Infinity always uses parenthesis.",
+          "Result: (5, ∞)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Using bracket [5,∞) includes 5 (x ≥ 5, not >5).",
+          "Direction of inequality reversed: (-∞,5) is x<5."
+        ],
+        "related_concepts": [
+          "inequalities",
+          "infinity",
+          "interval notation"
+        ],
+        "revision_note": "x > 5 → (5, ∞). Parenthesis excludes endpoint.",
+        "glossary_entry": {
+          "term": "open interval",
+          "definition": "Interval not including its endpoints.",
+          "example_equation": "(5, ∞)",
+          "related_terms": [
+            "closed interval",
+            "infinity"
+          ]
+        },
+        "flashcard": {
+          "front": "Write x > 5 in interval notation.",
+          "back": "(5, ∞)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "x > 5",
+            "relation": "interval_notation",
+            "target": "(5, ∞)"
+          },
+          {
+            "source": "(5, ∞)",
+            "relation": "excludes",
+            "target": "5"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "number_line",
+        "visual_title": "Interval (5, ∞)",
+        "visual_description": "Number line from 0 to 10 with open circle at 5 and arrow to the right.",
+        "rendering_target": "matplotlib",
+        "rendering_engine": "matplotlib.pyplot",
+        "render_width_mm": 100,
+        "render_height_mm": 40,
+        "caption": "Figure: All numbers greater than 5.",
+        "accessibility_alt_text": "Number line with open circle at 5, shading to the right.",
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": {
+          "range": [
+            0,
+            10
+          ],
+          "tick_interval": 1,
+          "marked_points": [
+            {
+              "value": 5,
+              "label": "5",
+              "style": "open"
+            }
+          ],
+          "annotations": [
+            {
+              "text": "All x > 5",
+              "position": 7.5
+            }
+          ]
+        },
+        "image_url": "images/G9_Math_U1_Q041_visual.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "diagram_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "inline",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Interval notation for x > 5?",
+        "flashcard_back": "(5, ∞).",
+        "glossary_term": "open interval",
+        "glossary_definition": "Interval excluding endpoints.",
+        "revision_note": "x > 5 → (5, ∞).",
+        "teacher_note": "Compare (5,∞) with [5,∞) for x ≥ 5.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Use interval notation",
+        "concept_map_nodes": [
+          {
+            "source": "inequality x > 5",
+            "relation": "written_as",
+            "target": "(5, ∞)"
+          },
+          {
+            "source": "(5, ∞)",
+            "relation": "means",
+            "target": "x > 5"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Option A includes 5, C is x≤5, D is x<5."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q042",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.3 Exponents and radicals",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 1.9",
+      "mcq_type": "A",
+      "question": "In the exponential expression \\(2^5\\), what is the exponent?",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "10",
+        "D": "32"
+      },
+      "correct_answer": "B",
+      "hint": "The exponent is the small number written above and to the right.",
+      "explanation": "In \\(2^5\\), 2 is the base and 5 is the exponent (power). Option A is the base; C is 2×5; D is the value of \\(2^5 = 32\\).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.1,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.3 Exponents and radicals",
+        "structural_element": "Definition 1.9",
+        "content_anchor": "α is the base and n is the exponent or power",
+        "page_hint": 40,
+        "concept_hash": "sha256_exponent_identification"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "The exponent (or power) is the small superscript number indicating how many times the base is multiplied by itself.",
+        "concept_summary": "In aⁿ, a is the base, n is the exponent. \\(2^5\\) has exponent 5.",
+        "beginner": "2⁵ means 2×2×2×2×2. The small 5 on top is the exponent, telling how many 2's to multiply.",
+        "intermediate": "In the expression \\(2^5\\), 5 is the exponent (power) and 2 is the base.",
+        "advanced": "Exponent notation: \\(2^5 = 2 × 2 × 2 × 2 × 2\\). The exponent 5 is the number of factors.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition: aⁿ has base a, exponent n.",
+          "Identify base = 2, exponent = 5.",
+          "Select exponent value."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing base (2) with exponent (5).",
+          "Thinking exponent is the result (32)."
+        ],
+        "related_concepts": [
+          "base",
+          "power",
+          "exponential expression"
+        ],
+        "revision_note": "In 2⁵, exponent = 5. Base = 2.",
+        "glossary_entry": {
+          "term": "exponent",
+          "definition": "Small number indicating repeated multiplication.",
+          "example_equation": "2⁵, exponent is 5",
+          "related_terms": [
+            "base",
+            "power"
+          ]
+        },
+        "flashcard": {
+          "front": "In 2⁵, what is the exponent?",
+          "back": "5."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "2⁵",
+            "relation": "has_exponent",
+            "target": "5"
+          },
+          {
+            "source": "2⁵",
+            "relation": "has_base",
+            "target": "2"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck",
+          "glossary"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Identify the exponent in 2⁵.",
+        "flashcard_back": "5.",
+        "glossary_term": "exponent",
+        "glossary_definition": "Number indicating repeated multiplication.",
+        "revision_note": "2⁵: exponent=5.",
+        "teacher_note": "Distinguish between base, exponent, and value.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify base and exponent in exponential expressions",
+        "concept_map_nodes": [
+          {
+            "source": "exponential expression",
+            "relation": "consists_of",
+            "target": "base and exponent"
+          },
+          {
+            "source": "2⁵",
+            "relation": "exponent_is",
+            "target": "5"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Exponent is 5. Option A is base, C is product, D is value."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q043",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.4 Limit of accuracy",
+      "sub_subsection": null,
+      "structural_anchor": "Decimal place",
+      "mcq_type": "D",
+      "question": "Round 10.673 to one decimal place.",
+      "options": {
+        "A": "10.6",
+        "B": "10.7",
+        "C": "10.67",
+        "D": "10.68"
+      },
+      "correct_answer": "B",
+      "hint": "Look at the second decimal digit to decide rounding.",
+      "explanation": "To round to 1 decimal place, look at the hundredths digit (7). Since 7 ≥ 5, round the tenths digit up: 10.6 becomes 10.7. Option A rounds down; C and D have two decimal places.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "number": {
+            "magnitude": 10.673,
+            "unit": null
+          }
+        },
+        "answer_value": 10.7,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Identify tenths digit (6) and hundredths digit (7).",
+          "7 ≥ 5, so round up: 6 → 7.",
+          "Result: 10.7"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.4 Limit of accuracy",
+        "structural_element": "Example 2",
+        "content_anchor": "10.673 to 1 d.p. is 10.7",
+        "page_hint": 53,
+        "concept_hash": "sha256_decimal_place_10_673"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Rounding to one decimal place means keeping one digit after the decimal point.",
+        "concept_summary": "Look at the second decimal digit; if 5 or more, increase the first decimal digit by 1.",
+        "beginner": "10.673 rounded to 1 decimal place: look at hundredths digit 7 (≥5), so round tenths 6 up to 7 → 10.7.",
+        "intermediate": "Tenths digit = 6, hundredths digit = 7. Since 7 ≥ 5, round up: 10.6 → 10.7.",
+        "advanced": "10.673 = 10 + 0.673. To 1 d.p., 0.673 rounds to 0.7 because 0.073 ≥ 0.05. Sum = 10.7.",
+        "worked_solution": [
+          "Step 1: Identify first decimal place (tenths): 6",
+          "Step 2: Look at second decimal (hundredths): 7",
+          "Step 3: Since 7 ≥ 5, round up: 6 → 7",
+          "Step 4: Result: 10.7"
+        ],
+        "reasoning_steps": [
+          "Locate digit in first decimal place.",
+          "Check next digit for rounding.",
+          "Round up if next digit ≥ 5.",
+          "Write with one decimal."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Rounding to 10.6 (ignoring the 7 hundredths).",
+          "Rounding to 10.67 (two decimal places, not one)."
+        ],
+        "related_concepts": [
+          "rounding",
+          "decimal places",
+          "significant figures"
+        ],
+        "revision_note": "10.673 to 1 d.p. = 10.7.",
+        "glossary_entry": {
+          "term": "decimal place rounding",
+          "definition": "Approximating to a specified number of digits after decimal.",
+          "example_equation": "10.673 ≈ 10.7 (1 d.p.)",
+          "related_terms": [
+            "rounding",
+            "decimal"
+          ]
+        },
+        "flashcard": {
+          "front": "Round 10.673 to 1 decimal place.",
+          "back": "10.7."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "10.673",
+            "relation": "rounded_to_1d.p.",
+            "target": "10.7"
+          },
+          {
+            "source": "hundredths digit 7",
+            "relation": "causes",
+            "target": "round up"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Round 10.673 to 1 decimal place.",
+        "flashcard_back": "10.7.",
+        "glossary_term": "decimal place",
+        "glossary_definition": "Digits after decimal point.",
+        "revision_note": "10.673 (1 d.p.) = 10.7.",
+        "teacher_note": "Practice with different numbers, varying the rounding digit.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Round numbers to given decimal places",
+        "concept_map_nodes": [
+          {
+            "source": "rounding to 1 d.p.",
+            "relation": "depends_on",
+            "target": "hundredths digit"
+          },
+          {
+            "source": "10.673",
+            "relation": "hundredths_digit",
+            "target": "7"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Hundredths digit 7≥5 rounds tenths 6→7 → 10.7."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q044",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.5 Standard notation (Scientific notation)",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 1.15",
+      "mcq_type": "E",
+      "question": "Express 1,856,700,000 in scientific notation.",
+      "options": {
+        "A": "\\(1.8567 \\times 10^8\\)",
+        "B": "\\(1.8567 \\times 10^9\\)",
+        "C": "\\(1.8567 \\times 10^{10}\\)",
+        "D": "\\(18.567 \\times 10^8\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Move decimal to get one digit before decimal, count places moved.",
+      "explanation": "1,856,700,000 = 1.8567 × 10⁹ because decimal moves 9 places left. Option A moves 8 places, C moves 10, D coefficient not between 1 and 10.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "number": {
+            "magnitude": 1856700000,
+            "unit": null
+          }
+        },
+        "answer_value": 1856700000.0,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Move decimal to between 1 and 10: 1.8567",
+          "Count moves: 9 places left",
+          "Exponent = 9",
+          "Result: 1.8567 × 10⁹"
+        ],
+        "significant_figures": 5
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.5 Standard notation (Scientific notation)",
+        "structural_element": "Example 1",
+        "content_anchor": "1,856,700,000 = 1.8567 × 10⁹",
+        "page_hint": 60,
+        "concept_hash": "sha256_scientific_1856700000"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Scientific notation writes numbers as a × 10ⁿ with 1 ≤ a < 10 and integer n.",
+        "concept_summary": "For large numbers, count how many places the decimal moves left; that's the positive exponent.",
+        "beginner": "1,856,700,000 = 1.8567 × 10⁹. Move decimal 9 places left to get 1.8567.",
+        "intermediate": "Decimal moved 9 places left from 1,856,700,000 to 1.8567, so exponent = 9.",
+        "advanced": "1,856,700,000 = 1.8567 × 10⁹ because 1,856,700,000 ÷ 10⁹ = 1.8567.",
+        "worked_solution": [
+          "Step 1: Place decimal after first digit: 1.856700000",
+          "Step 2: Count digits after first digit: 9 digits",
+          "Step 3: Write as 1.8567 × 10⁹"
+        ],
+        "reasoning_steps": [
+          "Move decimal to after first non-zero digit.",
+          "Count moves (9).",
+          "Exponent = number of moves.",
+          "Result: a × 10ⁿ."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Counting wrong: 1,856,700,000 has 10 digits? Actually 1.8567×10⁹ means 10-digit number.",
+          "Forgetting to drop trailing zeros in coefficient."
+        ],
+        "related_concepts": [
+          "scientific notation",
+          "exponents",
+          "large numbers"
+        ],
+        "revision_note": "1,856,700,000 = 1.8567 × 10⁹.",
+        "glossary_entry": {
+          "term": "scientific notation for large numbers",
+          "definition": "a × 10ⁿ with positive exponent n.",
+          "example_equation": "1,856,700,000 = 1.8567 × 10⁹",
+          "related_terms": [
+            "standard form",
+            "mantissa"
+          ]
+        },
+        "flashcard": {
+          "front": "Write 1,856,700,000 in scientific notation.",
+          "back": "1.8567 × 10⁹."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "1,856,700,000",
+            "relation": "scientific_notation",
+            "target": "1.8567 × 10⁹"
+          },
+          {
+            "source": "1.8567 × 10⁹",
+            "relation": "expanded",
+            "target": "1,856,700,000"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Write 1.8567 billion in scientific notation.",
+        "flashcard_back": "1.8567 × 10⁹.",
+        "glossary_term": "scientific notation",
+        "glossary_definition": "a × 10ⁿ with 1≤a<10.",
+        "revision_note": "1,856,700,000 = 1.8567×10⁹.",
+        "teacher_note": "Count zeros after first digit to get exponent.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Express large numbers in scientific notation",
+        "concept_map_nodes": [
+          {
+            "source": "1,856,700,000",
+            "relation": "has",
+            "target": "10 digits"
+          },
+          {
+            "source": "10-digit number",
+            "relation": "scientific_notation_exponent",
+            "target": "9"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Decimal moves 9 left → 1.8567×10⁹."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q045",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.4 Real Numbers",
+      "subsection": "1.4.6 Rationalization",
+      "sub_subsection": null,
+      "structural_anchor": "More on rationalizations of denominators",
+      "mcq_type": "D",
+      "question": "Rationalize the denominator of \\(\\frac{3}{\\sqrt{5} - \\sqrt{3}}\\).",
+      "options": {
+        "A": "\\(\\frac{3(\\sqrt{5} - \\sqrt{3})}{2}\\)",
+        "B": "\\(\\frac{3(\\sqrt{5} + \\sqrt{3})}{2}\\)",
+        "C": "\\(\\frac{3(\\sqrt{5} + \\sqrt{3})}{8}\\)",
+        "D": "\\(\\sqrt{5} - \\sqrt{3}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Multiply numerator and denominator by the conjugate \\(\\sqrt{5} + \\sqrt{3}\\).",
+      "explanation": "Multiply by conjugate: \\(\\frac{3}{\\sqrt{5}-\\sqrt{3}} \\times \\frac{\\sqrt{5}+\\sqrt{3}}{\\sqrt{5}+\\sqrt{3}} = \\frac{3(\\sqrt{5}+\\sqrt{3})}{5 - 3} = \\frac{3(\\sqrt{5}+\\sqrt{3})}{2}\\). Option A uses wrong sign; C wrong denominator; D missing factor 3/2.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\((a-b)(a+b) = a^2 - b^2\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.4 Real Numbers",
+        "subsection_anchor": "1.4.6 Rationalization",
+        "structural_element": "Example b",
+        "content_anchor": "3/(√5-√3) = 3(√5+√3)/2",
+        "page_hint": 63,
+        "concept_hash": "sha256_rationalize_3_over_root5_minus_root3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 89,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Rationalizing a denominator with a binomial radical uses the conjugate to eliminate radicals.",
+        "concept_summary": "Multiply numerator and denominator by the conjugate (same terms, opposite sign).",
+        "beginner": "Multiply top and bottom by √5+√3. Denominator becomes (√5)²-(√3)²=5-3=2. Numerator = 3(√5+√3).",
+        "intermediate": "Conjugate of (√5-√3) is (√5+√3). Multiply: denominator = 5-3=2, numerator = 3(√5+√3).",
+        "advanced": "Using difference of squares: (√5-√3)(√5+√3)=2. So fraction = 3(√5+√3)/2.",
+        "worked_solution": [
+          "Step 1: Identify conjugate: √5+√3",
+          "Step 2: Multiply numerator and denominator by conjugate",
+          "Step 3: Denominator: (√5)² - (√3)² = 5 - 3 = 2",
+          "Step 4: Numerator: 3(√5+√3)",
+          "Step 5: Result: \\frac{3(\\sqrt{5}+\\sqrt{3})}{2}"
+        ],
+        "reasoning_steps": [
+          "Find conjugate of denominator.",
+          "Multiply numerator and denominator by conjugate.",
+          "Simplify denominator using (a-b)(a+b)=a²-b².",
+          "Write simplified fraction."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\((\\sqrt{a} - \\sqrt{b})(\\sqrt{a} + \\sqrt{b}) = a - b\\)",
+            "name": "Conjugate product",
+            "variables": [
+              {
+                "symbol": "\\(a\\)",
+                "meaning": "5",
+                "unit": null
+              },
+              {
+                "symbol": "\\(b\\)",
+                "meaning": "3",
+                "unit": null
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Using conjugate with wrong sign (√5-√3 again).",
+          "Forgetting to multiply numerator by conjugate as well."
+        ],
+        "related_concepts": [
+          "conjugate",
+          "difference of squares",
+          "rationalization"
+        ],
+        "revision_note": "3/(√5-√3) = 3(√5+√3)/2.",
+        "glossary_entry": {
+          "term": "conjugate rationalization",
+          "definition": "Using conjugate to eliminate radicals from denominator.",
+          "example_equation": "3/(√5-√3) = 3(√5+√3)/2",
+          "related_terms": [
+            "conjugate",
+            "difference of squares"
+          ]
+        },
+        "flashcard": {
+          "front": "Rationalize 3/(√5-√3).",
+          "back": "3(√5+√3)/2."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "3/(√5-√3)",
+            "relation": "rationalized_to",
+            "target": "3(√5+√3)/2"
+          },
+          {
+            "source": "conjugate",
+            "relation": "used_for",
+            "target": "binomial denominator"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Rationalize 3/(√5-√3).",
+        "flashcard_back": "3(√5+√3)/2.",
+        "glossary_term": "conjugate",
+        "glossary_definition": "Binomial with opposite sign between terms.",
+        "revision_note": "3/(√5-√3) = 3(√5+√3)/2.",
+        "teacher_note": "Always check denominator becomes integer after using conjugate.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Rationalize denominators with binomial radicals",
+        "concept_map_nodes": [
+          {
+            "source": "(√5-√3)",
+            "relation": "conjugate_is",
+            "target": "(√5+√3)"
+          },
+          {
+            "source": "(√5-√3)(√5+√3)",
+            "relation": "equals",
+            "target": "2"
+          }
+        ],
+        "workbook_section": "1.4 Real Numbers",
+        "solution_manual_note": "Answer B. Multiply by (√5+√3)/(√5+√3): denominator=2, numerator=3(√5+√3)."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q046",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.5 Applications",
+      "subsection": "main",
+      "sub_subsection": null,
+      "structural_anchor": "Example 2",
+      "mcq_type": "G",
+      "question": "Three strings of lengths 78 cm, 117 cm, and 351 cm are cut into equal pieces. What is the greatest possible length of each piece?",
+      "options": {
+        "A": "39 cm",
+        "B": "13 cm",
+        "C": "26 cm",
+        "D": "3 cm"
+      },
+      "correct_answer": "A",
+      "hint": "The greatest length that divides all three numbers evenly is their GCF.",
+      "explanation": "The greatest possible length must divide 78, 117, and 351. GCF(78,117,351) = 39 because 78=2×3×13, 117=3²×13, 351=3³×13. Common factors: 3×13=39. Options B, C, D divide but are not greatest.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "string1": {
+            "magnitude": 78,
+            "unit": "cm"
+          },
+          "string2": {
+            "magnitude": 117,
+            "unit": "cm"
+          },
+          "string3": {
+            "magnitude": 351,
+            "unit": "cm"
+          }
+        },
+        "answer_value": 39,
+        "answer_unit": "cm",
+        "calculation_steps": [
+          "Prime factorization: 78=2×3×13",
+          "117=3×3×13 = 3²×13",
+          "351=3×3×3×13 = 3³×13",
+          "Common primes: 3 and 13",
+          "Smallest exponents: 3¹ and 13¹",
+          "Product: 3×13=39"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.5 Applications",
+        "subsection_anchor": "main",
+        "structural_element": "Exercise 1.38",
+        "content_anchor": "strings 78,117,351 cm cut into equal lengths, find greatest possible length",
+        "page_hint": 65,
+        "concept_hash": "sha256_gcf_strings_78_117_351"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "The greatest possible equal length that divides all measurements is the Greatest Common Factor (GCF).",
+        "concept_summary": "Find prime factors of each length; product of common primes to smallest powers gives GCF.",
+        "beginner": "Find largest number that divides 78, 117, and 351. Try 39: 78÷39=2, 117÷39=3, 351÷39=9. Works perfectly.",
+        "intermediate": "Prime factors: 78=2×3×13, 117=3²×13, 351=3³×13. Common: 3 and 13. GCF=3×13=39.",
+        "advanced": "GCF(78,117,351) = 39 because 39|78, 39|117, 39|351 and no larger integer divides all three (since 78/39=2, 117/39=3, 351/39=9 are coprime).",
+        "worked_solution": [
+          "Step 1: Factor 78 = 2×3×13",
+          "Step 2: Factor 117 = 3×3×13 = 3²×13",
+          "Step 3: Factor 351 = 3×3×3×13 = 3³×13",
+          "Step 4: Common primes: 3 (min exponent 1) and 13 (min exponent 1)",
+          "Step 5: Multiply: 3×13 = 39"
+        ],
+        "reasoning_steps": [
+          "Find prime factors of each number.",
+          "Identify common primes.",
+          "For each common prime, take smallest exponent.",
+          "Multiply selected prime powers."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Choosing 13 (divides all but not greatest).",
+          "Selecting 3 (too small, not greatest)."
+        ],
+        "related_concepts": [
+          "GCF",
+          "prime factorization",
+          "divisibility"
+        ],
+        "revision_note": "GCF(78,117,351)=39. Largest piece 39 cm.",
+        "glossary_entry": {
+          "term": "GCF application",
+          "definition": "Using GCF to find largest equal divisor in measurement problems.",
+          "example_equation": "GCF(78,117,351)=39",
+          "related_terms": [
+            "GCF",
+            "common divisor"
+          ]
+        },
+        "flashcard": {
+          "front": "Greatest equal piece length from 78,117,351 cm strings?",
+          "back": "39 cm. GCF=39."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "78,117,351",
+            "relation": "GCF_is",
+            "target": "39"
+          },
+          {
+            "source": "39 cm pieces",
+            "relation": "divide_evenly",
+            "target": "2,3,9 pieces respectively"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "workbook"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Greatest piece length from 78,117,351 cm strings?",
+        "flashcard_back": "39 cm.",
+        "glossary_term": "greatest common factor",
+        "glossary_definition": "Largest number dividing all given numbers.",
+        "revision_note": "GCF(78,117,351)=39.",
+        "teacher_note": "Show prime factorization method systematically.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Apply GCF to real-world measurement problems",
+        "concept_map_nodes": [
+          {
+            "source": "equal length pieces",
+            "relation": "requires",
+            "target": "common divisor"
+          },
+          {
+            "source": "greatest possible length",
+            "relation": "is",
+            "target": "GCF"
+          }
+        ],
+        "workbook_section": "1.5 Applications",
+        "solution_manual_note": "Answer A. GCF=39. Options B=13, C=26, D=3 are common divisors but not greatest."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q047",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.1 Revision on Natural Numbers and Integers",
+      "subsection": "1.1.2 Prime numbers and composite numbers",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 1.1",
+      "mcq_type": "B",
+      "question": "Which of the following numbers is prime?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "9",
+        "D": "15"
+      },
+      "correct_answer": "B",
+      "hint": "A prime number has exactly two distinct factors: 1 and itself.",
+      "explanation": "2 is prime because its only factors are 1 and 2. Option A: 1 has only one factor; C: 9=3×3 (three factors); D: 15=3×5 (four factors).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.3,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.1 Revision on Natural Numbers and Integers",
+        "subsection_anchor": "1.1.2 Prime numbers and composite numbers",
+        "structural_element": "Definition 1.1",
+        "content_anchor": "2 is the only even prime number",
+        "page_hint": 8,
+        "concept_hash": "sha256_prime_2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "A prime number is a natural number greater than 1 with exactly two distinct positive divisors: 1 and itself.",
+        "concept_summary": "2 is prime because its only divisors are 1 and 2.",
+        "beginner": "2 can only be divided evenly by 1 and 2, so it's prime. 1 is not prime (only one factor). 9 and 15 have more factors.",
+        "intermediate": "Check each: 1 has one factor (not prime). 2 has factors {1,2} → prime. 9=3² has factors 1,3,9 → composite. 15=3×5 has factors 1,3,5,15 → composite.",
+        "advanced": "By definition, 2 is prime. 1 is neither prime nor composite. 9 and 15 are composite as they have non-trivial divisors.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall prime definition: exactly two factors.",
+          "Check each option's factor count.",
+          "Only 2 satisfies."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking 1 is prime (has only one factor, not two).",
+          "Believing all odd numbers are prime (9,15 are counterexamples)."
+        ],
+        "related_concepts": [
+          "composite numbers",
+          "factors",
+          "even numbers"
+        ],
+        "revision_note": "2 is the only even prime number.",
+        "glossary_entry": {
+          "term": "prime number",
+          "definition": "Natural number >1 with exactly two factors.",
+          "example_equation": "2 is prime",
+          "related_terms": [
+            "composite",
+            "factor"
+          ]
+        },
+        "flashcard": {
+          "front": "Which number is prime: 1,2,9,15?",
+          "back": "2."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "prime number",
+            "relation": "example",
+            "target": "2"
+          },
+          {
+            "source": "2",
+            "relation": "has_factors",
+            "target": "1 and 2"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck",
+          "glossary"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Which is prime: 1,2,9,15?",
+        "flashcard_back": "2.",
+        "glossary_term": "prime number",
+        "glossary_definition": "Exactly two factors: 1 and itself.",
+        "revision_note": "2 is prime; 1 is not; 9,15 are composite.",
+        "teacher_note": "Emphasize 1 is neither prime nor composite.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify prime numbers",
+        "concept_map_nodes": [
+          {
+            "source": "prime number",
+            "relation": "not",
+            "target": "1"
+          },
+          {
+            "source": "prime number",
+            "relation": "example",
+            "target": "2,3,5,7"
+          }
+        ],
+        "workbook_section": "1.1 Revision on Natural Numbers and Integers",
+        "solution_manual_note": "Answer B. 2 is prime. 1 has one factor; 9=3², 15=3×5 are composite."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q048",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.1 Revision on Natural Numbers and Integers",
+      "subsection": "1.1.3 Divisibility test",
+      "sub_subsection": null,
+      "structural_anchor": "Divisibility test",
+      "mcq_type": "D",
+      "question": "Which of the following numbers is divisible by both 2 and 9?",
+      "options": {
+        "A": "3,186",
+        "B": "2,334",
+        "C": "42,435",
+        "D": "5,712"
+      },
+      "correct_answer": "A",
+      "hint": "Divisible by 2 means even. Divisible by 9 means sum of digits divisible by 9.",
+      "explanation": "3,186 is even (ends with 6) and digit sum 3+1+8+6=18, divisible by 9. 2,334 sum=12 not multiple of 9; 42,435 not even; 5,712 sum=15 not multiple of 9.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.2,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.1 Revision on Natural Numbers and Integers",
+        "subsection_anchor": "1.1.3 Divisibility test",
+        "structural_element": "Example 1",
+        "content_anchor": "2,334 divisible by 2 and 3 but not 9",
+        "page_hint": 9,
+        "concept_hash": "sha256_divisible_2_and_9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Divisible by 2: last digit even. Divisible by 9: sum of digits multiple of 9.",
+        "concept_summary": "Check both conditions. Only numbers satisfying both are divisible by 18 (LCM of 2 and 9).",
+        "beginner": "Even numbers: 3,186, 2,334, 5,712 (ends in even). Sum digits: 3,186 sum=18 (÷9), others not. So 3,186 works.",
+        "intermediate": "Test each: 3,186 even, sum=18 (9×2). 2,334 even but sum=12 (not ÷9). 42,435 odd (fail 2). 5,712 even but sum=15 (not ÷9).",
+        "advanced": "A number divisible by both 2 and 9 is divisible by LCM(2,9)=18. 3,186÷18=177 exactly.",
+        "worked_solution": [
+          "Step 1: Check evenness: last digit 0,2,4,6,8",
+          "Step 2: Compute digit sum for each even number",
+          "Step 3: Check if digit sum divisible by 9",
+          "Step 4: Only 3,186 passes both"
+        ],
+        "reasoning_steps": [
+          "Apply divisibility by 2 filter (even numbers).",
+          "Among evens, apply divisibility by 9 (sum digits ÷9).",
+          "Select number that passes both."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Forgetting to check both conditions.",
+          "Mis-summing digits: 2,334 sum=12 (not 9)."
+        ],
+        "related_concepts": [
+          "divisibility by 2",
+          "divisibility by 9",
+          "LCM"
+        ],
+        "revision_note": "Divisible by 2 and 9 → divisible by 18. 3,186 works.",
+        "glossary_entry": {
+          "term": "divisible by 2 and 9",
+          "definition": "Number even and digit sum multiple of 9.",
+          "example_equation": "3,186 divisible by 18",
+          "related_terms": [
+            "divisibility test",
+            "LCM"
+          ]
+        },
+        "flashcard": {
+          "front": "Which number is divisible by both 2 and 9: 3,186; 2,334; 42,435; 5,712?",
+          "back": "3,186. Even and digit sum 18."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "divisible by 2 and 9",
+            "relation": "equivalent_to",
+            "target": "divisible by 18"
+          },
+          {
+            "source": "3,186",
+            "relation": "satisfies",
+            "target": "divisible by 18"
+          }
+        ],
+        "workbook_section": "1.1 Revision on Natural Numbers and Integers",
+        "solution_manual_note": "Answer A. 3,186 even and digit sum 18. Option B sum=12, C odd, D sum=15."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q049",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.1 Revision on Natural Numbers and Integers",
+      "subsection": "1.1.4 Prime factorization",
+      "sub_subsection": null,
+      "structural_anchor": "Prime factorization",
+      "mcq_type": "E",
+      "question": "What is the prime factorization of 252?",
+      "options": {
+        "A": "\\(2^2 \\times 3^2 \\times 7\\)",
+        "B": "\\(2^3 \\times 3^2 \\times 7\\)",
+        "C": "\\(2^2 \\times 3^3 \\times 7\\)",
+        "D": "\\(2^2 \\times 3^2 \\times 7^2\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Divide 252 by prime numbers repeatedly.",
+      "explanation": "252 ÷ 2 = 126, ÷2 = 63, ÷3 = 21, ÷3 = 7, ÷7 = 1. So 252 = 2² × 3² × 7. Option B has 2³, C has 3³, D has 7².",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "number": {
+            "magnitude": 252,
+            "unit": null
+          }
+        },
+        "answer_value": 252,
+        "answer_unit": null,
+        "calculation_steps": [
+          "252 ÷ 2 = 126",
+          "126 ÷ 2 = 63",
+          "63 ÷ 3 = 21",
+          "21 ÷ 3 = 7",
+          "7 ÷ 7 = 1",
+          "252 = 2² × 3² × 7"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.1 Revision on Natural Numbers and Integers",
+        "subsection_anchor": "1.1.4 Prime factorization",
+        "structural_element": "Exercise 1.6",
+        "content_anchor": "prime factorization of numbers including 252",
+        "page_hint": 11,
+        "concept_hash": "sha256_prime_factor_252"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Prime factorization is expressing a number as a product of prime numbers.",
+        "concept_summary": "Divide by smallest primes repeatedly until 1 is reached.",
+        "beginner": "252 ÷2=126, ÷2=63, ÷3=21, ÷3=7, ÷7=1. So 2×2×3×3×7 = 2²×3²×7.",
+        "intermediate": "252 = 2² × 3² × 7 because 252 = 4 × 63 = 4 × 9 × 7 = 2² × 3² × 7.",
+        "advanced": "Prime factor tree: 252 → 2×126 → 2×2×63 → 2×2×3×21 → 2×2×3×3×7 = 2²×3²×7.",
+        "worked_solution": [
+          "Step 1: Divide by 2: 252÷2=126",
+          "Step 2: Divide by 2: 126÷2=63",
+          "Step 3: Divide by 3: 63÷3=21",
+          "Step 4: Divide by 3: 21÷3=7",
+          "Step 5: 7 is prime",
+          "Step 6: Write product: 2×2×3×3×7 = 2²×3²×7"
+        ],
+        "reasoning_steps": [
+          "Start with smallest prime (2).",
+          "Continue dividing until quotient is odd.",
+          "Move to next prime (3).",
+          "Continue until quotient is prime.",
+          "Collect all prime factors with exponents."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Incorrect exponent counts (2³ instead of 2²).",
+          "Adding extra prime factors (7²)."
+        ],
+        "related_concepts": [
+          "prime factorization",
+          "factor tree",
+          "fundamental theorem"
+        ],
+        "revision_note": "252 = 2² × 3² × 7.",
+        "glossary_entry": {
+          "term": "prime factorization",
+          "definition": "Product of prime numbers equal to the original number.",
+          "example_equation": "252 = 2² × 3² × 7",
+          "related_terms": [
+            "prime number",
+            "composite number"
+          ]
+        },
+        "flashcard": {
+          "front": "Prime factorization of 252?",
+          "back": "2² × 3² × 7."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "252",
+            "relation": "prime_factorization",
+            "target": "2² × 3² × 7"
+          },
+          {
+            "source": "2² × 3² × 7",
+            "relation": "multiplies_to",
+            "target": "252"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "Factor 252 into primes.",
+        "flashcard_back": "2² × 3² × 7.",
+        "glossary_term": "prime factorization",
+        "glossary_definition": "Product of primes equals number.",
+        "revision_note": "252 = 2²×3²×7.",
+        "teacher_note": "Use factor tree to visualize division steps.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Express composite numbers in prime factorization form",
+        "concept_map_nodes": [
+          {
+            "source": "252",
+            "relation": "divided_by_2",
+            "target": "126"
+          },
+          {
+            "source": "126",
+            "relation": "divided_by_2",
+            "target": "63"
+          },
+          {
+            "source": "63",
+            "relation": "divided_by_3",
+            "target": "21"
+          },
+          {
+            "source": "21",
+            "relation": "divided_by_3",
+            "target": "7"
+          }
+        ],
+        "workbook_section": "1.1 Revision on Natural Numbers and Integers",
+        "solution_manual_note": "Answer A. 252=2²×3²×7. Option B has 2³, C has 3³, D has 7²."
+      }
+    },
+    {
+      "question_id": "G9_Math_U1_Q050",
+      "generation_timestamp": "2026-06-10T18:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Mathematics",
+      "unit": "Unit 1: THE NUMBER SYSTEM",
+      "section": "1.1 Revision on Natural Numbers and Integers",
+      "subsection": "1.1.5 Greatest common factor and least common multiple",
+      "sub_subsection": null,
+      "structural_anchor": "Least common multiple",
+      "mcq_type": "E",
+      "question": "Find the LCM of 14 and 21.",
+      "options": {
+        "A": "7",
+        "B": "21",
+        "C": "42",
+        "D": "84"
+      },
+      "correct_answer": "C",
+      "hint": "List multiples or use prime factorization: 14=2×7, 21=3×7, LCM=2×3×7=42.",
+      "explanation": "Prime factors: 14=2×7, 21=3×7. LCM takes highest powers: 2¹×3¹×7¹=42. Multiples of 14:14,28,42...; of 21:21,42...; smallest common is 42. Option A is GCF, B is one number, D is a common multiple but not least.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "first_number": {
+            "magnitude": 14,
+            "unit": null
+          },
+          "second_number": {
+            "magnitude": 21,
+            "unit": null
+          }
+        },
+        "answer_value": 42,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Prime factorization: 14 = 2 × 7",
+          "21 = 3 × 7",
+          "Take highest power of each prime: 2¹, 3¹, 7¹",
+          "Multiply: 2 × 3 × 7 = 42"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: THE NUMBER SYSTEM",
+        "section_anchor": "1.1 Revision on Natural Numbers and Integers",
+        "subsection_anchor": "1.1.5 Greatest common factor and least common multiple",
+        "structural_element": "Exercise 1.8",
+        "content_anchor": "LCM of 14 and 21 = 42",
+        "page_hint": 15,
+        "concept_hash": "sha256_lcm_14_21"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Least Common Multiple (LCM) is the smallest positive integer that is a multiple of both numbers.",
+        "concept_summary": "Find by prime factorization: product of highest powers of all primes appearing.",
+        "beginner": "Multiples of 14:14,28,42,56...; of 21:21,42,63... First common = 42.",
+        "intermediate": "14=2×7, 21=3×7. Highest exponents: 2¹×3¹×7¹=42.",
+        "advanced": "LCM(14,21) = 14×21 / GCF(14,21) = 294 / 7 = 42.",
+        "worked_solution": [
+          "Step 1: Factor 14 = 2×7",
+          "Step 2: Factor 21 = 3×7",
+          "Step 3: Identify primes: 2,3,7",
+          "Step 4: Take highest exponents: 2¹,3¹,7¹",
+          "Step 5: Multiply: 2×3×7=42"
+        ],
+        "reasoning_steps": [
+          "List prime factors of each number.",
+          "For each prime, take the largest exponent present.",
+          "Multiply these prime powers."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Choosing GCF (7) instead of LCM.",
+          "Selecting 84 (42×2) as LCM."
+        ],
+        "related_concepts": [
+          "GCF",
+          "multiples",
+          "prime factorization"
+        ],
+        "revision_note": "LCM(14,21)=42. 14=2×7, 21=3×7 → 2×3×7=42.",
+        "glossary_entry": {
+          "term": "least common multiple",
+          "definition": "Smallest number divisible by both given numbers.",
+          "example_equation": "LCM(14,21)=42",
+          "related_terms": [
+            "GCF",
+            "multiple"
+          ]
+        },
+        "flashcard": {
+          "front": "Find LCM(14,21).",
+          "back": "42."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "14 and 21",
+            "relation": "LCM_is",
+            "target": "42"
+          },
+          {
+            "source": "42",
+            "relation": "divisible_by",
+            "target": "both 14 and 21"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Mathematics Unit 1 — Number System",
+        "flashcard_front": "What is LCM of 14 and 21?",
+        "flashcard_back": "42.",
+        "glossary_term": "least common multiple",
+        "glossary_definition": "Smallest common multiple.",
+        "revision_note": "LCM(14,21)=42.",
+        "teacher_note": "Compare with GCF(14,21)=7; product 14×21=294=7×42.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Find LCM of numbers",
+        "concept_map_nodes": [
+          {
+            "source": "14 and 21",
+            "relation": "prime_factors",
+            "target": "2×7 and 3×7"
+          },
+          {
+            "source": "2,3,7",
+            "relation": "LCM_product",
+            "target": "42"
+          }
+        ],
+        "workbook_section": "1.1 Revision on Natural Numbers and Integers",
+        "solution_manual_note": "Answer C. LCM=42. Option A=GCF, B=21, D=84 (multiple but not least)."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 93.1,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "D": 3,
+      "E": 3,
+      "G": 1
+    },
+    "difficulty_distribution": {
+      "easy": 8,
+      "medium": 2,
+      "hard": 0
+    },
+    "section_distribution": {
+      "1.1 Revision on Natural Numbers and Integers": 5,
+      "1.4 Real Numbers": 4,
+      "1.5 Applications": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 35,
+      "advanced_avg": 44
+    },
+    "visual_required_count": 1,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,1811 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:40:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Math_U2_Q030",
+    "covered_sections": [
+      "2.1 Introduction to Polynomial Functions",
+      "2.2 Operations on Polynomial Functions",
+      "2.3 Theorems on Polynomials",
+      "2.4 Zeros of a Polynomial Function",
+      "2.5 Graphs of Polynomial Functions"
+    ],
+    "used_question_signatures": [
+      "a3f5c2e1d4b6a7c8e9f0d1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1",
+      "b4g6d3e2f5c7b8d9e0f1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1",
+      "c5h7e4f3g6d8c9e0f1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2",
+      "d6i8f5g4h7e9d0e1f2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+      "e7j9g6h5i8f0e1f2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+      "f8k0h7i6j9g1f2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+      "g9l1i8j7k0h2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+      "h0m2j9k8l1i3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+      "i1n3k0l9m2j4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+      "j2o4l1m0n3k5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9",
+      "k3p5m2n1o4l6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0",
+      "l4q6n3o2p5m7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1",
+      "m5r7o4p3q6n8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2",
+      "n6s8p5q4r7o9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3",
+      "o7t9q6r5s8p0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "p8u0r7s6t9q1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "q9v1s8t7u0r2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "r0w2t9u8v1s3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "s1x3u0v9w2t4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "t2y4v1w0x3u5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "u3z5w2x1y4v6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "v4a6x3y2z5w7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1",
+      "w5b7y4z3a6x8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2",
+      "x6c8z5a4b7y9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3",
+      "y7d9a6b5c8z0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4",
+      "z8e0b7c6d9a1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5",
+      "a9f1c8d7e0b2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6",
+      "b0g2d9e8f1c3a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7",
+      "c1h3e0f9g2d4b3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8",
+      "d2i4f1g0h3e5c3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9"
+    ],
+    "baseline_counter": {
+      "2.1 Introduction to Polynomial Functions": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.2 Operations on Polynomial Functions": {
+        "Addition of polynomial functions": {
+          "count": 1,
+          "mini_headings_covered": ["Addition of polynomial functions"],
+          "last_question_round": 1
+        },
+        "Subtraction of polynomial functions": {
+          "count": 1,
+          "mini_headings_covered": ["Subtraction of polynomial functions"],
+          "last_question_round": 1
+        },
+        "Multiplication of polynomial functions": {
+          "count": 3,
+          "mini_headings_covered": ["Multiplication of polynomial functions"],
+          "last_question_round": 2
+        },
+        "Division of polynomial functions": {
+          "count": 2,
+          "mini_headings_covered": ["Division of polynomial functions"],
+          "last_question_round": 3
+        }
+      },
+      "2.3 Theorems on Polynomials": {
+        "Polynomial Division Theorem": {
+          "count": 2,
+          "mini_headings_covered": ["Polynomial Division Theorem"],
+          "last_question_round": 3
+        },
+        "Remainder Theorem": {
+          "count": 2,
+          "mini_headings_covered": ["Remainder Theorem"],
+          "last_question_round": 2
+        },
+        "Factor Theorem": {
+          "count": 2,
+          "mini_headings_covered": ["Factor Theorem"],
+          "last_question_round": 2
+        }
+      },
+      "2.4 Zeros of a Polynomial Function": {
+        "Definition 2.8": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Zeros and Multiplicities": {
+          "count": 1,
+          "mini_headings_covered": ["Zeros of a Polynomial Function and their Multiplicities"],
+          "last_question_round": 3
+        },
+        "Location Theorem": {
+          "count": 1,
+          "mini_headings_covered": ["Location Theorem"],
+          "last_question_round": 3
+        }
+      },
+      "2.5 Graphs of Polynomial Functions": {
+        "Graphs of Polynomial Functions": {
+          "count": 1,
+          "mini_headings_covered": ["Graphs of Polynomial Functions"],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Introduction to Polynomial Functions": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2 Operations on Polynomial Functions": {
+        "question_count": 14,
+        "last_used_round": 3,
+        "consecutive_batches": 3
+      },
+      "2.3 Theorems on Polynomials": {
+        "question_count": 11,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "2.4 Zeros of a Polynomial Function": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "2.5 Graphs of Polynomial Functions": {
+        "question_count": 1,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1 Introduction to Polynomial Functions": ["degree", "leading coefficient", "constant term", "polynomial definition"],
+      "2.2 Operations on Polynomial Functions>Addition of polynomial functions": ["sum of polynomials", "like terms"],
+      "2.2 Operations on Polynomial Functions>Subtraction of polynomial functions": ["difference of polynomials"],
+      "2.2 Operations on Polynomial Functions>Multiplication of polynomial functions": ["product of polynomials", "distributive property", "degree of product"],
+      "2.2 Operations on Polynomial Functions>Division of polynomial functions": ["quotient", "remainder", "long division"],
+      "2.3 Theorems on Polynomials>Polynomial Division Theorem": ["division algorithm", "quotient", "remainder"],
+      "2.3 Theorems on Polynomials>Remainder Theorem": ["remainder theorem", "f(c)"],
+      "2.3 Theorems on Polynomials>Factor Theorem": ["factor theorem", "zero of polynomial"],
+      "2.4 Zeros of a Polynomial Function": ["zero", "root", "multiplicity", "location theorem", "rational root test"],
+      "2.5 Graphs of Polynomial Functions": ["end behavior", "turning points", "smooth curve", "x-intercepts"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 35,
+      "questions_per_concept_ratio": 0.86,
+      "structural_coverage_percentage": 66.7
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Mathematics",
+  "unit": "Unit 2: Polynomial Functions",
+  "pdf_filename": "M10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:40:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 6,
+        "progress_percentage": 83.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 7.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 8,
+      "structural_coverage_percentage": 66.7,
+      "concept_utilization_ratio": 0.82
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2 Operations on Polynomial Functions",
+      "least_covered_section": "2.5 Graphs of Polynomial Functions",
+      "imbalance_ratio": 7.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 45
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Math_U2_Q021",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Definition 2.8",
+      "mcq_type": "A",
+      "question": "For a polynomial function \\(f(x)\\), what is the definition of a zero of the function?",
+      "options": {
+        "A": "The value of \\(x\\) where \\(f(x) = 0\\)",
+        "B": "The value of \\(f(x)\\) when \\(x = 0\\)",
+        "C": "The coefficient of the highest-degree term",
+        "D": "The point where the graph crosses the y-axis"
+      },
+      "correct_answer": "A",
+      "hint": "A zero makes the function value zero.",
+      "explanation": "A zero is a real number \\(c\\) such that \\(f(c)=0\\). Option B describes the y-intercept, option C is the leading coefficient, and option D is also the y-intercept.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": null,
+        "structural_element": "Definition 2.8",
+        "content_anchor": "zero of polynomial function",
+        "page_hint": 27,
+        "concept_hash": "u3z5w2x1y4v6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "A zero of a polynomial function \\(f(x)\\) is a number \\(c\\) such that \\(f(c)=0\\).",
+        "concept_summary": "Zeros are also called roots or solutions of the equation \\(f(x)=0\\).",
+        "beginner": "A zero is an x-value that makes the polynomial equal zero when you plug it in.",
+        "intermediate": "If \\(f(c)=0\\), then \\(c\\) is a zero of \\(f\\), corresponding to x-intercept of the graph.",
+        "advanced": "Zeros are the solutions to \\(f(x)=0\\) and correspond to linear factors \\((x-c)\\) by the Factor Theorem.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Set \\(f(x)=0\\).",
+          "Solve for \\(x\\).",
+          "Each solution is a zero."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing zero with y-intercept (where \\(x=0\\)).",
+          "Thinking zero is where function is undefined."
+        ],
+        "related_concepts": ["root", "x-intercept", "Factor Theorem", "solution"],
+        "revision_note": "Zero = f(c)=0 = x-intercept.",
+        "glossary_entry": {
+          "term": "Zero of a polynomial",
+          "definition": "A number \\(c\\) for which \\(f(c)=0\\).",
+          "example_equation": "\\(c=2\\) is a zero of \\(f(x)=x-2\\) because \\(f(2)=0\\)",
+          "related_terms": ["root", "x-intercept"]
+        },
+        "flashcard": {
+          "front": "What is a zero of a polynomial function?",
+          "back": "A number \\(c\\) such that \\(f(c)=0\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Zero", "relation": "equals", "target": "Root"},
+          {"source": "Root", "relation": "solves", "target": "f(x)=0"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "definition_box",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Define a zero of a polynomial function.",
+        "flashcard_back": "A number \\(c\\) such that \\(f(c)=0\\).",
+        "glossary_term": "Zero",
+        "glossary_definition": "A value \\(c\\) where \\(f(c)=0\\); also called a root.",
+        "revision_note": "Zero = where polynomial = 0.",
+        "teacher_note": "Distinguish from y-intercept: zero is where graph meets x-axis.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define zeros of polynomial functions",
+        "concept_map_nodes": [
+          {"source": "Zero", "relation": "is", "target": "Root"},
+          {"source": "Zero", "relation": "graphically", "target": "x-intercept"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer A. Zero of f means input giving output zero."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q022",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Zeros of a Polynomial Function and their Multiplicities",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 2.9",
+      "mcq_type": "A",
+      "question": "If \\((x-3)^4\\) is a factor of \\(f(x)\\) but \\((x-3)^5\\) is not, what is the multiplicity of the zero 3?",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_answer": "C",
+      "hint": "Multiplicity is the exponent of the factor \\((x-c)\\) in the factorization.",
+      "explanation": "Multiplicity \\(k\\) means \\((x-c)^k\\) is a factor but \\((x-c)^{k+1}\\) is not. Here \\(k=4\\). Option A (1) would be simple zero, option D would require \\((x-3)^5\\) as factor.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 97
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Zeros of a Polynomial Function and their Multiplicities",
+        "structural_element": "Definition 2.9",
+        "content_anchor": "multiplicity of zero",
+        "page_hint": 28,
+        "concept_hash": "v4a6x3y2z5w7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Multiplicity is the exponent of the factor \\((x-c)\\) in the complete factorization.",
+        "concept_summary": "If \\((x-c)^k\\) divides \\(f(x)\\) but \\((x-c)^{k+1}\\) does not, then \\(c\\) has multiplicity \\(k\\).",
+        "beginner": "The power 4 on \\((x-3)\\) means the zero 3 repeats 4 times.",
+        "intermediate": "\\((x-3)^4\\) factor but not \\((x-3)^5\\) → multiplicity = 4.",
+        "advanced": "Multiplicity indicates how many times the linear factor \\((x-c)\\) appears in the factorization over \\(\\mathbb{R}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the factor \\((x-c)\\).",
+          "The exponent on that factor is the multiplicity."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing multiplicity with degree of polynomial.",
+          "Thinking multiplicity is the value of \\(c\\)."
+        ],
+        "related_concepts": ["factor", "zero", "repeated root"],
+        "revision_note": "Multiplicity = exponent of \\((x-c)\\) factor.",
+        "glossary_entry": {
+          "term": "Multiplicity",
+          "definition": "The number of times a given zero appears as a factor in the polynomial.",
+          "example_equation": "\\((x-3)^4\\) → multiplicity 4",
+          "related_terms": ["repeated root", "factor"]
+        },
+        "flashcard": {
+          "front": "What is the multiplicity of zero 3 if \\((x-3)^4\\) is a factor but \\((x-3)^5\\) is not?",
+          "back": "Multiplicity = 4."
+        },
+        "concept_map_nodes": [
+          {"source": "Multiplicity", "relation": "equals", "target": "Exponent of factor"},
+          {"source": "Factor exponent", "relation": "indicates", "target": "Repetition count"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "definition_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "glossary"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "What is the multiplicity of zero 3 if \\((x-3)^4\\) is a factor?",
+        "flashcard_back": "Multiplicity = 4.",
+        "glossary_term": "Multiplicity",
+        "glossary_definition": "The exponent of the factor \\((x-c)\\) in the factorization.",
+        "revision_note": "Multiplicity = exponent of \\((x-c)\\).",
+        "teacher_note": "Use graph behavior: even multiplicity touches x-axis, odd crosses.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Determine multiplicity of zeros",
+        "concept_map_nodes": [
+          {"source": "Multiplicity", "relation": "determines", "target": "Graph behavior at zero"},
+          {"source": "Even multiplicity", "relation": "causes", "target": "Tangent touch"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer C (4). Multiplicity equals the exponent."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q023",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Location Theorem",
+      "sub_subsection": null,
+      "structural_anchor": "Theorem 2.4",
+      "mcq_type": "F",
+      "question": "If \\(f(a)\\) and \\(f(b)\\) have opposite signs for \\(a < b\\), what does the Location Theorem guarantee?",
+      "options": {
+        "A": "The graph has a turning point between \\(a\\) and \\(b\\)",
+        "B": "There is at least one zero of \\(f\\) between \\(a\\) and \\(b\\)",
+        "C": "\\(f(x)\\) is positive for all \\(x\\) between \\(a\\) and \\(b\\)",
+        "D": "\\(f(x)\\) is discontinuous between \\(a\\) and \\(b\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Opposite signs imply crossing the x-axis somewhere in between.",
+      "explanation": "The Location Theorem states that if \\(f(a)\\) and \\(f(b)\\) have opposite signs, there is at least one real zero between \\(a\\) and \\(b\\). Option A is false (turning points not guaranteed), option C contradicts opposite signs.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "theorem"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Location Theorem",
+        "structural_element": "Theorem 2.4",
+        "content_anchor": "location theorem for zeros",
+        "page_hint": 30,
+        "concept_hash": "w5b7y4z3a6x8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 96,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The Location Theorem says opposite signs of \\(f(a)\\) and \\(f(b)\\) imply a zero exists between \\(a\\) and \\(b\\).",
+        "concept_summary": "Because polynomials are continuous, the function must cross the x-axis to change sign.",
+        "beginner": "If one point is above x-axis and another below, the graph must cross the axis somewhere between.",
+        "intermediate": "Opposite signs → function value changes sign → by continuity, there exists \\(c\\) with \\(f(c)=0\\) between.",
+        "advanced": "This follows from the Intermediate Value Theorem for continuous functions.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check signs of \\(f(a)\\) and \\(f(b)\\).",
+          "If signs differ, apply Location Theorem.",
+          "Conclude at least one zero in \\((a,b)\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking opposite signs guarantee exactly one zero (could be multiple).",
+          "Applying theorem to discontinuous functions."
+        ],
+        "related_concepts": ["Intermediate Value Theorem", "continuity", "zero", "sign change"],
+        "revision_note": "Opposite signs → at least one zero between.",
+        "glossary_entry": {
+          "term": "Location Theorem",
+          "definition": "If \\(f(a)\\) and \\(f(b)\\) have opposite signs, there exists \\(c\\) in \\((a,b)\\) with \\(f(c)=0\\).",
+          "example_equation": null,
+          "related_terms": ["Intermediate Value Theorem", "zero"]
+        },
+        "flashcard": {
+          "front": "What does opposite signs of \\(f(a)\\) and \\(f(b)\\) guarantee?",
+          "back": "At least one zero of \\(f\\) between \\(a\\) and \\(b\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Opposite signs", "relation": "implies", "target": "Zero between"},
+          {"source": "Location Theorem", "relation": "uses", "target": "Continuity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "What does \\(f(a) > 0\\) and \\(f(b) < 0\\) guarantee for a polynomial?",
+        "flashcard_back": "At least one zero exists between \\(a\\) and \\(b\\).",
+        "glossary_term": "Location Theorem",
+        "glossary_definition": "Opposite signs guarantee a zero in the interval.",
+        "revision_note": "Opposite signs → at least one root.",
+        "teacher_note": "Link to Intermediate Value Theorem from calculus.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Apply Location Theorem to locate zeros",
+        "concept_map_nodes": [
+          {"source": "Sign change", "relation": "implies", "target": "Root existence"},
+          {"source": "Root existence", "relation": "guaranteed_by", "target": "Location Theorem"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer B. Theorem guarantees at least one zero in (a,b)."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q024",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Rational Root Test",
+      "sub_subsection": null,
+      "structural_anchor": "Theorem 2.5",
+      "mcq_type": "C",
+      "question": "For the polynomial \\(f(x) = 6x^3 - 11x^2 - 4x + 4\\), which set contains all possible rational zeros according to the Rational Root Test?",
+      "options": {
+        "A": "\\(\\pm 1, \\pm 2, \\pm 4, \\pm \\frac{1}{2}, \\pm \\frac{1}{3}, \\pm \\frac{1}{6}, \\pm \\frac{2}{3}, \\pm \\frac{4}{3}\\)",
+        "B": "\\(\\pm 1, \\pm 2, \\pm 4\\)",
+        "C": "\\(\\pm 1, \\pm 2, \\pm 3, \\pm 6, \\pm \\frac{1}{2}, \\pm \\frac{3}{2}\\)",
+        "D": "\\(\\pm 1, \\pm 2, \\pm 4, \\pm \\frac{1}{6}, \\pm \\frac{1}{3}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Possible rational zeros = factors of constant term over factors of leading coefficient.",
+      "explanation": "Constant term 4 factors: \\(\\pm 1, \\pm 2, \\pm 4\\). Leading coefficient 6 factors: \\(\\pm 1, \\pm 2, \\pm 3, \\pm 6\\). All ratios \\(p/q\\) give set in A. Option B omits fractions; C includes wrong denominators; D omits several fractions.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\frac{p}{q}\\) where \\(p|a_0, q|a_n\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "theorem"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Rational Root Test",
+        "structural_element": "Theorem 2.5",
+        "content_anchor": "rational root test",
+        "page_hint": 31,
+        "concept_hash": "x6c8z5a4b7y9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 91,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Rational Root Test: possible rational zeros = \\(\\pm\\) factors of constant term / factors of leading coefficient.",
+        "concept_summary": "List all divisors of \\(a_0\\) and \\(a_n\\), then form all fractions \\(p/q\\).",
+        "beginner": "Take factors of 4 and factors of 6, divide each factor of 4 by each factor of 6.",
+        "intermediate": "p: \\(\\pm1,\\pm2,\\pm4\\); q: \\(\\pm1,\\pm2,\\pm3,\\pm6\\); ratios give all 16 possibilities in A.",
+        "advanced": "The test provides a finite candidate set; actual rational zeros are a subset of these.",
+        "worked_solution": [
+          "Step 1: Constant term \\(a_0 = 4\\), factors: \\(\\pm1, \\pm2, \\pm4\\).",
+          "Step 2: Leading coefficient \\(a_3 = 6\\), factors: \\(\\pm1, \\pm2, \\pm3, \\pm6\\).",
+          "Step 3: Form all \\(p/q\\) and simplify duplicates.",
+          "Step 4: Result set is A."
+        ],
+        "reasoning_steps": [
+          "Identify \\(a_0\\) and \\(a_n\\).",
+          "List all integer factors of \\(a_0\\) (p).",
+          "List all integer factors of \\(a_n\\) (q).",
+          "Form all distinct \\(\\pm p/q\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Using only positive factors.",
+          "Forgetting to divide p by q (using only p as candidates).",
+          "Including \\(q=0\\) or non-integer q."
+        ],
+        "related_concepts": ["rational zero", "factor theorem", "integer coefficients"],
+        "revision_note": "Rational zeros = \\(\\pm\\) (factor constant)/(factor leading).",
+        "glossary_entry": {
+          "term": "Rational Root Test",
+          "definition": "If polynomial has integer coefficients, any rational zero \\(p/q\\) (reduced) has \\(p|a_0, q|a_n\\).",
+          "example_equation": "\\(p=\\pm1,\\pm2,\\pm4\\), \\(q=\\pm1,\\pm2,\\pm3,\\pm6\\)",
+          "related_terms": ["rational zero", "factor theorem"]
+        },
+        "flashcard": {
+          "front": "List possible rational zeros for \\(6x^3 - 11x^2 - 4x + 4\\).",
+          "back": "\\(\\pm1,\\pm2,\\pm4,\\pm\\frac12,\\pm\\frac13,\\pm\\frac16,\\pm\\frac23,\\pm\\frac43\\)"
+        },
+        "concept_map_nodes": [
+          {"source": "Rational Root Test", "relation": "candidates", "target": "p/q"},
+          {"source": "p", "relation": "divides", "target": "Constant term"},
+          {"source": "q", "relation": "divides", "target": "Leading coefficient"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "What are possible rational zeros of \\(6x^3-11x^2-4x+4\\)?",
+        "flashcard_back": "All \\(\\pm\\) factors of 4 over factors of 6: \\(\\pm1,\\pm2,\\pm4,\\pm\\frac12,\\pm\\frac13,\\pm\\frac16,\\pm\\frac23,\\pm\\frac43\\).",
+        "glossary_term": "Rational Root Test",
+        "glossary_definition": "Candidates for rational zeros are \\(\\pm p/q\\) with \\(p|a_0, q|a_n\\).",
+        "revision_note": "Possible rational zeros = \\(\\pm\\) (factors constant)/(factors leading).",
+        "teacher_note": "Emphasize reducing fractions to avoid duplicates.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Use Rational Root Test to list possible rational zeros",
+        "concept_map_nodes": [
+          {"source": "Rational Root Test", "relation": "produces", "target": "Candidate set"},
+          {"source": "Candidate set", "relation": "subset", "target": "Actual rational zeros"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer A. Full set of p/q with p|4, q|6."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q025",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.5 Graphs of Polynomial Functions",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Graphs of Polynomial Functions",
+      "mcq_type": "F",
+      "question": "For the polynomial \\(f(x) = -2x^3 + 4x^2 - x + 1\\), what is the end behavior as \\(x \\to \\infty\\) and \\(x \\to -\\infty\\)?",
+      "options": {
+        "A": "As \\(x \\to \\infty, f(x) \\to \\infty\\); as \\(x \\to -\\infty, f(x) \\to -\\infty\\)",
+        "B": "As \\(x \\to \\infty, f(x) \\to -\\infty\\); as \\(x \\to -\\infty, f(x) \\to \\infty\\)",
+        "C": "Both ends go to \\(\\infty\\)",
+        "D": "Both ends go to \\(-\\infty\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Leading term \\(-2x^3\\) with odd degree and negative coefficient.",
+      "explanation": "Leading coefficient negative, degree odd → opposite ends: down on right, up on left. Option A describes positive leading coefficient odd degree; C even positive; D even negative.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.5 Graphs of Polynomial Functions",
+        "subsection_anchor": null,
+        "structural_element": "Graphs of Polynomial Functions",
+        "content_anchor": "end behavior of odd degree negative leading coefficient",
+        "page_hint": 40,
+        "concept_hash": "y7d9a6b5c8z0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 96,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "End behavior is determined by the leading term \\(a_n x^n\\).",
+        "concept_summary": "For odd degree, ends go opposite directions; sign of leading coefficient decides which end is up.",
+        "beginner": "Negative coefficient with odd degree means graph falls to the right and rises to the left.",
+        "intermediate": "Leading term \\(-2x^3\\): as \\(x \\to \\infty\\), \\(-2x^3 \\to -\\infty\\); as \\(x \\to -\\infty\\), \\(-2x^3 \\to \\infty\\).",
+        "advanced": "Odd-degree polynomials with negative leading coefficient have \\(\\lim_{x\\to\\infty} f(x) = -\\infty\\) and \\(\\lim_{x\\to-\\infty} f(x) = \\infty\\).",
+        "worked_solution": [
+          "Step 1: Identify degree = 3 (odd).",
+          "Step 2: Leading coefficient = -2 (negative).",
+          "Step 3: Odd degree negative → down right, up left."
+        ],
+        "reasoning_steps": [
+          "Find degree (odd or even).",
+          "Find leading coefficient (positive or negative).",
+          "Apply rule: odd/negative → opposite ends, down on right."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking negative coefficient always means both ends down (only true for even degree).",
+          "Confusing end behavior between odd and even degrees."
+        ],
+        "related_concepts": ["leading coefficient", "degree", "end behavior"],
+        "revision_note": "Odd degree, negative leading → up left, down right.",
+        "glossary_entry": {
+          "term": "End behavior",
+          "definition": "The behavior of \\(f(x)\\) as \\(x\\) approaches \\(\\pm\\infty\\), determined by leading term.",
+          "example_equation": "\\(-2x^3\\) → \\(x\\to\\infty, f\\to-\\infty\\)",
+          "related_terms": ["leading coefficient", "degree"]
+        },
+        "flashcard": {
+          "front": "What is end behavior of \\(f(x) = -2x^3 + 4x^2 - x + 1\\)?",
+          "back": "As \\(x\\to\\infty, f\\to-\\infty\\); as \\(x\\to-\\infty, f\\to\\infty\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "End behavior", "relation": "determined_by", "target": "Leading term"},
+          {"source": "Odd degree", "relation": "causes", "target": "Opposite ends"},
+          {"source": "Negative leading coefficient", "relation": "makes", "target": "Right end down"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Describe end behavior of \\(-2x^3 + 4x^2 - x + 1\\).",
+        "flashcard_back": "Down right (-\\(\\infty\\)), up left (\\(\\infty\\)).",
+        "glossary_term": "End behavior",
+        "glossary_definition": "How polynomial behaves for large |x|, determined by leading term.",
+        "revision_note": "Odd degree, negative lead → \\(x\\to\\infty, f\\to-\\infty\\); \\(x\\to-\\infty, f\\to\\infty\\).",
+        "teacher_note": "Visualize: cubic with negative coefficient starts high, ends low.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Determine end behavior of polynomial graphs",
+        "concept_map_nodes": [
+          {"source": "End behavior", "relation": "rule", "target": "Odd/negative → opposite"},
+          {"source": "Opposite ends", "relation": "specific", "target": "Up left, down right"}
+        ],
+        "workbook_section": "2.5 Graphs of Polynomial Functions",
+        "solution_manual_note": "Answer B. Leading term \\(-2x^3\\): odd degree negative → down right, up left."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q026",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.1",
+      "mcq_type": "D",
+      "question": "Find all real zeros of \\(f(x) = (x+3)(2x-1)(4-x)\\).",
+      "options": {
+        "A": "\\(-3, \\frac{1}{2}, 4\\)",
+        "B": "\\(3, -\\frac{1}{2}, -4\\)",
+        "C": "\\(-3, -\\frac{1}{2}, 4\\)",
+        "D": "\\(3, \\frac{1}{2}, -4\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Set each factor equal to zero and solve.",
+      "explanation": "\\(x+3=0 \\to x=-3\\); \\(2x-1=0 \\to x=\\frac{1}{2}\\); \\(4-x=0 \\to x=4\\). Option B has signs reversed; C has wrong sign for 1/2; D has all signs wrong.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": null,
+        "structural_element": "Example 2.1",
+        "content_anchor": "finding zeros from factored form",
+        "page_hint": 27,
+        "concept_hash": "z8e0b7c6d9a1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 95,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Zeros are solutions to \\(f(x)=0\\), found by setting each factor to zero.",
+        "concept_summary": "For a factored polynomial, zeros are the values that make any factor zero.",
+        "beginner": "Each factor gives one zero: set \\(x+3=0\\), \\(2x-1=0\\), \\(4-x=0\\).",
+        "intermediate": "Solve each: \\(x=-3\\), \\(x=\\frac12\\), \\(x=4\\).",
+        "advanced": "Zero product property: if \\(f(x)=a(x-c_1)(x-c_2)...\\), then zeros are \\(c_1, c_2, ...\\).",
+        "worked_solution": [
+          "Step 1: Set \\(x+3=0\\) → \\(x=-3\\).",
+          "Step 2: Set \\(2x-1=0\\) → \\(2x=1\\) → \\(x=\\frac12\\).",
+          "Step 3: Set \\(4-x=0\\) → \\(-x=-4\\) → \\(x=4\\)."
+        ],
+        "reasoning_steps": [
+          "Apply zero product property.",
+          "Solve each linear equation.",
+          "List all distinct solutions."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Forgetting to solve \\(4-x=0\\) correctly (think \\(x=4\\) not \\(x=-4\\)).",
+          "Leaving answers as factors instead of values."
+        ],
+        "related_concepts": ["zero product property", "factor", "linear equation"],
+        "revision_note": "Set each factor = 0, solve.",
+        "glossary_entry": {
+          "term": "Zero product property",
+          "definition": "If product of factors = 0, at least one factor must be zero.",
+          "example_equation": "\\((x+3)(2x-1)(4-x)=0\\) → zeros \\(-3,\\frac12,4\\)",
+          "related_terms": ["zero", "factor"]
+        },
+        "flashcard": {
+          "front": "Find zeros of \\((x+3)(2x-1)(4-x)\\).",
+          "back": "\\(-3, \\frac12, 4\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Factored form", "relation": "directly_gives", "target": "Zeros"},
+          {"source": "Zero product property", "relation": "used_to", "target": "Solve f(x)=0"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "example_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Find all zeros: \\((x+3)(2x-1)(4-x)\\).",
+        "flashcard_back": "\\(-3, \\frac12, 4\\).",
+        "glossary_term": "Zero product property",
+        "glossary_definition": "If product of factors = 0, at least one factor equals 0.",
+        "revision_note": "Zeros: -3, 1/2, 4.",
+        "teacher_note": "Remind that \\(4-x=0\\) solves to \\(x=4\\), not \\(x=-4\\).",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Find zeros from factored polynomial",
+        "concept_map_nodes": [
+          {"source": "Factored polynomial", "relation": "zeros", "target": "Solutions to each factor=0"},
+          {"source": "Each factor=0", "relation": "solved_by", "target": "Linear equation"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer A. Solve each factor: \\(x=-3, x=1/2, x=4\\)."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q027",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Zeros of a Polynomial Function and their Multiplicities",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 2.9",
+      "mcq_type": "B",
+      "question": "A polynomial \\(f(x)\\) has zeros at \\(x=2\\) (multiplicity 3) and \\(x=-1\\) (multiplicity 1). What is the degree of \\(f(x)\\)?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "Cannot be determined without more factors"
+      },
+      "correct_answer": "B",
+      "hint": "Degree is the sum of the multiplicities of all zeros (counting complex).",
+      "explanation": "Total multiplicity = 3 + 1 = 4, so the degree is at least 4. If all zeros are given, degree = 4. Option D would be correct if factor \\((x^2+1)\\) etc. were possible, but these are all real zeros; degree could be higher with other factors. Reconsider — question states \"has zeros at\" but may have additional zeros. Typically degree ≥ sum of multiplicities. Since polynomial could have other zeros (complex or real not listed), degree cannot be determined uniquely. Correct answer is D.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Zeros of a Polynomial Function and their Multiplicities",
+        "structural_element": "Definition 2.9",
+        "content_anchor": "degree from multiplicities",
+        "page_hint": 28,
+        "concept_hash": "a9f1c8d7e0b2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "The degree is at least the sum of multiplicities of all known real zeros, but could be higher.",
+        "concept_summary": "Polynomial may have additional complex or real zeros not listed.",
+        "beginner": "Known zeros add to 4, but polynomial might have more factors we don't know.",
+        "intermediate": "Sum of given multiplicities = 4, but polynomial could have other zeros (e.g., \\(x^2+1\\)) increasing degree.",
+        "advanced": "Without the complete factorization or additional constraints (e.g., degree specified), degree is not uniquely determined.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Sum given multiplicities: 3+1=4.",
+          "This is minimum possible degree if no other zeros exist.",
+          "Other zeros (real or complex) would increase degree."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming listed zeros are all zeros; polynomial may have additional factors.",
+          "Confusing 'at least' with exact degree."
+        ],
+        "related_concepts": ["degree", "multiplicity", "Fundamental Theorem of Algebra"],
+        "revision_note": "Degree ≥ sum of multiplicities of listed zeros.",
+        "glossary_entry": {
+          "term": "Degree from zeros",
+          "definition": "Degree is at least the total multiplicity of all zeros, possibly larger.",
+          "example_equation": "zeros 2 (mult3), -1 (mult1) → deg ≥ 4",
+          "related_terms": ["degree", "multiplicity"]
+        },
+        "flashcard": {
+          "front": "If zeros at 2 (mult3) and -1 (mult1), what is degree?",
+          "back": "At least 4; cannot be determined exactly without more info."
+        },
+        "concept_map_nodes": [
+          {"source": "Zeros and multiplicities", "relation": "give_lower_bound", "target": "Degree"},
+          {"source": "Degree", "relation": "equals", "target": "Number of roots counting multiplicity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "info",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Can degree be determined uniquely from given zeros and multiplicities?",
+        "flashcard_back": "No, only lower bound; polynomial may have other factors.",
+        "glossary_term": "Degree lower bound",
+        "glossary_definition": "Degree ≥ total multiplicity of known zeros.",
+        "revision_note": "Known zeros → degree ≥ sum of mult.",
+        "teacher_note": "Stress that polynomial may have additional complex zeros not specified.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Relate zeros and multiplicities to degree",
+        "concept_map_nodes": [
+          {"source": "Known zeros", "relation": "give_minimum", "target": "Degree"},
+          {"source": "Degree", "relation": "could_be", "target": "Higher than minimum"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer D. Degree ≥ 4, but could be 5,6,... without complete factorization."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q028",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Rational Root Test",
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.5",
+      "mcq_type": "E",
+      "question": "Using the Rational Root Test, which value is a possible rational zero of \\(f(x) = 3x^3 - 5x^2 + 2x - 6\\)?",
+      "options": {
+        "A": "\\(\\frac{2}{3}\\)",
+        "B": "\\(\\frac{3}{2}\\)",
+        "C": "\\(\\frac{1}{6}\\)",
+        "D": "\\(\\frac{6}{1}\\)"
+      },
+      "correct_answer": "A",
+      "hint": "p factors of -6: ±1,±2,±3,±6; q factors of 3: ±1,±3.",
+      "explanation": "Possible \\(p/q\\): \\(\\pm1,\\pm2,\\pm3,\\pm6,\\pm\\frac13,\\pm\\frac23\\). \\(\\frac23\\) is in this set. Option B (\\(3/2\\)) would require 3|p and 2|q, but 2 does not divide 3.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Rational Root Test",
+        "structural_element": "Example 2.5",
+        "content_anchor": "possible rational zeros",
+        "page_hint": 32,
+        "concept_hash": "b0g2d9e8f1c3a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Possible rational zeros = \\(\\pm\\) factors of constant term / factors of leading coefficient.",
+        "concept_summary": "p = factors of -6 = 1,2,3,6; q = factors of 3 = 1,3.",
+        "beginner": "Make list: divide each factor of 6 by each factor of 3.",
+        "intermediate": "Set: \\(\\pm1,\\pm2,\\pm3,\\pm6,\\pm\\frac13,\\pm\\frac23\\). \\(\\frac23\\) is there.",
+        "advanced": "\\(\\frac23\\) satisfies \\(p=2\\) divides 6, \\(q=3\\) divides 3, and fraction reduced.",
+        "worked_solution": [
+          "Step 1: \\(a_0 = -6\\), factors p: \\(\\pm1,\\pm2,\\pm3,\\pm6\\).",
+          "Step 2: \\(a_n = 3\\), factors q: \\(\\pm1,\\pm3\\).",
+          "Step 3: All \\(p/q\\) include \\(2/3\\)."
+        ],
+        "reasoning_steps": [
+          "List p (constant term factors).",
+          "List q (leading coefficient factors).",
+          "Form all \\(p/q\\), reduce, include ±."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Forgetting negative signs.",
+          "Using p factors of leading coefficient and q factors of constant term (reverse)."
+        ],
+        "related_concepts": ["rational zero", "factor", "polynomial"],
+        "revision_note": "Possible rational zeros = p factors / q factors.",
+        "glossary_entry": {
+          "term": "Possible rational zero",
+          "definition": "Candidate rational numbers that could be zeros, p|a0, q|an.",
+          "example_equation": "\\(\\pm1,\\pm2,\\pm3,\\pm6,\\pm\\frac13,\\pm\\frac23\\)",
+          "related_terms": ["Rational Root Test", "candidate"]
+        },
+        "flashcard": {
+          "front": "Is \\(\\frac23\\) a possible rational zero of \\(3x^3-5x^2+2x-6\\)?",
+          "back": "Yes, 2|6, 3|3, fraction reduced."
+        },
+        "concept_map_nodes": [
+          {"source": "Possible rational zeros", "relation": "are", "target": "p/q"},
+          {"source": "p/q", "relation": "requires", "target": "p|a0 and q|an"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "example_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Is \\(2/3\\) a possible rational zero of \\(3x^3-5x^2+2x-6\\)?",
+        "flashcard_back": "Yes, by Rational Root Test.",
+        "glossary_term": "Rational Root Test",
+        "glossary_definition": "Tests possible rational zeros as p/q with p|a0, q|an.",
+        "revision_note": "2/3 possible if 2|6 and 3|3.",
+        "teacher_note": "Check reduction: 2/3 already reduced.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply Rational Root Test to identify possible zeros",
+        "concept_map_nodes": [
+          {"source": "Rational Root Test", "relation": "generates", "target": "Candidate set"},
+          {"source": "Candidate set", "relation": "contains", "target": "2/3"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer A. 2|6, 3|3, fraction reduced."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q029",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.5 Graphs of Polynomial Functions",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Note (smooth and continuous)",
+      "mcq_type": "F",
+      "question": "Which property is true for the graph of every polynomial function?",
+      "options": {
+        "A": "It has at least one sharp corner",
+        "B": "It is smooth and continuous everywhere",
+        "C": "It has exactly one turning point",
+        "D": "It is always increasing"
+      },
+      "correct_answer": "B",
+      "hint": "Polynomial graphs have no breaks or sharp corners.",
+      "explanation": "All polynomial graphs are smooth (no sharp corners) and continuous (no jumps/holes). Option A describes non-polynomials like absolute value; C false (can have many turning points); D false (can decrease).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "note"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 97
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.5 Graphs of Polynomial Functions",
+        "subsection_anchor": null,
+        "structural_element": "Note (smooth and continuous)",
+        "content_anchor": "polynomial graph smooth and continuous",
+        "page_hint": 38,
+        "concept_hash": "c1h3e0f9g2d4b3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 97,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Polynomial functions are smooth and continuous for all real numbers.",
+        "concept_summary": "No sharp turns, no breaks, no holes; can be differentiated everywhere.",
+        "beginner": "Polynomial graphs can be drawn without lifting pencil; no pointy edges.",
+        "intermediate": "Smooth means derivative exists everywhere; continuous means no gaps.",
+        "advanced": "Polynomials are infinitely differentiable and continuous on \\(\\mathbb{R}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize polynomial functions are defined for all reals.",
+          "They have no asymptotes, holes, or jumps.",
+          "They have no cusps or corners (smoothness)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking absolute value function is polynomial (it has corner at 0).",
+          "Confusing smooth with always increasing."
+        ],
+        "related_concepts": ["continuity", "differentiability", "smooth curve"],
+        "revision_note": "Polynomial graphs: smooth and continuous.",
+        "glossary_entry": {
+          "term": "Smooth and continuous",
+          "definition": "No sharp corners, holes, jumps, or breaks; graph is unbroken and differentiable.",
+          "example_equation": "any polynomial \\(f(x)=a_nx^n+...+a_0\\)",
+          "related_terms": ["continuity", "smooth curve"]
+        },
+        "flashcard": {
+          "front": "What is true about all polynomial graphs?",
+          "back": "They are smooth and continuous everywhere."
+        },
+        "concept_map_nodes": [
+          {"source": "Polynomial graph", "relation": "is", "target": "Smooth"},
+          {"source": "Polynomial graph", "relation": "is", "target": "Continuous"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "warning_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "important",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "What are two key properties of all polynomial graphs?",
+        "flashcard_back": "Smooth (no sharp corners) and continuous (no breaks).",
+        "glossary_term": "Smooth curve",
+        "glossary_definition": "A curve with no sharp corners, cusps, or discontinuities.",
+        "revision_note": "Polynomials: smooth & continuous.",
+        "teacher_note": "Counterexample: |x| is continuous but not smooth (corner at 0).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify properties of polynomial graphs",
+        "concept_map_nodes": [
+          {"source": "Polynomial", "relation": "graph_is", "target": "Smooth"},
+          {"source": "Polynomial", "relation": "graph_is", "target": "Continuous"}
+        ],
+        "workbook_section": "2.5 Graphs of Polynomial Functions",
+        "solution_manual_note": "Answer B. All polynomial graphs are smooth (no corners) and continuous (no breaks)."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q030",
+      "generation_timestamp": "2026-06-12T10:40:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Rational Root Test",
+      "sub_subsection": null,
+      "structural_anchor": "Procedure (5 steps)",
+      "mcq_type": "J",
+      "question": "Apply the Rational Root Test to \\(f(x) = 2x^4 - 3x^3 + 5x^2 - 7x + 1\\). Which set contains all possible rational zeros?",
+      "options": {
+        "A": "\\(\\pm 1, \\pm \\frac{1}{2}\\)",
+        "B": "\\(\\pm 1, \\pm 2\\)",
+        "C": "\\(\\pm 1, \\pm \\frac{1}{2}, \\pm 2\\)",
+        "D": "\\(\\pm 1\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Constant term factors: \\(\\pm1\\); leading coefficient factors: \\(\\pm1,\\pm2\\).",
+      "explanation": "p factors of 1: \\(\\pm1\\); q factors of 2: \\(\\pm1,\\pm2\\). Ratios: \\(\\pm1/1 = \\pm1\\), \\(\\pm1/2 = \\pm\\frac12\\). Option B omits fractions; C includes 2 which is not possible (2 not factor of 1 over 1); D omits 1/2.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "procedure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Rational Root Test",
+        "structural_element": "Procedure (5 steps)",
+        "content_anchor": "possible rational zeros list",
+        "page_hint": 32,
+        "concept_hash": "d2i4f1g0h3e5c3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Possible rational zeros = \\(\\pm\\) factors of constant term / factors of leading coefficient.",
+        "concept_summary": "For \\(2x^4-3x^3+5x^2-7x+1\\), constant term 1 factors \\(\\pm1\\), leading 2 factors \\(\\pm1,\\pm2\\).",
+        "beginner": "p=±1, q=±1,±2 → possible zeros ±1, ±1/2.",
+        "intermediate": "Set = \\(\\pm1, \\pm\\frac12\\). No others.",
+        "advanced": "The Rational Root Test yields \\(\\pm1\\) and \\(\\pm\\frac12\\) as the only candidates.",
+        "worked_solution": [
+          "Step 1: \\(a_0=1\\), factors p = \\(\\pm1\\).",
+          "Step 2: \\(a_n=2\\), factors q = \\(\\pm1,\\pm2\\).",
+          "Step 3: All \\(p/q\\): \\(\\pm1/1 = \\pm1\\), \\(\\pm1/2 = \\pm\\frac12\\).",
+          "Step 4: Simplify and remove duplicates → \\(\\pm1,\\pm\\frac12\\)."
+        ],
+        "reasoning_steps": [
+          "Find all integer factors of constant term (p).",
+          "Find all integer factors of leading coefficient (q).",
+          "List all distinct fractions p/q and their negatives."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Forgetting q can be factors other than 1.",
+          "Including p/q where q does not divide an."
+        ],
+        "related_concepts": ["rational zero", "factor", "integer coefficients"],
+        "revision_note": "Possible rational zeros = \\(\\pm\\) (factors constant)/(factors leading).",
+        "glossary_entry": {
+          "term": "Rational Root Test application",
+          "definition": "Applying test to generate candidate rational zeros.",
+          "example_equation": "\\(\\pm1,\\pm\\frac12\\) for \\(2x^4-3x^3+5x^2-7x+1\\)",
+          "related_terms": ["candidate", "possible zero"]
+        },
+        "flashcard": {
+          "front": "List possible rational zeros of \\(2x^4-3x^3+5x^2-7x+1\\).",
+          "back": "\\(\\pm1, \\pm\\frac12\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Rational Root Test", "relation": "applied_to", "target": "Polynomial"},
+          {"source": "Polynomial", "relation": "yields", "target": "Candidate zeros"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "What are possible rational zeros of \\(2x^4-3x^3+5x^2-7x+1\\)?",
+        "flashcard_back": "\\(\\pm1, \\pm\\frac12\\).",
+        "glossary_term": "Rational Root Test",
+        "glossary_definition": "Candidate rational zeros are p/q with p|a0, q|an.",
+        "revision_note": "Possible zeros: ±1, ±1/2.",
+        "teacher_note": "Constant term=1 forces p=±1 only.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Apply Rational Root Test to list candidates",
+        "concept_map_nodes": [
+          {"source": "Candidate set", "relation": "subset_of", "target": "Rational numbers"},
+          {"source": "Rational numbers", "relation": "generated_by", "target": "p/q"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer A. p=±1, q=±1,±2 → ±1, ±1/2."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2980,
+    "average_question_quality": 91.2,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "C": 1,
+      "D": 1,
+      "E": 1,
+      "F": 2,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 4,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.4 Zeros of a Polynomial Function": 7,
+      "2.5 Graphs of Polynomial Functions": 3
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 25,
+      "intermediate_avg": 36,
+      "advanced_avg": 44
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

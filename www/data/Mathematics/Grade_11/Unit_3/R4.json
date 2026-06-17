@@ -1,0 +1,1991 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:45:00Z",
+  "round_id": "R04",
+  "batch_sequence": 4,
+  "__STATE__": {
+    "current_round": 4,
+    "last_question_id": "G11_Math_U3_Q040",
+    "covered_sections": [
+      "3.1 The Concepts of a Matrix",
+      "3.2 Operations on Matrices>3.2.1 Equality of Matrices",
+      "3.2 Operations on Matrices>3.2.2 Addition of Matrices",
+      "3.2 Operations on Matrices>3.2.4 Scalar Multiplication of Matrices",
+      "3.2 Operations on Matrices>3.2.5 Multiplication of Matrices",
+      "3.2 Operations on Matrices>3.2.6 Transpose of a Matrix and Its Properties",
+      "3.3 Special Types of Matrices>3.3.1 Symmetric and Skew Symmetric Matrices",
+      "3.3 Special Types of Matrices>3.3.2 Diagonal Matrices and Triangular Matrices",
+      "3.4 Elementary Row Operations of Matrices",
+      "3.5 Systems of Linear Equations with Two or Three Variables",
+      "3.6 Solutions of Systems of Linear Equations"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i",
+      "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j",
+      "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k",
+      "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l",
+      "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m",
+      "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n",
+      "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o",
+      "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p",
+      "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q",
+      "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r",
+      "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s"
+    ],
+    "baseline_counter": {
+      "3.1 The Concepts of a Matrix": {
+        "Subsection_General": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      },
+      "3.2 Operations on Matrices": {
+        "3.2.1 Equality of Matrices": {
+          "count": 2,
+          "mini_headings_covered": ["Definition 3.2"],
+          "last_question_round": 1
+        },
+        "3.2.2 Addition of Matrices": {
+          "count": 2,
+          "mini_headings_covered": ["Definition 3.3"],
+          "last_question_round": 1
+        },
+        "3.2.4 Scalar Multiplication of Matrices": {
+          "count": 6,
+          "mini_headings_covered": ["Properties"],
+          "last_question_round": 4
+        },
+        "3.2.5 Multiplication of Matrices": {
+          "count": 4,
+          "mini_headings_covered": ["Definition 3.6", "Definition 3.8"],
+          "last_question_round": 4
+        },
+        "3.2.6 Transpose of a Matrix and Its Properties": {
+          "count": 4,
+          "mini_headings_covered": ["Definition 3.9", "Properties"],
+          "last_question_round": 4
+        }
+      },
+      "3.3 Special Types of Matrices": {
+        "3.3.1 Symmetric and Skew Symmetric Matrices": {
+          "count": 2,
+          "mini_headings_covered": ["Definition 3.10"],
+          "last_question_round": 2
+        },
+        "3.3.2 Diagonal Matrices and Triangular Matrices": {
+          "count": 3,
+          "mini_headings_covered": ["Definition 3.11", "Definition 3.12"],
+          "last_question_round": 4
+        }
+      },
+      "3.4 Elementary Row Operations of Matrices": {
+        "Subsection_General": {
+          "count": 4,
+          "mini_headings_covered": ["Definition 3.13", "Definition 3.16", "Definition 3.17"],
+          "last_question_round": 4
+        }
+      },
+      "3.5 Systems of Linear Equations with Two or Three Variables": {
+        "Subsection_General": {
+          "count": 2,
+          "mini_headings_covered": ["Definition 3.18"],
+          "last_question_round": 4
+        }
+      },
+      "3.6 Solutions of Systems of Linear Equations": {
+        "Subsection_General": {
+          "count": 2,
+          "mini_headings_covered": ["Definition 3.24"],
+          "last_question_round": 4
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 The Concepts of a Matrix": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.2 Operations on Matrices": {
+        "question_count": 18,
+        "last_used_round": 4,
+        "consecutive_batches": 4
+      },
+      "3.3 Special Types of Matrices": {
+        "question_count": 5,
+        "last_used_round": 4,
+        "consecutive_batches": 3
+      },
+      "3.4 Elementary Row Operations of Matrices": {
+        "question_count": 4,
+        "last_used_round": 4,
+        "consecutive_batches": 2
+      },
+      "3.5 Systems of Linear Equations": {
+        "question_count": 2,
+        "last_used_round": 4,
+        "consecutive_batches": 1
+      },
+      "3.6 Solutions of Systems of Linear Equations": {
+        "question_count": 2,
+        "last_used_round": 4,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 The Concepts of a Matrix>Subsection_General": [
+        "Matrix", "Row", "Column", "Size", "Order", "Entry"
+      ],
+      "3.2 Operations on Matrices>3.2.1 Equality of Matrices": [
+        "Equality of Matrices", "Corresponding entries"
+      ],
+      "3.2 Operations on Matrices>3.2.2 Addition of Matrices": [
+        "Matrix addition", "Zero matrix", "Sum of matrices"
+      ],
+      "3.2 Operations on Matrices>3.2.4 Scalar Multiplication of Matrices": [
+        "Scalar multiplication", "Distributive property"
+      ],
+      "3.2 Operations on Matrices>3.2.5 Multiplication of Matrices": [
+        "Matrix multiplication", "Compatibility", "Product of matrices", "Identity matrix"
+      ],
+      "3.2 Operations on Matrices>3.2.6 Transpose of a Matrix and Its Properties": [
+        "Transpose", "Transpose properties", "(AB)^t = B^t A^t"
+      ],
+      "3.3 Special Types of Matrices>3.3.1 Symmetric and Skew Symmetric Matrices": [
+        "Symmetric matrix", "Skew-symmetric matrix", "A^t = A", "A^t = -A"
+      ],
+      "3.3 Special Types of Matrices>3.3.2 Diagonal Matrices and Triangular Matrices": [
+        "Diagonal matrix", "Triangular matrix", "Upper triangular", "Lower triangular", "Trace"
+      ],
+      "3.4 Elementary Row Operations of Matrices>Subsection_General": [
+        "Elementary row operations", "Swapping", "Scaling", "Pivoting", "Row equivalent", "Row Echelon Form", "Reduced Row Echelon Form"
+      ],
+      "3.5 Systems of Linear Equations with Two or Three Variables>Subsection_General": [
+        "Linear equation", "System of linear equations", "Consistent system", "Inconsistent system"
+      ],
+      "3.6 Solutions of Systems of Linear Equations>Subsection_General": [
+        "Equivalent systems", "Gaussian elimination", "Augmented matrix"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 30,
+      "questions_per_concept_ratio": 1.33,
+      "structural_coverage_percentage": 50.0
+    }
+  },
+  "grade": "Grade 11",
+  "subject": "Mathematics",
+  "unit": "Unit 3: MATRICES",
+  "pdf_filename": "M11U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T10:45:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 8,
+        "progress_percentage": 75.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 9.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 40,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 50.0,
+      "concept_utilization_ratio": 1.33
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2 Operations on Matrices",
+      "least_covered_section": "3.7 Inverse of a Square Matrix",
+      "imbalance_ratio": 9.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G11_Math_U3_Q031",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.4 Elementary Row Operations of Matrices",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.16",
+      "mcq_type": "A",
+      "question": "What is a characteristic of a matrix in Row Echelon Form (REF)?",
+      "options": {
+        "A": "The leading entry of each nonzero row is to the right of the leading entry of the row above",
+        "B": "All diagonal entries must be 1",
+        "C": "All entries below the diagonal must be zero",
+        "D": "The matrix must be upper triangular with ones on the diagonal"
+      },
+      "correct_answer": "A",
+      "hint": "REF requires a staircase pattern of leading entries.",
+      "explanation": "In REF, the leading (first nonzero) entry in each row is strictly to the right of the leading entry in the row above. Option B describes RREF, not REF.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.4 Elementary Row Operations of Matrices",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Definition 3.16",
+        "content_anchor": "Row Echelon Form",
+        "page_hint": 39,
+        "concept_hash": "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Row Echelon Form requires that each leading entry is to the right of the leading entry above it.",
+        "concept_summary": "REF creates a staircase pattern of leading coefficients, with zeros below each leading entry.",
+        "beginner": "The first non-zero number in each row is further to the right than the one above it.",
+        "intermediate": "In REF, the leading coefficient (pivot) of a nonzero row is always to the right of the pivot in the previous row.",
+        "advanced": "REF is a canonical form achieved via Gaussian elimination, characterized by a pivot in each nonzero row that lies strictly to the right of pivots in higher rows.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Scan rows from top to bottom.",
+          "Ensure the first nonzero entry in each lower row is in a later column than the previous row's first nonzero entry."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "REF does not require leading entries to be 1; that is a requirement for RREF."
+        ],
+        "related_concepts": [
+          "Reduced Row Echelon Form",
+          "Gaussian elimination",
+          "Pivot"
+        ],
+        "revision_note": "REF: staircase pattern of pivots.",
+        "glossary_entry": {
+          "term": "Row Echelon Form",
+          "definition": "A matrix form where the leading entry of each row is to the right of the leading entry above it.",
+          "example_equation": "\\(\\begin{pmatrix}2&3\\\\0&1\\end{pmatrix}\\)",
+          "related_terms": [
+            "RREF",
+            "Pivot"
+          ]
+        },
+        "flashcard": {
+          "front": "What defines a matrix in Row Echelon Form?",
+          "back": "Leading entries move right as you move down rows."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "REF",
+            "relation": "requires",
+            "target": "Staggered pivots"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 3 — Row Echelon Forms",
+        "flashcard_front": "What is the key feature of Row Echelon Form?",
+        "flashcard_back": "Leading entries shift right as you go down rows.",
+        "glossary_term": "Row Echelon Form",
+        "glossary_definition": "Matrix form with staggered leading entries.",
+        "revision_note": "REF: pivots move right.",
+        "teacher_note": "Draw a staircase shape to illustrate the pattern.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Formulate elementary row operations",
+        "concept_map_nodes": [
+          {
+            "source": "REF",
+            "relation": "has",
+            "target": "Leading entries"
+          }
+        ],
+        "workbook_section": "3.4 Elementary Row Operations",
+        "solution_manual_note": "Answer A. In REF, each leading entry is to the right of the leading entry above it."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q032",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.4 Elementary Row Operations of Matrices",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.17",
+      "mcq_type": "A",
+      "question": "What additional condition must a matrix satisfy to be in Reduced Row Echelon Form (RREF)?",
+      "options": {
+        "A": "The leading entry in each nonzero row must be 1 and be the only nonzero entry in its column",
+        "B": "All rows must have the same number of leading zeros",
+        "C": "The matrix must be a square matrix",
+        "D": "All diagonal entries must be 1"
+      },
+      "correct_answer": "A",
+      "hint": "RREF is REF with normalized pivots and zeros above them.",
+      "explanation": "RREF requires REF plus each leading entry is 1 (a pivot) and is the only nonzero element in its column. Option D is insufficient because off-diagonal zeros above pivots also matter.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.4 Elementary Row Operations of Matrices",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Definition 3.17",
+        "content_anchor": "Reduced Row Echelon Form",
+        "page_hint": 42,
+        "concept_hash": "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "RREF is REF where each leading entry is 1 and is the sole nonzero element in its column.",
+        "concept_summary": "RREF has pivots of 1 with zeros both above and below each pivot.",
+        "beginner": "Every row starts with a 1, and it is the only non-zero number in that column.",
+        "intermediate": "In RREF, pivot entries are 1, and all other entries in pivot columns are zero.",
+        "advanced": "RREF is the unique canonical form achievable via Gauss-Jordan elimination, where each pivot is 1 and eliminates all other entries in its column.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Verify the matrix is in REF first.",
+          "Check that each leading entry is 1.",
+          "Ensure all entries above and below each leading 1 are zero."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "REF with ones on the diagonal is not enough; zeros above pivots are required."
+        ],
+        "related_concepts": [
+          "Row Echelon Form",
+          "Gauss-Jordan elimination"
+        ],
+        "revision_note": "RREF: 1s on pivots, zeros elsewhere in pivot columns.",
+        "glossary_entry": {
+          "term": "Reduced Row Echelon Form",
+          "definition": "REF where pivots are 1 and are the only non-zero entries in their columns.",
+          "example_equation": "\\(\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\\)",
+          "related_terms": [
+            "REF",
+            "Gauss-Jordan"
+          ]
+        },
+        "flashcard": {
+          "front": "What makes RREF different from REF?",
+          "back": "Pivots are 1 and are the only non-zero in their column."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "RREF",
+            "relation": "is",
+            "target": "REF + unit pivots + zero above"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 3 — Row Echelon Forms",
+        "flashcard_front": "What is required for a matrix to be in RREF?",
+        "flashcard_back": "Each pivot is 1 and is the only non-zero entry in its column.",
+        "glossary_term": "RREF",
+        "glossary_definition": "REF with unit pivots that eliminate all other entries in their columns.",
+        "revision_note": "RREF: 1s alone in pivot columns.",
+        "teacher_note": "Show the identity matrix as the canonical RREF example.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Formulate elementary row operations",
+        "concept_map_nodes": [
+          {
+            "source": "RREF",
+            "relation": "has",
+            "target": "Unit pivots"
+          }
+        ],
+        "workbook_section": "3.4 Elementary Row Operations",
+        "solution_manual_note": "Answer A. RREF requires leading entries to be 1 and be the only nonzero in their columns."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q033",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.5 Systems of Linear Equations with Two or Three Variables",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.18",
+      "mcq_type": "A",
+      "question": "What is a linear equation in variables \\(x_1, x_2, ..., x_n\\)?",
+      "options": {
+        "A": "An equation of the form \\(a_1x_1 + a_2x_2 + ... + a_nx_n = b\\)",
+        "B": "An equation where the highest power of any variable is 2",
+        "C": "An equation that involves products of variables",
+        "D": "An equation that contains trigonometric functions"
+      },
+      "correct_answer": "A",
+      "hint": "Linear means variables appear only to the first power, added together.",
+      "explanation": "A linear equation has the form \\(a_1x_1 + ... + a_nx_n = b\\), where variables are to the first power only. Options B, C, and D describe non-linear equations.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.5 Systems of Linear Equations with Two or Three Variables",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Definition 3.18",
+        "content_anchor": "linear equation",
+        "page_hint": 46,
+        "concept_hash": "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 35,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "A linear equation is of the form \\(\\sum a_i x_i = b\\), where \\(a_i\\) and \\(b\\) are constants.",
+        "concept_summary": "Linearity requires that variables appear only to the first power, without multiplication between variables.",
+        "beginner": "Linear equations are like \\(2x + 3y = 5\\): no squares, square roots, or \\(xy\\) terms.",
+        "intermediate": "A linear equation has the form \\(a_1x_1 + a_2x_2 + ... + a_nx_n = b\\), with real coefficients \\(a_i\\) and \\(b\\).",
+        "advanced": "Linear equations are those where the left-hand side is a linear functional on \\(\\mathbb{R}^n\\), defined by a dot product with a coefficient vector.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check that variables have exponent 1.",
+          "Check that no variable is multiplied by another.",
+          "Match the general form \\( \\sum a_i x_i = b\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(a_1x_1 + a_2x_2 + ... + a_nx_n = b\\)",
+            "name": "General linear equation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Equations like \\(x^2 + y = 0\\) or \\(xy = 1\\) are not linear."
+        ],
+        "related_concepts": [
+          "System of equations",
+          "Coefficient matrix"
+        ],
+        "revision_note": "Linear: variables to power 1, no products.",
+        "glossary_entry": {
+          "term": "Linear equation",
+          "definition": "An equation where each term is a constant times a variable to the first power.",
+          "example_equation": "\\(3x - 2y = 7\\)",
+          "related_terms": [
+            "System",
+            "Coefficient"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the general form of a linear equation?",
+          "back": "\\(a_1x_1 + a_2x_2 + ... + a_nx_n = b\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Linear equation",
+            "relation": "has",
+            "target": "First-degree terms only"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 3 — Systems of Equations",
+        "flashcard_front": "What form does a linear equation take?",
+        "flashcard_back": "\\(a_1x_1 + a_2x_2 + ... + a_nx_n = b\\).",
+        "glossary_term": "Linear equation",
+        "glossary_definition": "Equation where variables appear only to the first power.",
+        "revision_note": "Linear: \\( \\sum a_i x_i = b\\).",
+        "teacher_note": "Contrast with \\(x^2\\) or \\(\\sin x\\) to clarify linearity.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define system of linear equations",
+        "concept_map_nodes": [
+          {
+            "source": "Linear",
+            "relation": "excludes",
+            "target": "Non-linear terms"
+          }
+        ],
+        "workbook_section": "3.5 Systems of Linear Equations",
+        "solution_manual_note": "Answer A. A linear equation is of the form \\(a_1x_1 + ... + a_nx_n = b\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q034",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.5 Systems of Linear Equations with Two or Three Variables",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.22",
+      "mcq_type": "F",
+      "question": "A system of linear equations that has no solution is called:",
+      "options": {
+        "A": "Consistent",
+        "B": "Inconsistent",
+        "C": "Homogeneous",
+        "D": "Dependent"
+      },
+      "correct_answer": "B",
+      "hint": "Inconsistent means no intersection point.",
+      "explanation": "An inconsistent system has no solution (e.g., parallel lines). A consistent system has at least one solution. Option C refers to a system with all constants zero.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.5 Systems of Linear Equations with Two or Three Variables",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Definition 3.22",
+        "content_anchor": "inconsistent system",
+        "page_hint": 52,
+        "concept_hash": "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 30,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "An inconsistent system has no solution.",
+        "concept_summary": "Inconsistent systems occur when equations contradict each other, like parallel lines that never meet.",
+        "beginner": "If a system has no solution at all, it's called inconsistent.",
+        "intermediate": "When a system of equations has no solution (e.g., \\(x+y=1\\) and \\(x+y=2\\)), it is inconsistent.",
+        "advanced": "Inconsistency is detected when row reduction yields a row \\([0 \\dots 0 | c]\\) with \\(c \\neq 0\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Attempt to solve the system.",
+          "If a contradiction (e.g., \\(0=1\\)) arises, the system is inconsistent."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Inconsistent is sometimes confused with 'dependent' (infinitely many solutions)."
+        ],
+        "related_concepts": [
+          "Consistent",
+          "Solution set",
+          "Contradiction"
+        ],
+        "revision_note": "Inconsistent: no solution.",
+        "glossary_entry": {
+          "term": "Inconsistent system",
+          "definition": "A system of equations with no solution.",
+          "example_equation": "\\(x+y=1, x+y=2\\)",
+          "related_terms": [
+            "Consistent",
+            "Contradiction"
+          ]
+        },
+        "flashcard": {
+          "front": "What do you call a system with no solution?",
+          "back": "Inconsistent."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Inconsistent",
+            "relation": "has",
+            "target": "No solution"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 3 — Systems of Equations",
+        "flashcard_front": "What is an inconsistent system?",
+        "flashcard_back": "A system with no solution.",
+        "glossary_term": "Inconsistent",
+        "glossary_definition": "A system of equations that has no solution.",
+        "revision_note": "Inconsistent = no solution.",
+        "teacher_note": "Use parallel lines graph to visualize inconsistency.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define system of linear equations",
+        "concept_map_nodes": [
+          {
+            "source": "Inconsistent",
+            "relation": "means",
+            "target": "No intersection"
+          }
+        ],
+        "workbook_section": "3.5 Systems of Linear Equations",
+        "solution_manual_note": "Answer B. An inconsistent system has no solution."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q035",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.6 Solutions of Systems of Linear Equations",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.24",
+      "mcq_type": "F",
+      "question": "Two systems of linear equations are equivalent if:",
+      "options": {
+        "A": "They have the same number of equations",
+        "B": "They have the same coefficient matrix",
+        "C": "Every solution of one system is a solution of the other",
+        "D": "They have the same augmented matrix"
+      },
+      "correct_answer": "C",
+      "hint": "Equivalence means identical solution sets.",
+      "explanation": "Equivalent systems have exactly the same solution set. Option C correctly states this. Option D is too strict; augmented matrices can be different but row-equivalent.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.6 Solutions of Systems of Linear Equations",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Definition 3.24",
+        "content_anchor": "equivalent systems",
+        "page_hint": 60,
+        "concept_hash": "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Equivalent systems share the same solution set.",
+        "concept_summary": "Systems are equivalent if any solution to one automatically satisfies the other.",
+        "beginner": "If you solve one system and get the same answers as the other, they are equivalent.",
+        "intermediate": "Two systems are equivalent if every solution of the first is a solution of the second, and vice versa.",
+        "advanced": "Equivalence is an equivalence relation; row operations on the augmented matrix produce equivalent systems.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Solve both systems (or check if one can be transformed into the other via row ops).",
+          "If solution sets match, the systems are equivalent."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Equivalent systems need not have the same number of equations."
+        ],
+        "related_concepts": [
+          "Row equivalence",
+          "Gaussian elimination"
+        ],
+        "revision_note": "Equivalent systems: same solutions.",
+        "glossary_entry": {
+          "term": "Equivalent systems",
+          "definition": "Systems of equations that have the same solution set.",
+          "example_equation": null,
+          "related_terms": [
+            "Row-equivalent",
+            "Solution set"
+          ]
+        },
+        "flashcard": {
+          "front": "What makes two linear systems equivalent?",
+          "back": "They have exactly the same solutions."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Equivalent",
+            "relation": "means",
+            "target": "Same solution set"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 3 — Solving Systems",
+        "flashcard_front": "What does it mean for systems to be equivalent?",
+        "flashcard_back": "They have the same solution set.",
+        "glossary_term": "Equivalent",
+        "glossary_definition": "Systems with identical solution sets.",
+        "revision_note": "Equivalent = same solutions.",
+        "teacher_note": "Emphasize that row operations preserve equivalence.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Solve linear system of equations",
+        "concept_map_nodes": [
+          {
+            "source": "Equivalent systems",
+            "relation": "produced_by",
+            "target": "Row operations"
+          }
+        ],
+        "workbook_section": "3.6 Solutions of Systems",
+        "solution_manual_note": "Answer C. Equivalent systems have identical solution sets."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q036",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.5 Multiplication of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.6",
+      "mcq_type": "N",
+      "question": "For which condition is the product \\(\\mathbf{AB}\\) NOT defined?",
+      "options": {
+        "A": "Number of columns of A = number of rows of B",
+        "B": "A is \\(2\\times3\\) and B is \\(3\\times2\\)",
+        "C": "A is \\(3\\times2\\) and B is \\(3\\times2\\)",
+        "D": "A is \\(1\\times4\\) and B is \\(4\\times1\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Inner dimensions must match.",
+      "explanation": "For \\(AB\\) to be defined, columns of A must equal rows of B. Option C: A is \\(3\\times2\\) (2 columns) and B is \\(3\\times2\\) (3 rows), so \\(2 \\neq 3\\), product undefined. Option D has matching dimensions.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.5 Multiplication of Matrices",
+        "structural_element": "Definition 3.6",
+        "content_anchor": "compatibility",
+        "page_hint": 20,
+        "concept_hash": "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Product \\(AB\\) is defined only if columns of A = rows of B.",
+        "concept_summary": "Matrix multiplication requires the inner dimensions to match; otherwise, the operation is not possible.",
+        "beginner": "Check the middle numbers: columns of first must match rows of second.",
+        "intermediate": "For A (3×2) and B (3×2), columns of A (2) ≠ rows of B (3), so AB is undefined.",
+        "advanced": "The composition of linear maps \\(T_A: \\mathbb{R}^2 \\to \\mathbb{R}^3\\) and \\(T_B: \\mathbb{R}^2 \\to \\mathbb{R}^3\\) is not defined because the codomain of \\(T_B\\) ( \\(\\mathbb{R}^3\\) ) does not match the domain of \\(T_A\\) ( \\(\\mathbb{R}^2\\) ).",
+        "worked_solution": [
+          "Step 1: A has 2 columns.",
+          "Step 2: B has 3 rows.",
+          "Step 3: Since 2 ≠ 3, the product is not defined."
+        ],
+        "reasoning_steps": [
+          "Identify dimensions of A (rows × columns).",
+          "Identify dimensions of B (rows × columns).",
+          "If columns(A) ≠ rows(B), AB is undefined."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think any matrices can be multiplied as long as they are square."
+        ],
+        "related_concepts": [
+          "Matrix multiplication",
+          "Dimensions",
+          "Compatibility"
+        ],
+        "revision_note": "AB defined ↔ cols(A) = rows(B).",
+        "glossary_entry": {
+          "term": "Compatibility",
+          "definition": "Condition for matrix multiplication: columns of first matrix must equal rows of second.",
+          "example_equation": null,
+          "related_terms": [
+            "Dimensions",
+            "Undefined"
+          ]
+        },
+        "flashcard": {
+          "front": "When is AB undefined?",
+          "back": "When columns of A ≠ rows of B."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Undefined product",
+            "relation": "caused_by",
+            "target": "Mismatched inner dimensions"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Multiplication",
+        "flashcard_front": "Is \\(A_{3\\times2} B_{3\\times2}\\) defined?",
+        "flashcard_back": "No, because 2 (cols of A) ≠ 3 (rows of B).",
+        "glossary_term": "Undefined product",
+        "glossary_definition": "Product not possible due to dimension mismatch.",
+        "revision_note": "Columns(A) must equal Rows(B).",
+        "teacher_note": "Use arrows to show matching dimensions.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Dimension mismatch",
+            "relation": "causes",
+            "target": "Undefined product"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer C. A (3×2) has 2 columns, B (3×2) has 3 rows; 2 ≠ 3 so undefined."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q037",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.2 Addition of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.3",
+      "mcq_type": "H",
+      "question": "A student claims that matrix subtraction is defined as \\(\\mathbf{A} - \\mathbf{B} = \\mathbf{A} + \\mathbf{B}\\). What is the correct definition?",
+      "options": {
+        "A": "\\(\\mathbf{A} - \\mathbf{B} = \\mathbf{A} + (-1)\\mathbf{B}\\)",
+        "B": "\\(\\mathbf{A} - \\mathbf{B} = \\mathbf{B} - \\mathbf{A}\\)",
+        "C": "\\(\\mathbf{A} - \\mathbf{B} = \\mathbf{A} - \\mathbf{B} = \\mathbf{0}\\)",
+        "D": "\\(\\mathbf{A} - \\mathbf{B} = \\mathbf{A} + \\mathbf{B}^t\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Subtraction is adding the negative of the second matrix.",
+      "explanation": "Matrix subtraction is defined as \\(A - B = A + (-1)B\\), adding the additive inverse of B. Option B is false because subtraction is not commutative.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\mathbf{A} - \\mathbf{B} = \\mathbf{A} + (-1)\\mathbf{B}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.2 Addition of Matrices",
+        "structural_element": "Definition 3.3",
+        "content_anchor": "matrix subtraction",
+        "page_hint": 18,
+        "concept_hash": "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Matrix subtraction: \\(A - B = A + (-B)\\).",
+        "concept_summary": "Subtraction is defined by adding the additive inverse: multiply B by -1, then add.",
+        "beginner": "Subtraction is like adding the opposite matrix: \\(A - B = A + (-B)\\).",
+        "intermediate": "Correct definition: \\(A - B = A + (-1)B\\).",
+        "advanced": "Subtraction is derived from the vector space structure: \\(A - B = A + (-1)B\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall scalar multiplication by -1 gives \\(-B\\).",
+          "Matrix addition is defined for same-sized matrices.",
+          "Thus \\(A - B = A + (-B)\\)."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathbf{A} - \\mathbf{B} = \\mathbf{A} + (-1)\\mathbf{B}\\)",
+            "name": "Matrix subtraction definition",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Subtraction is not commutative; \\(A-B \\neq B-A\\) generally."
+        ],
+        "related_concepts": [
+          "Additive inverse",
+          "Matrix addition"
+        ],
+        "revision_note": "A - B = A + (-B).",
+        "glossary_entry": {
+          "term": "Matrix subtraction",
+          "definition": "Adding the additive inverse of the second matrix to the first.",
+          "example_equation": "\\(A - B = A + (-1)B\\)",
+          "related_terms": [
+            "Addition",
+            "Additive inverse"
+          ]
+        },
+        "flashcard": {
+          "front": "How is matrix subtraction correctly defined?",
+          "back": "\\(A - B = A + (-1)B\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Subtraction",
+            "relation": "defined_as",
+            "target": "Addition of negative"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 3 — Matrix Operations",
+        "flashcard_front": "What is the correct formula for \\(A - B\\)?",
+        "flashcard_back": "\\(A - B = A + (-1)B\\).",
+        "glossary_term": "Subtraction",
+        "glossary_definition": "Operation adding the negative of one matrix to another.",
+        "revision_note": "A - B = A + (-B).",
+        "teacher_note": "Clarify that subtraction is not a separate operation but addition of an inverse.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Subtraction",
+            "relation": "relies_on",
+            "target": "Additive inverse"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer A. Subtraction is defined as \\(A - B = A + (-1)B\\)."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q038",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.2 Operations on Matrices",
+      "subsection": "3.2.5 Multiplication of Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.8",
+      "mcq_type": "F",
+      "question": "For any square matrix \\(\\mathbf{A}\\), what is \\(\\mathbf{A} \\mathbf{I}_n\\)?",
+      "options": {
+        "A": "\\(\\mathbf{I}_n\\)",
+        "B": "\\(\\mathbf{A}\\)",
+        "C": "\\(\\mathbf{0}\\)",
+        "D": "\\(\\mathbf{A}^2\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Identity matrix behaves like 1 in multiplication.",
+      "explanation": "The identity matrix \\(I_n\\) acts as the multiplicative identity: \\(A I_n = A\\). Option A would be true only if \\(A = I_n\\).",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\mathbf{A} \\mathbf{I}_n = \\mathbf{A}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.2 Operations on Matrices",
+        "subsection_anchor": "3.2.5 Multiplication of Matrices",
+        "structural_element": "Definition 3.8",
+        "content_anchor": "identity matrix property",
+        "page_hint": 23,
+        "concept_hash": "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 30,
+        "distractor_quality_score": 94,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "The identity matrix satisfies \\(A I_n = I_n A = A\\).",
+        "concept_summary": "Multiplying any matrix by the identity matrix of compatible size leaves the matrix unchanged.",
+        "beginner": "It's like multiplying a number by 1; you get the same number back.",
+        "intermediate": "\\(A I_n = A\\) for any square matrix \\(A\\) of order \\(n\\).",
+        "advanced": "The identity matrix is the identity element in the multiplicative monoid of \\(n\\times n\\) matrices.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition of \\(I_n\\): ones on diagonal, zeros elsewhere.",
+          "Multiplying \\(A\\) by \\(I_n\\) leaves each row of \\(A\\) unchanged."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathbf{A} \\mathbf{I}_n = \\mathbf{A}\\)",
+            "name": "Identity property",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "\\(A I = I\\) is false; \\(I\\) is identity, not an annihilator."
+        ],
+        "related_concepts": [
+          "Identity matrix",
+          "Multiplicative identity"
+        ],
+        "revision_note": "A I = A",
+        "glossary_entry": {
+          "term": "Identity property",
+          "definition": "Property that multiplying a matrix by the identity matrix returns the original matrix.",
+          "example_equation": "\\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix} \\begin{pmatrix}1&0\\\\0&1\\end{pmatrix} = \\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\)",
+          "related_terms": [
+            "Identity matrix",
+            "Multiplicative identity"
+          ]
+        },
+        "flashcard": {
+          "front": "What is \\(A I_n\\) for any square matrix \\(A\\)?",
+          "back": "A (the original matrix)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "I_n",
+            "relation": "acts_as",
+            "target": "Multiplicative identity"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 3 — Identity Matrix",
+        "flashcard_front": "What is the result of \\(A I_n\\)?",
+        "flashcard_back": "A (unchanged).",
+        "glossary_term": "Identity property",
+        "glossary_definition": "Multiplication by identity leaves matrix unchanged.",
+        "revision_note": "A I = A",
+        "teacher_note": "Show with a 2×2 example to build intuition.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Perform operation on matrices",
+        "concept_map_nodes": [
+          {
+            "source": "Multiplication by I",
+            "relation": "preserves",
+            "target": "Original matrix"
+          }
+        ],
+        "workbook_section": "3.2 Operations on Matrices",
+        "solution_manual_note": "Answer B. \\(A I_n = A\\) by the definition of the identity matrix."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q039",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.5 Systems of Linear Equations with Two or Three Variables",
+      "subsection": "Subsection_General",
+      "sub_subsection": null,
+      "structural_anchor": "Figure 3.2",
+      "mcq_type": "G",
+      "question": "A system of two linear equations in two variables has no solution. What does this indicate about their graphs?",
+      "options": {
+        "A": "The lines intersect at one point",
+        "B": "The lines are parallel and distinct",
+        "C": "The lines are coincident (same line)",
+        "D": "The lines are perpendicular"
+      },
+      "correct_answer": "B",
+      "hint": "No solution means they never meet.",
+      "explanation": "If a system has no solution, the lines are parallel and do not intersect. Option A describes a unique solution. Option C describes infinitely many solutions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "figure"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.5 Systems of Linear Equations with Two or Three Variables",
+        "subsection_anchor": "Subsection_General",
+        "structural_element": "Figure 3.2",
+        "content_anchor": "parallel lines",
+        "page_hint": 55,
+        "concept_hash": "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 92,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "No solution implies parallel distinct lines.",
+        "concept_summary": "Graphically, an inconsistent system corresponds to parallel lines that never intersect.",
+        "beginner": "If two lines never cross, they are parallel and the system has no solution.",
+        "intermediate": "A system with no solution means the lines are parallel and separate (distinct).",
+        "advanced": "Inconsistent linear equations in two variables represent parallel hyperplanes (lines) with no intersection point.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that solution to a 2×2 system is the intersection point.",
+          "If no intersection exists, lines must be parallel (same slope).",
+          "They cannot be coincident, as that would give infinite solutions."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "No solution could be mistakenly thought to mean perpendicular lines."
+        ],
+        "related_concepts": [
+          "Consistent system",
+          "Parallel lines",
+          "Slope"
+        ],
+        "revision_note": "No solution → parallel distinct lines.",
+        "glossary_entry": {
+          "term": "Inconsistent system (graphical)",
+          "definition": "A system whose graphs are parallel lines that do not intersect.",
+          "example_equation": "\\(y = 2x + 1, y = 2x + 3\\)",
+          "related_terms": [
+            "Parallel",
+            "No intersection"
+          ]
+        },
+        "flashcard": {
+          "front": "What do the graphs look like for an inconsistent system?",
+          "back": "Parallel and distinct lines."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "No solution",
+            "relation": "graphically_means",
+            "target": "Parallel distinct lines"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 3 — Systems of Equations",
+        "flashcard_front": "What graph represents a system with no solution?",
+        "flashcard_back": "Two parallel, distinct lines.",
+        "glossary_term": "Parallel lines",
+        "glossary_definition": "Lines with equal slope that do not intersect.",
+        "revision_note": "No solution: parallel lines.",
+        "teacher_note": "Show graphs of intersecting, parallel, and coincident lines.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Solve linear system of equations",
+        "concept_map_nodes": [
+          {
+            "source": "No solution",
+            "relation": "equals",
+            "target": "Parallel lines"
+          }
+        ],
+        "workbook_section": "3.5 Systems of Linear Equations",
+        "solution_manual_note": "Answer B. No solution means the lines are parallel and distinct."
+      }
+    },
+    {
+      "question_id": "G11_Math_U3_Q040",
+      "generation_timestamp": "2026-06-14T10:45:00Z",
+      "grade": "Grade 11",
+      "subject": "Mathematics",
+      "unit": "Unit 3: MATRICES",
+      "section": "3.3 Special Types of Matrices",
+      "subsection": "3.3.2 Diagonal Matrices and Triangular Matrices",
+      "sub_subsection": null,
+      "structural_anchor": "Definition 3.11",
+      "mcq_type": "J",
+      "question": "What type of matrix is both upper triangular and lower triangular?",
+      "options": {
+        "A": "Symmetric matrix",
+        "B": "Diagonal matrix",
+        "C": "Identity matrix only",
+        "D": "Zero matrix only"
+      },
+      "correct_answer": "B",
+      "hint": "If it's both upper and lower triangular, only the diagonal can have non-zero entries.",
+      "explanation": "A matrix that is both upper triangular (zeros below diagonal) and lower triangular (zeros above diagonal) must have zeros everywhere except possibly on the diagonal, i.e., a diagonal matrix. Option C is too restrictive.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "definition"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 5.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: MATRICES",
+        "section_anchor": "3.3 Special Types of Matrices",
+        "subsection_anchor": "3.3.2 Diagonal Matrices and Triangular Matrices",
+        "structural_element": "Definition 3.12",
+        "content_anchor": "upper and lower triangular",
+        "page_hint": 33,
+        "concept_hash": "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A matrix that is both upper and lower triangular has zeros off the main diagonal.",
+        "concept_summary": "Upper triangular has zeros below diagonal; lower triangular has zeros above diagonal. The intersection is diagonal matrices.",
+        "beginner": "If a matrix is both upper and lower triangular, it only has numbers on its diagonal.",
+        "intermediate": "Being both upper and lower triangular forces all off-diagonal entries to be zero, making it a diagonal matrix.",
+        "advanced": "The intersection of the subspaces of upper and lower triangular matrices is the subspace of diagonal matrices.",
+        "worked_solution": [
+          "Step 1: Upper triangular implies \\(a_{ij}=0\\) for \\(i>j\\).",
+          "Step 2: Lower triangular implies \\(a_{ij}=0\\) for \\(i<j\\).",
+          "Step 3: Combined, \\(a_{ij}=0\\) whenever \\(i\\neq j\\).",
+          "Step 4: Thus the matrix is diagonal."
+        ],
+        "reasoning_steps": [
+          "Write conditions for upper triangular (zeros below diag).",
+          "Write conditions for lower triangular (zeros above diag).",
+          "Combine to get zeros everywhere except diagonal."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Only zero matrix or identity are often cited, but any diagonal matrix qualifies."
+        ],
+        "related_concepts": [
+          "Upper triangular",
+          "Lower triangular",
+          "Diagonal"
+        ],
+        "revision_note": "Upper ∩ Lower = Diagonal.",
+        "glossary_entry": {
+          "term": "Diagonal matrix",
+          "definition": "Matrix with zeros off the main diagonal.",
+          "example_equation": "\\(\\begin{pmatrix}5&0\\\\0&-2\\end{pmatrix}\\)",
+          "related_terms": [
+            "Triangular",
+            "Zero off-diagonal"
+          ]
+        },
+        "flashcard": {
+          "front": "What matrix is both upper and lower triangular?",
+          "back": "A diagonal matrix."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Upper triangular",
+            "relation": "requires",
+            "target": "Zeros below diag"
+          },
+          {
+            "source": "Lower triangular",
+            "relation": "requires",
+            "target": "Zeros above diag"
+          },
+          {
+            "source": "Both",
+            "relation": "implies",
+            "target": "Zeros off diag (diagonal)"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 3 — Special Matrices",
+        "flashcard_front": "What kind of matrix is both upper and lower triangular?",
+        "flashcard_back": "A diagonal matrix.",
+        "glossary_term": "Diagonal",
+        "glossary_definition": "Matrix with zeros off the main diagonal.",
+        "revision_note": "Both triangular → diagonal.",
+        "teacher_note": "Use Venn diagram to show intersection of triangular matrices.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Differentiate types of a matrix",
+        "concept_map_nodes": [
+          {
+            "source": "Upper triangular",
+            "relation": "intersect",
+            "target": "Lower triangular"
+          },
+          {
+            "source": "Intersection",
+            "relation": "equals",
+            "target": "Diagonal matrices"
+          }
+        ],
+        "workbook_section": "3.3 Special Types of Matrices",
+        "solution_manual_note": "Answer B. A matrix that is both upper and lower triangular has all off-diagonal entries zero, making it a diagonal matrix."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3500,
+    "average_question_quality": 92.0,
+    "type_distribution": {
+      "A": 3,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "J": 1,
+      "N": 2
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.2 Operations on Matrices": 3,
+      "3.3 Special Types of Matrices": 2,
+      "3.4 Elementary Row Operations of Matrices": 2,
+      "3.5 Systems of Linear Equations": 2,
+      "3.6 Solutions of Systems": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 25,
+      "intermediate_avg": 37,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

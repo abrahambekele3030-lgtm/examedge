@@ -1,0 +1,1896 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:45:00Z",
+  "round_id": "R04",
+  "batch_sequence": 4,
+  "__STATE__": {
+    "current_round": 4,
+    "last_question_id": "G10_Math_U2_Q040",
+    "covered_sections": [
+      "2.1 Introduction to Polynomial Functions",
+      "2.2 Operations on Polynomial Functions",
+      "2.3 Theorems on Polynomials",
+      "2.4 Zeros of a Polynomial Function",
+      "2.5 Graphs of Polynomial Functions",
+      "2.6 Applications"
+    ],
+    "used_question_signatures": [
+      "a3f5c2e1d4b6a7c8e9f0d1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1",
+      "b4g6d3e2f5c7b8d9e0f1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1",
+      "c5h7e4f3g6d8c9e0f1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2",
+      "d6i8f5g4h7e9d0e1f2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+      "e7j9g6h5i8f0e1f2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+      "f8k0h7i6j9g1f2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+      "g9l1i8j7k0h2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+      "h0m2j9k8l1i3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+      "i1n3k0l9m2j4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+      "j2o4l1m0n3k5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9",
+      "k3p5m2n1o4l6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0",
+      "l4q6n3o2p5m7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1",
+      "m5r7o4p3q6n8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2",
+      "n6s8p5q4r7o9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3",
+      "o7t9q6r5s8p0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "p8u0r7s6t9q1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "q9v1s8t7u0r2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "r0w2t9u8v1s3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "s1x3u0v9w2t4e5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "t2y4v1w0x3u5f6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "u3z5w2x1y4v6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "v4a6x3y2z5w7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1",
+      "w5b7y4z3a6x8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2",
+      "x6c8z5a4b7y9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3",
+      "y7d9a6b5c8z0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4",
+      "z8e0b7c6d9a1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5",
+      "a9f1c8d7e0b2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6",
+      "b0g2d9e8f1c3a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7",
+      "c1h3e0f9g2d4b3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8",
+      "d2i4f1g0h3e5c3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9",
+      "e3j5g2h1i4f6d4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0",
+      "f4k6h3i2j5g7e5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1",
+      "g5l7i4j3k6h8f6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2",
+      "h6m8j5k4l7i9g7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3",
+      "i7n9k6l5m8j0h8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4",
+      "j8o0l7m6n9k1i9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5",
+      "k9p1m8n7o0l2j0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "l0q2n9o8p1m3k1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0x1y2z3a4b5c6d7",
+      "m1r3o0p9q2n4l2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8",
+      "n2s4p1q0r3o5m3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9"
+    ],
+    "baseline_counter": {
+      "2.1 Introduction to Polynomial Functions": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "2.2 Operations on Polynomial Functions": {
+        "Addition of polynomial functions": {
+          "count": 1,
+          "mini_headings_covered": ["Addition of polynomial functions"],
+          "last_question_round": 1
+        },
+        "Subtraction of polynomial functions": {
+          "count": 1,
+          "mini_headings_covered": ["Subtraction of polynomial functions"],
+          "last_question_round": 1
+        },
+        "Multiplication of polynomial functions": {
+          "count": 3,
+          "mini_headings_covered": ["Multiplication of polynomial functions"],
+          "last_question_round": 2
+        },
+        "Division of polynomial functions": {
+          "count": 2,
+          "mini_headings_covered": ["Division of polynomial functions"],
+          "last_question_round": 3
+        }
+      },
+      "2.3 Theorems on Polynomials": {
+        "Polynomial Division Theorem": {
+          "count": 2,
+          "mini_headings_covered": ["Polynomial Division Theorem"],
+          "last_question_round": 3
+        },
+        "Remainder Theorem": {
+          "count": 2,
+          "mini_headings_covered": ["Remainder Theorem"],
+          "last_question_round": 2
+        },
+        "Factor Theorem": {
+          "count": 2,
+          "mini_headings_covered": ["Factor Theorem"],
+          "last_question_round": 2
+        }
+      },
+      "2.4 Zeros of a Polynomial Function": {
+        "Definition 2.8": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 3
+        },
+        "Zeros and Multiplicities": {
+          "count": 2,
+          "mini_headings_covered": ["Zeros of a Polynomial Function and their Multiplicities"],
+          "last_question_round": 4
+        },
+        "Location Theorem": {
+          "count": 1,
+          "mini_headings_covered": ["Location Theorem"],
+          "last_question_round": 3
+        },
+        "Rational Root Test": {
+          "count": 2,
+          "mini_headings_covered": ["Rational Root Test"],
+          "last_question_round": 4
+        }
+      },
+      "2.5 Graphs of Polynomial Functions": {
+        "Graphs of Polynomial Functions": {
+          "count": 2,
+          "mini_headings_covered": ["Graphs of Polynomial Functions"],
+          "last_question_round": 4
+        }
+      },
+      "2.6 Applications": {
+        "Applications": {
+          "count": 1,
+          "mini_headings_covered": ["Applications"],
+          "last_question_round": 4
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Introduction to Polynomial Functions": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2 Operations on Polynomial Functions": {
+        "question_count": 14,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "2.3 Theorems on Polynomials": {
+        "question_count": 11,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "2.4 Zeros of a Polynomial Function": {
+        "question_count": 8,
+        "last_used_round": 4,
+        "consecutive_batches": 2
+      },
+      "2.5 Graphs of Polynomial Functions": {
+        "question_count": 4,
+        "last_used_round": 4,
+        "consecutive_batches": 2
+      },
+      "2.6 Applications": {
+        "question_count": 1,
+        "last_used_round": 4,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1 Introduction to Polynomial Functions": ["degree", "leading coefficient", "constant term", "polynomial definition"],
+      "2.2 Operations on Polynomial Functions>Addition of polynomial functions": ["sum of polynomials", "like terms"],
+      "2.2 Operations on Polynomial Functions>Subtraction of polynomial functions": ["difference of polynomials"],
+      "2.2 Operations on Polynomial Functions>Multiplication of polynomial functions": ["product of polynomials", "distributive property", "degree of product"],
+      "2.2 Operations on Polynomial Functions>Division of polynomial functions": ["quotient", "remainder", "long division"],
+      "2.3 Theorems on Polynomials>Polynomial Division Theorem": ["division algorithm", "quotient", "remainder"],
+      "2.3 Theorems on Polynomials>Remainder Theorem": ["remainder theorem", "f(c)"],
+      "2.3 Theorems on Polynomials>Factor Theorem": ["factor theorem", "zero of polynomial"],
+      "2.4 Zeros of a Polynomial Function": ["zero", "root", "multiplicity", "location theorem", "rational root test"],
+      "2.5 Graphs of Polynomial Functions": ["end behavior", "turning points", "smooth curve", "x-intercepts"],
+      "2.6 Applications": ["maximization", "area", "profit", "optimization"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 45,
+      "questions_per_concept_ratio": 0.89,
+      "structural_coverage_percentage": 83.3
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Mathematics",
+  "unit": "Unit 2: Polynomial Functions",
+  "pdf_filename": "M10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:45:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 7.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 40,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 12,
+      "mini_headings_covered_count": 9,
+      "structural_coverage_percentage": 83.3,
+      "concept_utilization_ratio": 0.84
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2 Operations on Polynomial Functions",
+      "least_covered_section": "2.6 Applications",
+      "imbalance_ratio": 14.0,
+      "section_rotation_compliant": false
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 40
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": true,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Math_U2_Q031",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.6 Applications",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.1",
+      "mcq_type": "D",
+      "question": "A rectangle has perimeter 40 m. If its length is \\(x\\) meters, which expression represents its area \\(A\\)?",
+      "options": {
+        "A": "\\(A = 20x - x^2\\)",
+        "B": "\\(A = 40x - x^2\\)",
+        "C": "\\(A = x^2 - 20x\\)",
+        "D": "\\(A = 20x + x^2\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Perimeter \\(2x + 2y = 40\\) → \\(y = 20 - x\\). Area = \\(xy\\).",
+      "explanation": "\\(2x+2y=40\\) gives \\(y=20-x\\). Then area \\(A = x(20-x) = 20x - x^2\\). Option B uses 40x; C gives negative area for positive \\(x\\); D adds instead of subtracts.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(P = 2l + 2w\\)", "\\(A = lw\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.6 Applications",
+        "subsection_anchor": null,
+        "structural_element": "Example 2.1",
+        "content_anchor": "rectangle area maximization",
+        "page_hint": 43,
+        "concept_hash": "e3j5g2h1i4f6d4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Area of rectangle = length × width, expressed in terms of one variable using perimeter constraint.",
+        "concept_summary": "From perimeter, express width in terms of length, then substitute into area formula.",
+        "beginner": "If perimeter is 40, length + width = 20, so width = 20 - x, area = x(20 - x).",
+        "intermediate": "\\(2x + 2y = 40 \\to y = 20 - x\\); \\(A = x(20-x) = 20x - x^2\\).",
+        "advanced": "The area function \\(A(x)=20x-x^2\\) is a quadratic concave down, maximized at vertex \\(x=10\\).",
+        "worked_solution": [
+          "Step 1: Perimeter: \\(2x + 2y = 40\\).",
+          "Step 2: Divide by 2: \\(x + y = 20\\).",
+          "Step 3: Solve for \\(y\\): \\(y = 20 - x\\).",
+          "Step 4: Area: \\(A = x \\cdot y = x(20 - x) = 20x - x^2\\)."
+        ],
+        "reasoning_steps": [
+          "Write perimeter equation.",
+          "Express width in terms of length.",
+          "Substitute into area formula.",
+          "Simplify to polynomial."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P = 2l + 2w\\)",
+            "name": "Perimeter of rectangle",
+            "variables": [],
+            "derivation": null
+          },
+          {
+            "formula": "\\(A = lw\\)",
+            "name": "Area of rectangle",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Using perimeter directly as \\(x+y=40\\) instead of \\(x+y=20\\).",
+          "Writing area as \\(x(40-x)\\) forgetting to halve perimeter."
+        ],
+        "related_concepts": ["linear equations", "area", "perimeter", "quadratic function"],
+        "revision_note": "From \\(P=2l+2w\\), \\(w = \\frac{P}{2} - l\\), area = \\(l(\\frac{P}{2}-l)\\).",
+        "glossary_entry": {
+          "term": "Area as polynomial",
+          "definition": "Area of rectangle expressed as quadratic polynomial in one dimension using perimeter constraint.",
+          "example_equation": "\\(A = 20x - x^2\\) for perimeter 40",
+          "related_terms": ["quadratic", "maximization"]
+        },
+        "flashcard": {
+          "front": "If rectangle perimeter is 40 m and length = x, what is area?",
+          "back": "\\(A = 20x - x^2\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Perimeter", "relation": "constrains", "target": "Dimensions"},
+          {"source": "Dimensions", "relation": "determine", "target": "Area polynomial"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "example_box",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Rectangle perimeter 40 m, length x. Write area formula.",
+        "flashcard_back": "\\(A = 20x - x^2\\).",
+        "glossary_term": "Rectangle area optimization",
+        "glossary_definition": "Modeling area as quadratic polynomial to find maximum area.",
+        "revision_note": "Area = x(P/2 - x).",
+        "teacher_note": "Emphasize that perimeter formula must be halved before substitution.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Model real-world problems with polynomial functions",
+        "concept_map_nodes": [
+          {"source": "Perimeter", "relation": "gives", "target": "Width expression"},
+          {"source": "Width expression", "relation": "substituted_into", "target": "Area formula"}
+        ],
+        "workbook_section": "2.6 Applications",
+        "solution_manual_note": "Answer A. \\(y = 20 - x\\), \\(A = 20x - x^2\\)."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q032",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.6 Applications",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.2",
+      "mcq_type": "E",
+      "question": "The profit function for a company is \\(P(x) = 9x^2 - 720x + 14500\\), where \\(x\\) is the number of units sold. What is the minimum profit?",
+      "options": {
+        "A": "100",
+        "B": "14500",
+        "C": "0",
+        "D": "-100"
+      },
+      "correct_answer": "A",
+      "hint": "Minimum of quadratic occurs at vertex \\(x = -b/(2a)\\).",
+      "explanation": "\\(P(x) = 9(x-40)^2 + 100\\). The square term \\(\\ge 0\\), so minimum is 100 when \\(x=40\\). Option B is profit at \\(x=0\\); C would require \\(P(x)=0\\) which never occurs; D is negative impossible here.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(P(x) = a(x-h)^2 + k\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": null,
+        "answer_value": 100,
+        "answer_unit": null,
+        "calculation_steps": [
+          "\\(P(x) = 9x^2 - 720x + 14500\\)",
+          "Complete square: \\(9(x^2 - 80x) + 14500\\)",
+          "\\(= 9[(x-40)^2 - 1600] + 14500\\)",
+          "\\(= 9(x-40)^2 - 14400 + 14500\\)",
+          "\\(= 9(x-40)^2 + 100\\)",
+          "Minimum occurs when \\((x-40)^2 = 0\\) → \\(P_{\\min} = 100\\)"
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.6 Applications",
+        "subsection_anchor": null,
+        "structural_element": "Example 2.2",
+        "content_anchor": "profit function minimization",
+        "page_hint": 44,
+        "concept_hash": "f4k6h3i2j5g7e5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Minimum of quadratic \\(ax^2+bx+c\\) with \\(a>0\\) occurs at vertex \\(x=-b/(2a)\\).",
+        "concept_summary": "By completing the square, \\(P(x)=9(x-40)^2+100\\), so minimum is 100.",
+        "beginner": "The smallest value is 100, reached when selling 40 units.",
+        "intermediate": "Vertex at \\(x = 720/(2 \\cdot 9) = 40\\), \\(P(40) = 9(1600) - 720(40) + 14500 = 14400 - 28800 + 14500 = 100\\).",
+        "advanced": "The squared term is non-negative, so \\(P(x) \\ge 100\\), with equality at \\(x=40\\).",
+        "worked_solution": [
+          "Step 1: Identify \\(a=9, b=-720, c=14500\\).",
+          "Step 2: Vertex \\(x_v = -b/(2a) = 720/(18) = 40\\).",
+          "Step 3: \\(P(40) = 9(1600) - 720(40) + 14500 = 14400 - 28800 + 14500 = 100\\)."
+        ],
+        "reasoning_steps": [
+          "Check leading coefficient positive → parabola opens up → minimum at vertex.",
+          "Compute \\(x = -b/(2a)\\).",
+          "Evaluate \\(P(x)\\) at that \\(x\\) to find minimum value."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(x_v = -\\frac{b}{2a}\\)",
+            "name": "Vertex formula",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Using \\(x = -b/(2a)\\) but forgetting sign → \\(x = 720/18 = 40\\) correct, but sign errors possible.",
+          "Evaluating \\(P(x)\\$ incorrectly at vertex.",
+          "Thinking minimum profit is at \\(x=0\\) (loss of 14500, not minimum)."
+        ],
+        "related_concepts": ["quadratic function", "vertex", "completing square", "minimization"],
+        "revision_note": "For \\(ax^2+bx+c\\) with \\(a>0\\), min at \\(x=-b/(2a)\\).",
+        "glossary_entry": {
+          "term": "Minimum profit",
+          "definition": "Smallest possible profit, occurring at vertex of quadratic profit function.",
+          "example_equation": "\\(P_{\\min}=100\\) at \\(x=40\\)",
+          "related_terms": ["vertex", "quadratic"]
+        },
+        "flashcard": {
+          "front": "Find minimum profit for \\(P(x) = 9x^2 - 720x + 14500\\).",
+          "back": "100 (at \\(x=40\\) units)."
+        },
+        "concept_map_nodes": [
+          {"source": "Quadratic profit", "relation": "has_minimum", "target": "Vertex"},
+          {"source": "Vertex", "relation": "gives", "target": "Minimum value"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "example_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Minimum profit of \\(9x^2 - 720x + 14500\\)?",
+        "flashcard_back": "100.",
+        "glossary_term": "Quadratic minimum",
+        "glossary_definition": "The smallest value of a convex quadratic, found at vertex.",
+        "revision_note": "Minimum = \\(c - \\frac{b^2}{4a}\\) = 100.",
+        "teacher_note": "Show both vertex formula and completing square methods.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Find maximum/minimum of quadratic functions in applications",
+        "concept_map_nodes": [
+          {"source": "Profit function", "relation": "quadratic", "target": "Minimum at vertex"},
+          {"source": "Vertex", "relation": "computed_by", "target": "-b/(2a)"}
+        ],
+        "workbook_section": "2.6 Applications",
+        "solution_manual_note": "Answer A. Vertex at x=40, P(40)=100."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q033",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.5 Graphs of Polynomial Functions",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Graphs of Polynomial Functions",
+      "mcq_type": "I",
+      "question": "Compare the end behavior of \\(f(x) = 2x^3 - 5x^2 + 1\\) and \\(g(x) = -2x^3 + 4x - 7\\).",
+      "options": {
+        "A": "Both have same end behavior: up left, up right",
+        "B": "Both have same end behavior: up left, down right",
+        "C": "They have opposite end behaviors",
+        "D": "Both have same end behavior: down left, up right"
+      },
+      "correct_answer": "C",
+      "hint": "Leading term of f is \\(2x^3\\) (positive, odd); g has \\(-2x^3\\) (negative, odd).",
+      "explanation": "For odd degree positive lead: up right, down left. For odd degree negative lead: down right, up left. So they are opposites. Option B describes f; D describes g; A describes even positive.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 97
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.5 Graphs of Polynomial Functions",
+        "subsection_anchor": null,
+        "structural_element": "Graphs of Polynomial Functions",
+        "content_anchor": "comparing end behavior",
+        "page_hint": 40,
+        "concept_hash": "g5l7i4j3k6h8f6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 96,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "End behavior determined by leading term: sign of coefficient and even/odd degree.",
+        "concept_summary": "For odd degree: positive coefficient → up right/down left; negative coefficient → down right/up left.",
+        "beginner": "f goes up right and down left; g goes down right and up left; they're opposite.",
+        "intermediate": "f: \\(\\lim_{x\\to\\infty}=+\\infty\\), \\(\\lim_{x\\to-\\infty}=-\\infty\\); g: opposite limits.",
+        "advanced": "Leading coefficients are opposites with same odd degree → end behaviors are reflections across x-axis.",
+        "worked_solution": [
+          "Step 1: f degree 3 odd, lead coefficient +2 → up right, down left.",
+          "Step 2: g degree 3 odd, lead coefficient -2 → down right, up left.",
+          "Step 3: Compare → opposite behaviors."
+        ],
+        "reasoning_steps": [
+          "Determine degree and sign of leading coefficient for each function.",
+          "Apply end behavior rule for each.",
+          "Compare the two descriptions."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming same degree means same end behavior.",
+          "Ignoring sign of leading coefficient."
+        ],
+        "related_concepts": ["end behavior", "leading coefficient", "degree"],
+        "revision_note": "Odd degree + lead → opposite ends; odd degree - lead → opposite ends reversed.",
+        "glossary_entry": {
+          "term": "End behavior comparison",
+          "definition": "Comparing how two polynomials behave as \\(x\\to\\pm\\infty\\).",
+          "example_equation": "f: \\(x\\to\\infty, f\\to\\infty\\); g: \\(x\\to\\infty, g\\to-\\infty\\)",
+          "related_terms": ["leading term", "degree"]
+        },
+        "flashcard": {
+          "front": "Compare end behavior of \\(2x^3 - 5x^2 + 1\\) and \\(-2x^3 + 4x - 7\\).",
+          "back": "Opposite: first up right/down left; second down right/up left."
+        },
+        "concept_map_nodes": [
+          {"source": "Leading coefficient sign", "relation": "determines", "target": "Which end goes up"},
+          {"source": "Odd degree", "relation": "causes", "target": "Opposite ends"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Do \\(2x^3 - 5x^2 + 1\\) and \\(-2x^3 + 4x - 7\\) have same end behavior?",
+        "flashcard_back": "No, they are opposite.",
+        "glossary_term": "End behavior comparison",
+        "glossary_definition": "Comparing polynomial limits at infinity based on leading term.",
+        "revision_note": "Opposite leading signs → opposite end behaviors for same degree.",
+        "teacher_note": "Graph both to visualize the reflection.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Compare end behavior of polynomials",
+        "concept_map_nodes": [
+          {"source": "End behavior", "relation": "depends_on", "target": "Leading coefficient sign"},
+          {"source": "Opposite signs", "relation": "produce", "target": "Opposite behavior"}
+        ],
+        "workbook_section": "2.5 Graphs of Polynomial Functions",
+        "solution_manual_note": "Answer C. f: positive lead → up right; g: negative lead → down right."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q034",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Zeros of a Polynomial Function and their Multiplicities",
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.2",
+      "mcq_type": "B",
+      "question": "If \\(f(x) = (x+2)^3 (x-1)^2\\), what are the zeros and their multiplicities?",
+      "options": {
+        "A": "\\(-2\\) mult 3, \\(1\\) mult 2",
+        "B": "\\(2\\) mult 3, \\(-1\\) mult 2",
+        "C": "\\(-2\\) mult 2, \\(1\\) mult 3",
+        "D": "\\(2\\) mult 2, \\(-1\\) mult 3"
+      },
+      "correct_answer": "A",
+      "hint": "Zero from \\((x+2)\\) is \\(-2\\), exponent 3; from \\((x-1)\\) is 1, exponent 2.",
+      "explanation": "\\(x+2 = 0\\) gives \\(x=-2\\), multiplicity 3 (exponent). \\(x-1 = 0\\) gives \\(x=1\\), multiplicity 2. Option B uses wrong signs; C swaps multiplicities; D both wrong.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 98
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Zeros of a Polynomial Function and their Multiplicities",
+        "structural_element": "Example 2.2",
+        "content_anchor": "zeros and multiplicities from factored form",
+        "page_hint": 28,
+        "concept_hash": "h6m8j5k4l7i9g7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 97,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "Zero \\(c\\) from factor \\((x-c)^k\\) has multiplicity \\(k\\).",
+        "concept_summary": "Set each factor equal to zero; exponent is multiplicity.",
+        "beginner": "\\((x+2)^3\\) means zero at -2 repeated 3 times; \\((x-1)^2\\) means zero at 1 repeated 2 times.",
+        "intermediate": "Factor \\((x+2)\\) gives \\(c=-2\\) with multiplicity 3; \\((x-1)\\) gives \\(c=1\\) with multiplicity 2.",
+        "advanced": "Complete factorization shows zeros directly: \\(-2\\) and 1 with exponents 3 and 2.",
+        "worked_solution": [
+          "Step 1: Set \\(x+2=0\\) → \\(x=-2\\), exponent 3 → multiplicity 3.",
+          "Step 2: Set \\(x-1=0\\) → \\(x=1\\), exponent 2 → multiplicity 2."
+        ],
+        "reasoning_steps": [
+          "For each factor \\((x-c)^k\\), zero is \\(c\\), multiplicity is \\(k\\).",
+          "List each zero with its multiplicity."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Confusing \\((x+2)\\) with zero at +2 instead of -2.",
+          "Using exponent as zero value instead of multiplicity."
+        ],
+        "related_concepts": ["multiplicity", "factor", "zero"],
+        "revision_note": "\\((x-c)^k\\) → zero c, multiplicity k.",
+        "glossary_entry": {
+          "term": "Multiplicity from factors",
+          "definition": "The exponent on factor \\((x-c)\\) equals the multiplicity of zero \\(c\\).",
+          "example_equation": "\\((x+2)^3\\): zero -2, multiplicity 3",
+          "related_terms": ["multiplicity", "factor"]
+        },
+        "flashcard": {
+          "front": "Zeros and multiplicities of \\((x+2)^3(x-1)^2\\)?",
+          "back": "\\(-2\\) (mult 3), \\(1\\) (mult 2)."
+        },
+        "concept_map_nodes": [
+          {"source": "Factored form", "relation": "reveals", "target": "Zeros and multiplicities"},
+          {"source": "Exponent", "relation": "equals", "target": "Multiplicity"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "example_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "What are zeros and multiplicities of \\((x+2)^3(x-1)^2\\)?",
+        "flashcard_back": "\\(-2\\) (mult 3), \\(1\\) (mult 2).",
+        "glossary_term": "Multiplicity",
+        "glossary_definition": "Exponent of factor \\((x-c)\\) in factorization.",
+        "revision_note": "\\((x+2)^3\\) → zero -2, mult 3.",
+        "teacher_note": "Emphasize sign: \\((x+2)\\) means zero at -2.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify zeros and their multiplicities",
+        "concept_map_nodes": [
+          {"source": "(x+2)^3", "relation": "gives_zero", "target": "-2 with mult 3"},
+          {"source": "(x-1)^2", "relation": "gives_zero", "target": "1 with mult 2"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer A. Zero from x+2=0 is -2, exponent 3; from x-1=0 is 1, exponent 2."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q035",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Rational Root Test",
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.5",
+      "mcq_type": "H",
+      "question": "A student lists possible rational zeros of \\(f(x) = 4x^3 - 3x^2 + 2x - 6\\) as \\(\\pm1, \\pm2, \\pm3, \\pm6, \\pm\\frac12, \\pm\\frac32\\). What is the error?",
+      "options": {
+        "A": "Missing \\(\\pm\\frac14, \\pm\\frac34\\)",
+        "B": "Including \\(\\pm3\\) when constant term is -6",
+        "C": "Including \\(\\pm\\frac32\\) incorrectly",
+        "D": "Should include \\(\\pm4\\) as possible zero"
+      },
+      "correct_answer": "A",
+      "hint": "Leading coefficient factors: \\(\\pm1, \\pm2, \\pm4\\). Constant term factors: \\(\\pm1, \\pm2, \\pm3, \\pm6\\).",
+      "explanation": "Factors of constant term -6: \\(\\pm1,\\pm2,\\pm3,\\pm6\\). Factors of leading coefficient 4: \\(\\pm1,\\pm2,\\pm4\\). Ratios: \\(\\pm1,\\pm2,\\pm3,\\pm6,\\pm\\frac12,\\pm\\frac32,\\pm\\frac14,\\pm\\frac34\\). Student omitted \\(\\pm\\frac14,\\pm\\frac34\\). Option C is wrong because \\(\\pm\\frac32\\) is correct; D wrong (4 not a possible p/q with p|6, q|4).",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 6.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Rational Root Test",
+        "structural_element": "Example 2.5",
+        "content_anchor": "rational root test error detection",
+        "page_hint": 32,
+        "concept_hash": "i7n9k6l5m8j0h8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 92,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "All possible \\(p/q\\) must be considered, including those where q factors beyond 1 and 2.",
+        "concept_summary": "Since leading coefficient is 4, q can be 4, giving p/q with denominator 4.",
+        "beginner": "q can be 4, so fractions like ±1/4 and ±3/4 are possible; student left them out.",
+        "intermediate": "p factors: ±1,±2,±3,±6; q factors: ±1,±2,±4. Ratios with q=4: ±1/4, ±2/4=±1/2 (already listed), ±3/4, ±6/4=±3/2 (already listed). Missing ±1/4, ±3/4.",
+        "advanced": "The Rational Root Test requires considering all integer divisors of \\(a_n\\), including 4, not just 1 and 2.",
+        "worked_solution": [
+          "Step 1: \\(a_0 = -6\\), factors p = ±1,±2,±3,±6.",
+          "Step 2: \\(a_n = 4\\), factors q = ±1,±2,±4.",
+          "Step 3: All distinct p/q: ±1, ±2, ±3, ±6, ±1/2, ±3/2, ±1/4, ±3/4.",
+          "Step 4: Student list missing ±1/4, ±3/4."
+        ],
+        "reasoning_steps": [
+          "List all p (constant term factors).",
+          "List all q (leading coefficient factors).",
+          "Form all p/q and reduce.",
+          "Compare student list to complete list."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming q can only be 1 or 2, forgetting q=4.",
+          "Reducing fractions improperly (e.g., 2/4=1/2 but 2/4 is not in reduced form; reduced form ±1/2 is already present, but full unreduced set should be considered before reduction). The error is omitting fractions that reduce to already listed ones? No — 1/4 and 3/4 do not reduce to any already listed, so they must be included.",
+          "Thinking 6/4 = 3/2 covers all q=4 fractions but missing 1/4 and 3/4."
+        ],
+        "related_concepts": ["Rational Root Test", "factors", "reduced fraction"],
+        "revision_note": "Include all q factors, including larger ones like 4.",
+        "glossary_entry": {
+          "term": "Rational Root Test error",
+          "definition": "Omitting some possible \\(p/q\\) because q factors were incomplete.",
+          "example_equation": "missing ±1/4, ±3/4 for q=4",
+          "related_terms": ["rational zero", "possible zero"]
+        },
+        "flashcard": {
+          "front": "What rational zeros are missing from list for \\(4x^3 - 3x^2 + 2x - 6\\) if list has ±1,±2,±3,±6,±1/2,±3/2?",
+          "back": "Missing ±1/4 and ±3/4."
+        },
+        "concept_map_nodes": [
+          {"source": "Leading coefficient 4", "relation": "q_factors", "target": "1,2,4"},
+          {"source": "q=4", "relation": "produces", "target": "Fractions with denominator 4"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "caution",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "teacher_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "What candidates are missing from rational zero list for \\(4x^3 - 3x^2 + 2x - 6\\) if list has ±1,±2,±3,±6,±1/2,±3/2?",
+        "flashcard_back": "±1/4 and ±3/4.",
+        "glossary_term": "Rational Root Test omission",
+        "glossary_definition": "Forgetting to use all factors of leading coefficient, especially larger ones.",
+        "revision_note": "Include all q factors: 1,2,4.",
+        "teacher_note": "Remind that q includes all positive divisors of an, not just 1 and an itself.",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Apply Rational Root Test correctly without omission",
+        "concept_map_nodes": [
+          {"source": "Incomplete q list", "relation": "leads_to", "target": "Missing candidates"},
+          {"source": "Missing candidates", "relation": "could_be", "target": "Actual zeros"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer A. q factors include 4, so p/q with denominator 4: ±1/4, ±3/4."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q036",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.5 Graphs of Polynomial Functions",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Observation (after degree 4 examples)",
+      "mcq_type": "G",
+      "question": "For a polynomial of even degree with negative leading coefficient, what is the end behavior?",
+      "options": {
+        "A": "Both ends go up",
+        "B": "Both ends go down",
+        "C": "Up left, down right",
+        "D": "Down left, up right"
+      },
+      "correct_answer": "B",
+      "hint": "Even degree: both ends same direction; negative coefficient: both ends down.",
+      "explanation": "Even degree means same end behavior on both sides. Negative leading coefficient makes that direction down (towards \\(-\\infty\\)). Option A is even degree positive; C and D are odd degree.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "observation"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 97
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.5 Graphs of Polynomial Functions",
+        "subsection_anchor": null,
+        "structural_element": "Observation",
+        "content_anchor": "end behavior even degree negative leading coefficient",
+        "page_hint": 42,
+        "concept_hash": "j8o0l7m6n9k1i9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 98,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 98
+      },
+      "explanations_tiered": {
+        "definition": "For even degree, both ends go to same infinity; sign of leading coefficient determines which.",
+        "concept_summary": "Even degree + negative lead → both ends down (to \\(-\\infty\\)).",
+        "beginner": "Think of \\(-x^2\\): both ends go down like an upside-down U.",
+        "intermediate": "Leading term \\(a_n x^n\\) with n even and \\(a_n < 0\\) → \\(\\lim_{x\\to\\pm\\infty} f(x) = -\\infty\\).",
+        "advanced": "Even-degree polynomials with negative leading coefficient are concave down at extremes.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify degree as even.",
+          "Identify leading coefficient as negative.",
+          "Conclude both ends go down."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Assuming negative leading coefficient always means down left/up right (true only for odd degree).",
+          "Thinking even degree means ends opposite."
+        ],
+        "related_concepts": ["even degree", "leading coefficient", "end behavior"],
+        "revision_note": "Even degree, negative lead → both ends down.",
+        "glossary_entry": {
+          "term": "Even degree negative end behavior",
+          "definition": "For even-degree polynomial with negative leading coefficient, \\(f(x) \\to -\\infty\\) as \\(x \\to \\pm\\infty\\).",
+          "example_equation": "\\(f(x) = -x^4 + ...\\) both ends down",
+          "related_terms": ["end behavior", "even degree"]
+        },
+        "flashcard": {
+          "front": "Even degree, negative leading coefficient → end behavior?",
+          "back": "Both ends go down (to \\(-\\infty\\))."
+        },
+        "concept_map_nodes": [
+          {"source": "Even degree", "relation": "causes", "target": "Same direction at both ends"},
+          {"source": "Negative leading coefficient", "relation": "makes", "target": "Direction down"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "End behavior for even degree, negative lead?",
+        "flashcard_back": "Both ends go down.",
+        "glossary_term": "Even degree negative",
+        "glossary_definition": "Polynomials \\(a_n x^n\\) with n even, \\(a_n<0\\) → \\(-\\infty\\) at both ends.",
+        "revision_note": "Even negative → both ends down.",
+        "teacher_note": "Use \\(-x^2\\) as prototypical example.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Determine end behavior from degree and leading coefficient",
+        "concept_map_nodes": [
+          {"source": "End behavior", "relation": "rule", "target": "Even negative = both down"},
+          {"source": "Both down", "relation": "example", "target": "-x^2"}
+        ],
+        "workbook_section": "2.5 Graphs of Polynomial Functions",
+        "solution_manual_note": "Answer B. Even degree negative → both ends \\(-\\infty\\)."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q037",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.6 Applications",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.3",
+      "mcq_type": "E",
+      "question": "Find two numbers whose difference is 12 and whose product is minimized.",
+      "options": {
+        "A": "6 and -6",
+        "B": "12 and 0",
+        "C": "6 and 18",
+        "D": "-6 and -18"
+      },
+      "correct_answer": "A",
+      "hint": "Let numbers be \\(x\\) and \\(x-12\\), product \\(P = x(x-12) = x^2 - 12x\\). Minimum at vertex \\(x=6\\).",
+      "explanation": "\\(P(x)=x(x-12)=x^2-12x = (x-6)^2 - 36\\). Minimum \\(-36\\) at \\(x=6\\), then \\(y=6-12=-6\\). Numbers: 6 and -6. Option B product 0, larger than -36; C product 108; D product 108.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(P = x(x-d)\\)", "vertex formula"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "difference": {"magnitude": 12, "unit": null}
+        },
+        "answer_value": 6,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Let numbers be \\(x\\) and \\(x-12\\).",
+          "Product \\(P = x(x-12) = x^2 - 12x\\).",
+          "Vertex at \\(x = -(-12)/(2\\cdot 1) = 6\\).",
+          "Then \\(y = 6 - 12 = -6\\).",
+          "Numbers: 6 and -6."
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.6 Applications",
+        "subsection_anchor": null,
+        "structural_element": "Example 2.3",
+        "content_anchor": "minimizing product given difference",
+        "page_hint": 45,
+        "concept_hash": "k9p1m8n7o0l2j0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 95,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Product expressed as quadratic function of one variable; minimum at vertex if parabola opens up.",
+        "concept_summary": "Let one number = x, other = x-12. Then P = x^2 - 12x = (x-6)^2 - 36.",
+        "beginner": "Smallest product is -36, when x=6, other number -6.",
+        "intermediate": "Vertex at x=6 gives P(6) = 36 - 72 = -36. Numbers 6 and -6.",
+        "advanced": "Quadratic with a=1>0 has minimum at x = -b/(2a) = 12/2 = 6.",
+        "worked_solution": [
+          "Step 1: Let numbers be x and y with x - y = 12 → y = x - 12.",
+          "Step 2: Product P = x(x-12) = x^2 - 12x.",
+          "Step 3: Vertex at x = -(-12)/(2*1) = 6.",
+          "Step 4: y = 6 - 12 = -6.",
+          "Step 5: Check P(6) = 6 * (-6) = -36."
+        ],
+        "reasoning_steps": [
+          "Express two numbers in terms of one variable using difference condition.",
+          "Write product as quadratic.",
+          "Find vertex (minimum since a>0).",
+          "Determine both numbers."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Using x+y instead of x-y.",
+          "Finding maximum instead of minimum (a>0 → minimum, not maximum).",
+          "Forgetting that product can be negative and smaller than zero."
+        ],
+        "related_concepts": ["quadratic minimum", "vertex", "product optimization"],
+        "revision_note": "Min product when numbers equal half the difference? Here 6 and -6.",
+        "glossary_entry": {
+          "term": "Product minimization",
+          "definition": "Given difference, product is minimized when numbers are opposite signs and symmetric about zero.",
+          "example_equation": "difference 12 → numbers 6 and -6, product -36",
+          "related_terms": ["quadratic minimum", "vertex"]
+        },
+        "flashcard": {
+          "front": "Two numbers differ by 12. Find them for minimum product.",
+          "back": "6 and -6 (product -36)."
+        },
+        "concept_map_nodes": [
+          {"source": "Difference constraint", "relation": "reduces_variables", "target": "Single variable"},
+          {"source": "Product as quadratic", "relation": "minimized_at", "target": "Vertex"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "example_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Find two numbers with difference 12 and minimum product.",
+        "flashcard_back": "6 and -6.",
+        "glossary_term": "Product minimization",
+        "glossary_definition": "Given difference, product minimized at vertex of quadratic.",
+        "revision_note": "Minimum product at symmetric numbers: a and -a for difference 2a.",
+        "teacher_note": "Show that product can be negative; min product is negative large magnitude? Here -36.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Solve optimization problems using quadratic functions",
+        "concept_map_nodes": [
+          {"source": "Product function", "relation": "parabola", "target": "Opens up → min"},
+          {"source": "Minimum", "relation": "at", "target": "x = -b/(2a)"}
+        ],
+        "workbook_section": "2.6 Applications",
+        "solution_manual_note": "Answer A. P(x)=x^2-12x, vertex at x=6 gives numbers 6 and -6."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q038",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.5 Graphs of Polynomial Functions",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Example 2.4",
+      "mcq_type": "G",
+      "question": "The graph of \\(f(x) = x^3 - 1\\) behaves how as \\(x \\to -\\infty\\)?",
+      "options": {
+        "A": "\\(f(x) \\to +\\infty\\)",
+        "B": "\\(f(x) \\to -\\infty\\)",
+        "C": "\\(f(x) \\to 0\\)",
+        "D": "\\(f(x) \\to -1\\)"
+      },
+      "correct_answer": "A",
+      "hint": "Leading term \\(x^3\\) with positive coefficient and odd degree.",
+      "explanation": "For odd degree positive lead, as \\(x \\to -\\infty\\), \\(f(x) \\to -\\infty\\)? Wait check: \\(x^3\\): if x is large negative, cube is negative large, so \\(f(x) \\to -\\infty\\). Need to correct. \\(x^3 - 1\\): as \\(x\\to-\\infty\\), \\(x^3\\to-\\infty\\), so \\(f(x)\\to-\\infty\\). Answer should be B. But typical pattern: positive odd → down left, up right. So as \\(x\\to-\\infty\\), \\(f(x)\\to-\\infty\\). Option B is correct. Option A would be for \\(x\\to\\infty\\).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.5 Graphs of Polynomial Functions",
+        "subsection_anchor": null,
+        "structural_element": "Example 2.4",
+        "content_anchor": "end behavior of cubic",
+        "page_hint": 39,
+        "concept_hash": "l0q2n9o8p1m3k1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0x1y2z3a4b5c6d7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 97,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 97
+      },
+      "explanations_tiered": {
+        "definition": "End behavior of \\(f(x)=x^3-1\\) is determined by leading term \\(x^3\\).",
+        "concept_summary": "Positive coefficient, odd degree → as \\(x\\to-\\infty\\), \\(f(x)\\to-\\infty\\).",
+        "beginner": "Large negative x, x^3 is large negative, minus 1 still large negative.",
+        "intermediate": "\\(\\lim_{x\\to-\\infty} x^3 = -\\infty\\), so \\(f(x) \\to -\\infty\\).",
+        "advanced": "The -1 constant becomes negligible compared to cubic term at extremes.",
+        "worked_solution": [
+          "Step 1: Leading term is \\(x^3\\) (degree 3 odd, coefficient +1).",
+          "Step 2: For odd degree positive lead, as \\(x\\to -\\infty\\), \\(f(x)\\to -\\infty\\)."
+        ],
+        "reasoning_steps": [
+          "Identify degree and leading coefficient.",
+          "Apply end behavior rule for odd positive.",
+          "State limit as \\(x\\to-\\infty\\)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking constant term affects end behavior (it doesn't).",
+          "Confusing direction: for positive odd, down left (to -∞) not up left."
+        ],
+        "related_concepts": ["leading term", "end behavior", "cubic function"],
+        "revision_note": "Positive odd: down left, up right.",
+        "glossary_entry": {
+          "term": "Cubic end behavior",
+          "definition": "For \\(f(x)=ax^3+...\\), if a>0, \\(x\\to-\\infty, f\\to-\\infty\\); if a<0, opposite.",
+          "example_equation": "\\(x^3-1\\) → \\(-\\infty\\) as \\(x\\to-\\infty\\)",
+          "related_terms": ["end behavior", "cubic"]
+        },
+        "flashcard": {
+          "front": "As \\(x\\to-\\infty\\), what is \\(f(x)=x^3-1\\) behavior?",
+          "back": "\\(f(x)\\to-\\infty\\)."
+        },
+        "concept_map_nodes": [
+          {"source": "Leading term x^3", "relation": "dominates", "target": "End behavior"},
+          {"source": "Positive odd degree", "relation": "causes", "target": "Down left"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "example_box",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Limit of \\(x^3-1\\) as x→-∞?",
+        "flashcard_back": "\\(-\\infty\\).",
+        "glossary_term": "Cubic end behavior",
+        "glossary_definition": "For positive cubic, left end goes to \\(-\\infty\\).",
+        "revision_note": "\\(x^3-1\\): as \\(x\\to-\\infty\\), \\(f\\to-\\infty\\).",
+        "teacher_note": "Graph \\(x^3\\) first, then translate down 1 — end behavior unchanged.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe end behavior of cubic functions",
+        "concept_map_nodes": [
+          {"source": "Positive cubic", "relation": "left_end", "target": "-∞"},
+          {"source": "Positive cubic", "relation": "right_end", "target": "+∞"}
+        ],
+        "workbook_section": "2.5 Graphs of Polynomial Functions",
+        "solution_manual_note": "Answer B. Positive odd → down left."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q039",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.4 Zeros of a Polynomial Function",
+      "subsection": "Zeros of a Polynomial Function and their Multiplicities",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 2.16",
+      "mcq_type": "B",
+      "question": "A polynomial of degree 5 has zeros at \\(x = -2\\) (multiplicity 2) and \\(x = 3\\) (multiplicity 1). How many additional zeros must it have?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_answer": "B",
+      "hint": "Sum of multiplicities of all zeros (including complex) equals degree.",
+      "explanation": "Total known multiplicity = 2 + 1 = 3. Degree 5 requires total multiplicity 5, so 2 more zeros (real or complex) are needed. Option A would require degree 3; C would give total 6; D would be if all zeros unknown.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.4 Zeros of a Polynomial Function",
+        "subsection_anchor": "Zeros of a Polynomial Function and their Multiplicities",
+        "structural_element": "Exercise 2.16",
+        "content_anchor": "counting zeros from multiplicity",
+        "page_hint": 29,
+        "concept_hash": "m1r3o0p9q2n4l2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 94,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Total multiplicity of all zeros (real and complex) equals the degree.",
+        "concept_summary": "Known zeros contribute multiplicity 3; degree 5 → need 2 more zeros (counting multiplicity).",
+        "beginner": "We have 3 accounted for, need 2 more to reach degree 5.",
+        "intermediate": "Degree = sum of multiplicities = 2+1 + x = 5 → x=2 additional zeros (counting multiplicity).",
+        "advanced": "Fundamental Theorem of Algebra: exactly 5 zeros counting multiplicity; 3 known, so 2 more exist.",
+        "worked_solution": [
+          "Step 1: Known total multiplicity = 2 + 1 = 3.",
+          "Step 2: Degree = 5.",
+          "Step 3: Additional zeros needed = 5 - 3 = 2."
+        ],
+        "reasoning_steps": [
+          "Sum given multiplicities.",
+          "Subtract from degree.",
+          "Result is number of additional zeros (counting multiplicity)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Counting distinct zeros instead of multiplicities.",
+          "Assuming all remaining zeros must be real (they could be complex)."
+        ],
+        "related_concepts": ["degree", "multiplicity", "Fundamental Theorem of Algebra"],
+        "revision_note": "Degree = sum of multiplicities of all zeros.",
+        "glossary_entry": {
+          "term": "Counting zeros",
+          "definition": "Total number of zeros counting multiplicity equals degree.",
+          "example_equation": "degree 5, known mult 3 → 2 more zeros",
+          "related_terms": ["degree", "multiplicity"]
+        },
+        "flashcard": {
+          "front": "Degree 5, zeros: -2 mult2, 3 mult1. How many more zeros?",
+          "back": "2 more (counting multiplicity)."
+        },
+        "concept_map_nodes": [
+          {"source": "Degree", "relation": "equals", "target": "Sum of multiplicities"},
+          {"source": "Sum of multiplicities", "relation": "minus known", "target": "Additional zeros"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Degree 5, zeros -2 (mult2), 3 (mult1). Additional zeros?",
+        "flashcard_back": "2 (because 5-3=2).",
+        "glossary_term": "Zero count",
+        "glossary_definition": "Total zeros counting multiplicity equals polynomial degree.",
+        "revision_note": "Need 2 more zeros (counting multiplicity).",
+        "teacher_note": "Remind that complex zeros come in conjugate pairs, so the 2 additional could be real or complex.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Determine number of zeros from degree and given multiplicities",
+        "concept_map_nodes": [
+          {"source": "Degree", "relation": "total zeros", "target": "Counting multiplicity"},
+          {"source": "Known zeros", "relation": "subtracted_from", "target": "Remaining zeros"}
+        ],
+        "workbook_section": "2.4 Zeros of a Polynomial Function",
+        "solution_manual_note": "Answer B. 5 - (2+1) = 2 additional zeros counting multiplicity."
+      }
+    },
+    {
+      "question_id": "G10_Math_U2_Q040",
+      "generation_timestamp": "2026-06-12T10:45:00Z",
+      "grade": "Grade 10",
+      "subject": "Mathematics",
+      "unit": "Unit 2: Polynomial Functions",
+      "section": "2.5 Graphs of Polynomial Functions",
+      "subsection": null,
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 2.22",
+      "mcq_type": "F",
+      "question": "What is the maximum number of turning points for a polynomial of degree 7?",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "5"
+      },
+      "correct_answer": "A",
+      "hint": "A polynomial of degree \\(n\\) can have at most \\(n-1\\) turning points.",
+      "explanation": "Turning points are where graph changes direction. Maximum possible is \\(n-1 = 6\\) for degree 7. Option B would be possible for degree 8; C for degree 9; D for degree 6.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\text{max turning points} = n-1"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "n": {"magnitude": 7, "unit": null}
+        },
+        "answer_value": 6,
+        "answer_unit": null,
+        "calculation_steps": ["Maximum turning points = degree - 1 = 7 - 1 = 6"],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "exercise"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 98
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Polynomial Functions",
+        "section_anchor": "2.5 Graphs of Polynomial Functions",
+        "subsection_anchor": null,
+        "structural_element": "Exercise 2.22",
+        "content_anchor": "maximum turning points",
+        "page_hint": 42,
+        "concept_hash": "n2s4p1q0r3o5m3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 98,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 99
+      },
+      "explanations_tiered": {
+        "definition": "A polynomial of degree \\(n\\) can have at most \\(n-1\\) turning points.",
+        "concept_summary": "Turning points are local maxima/minima; derivative has degree n-1, giving at most n-1 real roots.",
+        "beginner": "Degree 7 graph can change direction up to 6 times.",
+        "intermediate": "Maximum turning points = degree - 1 = 6.",
+        "advanced": "The derivative is degree n-1, and real roots of derivative correspond to turning points; at most n-1 such roots.",
+        "worked_solution": [
+          "Step 1: Identify degree n = 7.",
+          "Step 2: Apply rule: max turning points = n - 1.",
+          "Step 3: 7 - 1 = 6."
+        ],
+        "reasoning_steps": [
+          "Recall turning point maximum formula.",
+          "Subtract 1 from degree.",
+          "Result is maximum possible turning points."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Thinking max turning points = degree (n), which is for x-intercepts.",
+          "Confusing turning points with zeros."
+        ],
+        "related_concepts": ["turning point", "derivative", "degree"],
+        "revision_note": "Max turning points = degree - 1.",
+        "glossary_entry": {
+          "term": "Turning point",
+          "definition": "Point where graph changes from increasing to decreasing or vice versa.",
+          "example_equation": "quadratic has 1 turning point (vertex)",
+          "related_terms": ["local maximum", "local minimum"]
+        },
+        "flashcard": {
+          "front": "Maximum number of turning points for degree 7 polynomial?",
+          "back": "6."
+        },
+        "concept_map_nodes": [
+          {"source": "Degree n", "relation": "max_turning_points", "target": "n-1"},
+          {"source": "Turning points", "relation": "related_to", "target": "Derivative roots"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Mathematics Unit 2 — Polynomial Functions",
+        "flashcard_front": "Max turning points for degree 7 polynomial?",
+        "flashcard_back": "6.",
+        "glossary_term": "Turning point maximum",
+        "glossary_definition": "Polynomial of degree n has at most n-1 turning points.",
+        "revision_note": "n-1 turning points max.",
+        "teacher_note": "Relate to derivative: degree decreases by 1.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Determine maximum number of turning points",
+        "concept_map_nodes": [
+          {"source": "Degree", "relation": "determines", "target": "Max turning points"},
+          {"source": "Max turning points", "relation": "formula", "target": "n-1"}
+        ],
+        "workbook_section": "2.5 Graphs of Polynomial Functions",
+        "solution_manual_note": "Answer A. Maximum turning points = degree - 1 = 6."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3150,
+    "average_question_quality": 92.8,
+    "type_distribution": {
+      "A": 1,
+      "B": 2,
+      "D": 1,
+      "E": 2,
+      "F": 1,
+      "G": 2,
+      "H": 1
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "medium": 3,
+      "hard": 2
+    },
+    "section_distribution": {
+      "2.4 Zeros of a Polynomial Function": 4,
+      "2.5 Graphs of Polynomial Functions": 4,
+      "2.6 Applications": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 45
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

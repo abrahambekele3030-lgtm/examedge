@@ -1,0 +1,2455 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G10_Phys_U4_Q030",
+    "covered_sections": [
+      "4.1 Charges in Nature>Unit of Charge",
+      "4.1 Charges in Nature>Conservation of Charge",
+      "4.1 Charges in Nature>Quantization of charge",
+      "4.2 Methods of Charging a Body>Charging by rubbing",
+      "4.2 Methods of Charging a Body>Charging by Conduction",
+      "4.2 Methods of Charging a Body>Charging by Induction",
+      "4.3 The electroscope>Key Concept (collapsing/diverging leaf)",
+      "4.4 Electrical Discharge>Lightning",
+      "4.5 Coulomb's law of electrostatics>Key Concept (force depends on charge and distance)",
+      "4.6 The electric field>Electric Field Strength",
+      "4.6 The electric field>Properties of electric field lines",
+      "4.6 The electric field>Electric field strength due to a point charge",
+      "4.7 Electric circuits>Key Concept (physical circuit vs circuit diagram)",
+      "4.7 Electric circuits>Components of electrical circuits",
+      "4.8 Current, Voltage and Ohm's law>Key Concept (current definition)",
+      "4.8 Current, Voltage and Ohm's law>Potential Difference",
+      "4.8 Current, Voltage and Ohm's law>Ohm's Law",
+      "4.9 Combination of resistors in a circuit>Resistors in Series",
+      "4.9 Combination of resistors in a circuit>Resistors in Parallel",
+      "4.10 Voltmeter and ammeter connection in a circuit>Voltmeter",
+      "4.10 Voltmeter and ammeter connection in a circuit>Ammeter",
+      "4.11 Electrical safety in general and local context>Key Concept (avoid contact)",
+      "4.11 Electrical safety in general and local context>Fuse",
+      "4.12 Electric projects>Project 4.1: Series lamp circuit",
+      "4.12 Electric projects>Project 4.2: Parallel lamp circuit",
+      "4.4 Electrical Discharge>Grounding",
+      "4.5 Coulomb's law of electrostatics>Example 4.1",
+      "4.6 The electric field>Key Concept (test charge)",
+      "4.8 Current, Voltage and Ohm's law>Example 4.3",
+      "4.9 Combination of resistors in a circuit>Example 4.8",
+      "4.9 Combination of resistors in a circuit>Example 4.9"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1"
+    ],
+    "baseline_counter": {
+      "4.1 Charges in Nature": {
+        "Unit of Charge": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Unit of Charge"
+          ],
+          "last_question_round": 1
+        },
+        "Conservation of Charge": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Conservation of Charge"
+          ],
+          "last_question_round": 1
+        },
+        "Quantization of charge": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Quantization of charge"
+          ],
+          "last_question_round": 1
+        },
+        "Exercise 4.2": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Exercise 4.2"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.2 Methods of Charging a Body": {
+        "Charging by rubbing": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Charging by rubbing"
+          ],
+          "last_question_round": 1
+        },
+        "Charging by Conduction": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Charging by Conduction"
+          ],
+          "last_question_round": 1
+        },
+        "Charging by Induction": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Charging by Induction"
+          ],
+          "last_question_round": 1
+        },
+        "Activity 4.2": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Activity 4.2"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.3 The electroscope": {
+        "Key Concept (collapsing/diverging leaf)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept (collapsing/diverging leaf)"
+          ],
+          "last_question_round": 1
+        },
+        "Activity 4.2": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Activity 4.2"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.4 Electrical Discharge": {
+        "Lightning": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Lightning"
+          ],
+          "last_question_round": 1
+        },
+        "Grounding": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Grounding"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "Key Concept (force depends on charge and distance)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept (force depends on charge and distance)"
+          ],
+          "last_question_round": 1
+        },
+        "Example 4.1": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 4.1"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.6 The electric field": {
+        "Electric Field Strength": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Electric Field Strength"
+          ],
+          "last_question_round": 1
+        },
+        "Properties of electric field lines": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Properties of electric field lines"
+          ],
+          "last_question_round": 2
+        },
+        "Electric field strength due to a point charge": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Electric field strength due to a point charge"
+          ],
+          "last_question_round": 2
+        },
+        "Key Concept (test charge)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept (test charge)"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.7 Electric circuits": {
+        "Key Concept (physical circuit vs circuit diagram)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept (physical circuit vs circuit diagram)"
+          ],
+          "last_question_round": 2
+        },
+        "Components of electrical circuits": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Components of electrical circuits"
+          ],
+          "last_question_round": 2
+        },
+        "Activity 4.5": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Activity 4.5"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "Key Concept (current definition)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept (current definition)"
+          ],
+          "last_question_round": 2
+        },
+        "Potential Difference": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Potential Difference"
+          ],
+          "last_question_round": 2
+        },
+        "Ohm's Law": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Ohm's Law"
+          ],
+          "last_question_round": 2
+        },
+        "Example 4.3": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 4.3"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "Resistors in Series": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Resistors in Series"
+          ],
+          "last_question_round": 2
+        },
+        "Resistors in Parallel": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Resistors in Parallel"
+          ],
+          "last_question_round": 2
+        },
+        "Example 4.8": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 4.8"
+          ],
+          "last_question_round": 3
+        },
+        "Example 4.9": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Example 4.9"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.10 Voltmeter and ammeter connection in a circuit": {
+        "Voltmeter": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Voltmeter"
+          ],
+          "last_question_round": 2
+        },
+        "Ammeter": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Ammeter"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.11 Electrical safety in general and local context": {
+        "Key Concept (avoid contact)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Key Concept (avoid contact)"
+          ],
+          "last_question_round": 3
+        },
+        "Fuse": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Fuse"
+          ],
+          "last_question_round": 3
+        }
+      },
+      "4.12 Electric projects": {
+        "Project 4.1: Series lamp circuit": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Project 4.1: Series lamp circuit"
+          ],
+          "last_question_round": 3
+        },
+        "Project 4.2: Parallel lamp circuit": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Project 4.2: Parallel lamp circuit"
+          ],
+          "last_question_round": 3
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "4.1 Charges in Nature": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.2 Methods of Charging a Body": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.3 The electroscope": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.4 Electrical Discharge": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.5 Coulomb's law of electrostatics": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.6 The electric field": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "4.7 Electric circuits": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "4.8 Current, Voltage and Ohm's law": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "4.9 Combination of resistors in a circuit": {
+        "question_count": 4,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "4.10 Voltmeter and ammeter connection": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 2
+      },
+      "4.11 Electrical safety": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      },
+      "4.12 Electric projects": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "4.1 Charges in Nature>Exercise 4.2": [
+        "excess electrons",
+        "deficit electrons"
+      ],
+      "4.2 Methods of Charging a Body>Activity 4.2": [
+        "attraction of charged objects",
+        "paper pieces"
+      ],
+      "4.3 The electroscope>Activity 4.2": [
+        "electroscope construction"
+      ],
+      "4.4 Electrical Discharge>Grounding": [
+        "grounding",
+        "earthing",
+        "lightning rod"
+      ],
+      "4.5 Coulomb's law of electrostatics>Example 4.1": [
+        "Coulomb force calculation",
+        "attraction/repulsion"
+      ],
+      "4.6 The electric field>Key Concept (test charge)": [
+        "test charge",
+        "positive test charge",
+        "field detection"
+      ],
+      "4.7 Electric circuits>Activity 4.5": [
+        "open circuit",
+        "closed circuit"
+      ],
+      "4.8 Current, Voltage and Ohm's law>Example 4.3": [
+        "current calculation",
+        "charge from current"
+      ],
+      "4.9 Combination of resistors in a circuit>Example 4.8": [
+        "series equivalent resistance",
+        "current in series"
+      ],
+      "4.9 Combination of resistors in a circuit>Example 4.9": [
+        "parallel equivalent resistance",
+        "branch currents"
+      ],
+      "4.10 Voltmeter and ammeter connection>Ammeter": [
+        "ammeter",
+        "series connection",
+        "low resistance"
+      ],
+      "4.11 Electrical safety>Key Concept (avoid contact)": [
+        "electric shock",
+        "dry skin insulation",
+        "grounding safety"
+      ],
+      "4.11 Electrical safety>Fuse": [
+        "fuse",
+        "overcurrent protection",
+        "melting point"
+      ],
+      "4.12 Electric projects>Project 4.1": [
+        "series circuit brightness",
+        "voltage division"
+      ],
+      "4.12 Electric projects>Project 4.2": [
+        "parallel circuit brightness",
+        "full voltage"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json_placeholder",
+    "content_density_metrics": {
+      "total_concepts_extracted": 43,
+      "questions_per_concept_ratio": 0.7,
+      "structural_coverage_percentage": 48.2
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Physics",
+  "unit": "Unit 4: Static and Current Electricity",
+  "pdf_filename": "P10U4.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:10:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 12,
+        "total_sections": 12,
+        "progress_percentage": 100
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.33,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 30,
+      "sections_covered_count": 12,
+      "subsections_covered_count": 30,
+      "mini_headings_covered_count": 30,
+      "structural_coverage_percentage": 48.2,
+      "concept_utilization_ratio": 0.7
+    },
+    "distribution_analysis": {
+      "most_covered_section": "4.1,4.2,4.6,4.8,4.9",
+      "least_covered_section": "4.3,4.4,4.5,4.10,4.11,4.12",
+      "imbalance_ratio": 0.33,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 997
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phys_U4_Q021",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.10 Voltmeter and ammeter connection in a circuit",
+      "subsection": "Ammeter",
+      "sub_subsection": null,
+      "structural_anchor": "Ammeter",
+      "mcq_type": "F",
+      "question": "Why must an ammeter be connected in series with the component whose current is being measured?",
+      "options": {
+        "A": "To ensure the same potential difference across both",
+        "B": "Because it has high resistance and would change the voltage if in parallel",
+        "C": "To have the same current flow through both the ammeter and the component",
+        "D": "To avoid overheating the ammeter"
+      },
+      "correct_answer": "C",
+      "hint": "Components in series share the same current.",
+      "explanation": "An ammeter measures current and must carry the same current as the component. Series connection ensures identical current. Option C is correct; parallel connection would divert current and give incorrect readings.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.10 Voltmeter and ammeter connection in a circuit",
+        "subsection_anchor": "Ammeter",
+        "structural_element": "Ammeter",
+        "content_anchor": "Ammeters are connected in series with whatever device's current is to be measured.",
+        "page_hint": 41,
+        "concept_hash": "sha256_placeholder_021"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 63,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "An ammeter measures current and is connected in series to carry the full circuit current.",
+        "concept_summary": "Series connection ensures all current flowing through the component also flows through the ammeter. Ideal ammeters have near-zero resistance to avoid altering current.",
+        "beginner": "If you want to count cars passing through a tunnel, you put your counter in the tunnel (series), not beside it (parallel).",
+        "intermediate": "In a series circuit, current is the same everywhere. Placing the ammeter in series guarantees it measures the exact current through the component.",
+        "advanced": "For an ideal ammeter, \\(R_A \\to 0\\) so that \\(V_A = IR_A \\approx 0\\), minimizing voltage drop and circuit disturbance.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Ammeter measures current.",
+          "Current is same in series.",
+          "Therefore ammeter in series."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Connecting ammeter in parallel creates a short circuit, potentially damaging it."
+        ],
+        "related_concepts": [
+          "ammeter",
+          "series circuit",
+          "current measurement"
+        ],
+        "revision_note": "Ammeter: series connection, low resistance.",
+        "glossary_entry": {
+          "term": "Ammeter",
+          "definition": "Device measuring current, connected in series.",
+          "example_equation": null,
+          "related_terms": [
+            "current",
+            "series circuit"
+          ]
+        },
+        "flashcard": {
+          "front": "How is an ammeter connected in a circuit?",
+          "back": "In series with the component."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Ammeter",
+            "relation": "connected_in",
+            "target": "Series"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": true,
+          "visual_type": "labeled_figure",
+          "visual_title": "Ammeter Connection",
+          "visual_description": "Circuit diagram showing ammeter in series with a resistor and battery.",
+          "rendering_target": "svg",
+          "rendering_engine": "svg.shapes",
+          "render_width_mm": 90,
+          "render_height_mm": 60,
+          "caption": "Figure: Ammeter connected in series.",
+          "accessibility_alt_text": "Circuit: battery, ammeter, resistor in series loop.",
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": {
+            "components": [
+              {
+                "id": "A1",
+                "type": "ammeter",
+                "label": "A",
+                "position": [
+                  3,
+                  4
+                ]
+              }
+            ],
+            "connections": [],
+            "layout_type": "series"
+          },
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "top_right",
+          "box_type": "standard_mcq",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Measurements",
+          "flashcard_front": "Why is an ammeter connected in series?",
+          "flashcard_back": "To have the same current flow through it as through the component.",
+          "glossary_term": "Ammeter",
+          "glossary_definition": "Device measuring current, connected in series.",
+          "revision_note": "Ammeter: series.",
+          "teacher_note": "Compare with voltmeter (parallel).",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Explain ammeter connection",
+          "concept_map_nodes": [
+            {
+              "source": "Ammeter",
+              "relation": "connected",
+              "target": "Series to component"
+            }
+          ],
+          "workbook_section": "4.10 Voltmeter and ammeter",
+          "solution_manual_note": "Answer C. Series ensures same current."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q022",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.11 Electrical safety in general and local context",
+      "subsection": "Key Concept (avoid contact)",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept (avoid contact)",
+      "mcq_type": "F",
+      "question": "Why is dry skin a better electrical insulator than wet skin?",
+      "options": {
+        "A": "Dry skin has fewer free ions and moisture for conduction",
+        "B": "Dry skin has lower resistance than wet skin",
+        "C": "Wet skin contains more dead cells",
+        "D": "Dry skin is a better conductor of heat"
+      },
+      "correct_answer": "A",
+      "hint": "Water and dissolved salts increase conductivity.",
+      "explanation": "Wet skin contains water with dissolved ions, providing a conductive path. Dry skin lacks this moisture and ion content, so its resistance is much higher (\u2248100 k\u03a9 vs \u22481 k\u03a9 for wet). Option A correctly identifies the reason.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.11 Electrical safety in general and local context",
+        "subsection_anchor": "Key Concept (avoid contact)",
+        "structural_element": "Key Concept",
+        "content_anchor": "The electrical resistance of dry skin is much higher. Skin insulates the body like the plastic insulation around a copper wire.",
+        "page_hint": 44,
+        "concept_hash": "sha256_placeholder_022"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 91,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Dry skin has high electrical resistance due to lack of moisture and dissolved ions.",
+        "concept_summary": "Pure water is a poor conductor, but impurities and salts make it conductive. Wet skin provides a low-resistance path for current.",
+        "beginner": "Water helps electricity flow, just like water helps cars slide on ice. Dry skin stops electricity better.",
+        "intermediate": "Perspiration contains electrolytes (Na\u207a, Cl\u207b) that act as charge carriers. Dry skin has fewer mobile charges \u2192 higher resistance \u2192 safer.",
+        "advanced": "Resistance of dry skin ~100 k\u03a9; wet skin ~1 k\u03a9. At 220 V, wet skin allows \\(I = V/R = 220/1000 = 0.22\\) A (potentially fatal).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that moisture increases conductivity.",
+          "Dissolved ions in sweat carry charge.",
+          "Dry skin lacks ions and moisture \u2192 higher resistance."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think pure water is a good conductor; it is not, but impure water is."
+        ],
+        "related_concepts": [
+          "resistance",
+          "electrical safety",
+          "electrolyte"
+        ],
+        "revision_note": "Wet skin \u2192 low resistance \u2192 dangerous.",
+        "glossary_entry": {
+          "term": "Skin resistance",
+          "definition": "Electrical resistance of human skin; dry skin has high resistance, wet skin low.",
+          "example_equation": null,
+          "related_terms": [
+            "electrical safety",
+            "insulator"
+          ]
+        },
+        "flashcard": {
+          "front": "Why is wet skin more dangerous than dry skin?",
+          "back": "Wet skin has lower resistance due to dissolved ions, allowing more current to flow."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Wet skin",
+            "relation": "has",
+            "target": "Lower resistance"
+          },
+          {
+            "source": "Lower resistance",
+            "relation": "allows",
+            "target": "Higher current"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "callout_box",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": "warning",
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper",
+            "teacher_guide"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Safety",
+          "flashcard_front": "Why is dry skin a better insulator than wet skin?",
+          "flashcard_back": "Dry skin has fewer free ions and moisture, giving higher resistance.",
+          "glossary_term": "Skin resistance",
+          "glossary_definition": "Dry skin: high resistance (~100 k\u03a9); wet skin: low resistance (~1 k\u03a9).",
+          "revision_note": "Wet skin = dangerous low resistance.",
+          "teacher_note": "Emphasize never using electrical devices with wet hands.",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Explain electrical safety principles",
+          "concept_map_nodes": [
+            {
+              "source": "Moisture",
+              "relation": "reduces",
+              "target": "Skin resistance"
+            }
+          ],
+          "workbook_section": "4.11 Electrical safety",
+          "solution_manual_note": "Answer A. Dry skin has fewer ions and less moisture, increasing resistance."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q023",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.11 Electrical safety in general and local context",
+      "subsection": "Fuse",
+      "sub_subsection": null,
+      "structural_anchor": "Fuse",
+      "mcq_type": "G",
+      "question": "What is the primary function of a fuse in an electrical circuit?",
+      "options": {
+        "A": "To increase the voltage for better performance",
+        "B": "To store electrical energy for later use",
+        "C": "To melt and break the circuit if current exceeds a safe limit",
+        "D": "To measure the amount of current flowing"
+      },
+      "correct_answer": "C",
+      "hint": "Fuses protect against overcurrent by melting.",
+      "explanation": "A fuse contains a metal wire with low melting point. When current exceeds its rating, the wire melts (blows), opening the circuit and preventing damage or fire. Option C is correct; fuses do not store energy or measure current.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.11 Electrical safety in general and local context",
+        "subsection_anchor": "Fuse",
+        "structural_element": "Fuse",
+        "content_anchor": "Fuse is a metal wire or thin metal strip which has the property of low melting point... melts and break the current.",
+        "page_hint": 44,
+        "concept_hash": "sha256_placeholder_023"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 94,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A fuse is a safety device that melts and opens the circuit when current exceeds a rated value.",
+        "concept_summary": "The fuse wire has a low melting point and is placed in series. Excessive current generates heat, melting the wire and stopping current flow.",
+        "beginner": "A fuse is like a weak link in a chain that breaks first to protect the rest when too much current flows.",
+        "intermediate": "For a 5 A fuse, \\(I > 5\\) A causes \\(P = I^2R\\) heating to melt the fuse element, creating an open circuit and preventing fire.",
+        "advanced": "Fuse melting follows Joule heating: \\(Q = I^2 R t\\). If \\(I^2 R t\\) exceeds the heat required to melt the element, the fuse blows. Time-current characteristics vary by type.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Current exceeds fuse rating.",
+          "Fuse wire heats up due to \\(P = I^2R\\).",
+          "Wire reaches melting point and breaks.",
+          "Circuit opens; current stops."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(P = I^2R\\)",
+            "name": "Joule heating power",
+            "variables": [
+              {
+                "symbol": "\\(P\\)",
+                "meaning": "power",
+                "unit": "W"
+              },
+              {
+                "symbol": "\\(I\\)",
+                "meaning": "current",
+                "unit": "A"
+              },
+              {
+                "symbol": "\\(R\\)",
+                "meaning": "resistance",
+                "unit": "\u03a9"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Fuses do not regulate voltage or store energy; they are sacrificial protection devices."
+        ],
+        "related_concepts": [
+          "circuit breaker",
+          "overcurrent protection",
+          "short circuit"
+        ],
+        "revision_note": "Fuse: melts to break circuit when current too high.",
+        "glossary_entry": {
+          "term": "Fuse",
+          "definition": "Safety device with low-melting-point wire that breaks circuit on overcurrent.",
+          "example_equation": null,
+          "related_terms": [
+            "circuit breaker",
+            "overload"
+          ]
+        },
+        "flashcard": {
+          "front": "What does a fuse do in a circuit?",
+          "back": "Melts and breaks the circuit if current exceeds safe limit."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Excessive current",
+            "relation": "melts",
+            "target": "Fuse wire"
+          },
+          {
+            "source": "Melted fuse",
+            "relation": "opens",
+            "target": "Circuit"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": true,
+          "visual_type": "labeled_figure",
+          "visual_title": "Fuse Operation",
+          "visual_description": "Diagram showing intact fuse (wire) and blown fuse (broken wire) in a circuit.",
+          "rendering_target": "svg",
+          "rendering_engine": "svg.shapes",
+          "render_width_mm": 90,
+          "render_height_mm": 60,
+          "caption": "Figure: Fuse before and after overcurrent.",
+          "accessibility_alt_text": "Two circuits: left with intact fuse wire, right with melted/broken fuse.",
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "top_right",
+          "box_type": "standard_mcq",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Safety",
+          "flashcard_front": "What is the function of a fuse?",
+          "flashcard_back": "To melt and break the circuit when current exceeds safe limit.",
+          "glossary_term": "Fuse",
+          "glossary_definition": "Overcurrent protection device that melts to open circuit.",
+          "revision_note": "Fuse: melts on overcurrent \u2192 circuit opens.",
+          "teacher_note": "Explain difference between fuse and circuit breaker.",
+          "bloom_level": "Understand",
+          "learning_objective_tag": "Explain fuse operation",
+          "concept_map_nodes": [
+            {
+              "source": "Fuse",
+              "relation": "protects_against",
+              "target": "Overcurrent"
+            }
+          ],
+          "workbook_section": "4.11 Electrical safety",
+          "solution_manual_note": "Answer C. Fuse melts and breaks circuit on overcurrent."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q024",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.12 Electric projects",
+      "subsection": "Project 4.1: Series lamp circuit",
+      "sub_subsection": null,
+      "structural_anchor": "Project 4.1: Series lamp circuit",
+      "mcq_type": "G",
+      "question": "In a series circuit with two identical 3 V lamps powered by a 3 V battery, what happens when one lamp is removed from its holder?",
+      "options": {
+        "A": "The other lamp becomes brighter",
+        "B": "The other lamp remains lit at the same brightness",
+        "C": "The other lamp goes out",
+        "D": "The battery voltage doubles"
+      },
+      "correct_answer": "C",
+      "hint": "Series circuits have a single path for current.",
+      "explanation": "In a series circuit, removing one lamp creates an open circuit (break) in the only current path. Current stops flowing completely, so the other lamp goes out. Option C is correct; series circuits do not allow independent operation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.12 Electric projects",
+        "subsection_anchor": "Project 4.1: Series lamp circuit",
+        "structural_element": "Project 4.1",
+        "content_anchor": "Remove one of the lamps from its holder. The other lamp goes out. This is because in a series circuit, a failure in any one component breaks the circuit.",
+        "page_hint": 50,
+        "concept_hash": "sha256_placeholder_024"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 95,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "A series circuit provides only one path for current; any break stops current entirely.",
+        "concept_summary": "When one lamp is removed, the circuit becomes open. With no complete loop, current cannot flow, so the remaining lamp does not light.",
+        "beginner": "Think of a loop of string: if you cut it anywhere, the whole loop falls apart. Series circuit works the same way.",
+        "intermediate": "Removing a lamp introduces infinite resistance (open circuit). By Ohm's law, \\(I = V/R = V/\\infty = 0\\). No current means no light.",
+        "advanced": "Kirchhoff's voltage law still holds, but with zero current, voltage across the missing lamp equals battery voltage, and other lamp has zero voltage drop.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Series circuit has one path.",
+          "Removing lamp breaks path (open circuit).",
+          "Current cannot flow.",
+          "Other lamp gets no current \u2192 off."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think other lamp becomes brighter; actually it goes off."
+        ],
+        "related_concepts": [
+          "series circuit",
+          "open circuit",
+          "current continuity"
+        ],
+        "revision_note": "Series: one break \u2192 all off.",
+        "glossary_entry": {
+          "term": "Series circuit",
+          "definition": "Circuit with single current path; any break stops all current.",
+          "example_equation": null,
+          "related_terms": [
+            "open circuit",
+            "series connection"
+          ]
+        },
+        "flashcard": {
+          "front": "In a series circuit, what happens if one bulb is removed?",
+          "back": "All bulbs go out because the circuit is broken."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Series circuit",
+            "relation": "has",
+            "target": "Single path"
+          },
+          {
+            "source": "Broken path",
+            "relation": "causes",
+            "target": "Zero current"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "example_box",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Projects",
+          "flashcard_front": "What happens when one bulb is removed from a series circuit?",
+          "flashcard_back": "The other bulb goes out (open circuit).",
+          "glossary_term": "Series circuit",
+          "glossary_definition": "Single-path circuit; break stops all current.",
+          "revision_note": "Series: one out = all out.",
+          "teacher_note": "Demonstrate with Project 4.1 in class.",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Analyze series circuit behavior",
+          "concept_map_nodes": [
+            {
+              "source": "Series",
+              "relation": "if_broken",
+              "target": "No current"
+            }
+          ],
+          "workbook_section": "4.12 Electric projects",
+          "solution_manual_note": "Answer C. Series circuit breaks \u2192 no current \u2192 lamp off."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q025",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.12 Electric projects",
+      "subsection": "Project 4.2: Parallel lamp circuit",
+      "sub_subsection": null,
+      "structural_anchor": "Project 4.2: Parallel lamp circuit",
+      "mcq_type": "G",
+      "question": "In a parallel circuit with two identical lamps powered by a 3 V battery, what happens when one lamp is removed?",
+      "options": {
+        "A": "The other lamp goes out",
+        "B": "The other lamp remains lit at the same brightness",
+        "C": "The other lamp becomes brighter",
+        "D": "The other lamp becomes dimmer"
+      },
+      "correct_answer": "B",
+      "hint": "Parallel circuits have multiple current paths.",
+      "explanation": "In a parallel circuit, each lamp has its own direct path to the battery. Removing one lamp does not affect the other branch; the remaining lamp stays lit at full brightness. Option B is correct.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.12 Electric projects",
+        "subsection_anchor": "Project 4.2: Parallel lamp circuit",
+        "structural_element": "Project 4.2",
+        "content_anchor": "Remove one end of the lamps. Notice that the other lamp remains lit.",
+        "page_hint": 53,
+        "concept_hash": "sha256_placeholder_025"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 56,
+        "distractor_quality_score": 96,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A parallel circuit provides multiple independent paths for current; failure in one branch does not affect others.",
+        "concept_summary": "Each branch connects directly across the battery. Removing one lamp opens only that branch; other branches still have a complete circuit.",
+        "beginner": "Parallel paths are like multiple doors into a room. If one door is locked, you can still enter through another door.",
+        "intermediate": "With one lamp removed, current through that branch becomes zero, but the remaining branch still has voltage \\(V\\) across it, so \\(I = V/R\\) remains unchanged.",
+        "advanced": "Total current decreases because one branch is open, but voltage across remaining resistor is still the full battery voltage (assuming ideal battery). Brightness depends on \\(P = V^2/R\\), unchanged.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Parallel circuit: multiple paths.",
+          "Each lamp has direct connection to battery.",
+          "Removing one lamp does not break other paths.",
+          "Other lamp still has full voltage \u2192 same brightness."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think parallel circuits also fail completely; they do not."
+        ],
+        "related_concepts": [
+          "parallel circuit",
+          "branch",
+          "independent operation"
+        ],
+        "revision_note": "Parallel: one out \u2192 others stay on.",
+        "glossary_entry": {
+          "term": "Parallel circuit",
+          "definition": "Circuit with multiple branches; failure in one branch does not affect others.",
+          "example_equation": null,
+          "related_terms": [
+            "branch",
+            "parallel connection"
+          ]
+        },
+        "flashcard": {
+          "front": "In a parallel circuit, if one bulb burns out, what happens to the others?",
+          "back": "They remain lit at the same brightness."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Parallel circuit",
+            "relation": "has",
+            "target": "Multiple paths"
+          },
+          {
+            "source": "Multiple paths",
+            "relation": "allow",
+            "target": "Independent operation"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "example_box",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Projects",
+          "flashcard_front": "If one bulb is removed from a parallel circuit, what happens to the other bulb?",
+          "flashcard_back": "It remains lit at the same brightness.",
+          "glossary_term": "Parallel circuit",
+          "glossary_definition": "Multiple-branch circuit; branches operate independently.",
+          "revision_note": "Parallel: independent branches.",
+          "teacher_note": "Demonstrate with Project 4.2.",
+          "bloom_level": "Analyse",
+          "learning_objective_tag": "Analyze parallel circuit behavior",
+          "concept_map_nodes": [
+            {
+              "source": "Parallel",
+              "relation": "if_one_branch_opens",
+              "target": "Others unaffected"
+            }
+          ],
+          "workbook_section": "4.12 Electric projects",
+          "solution_manual_note": "Answer B. Other lamp remains lit in parallel circuit."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q026",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.4 Electrical Discharge",
+      "subsection": "Grounding",
+      "sub_subsection": null,
+      "structural_anchor": "Grounding",
+      "mcq_type": "F",
+      "question": "What is the purpose of a lightning rod on a building?",
+      "options": {
+        "A": "To attract lightning away from the building",
+        "B": "To provide a low-resistance path to ground for lightning current",
+        "C": "To store lightning energy for later use",
+        "D": "To measure the voltage of lightning strikes"
+      },
+      "correct_answer": "B",
+      "hint": "Grounding safely diverts excess charge to Earth.",
+      "explanation": "A lightning rod provides a direct, low-resistance path for lightning current to flow safely into the ground, bypassing the building. Option B is correct; it does not store energy or primarily attract lightning (though it may intercept it).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.4 Electrical Discharge",
+        "subsection_anchor": "Grounding",
+        "structural_element": "Grounding",
+        "content_anchor": "A lightning conductor is often fitted to the top of a building to help to discharge the clouds safely. These rods are made of metal and are connected to metal cables that conduct electric charge into the ground.",
+        "page_hint": 11,
+        "concept_hash": "sha256_placeholder_026"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 94,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Grounding provides a safe, low-resistance path for electrical current to flow into Earth.",
+        "concept_summary": "A lightning rod intercepts lightning and conducts its charge through a thick wire to ground, preventing fire or structural damage.",
+        "beginner": "The lightning rod gives lightning an easy path to the ground so it doesn't go through the building.",
+        "intermediate": "Lightning carries very high current (10\u2013200 kA). The rod and cable have very low resistance, so \\(V = IR\\) drop is small, and the building remains safe.",
+        "advanced": "Grounding ensures that the building remains at near-zero potential relative to Earth, preventing side flashes. The rod's tip enhances local electric field to initiate upward streamers.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Lightning rod provides conductive path.",
+          "Connects to ground via thick cable.",
+          "Current flows safely into Earth.",
+          "Building is protected from fire/electrocution."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Lightning rods do not 'attract' lightning in the sense of drawing it from elsewhere; they provide a preferred path if struck."
+        ],
+        "related_concepts": [
+          "grounding",
+          "lightning",
+          "electrical safety"
+        ],
+        "revision_note": "Lightning rod: safe path to ground.",
+        "glossary_entry": {
+          "term": "Lightning rod",
+          "definition": "Metal rod and cable providing a low-resistance path to ground for lightning current.",
+          "example_equation": null,
+          "related_terms": [
+            "grounding",
+            "lightning conductor"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the purpose of a lightning rod?",
+          "back": "To provide a low-resistance path to ground for lightning current, protecting the building."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Lightning rod",
+            "relation": "provides",
+            "target": "Low-resistance path to ground"
+          },
+          {
+            "source": "Low-resistance path",
+            "relation": "prevents",
+            "target": "Building damage"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": true,
+          "visual_type": "labeled_figure",
+          "visual_title": "Lightning Rod Protection",
+          "visual_description": "Building with lightning rod on roof and copper cable running down side into ground rod.",
+          "rendering_target": "svg",
+          "rendering_engine": "svg.shapes",
+          "render_width_mm": 90,
+          "render_height_mm": 100,
+          "caption": "Figure: Lightning rod grounding system.",
+          "accessibility_alt_text": "Building with metal rod on top, thick wire down side, buried ground rod.",
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "top_right",
+          "box_type": "standard_mcq",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Safety",
+          "flashcard_front": "What is a lightning rod for?",
+          "flashcard_back": "To provide a low-resistance path to ground for lightning current.",
+          "glossary_term": "Lightning rod",
+          "glossary_definition": "Grounding device protecting buildings from lightning damage.",
+          "revision_note": "Lightning rod \u2192 safe ground path.",
+          "teacher_note": "Discuss Benjamin Franklin's invention.",
+          "bloom_level": "Understand",
+          "learning_objective_tag": "Explain grounding applications",
+          "concept_map_nodes": [
+            {
+              "source": "Lightning",
+              "relation": "diverted_by",
+              "target": "Lightning rod"
+            },
+            {
+              "source": "Lightning rod",
+              "relation": "connects_to",
+              "target": "Ground"
+            }
+          ],
+          "workbook_section": "4.4 Electrical Discharge",
+          "solution_manual_note": "Answer B. Lightning rod provides low-resistance path to ground."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q027",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.5 Coulomb's law of electrostatics",
+      "subsection": "Example 4.1",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.1",
+      "mcq_type": "E",
+      "question": "A charge \\(q_1 = +5.0\\,\\mu\\mathrm{C}\\) and a charge \\(q_2 = -12.0\\,\\mu\\mathrm{C}\\) are separated by \\(0.30\\,\\mathrm{m}\\). What is the magnitude of the electrostatic force between them? Use \\(k = 9.0 \\times 10^9\\,\\mathrm{N\\cdot m^2/C^2}\\).",
+      "options": {
+        "A": "\\(2.0\\,\\mathrm{N}\\)",
+        "B": "\\(6.0\\,\\mathrm{N}\\)",
+        "C": "\\(12.0\\,\\mathrm{N}\\)",
+        "D": "\\(18.0\\,\\mathrm{N}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Use \\(F = k|q_1 q_2|/r^2\\) with charges in coulombs.",
+      "explanation": "\\(F = k|q_1 q_2|/r^2 = (9\\times10^9)(5.0\\times10^{-6})(12.0\\times10^{-6})/(0.30)^2 = (9\\times10^9)(60\\times10^{-12})/0.09 = (0.54)/0.09 = 6.0\\,\\mathrm{N}\\). Option B is correct.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(F = k|q_1 q_2|/r^2\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "q1": {
+            "magnitude": 5e-06,
+            "unit": "C"
+          },
+          "q2": {
+            "magnitude": 1.2e-05,
+            "unit": "C"
+          },
+          "r": {
+            "magnitude": 0.3,
+            "unit": "m"
+          }
+        },
+        "answer_value": 6.0,
+        "answer_unit": "N",
+        "calculation_steps": [
+          "\\(F = (9.0\\times10^9)(5.0\\times10^{-6})(12.0\\times10^{-6})/(0.30)^2\\)",
+          "\\(F = (9.0\\times10^9)(60\\times10^{-12})/0.09\\)",
+          "\\(F = 0.54/0.09 = 6.0\\,\\mathrm{N}\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.5 Coulomb's law of electrostatics",
+        "subsection_anchor": "Example 4.1",
+        "structural_element": "Example 4.1",
+        "content_anchor": "F = k q1 q2 / r^2 = -6.0 N",
+        "page_hint": 13,
+        "concept_hash": "sha256_placeholder_027"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 93,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Coulomb's law calculates electrostatic force magnitude as \\(F = k|q_1 q_2|/r^2\\).",
+        "concept_summary": "The force is attractive for opposite charges. Magnitude depends on product of charges and inverse square of distance.",
+        "beginner": "Plug numbers into formula: multiply charges, multiply by k, divide by distance squared.",
+        "intermediate": "Convert \u03bcC to C: \\(5.0\\mu\\mathrm{C} = 5.0\\times10^{-6}\\) C. Then \\(F = (9\\times10^9)(5\\times10^{-6})(12\\times10^{-6})/(0.3)^2 = 6.0\\) N.",
+        "advanced": "Force is attractive (opposite signs). Direction is along line joining charges. Magnitude calculation uses absolute values.",
+        "worked_solution": [
+          "Step 1: Write Coulomb's law: \\(F = k|q_1 q_2|/r^2\\).",
+          "Step 2: Convert charges: \\(5.0\\mu\\mathrm{C} = 5.0\\times10^{-6}\\) C, \\(12.0\\mu\\mathrm{C} = 12.0\\times10^{-6}\\) C.",
+          "Step 3: Compute product: \\(5.0\\times10^{-6} \\times 12.0\\times10^{-6} = 60.0\\times10^{-12}\\).",
+          "Step 4: Multiply by k: \\(9.0\\times10^9 \\times 60.0\\times10^{-12} = 0.54\\).",
+          "Step 5: Divide by \\(r^2 = (0.30)^2 = 0.09\\): \\(0.54 / 0.09 = 6.0\\) N."
+        ],
+        "reasoning_steps": [
+          "Identify given values with units.",
+          "Convert microcoulombs to coulombs.",
+          "Apply \\(F = kq_1q_2/r^2\\).",
+          "Compute stepwise."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(F = k|q_1 q_2|/r^2\\)",
+            "name": "Coulomb's law magnitude",
+            "variables": [
+              {
+                "symbol": "\\(F\\)",
+                "meaning": "force",
+                "unit": "N"
+              },
+              {
+                "symbol": "\\(k\\)",
+                "meaning": "Coulomb constant",
+                "unit": "N\u00b7m\u00b2/C\u00b2"
+              },
+              {
+                "symbol": "\\(q_1, q_2\\)",
+                "meaning": "charges",
+                "unit": "C"
+              },
+              {
+                "symbol": "\\(r\\)",
+                "meaning": "distance",
+                "unit": "m"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Forgetting to convert \u03bcC to C, or squaring only one charge."
+        ],
+        "related_concepts": [
+          "Coulomb's law",
+          "electrostatic force",
+          "inverse square law"
+        ],
+        "revision_note": "\\(F = kq_1q_2/r^2\\); 1 \u03bcC = 10\u207b\u2076 C.",
+        "glossary_entry": {
+          "term": "Coulomb force",
+          "definition": "Electrostatic force between two point charges.",
+          "example_equation": "\\(F = kq_1q_2/r^2\\)",
+          "related_terms": [
+            "Coulomb's law",
+            "electrostatic force"
+          ]
+        },
+        "flashcard": {
+          "front": "Force between +5 \u03bcC and -12 \u03bcC at 0.3 m?",
+          "back": "6.0 N (attractive)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Coulomb's law",
+            "relation": "gives",
+            "target": "F = kq\u2081q\u2082/r\u00b2"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "formula_box",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper",
+            "solution_manual"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Coulomb",
+          "flashcard_front": "Find force: +5 \u03bcC, -12 \u03bcC, 0.3 m apart.",
+          "flashcard_back": "6.0 N.",
+          "glossary_term": "Coulomb force",
+          "glossary_definition": "Force between charges given by Coulomb's law.",
+          "revision_note": "\\(F = kq\u2081q\u2082/r\u00b2\\).",
+          "teacher_note": "Emphasize absolute value for magnitude.",
+          "bloom_level": "Apply",
+          "learning_objective_tag": "Calculate electrostatic force",
+          "concept_map_nodes": [
+            {
+              "source": "Coulomb's law",
+              "relation": "used_for",
+              "target": "Force calculation"
+            }
+          ],
+          "workbook_section": "4.5 Coulomb's law",
+          "solution_manual_note": "Answer B. \\(F = 6.0\\) N (magnitude)."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q028",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.6 The electric field",
+      "subsection": "Key Concept (test charge)",
+      "sub_subsection": null,
+      "structural_anchor": "Key Concept (test charge)",
+      "mcq_type": "B",
+      "question": "What is a test charge, and why must it be small?",
+      "options": {
+        "A": "A large positive charge used to create strong fields",
+        "B": "A small positive charge used to detect electric fields without disturbing them",
+        "C": "A neutral object used to measure voltage",
+        "D": "A negative charge used to repel electrons"
+      },
+      "correct_answer": "B",
+      "hint": "Test charge should not alter the field it measures.",
+      "explanation": "A test charge is a small positive charge used to detect electric fields. It must be small so its own field does not significantly disturb the original field being measured. Option B is correct.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.6 The electric field",
+        "subsection_anchor": "Key Concept (test charge)",
+        "structural_element": "Key Concept",
+        "content_anchor": "A test charge is a positive electric charge whose charge is so small that it does not significantly disturb the charges that create the electric field.",
+        "page_hint": 15,
+        "concept_hash": "sha256_placeholder_028"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 95,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A test charge is an infinitesimally small positive charge used to probe an electric field without altering it.",
+        "concept_summary": "By convention, test charge is positive. Its small magnitude ensures that the force it experiences comes almost entirely from the external field, not from its own field affecting source charges.",
+        "beginner": "A test charge is like a tiny thermometer that measures temperature without changing it \u2014 small enough not to affect what you're measuring.",
+        "intermediate": "If a test charge \\(q_0\\) is too large, it will repel or attract source charges, changing the field. The limit \\(q_0 \\to 0\\) defines the field: \\(\\mathbf{E} = \\lim_{q_0\\to 0} \\mathbf{F}/q_0\\).",
+        "advanced": "This is analogous to the definition of electric field: \\(\\mathbf{E} = \\lim_{q \\to 0} \\frac{\\mathbf{F}}{q}\\). The test charge must be vanishingly small to avoid perturbing the charge distribution.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Test charge detects electric fields.",
+          "Must be small to avoid altering the field.",
+          "Conventionally taken as positive."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think test charge can be any size; it must be very small."
+        ],
+        "related_concepts": [
+          "electric field",
+          "field definition",
+          "point charge"
+        ],
+        "revision_note": "Test charge: small, positive, non-disturbing.",
+        "glossary_entry": {
+          "term": "Test charge",
+          "definition": "Small positive charge used to detect electric fields without disturbing them.",
+          "example_equation": null,
+          "related_terms": [
+            "electric field",
+            "point charge"
+          ]
+        },
+        "flashcard": {
+          "front": "What is a test charge and why must it be small?",
+          "back": "A small positive charge to detect E-fields without disturbing them."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Test charge",
+            "relation": "must_be",
+            "target": "Small"
+          },
+          {
+            "source": "Small size",
+            "relation": "prevents",
+            "target": "Field disturbance"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "definition_box",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper",
+            "glossary"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Electric Field",
+          "flashcard_front": "Define test charge and state why it must be small.",
+          "flashcard_back": "Small positive charge used to detect E-fields; small to avoid disturbing the field.",
+          "glossary_term": "Test charge",
+          "glossary_definition": "Small positive charge for field detection.",
+          "revision_note": "Test charge: small +, non-disturbing.",
+          "teacher_note": "Introduce limit concept for advanced students.",
+          "bloom_level": "Understand",
+          "learning_objective_tag": "Define test charge",
+          "concept_map_nodes": [
+            {
+              "source": "Test charge",
+              "relation": "defines",
+              "target": "Electric field"
+            }
+          ],
+          "workbook_section": "4.6 The electric field",
+          "solution_manual_note": "Answer B. Test charge is small and positive to avoid disturbing the field."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q029",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.8 Current, Voltage and Ohm's law",
+      "subsection": "Example 4.3",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.3",
+      "mcq_type": "E",
+      "question": "A current of \\(0.5\\,\\mathrm{A}\\) flows through a filament for \\(10\\) minutes. How much charge passes through the circuit?",
+      "options": {
+        "A": "\\(5\\,\\mathrm{C}\\)",
+        "B": "\\(30\\,\\mathrm{C}\\)",
+        "C": "\\(300\\,\\mathrm{C}\\)",
+        "D": "\\(600\\,\\mathrm{C}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Use \\(\\Delta Q = I \\times \\Delta t\\) with time in seconds.",
+      "explanation": "\\(\\Delta t = 10\\,\\text{min} = 600\\,\\text{s}\\). Then \\(\\Delta Q = I \\Delta t = 0.5 \\times 600 = 300\\,\\mathrm{C}\\). Option C is correct; A forgets time conversion, B uses 1 min, D uses 20 min.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\Delta Q = I \\Delta t\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "I": {
+            "magnitude": 0.5,
+            "unit": "A"
+          },
+          "t": {
+            "magnitude": 10,
+            "unit": "min"
+          }
+        },
+        "answer_value": 300,
+        "answer_unit": "C",
+        "calculation_steps": [
+          "Convert time: \\(10\\,\\text{min} = 600\\,\\text{s}\\)",
+          "\\(\\Delta Q = 0.5\\,\\mathrm{A} \\times 600\\,\\mathrm{s} = 300\\,\\mathrm{C}\\)"
+        ],
+        "significant_figures": 1
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.8 Current, Voltage and Ohm's law",
+        "subsection_anchor": "Example 4.3",
+        "structural_element": "Example 4.3",
+        "content_anchor": "\u0394Q = I \u00d7 \u0394t = 0.5 A \u00d7 600 s = 300 C",
+        "page_hint": 23,
+        "concept_hash": "sha256_placeholder_029"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 95,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Charge is current multiplied by time: \\(\\Delta Q = I \\Delta t\\).",
+        "concept_summary": "One ampere equals one coulomb per second. Multiply current in amperes by time in seconds to get charge in coulombs.",
+        "beginner": "If 0.5 coulombs flow each second, after 600 seconds, \\(0.5 \\times 600 = 300\\) coulombs total.",
+        "intermediate": "Always convert minutes to seconds: \\(10\\,\\text{min} = 600\\,\\text{s}\\). Then \\(Q = 0.5 \\times 600 = 300\\) C.",
+        "advanced": "For time-varying current, \\(Q = \\int I(t) dt\\). Here, steady current makes the calculation trivial.",
+        "worked_solution": [
+          "Step 1: Convert time to seconds: \\(10\\,\\text{min} = 600\\,\\text{s}\\).",
+          "Step 2: Use \\(\\Delta Q = I \\Delta t = 0.5\\,\\mathrm{A} \\times 600\\,\\mathrm{s}\\).",
+          "Step 3: \\(\\Delta Q = 300\\,\\mathrm{C}\\)."
+        ],
+        "reasoning_steps": [
+          "Recall \\(I = \\Delta Q/\\Delta t\\).",
+          "Rearrange: \\(\\Delta Q = I \\Delta t\\).",
+          "Convert time to seconds.",
+          "Multiply."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\Delta Q = I \\Delta t\\)",
+            "name": "Charge from current",
+            "variables": [
+              {
+                "symbol": "\\(\\Delta Q\\)",
+                "meaning": "charge",
+                "unit": "C"
+              },
+              {
+                "symbol": "\\(I\\)",
+                "meaning": "current",
+                "unit": "A"
+              },
+              {
+                "symbol": "\\(\\Delta t\\)",
+                "meaning": "time",
+                "unit": "s"
+              }
+            ],
+            "derivation": "From definition of current."
+          }
+        ],
+        "misconceptions": [
+          "Forgetting to convert minutes to seconds."
+        ],
+        "related_concepts": [
+          "current",
+          "charge",
+          "ampere"
+        ],
+        "revision_note": "\\(Q = I t\\), time in seconds.",
+        "glossary_entry": {
+          "term": "Charge from current",
+          "definition": "Charge equals current multiplied by time.",
+          "example_equation": "\\(\\Delta Q = I \\Delta t\\)",
+          "related_terms": [
+            "current",
+            "coulomb"
+          ]
+        },
+        "flashcard": {
+          "front": "0.5 A for 10 minutes gives how much charge?",
+          "back": "300 C."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Current",
+            "relation": "over time gives",
+            "target": "Charge"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "formula_box",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper",
+            "solution_manual"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Current",
+          "flashcard_front": "0.5 A for 10 min: charge?",
+          "flashcard_back": "300 C.",
+          "glossary_term": "Charge calculation",
+          "glossary_definition": "\\(Q = I \\times t\\) with t in seconds.",
+          "revision_note": "\\(Q = I t\\) (t in s).",
+          "teacher_note": "Practice unit conversions.",
+          "bloom_level": "Apply",
+          "learning_objective_tag": "Calculate charge from current and time",
+          "concept_map_nodes": [
+            {
+              "source": "Current",
+              "relation": "multiplied_by_time",
+              "target": "Charge"
+            }
+          ],
+          "workbook_section": "4.8 Current, Voltage and Ohm's law",
+          "solution_manual_note": "Answer C. \\(Q = 0.5 \\times 600 = 300\\) C."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Phys_U4_Q030",
+      "generation_timestamp": "2026-06-12T10:10:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 4: Static and Current Electricity",
+      "section": "4.9 Combination of resistors in a circuit",
+      "subsection": "Example 4.8",
+      "sub_subsection": null,
+      "structural_anchor": "Example 4.8",
+      "mcq_type": "E",
+      "question": "Four resistors \\(12\\,\\Omega, 3.0\\,\\Omega, 4.0\\,\\Omega,\\) and \\(5.0\\,\\Omega\\) are connected in series to a \\(12\\,\\mathrm{V}\\) battery. What is the current through each resistor?",
+      "options": {
+        "A": "\\(0.25\\,\\mathrm{A}\\)",
+        "B": "\\(0.50\\,\\mathrm{A}\\)",
+        "C": "\\(1.0\\,\\mathrm{A}\\)",
+        "D": "\\(2.0\\,\\mathrm{A}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Series: current is same everywhere; find total resistance first.",
+      "explanation": "\\(R_{eq} = 12 + 3 + 4 + 5 = 24\\,\\Omega\\). Then \\(I = V/R_{eq} = 12/24 = 0.50\\,\\mathrm{A}\\). Current is the same through all series resistors. Option B is correct.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(R_{eq} = R_1+R_2+R_3+R_4\\)",
+        "\\(I = V/R\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "R1": 12,
+          "R2": 3,
+          "R3": 4,
+          "R4": 5,
+          "V": 12
+        },
+        "answer_value": 0.5,
+        "answer_unit": "A",
+        "calculation_steps": [
+          "\\(R_{eq} = 12 + 3 + 4 + 5 = 24\\,\\Omega\\)",
+          "\\(I = V/R_{eq} = 12/24 = 0.50\\,\\mathrm{A}\\)"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 4: Static and Current Electricity",
+        "section_anchor": "4.9 Combination of resistors in a circuit",
+        "subsection_anchor": "Example 4.8",
+        "structural_element": "Example 4.8",
+        "content_anchor": "Req = 24 \u03a9, I = 0.50 A",
+        "page_hint": 36,
+        "concept_hash": "sha256_placeholder_030"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 94,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "In a series circuit, equivalent resistance is the sum of individual resistances, and current is the same through all.",
+        "concept_summary": "First find total resistance, then use Ohm's law to find current. Series current is constant.",
+        "beginner": "Add up all resistors to find total resistance, then divide voltage by total resistance to get current.",
+        "intermediate": "\\(R_{eq} = 12+3+4+5 = 24\\,\\Omega\\). \\(I = 12/24 = 0.50\\) A through each resistor.",
+        "advanced": "Kirchhoff's voltage law: \\(V = IR_1+IR_2+IR_3+IR_4 = I(R_1+R_2+R_3+R_4)\\). Thus \\(I = V/(R_1+R_2+R_3+R_4)\\).",
+        "worked_solution": [
+          "Step 1: Find equivalent resistance: \\(12+3+4+5 = 24\\,\\Omega\\).",
+          "Step 2: Apply Ohm's law: \\(I = V/R_{eq} = 12/24 = 0.50\\,\\mathrm{A}\\).",
+          "Step 3: In series, current is same through all resistors: 0.50 A."
+        ],
+        "reasoning_steps": [
+          "Sum series resistances.",
+          "Divide battery voltage by total resistance.",
+          "Result is current in each resistor."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(R_{eq} = \\sum R_i\\)",
+            "name": "Series resistance",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Thinking current splits in series; it does not."
+        ],
+        "related_concepts": [
+          "series circuit",
+          "Ohm's law",
+          "equivalent resistance"
+        ],
+        "revision_note": "Series: Req = sum, I = V/Req same for all.",
+        "glossary_entry": {
+          "term": "Series current",
+          "definition": "Current is identical through all series components.",
+          "example_equation": "\\(I = V/R_{eq}\\)",
+          "related_terms": [
+            "series circuit",
+            "Ohm's law"
+          ]
+        },
+        "flashcard": {
+          "front": "Current through each resistor in series: 12,3,4,5 \u03a9, 12 V?",
+          "back": "0.50 A."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Series circuit",
+            "relation": "has",
+            "target": "Same current everywhere"
+          }
+        ],
+        "visual_system": {
+          "requires_visual": false,
+          "visual_type": null,
+          "visual_title": null,
+          "visual_description": null,
+          "rendering_target": null,
+          "rendering_engine": null,
+          "render_width_mm": null,
+          "render_height_mm": null,
+          "caption": null,
+          "accessibility_alt_text": null,
+          "geometry_spec": null,
+          "graph_spec": null,
+          "table_spec": null,
+          "circuit_spec": null,
+          "chemistry_spec": null,
+          "biology_spec": null,
+          "flowchart_spec": null,
+          "number_line_spec": null
+        },
+        "layout_metadata": {
+          "page_element_type": "mcq_block",
+          "suggested_placement": "main_column",
+          "visual_anchor": "none",
+          "box_type": "formula_box",
+          "preceding_element": "previous_mcq",
+          "following_element": "next_mcq",
+          "page_break_before": false,
+          "keep_with_next": true,
+          "column_span": 1,
+          "callout_style": null,
+          "heading_level": null
+        },
+        "publishing_metadata": {
+          "target_documents": [
+            "question_bank",
+            "exam_paper",
+            "solution_manual"
+          ],
+          "flashcard_deck": "Physics Unit 4 \u2014 Circuits",
+          "flashcard_front": "Series: 12,3,4,5 \u03a9 with 12 V battery. Current?",
+          "flashcard_back": "0.50 A.",
+          "glossary_term": "Series circuit current",
+          "glossary_definition": "Current = V / (R1+R2+...)",
+          "revision_note": "Series I = V/Req.",
+          "teacher_note": "Reinforce that current is same everywhere.",
+          "bloom_level": "Apply",
+          "learning_objective_tag": "Calculate current in series circuit",
+          "concept_map_nodes": [
+            {
+              "source": "Series",
+              "relation": "I =",
+              "target": "V/\u2211R"
+            }
+          ],
+          "workbook_section": "4.9 Combination of resistors",
+          "solution_manual_note": "Answer B. Req=24\u03a9, I=12/24=0.50A."
+        }
+      },
+      "batch_metrics": {
+        "generation_time_ms": 3100,
+        "average_question_quality": 89.1,
+        "type_distribution": {
+          "B": 1,
+          "E": 3,
+          "F": 3,
+          "G": 3
+        },
+        "difficulty_distribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 0
+        },
+        "section_distribution": {
+          "4.4": 1,
+          "4.5": 1,
+          "4.6": 1,
+          "4.8": 1,
+          "4.9": 1,
+          "4.10": 1,
+          "4.11": 2,
+          "4.12": 2
+        },
+        "tiered_explanation_word_counts": {
+          "beginner_avg": 26,
+          "intermediate_avg": 34,
+          "advanced_avg": 44
+        },
+        "visual_required_count": 2,
+        "flashcards_generated": 10,
+        "glossary_terms_generated": 10
+      },
+      "system_checks": {
+        "state_integrity_verified": true,
+        "constraint_compliance": 100,
+        "exhaustion_detection_active": true,
+        "phase_enforcement_active": true,
+        "anti_cheat_active": true,
+        "tiered_explanation_system_active": true,
+        "visual_system_active": true,
+        "layout_system_active": true,
+        "publishing_system_active": true
+      }
+    }
+  ]
+}

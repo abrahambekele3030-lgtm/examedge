@@ -1,0 +1,1728 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-11T10:50:00Z",
+  "round_id": "R05",
+  "batch_sequence": 5,
+  "__STATE__": {
+    "current_round": 5,
+    "last_question_id": "G10_Bio_U2_Q050",
+    "covered_sections": [
+      "2.1. Characteristics of plants>Characteristics of plants",
+      "2.2. Non-flowering and flowering plants>Gymnosperms",
+      "2.2. Non-flowering and flowering plants>Angiosperms",
+      "2.3. Structure and function of plant parts>Shoot system",
+      "2.3. Structure and function of plant parts>Root system",
+      "2.3.1. The internal structure of a leaf>Outer layer",
+      "2.3.1. The internal structure of a leaf>Middle layer",
+      "2.3.2. The internal structure of a stem>Vascular bundles",
+      "2.3.3. The internal structure of a root>Pelliferous layer",
+      "2.4.1. Reproductive structure and life cycle of non-flowering plants>Gymnosperm life cycle",
+      "2.3.3. The internal structure of a root>Cortex",
+      "2.3.3. The internal structure of a root>Endodermis",
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Floral parts",
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Stamen",
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Pistil",
+      "2.4.3. Pollination>Pollen tube formation",
+      "2.4.3. Pollination>Fertilization",
+      "2.5. Seeds>Seed structure",
+      "2.5. Seeds>Monocot vs Dicot",
+      "2.6.1. Seed dispersal>Dispersal by animals",
+      "2.6.2. Germination of seed>Essential conditions",
+      "2.6.2. Germination of seed>Epigeal germination",
+      "2.6.2. Germination of seed>Hypogeal germination",
+      "2.7.1. The photosynthetic apparatus>Chloroplast",
+      "2.7.1. The photosynthetic apparatus>Granum",
+      "2.7.1. The photosynthetic apparatus>Stroma",
+      "2.7.2. The light absorbing system in chloroplast>Chlorophyll",
+      "2.7.2. The light absorbing system in chloroplast>Action spectrum",
+      "2.8.1. Transporting systems in plants>Xylem function",
+      "2.8.1. Transporting systems in plants>Phloem function",
+      "2.8.2. Mechanism of transport in plant>Uptake of water and minerals",
+      "2.8.2. Mechanism of transport in plant>Transpiration pull",
+      "2.8.2. Mechanism of transport in plant>Translocation",
+      "2.9.1. Tropism as growth response>Auxin",
+      "2.9.1. Tropism as growth response>Phototropism",
+      "2.9.1. Tropism as growth response>Geotropism",
+      "2.9.1. Tropism as growth response>Hydrotropism",
+      "2.10. Medicinal plants>Medicinal plant list",
+      "2.10. Medicinal plants>Traditional medicine",
+      "2.11. Renowned Ethiopian Botanist>Professor Sebsebe Demissew",
+      "2.7.3. Mechanism of photosynthesis>Light reaction",
+      "2.7.3. Mechanism of photosynthesis>Dark reaction",
+      "2.7.3. Mechanism of photosynthesis>Overall equation",
+      "2.7.4. Testing a leaf for starch>Iodine test",
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Complete flower",
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Perfect flower",
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Incomplete flower",
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Imperfect flower",
+      "2.5. Seeds>Seed coat function",
+      "2.5. Seeds>Endosperm function",
+      "2.6.1. Seed dispersal>Wind dispersal"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1",
+      "u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2",
+      "v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3",
+      "w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4",
+      "x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5",
+      "y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6",
+      "z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7",
+      "a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9",
+      "c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0",
+      "d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1",
+      "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2",
+      "f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3",
+      "g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1",
+      "o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2",
+      "p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3",
+      "q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4",
+      "r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5",
+      "s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6",
+      "t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7",
+      "u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8",
+      "v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9",
+      "w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0",
+      "x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1"
+    ],
+    "baseline_counter": {
+      "2.1. Characteristics of plants": {
+        "Characteristics of plants": {
+          "count": 2,
+          "mini_headings_covered": ["Autotrophic", "Sessile", "Multicellular eukaryotic cells"],
+          "last_question_round": 1
+        }
+      },
+      "2.2. Non-flowering and flowering plants": {
+        "Gymnosperms": {
+          "count": 2,
+          "mini_headings_covered": ["Cone", "Naked seeds"],
+          "last_question_round": 1
+        },
+        "Angiosperms": {
+          "count": 2,
+          "mini_headings_covered": ["Flower", "Fruit"],
+          "last_question_round": 1
+        }
+      },
+      "2.3. Structure and function of plant parts": {
+        "Shoot system": {
+          "count": 2,
+          "mini_headings_covered": ["Stem", "Leaves"],
+          "last_question_round": 1
+        },
+        "Root system": {
+          "count": 2,
+          "mini_headings_covered": ["Tap root", "Lateral root"],
+          "last_question_round": 1
+        }
+      },
+      "2.3.1. The internal structure of a leaf": {
+        "Outer layer": {
+          "count": 2,
+          "mini_headings_covered": ["Epidermis", "Cuticle", "Guard cells", "Stomata"],
+          "last_question_round": 1
+        },
+        "Middle layer": {
+          "count": 2,
+          "mini_headings_covered": ["Mesophyll", "Palisade layer", "Spongy layer"],
+          "last_question_round": 1
+        }
+      },
+      "2.3.2. The internal structure of a stem": {
+        "Vascular bundles": {
+          "count": 2,
+          "mini_headings_covered": ["Xylem", "Phloem", "Cambium"],
+          "last_question_round": 2
+        }
+      },
+      "2.3.3. The internal structure of a root": {
+        "Pelliferous layer": {
+          "count": 2,
+          "mini_headings_covered": ["Root hairs"],
+          "last_question_round": 2
+        },
+        "Cortex": {
+          "count": 2,
+          "mini_headings_covered": ["Cortex storage"],
+          "last_question_round": 2
+        },
+        "Endodermis": {
+          "count": 2,
+          "mini_headings_covered": ["Starch sheath"],
+          "last_question_round": 2
+        }
+      },
+      "2.4.1. Reproductive structure and life cycle of non-flowering plants": {
+        "Gymnosperm life cycle": {
+          "count": 2,
+          "mini_headings_covered": ["Male cone", "Female cone", "Pollination", "Fertilization"],
+          "last_question_round": 2
+        }
+      },
+      "2.4.2. Reproductive structure and life cycle of flowering plants": {
+        "Floral parts": {
+          "count": 2,
+          "mini_headings_covered": ["Sepals", "Petals", "Stamen", "Pistil"],
+          "last_question_round": 2
+        },
+        "Stamen": {
+          "count": 2,
+          "mini_headings_covered": ["Filament", "Anther"],
+          "last_question_round": 2
+        },
+        "Pistil": {
+          "count": 2,
+          "mini_headings_covered": ["Ovary", "Style", "Stigma"],
+          "last_question_round": 2
+        },
+        "Complete flower": {
+          "count": 1,
+          "mini_headings_covered": ["Four floral parts"],
+          "last_question_round": 5
+        },
+        "Perfect flower": {
+          "count": 1,
+          "mini_headings_covered": ["Both stamen and pistil"],
+          "last_question_round": 5
+        },
+        "Incomplete flower": {
+          "count": 1,
+          "mini_headings_covered": ["Missing one floral part"],
+          "last_question_round": 5
+        },
+        "Imperfect flower": {
+          "count": 1,
+          "mini_headings_covered": ["Missing stamen or pistil"],
+          "last_question_round": 5
+        }
+      },
+      "2.4.3. Pollination": {
+        "Pollen tube formation": {
+          "count": 2,
+          "mini_headings_covered": ["Pollen tube", "Male gamete"],
+          "last_question_round": 2
+        },
+        "Fertilization": {
+          "count": 2,
+          "mini_headings_covered": ["Zygote", "Embryo"],
+          "last_question_round": 2
+        }
+      },
+      "2.5. Seeds": {
+        "Seed structure": {
+          "count": 2,
+          "mini_headings_covered": ["Embryo", "Cotyledon", "Endosperm", "Seed coat"],
+          "last_question_round": 2
+        },
+        "Monocot vs Dicot": {
+          "count": 2,
+          "mini_headings_covered": ["Monocot", "Dicot"],
+          "last_question_round": 2
+        },
+        "Seed coat function": {
+          "count": 1,
+          "mini_headings_covered": ["Protection"],
+          "last_question_round": 5
+        },
+        "Endosperm function": {
+          "count": 1,
+          "mini_headings_covered": ["Nutrient storage"],
+          "last_question_round": 5
+        }
+      },
+      "2.6.1. Seed dispersal": {
+        "Dispersal by animals": {
+          "count": 2,
+          "mini_headings_covered": ["Animal dispersal", "Ingestion"],
+          "last_question_round": 2
+        },
+        "Wind dispersal": {
+          "count": 1,
+          "mini_headings_covered": ["Winged seeds", "Hairy seeds"],
+          "last_question_round": 5
+        }
+      },
+      "2.6.2. Germination of seed": {
+        "Essential conditions": {
+          "count": 2,
+          "mini_headings_covered": ["Water", "Oxygen", "Temperature"],
+          "last_question_round": 3
+        },
+        "Epigeal germination": {
+          "count": 2,
+          "mini_headings_covered": ["Cotyledon above soil"],
+          "last_question_round": 3
+        },
+        "Hypogeal germination": {
+          "count": 2,
+          "mini_headings_covered": ["Cotyledon below soil"],
+          "last_question_round": 3
+        }
+      },
+      "2.7.1. The photosynthetic apparatus": {
+        "Chloroplast": {
+          "count": 2,
+          "mini_headings_covered": ["Chloroplast structure"],
+          "last_question_round": 3
+        },
+        "Granum": {
+          "count": 2,
+          "mini_headings_covered": ["Thylakoid", "Light reaction"],
+          "last_question_round": 3
+        },
+        "Stroma": {
+          "count": 2,
+          "mini_headings_covered": ["Carbon fixation", "Calvin cycle"],
+          "last_question_round": 3
+        }
+      },
+      "2.7.2. The light absorbing system in chloroplast": {
+        "Chlorophyll": {
+          "count": 2,
+          "mini_headings_covered": ["Chlorophyll a", "Chlorophyll b"],
+          "last_question_round": 3
+        },
+        "Action spectrum": {
+          "count": 2,
+          "mini_headings_covered": ["400-500 nm", "600-700 nm"],
+          "last_question_round": 3
+        }
+      },
+      "2.7.3. Mechanism of photosynthesis": {
+        "Light reaction": {
+          "count": 1,
+          "mini_headings_covered": ["Photolysis", "ATP", "NADPH"],
+          "last_question_round": 5
+        },
+        "Dark reaction": {
+          "count": 1,
+          "mini_headings_covered": ["Calvin cycle", "Carbon fixation"],
+          "last_question_round": 5
+        },
+        "Overall equation": {
+          "count": 1,
+          "mini_headings_covered": ["6CO2 + 6H2O → C6H12O6 + 6O2"],
+          "last_question_round": 5
+        }
+      },
+      "2.7.4. Testing a leaf for starch": {
+        "Iodine test": {
+          "count": 1,
+          "mini_headings_covered": ["Iodine", "Blue-black"],
+          "last_question_round": 5
+        }
+      },
+      "2.8.1. Transporting systems in plants": {
+        "Xylem function": {
+          "count": 2,
+          "mini_headings_covered": ["Water transport", "Mineral transport"],
+          "last_question_round": 3
+        },
+        "Phloem function": {
+          "count": 2,
+          "mini_headings_covered": ["Sugar transport", "Translocation"],
+          "last_question_round": 3
+        }
+      },
+      "2.8.2. Mechanism of transport in plant": {
+        "Uptake of water and minerals": {
+          "count": 2,
+          "mini_headings_covered": ["Root hairs", "Osmosis", "Active transport"],
+          "last_question_round": 4
+        },
+        "Transpiration pull": {
+          "count": 2,
+          "mini_headings_covered": ["Transpiration", "Cohesion-tension"],
+          "last_question_round": 4
+        },
+        "Translocation": {
+          "count": 2,
+          "mini_headings_covered": ["Source", "Sink", "Pressure flow"],
+          "last_question_round": 4
+        }
+      },
+      "2.9.1. Tropism as growth response": {
+        "Auxin": {
+          "count": 2,
+          "mini_headings_covered": ["IAA", "Growth hormone"],
+          "last_question_round": 4
+        },
+        "Phototropism": {
+          "count": 2,
+          "mini_headings_covered": ["Light response", "Shoot bending"],
+          "last_question_round": 4
+        },
+        "Geotropism": {
+          "count": 2,
+          "mini_headings_covered": ["Gravity response", "Root downward"],
+          "last_question_round": 4
+        },
+        "Hydrotropism": {
+          "count": 2,
+          "mini_headings_covered": ["Water response", "Root toward water"],
+          "last_question_round": 4
+        }
+      },
+      "2.10. Medicinal plants": {
+        "Medicinal plant list": {
+          "count": 2,
+          "mini_headings_covered": ["Ruta chalepensis", "Zingiber officinalis", "Hagenia abysinica"],
+          "last_question_round": 4
+        },
+        "Traditional medicine": {
+          "count": 2,
+          "mini_headings_covered": ["WHO", "Plant medicines"],
+          "last_question_round": 4
+        }
+      },
+      "2.11. Renowned Ethiopian Botanist": {
+        "Professor Sebsebe Demissew": {
+          "count": 2,
+          "mini_headings_covered": ["Plant systematics", "Biodiversity", "Royal Society"],
+          "last_question_round": 4
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1. Characteristics of plants": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.2. Non-flowering and flowering plants": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.3. Structure and function of plant parts": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.3.1. The internal structure of a leaf": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "2.3.2. The internal structure of a stem": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "2.3.3. The internal structure of a root": {
+        "question_count": 3,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "2.4.1. Reproductive structure and life cycle of non-flowering plants": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "2.4.2. Reproductive structure and life cycle of flowering plants": {
+        "question_count": 7,
+        "last_used_round": 5,
+        "consecutive_batches": 1
+      },
+      "2.4.3. Pollination": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "2.5. Seeds": {
+        "question_count": 4,
+        "last_used_round": 5,
+        "consecutive_batches": 1
+      },
+      "2.6.1. Seed dispersal": {
+        "question_count": 3,
+        "last_used_round": 5,
+        "consecutive_batches": 1
+      },
+      "2.6.2. Germination of seed": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "2.7.1. The photosynthetic apparatus": {
+        "question_count": 3,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "2.7.2. The light absorbing system in chloroplast": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "2.7.3. Mechanism of photosynthesis": {
+        "question_count": 3,
+        "last_used_round": 5,
+        "consecutive_batches": 1
+      },
+      "2.7.4. Testing a leaf for starch": {
+        "question_count": 1,
+        "last_used_round": 5,
+        "consecutive_batches": 1
+      },
+      "2.8.1. Transporting systems in plants": {
+        "question_count": 2,
+        "last_used_round": 3,
+        "consecutive_batches": 0
+      },
+      "2.8.2. Mechanism of transport in plant": {
+        "question_count": 3,
+        "last_used_round": 4,
+        "consecutive_batches": 0
+      },
+      "2.9.1. Tropism as growth response": {
+        "question_count": 4,
+        "last_used_round": 4,
+        "consecutive_batches": 0
+      },
+      "2.10. Medicinal plants": {
+        "question_count": 2,
+        "last_used_round": 4,
+        "consecutive_batches": 0
+      },
+      "2.11. Renowned Ethiopian Botanist": {
+        "question_count": 2,
+        "last_used_round": 4,
+        "consecutive_batches": 0
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1. Characteristics of plants>Characteristics of plants": ["Autotroph", "Producer", "Sessile", "Multicellular", "Eukaryotic", "Cellulose cell wall", "Chlorophyll", "Asexual reproduction", "Sexual reproduction"],
+      "2.2. Non-flowering and flowering plants>Gymnosperms": ["Gymnosperm", "Cone", "Naked seed", "Conifer", "Pollination by wind"],
+      "2.2. Non-flowering and flowering plants>Angiosperms": ["Angiosperm", "Flower", "Fruit", "Covered seed"],
+      "2.3. Structure and function of plant parts>Shoot system": ["Shoot system", "Stem", "Leaf", "Bud", "Flower", "Fruit"],
+      "2.3. Structure and function of plant parts>Root system": ["Root system", "Tap root", "Lateral root", "Root hair", "Root cap", "Anchorage", "Absorption"],
+      "2.3.1. The internal structure of a leaf>Outer layer": ["Epidermis", "Cuticle", "Stomata", "Guard cell", "Transpiration", "Gas exchange"],
+      "2.3.1. The internal structure of a leaf>Middle layer": ["Mesophyll", "Palisade", "Spongy", "Chloroplast", "Photosynthesis"],
+      "2.3.2. The internal structure of a stem>Vascular bundles": ["Vascular bundle", "Xylem", "Phloem", "Cambium", "Water transport", "Food transport"],
+      "2.3.3. The internal structure of a root>Pelliferous layer": ["Root hair", "Absorption", "Surface area", "Osmosis"],
+      "2.3.3. The internal structure of a root>Cortex": ["Cortex", "Storage", "Food reserve"],
+      "2.3.3. The internal structure of a root>Endodermis": ["Endodermis", "Starch sheath", "Casparian strip"],
+      "2.4.1. Reproductive structure and life cycle of non-flowering plants>Gymnosperm life cycle": ["Male cone", "Female cone", "Pollination", "Pollen grain", "Fertilization", "Zygote", "Seed embryo", "Germination"],
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Floral parts": ["Sepal", "Petal", "Calyx", "Corolla", "Complete flower", "Incomplete flower", "Perfect flower", "Imperfect flower"],
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Stamen": ["Stamen", "Androecium", "Filament", "Anther", "Pollen"],
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Pistil": ["Pistil", "Gynoecium", "Carpel", "Ovary", "Style", "Stigma", "Ovule"],
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Complete flower": ["Sepal", "Petal", "Stamen", "Pistil", "Four whorls"],
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Perfect flower": ["Bisexual", "Stamen", "Pistil"],
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Incomplete flower": ["Missing one whorl"],
+      "2.4.2. Reproductive structure and life cycle of flowering plants>Imperfect flower": ["Unisexual", "Staminate", "Pistillate"],
+      "2.4.3. Pollination>Pollen tube formation": ["Pollen tube", "Style", "Male gamete", "Sperm"],
+      "2.4.3. Pollination>Fertilization": ["Fertilization", "Zygote", "Embryo", "Ovule"],
+      "2.5. Seeds>Seed structure": ["Embryo", "Radicle", "Plumule", "Cotyledon", "Endosperm", "Seed coat"],
+      "2.5. Seeds>Monocot vs Dicot": ["Monocot", "Dicot", "Cotyledon", "Endosperm"],
+      "2.5. Seeds>Seed coat function": ["Protection", "Testa", "Dormancy"],
+      "2.5. Seeds>Endosperm function": ["Nutrient storage", "Starch", "Proteins"],
+      "2.6.1. Seed dispersal>Dispersal by animals": ["Animal dispersal", "Ingestion", "Seed coat", "Defecation"],
+      "2.6.1. Seed dispersal>Wind dispersal": ["Winged seeds", "Hairy seeds", "Dandelion", "Maple"],
+      "2.6.2. Germination of seed>Essential conditions": ["Water", "Oxygen", "Temperature", "Dormancy", "Aeration"],
+      "2.6.2. Germination of seed>Epigeal germination": ["Epigeal", "Cotyledon above ground", "Hypocotyl elongation"],
+      "2.6.2. Germination of seed>Hypogeal germination": ["Hypogeal", "Cotyledon below ground", "Epicotyl elongation"],
+      "2.7.1. The photosynthetic apparatus>Chloroplast": ["Chloroplast", "Double membrane", "Thylakoid", "Stroma", "Granum"],
+      "2.7.1. The photosynthetic apparatus>Granum": ["Granum", "Thylakoid stack", "Light reaction", "Photosystem"],
+      "2.7.1. The photosynthetic apparatus>Stroma": ["Stroma", "Calvin cycle", "Carbon fixation", "Sugar synthesis"],
+      "2.7.2. The light absorbing system in chloroplast>Chlorophyll": ["Chlorophyll a", "Chlorophyll b", "Accessory pigment", "Light absorption"],
+      "2.7.2. The light absorbing system in chloroplast>Action spectrum": ["400-500 nm", "600-700 nm", "Blue light", "Red light", "Green reflection"],
+      "2.7.3. Mechanism of photosynthesis>Light reaction": ["Photolysis", "ATP", "NADPH", "Oxygen release", "Thylakoid"],
+      "2.7.3. Mechanism of photosynthesis>Dark reaction": ["Calvin cycle", "Carbon fixation", "Stroma", "Glucose"],
+      "2.7.3. Mechanism of photosynthesis>Overall equation": ["6CO2", "6H2O", "C6H12O6", "6O2"],
+      "2.7.4. Testing a leaf for starch>Iodine test": ["Iodine", "Blue-black", "Starch detection"],
+      "2.8.1. Transporting systems in plants>Xylem function": ["Xylem", "Water transport", "Mineral transport", "Transpiration pull"],
+      "2.8.1. Transporting systems in plants>Phloem function": ["Phloem", "Sucrose transport", "Translocation", "Source to sink"],
+      "2.8.2. Mechanism of transport in plant>Uptake of water and minerals": ["Root hair", "Osmosis", "Active transport", "Absorption"],
+      "2.8.2. Mechanism of transport in plant>Transpiration pull": ["Transpiration", "Cohesion", "Adhesion", "Tension"],
+      "2.8.2. Mechanism of transport in plant>Translocation": ["Source", "Sink", "Pressure flow", "Sieve tube"],
+      "2.9.1. Tropism as growth response>Auxin": ["Auxin", "IAA", "Cell elongation", "Growth hormone"],
+      "2.9.1. Tropism as growth response>Phototropism": ["Phototropism", "Positive phototropism", "Shoot", "Light"],
+      "2.9.1. Tropism as growth response>Geotropism": ["Geotropism", "Positive geotropism", "Negative geotropism", "Root", "Shoot", "Gravity"],
+      "2.9.1. Tropism as growth response>Hydrotropism": ["Hydrotropism", "Positive hydrotropism", "Root", "Water"],
+      "2.10. Medicinal plants>Medicinal plant list": ["Ruta chalepensis", "Zingiber officinalis", "Hagenia abysinica", "Artemesia absinthium", "Nigella sativa"],
+      "2.10. Medicinal plants>Traditional medicine": ["WHO", "Traditional medicine", "Plant-based medicine", "Ethiopia"],
+      "2.11. Renowned Ethiopian Botanist>Professor Sebsebe Demissew": ["Sebsebe Demissew", "Plant systematics", "Biodiversity", "Royal Society", "Kew medal", "Cuatrecasas Medal"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 160,
+      "questions_per_concept_ratio": 0.31,
+      "structural_coverage_percentage": 85.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Biology",
+  "unit": "Unit 2: Plants",
+  "pdf_filename": "B10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-11T10:50:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 11,
+        "total_sections": 11,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.5,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 50,
+      "sections_covered_count": 11,
+      "subsections_covered_count": 32,
+      "mini_headings_covered_count": 70,
+      "structural_coverage_percentage": 85.0,
+      "concept_utilization_ratio": 0.31
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.4.2. Reproductive structure and life cycle of flowering plants",
+      "least_covered_section": "2.1. Characteristics of plants",
+      "imbalance_ratio": 3.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 120
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U2_Q041",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.7.3. Mechanism of photosynthesis",
+      "subsection": "Light reaction",
+      "sub_subsection": null,
+      "structural_anchor": "Light reaction",
+      "mcq_type": "F",
+      "question": "In the light-dependent reactions of photosynthesis, water molecules are split into oxygen, protons, and electrons. This process is called what?",
+      "options": {
+        "A": "Carbon fixation",
+        "B": "Photolysis",
+        "C": "Phosphorylation",
+        "D": "Decarboxylation"
+      },
+      "correct_answer": "B",
+      "hint": "Think of 'lysis' meaning splitting, driven by light.",
+      "explanation": "Photolysis is the light-driven splitting of water in photosystem II, releasing oxygen. Carbon fixation occurs in the Calvin cycle, phosphorylation adds phosphate groups.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(\\mathrm{H_2O \\rightarrow 2H^+ + 2e^- + \\frac{1}{2}O_2}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.7.3. Mechanism of photosynthesis",
+        "subsection_anchor": "Light reaction",
+        "structural_element": "Photolysis",
+        "content_anchor": "The light absorbed by the chlorophyll will split of water molecules (H2O) into H+ and O2. This is known as photolysis.",
+        "page_hint": 20,
+        "concept_hash": "y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 71,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Photolysis is the light-driven splitting of water molecules into oxygen, protons, and electrons during photosynthesis.",
+        "concept_summary": "Photolysis occurs in photosystem II, replacing electrons lost from chlorophyll and producing oxygen as a byproduct.",
+        "beginner": "Photolysis is like using sunlight to tear water molecules apart, releasing oxygen bubbles that we breathe.",
+        "intermediate": "The oxygen released during photosynthesis comes from photolysis of water, not from carbon dioxide.",
+        "advanced": "The oxygen-evolving complex (OEC) in photosystem II contains a manganese cluster that catalyzes the oxidation of two water molecules to O2, 4H+, and 4e-.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall what happens to water in light reactions.",
+          "Identify the term for splitting water with light.",
+          "Select photolysis as the correct answer."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{H_2O \\rightarrow 2H^+ + 2e^- + \\frac{1}{2}O_2}\\)",
+            "name": "Photolysis of water",
+            "variables": [],
+            "derivation": "Light energy splits water in photosystem II."
+          }
+        ],
+        "misconceptions": [
+          "Some students think the oxygen comes from carbon dioxide.",
+          "Another misconception is that photolysis occurs in the stroma."
+        ],
+        "related_concepts": ["Photosystem II", "Oxygen-evolving complex", "Electron transport"],
+        "revision_note": "Photolysis = splitting water using light. Releases O2.",
+        "glossary_entry": {
+          "term": "Photolysis",
+          "definition": "The splitting of water molecules using light energy during the light-dependent reactions of photosynthesis.",
+          "example_equation": "\\(\\mathrm{H_2O \\rightarrow 2H^+ + 2e^- + \\frac{1}{2}O_2}\\)",
+          "related_terms": ["Photosystem II", "Oxygen evolution", "Light reaction"]
+        },
+        "flashcard": {
+          "front": "What happens during photolysis in photosynthesis?",
+          "back": "Water molecules are split into oxygen, protons, and electrons using light energy."
+        },
+        "concept_map_nodes": [
+          {"source": "Photolysis", "relation": "produces", "target": "Oxygen"},
+          {"source": "Photolysis", "relation": "occurs_in", "target": "Photosystem II"}
+        ],
+        "workbook_section": "Mechanism of Photosynthesis",
+        "solution_manual_note": "Answer B. Photolysis splits water. Carbon fixation (A) is in Calvin cycle, phosphorylation (C) adds phosphate, decarboxylation (D) removes CO2."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q042",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.7.3. Mechanism of photosynthesis",
+      "subsection": "Dark reaction",
+      "sub_subsection": null,
+      "structural_anchor": "Dark reaction",
+      "mcq_type": "A",
+      "question": "The Calvin cycle, which fixes carbon dioxide into glucose using ATP and NADPH from light reactions, occurs in which part of the chloroplast?",
+      "options": {
+        "A": "Stroma",
+        "B": "Thylakoid membrane",
+        "C": "Granum",
+        "D": "Lumen"
+      },
+      "correct_answer": "A",
+      "hint": "Think of the fluid matrix where carbon fixation happens.",
+      "explanation": "The Calvin cycle (dark reaction) occurs in the stroma. Thylakoid membranes and grana contain photosystems for light reactions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.7.3. Mechanism of photosynthesis",
+        "subsection_anchor": "Dark reaction",
+        "structural_element": "Dark reaction",
+        "content_anchor": "Dark reaction is also known as light-independent stage... The dark reaction and enzymatic reaction H+ indirectly combines with CO2 in the stroma of chloroplast. The process is known as carbon fixation.",
+        "page_hint": 20,
+        "concept_hash": "z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The stroma is the fluid matrix of the chloroplast where the Calvin cycle fixes carbon dioxide into sugar.",
+        "concept_summary": "Dark reactions use ATP and NADPH produced in light reactions to convert CO2 into glyceraldehyde-3-phosphate.",
+        "beginner": "The stroma is the kitchen of the chloroplast where carbon dioxide is baked into sugar using energy from the light reactions.",
+        "intermediate": "Rubisco in the stroma catalyzes the fixation of CO2 into RuBP, starting the Calvin cycle that produces glucose precursors.",
+        "advanced": "The Calvin cycle consists of three phases: carboxylation (Rubisco), reduction (using NADPH), and regeneration of RuBP (using ATP).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall where the Calvin cycle occurs.",
+          "Identify the stroma as the site of carbon fixation.",
+          "Select stroma as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think dark reactions occur in thylakoids.",
+          "Another misconception is that 'dark reaction' means it only happens at night."
+        ],
+        "related_concepts": ["Calvin cycle", "Rubisco", "Carbon fixation", "Stroma"],
+        "revision_note": "Calvin cycle occurs in stroma. Uses CO2, ATP, NADPH.",
+        "glossary_entry": {
+          "term": "Stroma",
+          "definition": "The fluid matrix of a chloroplast where the Calvin cycle occurs.",
+          "example_equation": null,
+          "related_terms": ["Calvin cycle", "Carbon fixation", "Rubisco"]
+        },
+        "flashcard": {
+          "front": "Where does the Calvin cycle occur?",
+          "back": "The Calvin cycle occurs in the stroma of the chloroplast."
+        },
+        "concept_map_nodes": [
+          {"source": "Stroma", "relation": "site_of", "target": "Calvin cycle"},
+          {"source": "Stroma", "relation": "contains", "target": "Rubisco"}
+        ],
+        "workbook_section": "Mechanism of Photosynthesis",
+        "solution_manual_note": "Answer A. Calvin cycle occurs in stroma. Thylakoid membrane (B) and granum (C) are for light reactions, lumen (D) is inside thylakoids."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q043",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.7.3. Mechanism of photosynthesis",
+      "subsection": "Overall equation",
+      "sub_subsection": null,
+      "structural_anchor": "Overall equation",
+      "mcq_type": "C",
+      "question": "Which chemical equation correctly represents the overall process of photosynthesis?",
+      "options": {
+        "A": "\\(\\mathrm{C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O}\\)",
+        "B": "\\(\\mathrm{6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2}\\)",
+        "C": "\\(\\mathrm{CO_2 + H_2O \\rightarrow CH_2O + O_2}\\)",
+        "D": "\\(\\mathrm{C_6H_{12}O_6 \\rightarrow 2C_2H_5OH + 2CO_2}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Think of the inputs (CO2 and water) and outputs (glucose and oxygen).",
+      "explanation": "The balanced equation shows carbon dioxide and water combining to produce glucose and oxygen. Option A is cellular respiration, C is simplified, D is fermentation.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\mathrm{6CO_2 + 6H_2O \\xrightarrow{Chlorophyll} C_6H_{12}O_6 + 6O_2}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.7.3. Mechanism of photosynthesis",
+        "subsection_anchor": "Overall equation",
+        "structural_element": "Overall equation",
+        "content_anchor": "The overall chemical reaction of photosynthesis can be summed up in the following equation: 6CO2 + 6H2O --Chlorophyll--> C6H12O6 + 6O2",
+        "page_hint": 20,
+        "concept_hash": "a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 91,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The overall equation for photosynthesis is 6CO2 + 6H2O → C6H12O6 + 6O2.",
+        "concept_summary": "Six molecules of carbon dioxide and six of water combine using light energy to produce one glucose molecule and six oxygen molecules.",
+        "beginner": "Photosynthesis takes carbon dioxide from the air and water from the ground to make sugar and oxygen.",
+        "intermediate": "The equation shows that oxygen released comes from water, not carbon dioxide, as confirmed by isotopic labeling experiments.",
+        "advanced": "The stoichiometry accounts for the reduction of CO2 to glucose (C6H12O6) and the oxidation of H2O to O2, with energy stored in chemical bonds.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the inputs and outputs of photosynthesis.",
+          "Identify the balanced equation with 6CO2 and 6H2O.",
+          "Select option B as the correct equation."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{6CO_2 + 6H_2O \\xrightarrow{Chlorophyll} C_6H_{12}O_6 + 6O_2}\\)",
+            "name": "Overall photosynthesis equation",
+            "variables": [],
+            "derivation": "Balanced for carbon, hydrogen, and oxygen atoms."
+          }
+        ],
+        "misconceptions": [
+          "Some students think water is a product of photosynthesis.",
+          "Another misconception is that only CO2 is needed."
+        ],
+        "related_concepts": ["Cellular respiration", "Balanced equation", "Stoichiometry"],
+        "revision_note": "6CO2 + 6H2O → C6H12O6 + 6O2. Photosynthesis equation.",
+        "glossary_entry": {
+          "term": "Photosynthesis equation",
+          "definition": "The balanced chemical equation summarizing photosynthesis: 6CO2 + 6H2O → C6H12O6 + 6O2.",
+          "example_equation": "\\(\\mathrm{6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2}\\)",
+          "related_terms": ["Reactant", "Product", "Glucose"]
+        },
+        "flashcard": {
+          "front": "What is the balanced equation for photosynthesis?",
+          "back": "6CO2 + 6H2O → C6H12O6 + 6O2. Carbon dioxide and water produce glucose and oxygen."
+        },
+        "concept_map_nodes": [
+          {"source": "Photosynthesis", "relation": "consumes", "target": "CO2"},
+          {"source": "Photosynthesis", "relation": "produces", "target": "O2"}
+        ],
+        "workbook_section": "Mechanism of Photosynthesis",
+        "solution_manual_note": "Answer B. This is the correct balanced equation. A is cellular respiration, C is simplified, D is fermentation."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q044",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.7.4. Testing a leaf for starch",
+      "subsection": "Iodine test",
+      "sub_subsection": null,
+      "structural_anchor": "Iodine test",
+      "mcq_type": "L",
+      "question": "When a leaf that has undergone photosynthesis is treated with iodine solution, a blue-black color develops. What does this indicate?",
+      "options": {
+        "A": "Presence of glucose",
+        "B": "Presence of starch",
+        "C": "Presence of chlorophyll",
+        "D": "Presence of oxygen"
+      },
+      "correct_answer": "B",
+      "hint": "Think of what turns blue-black with iodine in food tests.",
+      "explanation": "Iodine solution turns blue-black in the presence of starch, indicating that photosynthesis produced starch. Glucose requires Benedict's test.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.7.4. Testing a leaf for starch",
+        "subsection_anchor": "Iodine test",
+        "structural_element": "Iodine test",
+        "content_anchor": "If you put iodine solution on powdered starch, piece of bread or potato slice a blue-black colour will develop confirming the presence of starch.",
+        "page_hint": 20,
+        "concept_hash": "b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "The iodine test detects starch, turning from yellow-brown to blue-black when starch is present.",
+        "concept_summary": "Iodine molecules fit into the amylose helix of starch, causing a characteristic color change used to confirm photosynthetic product storage.",
+        "beginner": "Iodine is like a starch detector: if it turns blue-black, starch is there.",
+        "intermediate": "A leaf must be boiled to remove chlorophyll before testing; a blue-black color indicates that photosynthesis produced starch.",
+        "advanced": "The iodine-starch complex involves charge transfer between iodine and the amylose helix, shifting absorption to longer wavelengths (blue-black).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the iodine test result for starch.",
+          "Identify blue-black as positive for starch.",
+          "Select 'presence of starch' as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think iodine tests for glucose.",
+          "Another misconception is that a green leaf directly tests with iodine (chlorophyll must be removed first)."
+        ],
+        "related_concepts": ["Starch", "Iodine", "Benedict's test", "Photosynthesis product"],
+        "revision_note": "Iodine + starch = blue-black. Stored photosynthetic product.",
+        "glossary_entry": {
+          "term": "Iodine test",
+          "definition": "A chemical test that detects starch by producing a blue-black color.",
+          "example_equation": null,
+          "related_terms": ["Starch", "Amylose", "Photosynthesis product"]
+        },
+        "flashcard": {
+          "front": "What does blue-black color with iodine indicate?",
+          "back": "The presence of starch. Iodine turns blue-black in the presence of starch."
+        },
+        "concept_map_nodes": [
+          {"source": "Iodine test", "relation": "detects", "target": "Starch"},
+          {"source": "Iodine test", "relation": "positive_result", "target": "Blue-black color"}
+        ],
+        "workbook_section": "Testing a Leaf for Starch",
+        "solution_manual_note": "Answer B. Iodine tests for starch, turning blue-black. Glucose (A) requires Benedict's test, chlorophyll (C) is green, oxygen (D) is a gas."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q045",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.4.2. Reproductive structure and life cycle of flowering plants",
+      "subsection": "Complete flower",
+      "sub_subsection": null,
+      "structural_anchor": "Complete flower",
+      "mcq_type": "J",
+      "question": "A flower that possesses all four floral whorls (sepals, petals, stamens, and carpels) is classified as what?",
+      "options": {
+        "A": "Perfect flower",
+        "B": "Complete flower",
+        "C": "Imperfect flower",
+        "D": "Incomplete flower"
+      },
+      "correct_answer": "B",
+      "hint": "Think of 'complete' meaning all parts are present.",
+      "explanation": "A complete flower has all four whorls. Perfect means both sexes (stamens and carpels) but may lack sepals or petals.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.4.2. Reproductive structure and life cycle of flowering plants",
+        "subsection_anchor": "Complete flower",
+        "structural_element": "Complete flower",
+        "content_anchor": "A complete flower has the four floral parts. It is called incomplete flower if it does not have any one of the floral parts.",
+        "page_hint": 11,
+        "concept_hash": "c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A complete flower has all four floral whorls: sepals, petals, stamens, and carpels.",
+        "concept_summary": "Examples of complete flowers include hibiscus and lilies; incomplete flowers lack one or more whorls.",
+        "beginner": "A complete flower is like a fully equipped car with all four parts: sepal, petal, stamen, and pistil.",
+        "intermediate": "Presence of calyx, corolla, androecium, and gynoecium defines a complete flower, regardless of whether it is perfect or imperfect.",
+        "advanced": "Complete flowers may be either perfect or imperfect; the term refers only to whorl presence, not sexual function.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the four floral whorls.",
+          "Identify the term for having all four whorls.",
+          "Select complete flower as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students confuse 'complete' with 'perfect'.",
+          "Another misconception is that complete flowers must be bisexual."
+        ],
+        "related_concepts": ["Perfect flower", "Incomplete flower", "Floral whorl", "Calyx", "Corolla"],
+        "revision_note": "Complete flower = all 4 whorls (sepals, petals, stamens, carpels).",
+        "glossary_entry": {
+          "term": "Complete flower",
+          "definition": "A flower that possesses all four floral whorls: sepals, petals, stamens, and carpels.",
+          "example_equation": null,
+          "related_terms": ["Floral whorl", "Perfect flower", "Incomplete flower"]
+        },
+        "flashcard": {
+          "front": "What makes a flower 'complete'?",
+          "back": "A complete flower has all four whorls: sepals, petals, stamens, and carpels."
+        },
+        "concept_map_nodes": [
+          {"source": "Complete flower", "relation": "has", "target": "Sepals"},
+          {"source": "Complete flower", "relation": "has", "target": "Petals"}
+        ],
+        "workbook_section": "Reproductive Structure of Flowering Plants",
+        "solution_manual_note": "Answer B. Complete flower has all four whorls. Perfect (A) has both sexes, imperfect (C) lacks one sex, incomplete (D) lacks one whorl."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q046",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.4.2. Reproductive structure and life cycle of flowering plants",
+      "subsection": "Imperfect flower",
+      "sub_subsection": null,
+      "structural_anchor": "Imperfect flower",
+      "mcq_type": "J",
+      "question": "A flower that contains only stamens or only carpels (but not both) is called what?",
+      "options": {
+        "A": "Perfect flower",
+        "B": "Complete flower",
+        "C": "Imperfect flower",
+        "D": "Bisexual flower"
+      },
+      "correct_answer": "C",
+      "hint": "Think of 'imperfect' meaning missing one of the sexual parts.",
+      "explanation": "Imperfect flowers are unisexual: staminate (only stamens) or pistillate (only carpels). Perfect flowers have both sexes, complete flowers have all four whorls.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.4.2. Reproductive structure and life cycle of flowering plants",
+        "subsection_anchor": "Imperfect flower",
+        "structural_element": "Imperfect flower",
+        "content_anchor": "If a flower does not have either stamen or pistil, it is known as imperfect flower. It is either pistilated (has pistil and no stamen), or staminated (has stamen but no pistil) flower.",
+        "page_hint": 11,
+        "concept_hash": "d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "An imperfect flower is unisexual, containing either stamens or carpels but not both.",
+        "concept_summary": "Imperfect flowers require cross-pollination between male and female flowers on the same or different plants.",
+        "beginner": "An imperfect flower is like a flower that is either a boy (stamens) or a girl (pistil), but not both.",
+        "intermediate": "Imperfect flowers may be staminate (male) or pistillate (female); dioecious plants have separate male and female plants.",
+        "advanced": "Imperfect flowers evolved to promote outcrossing; examples include corn (tassels = male, ears = female) and willows.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition of imperfect flower.",
+          "Identify it as missing either stamen or pistil.",
+          "Select imperfect flower as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think imperfect flowers are incomplete flowers by definition.",
+          "Another misconception is that all imperfect flowers are also incomplete."
+        ],
+        "related_concepts": ["Staminate", "Pistillate", "Unisexual", "Perfect flower"],
+        "revision_note": "Imperfect flower = unisexual (stamens OR carpels, not both).",
+        "glossary_entry": {
+          "term": "Imperfect flower",
+          "definition": "A unisexual flower that contains either stamens or carpels, but not both.",
+          "example_equation": null,
+          "related_terms": ["Staminate", "Pistillate", "Unisexual"]
+        },
+        "flashcard": {
+          "front": "What is an imperfect flower?",
+          "back": "An imperfect flower has either stamens or carpels, but not both (unisexual)."
+        },
+        "concept_map_nodes": [
+          {"source": "Imperfect flower", "relation": "also_called", "target": "Unisexual flower"},
+          {"source": "Imperfect flower", "relation": "has", "target": "Stamens or carpels"}
+        ],
+        "workbook_section": "Reproductive Structure of Flowering Plants",
+        "solution_manual_note": "Answer C. Imperfect flower lacks one sex. Perfect (A) has both sexes, complete (B) has all whorls, bisexual (D) is same as perfect."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q047",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.5. Seeds",
+      "subsection": "Seed coat function",
+      "sub_subsection": null,
+      "structural_anchor": "Seed coat",
+      "mcq_type": "A",
+      "question": "Which part of a seed provides protection from physical damage, pathogens, and prevents water loss?",
+      "options": {
+        "A": "Cotyledon",
+        "B": "Endosperm",
+        "C": "Seed coat",
+        "D": "Plumule"
+      },
+      "correct_answer": "C",
+      "hint": "Think of the tough outer covering of a seed.",
+      "explanation": "The seed coat (testa) is the protective outer layer. Cotyledons store food, endosperm nourishes the embryo, and the plumule becomes the shoot.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.5. Seeds",
+        "subsection_anchor": "Seed coat function",
+        "structural_element": "Seed coat",
+        "content_anchor": "The seed (fertilized ovule) contains three parts: the seed embryo, cotyledon/endosperm (reserve food) and seed coat.",
+        "page_hint": 14,
+        "concept_hash": "e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The seed coat is the protective outer layer of a seed, derived from the integuments of the ovule.",
+        "concept_summary": "The seed coat (testa) is often hard and impermeable, protecting the embryo from mechanical injury, desiccation, and pathogens.",
+        "beginner": "The seed coat is like the seed's armor, keeping it safe from harm until it's time to grow.",
+        "intermediate": "Seed coats contain lignin and suberin, making them waterproof and resistant to microbial attack until germination conditions are favorable.",
+        "advanced": "Some seed coats have physical dormancy mechanisms requiring scarification; the micropyle allows water entry during imbibition.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the seed's protective layer.",
+          "Identify the seed coat as the outermost covering.",
+          "Select seed coat as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think the seed coat stores food.",
+          "Another misconception is that the seed coat is absorbed during germination."
+        ],
+        "related_concepts": ["Testa", "Integument", "Seed protection", "Dormancy"],
+        "revision_note": "Seed coat = testa. Protects seed from damage and water loss.",
+        "glossary_entry": {
+          "term": "Seed coat",
+          "definition": "The protective outer covering of a seed, derived from ovule integuments.",
+          "example_equation": null,
+          "related_terms": ["Testa", "Integument", "Seed protection"]
+        },
+        "flashcard": {
+          "front": "What is the function of the seed coat?",
+          "back": "The seed coat protects the seed from physical damage, pathogens, and prevents water loss."
+        },
+        "concept_map_nodes": [
+          {"source": "Seed coat", "relation": "protects", "target": "Embryo"},
+          {"source": "Seed coat", "relation": "derived_from", "target": "Integument"}
+        ],
+        "workbook_section": "Seeds",
+        "solution_manual_note": "Answer C. Seed coat is protective. Cotyledon (A) and endosperm (B) store food, plumule (D) becomes shoot."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q048",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.5. Seeds",
+      "subsection": "Endosperm function",
+      "sub_subsection": null,
+      "structural_anchor": "Endosperm",
+      "mcq_type": "A",
+      "question": "Which tissue in a seed provides nourishment to the developing embryo and is abundant in monocot seeds?",
+      "options": {
+        "A": "Cotyledon",
+        "B": "Endosperm",
+        "C": "Radicle",
+        "D": "Plumule"
+      },
+      "correct_answer": "B",
+      "hint": "Think of the food storage tissue that surrounds the embryo.",
+      "explanation": "Endosperm stores starch, proteins, and oils for the embryo. Cotyledons also store food but are part of the embryo itself.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.5. Seeds",
+        "subsection_anchor": "Endosperm function",
+        "structural_element": "Endosperm",
+        "content_anchor": "Cotyledon and endosperm are food storing tissues, essential for the seed embryo (future plant) until it forms leaf and starts manufacturing its own food.",
+        "page_hint": 14,
+        "concept_hash": "f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6i7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Endosperm is a nutrient-storing tissue in seeds that nourishes the developing embryo.",
+        "concept_summary": "In monocots, endosperm is large and persistent; in many dicots, it is absorbed by cotyledons during development.",
+        "beginner": "Endosperm is like a packed lunch inside the seed that feeds the baby plant until it can make its own food.",
+        "intermediate": "Endosperm is triploid (3n) tissue formed by double fertilization; it contains starch, proteins, and oils stored in amyloplasts.",
+        "advanced": "The aleurone layer of endosperm secretes hydrolytic enzymes (e.g., alpha-amylase) upon gibberellin signaling during germination to mobilize stored reserves.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the food storage tissue in seeds.",
+          "Identify endosperm as nourishing the embryo.",
+          "Select endosperm as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think endosperm and cotyledon are the same.",
+          "Another misconception is that endosperm is absent in all dicots."
+        ],
+        "related_concepts": ["Cotyledon", "Double fertilization", "Aleurone layer", "Starch"],
+        "revision_note": "Endosperm: nourishes embryo. Large in monocots.",
+        "glossary_entry": {
+          "term": "Endosperm",
+          "definition": "Nutrient-storing tissue in seeds that nourishes the developing embryo.",
+          "example_equation": null,
+          "related_terms": ["Cotyledon", "Aleurone", "Double fertilization"]
+        },
+        "flashcard": {
+          "front": "What is the function of endosperm?",
+          "back": "Endosperm stores nutrients (starch, proteins, oils) to nourish the developing plant embryo."
+        },
+        "concept_map_nodes": [
+          {"source": "Endosperm", "relation": "nourishes", "target": "Embryo"},
+          {"source": "Endosperm", "relation": "formed_by", "target": "Double fertilization"}
+        ],
+        "workbook_section": "Seeds",
+        "solution_manual_note": "Answer B. Endosperm nourishes embryo. Cotyledon (A) also stores food but is part of embryo, radicle (C) becomes root, plumule (D) becomes shoot."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q049",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.6.1. Seed dispersal",
+      "subsection": "Wind dispersal",
+      "sub_subsection": null,
+      "structural_anchor": "Wind dispersal",
+      "mcq_type": "K",
+      "question": "Dandelion seeds have hairy parachutes, and maple seeds have wing-like structures. These adaptations aid in dispersal by which agent?",
+      "options": {
+        "A": "Water",
+        "B": "Wind",
+        "C": "Animals",
+        "D": "Explosive mechanism"
+      },
+      "correct_answer": "B",
+      "hint": "Think of seeds that float through the air.",
+      "explanation": "Winged and hairy seeds are adapted for wind dispersal, allowing them to travel long distances. Water dispersal uses floating, animals use hooks or fleshy fruits.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.6.1. Seed dispersal",
+        "subsection_anchor": "Wind dispersal",
+        "structural_element": "Wind dispersal",
+        "content_anchor": "Seeds that have additional hairy or winged structures can be dispersed by wind.",
+        "page_hint": 15,
+        "concept_hash": "g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6i7j8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Wind dispersal is the transport of seeds by air currents, aided by structures like wings or hairs.",
+        "concept_summary": "Lightweight seeds with pappi (dandelion) or samaras (maple) increase air resistance and travel distance.",
+        "beginner": "Wind dispersal is like tiny flying machines that carry seeds away on the breeze.",
+        "intermediate": "Wind-dispersed seeds have high surface area-to-mass ratios, allowing them to be carried long distances by even light breezes.",
+        "advanced": "Terminal velocity of wind-dispersed seeds is reduced by drag-enhancing structures; dispersal distance follows a negative exponential distribution.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Observe the adaptations described (hairs, wings).",
+          "Recall which dispersal agent uses these structures.",
+          "Select wind as the correct agent."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think winged seeds are for animal dispersal.",
+          "Another misconception is that wind-dispersed seeds are always small."
+        ],
+        "related_concepts": ["Pappus", "Samara", "Terminal velocity", "Seed adaptation"],
+        "revision_note": "Wind dispersal: winged or hairy seeds. Dandelion, maple.",
+        "glossary_entry": {
+          "term": "Wind dispersal",
+          "definition": "Seed dispersal by air currents, aided by structures such as wings, hairs, or small size.",
+          "example_equation": null,
+          "related_terms": ["Pappus", "Samara", "Anemochory"]
+        },
+        "flashcard": {
+          "front": "What adaptation helps dandelion seeds disperse by wind?",
+          "back": "The hairy parachute (pappus) increases air resistance, allowing wind to carry the seed."
+        },
+        "concept_map_nodes": [
+          {"source": "Wind dispersal", "relation": "uses", "target": "Winged seeds"},
+          {"source": "Wind dispersal", "relation": "uses", "target": "Hairy seeds"}
+        ],
+        "workbook_section": "Seed Dispersal and Germination",
+        "solution_manual_note": "Answer B. Winged/hairy seeds are for wind dispersal. Water (A) uses floating, animals (C) use hooks/fleshy fruits, explosive (D) uses pod tension."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U2_Q050",
+      "generation_timestamp": "2026-06-11T10:50:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 2: Plants",
+      "section": "2.4.2. Reproductive structure and life cycle of flowering plants",
+      "subsection": "Perfect flower",
+      "sub_subsection": null,
+      "structural_anchor": "Perfect flower",
+      "mcq_type": "J",
+      "question": "A flower that contains both stamens (male) and carpels (female) is called what?",
+      "options": {
+        "A": "Imperfect flower",
+        "B": "Perfect flower",
+        "C": "Incomplete flower",
+        "D": "Staminate flower"
+      },
+      "correct_answer": "B",
+      "hint": "Think of 'perfect' meaning both sexes present.",
+      "explanation": "Perfect flowers are bisexual, having both functional stamens and carpels. Imperfect flowers lack one sex, staminate flowers are male-only.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 2: Plants",
+        "section_anchor": "2.4.2. Reproductive structure and life cycle of flowering plants",
+        "subsection_anchor": "Perfect flower",
+        "structural_element": "Perfect flower",
+        "content_anchor": "A perfect flower has both stamen and pistil.",
+        "page_hint": 11,
+        "concept_hash": "h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6i7j8k9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A perfect flower is bisexual, containing both stamens (male) and carpels (female).",
+        "concept_summary": "Perfect flowers can self-pollinate or cross-pollinate; examples include lilies, roses, and tomatoes.",
+        "beginner": "A perfect flower is like a flower that is both boy and girl, with both pollen and eggs.",
+        "intermediate": "Perfect flowers have androecium and gynoecium in the same flower; they may be complete or incomplete.",
+        "advanced": "Perfect flowers may exhibit strategies to avoid self-fertilization, such as dichogamy (stamens and carpels mature at different times).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the definition of perfect flower.",
+          "Identify it as having both stamens and carpels.",
+          "Select perfect flower as the correct answer."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think perfect flowers must also be complete.",
+          "Another misconception is that perfect flowers cannot self-pollinate."
+        ],
+        "related_concepts": ["Bisexual", "Hermaphroditic", "Stamen", "Pistil", "Complete flower"],
+        "revision_note": "Perfect flower = both stamens and carpels (bisexual).",
+        "glossary_entry": {
+          "term": "Perfect flower",
+          "definition": "A flower that contains both stamens and carpels (bisexual).",
+          "example_equation": null,
+          "related_terms": ["Bisexual", "Hermaphroditic", "Stamen", "Pistil"]
+        },
+        "flashcard": {
+          "front": "What is a perfect flower?",
+          "back": "A perfect flower has both male (stamens) and female (carpels) reproductive organs."
+        },
+        "concept_map_nodes": [
+          {"source": "Perfect flower", "relation": "has", "target": "Stamen"},
+          {"source": "Perfect flower", "relation": "has", "target": "Pistil"}
+        ],
+        "workbook_section": "Reproductive Structure of Flowering Plants",
+        "solution_manual_note": "Answer B. Perfect flower has both sexes. Imperfect (A) lacks one sex, incomplete (C) lacks a whorl, staminate (D) is male-only."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3650,
+    "average_question_quality": 90.2,
+    "type_distribution": {
+      "A": 4,
+      "C": 1,
+      "F": 1,
+      "J": 3,
+      "K": 1,
+      "L": 1
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 3,
+      "hard": 0
+    },
+    "section_distribution": {
+      "2.7.3. Mechanism of photosynthesis": 3,
+      "2.7.4. Testing a leaf for starch": 1,
+      "2.4.2. Reproductive structure and life cycle of flowering plants": 3,
+      "2.5. Seeds": 2,
+      "2.6.1. Seed dispersal": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 46
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

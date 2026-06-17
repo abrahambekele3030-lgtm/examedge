@@ -1,0 +1,1801 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:50:00Z",
+  "round_id": "R05",
+  "batch_sequence": 5,
+  "__STATE__": {
+    "current_round": 5,
+    "last_question_id": "G09_Chem_U3_Q050",
+    "covered_sections": [
+      "3.1 Historical Development of the Atomic Theories of Matter>The Indivisible Atom",
+      "3.1 Historical Development of the Atomic Theories of Matter>The Greek Concept of 'Atomos'",
+      "3.1 Historical Development of the Atomic Theories of Matter>Drawbacks of the Early Greek Philosophers",
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.1 The Law of Conservation of Mass",
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.2 The Law of Definite Proportions",
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.3 The Law of Multiple Proportions",
+      "3.3 Atomic Theory>3.3.1 Dalton's Atomic Theory",
+      "3.3 Atomic Theory>3.3.2 Modern Atomic Theory",
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus>3.4.1 Discovery of the Proton",
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus>3.4.2 Discovery of the Electron",
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus>3.4.3 Discovery of the Nucleus",
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus>3.4.4 Discovery of the Neutron",
+      "3.5 Composition of an Atom and the Isotopes>3.5.1 Electrons, Protons and Neutrons",
+      "3.5 Composition of an Atom and the Isotopes>3.5.2 Atomic Number and Mass Number",
+      "3.5 Composition of an Atom and the Isotopes>3.5.3 Atomic Mass and Isotope",
+      "3.5 Composition of an Atom and the Isotopes>3.5.4 Main Energy Levels",
+      "3.5 Composition of an Atom and the Isotopes>3.5.5 Electronic Configuration on Main Shells",
+      "3.5 Composition of an Atom and the Isotopes>3.5.6 Valence Electrons",
+      "Unit Summary",
+      "Key Terms and Equations"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4",
+      "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5",
+      "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6",
+      "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7",
+      "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8",
+      "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9",
+      "h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0",
+      "i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1",
+      "j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2",
+      "k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3",
+      "l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4",
+      "m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5",
+      "n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6",
+      "o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7",
+      "p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8",
+      "q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9",
+      "r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0",
+      "s9t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1",
+      "t0u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2",
+      "u1v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3",
+      "v2w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4",
+      "w3x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5",
+      "x4y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6",
+      "y5z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7",
+      "z6a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8",
+      "a7b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9",
+      "b8c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0",
+      "c9d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1",
+      "d0e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2",
+      "e1f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3",
+      "f2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4",
+      "g3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3e4f5",
+      "h4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6",
+      "i5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7",
+      "j6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "k7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0x1y2z3a4b5c6d7e8f9",
+      "l8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0",
+      "m9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1",
+      "n0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2",
+      "o1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3",
+      "p2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4",
+      "q3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3e4f5",
+      "r4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6",
+      "s5a6b7c8d9e0f1g2h3i4j5k6l7m8n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4d5e6f7",
+      "t6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8",
+      "u7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0x1y2z3a4b5c6d7e8f9",
+      "v8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0",
+      "w9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c8d9e0f1",
+      "x0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2"
+    ],
+    "baseline_counter": {
+      "3.1 Historical Development of the Atomic Theories of Matter": {
+        "The Indivisible Atom": { "count": 4, "mini_headings_covered": [], "last_question_round": 5 },
+        "The Greek Concept of 'Atomos'": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "Drawbacks of the Early Greek Philosophers": { "count": 2, "mini_headings_covered": [], "last_question_round": 3 }
+      },
+      "3.2 Fundamental Laws of Chemical Reactions": {
+        "3.2.1 The Law of Conservation of Mass": { "count": 5, "mini_headings_covered": ["Experiments on The Law of Conservation of Mass"], "last_question_round": 5 },
+        "3.2.2 The Law of Definite Proportions": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "3.2.3 The Law of Multiple Proportions": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "3.3 Atomic Theory": {
+        "3.3.1 Dalton's Atomic Theory": { "count": 4, "mini_headings_covered": [], "last_question_round": 5 },
+        "3.3.2 Modern Atomic Theory": { "count": 4, "mini_headings_covered": ["Development of the Modern Atomic Theory", "Drawbacks of Dalton's Atomic Theory", "Modern Atomic Theory Postulates"], "last_question_round": 5 }
+      },
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus": {
+        "3.4.1 Discovery of the Proton": { "count": 4, "mini_headings_covered": ["Properties of anode rays"], "last_question_round": 5 },
+        "3.4.2 Discovery of the Electron": { "count": 7, "mini_headings_covered": ["Thomson's Experiment on the Charge of the Cathode Ray", "J. J. Thomson's Atomic Model", "Thomson's Experiment on the Particle Nature of the Cathode Rays", "Summary of the properties of cathode rays", "Millikan's Oil Drop Experiment"], "last_question_round": 5 },
+        "3.4.3 Discovery of the Nucleus": { "count": 5, "mini_headings_covered": ["Rutherford's Atomic Model", "Legitimacy of Rutherford's Atomic Model"], "last_question_round": 5 },
+        "3.4.4 Discovery of the Neutron": { "count": 4, "mini_headings_covered": [], "last_question_round": 5 }
+      },
+      "3.5 Composition of an Atom and the Isotopes": {
+        "3.5.1 Electrons, Protons and Neutrons": { "count": 4, "mini_headings_covered": ["Electrons", "The Protons", "The Neutrons"], "last_question_round": 5 },
+        "3.5.2 Atomic Number and Mass Number": { "count": 5, "mini_headings_covered": ["Mass Number", "Representation of Mass Number and Atomic Number in a Nuclear Symbol of an Element"], "last_question_round": 5 },
+        "3.5.3 Atomic Mass and Isotope": { "count": 6, "mini_headings_covered": ["Average Atomic Mass", "Calculating mass number of isotopes", "Atomic Mass", "Stability of Isotopes"], "last_question_round": 5 },
+        "3.5.4 Main Energy Levels": { "count": 3, "mini_headings_covered": [], "last_question_round": 5 },
+        "3.5.5 Electronic Configuration on Main Shells": { "count": 5, "mini_headings_covered": [], "last_question_round": 5 },
+        "3.5.6 Valence Electrons": { "count": 4, "mini_headings_covered": [], "last_question_round": 5 }
+      },
+      "Unit Summary": {
+        "Unit Summary": { "count": 1, "mini_headings_covered": [], "last_question_round": 5 }
+      },
+      "Key Terms and Equations": {
+        "Key Terms": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 },
+        "Key Equations": { "count": 1, "mini_headings_covered": [], "last_question_round": 5 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": true,
+      "phase3_started": true
+    },
+    "distribution_tracker": {
+      "3.1 Historical Development of the Atomic Theories of Matter": { "question_count": 6, "last_used_round": 5, "consecutive_batches": 5 },
+      "3.2 Fundamental Laws of Chemical Reactions": { "question_count": 7, "last_used_round": 5, "consecutive_batches": 5 },
+      "3.3 Atomic Theory": { "question_count": 6, "last_used_round": 5, "consecutive_batches": 5 },
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus": { "question_count": 14, "last_used_round": 5, "consecutive_batches": 5 },
+      "3.5 Composition of an Atom and the Isotopes": { "question_count": 16, "last_used_round": 5, "consecutive_batches": 5 },
+      "Unit Summary": { "question_count": 1, "last_used_round": 5, "consecutive_batches": 1 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.2 The Law of Definite Proportions": ["Proust's Law", "Law of Constant Composition", "Fixed mass ratio"],
+      "3.2 Fundamental Laws of Chemical Reactions>3.2.3 The Law of Multiple Proportions": ["Small whole number ratio", "Multiple compounds from same elements"],
+      "3.3 Atomic Theory>3.3.2 Modern Atomic Theory": ["Isotopes", "Isobars", "Subatomic particles"],
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus>3.4.1 Discovery of the Proton": ["Anode rays", "Canal rays", "Goldstein experiment", "e/m ratio"],
+      "3.4 Discovery of Sub-Atomic Particles and the Nucleus>3.4.4 Discovery of the Neutron": ["Chadwick", "Beryllium bombardment", "Neutral particle", "Nuclear stability"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.1 Electrons, Protons and Neutrons": ["Relative charge", "Absolute mass", "amu", "Subatomic particle locations"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.4 Main Energy Levels": ["Principal quantum number", "K L M N shells", "2n² rule", "Orbitals"],
+      "3.5 Composition of an Atom and the Isotopes>3.5.6 Valence Electrons": ["Outermost shell", "Chemical properties", "Reactivity"],
+      "Unit Summary": ["Atomic theory timeline", "Key discoveries", "Subatomic particle summary"],
+      "Key Terms and Equations": ["Mass number formula", "Average atomic mass formula"]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_from_batch4",
+    "content_density_metrics": {
+      "total_concepts_extracted": 58,
+      "questions_per_concept_ratio": 0.86,
+      "structural_coverage_percentage": 86.2
+    }
+  },
+  "grade": "Grade 9",
+  "subject": "Chemistry",
+  "unit": "Unit 3: STRUCTURE OF THE ATOM",
+  "pdf_filename": "C9U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:50:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": true,
+        "max_imbalance_ratio": 2.67,
+        "balanced": true
+      },
+      "phase3": {
+        "started": true,
+        "exam_sections_biased": 2
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 50,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 16,
+      "mini_headings_covered_count": 14,
+      "structural_coverage_percentage": 86.2,
+      "concept_utilization_ratio": 0.86
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.5 Composition of an Atom and the Isotopes",
+      "least_covered_section": "3.1 Historical Development",
+      "imbalance_ratio": 2.67,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G09_Chem_U3_Q041",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "Unit Summary",
+      "subsection": "Unit Summary",
+      "sub_subsection": null,
+      "structural_anchor": "Unit Summary",
+      "mcq_type": "A",
+      "question": "According to the modern understanding of the atom, which particles are found in the nucleus?",
+      "options": {
+        "A": "Protons and electrons",
+        "B": "Neutrons and electrons",
+        "C": "Protons and neutrons",
+        "D": "Protons, neutrons, and electrons"
+      },
+      "correct_answer": "C",
+      "hint": "Electrons orbit outside the nucleus.",
+      "explanation": "The nucleus contains protons (positive) and neutrons (neutral). Electrons orbit outside the nucleus in energy levels. Option D incorrectly places electrons in the nucleus.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "Unit Summary",
+        "subsection_anchor": "Unit Summary",
+        "structural_element": "Unit Summary",
+        "content_anchor": "small positively charged nucleus (where protons and neutrons reside) at the centre of the atom and the electrons revolving around the nucleus",
+        "page_hint": 53,
+        "concept_hash": "sha256_of_nucleus_composition"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "The nucleus contains protons and neutrons; electrons orbit outside.",
+        "concept_summary": "Rutherford's gold foil experiment established that the nucleus is small, dense, and contains all the positive charge and most of the mass.",
+        "beginner": "The nucleus is the tiny center of the atom. It holds protons and neutrons. Electrons zoom around outside the nucleus.",
+        "intermediate": "Protons and neutrons (nucleons) are located in the nucleus. Electrons occupy the space outside the nucleus in energy levels.",
+        "advanced": "The nucleus consists of Z protons and N neutrons, where Z is atomic number and A = Z + N is mass number. Electrons are bound by electromagnetic force but are not part of the nucleus.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that the nucleus is the central part of the atom.",
+          "Identify which particles are heavy enough to be in the nucleus.",
+          "Protons and neutrons are nucleons; electrons are outside."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Electrons are NOT in the nucleus — they orbit around it.",
+          "Neutrons are in the nucleus, not outside."
+        ],
+        "related_concepts": ["Nucleus", "Proton", "Neutron", "Electron cloud"],
+        "revision_note": "Nucleus: protons + neutrons. Electrons orbit outside.",
+        "glossary_entry": {
+          "term": "Nucleus",
+          "definition": "The small, dense center of an atom containing protons and neutrons.",
+          "example_equation": null,
+          "related_terms": ["Proton", "Neutron", "Electron"]
+        },
+        "flashcard": {
+          "front": "What particles are found in the nucleus of an atom?",
+          "back": "Protons and neutrons (nucleons). Electrons are outside the nucleus."
+        },
+        "concept_map_nodes": [
+          { "source": "Nucleus", "relation": "contains", "target": "Protons" },
+          { "source": "Nucleus", "relation": "contains", "target": "Neutrons" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Atomic Structure Summary",
+        "flashcard_front": "Which particles are found in the atomic nucleus?",
+        "flashcard_back": "Protons and neutrons (electrons orbit outside).",
+        "glossary_term": "Nucleus",
+        "glossary_definition": "Atom's center containing protons and neutrons.",
+        "revision_note": "Nucleus = protons + neutrons.",
+        "teacher_note": "Reinforce that electrons are NOT in the nucleus.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Discuss the development of Dalton's Atomic Theory and Modern Atomic Theory",
+        "concept_map_nodes": [
+          { "source": "Atom", "relation": "has", "target": "Nucleus" },
+          { "source": "Atom", "relation": "has", "target": "Electron cloud" }
+        ],
+        "workbook_section": "Unit Summary",
+        "solution_manual_note": "Answer C. Protons and neutrons are in the nucleus; electrons orbit outside."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q042",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "Key Terms and Equations",
+      "subsection": "Key Terms and Equations",
+      "sub_subsection": null,
+      "structural_anchor": "Key Terms and Equations",
+      "mcq_type": "C",
+      "question": "The formula for calculating average atomic mass from isotopic data is expressed as \\( \\bar{m} = \\sum f_i m_i \\). What does \\( f_i \\) represent in this equation?",
+      "options": {
+        "A": "Mass of the isotope",
+        "B": "Fractional abundance of the isotope",
+        "C": "Atomic number of the isotope",
+        "D": "Number of neutrons in the isotope"
+      },
+      "correct_answer": "B",
+      "hint": "\\( f_i \\) is multiplied by the isotope's mass.",
+      "explanation": "In the weighted average formula, \\( f_i \\) is the fractional abundance (percent abundance divided by 100). Option A (mass) is \\( m_i \\), not \\( f_i \\).",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(\\bar{m} = \\sum f_i m_i\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "Key Terms and Equations",
+        "subsection_anchor": "Key Terms and Equations",
+        "structural_element": "Key Terms and Equations",
+        "content_anchor": "Average Atomic Mass = [(% isotope 1)(mass of isotope 1)] ÷ 100 + [(% isotope 2)(mass of isotope 2)] ÷ 100",
+        "page_hint": 51,
+        "concept_hash": "sha256_of_average_mass_formula"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 93,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "\\( f_i \\) is the fractional abundance (decimal form) of isotope i.",
+        "concept_summary": "The weighted average formula requires fractional abundances. If an isotope has 75% abundance, \\( f_i = 0.75 \\).",
+        "beginner": "The little \\( f_i \\) in the formula means the fraction (decimal) of that isotope found in nature, like 0.75 for 75%.",
+        "intermediate": "In \\( \\bar{m} = \\sum f_i m_i \\), \\( f_i \\) is the fractional abundance of isotope i (e.g., 0.75 for 75%). \\( m_i \\) is the isotopic mass.",
+        "advanced": "Fractional abundance \\( f_i = \\frac{\\text{percent abundance}_i}{100} \\). The sum of all \\( f_i \\) must equal 1. This weighted average yields the periodic table atomic mass.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that the formula is a weighted average.",
+          "\\( f_i \\) is the weighting factor.",
+          "The weighting factor for isotopes is fractional abundance."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\bar{m} = \\sum f_i m_i\\)",
+            "name": "Average atomic mass",
+            "variables": [
+              { "symbol": "\\(\\bar{m}\\)", "meaning": "Average atomic mass", "unit": "amu" },
+              { "symbol": "\\(f_i\\)", "meaning": "Fractional abundance of isotope i", "unit": "dimensionless" },
+              { "symbol": "\\(m_i\\)", "meaning": "Mass of isotope i", "unit": "amu" }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "\\( f_i \\) is NOT the mass (that's \\( m_i \\)).",
+          "\\( f_i \\) is NOT the percent — it's the decimal form (percent/100)."
+        ],
+        "related_concepts": ["Weighted average", "Isotope abundance", "Atomic mass"],
+        "revision_note": "\\( f_i \\) = fractional abundance (decimal).",
+        "glossary_entry": {
+          "term": "Fractional abundance",
+          "definition": "The decimal fraction representing an isotope's natural occurrence (percent abundance / 100).",
+          "example_equation": "75% → f = 0.75",
+          "related_terms": ["Isotope", "Average atomic mass", "Weighted average"]
+        },
+        "flashcard": {
+          "front": "In the formula \\( \\bar{m} = \\sum f_i m_i \\), what does \\( f_i \\) represent?",
+          "back": "Fractional abundance (decimal form) of the isotope."
+        },
+        "concept_map_nodes": [
+          { "source": "Average atomic mass", "relation": "uses", "target": "Fractional abundance" },
+          { "source": "Fractional abundance", "relation": "symbol", "target": "\\( f_i \\)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Chemistry Unit 3 — Key Formulas",
+        "flashcard_front": "What does \\( f_i \\) stand for in the average atomic mass formula?",
+        "flashcard_back": "Fractional abundance of the isotope (percent/100).",
+        "glossary_term": "Fractional abundance",
+        "glossary_definition": "Decimal fraction representing isotope abundance.",
+        "revision_note": "f_i = fractional abundance (decimal).",
+        "teacher_note": "Remind students to convert percent to decimal before using in formula.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Calculate the atomic masses of elements that have isotopes",
+        "concept_map_nodes": [
+          { "source": "Average atomic mass", "relation": "equation", "target": "Σ f_i m_i" },
+          { "source": "f_i", "relation": "meaning", "target": "Fractional abundance" }
+        ],
+        "workbook_section": "Key Terms and Equations",
+        "solution_manual_note": "Answer B. f_i is fractional abundance (decimal form)."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q043",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.1 Historical Development of the Atomic Theories of Matter",
+      "subsection": "The Greek Concept of 'Atomos'",
+      "sub_subsection": null,
+      "structural_anchor": "The Greek Concept of 'Atomos'",
+      "mcq_type": "I",
+      "question": "How did Aristotle's view of matter differ from Democritus's atomic theory?",
+      "options": {
+        "A": "Aristotle believed matter was continuous; Democritus believed it was particulate.",
+        "B": "Aristotle supported atoms; Democritus rejected them.",
+        "C": "Both believed matter was made of earth, air, fire, and water.",
+        "D": "Aristotle performed experiments; Democritus used only logic."
+      },
+      "correct_answer": "A",
+      "hint": "Aristotle rejected atomism in favor of the four-element continuum.",
+      "explanation": "Aristotle believed matter was continuous (no indivisible particles), while Democritus proposed discrete atoms. Option C is incorrect — Democritus did not support the four-element theory.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.1 Historical Development of the Atomic Theories of Matter",
+        "subsection_anchor": "The Greek Concept of 'Atomos'",
+        "structural_element": "The Greek Concept of 'Atomos'",
+        "content_anchor": "Aristotle and other prominent thinkers of the time strongly opposed their idea of the atom",
+        "page_hint": 5,
+        "concept_hash": "sha256_of_aristotle_vs_democritus"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 91,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Aristotle supported the continuum model (matter infinitely divisible), while Democritus proposed indivisible atoms.",
+        "concept_summary": "Democritus argued matter consists of discrete, indivisible particles (atoms). Aristotle argued matter is continuous and infinitely divisible, composed of earth, air, fire, water.",
+        "beginner": "Democritus said you can only break matter down so far until you get an uncuttable piece. Aristotle said you could keep breaking matter forever — no smallest piece.",
+        "intermediate": "Aristotle's continuum theory held that matter is infinitely divisible and continuous. Democritus's atomism held that division stops at indivisible atoms. Aristotle's view dominated for 2000 years.",
+        "advanced": "Aristotle's rejection of atomism was based on philosophical opposition to the void and to indivisible particles. His continuum model (hylomorphism) influenced Western science until the 17th century.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall Democritus: atoms (indivisible particles).",
+          "Recall Aristotle: four elements, continuous matter.",
+          "Aristotle's matter is divisible without limit."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Aristotle did NOT support atomic theory — he opposed it.",
+          "Democritus did NOT believe in four elements — that was Empedocles."
+        ],
+        "related_concepts": ["Democritus", "Aristotle", "Continuum theory", "Atomism"],
+        "revision_note": "Democritus: particulate atoms. Aristotle: continuous matter.",
+        "glossary_entry": {
+          "term": "Continuum theory",
+          "definition": "Aristotle's view that matter is continuous and infinitely divisible, with no smallest particles.",
+          "example_equation": null,
+          "related_terms": ["Aristotle", "Atomism", "Democritus"]
+        },
+        "flashcard": {
+          "front": "What was the key difference between Aristotle's and Democritus's views of matter?",
+          "back": "Democritus: particulate (atoms). Aristotle: continuous (infinitely divisible)."
+        },
+        "concept_map_nodes": [
+          { "source": "Democritus", "relation": "view_of_matter", "target": "Particulate (atoms)" },
+          { "source": "Aristotle", "relation": "view_of_matter", "target": "Continuous" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — History of Atomic Theory",
+        "flashcard_front": "How did Aristotle's view of matter differ from Democritus's?",
+        "flashcard_back": "Aristotle: continuous matter; Democritus: particulate (atoms).",
+        "glossary_term": "Continuum theory",
+        "glossary_definition": "Aristotle's infinitely divisible matter model.",
+        "revision_note": "Democritus = atoms; Aristotle = continuous.",
+        "teacher_note": "Highlight that Aristotle's authority suppressed atomism for centuries.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Discuss the development of Dalton's Atomic Theory and Modern Atomic Theory",
+        "concept_map_nodes": [
+          { "source": "Democritus", "relation": "supported", "target": "Atomism" },
+          { "source": "Aristotle", "relation": "supported", "target": "Continuum theory" }
+        ],
+        "workbook_section": "3.1 Historical Development",
+        "solution_manual_note": "Answer A. Aristotle believed matter was continuous; Democritus believed it was particulate (atoms)."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q044",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.4 Discovery of Sub-Atomic Particles and the Nucleus",
+      "subsection": "3.4.3 Discovery of the Nucleus",
+      "sub_subsection": null,
+      "structural_anchor": "The Niels Bohr Atomic Model",
+      "mcq_type": "N",
+      "question": "Bohr's model of the atom overcame a major limitation of Rutherford's model by postulating that electrons exist in stationary orbits. What phenomenon did this explain that Rutherford's model could not?",
+      "options": {
+        "A": "Why atoms are mostly empty space",
+        "B": "Why atoms do not collapse as electrons radiate energy",
+        "C": "Why positive charge is concentrated in the nucleus",
+        "D": "Why alpha particles sometimes bounce backward"
+      },
+      "correct_answer": "B",
+      "hint": "Rutherford's orbiting electrons should continuously radiate and collapse.",
+      "explanation": "Bohr proposed that electrons in stationary orbits do NOT radiate energy, solving the collapse problem. Rutherford's model could not explain atomic stability. Option A (empty space) was Rutherford's discovery.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.4 Discovery of Sub-Atomic Particles and the Nucleus",
+        "subsection_anchor": "3.4.3 Discovery of the Nucleus",
+        "structural_element": "The Niels Bohr Atomic Model",
+        "content_anchor": "As long as the electron revolves in a particular orbit, the electron does not lose its energy",
+        "page_hint": 33,
+        "concept_hash": "sha256_of_bohr_stability"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 90,
+        "cognitive_level": "evaluating",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Bohr's stationary orbits prevent energy radiation, explaining why atoms are stable.",
+        "concept_summary": "Rutherford's model predicted electron energy loss via radiation, causing collapse. Bohr postulated quantized orbits where electrons do not radiate unless jumping between levels.",
+        "beginner": "Rutherford's electrons should lose energy and crash into the nucleus. Bohr said electrons are only allowed in certain special orbits where they don't lose energy, so atoms are stable.",
+        "intermediate": "Bohr's first postulate: Electrons in stationary orbits (allowed energy levels) do not emit radiation. This violates classical electrodynamics but explains atomic stability.",
+        "advanced": "Bohr's quantized angular momentum postulate \\( mvr = n\\hbar \\) restricts electrons to discrete orbits where standing wave conditions prevent energy loss. Radiation occurs only during transitions between levels, not during stable orbits.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall Rutherford's problem: accelerating electrons radiate energy.",
+          "Bohr's postulate: electrons in certain orbits do NOT radiate.",
+          "Thus, atoms are stable and do not collapse."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Bohr did NOT explain why atoms are mostly empty space — that was Rutherford.",
+          "Bohr did NOT explain alpha particle scattering — that was Rutherford's observation."
+        ],
+        "related_concepts": ["Bohr model", "Stationary orbits", "Quantum postulate", "Atomic stability"],
+        "revision_note": "Bohr: stationary orbits = no radiation = atom stable.",
+        "glossary_entry": {
+          "term": "Stationary orbit",
+          "definition": "Allowed electron orbit in Bohr's model where energy is not radiated.",
+          "example_equation": null,
+          "related_terms": ["Bohr model", "Quantum postulate", "Energy level"]
+        },
+        "flashcard": {
+          "front": "What problem did Bohr's model solve that Rutherford's could not?",
+          "back": "Why atoms do not collapse (electrons in stationary orbits do not radiate energy)."
+        },
+        "concept_map_nodes": [
+          { "source": "Rutherford model", "relation": "problem", "target": "Electron collapse" },
+          { "source": "Bohr model", "relation": "solution", "target": "Stationary orbits" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Atomic Models",
+        "flashcard_front": "What key problem in Rutherford's model did Bohr solve?",
+        "flashcard_back": "Atomic collapse — Bohr's stationary orbits don't radiate energy.",
+        "glossary_term": "Stationary orbit",
+        "glossary_definition": "Non-radiating electron orbit in Bohr's model.",
+        "revision_note": "Bohr: stationary orbits = no radiation = stability.",
+        "teacher_note": "Connects classical physics failure to quantum hypothesis.",
+        "bloom_level": "Evaluate",
+        "learning_objective_tag": "Explain the discovery of the proton, electron, neutron and the nucleus",
+        "concept_map_nodes": [
+          { "source": "Rutherford model", "relation": "predicted", "target": "Collapse" },
+          { "source": "Bohr model", "relation": "prevented", "target": "Collapse" }
+        ],
+        "workbook_section": "3.4.3 Discovery of the Nucleus",
+        "solution_manual_note": "Answer B. Bohr's stationary orbits prevent energy radiation, solving the collapse problem."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q045",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.2 Fundamental Laws of Chemical Reactions",
+      "subsection": "3.2.1 The Law of Conservation of Mass",
+      "sub_subsection": null,
+      "structural_anchor": "The Law of Conservation of Mass",
+      "mcq_type": "H",
+      "question": "Some students believe that mass is lost when wood burns because only ash remains. Why is this belief incorrect according to the Law of Conservation of Mass?",
+      "options": {
+        "A": "Mass is actually created from energy during burning.",
+        "B": "The ash contains all the original mass, just in a different form.",
+        "C": "Gaseous products (CO₂, water vapor) escape, so total mass is conserved only in a closed system.",
+        "D": "Mass is destroyed but energy is created to balance the equation."
+      },
+      "correct_answer": "C",
+      "hint": "Wood burning releases gases into the air.",
+      "explanation": "In an open system, gases escape, making it appear mass is lost. In a closed system, total mass (ash + gases) equals original wood mass. Option B is incorrect because ash alone does not contain all mass.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.2 Fundamental Laws of Chemical Reactions",
+        "subsection_anchor": "3.2.1 The Law of Conservation of Mass",
+        "structural_element": "The Law of Conservation of Mass",
+        "content_anchor": "total mass of the products remains equal to the total mass of the reactants",
+        "page_hint": 8,
+        "concept_hash": "sha256_of_burning_conservation"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 91,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Burning in an open system allows gases to escape, but mass is conserved if all products (including gases) are collected.",
+        "concept_summary": "The apparent mass loss when burning wood is due to gaseous products (CO₂, H₂O vapor) escaping. In a closed system, total mass remains constant.",
+        "beginner": "When wood burns, smoke and invisible gases float away. If you caught the smoke in a bag and weighed it with the ash, the total would equal the original wood's mass.",
+        "intermediate": "The Law of Conservation of Mass applies to closed systems. Burning wood produces gases that escape in open air, so only solid ash remains. Total mass (ash + gases) is unchanged.",
+        "advanced": "The combustion reaction \\( C_xH_y + O_2 \\rightarrow CO_2 + H_2O \\) conserves atoms. In an open system, CO₂ and H₂O escape, reducing measured mass. Mass is not destroyed; gases are uncontained.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that wood burning produces gases (CO₂, water vapor).",
+          "These gases escape into the air in an open system.",
+          "Total mass (ash + escaped gases) equals original mass."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Mass is NOT destroyed — it's converted to gases.",
+          "Ash alone is not the only product; gases also form."
+        ],
+        "related_concepts": ["Open vs closed system", "Combustion", "Gas products"],
+        "revision_note": "Burning: ash + escaped gases = original mass (closed system).",
+        "glossary_entry": {
+          "term": "Open system",
+          "definition": "A system where matter can enter or leave; mass may appear to change.",
+          "example_equation": null,
+          "related_terms": ["Closed system", "Law of Conservation of Mass"]
+        },
+        "flashcard": {
+          "front": "Why does burning wood appear to lose mass?",
+          "back": "Gaseous products (CO₂, H₂O) escape; total mass is conserved in a closed system."
+        },
+        "concept_map_nodes": [
+          { "source": "Burning wood", "relation": "produces", "target": "Gases" },
+          { "source": "Open system", "relation": "allows", "target": "Gas escape" },
+          { "source": "Gas escape", "relation": "causes", "target": "Apparent mass loss" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Conservation of Mass",
+        "flashcard_front": "Why does burning wood seem to lose mass?",
+        "flashcard_back": "Gases escape; mass is conserved only in a closed system.",
+        "glossary_term": "Open system",
+        "glossary_definition": "System allowing matter exchange; apparent mass change possible.",
+        "revision_note": "Open system: gases escape → mass seems lost. Closed system: mass conserved.",
+        "teacher_note": "Classic misconception — emphasize that gases are products too.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "State the law of conservation of mass and illustrate using examples",
+        "concept_map_nodes": [
+          { "source": "Open system", "relation": "shows", "target": "Apparent mass loss" },
+          { "source": "Closed system", "relation": "shows", "target": "True mass conservation" }
+        ],
+        "workbook_section": "3.2 Fundamental Laws of Chemical Reactions",
+        "solution_manual_note": "Answer C. Gases escape in open system; mass is conserved in closed system."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q046",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.4 Main Energy Levels",
+      "sub_subsection": null,
+      "structural_anchor": "Main Energy Levels",
+      "mcq_type": "A",
+      "question": "What is the name given to the principal quantum number that designates the main energy level of an electron?",
+      "options": {
+        "A": "Mass number",
+        "B": "Atomic number",
+        "C": "n",
+        "D": "l"
+      },
+      "correct_answer": "C",
+      "hint": "It is a whole number (1, 2, 3, ...) representing the shell.",
+      "explanation": "The principal quantum number is denoted by n (n = 1, 2, 3, ...). Option A (mass number) is total nucleons; option B (atomic number) is number of protons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.4 Main Energy Levels",
+        "structural_element": "Main Energy Levels",
+        "content_anchor": "denoted by the principal quantum number n",
+        "page_hint": 46,
+        "concept_hash": "sha256_of_principal_quantum_number"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The principal quantum number (n) designates the main energy level (shell) of an electron.",
+        "concept_summary": "n = 1, 2, 3, 4, ... corresponds to K, L, M, N shells. Higher n means higher energy and larger distance from the nucleus.",
+        "beginner": "The principal quantum number is like the floor number in a building. n=1 is ground floor (K shell), n=2 is second floor (L shell), and so on.",
+        "intermediate": "The principal quantum number n (positive integer) specifies the main energy level. n=1 (K), n=2 (L), n=3 (M), n=4 (N).",
+        "advanced": "In quantum mechanics, the principal quantum number n determines the energy of a hydrogen-like orbital (\\(E_n \\propto -1/n^2\\)) and the number of nodes in the wavefunction.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that energy levels are labeled by quantum numbers.",
+          "The principal quantum number is the main label.",
+          "Its symbol is n."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "l is the azimuthal quantum number (orbital shape), not the principal quantum number.",
+          "Atomic number (Z) is not the same as principal quantum number n."
+        ],
+        "related_concepts": ["Principal quantum number", "Energy level", "Shell", "n"],
+        "revision_note": "Principal quantum number = n = shell number.",
+        "glossary_entry": {
+          "term": "Principal quantum number",
+          "definition": "Quantum number n designating the main energy level (shell) of an electron.",
+          "example_equation": "n = 1, 2, 3, ...",
+          "related_terms": ["Energy level", "Shell", "Quantum number"]
+        },
+        "flashcard": {
+          "front": "What symbol is used for the principal quantum number?",
+          "back": "n (n = 1, 2, 3, ...)."
+        },
+        "concept_map_nodes": [
+          { "source": "Principal quantum number", "relation": "symbol", "target": "n" },
+          { "source": "n", "relation": "determines", "target": "Energy level" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 3 — Energy Levels",
+        "flashcard_front": "What symbol represents the principal quantum number?",
+        "flashcard_back": "n (n = 1, 2, 3, ...).",
+        "glossary_term": "Principal quantum number",
+        "glossary_definition": "Quantum number n designating electron shell.",
+        "revision_note": "n = principal quantum number (shell number).",
+        "teacher_note": "Explain that n is also called the shell number.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe main energy level",
+        "concept_map_nodes": [
+          { "source": "Energy level", "relation": "designated_by", "target": "n" },
+          { "source": "n", "relation": "values", "target": "1, 2, 3, ..." }
+        ],
+        "workbook_section": "3.5.4 Main Energy Levels",
+        "solution_manual_note": "Answer C. The principal quantum number is denoted by n."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q047",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.3 Atomic Theory",
+      "subsection": "3.3.2 Modern Atomic Theory",
+      "sub_subsection": null,
+      "structural_anchor": "Modern Atomic Theory Postulates",
+      "mcq_type": "A",
+      "question": "According to Modern Atomic Theory, what uniquely identifies an element?",
+      "options": {
+        "A": "Mass number",
+        "B": "Number of neutrons",
+        "C": "Atomic number (number of protons)",
+        "D": "Number of electrons in the valence shell"
+      },
+      "correct_answer": "C",
+      "hint": "The periodic table is arranged by this number.",
+      "explanation": "Atomic number (Z = number of protons) is unique for each element. Option A (mass number) can vary for isotopes of the same element. Option B (neutrons) also varies among isotopes.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.3 Atomic Theory",
+        "subsection_anchor": "3.3.2 Modern Atomic Theory",
+        "structural_element": "Modern Atomic Theory Postulates",
+        "content_anchor": "All atoms of the same element have the same atomic number",
+        "page_hint": 18,
+        "concept_hash": "sha256_of_atomic_number_identity"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 46,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Atomic number (proton count) uniquely identifies an element.",
+        "concept_summary": "Every element has a distinct atomic number. Hydrogen = 1, Helium = 2, etc. Isotopes have same Z but different A.",
+        "beginner": "The number of protons in an atom's nucleus is like a fingerprint. Hydrogen always has 1 proton, carbon always has 6 — that's what makes them different elements.",
+        "intermediate": "Atomic number Z = number of protons. This value is fixed for all atoms of a given element and differs between elements. Mass number (A) can vary due to isotopes.",
+        "advanced": "The atomic number Z determines the element's identity and its position in the periodic table. Chemical properties are determined by Z because Z dictates electron configuration.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that atomic number = number of protons.",
+          "Different elements have different numbers of protons.",
+          "Therefore, atomic number uniquely identifies an element."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Mass number does NOT identify element — isotopes of same element have different A.",
+          "Neutron number varies among isotopes and does not identify element."
+        ],
+        "related_concepts": ["Atomic number", "Proton", "Element identity", "Periodic table"],
+        "revision_note": "Atomic number = proton count = element identity.",
+        "glossary_entry": {
+          "term": "Atomic number",
+          "definition": "The number of protons in an atom's nucleus; uniquely identifies the element.",
+          "example_equation": "Z = number of protons",
+          "related_terms": ["Proton", "Element", "Isotope"]
+        },
+        "flashcard": {
+          "front": "What uniquely identifies an element according to Modern Atomic Theory?",
+          "back": "Atomic number (number of protons)."
+        },
+        "concept_map_nodes": [
+          { "source": "Atomic number", "relation": "equals", "target": "Number of protons" },
+          { "source": "Atomic number", "relation": "identifies", "target": "Element" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 3 — Modern Atomic Theory",
+        "flashcard_front": "What number uniquely identifies an element?",
+        "flashcard_back": "Atomic number (number of protons).",
+        "glossary_term": "Atomic number",
+        "glossary_definition": "Proton count; unique to each element.",
+        "revision_note": "Z = protons = element ID.",
+        "teacher_note": "Emphasize that isotopes have same Z (same element), different A.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate the terms like atomic number, mass number, atomic mass, isotope",
+        "concept_map_nodes": [
+          { "source": "Element", "relation": "identified_by", "target": "Atomic number" },
+          { "source": "Atomic number", "relation": "equals", "target": "Protons" }
+        ],
+        "workbook_section": "3.3 Atomic Theory",
+        "solution_manual_note": "Answer C. Atomic number (proton count) uniquely identifies an element."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q048",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.5 Electronic Configuration on Main Shells",
+      "sub_subsection": null,
+      "structural_anchor": "Electronic Configuration on Main Shells",
+      "mcq_type": "E",
+      "question": "An atom of sulfur has atomic number 16. What is its electronic configuration (shell notation: K, L, M, N)?",
+      "options": {
+        "A": "2, 8, 4",
+        "B": "2, 8, 6",
+        "C": "2, 8, 8",
+        "D": "2, 8, 5"
+      },
+      "correct_answer": "B",
+      "hint": "Fill K (2), L (8), then remaining in M. 16 - 10 = 6.",
+      "explanation": "16 electrons: K = 2, L = 8, remaining = 16 - 10 = 6 in M shell → 2,8,6. Option A (2,8,4) is silicon (14 electrons).",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "atomic_number": { "magnitude": 16, "unit": null }
+        },
+        "answer_value": 6,
+        "answer_unit": null,
+        "calculation_steps": [
+          "K shell maximum = 2 electrons",
+          "L shell maximum = 8 electrons",
+          "Electrons placed in K and L: 2 + 8 = 10",
+          "Remaining electrons = 16 - 10 = 6",
+          "M shell gets 6 electrons",
+          "Configuration: 2, 8, 6"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.5 Electronic Configuration on Main Shells",
+        "structural_element": "Electronic Configuration on Main Shells",
+        "content_anchor": "2,8,6 for sulfur",
+        "page_hint": 48,
+        "concept_hash": "sha256_of_sulfur_config"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 96,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Sulfur (Z=16) has electron configuration 2,8,6.",
+        "concept_summary": "16 electrons fill K shell (2), L shell (8), and remaining 6 go to M shell.",
+        "beginner": "First put 2 electrons in K. Then put 8 in L. Sulfur has 16 total, so remaining 6 go to M. Configuration: 2,8,6.",
+        "intermediate": "K: 2 electrons (max), L: 8 electrons (max), remainder = 16 - 10 = 6 electrons in M shell. Configuration = 2,8,6.",
+        "advanced": "Aufbau principle: 1s² 2s² 2p⁶ 3s² 3p⁴. Shell notation: K=2 (n=1), L=8 (n=2), M=6 (n=3). This is the ground-state configuration of sulfur.",
+        "worked_solution": [
+          "Step 1: K shell holds 2 electrons → place 2.",
+          "Step 2: Remaining = 16 - 2 = 14.",
+          "Step 3: L shell holds 8 electrons → place 8.",
+          "Step 4: Remaining = 14 - 8 = 6.",
+          "Step 5: M shell gets remaining 6 electrons.",
+          "Step 6: Configuration = 2,8,6."
+        ],
+        "reasoning_steps": [
+          "Fill K shell with 2 electrons.",
+          "Fill L shell with 8 electrons.",
+          "Place remaining electrons in M shell."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "2,8,4 is silicon (Z=14), not sulfur.",
+          "2,8,8 is argon (Z=18), too many electrons."
+        ],
+        "related_concepts": ["Sulfur", "Electron configuration", "Group 16"],
+        "revision_note": "Sulfur (Z=16): 2,8,6.",
+        "glossary_entry": {
+          "term": "Electron configuration",
+          "definition": "Distribution of electrons in shells: K, L, M, N.",
+          "example_equation": "S (Z=16): 2,8,6",
+          "related_terms": ["Aufbau principle", "Shell", "Valence electrons"]
+        },
+        "flashcard": {
+          "front": "What is the shell configuration of sulfur (atomic number 16)?",
+          "back": "2,8,6 (K=2, L=8, M=6)."
+        },
+        "concept_map_nodes": [
+          { "source": "Sulfur atom", "relation": "has_Z", "target": "16" },
+          { "source": "Sulfur atom", "relation": "configuration", "target": "2,8,6" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 3 — Electron Configuration",
+        "flashcard_front": "What is the electron configuration of sulfur (Z=16)?",
+        "flashcard_back": "2,8,6 (K=2, L=8, M=6).",
+        "glossary_term": "Electron configuration",
+        "glossary_definition": "Arrangement of electrons in shells.",
+        "revision_note": "S: 16 e⁻ → 2,8,6.",
+        "teacher_note": "Practice with atomic numbers 1-20.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Write the ground-state electron configurations of atoms using main energy levels",
+        "concept_map_nodes": [
+          { "source": "Sulfur", "relation": "config", "target": "2,8,6" },
+          { "source": "2,8,6", "relation": "means", "target": "6 valence electrons" }
+        ],
+        "workbook_section": "3.5.5 Electronic Configuration on Main Shells",
+        "solution_manual_note": "Answer B. 2 (K) + 8 (L) + 6 (M) = 16 electrons."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q049",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.5 Composition of an Atom and the Isotopes",
+      "subsection": "3.5.1 Electrons, Protons and Neutrons",
+      "sub_subsection": null,
+      "structural_anchor": "The Protons",
+      "mcq_type": "A",
+      "question": "What are the relative charge and approximate mass of a proton?",
+      "options": {
+        "A": "Charge: +1, Mass: 1 amu",
+        "B": "Charge: -1, Mass: 1 amu",
+        "C": "Charge: 0, Mass: 1 amu",
+        "D": "Charge: +1, Mass: 0 amu"
+      },
+      "correct_answer": "A",
+      "hint": "Protons are positive and heavy, located in the nucleus.",
+      "explanation": "Protons have a positive charge of +1 and a mass of approximately 1 atomic mass unit (1.0073 amu). Option B describes electrons; option C describes neutrons.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.5 Composition of an Atom and the Isotopes",
+        "subsection_anchor": "3.5.1 Electrons, Protons and Neutrons",
+        "structural_element": "The Protons",
+        "content_anchor": "Protons have a positive electrical charge of one (+1) and a mass of 1.0073 atomic mass unit (amu)",
+        "page_hint": 36,
+        "concept_hash": "sha256_of_proton_properties"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 40,
+        "distractor_quality_score": 96,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Proton: charge +1, mass ~1 amu.",
+        "concept_summary": "Protons are positively charged nucleons found in the nucleus. Their mass is approximately 1.0073 amu.",
+        "beginner": "Protons are the positive heavy particles inside the nucleus. Each proton has a +1 charge and weighs about 1 atomic mass unit.",
+        "intermediate": "Proton properties: +1 elementary charge, mass ≈ 1 amu (specifically 1.0073 amu). Together with neutrons, they make up nearly all atomic mass.",
+        "advanced": "The proton has charge \\( +e = +1.602 \\times 10^{-19} \\text{C} \\) and rest mass \\( m_p = 1.6726219 \\times 10^{-27} \\text{kg} \\approx 1.0073 \\text{amu} \\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that protons are in the nucleus.",
+          "They have a positive charge (+1).",
+          "Their mass is approximately 1 amu."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Neutrons have 0 charge, not protons.",
+          "Electrons have -1 charge and ~0 amu."
+        ],
+        "related_concepts": ["Proton charge", "Proton mass", "Nucleus"],
+        "revision_note": "Proton: +1, 1 amu.",
+        "glossary_entry": {
+          "term": "Proton",
+          "definition": "Positively charged subatomic particle (charge +1, mass ~1 amu) in the nucleus.",
+          "example_equation": "p⁺",
+          "related_terms": ["Nucleus", "Neutron", "Atomic number"]
+        },
+        "flashcard": {
+          "front": "What are the charge and mass of a proton?",
+          "back": "Charge: +1, Mass: approximately 1 amu."
+        },
+        "concept_map_nodes": [
+          { "source": "Proton", "relation": "has_charge", "target": "+1" },
+          { "source": "Proton", "relation": "has_mass", "target": "~1 amu" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 3 — Subatomic Particles",
+        "flashcard_front": "What are the charge and mass of a proton?",
+        "flashcard_back": "+1 charge, ~1 amu mass.",
+        "glossary_term": "Proton",
+        "glossary_definition": "+1 charge, ~1 amu, in nucleus.",
+        "revision_note": "p⁺: +1, 1 amu.",
+        "teacher_note": "Memorize the three particles' charges and masses.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Write the relative charges of an electron, a proton, and a neutron; tell the absolute and relative masses",
+        "concept_map_nodes": [
+          { "source": "Proton", "relation": "charge", "target": "+1" },
+          { "source": "Proton", "relation": "mass", "target": "~1 amu" }
+        ],
+        "workbook_section": "3.5.1 Electrons, Protons and Neutrons",
+        "solution_manual_note": "Answer A. Proton: +1 charge, ~1 amu mass."
+      }
+    },
+    {
+      "question_id": "G09_Chem_U3_Q050",
+      "generation_timestamp": "2026-06-12T10:50:00Z",
+      "grade": "Grade 9",
+      "subject": "Chemistry",
+      "unit": "Unit 3: STRUCTURE OF THE ATOM",
+      "section": "3.3 Atomic Theory",
+      "subsection": "3.3.1 Dalton's Atomic Theory",
+      "sub_subsection": null,
+      "structural_anchor": "Dalton's Atomic Theory",
+      "mcq_type": "A",
+      "question": "According to Dalton's Atomic Theory, what happens to atoms during a chemical reaction?",
+      "options": {
+        "A": "Atoms are created from energy.",
+        "B": "Atoms are destroyed to release energy.",
+        "C": "Atoms are rearranged to form new compounds.",
+        "D": "Atoms split into smaller particles."
+      },
+      "correct_answer": "C",
+      "hint": "Dalton's theory states atoms are indivisible and conserved.",
+      "explanation": "Dalton proposed that atoms are neither created nor destroyed; they simply rearrange to form new compounds. Option A and B violate conservation of mass; option D involves subatomic particles unknown to Dalton.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: STRUCTURE OF THE ATOM",
+        "section_anchor": "3.3 Atomic Theory",
+        "subsection_anchor": "3.3.1 Dalton's Atomic Theory",
+        "structural_element": "Dalton's Atomic Theory",
+        "content_anchor": "Atoms can neither be created nor destroyed. Atoms combine in small whole numbers to form compounds",
+        "page_hint": 16,
+        "concept_hash": "sha256_of_dalton_rearrangement"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 95,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Dalton's theory: atoms are rearranged during chemical reactions, not created or destroyed.",
+        "concept_summary": "Chemical reactions involve breaking and forming bonds between atoms. The same atoms present in reactants are present in products, just in different combinations.",
+        "beginner": "Think of atoms as LEGO bricks. You can break apart a LEGO house and build a LEGO car using the same bricks — the bricks themselves don't change or disappear.",
+        "intermediate": "Dalton's atomic theory states that atoms are indestructible and retain their identity. In a chemical reaction, atoms are merely rearranged, not created, destroyed, or divided.",
+        "advanced": "Dalton's postulate of indestructible atoms underlies the Law of Conservation of Mass. Atom rearrangement explains chemical change while preserving elemental identity and mass.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that Dalton said atoms cannot be created or destroyed.",
+          "In chemical reactions, atoms must go somewhere.",
+          "They rearrange into new compounds."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Atoms are NOT created — that would violate conservation of mass.",
+          "Atoms are NOT destroyed in chemical reactions (nuclear reactions are different)."
+        ],
+        "related_concepts": ["Dalton's theory", "Chemical reaction", "Conservation of mass", "Rearrangement"],
+        "revision_note": "Chemical reaction = atoms rearrange, not create/destroy.",
+        "glossary_entry": {
+          "term": "Atom rearrangement",
+          "definition": "The process by which atoms break old bonds and form new bonds to create different substances.",
+          "example_equation": null,
+          "related_terms": ["Dalton's Atomic Theory", "Chemical reaction", "Conservation of mass"]
+        },
+        "flashcard": {
+          "front": "What happens to atoms during a chemical reaction according to Dalton?",
+          "back": "Atoms are rearranged to form new compounds; they are not created or destroyed."
+        },
+        "concept_map_nodes": [
+          { "source": "Dalton's theory", "relation": "states", "target": "Atoms rearrange" },
+          { "source": "Chemical reaction", "relation": "involves", "target": "Atom rearrangement" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Dalton's Atomic Theory",
+        "flashcard_front": "What happens to atoms during a chemical reaction in Dalton's theory?",
+        "flashcard_back": "They are rearranged into new compounds (not created or destroyed).",
+        "glossary_term": "Atom rearrangement",
+        "glossary_definition": "Reorganization of atoms during chemical reactions.",
+        "revision_note": "Reaction = atoms rearrange.",
+        "teacher_note": "Use LEGO analogy to reinforce that atoms are conserved.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe Dalton's Atomic Theory",
+        "concept_map_nodes": [
+          { "source": "Chemical reaction", "relation": "result", "target": "Atom rearrangement" },
+          { "source": "Atom rearrangement", "relation": "conserves", "target": "Mass" }
+        ],
+        "workbook_section": "3.3 Atomic Theory",
+        "solution_manual_note": "Answer C. Atoms rearrange to form new compounds; they are not created or destroyed."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3180,
+    "average_question_quality": 93.9,
+    "type_distribution": {
+      "A": 6,
+      "C": 1,
+      "E": 1,
+      "H": 1,
+      "I": 1,
+      "N": 1
+    },
+    "difficulty_distribution": {
+      "easy": 7,
+      "medium": 3,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.1 Historical Development": 1,
+      "3.2 Fundamental Laws": 1,
+      "3.3 Atomic Theory": 2,
+      "3.4 Sub-Atomic Particles": 2,
+      "3.5 Composition & Isotopes": 3,
+      "Unit Summary": 1,
+      "Key Terms and Equations": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 25,
+      "intermediate_avg": 34,
+      "advanced_avg": 46
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

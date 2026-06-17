@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build output (www is generated — sync before building)
+# www/   <-- keep www/ tracked so GitHub Pages works
+
+# Android generated files (optional — comment out if you want to track)
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local

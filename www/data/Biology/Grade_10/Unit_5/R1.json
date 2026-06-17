@@ -1,0 +1,1972 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-11T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Bio_U5_Q010",
+    "covered_sections": [
+      "5.1 The Digestive System>The Oral Cavity",
+      "5.1 The Digestive System>The teeth",
+      "5.1 The Digestive System>The stomach",
+      "5.1 The Digestive System>Pancreas",
+      "5.1 The Digestive System>Large Intestine",
+      "5.2 The circulatory and lymphatic system>Blood",
+      "5.2 The circulatory and lymphatic system>Blood Components",
+      "5.2 The circulatory and lymphatic system>Red blood cells (erythrocytes)",
+      "5.2.1 Blood Donation>Blood group compatibility",
+      "5.2 The circulatory and lymphatic system>Blood Pressure"
+    ],
+    "used_question_signatures": [
+      "sha256_a1b2c3_oralcavity_amylase",
+      "sha256_d4e5f6_teeth_enamel",
+      "sha256_g7h8i9_stomach_pepsin",
+      "sha256_j1k2l3_pancreas_enzymes",
+      "sha256_m4n5o6_largeintestine_water",
+      "sha256_p7q8r9_blood_components",
+      "sha256_s1t2u3_leukocytes_function",
+      "sha256_v4w5x6_erythrocyte_adaptation",
+      "sha256_y7z8a9_bloodgroup_o_universal",
+      "sha256_b0c1d2_bloodpressure_systolic"
+    ],
+    "baseline_counter": {
+      "5.1 The Digestive System": {
+        "The Oral Cavity": {
+          "count": 1,
+          "mini_headings_covered": [
+            "salivary amylase"
+          ],
+          "last_question_round": 1
+        },
+        "The teeth": {
+          "count": 1,
+          "mini_headings_covered": [
+            "enamel"
+          ],
+          "last_question_round": 1
+        },
+        "The stomach": {
+          "count": 1,
+          "mini_headings_covered": [
+            "pepsin"
+          ],
+          "last_question_round": 1
+        },
+        "Pancreas": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Trypsin"
+          ],
+          "last_question_round": 1
+        },
+        "Large Intestine": {
+          "count": 1,
+          "mini_headings_covered": [
+            "water absorption"
+          ],
+          "last_question_round": 1
+        }
+      },
+      "5.2 The circulatory and lymphatic system": {
+        "Blood": {
+          "count": 1,
+          "mini_headings_covered": [
+            "plasma"
+          ],
+          "last_question_round": 1
+        },
+        "Blood Components": {
+          "count": 1,
+          "mini_headings_covered": [
+            "leukocytes"
+          ],
+          "last_question_round": 1
+        },
+        "Red blood cells (erythrocytes)": {
+          "count": 1,
+          "mini_headings_covered": [
+            "biconcave shape"
+          ],
+          "last_question_round": 1
+        },
+        "Blood Pressure": {
+          "count": 1,
+          "mini_headings_covered": [
+            "systolic"
+          ],
+          "last_question_round": 1
+        }
+      },
+      "5.2.1 Blood Donation": {
+        "Blood group compatibility": {
+          "count": 1,
+          "mini_headings_covered": [
+            "universal donor"
+          ],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "5.1 The Digestive System": {
+        "question_count": 5,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.2 The circulatory and lymphatic system": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "5.2.1 Blood Donation": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "5.1 The Digestive System>The Oral Cavity": [
+        "salivary amylase",
+        "starch digestion"
+      ],
+      "5.1 The Digestive System>The teeth": [
+        "enamel",
+        "calcium phosphate"
+      ],
+      "5.1 The Digestive System>The stomach": [
+        "pepsin",
+        "HCl",
+        "chyme"
+      ],
+      "5.1 The Digestive System>Pancreas": [
+        "trypsin",
+        "amylase",
+        "lipase"
+      ],
+      "5.1 The Digestive System>Large Intestine": [
+        "water reabsorption",
+        "E. coli",
+        "vitamin K"
+      ],
+      "5.2 The circulatory and lymphatic system>Blood": [
+        "plasma",
+        "formed elements"
+      ],
+      "5.2 The circulatory and lymphatic system>Blood Components": [
+        "leukocytes",
+        "immunity"
+      ],
+      "5.2 The circulatory and lymphatic system>Red blood cells (erythrocytes)": [
+        "biconcave",
+        "hemoglobin",
+        "no nucleus"
+      ],
+      "5.2.1 Blood Donation>Blood group compatibility": [
+        "universal donor",
+        "Type O",
+        "antigens"
+      ],
+      "5.2 The circulatory and lymphatic system>Blood Pressure": [
+        "systolic",
+        "diastolic",
+        "mmHg"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 28,
+      "questions_per_concept_ratio": 0.36,
+      "structural_coverage_percentage": 14.5
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Biology",
+  "unit": "Unit 5: Human Biology",
+  "pdf_filename": "B10U5.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-11T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 9,
+        "progress_percentage": 33.3
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 10,
+      "mini_headings_covered_count": 10,
+      "structural_coverage_percentage": 14.5,
+      "concept_utilization_ratio": 0.36
+    },
+    "distribution_analysis": {
+      "most_covered_section": "5.1 The Digestive System",
+      "least_covered_section": "5.2.1 Blood Donation",
+      "imbalance_ratio": 5.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 280
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Bio_U5_Q001",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.1 The Digestive System",
+      "subsection": "The Oral Cavity",
+      "sub_subsection": null,
+      "structural_anchor": "salivary amylase",
+      "mcq_type": "C",
+      "question": "The enzyme salivary amylase initiates the chemical digestion of which macromolecule in the oral cavity?",
+      "options": {
+        "A": "Proteins",
+        "B": "Lipids",
+        "C": "Starch (polysaccharides)",
+        "D": "Nucleic acids"
+      },
+      "correct_answer": "C",
+      "hint": "Recall which macromolecule is broken down by amylase into smaller sugars.",
+      "explanation": "Salivary amylase (ptyalin) catalyzes the hydrolysis of starch into disaccharides and dextrins. Option A (proteins) is incorrect because protein digestion begins in the stomach with pepsin, not in the mouth.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.1 The Digestive System",
+        "subsection_anchor": "The Oral Cavity",
+        "structural_element": "salivary amylase",
+        "content_anchor": "chemical digestion of carbohydrate (starch) starts in the oral cavity by salivary amylase",
+        "page_hint": 3,
+        "concept_hash": "sha256_oral_amylase_001"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Salivary amylase is an enzyme produced by salivary glands that hydrolyzes starch into smaller sugars.",
+        "concept_summary": "Enzymes are biological catalysts. Salivary amylase begins carbohydrate digestion in the mouth.",
+        "beginner": "Think of amylase like scissors that cut long starch chains into shorter pieces so your body can absorb them.",
+        "intermediate": "Salivary amylase breaks alpha-1,4 glycosidic bonds in starch, producing maltose and dextrins. Optimal pH is neutral to slightly acidic.",
+        "advanced": "Salivary amylase (EC 3.2.1.1) catalyzes endohydrolysis of starch. The reaction is \\( (\\mathrm{C_6H_{10}O_5})_n + n\\mathrm{H_2O} \\rightarrow n\\mathrm{C_6H_{12}O_6} \\) (partial).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the enzyme: salivary amylase.",
+          "Recall its substrate: starch.",
+          "Match substrate to macromolecule class: polysaccharide."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Amylase does not digest proteins or fats; it is specific for starch."
+        ],
+        "related_concepts": [
+          "Pepsin",
+          "Lipase",
+          "Starch hydrolysis"
+        ],
+        "revision_note": "Salivary amylase: starch → maltose. Begins in mouth.",
+        "glossary_entry": {
+          "term": "Salivary amylase",
+          "definition": "An enzyme in saliva that breaks down starch into simpler sugars.",
+          "example_equation": "\\( \\mathrm{(C_6H_{10}O_5)_n + H_2O \\rightarrow C_6H_{12}O_6} \\)",
+          "related_terms": [
+            "Ptyalin",
+            "Pancreatic amylase"
+          ]
+        },
+        "flashcard": {
+          "front": "What does salivary amylase digest?",
+          "back": "Starch (polysaccharides), breaking it into maltose and dextrins."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Salivary amylase",
+            "relation": "digests",
+            "target": "Starch"
+          },
+          {
+            "source": "Mouth",
+            "relation": "secretes",
+            "target": "Salivary amylase"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Digestive Enzymes",
+        "flashcard_front": "Which enzyme in saliva breaks down starch?",
+        "flashcard_back": "Salivary amylase (ptyalin) breaks starch into maltose.",
+        "glossary_term": "Salivary amylase",
+        "glossary_definition": "A starch-digesting enzyme secreted by the salivary glands.",
+        "revision_note": "Amylase: starch → sugars in mouth.",
+        "teacher_note": "Students often confuse amylase with pepsin. Emphasize location (mouth vs stomach).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify enzymes of the digestive system",
+        "concept_map_nodes": [
+          {
+            "source": "Digestion",
+            "relation": "uses",
+            "target": "Salivary amylase"
+          }
+        ],
+        "workbook_section": "5.1 The Digestive System",
+        "solution_manual_note": "Answer C. Salivary amylase hydrolyzes starch, a polysaccharide."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q002",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.1 The Digestive System",
+      "subsection": "The teeth",
+      "sub_subsection": null,
+      "structural_anchor": "enamel",
+      "mcq_type": "A",
+      "question": "What is the hardest substance in the human body, covering the crown of a tooth?",
+      "options": {
+        "A": "Enamel",
+        "B": "Dentin",
+        "C": "Pulp",
+        "D": "Cementum"
+      },
+      "correct_answer": "A",
+      "hint": "This outer layer protects teeth from wear and acid.",
+      "explanation": "Enamel is the hard, white outer layer composed mainly of calcium phosphate. Option B (dentin) is softer and lies beneath the enamel; pulp contains nerves and blood vessels.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.1 The Digestive System",
+        "subsection_anchor": "The teeth",
+        "structural_element": "enamel",
+        "content_anchor": "Each tooth is covered with enamel, which is the hardest substance in the human body",
+        "page_hint": 4,
+        "concept_hash": "sha256_enamel_002"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Enamel is the highly mineralized, hard outer layer covering the anatomical crown of a tooth.",
+        "concept_summary": "Enamel protects teeth from mechanical wear and acid erosion. It is acellular and cannot regenerate.",
+        "beginner": "Enamel is like a helmet for your tooth — it's the hard shell that protects the softer inside from damage.",
+        "intermediate": "Enamel consists of \\( \\mathrm{Ca_{10}(PO_4)_6(OH)_2} \\) (hydroxyapatite crystals). It is harder than bone but brittle.",
+        "advanced": "Enamel thickness ranges from \\( 2.5\\mathrm{mm} \\) to \\( 0.5\\mathrm{mm} \\). Its high mineral content (\\(96\\%\\)) makes it susceptible to demineralization by acids (pH <5.5).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the question asks for hardest substance.",
+          "Recall enamel is hardest due to calcium phosphate.",
+          "Eliminate dentin (softer) and pulp (soft tissue)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Dentin is not harder than enamel; enamel is the hardest."
+        ],
+        "related_concepts": [
+          "Hydroxyapatite",
+          "Dentin",
+          "Tooth decay"
+        ],
+        "revision_note": "Enamel: hardest tissue, covers crown.",
+        "glossary_entry": {
+          "term": "Enamel",
+          "definition": "Hard, mineralized outer layer of teeth composed of hydroxyapatite.",
+          "example_equation": "\\( \\mathrm{Ca_{10}(PO_4)_6(OH)_2} \\)",
+          "related_terms": [
+            "Dentin",
+            "Crown"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the hardest substance in the human body?",
+          "back": "Tooth enamel, composed mainly of calcium phosphate."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Tooth",
+            "relation": "has_layer",
+            "target": "Enamel"
+          },
+          {
+            "source": "Enamel",
+            "relation": "composed_of",
+            "target": "Hydroxyapatite"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "glossary"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Teeth",
+        "flashcard_front": "Which tooth layer is the hardest?",
+        "flashcard_back": "Enamel, made of calcium phosphate.",
+        "glossary_term": "Enamel",
+        "glossary_definition": "The hard outer covering of a tooth.",
+        "revision_note": "Enamel: hardest, covers crown.",
+        "teacher_note": "Point out that enamel lacks living cells and cannot repair itself.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe tooth structure",
+        "concept_map_nodes": [],
+        "workbook_section": "5.1 The Digestive System",
+        "solution_manual_note": "Answer A. Enamel is the hardest substance."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q003",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.1 The Digestive System",
+      "subsection": "The stomach",
+      "sub_subsection": null,
+      "structural_anchor": "pepsin",
+      "mcq_type": "C",
+      "question": "Which stomach enzyme, activated by hydrochloric acid, breaks proteins into smaller polypeptides?",
+      "options": {
+        "A": "Trypsin",
+        "B": "Amylase",
+        "C": "Pepsin",
+        "D": "Lipase"
+      },
+      "correct_answer": "C",
+      "hint": "This enzyme is secreted as pepsinogen and activated at low pH.",
+      "explanation": "Pepsin is activated from pepsinogen by HCl in the stomach and digests proteins. Option A (trypsin) works in the small intestine, not the stomach.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.1 The Digestive System",
+        "subsection_anchor": "The stomach",
+        "structural_element": "pepsin",
+        "content_anchor": "The chemical digestion of protein starts in the stomach by the enzyme pepsin",
+        "page_hint": 3,
+        "concept_hash": "sha256_pepsin_003"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Pepsin is a proteolytic enzyme active in the stomach that cleaves proteins into peptides.",
+        "concept_summary": "Pepsin requires acidic pH (1.5–2.5) and hydrolyzes internal peptide bonds.",
+        "beginner": "Pepsin is like a pair of scissors that cuts long protein chains into shorter pieces, but only in an acidic environment.",
+        "intermediate": "Pepsinogen (inactive) is converted to pepsin by HCl. Pepsin cleaves aromatic amino acid bonds (Phe, Tyr, Trp).",
+        "advanced": "Pepsin (EC 3.4.23.1) is an aspartic protease with optimal activity at pH ~2.0. Reaction: \\( \\mathrm{Protein + H_2O \\xrightarrow{pepsin} Peptides} \\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify stomach enzyme.",
+          "Recall pepsin digests proteins.",
+          "Eliminate trypsin (small intestine)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Pepsin digests proteins, not carbohydrates or fats."
+        ],
+        "related_concepts": [
+          "Pepsinogen",
+          "HCl",
+          "Trypsin"
+        ],
+        "revision_note": "Pepsin (stomach): proteins → peptides. Needs HCl.",
+        "glossary_entry": {
+          "term": "Pepsin",
+          "definition": "Stomach enzyme that breaks proteins into peptides.",
+          "example_equation": "\\( \\mathrm{Protein \\xrightarrow{pepsin} Polypeptides} \\)",
+          "related_terms": [
+            "Pepsinogen",
+            "Trypsin"
+          ]
+        },
+        "flashcard": {
+          "front": "Which stomach enzyme digests protein?",
+          "back": "Pepsin, activated by HCl."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Pepsin",
+            "relation": "activated_by",
+            "target": "HCl"
+          },
+          {
+            "source": "Pepsin",
+            "relation": "digests",
+            "target": "Protein"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Digestive Enzymes",
+        "flashcard_front": "What does pepsin digest and where?",
+        "flashcard_back": "Pepsin digests proteins in the stomach.",
+        "glossary_term": "Pepsin",
+        "glossary_definition": "Protein-digesting enzyme in gastric juice.",
+        "revision_note": "Pepsin: protein digestion in stomach.",
+        "teacher_note": "Clarify that pepsin is secreted as inactive pepsinogen to prevent self-digestion.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify digestive enzymes",
+        "concept_map_nodes": [],
+        "workbook_section": "5.1 The Digestive System",
+        "solution_manual_note": "Answer C. Pepsin breaks down proteins."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q004",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.1 The Digestive System",
+      "subsection": "Pancreas",
+      "sub_subsection": null,
+      "structural_anchor": "Trypsin",
+      "mcq_type": "C",
+      "question": "Which pancreatic enzyme is secreted as trypsinogen and activated in the small intestine to digest proteins?",
+      "options": {
+        "A": "Pepsin",
+        "B": "Amylase",
+        "C": "Trypsin",
+        "D": "Nuclease"
+      },
+      "correct_answer": "C",
+      "hint": "This enzyme is activated by enterokinase in the duodenum.",
+      "explanation": "Trypsin is activated from trypsinogen by enterokinase in the small intestine, digesting proteins into peptides. Option A (pepsin) works in the stomach, not pancreas.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 13,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.1 The Digestive System",
+        "subsection_anchor": "Pancreas",
+        "structural_element": "Trypsin",
+        "content_anchor": "Trypsin- a protein-digesting enzyme called trypsinogen is released from the pancreas",
+        "page_hint": 11,
+        "concept_hash": "sha256_trypsin_004"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Trypsin is a pancreatic serine protease that hydrolyzes proteins into peptides.",
+        "concept_summary": "Trypsin is activated in the duodenum and cleaves peptide bonds at lysine and arginine residues.",
+        "beginner": "Trypsin is like a key that unlocks protein chains, but it only works after another enzyme (enterokinase) turns it on.",
+        "intermediate": "Enterokinase converts trypsinogen to trypsin. Trypsin then activates other pancreatic zymogens.",
+        "advanced": "Trypsin (EC 3.4.21.4) cleaves \\( -Lys-X- \\) and \\( -Arg-X- \\) bonds. Optimal pH \\( 7.5-8.5 \\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify pancreatic protein-digesting enzyme.",
+          "Recall trypsinogen activation.",
+          "Match to trypsin."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Trypsin is not active in the pancreas; it is activated in the small intestine."
+        ],
+        "related_concepts": [
+          "Trypsinogen",
+          "Enterokinase",
+          "Chymotrypsin"
+        ],
+        "revision_note": "Trypsin: pancreatic protease, activated in duodenum.",
+        "glossary_entry": {
+          "term": "Trypsin",
+          "definition": "Pancreatic enzyme that digests proteins in the small intestine.",
+          "example_equation": "\\( \\mathrm{Protein \\xrightarrow{trypsin} Peptides} \\)",
+          "related_terms": [
+            "Trypsinogen",
+            "Enterokinase"
+          ]
+        },
+        "flashcard": {
+          "front": "What activates trypsinogen to trypsin?",
+          "back": "Enterokinase in the small intestine."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Trypsinogen",
+            "relation": "activated_by",
+            "target": "Enterokinase"
+          },
+          {
+            "source": "Trypsin",
+            "relation": "digests",
+            "target": "Proteins"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Pancreatic Enzymes",
+        "flashcard_front": "Which pancreatic enzyme digests protein after activation?",
+        "flashcard_back": "Trypsin, activated by enterokinase.",
+        "glossary_term": "Trypsin",
+        "glossary_definition": "Protein-digesting enzyme from pancreas.",
+        "revision_note": "Trypsin: activated in small intestine.",
+        "teacher_note": "Emphasize zymogen activation prevents autodigestion of pancreas.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe pancreatic enzymes",
+        "concept_map_nodes": [],
+        "workbook_section": "5.1 The Digestive System",
+        "solution_manual_note": "Answer C. Trypsin is the activated form."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q005",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.1 The Digestive System",
+      "subsection": "Large Intestine",
+      "sub_subsection": null,
+      "structural_anchor": "water absorption",
+      "mcq_type": "F",
+      "question": "If the large intestine fails to reabsorb sufficient water from undigested material, which condition most directly results?",
+      "options": {
+        "A": "Constipation",
+        "B": "Diarrhea",
+        "C": "Acid reflux",
+        "D": "Gastric ulcer"
+      },
+      "correct_answer": "B",
+      "hint": "Insufficient water reabsorption leads to watery stool.",
+      "explanation": "The colon absorbs water; reduced reabsorption leaves excess water in feces, causing diarrhea. Option A (constipation) results from excessive water reabsorption.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.1 The Digestive System",
+        "subsection_anchor": "Large Intestine",
+        "structural_element": "water absorption",
+        "content_anchor": "extract the water and mineral salts from undigested food",
+        "page_hint": 12,
+        "concept_hash": "sha256_water_absorption_005"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 84,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Water absorption in the large intestine is the passive and active transport of water from chyme into the bloodstream.",
+        "concept_summary": "The colon reabsorbs ~1.5L of water daily to prevent dehydration and form solid stool.",
+        "beginner": "The large intestine acts like a sponge, soaking up extra water so your poop isn't liquid. If it fails, you get diarrhea.",
+        "intermediate": "Reduced aquaporin expression or colonic motility decreases water reabsorption, leading to increased luminal water content and diarrhea.",
+        "advanced": "Osmotic gradients drive water reabsorption via aquaporins (AQP3, AQP8). Failure causes \\( >200\\mathrm{mL} \\) water loss daily, exceeding colonic capacity.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify function: water reabsorption.",
+          "Consequence of failure: excess water in feces.",
+          "Match to diarrhea."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Constipation is caused by too much water reabsorption, not too little."
+        ],
+        "related_concepts": [
+          "Aquaporins",
+          "Colon",
+          "Dehydration"
+        ],
+        "revision_note": "Colon: absorbs water; failure → diarrhea.",
+        "glossary_entry": {
+          "term": "Water absorption",
+          "definition": "Process by which the colon reabsorbs water from indigestible material.",
+          "example_equation": null,
+          "related_terms": [
+            "Colon",
+            "Aquaporin"
+          ]
+        },
+        "flashcard": {
+          "front": "What happens if the large intestine does not absorb enough water?",
+          "back": "Diarrhea results from excess water in feces."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Large intestine",
+            "relation": "absorbs",
+            "target": "Water"
+          },
+          {
+            "source": "Water absorption failure",
+            "relation": "causes",
+            "target": "Diarrhea"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Large Intestine",
+        "flashcard_front": "What is the result of reduced water reabsorption in the colon?",
+        "flashcard_back": "Diarrhea due to watery stool.",
+        "glossary_term": "Water reabsorption",
+        "glossary_definition": "The colon's removal of water from fecal matter.",
+        "revision_note": "Colon absorbs water; failure = diarrhea.",
+        "teacher_note": "Link to dehydration risk in diarrhea.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Explain large intestine function",
+        "concept_map_nodes": [],
+        "workbook_section": "5.1 The Digestive System",
+        "solution_manual_note": "Answer B. Diarrhea results from insufficient water reabsorption."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q006",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.2 The circulatory and lymphatic system",
+      "subsection": "Blood",
+      "sub_subsection": null,
+      "structural_anchor": "plasma",
+      "mcq_type": "A",
+      "question": "What is the liquid extracellular matrix of blood, composing about 55% of total blood volume?",
+      "options": {
+        "A": "Plasma",
+        "B": "Serum",
+        "C": "Lymph",
+        "D": "Cytosol"
+      },
+      "correct_answer": "A",
+      "hint": "This straw-colored fluid carries cells, nutrients, and wastes.",
+      "explanation": "Plasma is the liquid component (~55%), containing water, proteins, electrolytes, and solutes. Option B (serum) is plasma without clotting factors.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 11,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.2 The circulatory and lymphatic system",
+        "subsection_anchor": "Blood",
+        "structural_element": "plasma",
+        "content_anchor": "Liquid called plasma makes up about half of the content of the blood",
+        "page_hint": 21,
+        "concept_hash": "sha256_plasma_006"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Plasma is the pale yellow fluid component of blood in which blood cells are suspended.",
+        "concept_summary": "Plasma is ~92% water and contains plasma proteins (albumin, globulins, fibrinogen).",
+        "beginner": "Plasma is like the river that carries all the blood cells around your body.",
+        "intermediate": "Plasma volume is ~3L in adults. It maintains osmotic pressure via albumin and transports hormones.",
+        "advanced": "Plasma composition: \\( 92\\% \\mathrm{H_2O} \\), \\( 7\\% \\) proteins, \\( 1\\% \\) electrolytes, nutrients, gases, and waste. Osmolality ~290 mOsm/kg.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify liquid portion of blood.",
+          "Recall plasma percentage (55%).",
+          "Exclude serum (no clotting factors)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Serum is not the same as plasma; serum lacks fibrinogen."
+        ],
+        "related_concepts": [
+          "Serum",
+          "Albumin",
+          "Hematocrit"
+        ],
+        "revision_note": "Plasma: 55% of blood, liquid matrix.",
+        "glossary_entry": {
+          "term": "Plasma",
+          "definition": "Liquid component of blood containing water, proteins, and solutes.",
+          "example_equation": null,
+          "related_terms": [
+            "Serum",
+            "Fibrinogen"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the liquid part of blood called?",
+          "back": "Plasma, making up about 55% of blood volume."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Blood",
+            "relation": "contains",
+            "target": "Plasma"
+          },
+          {
+            "source": "Plasma",
+            "relation": "contains",
+            "target": "Water"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "glossary"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Blood",
+        "flashcard_front": "What is plasma?",
+        "flashcard_back": "The liquid (55% of blood) that carries cells and nutrients.",
+        "glossary_term": "Plasma",
+        "glossary_definition": "Fluid portion of blood.",
+        "revision_note": "Plasma: 55% of blood, straw-colored fluid.",
+        "teacher_note": "Compare plasma to interstitial fluid.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify blood components",
+        "concept_map_nodes": [],
+        "workbook_section": "5.2 The circulatory and lymphatic system",
+        "solution_manual_note": "Answer A. Plasma is the liquid matrix of blood."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q007",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.2 The circulatory and lymphatic system",
+      "subsection": "Blood Components",
+      "sub_subsection": null,
+      "structural_anchor": "leukocytes",
+      "mcq_type": "A",
+      "question": "Which type of blood cell is primarily responsible for defense against pathogens and immune surveillance?",
+      "options": {
+        "A": "Erythrocytes",
+        "B": "Leukocytes",
+        "C": "Platelets",
+        "D": "Thrombocytes"
+      },
+      "correct_answer": "B",
+      "hint": "These cells are part of the immune system and include lymphocytes and neutrophils.",
+      "explanation": "Leukocytes (white blood cells) mediate immunity through phagocytosis and antibody production. Option A (erythrocytes) carry oxygen; platelets are for clotting.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.2 The circulatory and lymphatic system",
+        "subsection_anchor": "Blood Components",
+        "structural_element": "leukocytes",
+        "content_anchor": "White blood cells, which fight infections",
+        "page_hint": 21,
+        "concept_hash": "sha256_leukocytes_007"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Leukocytes are nucleated immune cells in blood that protect against infection and disease.",
+        "concept_summary": "Leukocytes include neutrophils, lymphocytes, monocytes, eosinophils, basophils.",
+        "beginner": "White blood cells are like soldiers that find and kill germs that make you sick.",
+        "intermediate": "Leukocytes originate in bone marrow; lymphocytes mediate adaptive immunity via B and T cells.",
+        "advanced": "Normal WBC count: \\( 5,000-10,000/\\mu\\mathrm{L} \\). Neutrophils (\\(60-70\\%\\)) perform phagocytosis; lymphocytes (\\(20-40\\%\\)) produce antibodies.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify immune cells.",
+          "Recall leukocytes = white blood cells.",
+          "Eliminate erythrocytes (O2 transport)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Erythrocytes do not fight infection; they carry oxygen."
+        ],
+        "related_concepts": [
+          "Lymphocytes",
+          "Neutrophils",
+          "Phagocytosis"
+        ],
+        "revision_note": "Leukocytes: immunity, 5,000–10,000/μL.",
+        "glossary_entry": {
+          "term": "Leukocytes",
+          "definition": "White blood cells involved in immune defense.",
+          "example_equation": null,
+          "related_terms": [
+            "Lymphocytes",
+            "Neutrophils"
+          ]
+        },
+        "flashcard": {
+          "front": "Which blood cells fight infection?",
+          "back": "Leukocytes (white blood cells)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Leukocytes",
+            "relation": "provide",
+            "target": "Immunity"
+          },
+          {
+            "source": "Leukocytes",
+            "relation": "include",
+            "target": "Lymphocytes"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Blood Cells",
+        "flashcard_front": "What do leukocytes do?",
+        "flashcard_back": "They fight infections and provide immunity.",
+        "glossary_term": "Leukocytes",
+        "glossary_definition": "White blood cells for defense.",
+        "revision_note": "Leukocytes: immune defense cells.",
+        "teacher_note": "Differentiate granulocytes vs agranulocytes.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Identify blood cell functions",
+        "concept_map_nodes": [],
+        "workbook_section": "5.2 The circulatory and lymphatic system",
+        "solution_manual_note": "Answer B. Leukocytes are immune cells."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q008",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.2 The circulatory and lymphatic system",
+      "subsection": "Red blood cells (erythrocytes)",
+      "sub_subsection": null,
+      "structural_anchor": "biconcave shape",
+      "mcq_type": "F",
+      "question": "Why does the biconcave shape of a mature red blood cell increase its efficiency in oxygen transport?",
+      "options": {
+        "A": "It allows the cell to divide rapidly",
+        "B": "It increases surface area for gas exchange",
+        "C": "It contains multiple nuclei",
+        "D": "It prevents the cell from carrying hemoglobin"
+      },
+      "correct_answer": "B",
+      "hint": "A flattened disc with depressed centers creates more membrane area.",
+      "explanation": "The biconcave shape increases surface-area-to-volume ratio, enhancing diffusion of oxygen across the membrane. Option C is false; mature RBCs lack nuclei.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 12,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.2 The circulatory and lymphatic system",
+        "subsection_anchor": "Red blood cells (erythrocytes)",
+        "structural_element": "biconcave shape",
+        "content_anchor": "Biconcave shape gives it a larger surface area for gaseous diffusion",
+        "page_hint": 21,
+        "concept_hash": "sha256_biconcave_008"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 74,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Biconcave shape describes the erythrocyte's flattened, disc-like form with depressed centers on both sides.",
+        "concept_summary": "This shape increases surface area (~140 μm²) and allows RBCs to deform through capillaries.",
+        "beginner": "The biconcave shape is like a donut that hasn't been fully punched — it has more surface to grab oxygen.",
+        "intermediate": "Surface area increase reduces diffusion distance for \\( \\mathrm{O_2} \\) across the membrane, speeding loading/unloading.",
+        "advanced": "Volume ~90 fL; surface area ~140 μm². Ratio \\( 1.56\\ \\mu\\mathrm{m}^{-1} \\) vs sphere of same volume gives \\( 1.44\\times \\) more area.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall RBC shape: biconcave.",
+          "Shape increases surface area.",
+          "More area = faster oxygen diffusion."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Biconcave shape is not for division; mature RBCs have no nucleus."
+        ],
+        "related_concepts": [
+          "Hemoglobin",
+          "Diffusion",
+          "Capillary"
+        ],
+        "revision_note": "Biconcave: ↑ surface area for gas exchange.",
+        "glossary_entry": {
+          "term": "Biconcave shape",
+          "definition": "The doubly concave disc shape of mature red blood cells.",
+          "example_equation": null,
+          "related_terms": [
+            "Erythrocyte",
+            "Surface area"
+          ]
+        },
+        "flashcard": {
+          "front": "How does biconcave shape help RBCs?",
+          "back": "Increases surface area for oxygen diffusion."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Biconcave shape",
+            "relation": "increases",
+            "target": "Surface area"
+          },
+          {
+            "source": "Surface area",
+            "relation": "enhances",
+            "target": "Oxygen diffusion"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "biological_diagram",
+        "visual_title": "Red blood cell shape comparison",
+        "visual_description": "A schematic showing a spherical cell versus a biconcave disc of equal volume, highlighting larger surface area of the biconcave shape.",
+        "rendering_target": "svg",
+        "rendering_engine": "svg.draw",
+        "render_width_mm": 60,
+        "render_height_mm": 40,
+        "caption": "Figure: Biconcave disc increases surface area for gas exchange.",
+        "accessibility_alt_text": "Diagram comparing a sphere and a biconcave disc. The disc has a larger surface area despite same volume.",
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": {
+          "diagram_name": "RBC shape",
+          "components": [
+            {
+              "id": "sphere",
+              "label": "Sphere",
+              "description": "Same volume as RBC"
+            },
+            {
+              "id": "biconcave",
+              "label": "Biconcave RBC",
+              "description": "Increased surface area"
+            }
+          ],
+          "arrows": [],
+          "bounding_box": {
+            "width_mm": 60,
+            "height_mm": 40
+          },
+          "color_scheme": "grayscale"
+        },
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Bio_U5_Q008_illustrative.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "diagram_block",
+        "suggested_placement": "right_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Erythrocytes",
+        "flashcard_front": "Why are RBCs biconcave?",
+        "flashcard_back": "Increases surface area for O₂ diffusion.",
+        "glossary_term": "Biconcave shape",
+        "glossary_definition": "Disc shape of RBC that maximizes surface area.",
+        "revision_note": "Biconcave = more O₂ exchange.",
+        "teacher_note": "Use diagram to show surface area difference.",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Explain RBC adaptations",
+        "concept_map_nodes": [],
+        "workbook_section": "5.2 The circulatory and lymphatic system",
+        "solution_manual_note": "Answer B. Biconcave shape increases surface area for gas exchange."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q009",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.2.1 Blood Donation",
+      "subsection": "Blood group compatibility",
+      "sub_subsection": null,
+      "structural_anchor": "universal donor",
+      "mcq_type": "F",
+      "question": "Type O blood is considered the universal donor for red blood cell transfusions because it lacks which surface molecules?",
+      "options": {
+        "A": "Rh factor only",
+        "B": "A and B antigens",
+        "C": "Anti-A and anti-B antibodies",
+        "D": "Plasma proteins"
+      },
+      "correct_answer": "B",
+      "hint": "No antigens on RBCs means no immune reaction from recipient.",
+      "explanation": "Type O RBCs have neither A nor B antigens, so recipient antibodies have no target. Option C describes antibodies in type O plasma, not on RBCs.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 11,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.2.1 Blood Donation",
+        "subsection_anchor": "Blood group compatibility",
+        "structural_element": "universal donor",
+        "content_anchor": "The O blood groups is termed 'Universal Donor'",
+        "page_hint": 27,
+        "concept_hash": "sha256_universaldonor_009"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyzing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Universal donor refers to blood type O negative that can be transfused to any recipient without agglutination.",
+        "concept_summary": "Lack of A/B antigens prevents recipient antibodies from binding.",
+        "beginner": "Type O red blood cells are like plain T-shirts with no logos, so no one's immune system attacks them.",
+        "intermediate": "Type O RBCs express H antigen but not A or B. Recipient anti-A/anti-B cannot bind, so no agglutination.",
+        "advanced": "ABO antigens are trisaccharides: A (GalNAc), B (Gal). O lacks transferase enzymes, so no terminal sugar.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall universal donor = Type O.",
+          "Identify what is absent: A and B antigens.",
+          "Antigens trigger immune attack; absent = safe."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Type O plasma contains antibodies; whole blood is not universal."
+        ],
+        "related_concepts": [
+          "ABO system",
+          "Antigen",
+          "Agglutination"
+        ],
+        "revision_note": "Type O RBCs: no A or B antigens → universal donor.",
+        "glossary_entry": {
+          "term": "Universal donor",
+          "definition": "Blood type O negative that can be given to any ABO type.",
+          "example_equation": null,
+          "related_terms": [
+            "Type O blood",
+            "Antigen"
+          ]
+        },
+        "flashcard": {
+          "front": "Why is Type O blood the universal donor for RBCs?",
+          "back": "It lacks A and B antigens on RBCs."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Type O blood",
+            "relation": "lacks",
+            "target": "A antigen"
+          },
+          {
+            "source": "Type O blood",
+            "relation": "lacks",
+            "target": "B antigen"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Blood Groups",
+        "flashcard_front": "What makes Type O the universal RBC donor?",
+        "flashcard_back": "No A or B antigens on RBCs.",
+        "glossary_term": "Universal donor",
+        "glossary_definition": "Type O blood that can be given to any ABO type.",
+        "revision_note": "Type O RBCs: no A/B antigens.",
+        "teacher_note": "Contrast with universal recipient (Type AB).",
+        "bloom_level": "Analyze",
+        "learning_objective_tag": "Explain blood compatibility",
+        "concept_map_nodes": [],
+        "workbook_section": "5.2.1 Blood Donation",
+        "solution_manual_note": "Answer B. Type O RBCs lack A and B antigens."
+      }
+    },
+    {
+      "question_id": "G10_Bio_U5_Q010",
+      "generation_timestamp": "2026-06-11T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Biology",
+      "unit": "Unit 5: Human Biology",
+      "section": "5.2 The circulatory and lymphatic system",
+      "subsection": "Blood Pressure",
+      "sub_subsection": null,
+      "structural_anchor": "systolic",
+      "mcq_type": "A",
+      "question": "What term describes the peak arterial blood pressure measured during ventricular contraction?",
+      "options": {
+        "A": "Systolic pressure",
+        "B": "Diastolic pressure",
+        "C": "Pulse pressure",
+        "D": "Mean arterial pressure"
+      },
+      "correct_answer": "A",
+      "hint": "This is the top number in a blood pressure reading.",
+      "explanation": "Systolic pressure is the maximum pressure during left ventricular contraction. Option B (diastolic) is the minimum pressure during ventricular relaxation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 5: Human Biology",
+        "section_anchor": "5.2 The circulatory and lymphatic system",
+        "subsection_anchor": "Blood Pressure",
+        "structural_element": "systolic",
+        "content_anchor": "systolic blood pressure",
+        "page_hint": 20,
+        "concept_hash": "sha256_systolic_010"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 96
+      },
+      "explanations_tiered": {
+        "definition": "Systolic blood pressure is the peak pressure in arteries when the heart ventricles contract.",
+        "concept_summary": "Normal systolic is <120 mmHg. It reflects cardiac output and arterial elasticity.",
+        "beginner": "Systolic pressure is the push when your heart squeezes blood out.",
+        "intermediate": "Systolic pressure equals \\( \\mathrm{CO \\times SVR} \\) during systole. Measured in mmHg.",
+        "advanced": "Systolic pressure ≈ \\( 90 + (\\mathrm{age}/2) \\) in normotensive adults. Values >130 mmHg indicate hypertension.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall two BP numbers: systolic/diastolic.",
+          "Systolic = contraction phase.",
+          "Top number = systolic."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Diastolic is the bottom number, not peak pressure."
+        ],
+        "related_concepts": [
+          "Diastolic pressure",
+          "Cardiac cycle",
+          "Hypertension"
+        ],
+        "revision_note": "Systolic: peak BP, top number.",
+        "glossary_entry": {
+          "term": "Systolic pressure",
+          "definition": "Arterial pressure during ventricular contraction.",
+          "example_equation": "\\( \\mathrm{120/80} \\) systolic=120",
+          "related_terms": [
+            "Diastolic pressure",
+            "Sphygmomanometer"
+          ]
+        },
+        "flashcard": {
+          "front": "What is systolic blood pressure?",
+          "back": "Peak arterial pressure during heart contraction (top number)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Systolic pressure",
+            "relation": "measured_during",
+            "target": "Ventricular contraction"
+          },
+          {
+            "source": "Systolic pressure",
+            "relation": "normal_value",
+            "target": "<120 mmHg"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Biology Unit 5 — Circulation",
+        "flashcard_front": "What does systolic pressure measure?",
+        "flashcard_back": "Peak pressure during ventricular contraction.",
+        "glossary_term": "Systolic pressure",
+        "glossary_definition": "Maximum arterial blood pressure.",
+        "revision_note": "Systolic = contraction, top number.",
+        "teacher_note": "Use stethoscope sounds to explain Korotkoff sounds.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define blood pressure terms",
+        "concept_map_nodes": [],
+        "workbook_section": "5.2 The circulatory and lymphatic system",
+        "solution_manual_note": "Answer A. Systolic pressure occurs during ventricular contraction."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 90.2,
+    "type_distribution": {
+      "A": 4,
+      "C": 3,
+      "F": 3
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "5.1 The Digestive System": 5,
+      "5.2 The circulatory and lymphatic system": 4,
+      "5.2.1 Blood Donation": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 1,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

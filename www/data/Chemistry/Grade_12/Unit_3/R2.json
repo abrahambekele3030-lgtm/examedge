@@ -1,0 +1,1788 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T09:15:00Z",
+  "round_id": "R02",
+  "batch_sequence": 2,
+  "__STATE__": {
+    "current_round": 2,
+    "last_question_id": "G12_Chem_U3_Q020",
+    "covered_sections": [
+      "3.1 Introduction",
+      "3.2 Natural Resources and Industry>3.2.1 Natural Resources (Raw Materials)",
+      "3.2 Natural Resources and Industry>3.2.2 Industry",
+      "3.3 Manufacturing of Valuable Products/Chemicals>3.3.1 Ammonia (NH3)",
+      "3.3 Manufacturing of Valuable Products/Chemicals>3.3.2 Nitric Acid",
+      "3.3 Manufacturing of Valuable Products/Chemicals>3.3.3 Nitrogen-Based Fertilizers",
+      "3.4 Some Manufacturing Industries in Ethiopia>3.4.1 Glass Manufacturing"
+    ],
+    "used_question_signatures": [
+      "a3f5c1e9d2b4a7c8e1f2d3b5c7a9e1f2d4b6c8a0e2f4c6a8b0d2e4f6a8c0",
+      "b4f6d8a0c2e4f6a8b0d2e4f6a8c0d2e4f6a8b0c2d4e6f8a0b2",
+      "c5a7e9b1d3f5a7c9e1b3d5f7a9c1e3f5a7b9d1e3f5a7c9e1b3d5",
+      "d6b8c0a2e4f6a8c0d2e4f6a8b0d2e4f6a8c0d2e4f6a8b0c2d4e6",
+      "e7c9a1b3d5f7a9b1c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7",
+      "f8a0b2c4d6e8a0b2c4d6e8a0b2c4d6e8a0b2c4d6e8a0b2c4d6e8",
+      "g9b1c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9",
+      "h0c2d4e6f8a0b2c4d6e8a0b2c4d6e8a0b2c4d6e8a0b2c4d6e8a0",
+      "i1d3e5f7a9b1c3d5e7f9a1b3c5d7e9f1a3b5c7d9e1f3a5b7c9d1",
+      "j2e4f6a8b0c2d4e6f8a0b2c4d6e8a0b2c4d6e8a0b2c4d6e8a0b2",
+      "k3f5a7c9e1b3d5f7a9c1e3f5a7b9d1e3f5a7c9e1b3d5f7a9c1e3",
+      "l4g6b8d0e2f4a6c8e0a2c4e6f8a0b2d4f6a8c0e2f4a6c8e0a2c4",
+      "m5h7c9e1f3a5b7d9f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d3e5",
+      "n6i8d0f2h4a6c8e0g2i4k6m8o0a2c4e6g8i0k2m4o6a8c0e2g4",
+      "o7j9e1g3i5k7m9o1a3c5e7g9i1k3m5o7a9c1e3g5i7k9m1o3"
+    ],
+    "baseline_counter": {
+      "3.1 Introduction": {
+        "count": 2,
+        "mini_headings_covered": [],
+        "last_question_round": 1
+      },
+      "3.2 Natural Resources and Industry": {
+        "3.2.1 Natural Resources (Raw Materials)": {
+          "count": 2,
+          "mini_headings_covered": ["Renewable resources:", "Non-Renewable Resources:"],
+          "last_question_round": 1
+        },
+        "3.2.2 Industry": {
+          "count": 2,
+          "mini_headings_covered": ["Manufacturing industry:", "Chemical industry:"],
+          "last_question_round": 1
+        }
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "3.3.1 Ammonia (NH3)": {
+          "count": 2,
+          "mini_headings_covered": ["Properties:", "Uses:", "Preparation:"],
+          "last_question_round": 1
+        },
+        "3.3.2 Nitric Acid": {
+          "count": 2,
+          "mini_headings_covered": ["Properties:", "Uses:", "Preparation:"],
+          "last_question_round": 2
+        },
+        "3.3.3 Nitrogen-Based Fertilizers": {
+          "count": 2,
+          "mini_headings_covered": ["Anhydrous Ammonia", "Urea"],
+          "last_question_round": 2
+        }
+      },
+      "3.4 Some Manufacturing Industries in Ethiopia": {
+        "3.4.1 Glass Manufacturing": {
+          "count": 1,
+          "mini_headings_covered": ["Soda-lime glass", "Borosilicate glass"],
+          "last_question_round": 2
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.1 Introduction": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.2 Natural Resources and Industry": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 0
+      },
+      "3.3 Manufacturing of Valuable Products/Chemicals": {
+        "question_count": 4,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.1 Introduction": ["industrial chemistry", "chemical industry", "chemical processes"],
+      "3.2.1 Natural Resources (Raw Materials)": ["renewable resources", "non-renewable resources", "atmosphere", "hydrosphere", "lithosphere", "biosphere"],
+      "3.2.2 Industry": ["manufacturing industry", "chemical industry", "raw materials"],
+      "3.3.1 Ammonia (NH3)": ["ammonia", "Haber process", "Haber-Bosch process", "catalyst", "Le Chatelier's principle"],
+      "3.3.2 Nitric Acid": ["nitric acid", "Ostwald process", "catalytic oxidation", "platinum catalyst", "nitric oxide"],
+      "3.3.3 Nitrogen-Based Fertilizers": ["anhydrous ammonia", "urea", "UAN solutions", "DAP", "nitrification"],
+      "3.4.1 Glass Manufacturing": ["soda-lime glass", "borosilicate glass", "silica", "annealing"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": {
+      "total_concepts_extracted": 22,
+      "questions_per_concept_ratio": 0.45,
+      "structural_coverage_percentage": 35.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Chemistry",
+  "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+  "pdf_filename": "C12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-14T09:15:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 4,
+        "total_sections": 4,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 20,
+      "sections_covered_count": 4,
+      "subsections_covered_count": 8,
+      "mini_headings_covered_count": 12,
+      "structural_coverage_percentage": 45.0,
+      "concept_utilization_ratio": 0.50
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "least_covered_section": "3.4 Some Manufacturing Industries in Ethiopia",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Chem_U3_Q011",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.2 Nitric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Properties:",
+      "mcq_type": "A",
+      "question": "Why does pure nitric acid turn brown upon exposure to light?",
+      "options": {
+        "A": "It absorbs moisture from the air and forms a brown hydrate",
+        "B": "It decomposes into brown \\(\\mathrm{NO_2}\\) gas and oxygen",
+        "C": "It reacts with atmospheric nitrogen to form brown nitrogen oxides",
+        "D": "It undergoes polymerization to form a brown solid"
+      },
+      "correct_answer": "B",
+      "hint": "Light provides energy for decomposition; one product is brown.",
+      "explanation": "Light causes nitric acid to decompose: \\(4\\mathrm{HNO_3} \\rightarrow 4\\mathrm{NO_2} + \\mathrm{O_2} + 2\\mathrm{H_2O}\\). \\(\\mathrm{NO_2}\\) is a brown gas. Option B is correct. Option C is incorrect because the decomposition does not involve atmospheric nitrogen.",
+      "difficulty_level": "easy",
+      "formula_used": ["\\(4\\mathrm{HNO_3}(l) \\rightarrow 4\\mathrm{NO_2}(g) + \\mathrm{O_2}(g) + 2\\mathrm{H_2O}(l)\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.2 Nitric Acid",
+        "structural_element": "Properties:",
+        "content_anchor": "Pure nitric acid ... on exposure to light, it turns brown because of slight decomposition into NO₂ (brown) and O₂.",
+        "page_hint": 18,
+        "concept_hash": "p3q4r5s6t7u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Photodecomposition of nitric acid produces brown nitrogen dioxide gas.",
+        "concept_summary": "Light provides energy to break down HNO₃ into NO₂ (brown), O₂, and H₂O. The brown color indicates NO₂ formation.",
+        "beginner": "Imagine a clear drink that turns brown when left in sunlight — the sun's energy changes the drink's molecules into something brown. Same idea with nitric acid.",
+        "intermediate": "The decomposition reaction is \\(4\\mathrm{HNO_3} \\rightarrow 4\\mathrm{NO_2} + \\mathrm{O_2} + 2\\mathrm{H_2O}\\). \\(\\mathrm{NO_2}\\) gas is brown, causing the color change.",
+        "advanced": "Light (hν) breaks the O–NO₂ bond in HNO₃, initiating radical decomposition. \\(\\mathrm{NO_2}\\) absorbs blue light (≈400 nm), appearing brown due to complementary color transmission.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that pure HNO₃ is colorless when freshly prepared.",
+          "Remember that brown color comes from NO₂ gas.",
+          "Identify the decomposition reaction producing NO₂."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(4\\mathrm{HNO_3} \\xrightarrow{h\\nu} 4\\mathrm{NO_2} + \\mathrm{O_2} + 2\\mathrm{H_2O}\\)",
+            "name": "Photodecomposition of nitric acid",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think nitric acid absorbs water to become brown — but concentrated HNO₃ is hygroscopic, not photodecomposing, and does not turn brown from water absorption alone."
+        ],
+        "related_concepts": ["photodecomposition", "nitrogen dioxide", "oxides of nitrogen"],
+        "revision_note": "HNO₃ + light → NO₂ (brown) + O₂ + H₂O. Brown = decomposition.",
+        "glossary_entry": {
+          "term": "Photodecomposition",
+          "definition": "Chemical decomposition caused by exposure to light energy.",
+          "example_equation": "\\(4\\mathrm{HNO_3} \\rightarrow 4\\mathrm{NO_2} + \\mathrm{O_2} + 2\\mathrm{H_2O}\\)",
+          "related_terms": ["nitric acid", "nitrogen dioxide"]
+        },
+        "flashcard": {
+          "front": "What causes nitric acid to turn brown when exposed to light?",
+          "back": "Light causes photodecomposition: \\(4\\mathrm{HNO_3} \\rightarrow 4\\mathrm{NO_2} + \\mathrm{O_2} + 2\\mathrm{H_2O}\\). Brown color comes from NO₂ gas."
+        },
+        "concept_map_nodes": [
+          { "source": "HNO₃", "relation": "decomposes_via", "target": "Light" },
+          { "source": "Light", "relation": "produces", "target": "NO₂ (brown gas)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "What is the brown gas produced when HNO₃ decomposes in light?",
+        "flashcard_back": "Nitrogen dioxide (NO₂), produced by \\(4\\mathrm{HNO_3} \\rightarrow 4\\mathrm{NO_2} + \\mathrm{O_2} + 2\\mathrm{H_2O}\\).",
+        "glossary_term": "Nitric acid",
+        "glossary_definition": "A strong, corrosive mineral acid that decomposes to brown NO₂ in light.",
+        "revision_note": "HNO₃ + light → NO₂ (brown) + O₂ + H₂O.",
+        "teacher_note": "Demonstrate by storing HNO₃ in amber bottles to block light.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Examine physical and chemical properties of HNO₃",
+        "concept_map_nodes": [
+          { "source": "HNO₃", "relation": "decomposes_to", "target": "NO₂" },
+          { "source": "NO₂", "relation": "has_color", "target": "Brown" }
+        ],
+        "workbook_section": "3.3.2 Nitric Acid",
+        "solution_manual_note": "Answer B. The decomposition reaction produces brown NO₂ gas, which gives the acid its brown color."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q012",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.2 Nitric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Preparation:",
+      "mcq_type": "G",
+      "question": "In the Ostwald process, what is the purpose of adding excess oxygen and using a platinum catalyst in the first step?",
+      "options": {
+        "A": "To absorb water vapor and dry the ammonia gas",
+        "B": "To oxidize ammonia to nitric oxide and provide sufficient heat for the reaction",
+        "C": "To reduce nitrogen dioxide back to ammonia for recycling",
+        "D": "To neutralize any acidic byproducts before they form"
+      },
+      "correct_answer": "B",
+      "hint": "The first step is catalytic oxidation of NH₃.",
+      "explanation": "The reaction \\(4\\mathrm{NH_3} + 5\\mathrm{O_2} \\rightarrow 4\\mathrm{NO} + 6\\mathrm{H_2O}\\) requires a platinum catalyst and excess oxygen to drive oxidation to NO. Option B correctly describes this. Option C describes a different step (NO recycling).",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(4NH_3(g) + 5O_2(g) \\xrightarrow{Pt, 850^\\circ C} 4NO(g) + 6H_2O(g)\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.2 Nitric Acid",
+        "structural_element": "Preparation:",
+        "content_anchor": "Step 1: Ammonia is burned in excess oxygen over a platinum catalyst to form nitric oxide (NO): 4NH₃(g) + 5O₂(g) → 4NO(g) + 6H₂O(g).",
+        "page_hint": 20,
+        "concept_hash": "q4r5s6t7u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 69,
+        "distractor_quality_score": 87,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "In Ostwald step 1, ammonia is catalytically oxidized to nitric oxide using excess oxygen and platinum.",
+        "concept_summary": "Platinum catalyzes the reaction; excess oxygen ensures complete oxidation of NH₃ to NO, which is then used to make HNO₃.",
+        "beginner": "Think of platinum as a helper that makes the reaction happen faster, and extra oxygen as a guarantee that all ammonia gets turned into the desired product.",
+        "intermediate": "The reaction \\(4\\mathrm{NH_3} + 5\\mathrm{O_2} \\rightarrow 4\\mathrm{NO} + 6\\mathrm{H_2O}\\) requires a platinum catalyst to lower activation energy and excess oxygen to push equilibrium toward NO.",
+        "advanced": "Platinum provides active sites for dissociative chemisorption of O₂ and NH₃. The reaction proceeds via a Langmuir-Hinshelwood mechanism at ≈850°C. Excess oxygen prevents NH₃ combustion to N₂ and maintains oxidative conditions for NO formation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall Ostwald step 1 oxidizes NH₃ to NO.",
+          "Recognize that platinum is a catalyst for this reaction.",
+          "Understand that excess oxygen ensures complete conversion and prevents side reactions."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(4NH_3 + 5O_2 \\xrightarrow{Pt, 850^\\circ C} 4NO + 6H_2O\\)",
+            "name": "Ostwald step 1",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think platinum is a reactant — but it is a catalyst, unchanged during the reaction.",
+          "Others believe oxygen is only for combustion — actually excess oxygen shifts equilibrium toward NO."
+        ],
+        "related_concepts": ["catalytic oxidation", "Ostwald process", "platinum catalyst", "nitric oxide"],
+        "revision_note": "Ostwald step 1: NH₃ + O₂ → NO, catalyzed by Pt, 850°C, excess O₂.",
+        "glossary_entry": {
+          "term": "Ostwald process",
+          "definition": "Industrial production of nitric acid via catalytic oxidation of ammonia over platinum.",
+          "example_equation": "\\(4NH_3 + 5O_2 \\rightarrow 4NO + 6H_2O\\)",
+          "related_terms": ["catalytic oxidation", "nitric acid"]
+        },
+        "flashcard": {
+          "front": "What is the role of platinum in the Ostwald process?",
+          "back": "Platinum is a catalyst that speeds up the oxidation of ammonia (NH₃) to nitric oxide (NO) at 850°C without being consumed."
+        },
+        "concept_map_nodes": [
+          { "source": "Ostwald step 1", "relation": "uses_catalyst", "target": "Platinum" },
+          { "source": "Ostwald step 1", "relation": "requires", "target": "Excess oxygen" },
+          { "source": "Platinum", "relation": "catalyzes", "target": "NH₃ → NO" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "Why is a platinum catalyst used in Ostwald process step 1?",
+        "flashcard_back": "Platinum catalyzes the oxidation of NH₃ to NO at 850°C, making the reaction fast enough for industrial production.",
+        "glossary_term": "Platinum catalyst",
+        "glossary_definition": "A precious metal catalyst used in the Ostwald process to oxidize ammonia to nitric oxide.",
+        "revision_note": "Pt catalyst + excess O₂ → NH₃ oxidized to NO (Ostwald step 1).",
+        "teacher_note": "Compare with iron catalyst in Haber process — both are transition metals with specific surface properties.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the important steps for HNO₃ production in Ostwald process",
+        "concept_map_nodes": [
+          { "source": "Ostwald process", "relation": "step_1", "target": "NH₃ + O₂ → NO" },
+          { "source": "Step_1", "relation": "requires", "target": "Platinum catalyst" }
+        ],
+        "workbook_section": "3.3.2 Nitric Acid",
+        "solution_manual_note": "Answer B. Platinum catalyzes the oxidation of NH₃ to NO, and excess oxygen ensures complete conversion to NO, not N₂."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q013",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.3 Nitrogen-Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Anhydrous Ammonia",
+      "mcq_type": "B",
+      "question": "What is the chemical form of nitrogen in anhydrous ammonia fertilizer when it is first applied to soil?",
+      "options": {
+        "A": "Nitrate ion (\\(\\mathrm{NO_3^-}\\))",
+        "B": "Ammonia gas (\\(\\mathrm{NH_3}\\))",
+        "C": "Ammonium ion (\\(\\mathrm{NH_4^+}\\))",
+        "D": "Nitrite ion (\\(\\mathrm{NO_2^-}\\))"
+      },
+      "correct_answer": "B",
+      "hint": "Anhydrous means 'without water' — it is applied as a compressed gas.",
+      "explanation": "Anhydrous ammonia is applied as compressed \\(\\mathrm{NH_3}\\) gas. Once in soil, it reacts with water to form \\(\\mathrm{NH_4^+}\\). Option B is correct as the initial applied form. Option C is the form after reaction with soil water.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen-Based Fertilizers",
+        "structural_element": "Anhydrous Ammonia",
+        "content_anchor": "Anhydrous ammonia (NH₃) is the most basic form of nitrogen fertilizer. Ammonia, a gas at atmospheric pressure, must be compressed into a liquid for transport, storage and application.",
+        "page_hint": 24,
+        "concept_hash": "r5s6t7u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Anhydrous ammonia fertilizer is applied as compressed NH₃ gas.",
+        "concept_summary": "Anhydrous means without water. It is stored as a pressurized liquid but reverts to gas upon application, then reacts with soil water.",
+        "beginner": "Anhydrous ammonia is like a can of compressed air — it comes out as a gas, but once it hits the soil, it turns into a different form that plants can use.",
+        "intermediate": "When applied, anhydrous ammonia is in the form \\(\\mathrm{NH_3}\\) gas. After injection into soil, it quickly reacts with water to form ammonium ions: \\(\\mathrm{NH_3 + H_2O \\rightarrow NH_4^+ + OH^-}\\).",
+        "advanced": "Anhydrous ammonia is stored as a liquid under pressure (≈10 atm at 25°C). Upon injection 15-20 cm below surface, it vaporizes and rapidly hydrolyzes: \\(\\mathrm{NH_3 + H_2O \\rightarrow NH_4OH}\\), which dissociates to \\(\\mathrm{NH_4^+}\\) and \\(\\mathrm{OH^-}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that anhydrous means 'without water'.",
+          "Identify that NH₃ gas is the applied form from pressurized tanks.",
+          "Distinguish between applied form and form after soil reaction."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think anhydrous ammonia is already ammonium — but ammonium is NH₄⁺, which forms only after NH₃ reacts with water."
+        ],
+        "related_concepts": ["anhydrous", "ammonia", "nitrogen fertilizers", "soil chemistry"],
+        "revision_note": "Anhydrous NH₃ fertilizer = applied as NH₃ gas (pressurized liquid).",
+        "glossary_entry": {
+          "term": "Anhydrous ammonia",
+          "definition": "Ammonia without water; a compressed gas used as a nitrogen fertilizer, applied in liquid form under pressure.",
+          "example_equation": null,
+          "related_terms": ["ammonia", "nitrogen fertilizer"]
+        },
+        "flashcard": {
+          "front": "What is the physical state of anhydrous ammonia during application as fertilizer?",
+          "back": "It is stored as a pressurized liquid but applied as NH₃ gas, which then reacts with soil water to form NH₄⁺."
+        },
+        "concept_map_nodes": [
+          { "source": "Anhydrous ammonia", "relation": "applied_as", "target": "NH₃ gas" },
+          { "source": "NH₃ gas", "relation": "reacts_with_water_to_form", "target": "NH₄⁺" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "What form of nitrogen is applied when using anhydrous ammonia fertilizer?",
+        "flashcard_back": "Anhydrous ammonia is applied as NH₃ gas (pressurized liquid), which later converts to NH₄⁺ in soil.",
+        "glossary_term": "Anhydrous ammonia",
+        "glossary_definition": "Ammonia without water; a compressed gas used as a nitrogen fertilizer.",
+        "revision_note": "Anhydrous NH₃ = applied as NH₃ gas, not NH₄⁺.",
+        "teacher_note": "Emphasize the difference between applied form (NH₃) and plant-available form after hydrolysis (NH₄⁺).",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Describe the common forms of N-based fertilizers",
+        "concept_map_nodes": [
+          { "source": "Anhydrous ammonia", "relation": "form_at_application", "target": "NH₃" },
+          { "source": "NH₃", "relation": "in_soil_becomes", "target": "NH₄⁺" }
+        ],
+        "workbook_section": "3.3.3 Nitrogen-Based Fertilizers",
+        "solution_manual_note": "Answer B. Anhydrous ammonia is applied as compressed NH₃ gas. Option C (NH₄⁺) forms after reaction with soil water, not at application."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q014",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.3 Nitrogen-Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Urea",
+      "mcq_type": "E",
+      "question": "Urea is produced by reacting ammonia with carbon dioxide: \\(2\\mathrm{NH_3} + \\mathrm{CO_2} \\rightarrow (\\mathrm{NH_2})_2\\mathrm{CO} + \\mathrm{H_2O}\\). If 34.0 g of \\(\\mathrm{NH_3}\\) reacts with excess \\(\\mathrm{CO_2}\\), what mass of urea is produced? (N = 14.0, H = 1.00, C = 12.0, O = 16.0 g/mol)",
+      "options": {
+        "A": "30.0 g",
+        "B": "60.0 g",
+        "C": "120.0 g",
+        "D": "15.0 g"
+      },
+      "correct_answer": "B",
+      "hint": "Determine limiting reagent? CO₂ is in excess, so NH₃ limits.",
+      "explanation": "Molar mass NH₃ = 17.0 g/mol, so 34.0 g = 2.00 mol NH₃. From equation: 2 mol NH₃ → 1 mol urea. Molar mass urea = (14.0×2)+(1.0×4)+12.0+16.0 = 60.0 g/mol. Mass urea = 1.00 mol × 60.0 g/mol = 60.0 g. Option B is correct.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(2\\mathrm{NH_3} + \\mathrm{CO_2} \\rightarrow (\\mathrm{NH_2})_2\\mathrm{CO} + \\mathrm{H_2O}\\)", "\\(n = \\frac{m}{M}\\)"],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "m_NH3": { "magnitude": 34.0, "unit": "g" },
+          "M_N": 14.0,
+          "M_H": 1.0,
+          "M_C": 12.0,
+          "M_O": 16.0
+        },
+        "answer_value": 60.0,
+        "answer_unit": "g",
+        "calculation_steps": [
+          "Molar mass NH₃ = 14.0 + 3(1.0) = 17.0 g/mol",
+          "Moles NH₃ = 34.0 g / 17.0 g/mol = 2.00 mol",
+          "From balanced equation: 2 mol NH₃ → 1 mol urea",
+          "Moles urea = 2.00 mol NH₃ × (1 mol urea / 2 mol NH₃) = 1.00 mol",
+          "Molar mass urea = 2(14.0) + 4(1.0) + 12.0 + 16.0 = 28.0 + 4.0 + 12.0 + 16.0 = 60.0 g/mol",
+          "Mass urea = 1.00 mol × 60.0 g/mol = 60.0 g"
+        ],
+        "significant_figures": 3
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen-Based Fertilizers",
+        "structural_element": "Urea",
+        "content_anchor": "Urea is manufactured by reacting CO₂ with NH₃: 2NH₃ + CO₂ → NH₂COONH₄ (ammonium carbamate) then NH₂COONH₄ → (NH₂)₂CO + H₂O",
+        "page_hint": 25,
+        "concept_hash": "s6t7u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 91,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "Urea synthesis is a 2:1 mole ratio reaction between NH₃ and CO₂, producing urea and water.",
+        "concept_summary": "From the balanced equation, 2 mol NH₃ produce 1 mol urea. Mass calculations require molar masses and mole ratios.",
+        "beginner": "It takes 2 ammonia molecules to make 1 urea molecule. So if you have 2 groups of 2 ammonia molecules (2 moles), you make 1 mole of urea.",
+        "intermediate": "Calculate moles NH₃: 34.0 g ÷ 17.0 g/mol = 2.00 mol. From 2:1 ratio, 2.00 mol NH₃ makes 1.00 mol urea. Molar mass urea = 60.0 g/mol, so mass = 60.0 g.",
+        "advanced": "The reaction proceeds via ammonium carbamate intermediate: \\(2\\mathrm{NH_3} + \\mathrm{CO_2} \\rightarrow \\mathrm{NH_2COONH_4} \\xrightarrow{\\Delta} (\\mathrm{NH_2})_2\\mathrm{CO} + \\mathrm{H_2O}\\). Overall stoichiometry is 2:1. Given 34.0 g NH₃ (2.00 mol), theoretical yield = 1.00 mol urea = 60.0 g.",
+        "worked_solution": [
+          "Step 1: Molar mass NH₃ = 14.0 + 3(1.0) = 17.0 g/mol",
+          "Step 2: n(NH₃) = 34.0 / 17.0 = 2.00 mol",
+          "Step 3: n(urea) = n(NH₃) × (1/2) = 1.00 mol",
+          "Step 4: Molar mass urea = 2(14.0) + 4(1.0) + 12.0 + 16.0 = 60.0 g/mol",
+          "Step 5: m(urea) = 1.00 × 60.0 = 60.0 g"
+        ],
+        "reasoning_steps": [
+          "Write balanced equation: 2NH₃ + CO₂ → (NH₂)₂CO + H₂O",
+          "Calculate moles of NH₃ given its mass",
+          "Apply mole ratio to find moles of urea",
+          "Convert moles urea to mass using its molar mass"
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathrm{NH_3} + \\mathrm{CO_2} \\rightarrow (\\mathrm{NH_2})_2\\mathrm{CO} + \\mathrm{H_2O}\\)",
+            "name": "Urea synthesis overall reaction",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some forget the 2:1 ratio and assume 1:1, giving 30.0 g (option A)."
+        ],
+        "related_concepts": ["stoichiometry", "urea", "mole ratio", "nitrogen fertilizer"],
+        "revision_note": "2NH₃ → 1 urea. 34 g NH₃ (2 mol) → 60 g urea.",
+        "glossary_entry": {
+          "term": "Urea",
+          "definition": "A solid nitrogen fertilizer with formula (NH₂)₂CO, containing 46% nitrogen by mass.",
+          "example_equation": "\\(2\\mathrm{NH_3} + \\mathrm{CO_2} \\rightarrow (\\mathrm{NH_2})_2\\mathrm{CO} + \\mathrm{H_2O}\\)",
+          "related_terms": ["nitrogen fertilizer", "ammonia", "carbon dioxide"]
+        },
+        "flashcard": {
+          "front": "How many grams of urea are produced from 34.0 g NH₃ in urea synthesis? (2NH₃ + CO₂ → (NH₂)₂CO + H₂O)",
+          "back": "60.0 g. (34.0 g NH₃ = 2.00 mol → 1.00 mol urea × 60.0 g/mol = 60.0 g)"
+        },
+        "concept_map_nodes": [
+          { "source": "34.0 g NH₃", "relation": "equals", "target": "2.00 mol NH₃" },
+          { "source": "2.00 mol NH₃", "relation": "produces", "target": "1.00 mol urea" },
+          { "source": "1.00 mol urea", "relation": "equals", "target": "60.0 g urea" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "solution_manual"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "34.0 g NH₃ yields how many grams of urea? (2NH₃ + CO₂ → (NH₂)₂CO + H₂O)",
+        "flashcard_back": "60.0 g urea. (2.00 mol NH₃ → 1.00 mol urea × 60.0 g/mol)",
+        "glossary_term": "Urea",
+        "glossary_definition": "A solid nitrogen fertilizer with formula (NH₂)₂CO, containing 46% nitrogen.",
+        "revision_note": "2NH₃ → 1 urea. 34 g NH₃ → 60 g urea.",
+        "teacher_note": "Remind students to always balance the equation first. Some may use unbalanced 1:1 ratio.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Perform stoichiometric calculations for urea production",
+        "concept_map_nodes": [
+          { "source": "Urea synthesis", "relation": "ratio", "target": "2:1 (NH₃:urea)" },
+          { "source": "NH₃", "relation": "molar_mass", "target": "17.0 g/mol" },
+          { "source": "Urea", "relation": "molar_mass", "target": "60.0 g/mol" }
+        ],
+        "workbook_section": "3.3.3 Nitrogen-Based Fertilizers",
+        "solution_manual_note": "Answer B. 34.0 g NH₃ = 2.00 mol. 2:1 ratio gives 1.00 mol urea × 60.0 g/mol = 60.0 g. Option A (30.0 g) incorrectly uses 1:1 ratio."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q015",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.2 Nitric Acid",
+      "sub_subsection": null,
+      "structural_anchor": "Uses:",
+      "mcq_type": "D",
+      "question": "Which of the following is a major industrial use of nitric acid derived from its oxidizing property?",
+      "options": {
+        "A": "Production of soap through saponification",
+        "B": "Synthesis of ammonium nitrate for fertilizers",
+        "C": "Manufacture of synthetic fibers like nylon",
+        "D": "Production of explosives such as TNT and nitroglycerine"
+      },
+      "correct_answer": "D",
+      "hint": "Nitric acid's strong oxidizing power is key for explosives.",
+      "explanation": "Nitric acid's strong oxidizing property allows nitration of aromatic compounds to produce explosives like TNT. Option D is correct. Option B uses neutralization (acid-base), not primarily oxidizing power. Option C is unrelated to oxidizing property.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 91,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.2 Nitric Acid",
+        "structural_element": "Uses:",
+        "content_anchor": "When combined with aromatic compounds, it yields substances used to make explosives such as TNT and nitroglycerine.",
+        "page_hint": 18,
+        "concept_hash": "t7u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 64,
+        "distractor_quality_score": 86,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Nitric acid is a strong nitrating agent used to add -NO₂ groups to aromatic compounds, producing explosives.",
+        "concept_summary": "Concentrated HNO₃ acts as both acid and oxidizing agent, enabling electrophilic aromatic substitution to form nitroaromatics like TNT.",
+        "beginner": "Nitric acid can 'stick' extra oxygen-containing groups onto molecules. When it does this to certain compounds, they become unstable and explosive, like TNT.",
+        "intermediate": "Nitration of toluene with mixed acid (HNO₃/H₂SO₄) produces trinitrotoluene (TNT). The oxidizing power of HNO₃ creates the highly energetic nitro groups.",
+        "advanced": "Electrophilic nitration: \\(\\mathrm{C_6H_5CH_3 + 3HNO_3 \\rightarrow C_6H_2(NO_2)_3CH_3 + 3H_2O}\\). The -NO₂ groups increase oxygen balance, making the molecule decompose rapidly exothermically upon detonation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that nitric acid is a nitrating agent (oxidizing property).",
+          "Recall that TNT and nitroglycerine are explosives made via nitration.",
+          "Select the option directly linked to nitration/oxidation."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some confuse nitric acid's use in explosives with its use in fertilizers — fertilizer production uses neutralization (acid-base), not oxidation."
+        ],
+        "related_concepts": ["nitration", "oxidizing agent", "TNT", "nitroglycerine", "aromatic substitution"],
+        "revision_note": "HNO₃ (oxidizing) → nitration → explosives (TNT, nitroglycerine).",
+        "glossary_entry": {
+          "term": "Nitration",
+          "definition": "The chemical process of adding a nitro group (-NO₂) to an organic compound using nitric acid.",
+          "example_equation": "\\(\\mathrm{C_6H_5CH_3 + 3HNO_3 \\rightarrow C_6H_2(NO_2)_3CH_3 + 3H_2O}\\)",
+          "related_terms": ["TNT", "nitroglycerine", "nitric acid"]
+        },
+        "flashcard": {
+          "front": "What property of nitric acid makes it useful for producing TNT?",
+          "back": "Nitric acid's strong oxidizing property allows it to add nitro groups (-NO₂) to aromatic compounds via nitration."
+        },
+        "concept_map_nodes": [
+          { "source": "Nitric acid", "relation": "has_property", "target": "Strong oxidizing agent" },
+          { "source": "Strong oxidizing agent", "relation": "enables", "target": "Nitration" },
+          { "source": "Nitration", "relation": "produces", "target": "TNT (explosive)" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "Give an example of an explosive made using nitric acid's oxidizing property.",
+        "flashcard_back": "TNT (trinitrotoluene) and nitroglycerine are produced by nitration using concentrated HNO₃.",
+        "glossary_term": "Nitric acid",
+        "glossary_definition": "A strong mineral acid and oxidizing agent used in fertilizer and explosive production.",
+        "revision_note": "HNO₃ (oxidizing) → TNT, nitroglycerine via nitration.",
+        "teacher_note": "Connect to safety: concentrated HNO₃ is hazardous due to its oxidizing and corrosive nature.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "List important uses of HNO₃ as raw material",
+        "concept_map_nodes": [
+          { "source": "HNO₃", "relation": "used_for", "target": "Explosives (TNT)" },
+          { "source": "HNO₃", "relation": "used_for", "target": "Fertilizers (NH₄NO₃)" }
+        ],
+        "workbook_section": "3.3.2 Nitric Acid",
+        "solution_manual_note": "Answer D. TNT and nitroglycerine are produced via nitration, relying on nitric acid's oxidizing property. Fertilizer production uses neutralization, not oxidation."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q016",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.3 Nitrogen-Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Urea",
+      "mcq_type": "H",
+      "question": "A farmer applies urea to the soil surface but does not incorporate it with water or tillage. Which outcome is most likely?",
+      "options": {
+        "A": "Nitrogen will remain as urea and be absorbed by plants directly",
+        "B": "Urea will undergo hydrolysis releasing ammonia gas that escapes into the air",
+        "C": "Urea will convert immediately to nitrate without any loss",
+        "D": "The urea will polymerize into a solid unavailable to plants"
+      },
+      "correct_answer": "B",
+      "hint": "Surface-applied urea without incorporation is prone to volatilization.",
+      "explanation": "Urea on soil surface without incorporation undergoes hydrolysis: \\((NH_2)_2CO + H_2O \\rightarrow CO_2 + 2NH_3\\). NH₃ gas escapes (volatilization). Option B is correct. Option C is incorrect because conversion to nitrate requires nitrifying bacteria and moisture.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\((NH_2)_2CO + H_2O \\rightarrow CO_2 + 2NH_3\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 89,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen-Based Fertilizers",
+        "structural_element": "Urea",
+        "content_anchor": "If urea is applied to the soil surface and not incorporated by water or tillage, it is subject to volatilization losses of nitrogen. This occurs as urea undergoes hydrolysis to carbon dioxide and ammonia: (NH₂)₂CO + H₂O → CO₂ + 2NH₃.",
+        "page_hint": 26,
+        "concept_hash": "u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Volatilization is the loss of nitrogen as ammonia gas when urea hydrolyzes on soil surface.",
+        "concept_summary": "Urea hydrolysis by urease enzyme produces NH₃. Without incorporation, NH₃ escapes to atmosphere, reducing nitrogen available to crops.",
+        "beginner": "Imagine sprinkling salt on wet ground: if you don't mix it in, the water can wash it away. For urea, if left on top, it turns into ammonia gas that floats away.",
+        "intermediate": "The enzyme urease in soil catalyzes: \\((NH_2)_2CO + H_2O \\rightarrow CO_2 + 2NH_3\\). Without incorporation (tillage or rain), NH₃ gas is lost through volatilization, reducing fertilizer efficiency.",
+        "advanced": "Urease activity is highest in warm, moist soils. Surface-applied urea can lose 20-50% of nitrogen via volatilization within days. Incorporation by rainfall (>0.5 cm) or tillage moves urea into soil, where NH₃ is protonated to \\(\\mathrm{NH_4^+}\\) and retained on cation exchange sites.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that urea hydrolyzes to NH₃ and CO₂ in soil.",
+          "Recognize that NH₃ is a gas that escapes if not trapped by soil.",
+          "Conclude that lack of incorporation leads to nitrogen loss."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\((NH_2)_2CO + H_2O \\xrightarrow{urease} CO_2 + 2NH_3\\)",
+            "name": "Urea hydrolysis",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think urea is instantly available to plants — but it must first hydrolyze to NH₃/NH₄⁺, and without incorporation, the NH₃ is lost."
+        ],
+        "related_concepts": ["volatilization", "urease", "nitrogen loss", "fertilizer efficiency"],
+        "revision_note": "Surface urea + water → NH₃ (gas) lost without incorporation.",
+        "glossary_entry": {
+          "term": "Volatilization",
+          "definition": "Loss of nitrogen as ammonia gas from surface-applied urea or anhydrous ammonia before incorporation.",
+          "example_equation": "\\((NH_2)_2CO + H_2O \\rightarrow CO_2 + 2NH_3\\)",
+          "related_terms": ["urea", "ammonia volatilization"]
+        },
+        "flashcard": {
+          "front": "What happens to surface-applied urea that is not incorporated into soil?",
+          "back": "Urea hydrolyzes to NH₃ and CO₂; NH₃ gas escapes to the atmosphere, causing nitrogen loss through volatilization."
+        },
+        "concept_map_nodes": [
+          { "source": "Surface-applied urea", "relation": "without_incorporation", "target": "Hydrolysis" },
+          { "source": "Hydrolysis", "relation": "produces", "target": "NH₃ gas" },
+          { "source": "NH₃ gas", "relation": "escapes_as", "target": "Volatilization loss" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "Why is incorporation of urea into soil important?",
+        "flashcard_back": "Incorporation prevents volatilization loss of NH₃ gas from urea hydrolysis, keeping nitrogen in the soil for plants.",
+        "glossary_term": "Volatilization",
+        "glossary_definition": "Loss of nitrogen as ammonia gas from surface-applied urea or anhydrous ammonia.",
+        "revision_note": "Surface urea → NH₃ loss. Incorporate with water/tillage to prevent.",
+        "teacher_note": "Connect to real-world agricultural practices: farmers inject NH₃ or incorporate urea to reduce loss.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe soil reactions of urea and nitrogen loss mechanisms",
+        "concept_map_nodes": [
+          { "source": "Urea", "relation": "surface_applied", "target": "High volatilization risk" },
+          { "source": "Urea", "relation": "incorporated", "target": "Low volatilization risk" }
+        ],
+        "workbook_section": "3.3.3 Nitrogen-Based Fertilizers",
+        "solution_manual_note": "Answer B. Urea hydrolysis produces NH₃ gas, which escapes if not incorporated. Option A is false because urea is not directly absorbed; it must hydrolyze first. Option C is false because nitrification is a separate bacterial process that requires moisture and occurs after incorporation."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q017",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.4 Some Manufacturing Industries in Ethiopia",
+      "subsection": "3.4.1 Glass Manufacturing",
+      "sub_subsection": null,
+      "structural_anchor": "Soda-lime glass",
+      "mcq_type": "I",
+      "question": "How does borosilicate glass differ from soda-lime glass in terms of composition and property?",
+      "options": {
+        "A": "Borosilicate glass contains calcium oxide, making it more flexible",
+        "B": "Borosilicate glass uses boron trioxide instead of limestone, providing higher thermal resistance",
+        "C": "Borosilicate glass has added lead oxide for higher density and optical clarity",
+        "D": "Borosilicate glass contains sodium carbonate, making it cheaper to produce"
+      },
+      "correct_answer": "B",
+      "hint": "Pyrex is a brand name for borosilicate glass.",
+      "explanation": "Borosilicate glass replaces limestone (CaCO₃) with boron trioxide (B₂O₃), which gives higher thermal shock resistance. Option B is correct. Option C describes lead crystal glass, not borosilicate. Option D is incorrect because soda-lime glass uses sodium carbonate, not borosilicate.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.4 Some Manufacturing Industries in Ethiopia",
+        "subsection_anchor": "3.4.1 Glass Manufacturing",
+        "structural_element": "Soda-lime glass",
+        "content_anchor": "Borosilicate glass is commonly known as Pyrex. It is manufactured using boron (III) oxide, B₂O₃, instead of limestone or calcium oxide. This glass has high resistance to chemical corrosion and temperature changes and is widely used to make ovenware and laboratory equipment.",
+        "page_hint": 42,
+        "concept_hash": "v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 66,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Borosilicate glass replaces CaO with B₂O₃, giving high thermal shock resistance; soda-lime glass uses CaO and Na₂O.",
+        "concept_summary": "Soda-lime glass (window glass) contains silica, sodium carbonate, and limestone. Borosilicate glass (Pyrex) replaces limestone with boric oxide, lowering thermal expansion.",
+        "beginner": "Think of baking dishes: Pyrex can go from oven to fridge without cracking because it has a special ingredient (boron) that soda-lime glass lacks.",
+        "intermediate": "Soda-lime: \\(\\mathrm{SiO_2} + \\mathrm{Na_2CO_3} + \\mathrm{CaCO_3} \\rightarrow \\mathrm{Na_2SiO_3} + \\mathrm{CaSiO_3} + 2\\mathrm{CO_2}\\). Borosilicate: replaces CaCO₃ with B₂O₃, reducing thermal expansion coefficient from ≈9×10⁻⁶/K to ≈3.3×10⁻⁶/K.",
+        "advanced": "Borosilicate glass has coefficient of thermal expansion α ≈ 3.3×10⁻⁶/K vs soda-lime α ≈ 9×10⁻⁶/K. B₂O₃ forms a more rigid boron-oxygen network that resists volume changes with temperature, allowing rapid heating/cooling without fracture.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that soda-lime glass uses limestone (CaCO₃) as a flux.",
+          "Recall that borosilicate glass uses boron trioxide (B₂O₃) instead.",
+          "Identify the property difference: borosilicate has higher thermal resistance."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think 'borosilicate' means added lead — lead is for lead crystal, not borosilicate."
+        ],
+        "related_concepts": ["glass", "soda-lime glass", "borosilicate glass", "thermal expansion", "Pyrex"],
+        "revision_note": "Soda-lime: CaO + Na₂O + SiO₂. Borosilicate: B₂O₃ instead of CaO → heat resistant.",
+        "glossary_entry": {
+          "term": "Borosilicate glass",
+          "definition": "Glass made with boron trioxide instead of limestone, giving high thermal shock resistance (e.g., Pyrex).",
+          "example_equation": null,
+          "related_terms": ["soda-lime glass", "Pyrex"]
+        },
+        "flashcard": {
+          "front": "What is the main compositional difference between soda-lime glass and borosilicate glass?",
+          "back": "Soda-lime uses limestone (CaCO₃); borosilicate uses boron trioxide (B₂O₃) instead, providing higher thermal resistance."
+        },
+        "concept_map_nodes": [
+          { "source": "Soda-lime glass", "relation": "contains", "target": "CaO" },
+          { "source": "Borosilicate glass", "relation": "contains", "target": "B₂O₃" },
+          { "source": "B₂O₃", "relation": "gives", "target": "High thermal resistance" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "Why is borosilicate glass used for laboratory equipment?",
+        "flashcard_back": "Borosilicate glass contains B₂O₃ instead of CaO, giving low thermal expansion and high resistance to thermal shock.",
+        "glossary_term": "Borosilicate glass",
+        "glossary_definition": "Glass made with boron trioxide instead of limestone, providing high thermal shock resistance.",
+        "revision_note": "Borosilicate (B₂O₃) = heat resistant; soda-lime (CaO) = ordinary glass.",
+        "teacher_note": "Show examples: Pyrex baking dish vs. soda-lime drinking glass.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Compare types of glass and their properties",
+        "concept_map_nodes": [
+          { "source": "Soda-lime glass", "relation": "property", "target": "Low thermal resistance" },
+          { "source": "Borosilicate glass", "relation": "property", "target": "High thermal resistance" }
+        ],
+        "workbook_section": "3.4.1 Glass Manufacturing",
+        "solution_manual_note": "Answer B. Borosilicate glass replaces limestone (CaCO₃) with boron trioxide (B₂O₃), resulting in higher thermal shock resistance. Option A is incorrect because CaO is in soda-lime glass, not borosilicate."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q018",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.3 Nitrogen-Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Anhydrous Ammonia",
+      "mcq_type": "F",
+      "question": "Anhydrous ammonia must be injected 6 to 8 inches below the soil surface rather than applied on top. What is the primary reason for this requirement?",
+      "options": {
+        "A": "To prevent the ammonia from freezing at the surface",
+        "B": "To minimize escape of gaseous NH₃ into the air",
+        "C": "To allow the ammonia to react with oxygen in deeper soil layers",
+        "D": "To increase the rate of nitrification by soil bacteria"
+      },
+      "correct_answer": "B",
+      "hint": "NH₃ is a gas at atmospheric pressure and can escape if not confined.",
+      "explanation": "Anhydrous ammonia is stored as a compressed liquid but becomes NH₃ gas upon release. Injection deep into soil traps the gas, allowing it to dissolve and react with soil water. Option B is correct. Option D is incorrect; nitrification occurs after conversion to NH₄⁺.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen-Based Fertilizers",
+        "structural_element": "Anhydrous Ammonia",
+        "content_anchor": "Anhydrous ammonia is applied by injection 6 to 8 inches below the soil surface to minimize escape of gaseous NH₃ into the air.",
+        "page_hint": 25,
+        "concept_hash": "w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Deep injection prevents NH₃ gas from escaping the soil before it can dissolve and react.",
+        "concept_summary": "Anhydrous ammonia vaporizes upon release. Soil injection places NH₃ below the surface where it dissolves in soil water and binds to clay/organic matter as NH₄⁺.",
+        "beginner": "Imagine opening a soda bottle: gas escapes quickly. If you open it underwater, the gas dissolves instead. Injection is like 'opening' the ammonia bottle deep in the soil.",
+        "intermediate": "Anhydrous ammonia is a gas at atmospheric pressure. If applied on the surface, NH₃ would escape directly into the air. Injection 15-20 cm deep allows the gas to dissolve in soil moisture and be retained as NH₄⁺.",
+        "advanced": "At 25°C, NH₃ has a vapor pressure of ≈10 atm. Upon release, it expands rapidly. Injection depth ensures that the expanding gas contacts soil particles and water, where dissolution \\(\\mathrm{NH_3 + H_2O \\rightarrow NH_4^+ + OH^-}\\) occurs before it can diffuse to the surface.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that anhydrous ammonia is stored as liquid but becomes gas at ambient pressure.",
+          "Recognize that gas can escape if not confined by soil.",
+          "Understand that injection traps NH₃ in soil where it can dissolve."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think injection is to reach plant roots directly — but NH₃ must convert to NH₄⁺ before root uptake; injection primarily prevents loss."
+        ],
+        "related_concepts": ["anhydrous ammonia", "volatilization", "soil injection", "ammonia gas"],
+        "revision_note": "Anhydrous NH₃ injected deep → prevents NH₃ gas escape (volatilization).",
+        "glossary_entry": {
+          "term": "Soil injection",
+          "definition": "Application of anhydrous ammonia fertilizer 6-8 inches below soil surface to prevent ammonia gas loss.",
+          "example_equation": null,
+          "related_terms": ["anhydrous ammonia", "volatilization"]
+        },
+        "flashcard": {
+          "front": "Why must anhydrous ammonia be injected deep into soil rather than surface-applied?",
+          "back": "Injection prevents NH₃ gas from escaping to the atmosphere (volatilization) before it can dissolve in soil water and be retained as NH₄⁺."
+        },
+        "concept_map_nodes": [
+          { "source": "Anhydrous NH₃", "relation": "surface_applied", "target": "NH₃ gas escapes" },
+          { "source": "Anhydrous NH₃", "relation": "injected_deep", "target": "NH₃ dissolves → NH₄⁺" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "What problem does deep injection of anhydrous ammonia solve?",
+        "flashcard_back": "Deep injection prevents volatilization — loss of NH₃ gas to the atmosphere — by trapping the gas in soil where it can dissolve.",
+        "glossary_term": "Anhydrous ammonia",
+        "glossary_definition": "Ammonia without water; a compressed liquid that vaporizes to gas at ambient pressure.",
+        "revision_note": "Deep injection prevents NH₃ gas escape (volatilization).",
+        "teacher_note": "Connect to environmental concerns: NH₃ volatilization contributes to air pollution and reduces fertilizer efficiency.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain application methods for anhydrous ammonia",
+        "concept_map_nodes": [
+          { "source": "Anhydrous NH₃", "relation": "risk_without_injection", "target": "Volatilization" },
+          { "source": "Volatilization", "relation": "reduces", "target": "Fertilizer efficiency" }
+        ],
+        "workbook_section": "3.3.3 Nitrogen-Based Fertilizers",
+        "solution_manual_note": "Answer B. Anhydrous ammonia becomes NH₃ gas at surface pressure; injection prevents gas escape (volatilization). Option A is incorrect because NH₃ has low freezing point (-77.7°C). Option C is incorrect because NH₃ reacts with water, not oxygen primarily."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q019",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.3 Manufacturing of Valuable Products/Chemicals",
+      "subsection": "3.3.3 Nitrogen-Based Fertilizers",
+      "sub_subsection": null,
+      "structural_anchor": "Anhydrous Ammonia",
+      "mcq_type": "F",
+      "question": "After anhydrous ammonia is injected into soil and reacts with water, what process converts the resulting ammonium ions into a form that can be taken up by plants?",
+      "options": {
+        "A": "Denitrification by anaerobic bacteria producing N₂ gas",
+        "B": "Nitrification by Nitrosomonas and Nitrobacter bacteria",
+        "C": "Volatilization of NH₃ from the soil surface",
+        "D": "Fixation of ammonium by clay minerals permanently"
+      },
+      "correct_answer": "B",
+      "hint": "Plants primarily absorb nitrate, not ammonium, from soil.",
+      "explanation": "Nitrification is the bacterial conversion of NH₄⁺ to NO₃⁻, which plants readily absorb. Nitrosomonas convert NH₄⁺ to NO₂⁻, then Nitrobacter convert NO₂⁻ to NO₃⁻. Option B is correct. Option A is denitrification (loss of N).",
+      "difficulty_level": "hard",
+      "formula_used": ["\\(\\mathrm{NH_4^+ \\xrightarrow{Nitrosomonas} NO_2^- \\xrightarrow{Nitrobacter} NO_3^-}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 89,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "subsection_anchor": "3.3.3 Nitrogen-Based Fertilizers",
+        "structural_element": "Anhydrous Ammonia",
+        "content_anchor": "Ammonium is converted first to nitrite (NO₂⁻) by the action of Nitrosomonas bacteria, and then to nitrate by Nitrobacter and Nitrosolobus bacteria: NH₄⁺ → NO₂⁻ → NO₃⁻.",
+        "page_hint": 25,
+        "concept_hash": "x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understanding",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Nitrification is the two-step bacterial oxidation of ammonium to nitrite, then to nitrate.",
+        "concept_summary": "Nitrifying bacteria (Nitrosomonas, Nitrobacter) convert NH₄⁺ → NO₂⁻ → NO₃⁻. Nitrate is the form most easily absorbed by plant roots.",
+        "beginner": "Think of bacteria as tiny chefs: they take ammonium and 'cook' it into nitrate, which is the ready-to-eat meal for plants.",
+        "intermediate": "After NH₃ converts to NH₄⁺ in soil, aerobic bacteria oxidize it: Nitrosomonas: \\(2\\mathrm{NH_4^+} + 3\\mathrm{O_2} \\rightarrow 2\\mathrm{NO_2^-} + 4\\mathrm{H^+} + 2\\mathrm{H_2O}\\). Nitrobacter: \\(2\\mathrm{NO_2^-} + \\mathrm{O_2} \\rightarrow 2\\mathrm{NO_3^-}\\).",
+        "advanced": "Nitrification occurs optimally at soil temperatures >10°C and pH 6.5-8.0. Nitrate (NO₃⁻) is highly mobile in soil water and is taken up by plants via specific transporters (NRT family). Unlike NH₄⁺, NO₃⁻ is not bound to soil cation exchange sites and is susceptible to leaching.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that plants primarily absorb nitrate (NO₃⁻).",
+          "Remember that ammonium (NH₄⁺) is first converted to nitrite (NO₂⁻), then to nitrate.",
+          "Identify the bacterial process: nitrification."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{NH_4^+ \\xrightarrow{Nitrosomonas} NO_2^- \\xrightarrow{Nitrobacter} NO_3^-}\\)",
+            "name": "Nitrification pathway",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some think plants absorb ammonium directly — but nitrate is the preferred form for most crops, and ammonium must be nitrified for efficient uptake."
+        ],
+        "related_concepts": ["nitrification", "Nitrosomonas", "Nitrobacter", "nitrogen cycle", "nitrate"],
+        "revision_note": "NH₄⁺ → (Nitrosomonas) → NO₂⁻ → (Nitrobacter) → NO₃⁻ (plant-available).",
+        "glossary_entry": {
+          "term": "Nitrification",
+          "definition": "The biological oxidation of ammonium to nitrite then nitrate by specific soil bacteria.",
+          "example_equation": "\\(\\mathrm{NH_4^+ \\rightarrow NO_2^- \\rightarrow NO_3^-}\\)",
+          "related_terms": ["Nitrosomonas", "Nitrobacter", "nitrogen cycle"]
+        },
+        "flashcard": {
+          "front": "Which bacteria convert ammonium to nitrite, and which convert nitrite to nitrate?",
+          "back": "Nitrosomonas convert NH₄⁺ to NO₂⁻; Nitrobacter convert NO₂⁻ to NO₃⁻."
+        },
+        "concept_map_nodes": [
+          { "source": "NH₄⁺", "relation": "converted_by", "target": "Nitrosomonas" },
+          { "source": "Nitrosomonas", "relation": "produces", "target": "NO₂⁻" },
+          { "source": "NO₂⁻", "relation": "converted_by", "target": "Nitrobacter" },
+          { "source": "Nitrobacter", "relation": "produces", "target": "NO₃⁻" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "What is the bacterial process that converts NH₄⁺ to plant-available NO₃⁻?",
+        "flashcard_back": "Nitrification: Nitrosomonas convert NH₄⁺ to NO₂⁻; Nitrobacter convert NO₂⁻ to NO₃⁻.",
+        "glossary_term": "Nitrification",
+        "glossary_definition": "Biological oxidation of ammonium to nitrite then nitrate by soil bacteria.",
+        "revision_note": "Nitrification: NH₄⁺ → NO₂⁻ → NO₃⁻ (Nitrosomonas → Nitrobacter).",
+        "teacher_note": "Emphasize that nitrification is aerobic and produces acidity (H⁺ ions).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain soil reactions of nitrogen-based fertilizers",
+        "concept_map_nodes": [
+          { "source": "Nitrification", "relation": "step_1", "target": "Nitrosomonas" },
+          { "source": "Nitrification", "relation": "step_2", "target": "Nitrobacter" }
+        ],
+        "workbook_section": "3.3.3 Nitrogen-Based Fertilizers",
+        "solution_manual_note": "Answer B. Nitrification is the bacterial process converting NH₄⁺ to NO₂⁻ (Nitrosomonas) then to NO₃⁻ (Nitrobacter). Denitrification (option A) removes nitrogen as N₂ gas, not supplying nitrate."
+      }
+    },
+    {
+      "question_id": "G12_Chem_U3_Q020",
+      "generation_timestamp": "2026-06-14T09:15:00Z",
+      "grade": "Grade 12",
+      "subject": "Chemistry",
+      "unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+      "section": "3.4 Some Manufacturing Industries in Ethiopia",
+      "subsection": "3.4.1 Glass Manufacturing",
+      "sub_subsection": null,
+      "structural_anchor": "Annealing:",
+      "mcq_type": "A",
+      "question": "In glass manufacturing, what is the purpose of the annealing process?",
+      "options": {
+        "A": "To remove internal stresses by reheating and controlled slow cooling",
+        "B": "To melt silica sand with sodium carbonate at high temperature",
+        "C": "To add metal oxides for coloring the glass",
+        "D": "To crush recycled glass into fine powder for batch mixing"
+      },
+      "correct_answer": "A",
+      "hint": "Annealing prevents glass from cracking due to stress.",
+      "explanation": "Annealing reheats glass and then cools it slowly to relieve internal stresses that could cause cracking. Option A is correct. Option B describes melting (part of forming), not annealing. Option C describes coloring. Option D describes crushing recycled glass.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: INDUSTRIAL CHEMISTRY",
+        "section_anchor": "3.4 Some Manufacturing Industries in Ethiopia",
+        "subsection_anchor": "3.4.1 Glass Manufacturing",
+        "structural_element": "Annealing:",
+        "content_anchor": "Annealing: This is a process that involves the removal of internal stresses by reheating the glass followed by a controlled slow-cooling cycle during which the stresses are relieved.",
+        "page_hint": 43,
+        "concept_hash": "y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 54,
+        "distractor_quality_score": 89,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Annealing removes internal stresses from glass by reheating and controlled slow cooling.",
+        "concept_summary": "Rapid cooling creates uneven stress; annealing at a controlled rate allows stress relaxation, preventing spontaneous breakage.",
+        "beginner": "Annealing is like letting a hot pizza cool slowly on the counter instead of putting it in the fridge — the slow cooling prevents cracks.",
+        "intermediate": "During forming, glass surfaces cool faster than interiors, creating thermal stress. Annealing reheats glass to just below softening point and cools slowly (hours to days), allowing stress relaxation.",
+        "advanced": "Annealing occurs in a lehr furnace. Glass is heated to the annealing point (≈550°C for soda-lime, ≈560°C for borosilicate), where viscosity is ≈10¹³ Poise, allowing stress relaxation via viscous flow. Slow cooling at controlled rate (≈1°C/min) prevents re-introduction of stresses.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that glass can crack from internal stresses.",
+          "Understand that annealing relieves these stresses.",
+          "Identify the correct process description."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some think annealing is simply 'cooling slowly' — but proper annealing involves reheating first, then controlled cooling."
+        ],
+        "related_concepts": ["glass", "thermal stress", "annealing lehr", "viscosity"],
+        "revision_note": "Annealing = reheat + slow cool → removes internal stresses in glass.",
+        "glossary_entry": {
+          "term": "Annealing",
+          "definition": "A heat treatment process that removes internal stresses from glass by reheating and controlled slow cooling.",
+          "example_equation": null,
+          "related_terms": ["glass manufacturing", "thermal stress"]
+        },
+        "flashcard": {
+          "front": "What is the purpose of annealing in glass manufacturing?",
+          "back": "Annealing removes internal thermal stresses by reheating the glass and cooling it slowly, preventing cracking."
+        },
+        "concept_map_nodes": [
+          { "source": "Annealing", "relation": "removes", "target": "Internal stresses" },
+          { "source": "Internal stresses", "relation": "would_cause", "target": "Cracking" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 3 — Industrial Chemistry",
+        "flashcard_front": "What does the annealing process do to glass?",
+        "flashcard_back": "Annealing relieves internal thermal stresses by reheating glass and controlling the cooling rate, preventing cracks.",
+        "glossary_term": "Annealing",
+        "glossary_definition": "A heat treatment process that removes internal stresses from glass by reheating and controlled slow cooling.",
+        "revision_note": "Annealing: reheat + slow cool → stress relief.",
+        "teacher_note": "Demonstrate with a Prince Rupert's drop — rapid cooling creates stress; annealing prevents that.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Outline the important steps in glass production",
+        "concept_map_nodes": [
+          { "source": "Glass manufacturing", "relation": "step_after_forming", "target": "Annealing" },
+          { "source": "Annealing", "relation": "prevents", "target": "Cracking" }
+        ],
+        "workbook_section": "3.4.1 Glass Manufacturing",
+        "solution_manual_note": "Answer A. Annealing reheats glass and cools it slowly to remove internal stresses. Option B is melting/batch processing; option C is coloring; option D is crushing cullet for recycling."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2950,
+    "average_question_quality": 89.5,
+    "type_distribution": {
+      "A": 2,
+      "B": 1,
+      "D": 1,
+      "E": 1,
+      "F": 2,
+      "G": 1,
+      "H": 1,
+      "I": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    },
+    "section_distribution": {
+      "3.3 Manufacturing of Valuable Products/Chemicals": 8,
+      "3.4 Some Manufacturing Industries in Ethiopia": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 37,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

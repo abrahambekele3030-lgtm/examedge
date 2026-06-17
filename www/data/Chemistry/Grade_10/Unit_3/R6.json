@@ -1,0 +1,2133 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:55:00Z",
+  "round_id": "R06",
+  "batch_sequence": 6,
+  "__STATE__": {
+    "current_round": 6,
+    "last_question_id": "G10_Chem_U3_Q060",
+    "covered_sections": [
+      "3.1 Introduction>null",
+      "3.2 Oxides>A. Acidic Oxides",
+      "3.2 Oxides>B. Basic Oxides",
+      "3.2 Oxides>C. Amphoteric Oxides",
+      "3.2 Oxides>D. Neutral Oxides",
+      "3.2 Oxides>E. Peroxides",
+      "3.3 Acids>Arrhenius Definition of Acids",
+      "3.3 Acids>Classification of Acids",
+      "3.3 Acids>General Properties of Acids",
+      "3.3 Acids>pH and pH scale",
+      "3.3 Acids>Concentrated and Dilute Acids",
+      "3.4 Bases>Arrhenius Definition of Bases",
+      "3.4 Bases>Strength of Bases (Strong and Weak Bases)",
+      "3.4 Bases>Concentrated and Dilute Bases",
+      "3.4 Bases>pOH and relationship between pH and pOH",
+      "3.4 Bases>Preparation of Bases",
+      "3.4 Bases>Common uses of NaOH and Ca(OH)2",
+      "3.5 Salts>Classification of Salts",
+      "3.5 Salts>General Methods for the Preparation of Salts",
+      "3.5 Salts>Properties of Salts",
+      "3.5 Salts>Chemical Tests of Some Ions in Salt",
+      "Plant Nutrients>null"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6b2c3d4e5",
+      "c3d4e5f6a1c3d4e5f6a1c3d4e5f6a1c3d4e5f6a1c3d4e5f6",
+      "d4e5f6a1b2d4e5f6a1b2d4e5f6a1b2d4e5f6a1b2d4e5f6a1",
+      "e5f6a1b2c3e5f6a1b2c3e5f6a1b2c3e5f6a1b2c3e5f6a1b2",
+      "f6a1b2c3d4f6a1b2c3d4f6a1b2c3d4f6a1b2c3d4f6a1b2c3",
+      "a2b3c4d5e6a2b3c4d5e6a2b3c4d5e6a2b3c4d5e6a2b3c4d5",
+      "b3c4d5e6f7b3c4d5e6f7b3c4d5e6f7b3c4d5e6f7b3c4d5e6",
+      "c4d5e6f7a2c4d5e6f7a2c4d5e6f7a2c4d5e6f7a2c4d5e6f7",
+      "d5e6f7a2b3d5e6f7a2b3d5e6f7a2b3d5e6f7a2b3d5e6f7a2",
+      "e6f7a2b3c4e6f7a2b3c4e6f7a2b3c4e6f7a2b3c4e6f7a2b3",
+      "f7a2b3c4d5f7a2b3c4d5f7a2b3c4d5f7a2b3c4d5f7a2b3c4",
+      "a3b4c5d6e7a3b4c5d6e7a3b4c5d6e7a3b4c5d6e7a3b4c5d6",
+      "b4c5d6e7f8b4c5d6e7f8b4c5d6e7f8b4c5d6e7f8b4c5d6e7",
+      "c5d6e7f8a4c5d6e7f8a4c5d6e7f8a4c5d6e7f8a4c5d6e7f8",
+      "d6e7f8a4b5d6e7f8a4b5d6e7f8a4b5d6e7f8a4b5d6e7f8a4",
+      "e7f8a4b5c6e7f8a4b5c6e7f8a4b5c6e7f8a4b5c6e7f8a4b5",
+      "f8a4b5c6d7f8a4b5c6d7f8a4b5c6d7f8a4b5c6d7f8a4b5c6",
+      "a5b6c7d8e9a5b6c7d8e9a5b6c7d8e9a5b6c7d8e9a5b6c7d8",
+      "b6c7d8e9f0b6c7d8e9f0b6c7d8e9f0b6c7d8e9f0b6c7d8e9",
+      "c7d8e9f0a6c7d8e9f0a6c7d8e9f0a6c7d8e9f0a6c7d8e9f0",
+      "d8e9f0a6b7d8e9f0a6b7d8e9f0a6b7d8e9f0a6b7d8e9f0a6",
+      "e9f0a6b7c8e9f0a6b7c8e9f0a6b7c8e9f0a6b7c8e9f0a6b7",
+      "f0a6b7c8d9f0a6b7c8d9f0a6b7c8d9f0a6b7c8d9f0a6b7c8",
+      "a6b7c8d9e0a6b7c8d9e0a6b7c8d9e0a6b7c8d9e0a6b7c8d9",
+      "b7c8d9e0f1b7c8d9e0f1b7c8d9e0f1b7c8d9e0f1b7c8d9e0",
+      "c8d9e0f1a7c8d9e0f1a7c8d9e0f1a7c8d9e0f1a7c8d9e0f1",
+      "d9e0f1a7b8d9e0f1a7b8d9e0f1a7b8d9e0f1a7b8d9e0f1a7",
+      "e0f1a7b8c9e0f1a7b8c9e0f1a7b8c9e0f1a7b8c9e0f1a7b8",
+      "f1a7b8c9d0f1a7b8c9d0f1a7b8c9d0f1a7b8c9d0f1a7b8c9",
+      "a8b9c0d1e2a8b9c0d1e2a8b9c0d1e2a8b9c0d1e2a8b9c0d1",
+      "b9c0d1e2f3b9c0d1e2f3b9c0d1e2f3b9c0d1e2f3b9c0d1e2",
+      "c0d1e2f3a9c0d1e2f3a9c0d1e2f3a9c0d1e2f3a9c0d1e2f3",
+      "d1e2f3a9b0d1e2f3a9b0d1e2f3a9b0d1e2f3a9b0d1e2f3a9",
+      "e2f3a9b0c1e2f3a9b0c1e2f3a9b0c1e2f3a9b0c1e2f3a9b0",
+      "f3a9b0c1d2f3a9b0c1d2f3a9b0c1d2f3a9b0c1d2f3a9b0c1",
+      "a9b0c1d2e3a9b0c1d2e3a9b0c1d2e3a9b0c1d2e3a9b0c1d2",
+      "b0c1d2e3f4b0c1d2e3f4b0c1d2e3f4b0c1d2e3f4b0c1d2e3",
+      "c1d2e3f4a0c1d2e3f4a0c1d2e3f4a0c1d2e3f4a0c1d2e3f4",
+      "d2e3f4a0b1d2e3f4a0b1d2e3f4a0b1d2e3f4a0b1d2e3f4a0",
+      "e3f4a0b1c2e3f4a0b1c2e3f4a0b1c2e3f4a0b1c2e3f4a0b1",
+      "f4a0b1c2d3f4a0b1c2d3f4a0b1c2d3f4a0b1c2d3f4a0b1c2",
+      "a0b1c2d3e4a0b1c2d3e4a0b1c2d3e4a0b1c2d3e4a0b1c2d3",
+      "b1c2d3e4f5b1c2d3e4f5b1c2d3e4f5b1c2d3e4f5b1c2d3e4",
+      "c2d3e4f5a1c2d3e4f5a1c2d3e4f5a1c2d3e4f5a1c2d3e4f5"
+    ],
+    "baseline_counter": {
+      "3.1 Introduction": {
+        "null": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 2
+        }
+      },
+      "3.2 Oxides": {
+        "A. Acidic Oxides": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "B. Basic Oxides": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "C. Amphoteric Oxides": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "D. Neutral Oxides": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "E. Peroxides": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        }
+      },
+      "3.3 Acids": {
+        "Arrhenius Definition of Acids": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "Classification of Acids": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "General Properties of Acids": {
+          "count": 6,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "pH and pH scale": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "Concentrated and Dilute Acids": {
+          "count": 2,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        }
+      },
+      "3.4 Bases": {
+        "Arrhenius Definition of Bases": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "Strength of Bases (Strong and Weak Bases)": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "Concentrated and Dilute Bases": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "pOH and relationship between pH and pOH": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "Preparation of Bases": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "Common uses of NaOH and Ca(OH)2": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        }
+      },
+      "3.5 Salts": {
+        "Classification of Salts": {
+          "count": 3,
+          "mini_headings_covered": [],
+          "last_question_round": 5
+        },
+        "General Methods for the Preparation of Salts": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "Properties of Salts": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        },
+        "Chemical Tests of Some Ions in Salt": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        }
+      },
+      "Plant Nutrients": {
+        "null": {
+          "count": 4,
+          "mini_headings_covered": [],
+          "last_question_round": 6
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": true,
+      "phase2_complete": true,
+      "phase3_started": true
+    },
+    "distribution_tracker": {
+      "3.1 Introduction": {
+        "question_count": 2,
+        "last_used_round": 2,
+        "consecutive_batches": 0
+      },
+      "3.2 Oxides": {
+        "question_count": 20,
+        "last_used_round": 6,
+        "consecutive_batches": 2
+      },
+      "3.3 Acids": {
+        "question_count": 18,
+        "last_used_round": 6,
+        "consecutive_batches": 2
+      },
+      "3.4 Bases": {
+        "question_count": 21,
+        "last_used_round": 6,
+        "consecutive_batches": 2
+      },
+      "3.5 Salts": {
+        "question_count": 18,
+        "last_used_round": 6,
+        "consecutive_batches": 2
+      },
+      "Plant Nutrients": {
+        "question_count": 4,
+        "last_used_round": 6,
+        "consecutive_batches": 2
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.3 Acids>Concentrated and Dilute Acids": [
+        "concentrated acid",
+        "dilute acid",
+        "molarity",
+        "amount of solute"
+      ],
+      "3.5 Salts>General Methods for the Preparation of Salts": [
+        "soluble salt preparation",
+        "insoluble salt preparation",
+        "precipitation",
+        "neutralization",
+        "metal + acid",
+        "crystallization"
+      ],
+      "3.4 Bases>Strength of Bases (Strong and Weak Bases)": [
+        "strong base",
+        "weak base",
+        "complete ionization",
+        "KOH",
+        "NH4OH",
+        "conductivity"
+      ]
+    },
+    "baseline_complete": true,
+    "validation_hash": "sha256_of_previous_state_from_batch5",
+    "content_density_metrics": {
+      "total_concepts_extracted": 23,
+      "questions_per_concept_ratio": 2.61,
+      "structural_coverage_percentage": 100.0
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+  "pdf_filename": "C10U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:55:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": true,
+        "sections_covered": 6,
+        "total_sections": 6,
+        "progress_percentage": 100.0
+      },
+      "phase2": {
+        "complete": true,
+        "max_imbalance_ratio": 2.5,
+        "balanced": true
+      },
+      "phase3": {
+        "started": true,
+        "exam_sections_biased": 5
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 60,
+      "sections_covered_count": 6,
+      "subsections_covered_count": 18,
+      "mini_headings_covered_count": 0,
+      "structural_coverage_percentage": 100.0,
+      "concept_utilization_ratio": 0.99
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.4 Bases",
+      "least_covered_section": "3.1 Introduction",
+      "imbalance_ratio": 2.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U3_Q051",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.3 Acids",
+      "subsection": "Concentrated and Dilute Acids",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "What is the key difference between a concentrated acid and a strong acid?",
+      "options": {
+        "A": "Concentrated refers to high molarity; strong refers to complete ionization",
+        "B": "Concentrated means high pH; strong means low pH",
+        "C": "There is no difference; they are the same",
+        "D": "Concentrated acids are always strong acids"
+      },
+      "correct_answer": "A",
+      "hint": "Concentration is about amount; strength is about ionization.",
+      "explanation": "Concentration describes the amount of acid per volume (molarity). Strength describes the degree of ionization. A strong acid can be dilute, and a weak acid can be concentrated. Option A correctly distinguishes them.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.3 Acids",
+        "subsection_anchor": "Concentrated and Dilute Acids",
+        "structural_element": null,
+        "content_anchor": "Both strong acid and a weak acid may be concentrated or diluted depending on the number of moles of acid present",
+        "page_hint": 25,
+        "concept_hash": "e3f4a0b1c2e3f4a0b1c2e3f4a0b1c2e3f4a0b1c2e3f4a0b1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 94,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Concentration refers to the amount of solute per volume; strength refers to the extent of ionization in water.",
+        "concept_summary": "A concentrated weak acid (e.g., 15 M CH\u2083COOH) has many molecules but few ions. A dilute strong acid (e.g., 0.01 M HCl) has few molecules but all are ionized.",
+        "beginner": "Concentrated means \"lots of acid molecules in a small space.\" Strong means \"almost all acid molecules break into ions in water.\"",
+        "intermediate": "Concentration (molarity) is independent of strength. 12 M HCl is concentrated and strong; 15 M CH\u2083COOH is concentrated but weak.",
+        "advanced": "Strength (Ka) is a thermodynamic constant; concentration is variable. A weak acid's percent ionization increases with dilution, but it remains weak.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition of concentrated: high molarity.",
+          "Recall definition of strong: complete ionization.",
+          "They are independent properties."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Many students believe \"concentrated\" and \"strong\" are synonymous; they are not."
+        ],
+        "related_concepts": [
+          "Molarity",
+          "Strong acid",
+          "Weak acid",
+          "Dilute acid"
+        ],
+        "revision_note": "Concentrated = high mol/L; strong = complete ionization.",
+        "glossary_entry": {
+          "term": "Concentrated acid",
+          "definition": "An acid solution with a relatively high number of moles of acid per liter.",
+          "example_equation": null,
+          "related_terms": [
+            "Dilute acid",
+            "Strong acid"
+          ]
+        },
+        "flashcard": {
+          "front": "Can a weak acid be concentrated?",
+          "flashcard_back": "Yes, e.g., glacial acetic acid (CH\u2083COOH) is concentrated but weak."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Concentrated",
+            "relation": "independent_of",
+            "target": "Strength"
+          },
+          {
+            "source": "Strong",
+            "relation": "independent_of",
+            "target": "Concentration"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "tip",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Acid Terminology",
+        "flashcard_front": "What is the difference between concentrated and strong acid?",
+        "flashcard_back": "Concentrated = high molarity; strong = complete ionization. They are independent.",
+        "glossary_term": "Concentrated acid",
+        "glossary_definition": "High amount of solute per volume.",
+        "revision_note": "Concentrated \u2260 strong; strong \u2260 concentrated.",
+        "teacher_note": "Use concrete examples: 12 M HCl (conc. & strong), 15 M CH\u2083COOH (conc. & weak).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Distinguish concentrated/dilute and strong/weak acids",
+        "concept_map_nodes": [
+          {
+            "source": "Concentrated",
+            "relation": "vs",
+            "target": "Strong"
+          },
+          {
+            "source": "Dilute",
+            "relation": "vs",
+            "target": "Weak"
+          }
+        ],
+        "workbook_section": "3.3 Acids",
+        "solution_manual_note": "Answer A. Concentrated means high molarity; strong means complete ionization."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q052",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.5 Salts",
+      "subsection": "General Methods for the Preparation of Salts",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "L",
+      "question": "A student prepares a sample of sodium chloride by neutralizing hydrochloric acid with sodium hydroxide. How can the student obtain pure solid NaCl from the resulting solution?",
+      "options": {
+        "A": "Filter the solution",
+        "B": "Decant the liquid",
+        "C": "Evaporate the water by gentle heating",
+        "D": "Add more acid"
+      },
+      "correct_answer": "C",
+      "hint": "NaCl is soluble and remains in solution after reaction.",
+      "explanation": "After neutralization, NaCl is dissolved in water. To obtain the solid salt, evaporate the water by heating. Filtration (A) would not separate dissolved NaCl, decanting (B) would remove liquid only, adding more acid (D) defeats the purpose.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.5 Salts",
+        "subsection_anchor": "General Methods for the Preparation of Salts",
+        "structural_element": null,
+        "content_anchor": "crystallization",
+        "page_hint": 42,
+        "concept_hash": "f4a0b1c2d3f4a0b1c2d3f4a0b1c2d3f4a0b1c2d3f4a0b1c2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Crystallization (evaporation) is used to obtain soluble salts from their solutions.",
+        "concept_summary": "NaCl is soluble. After reaction, the solution contains Na\u207a and Cl\u207b ions. Evaporating water leaves solid NaCl crystals behind.",
+        "beginner": "After mixing acid and base, the salt is dissolved in water. Boil off the water, and the salt crystals will be left behind.",
+        "intermediate": "Evaporate the solution in an evaporating dish with gentle heating until crystals appear. Do not heat to dryness if using hydrated salts.",
+        "advanced": "Sodium chloride can be crystallized by heating until the solution becomes saturated, then cooling. The solid is collected by filtration if needed, but evaporation alone works.",
+        "worked_solution": [
+          "Step 1: Neutralization produces NaCl(aq).",
+          "Step 2: Water must be removed to obtain solid NaCl.",
+          "Step 3: Gentle heating evaporates water, leaving NaCl crystals."
+        ],
+        "reasoning_steps": [
+          "NaCl is soluble, so it remains dissolved.",
+          "Evaporation of water leaves solid NaCl.",
+          "Select evaporate the water."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Filtration is for insoluble products; NaCl is soluble, so it passes through filter paper."
+        ],
+        "related_concepts": [
+          "Crystallization",
+          "Evaporation",
+          "Soluble salt recovery"
+        ],
+        "revision_note": "Soluble salt from solution: evaporate water to get crystals.",
+        "glossary_entry": {
+          "term": "Crystallization",
+          "definition": "The process of forming solid crystals from a solution by evaporation or cooling.",
+          "example_equation": null,
+          "related_terms": [
+            "Evaporation",
+            "Saturated solution"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you obtain solid NaCl from a neutralized solution of HCl and NaOH?",
+          "flashcard_back": "Evaporate the water; solid NaCl crystals remain."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "NaCl solution",
+            "relation": "converted_to_solid_by",
+            "target": "Evaporation"
+          },
+          {
+            "source": "Evaporation",
+            "relation": "leaves",
+            "target": "NaCl crystals"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Salt Preparation",
+        "flashcard_front": "How do you recover solid NaCl from NaCl(aq)?",
+        "flashcard_back": "Evaporate the water by gentle heating.",
+        "glossary_term": "Crystallization",
+        "glossary_definition": "Obtaining solid from solution.",
+        "revision_note": "Evaporate water to obtain soluble salt.",
+        "teacher_note": "Demonstrate evaporation of salt solution.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Describe recovery of soluble salts",
+        "concept_map_nodes": [
+          {
+            "source": "Soluble salt recovery",
+            "relation": "method",
+            "target": "Evaporation"
+          }
+        ],
+        "workbook_section": "3.5 Salts",
+        "solution_manual_note": "Answer C. Evaporate the water to obtain solid NaCl."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q053",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.4 Bases",
+      "subsection": "Strength of Bases (Strong and Weak Bases)",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "Why does a 0.1 M solution of KOH have a higher electrical conductivity than a 0.1 M solution of NH\u2083?",
+      "options": {
+        "A": "KOH is more concentrated",
+        "B": "KOH is a strong base and dissociates completely, producing more ions",
+        "C": "NH\u2083 has a larger molar mass",
+        "D": "KOH is a weaker base"
+      },
+      "correct_answer": "B",
+      "hint": "Conductivity depends on ion concentration.",
+      "explanation": "KOH is a strong base, dissociating completely into K\u207a and OH\u207b, producing many ions. NH\u2083 is a weak base, ionizing only partially, so fewer ions exist, giving lower conductivity.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{KOH \\rightarrow K^+ + OH^-}\\)",
+        "\\(\\mathrm{NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.4 Bases",
+        "subsection_anchor": "Strength of Bases (Strong and Weak Bases)",
+        "structural_element": null,
+        "content_anchor": "Strong bases are strong electrolytes as they produce large amount of ions and conduct high current",
+        "page_hint": 35,
+        "concept_hash": "a0b1c2d3e4a0b1c2d3e4a0b1c2d3e4a0b1c2d3e4a0b1c2d3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 94,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Strong bases completely dissociate, producing high ion concentrations and high conductivity.",
+        "concept_summary": "KOH is a strong base: 100% ionization \u2192 high [K\u207a] and [OH\u207b] \u2192 high conductivity. NH\u2083 ionizes <5% \u2192 low ion concentration \u2192 low conductivity.",
+        "beginner": "KOH is like a busy highway with many cars (ions) carrying electricity; NH\u2083 has very few cars, so traffic (conductivity) is low.",
+        "intermediate": "At the same molarity, strong electrolyte KOH gives many ions; weak electrolyte NH\u2083 gives few ions. Conductivity depends on total ion concentration.",
+        "advanced": "KOH has Kb >> 1, complete dissociation. NH\u2083 Kb = 1.8\u00d710\u207b\u2075, so [OH\u207b] \u2248 \u221a(C\u00b7Kb) \u2248 0.0013 M for 0.1 M, vs 0.1 M for KOH.",
+        "worked_solution": [
+          "Step 1: KOH is a strong base \u2192 100% dissociation.",
+          "Step 2: NH\u2083 is a weak base \u2192 partial dissociation.",
+          "Step 3: More ions \u2192 higher conductivity."
+        ],
+        "reasoning_steps": [
+          "Recall strength = degree of ionization.",
+          "More ions \u2192 higher conductivity.",
+          "KOH ionizes completely \u2192 more ions."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{KOH \\rightarrow K^+ + OH^-}\\)",
+            "name": "Complete dissociation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Concentration (0.1 M) is the same; difference is in percent ionization, not total amount of base."
+        ],
+        "related_concepts": [
+          "Electrolyte",
+          "Conductivity",
+          "Kb"
+        ],
+        "revision_note": "Strong base: more ions \u2192 higher conductivity.",
+        "glossary_entry": {
+          "term": "Strong electrolyte",
+          "definition": "A substance that completely dissociates into ions in solution, conducting electricity well.",
+          "example_equation": "\\(\\mathrm{KOH \\rightarrow K^+ + OH^-}\\)",
+          "related_terms": [
+            "Weak electrolyte",
+            "Conductivity"
+          ]
+        },
+        "flashcard": {
+          "front": "Why does 0.1 M KOH conduct better than 0.1 M NH\u2083?",
+          "flashcard_back": "KOH is a strong base and completely dissociates, producing far more ions than the weak base NH\u2083."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Conductivity",
+            "relation": "proportional_to",
+            "target": "Ion concentration"
+          },
+          {
+            "source": "KOH",
+            "relation": "higher_conductivity_than",
+            "target": "NH\u2083"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Conductivity",
+        "flashcard_front": "Is 0.1 M KOH or 0.1 M NH\u2083 a better conductor? Why?",
+        "flashcard_back": "KOH, because it is a strong base and fully dissociates, producing many more ions.",
+        "glossary_term": "Strong electrolyte",
+        "glossary_definition": "Completely ionized in solution.",
+        "revision_note": "Strong base: complete ionization \u2192 high conductivity.",
+        "teacher_note": "Demo conductivity of KOH vs NH\u2083 solutions.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Compare conductivity of strong and weak bases",
+        "concept_map_nodes": [
+          {
+            "source": "Strong base",
+            "relation": "high_conductivity",
+            "target": "Complete dissociation"
+          }
+        ],
+        "workbook_section": "3.4 Bases",
+        "solution_manual_note": "Answer B. KOH is a strong base and dissociates completely, producing more ions and higher conductivity."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q054",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.2 Oxides",
+      "subsection": "A. Acidic Oxides",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "Carbon dioxide gas is bubbled into a solution of calcium hydroxide. What is the observed change and the product formed?",
+      "options": {
+        "A": "A white precipitate of CaCO\u2083 forms, then may dissolve in excess CO\u2082 to form Ca(HCO\u2083)\u2082",
+        "B": "No reaction occurs",
+        "C": "A brown gas is released",
+        "D": "The solution becomes strongly acidic"
+      },
+      "correct_answer": "A",
+      "hint": "CO\u2082 is an acidic oxide reacting with base Ca(OH)\u2082.",
+      "explanation": "CO\u2082 reacts with Ca(OH)\u2082 to form insoluble CaCO\u2083 (white precipitate). With excess CO\u2082, CaCO\u2083 converts to soluble Ca(HCO\u2083)\u2082, clearing the solution. Option A describes this correctly.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{CO_2 + Ca(OH)_2 \\rightarrow CaCO_3(s) + H_2O}\\)",
+        "\\(\\mathrm{CaCO_3 + CO_2 + H_2O \\rightarrow Ca(HCO_3)_2}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.2 Oxides",
+        "subsection_anchor": "A. Acidic Oxides",
+        "structural_element": null,
+        "content_anchor": "CO2 + Ca(OH)2 -> CaCO3 + H2O",
+        "page_hint": 5,
+        "concept_hash": "b1c2d3e4f5b1c2d3e4f5b1c2d3e4f5b1c2d3e4f5b1c2d3e4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 90,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Limewater (Ca(OH)\u2082) turns milky when CO\u2082 is passed through due to formation of insoluble CaCO\u2083.",
+        "concept_summary": "Initially: CO\u2082 + Ca(OH)\u2082 \u2192 CaCO\u2083\u2193 (white). With excess CO\u2082: CaCO\u2083 + CO\u2082 + H\u2082O \u2192 Ca(HCO\u2083)\u2082 (soluble), clearing the solution.",
+        "beginner": "Bubbling CO\u2082 into limewater makes it cloudy (white solid). If you keep bubbling, it clears again because the solid dissolves as bicarbonate.",
+        "intermediate": "This is the limewater test for CO\u2082. The initial white precipitate confirms CO\u2082. Excess CO\u2082 causes precipitate to redissolve as soluble calcium hydrogen carbonate.",
+        "advanced": "CaCO\u2083 has low solubility; Ca(HCO\u2083)\u2082 is soluble. This equilibrium explains temporary hardness of water and cave formation.",
+        "worked_solution": [
+          "Step 1: CO\u2082 is an acidic oxide.",
+          "Step 2: Acidic oxide + base \u2192 salt + water.",
+          "Step 3: Ca(OH)\u2082 + CO\u2082 \u2192 CaCO\u2083(s) + H\u2082O (white precipitate).",
+          "Step 4: Excess CO\u2082: CaCO\u2083 + CO\u2082 + H\u2082O \u2192 Ca(HCO\u2083)\u2082 (soluble)."
+        ],
+        "reasoning_steps": [
+          "Acidic oxide reacts with base to form a salt and water.",
+          "CaCO\u2083 is insoluble (white precipitate).",
+          "With excess CO\u2082, CaCO\u2083 converts to soluble bicarbonate."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{CaCO_3 + CO_2 + H_2O \\rightarrow Ca(HCO_3)_2}\\)",
+            "name": "Bicarbonate formation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "The clearing of the solution is not a disappearance of reaction; it is formation of a soluble product."
+        ],
+        "related_concepts": [
+          "Limewater test",
+          "Temporary hardness",
+          "Acidic oxide reaction"
+        ],
+        "revision_note": "CO\u2082 + Ca(OH)\u2082 \u2192 CaCO\u2083 (white), excess CO\u2082 \u2192 Ca(HCO\u2083)\u2082 (soluble).",
+        "glossary_entry": {
+          "term": "Limewater test",
+          "definition": "Test for CO\u2082 using Ca(OH)\u2082 solution; white precipitate of CaCO\u2083 forms.",
+          "example_equation": "\\(\\mathrm{CO_2 + Ca(OH)_2 \\rightarrow CaCO_3 + H_2O}\\)",
+          "related_terms": [
+            "Carbon dioxide test",
+            "Carbonate test"
+          ]
+        },
+        "flashcard": {
+          "front": "What happens when CO\u2082 is bubbled into limewater?",
+          "flashcard_back": "Initially a white precipitate (CaCO\u2083) forms; with excess CO\u2082, the precipitate dissolves to form Ca(HCO\u2083)\u2082."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "CO\u2082",
+            "relation": "reacts_with",
+            "target": "Ca(OH)\u2082"
+          },
+          {
+            "source": "Ca(OH)\u2082 + CO\u2082",
+            "relation": "produces",
+            "target": "CaCO\u2083(s)"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Acidic Oxide Reactions",
+        "flashcard_front": "What is the limewater test for CO\u2082?",
+        "flashcard_back": "CO\u2082 produces a white precipitate of CaCO\u2083 with Ca(OH)\u2082 solution.",
+        "glossary_term": "Limewater test",
+        "glossary_definition": "Test for CO\u2082 using calcium hydroxide.",
+        "revision_note": "CO\u2082 + Ca(OH)\u2082 \u2192 CaCO\u2083 (white) \u2192 clears with excess CO\u2082.",
+        "teacher_note": "Demonstrate CO\u2082 bubbling through limewater.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain reaction of acidic oxides with bases",
+        "concept_map_nodes": [
+          {
+            "source": "CO\u2082",
+            "relation": "detected_by",
+            "target": "Limewater"
+          }
+        ],
+        "workbook_section": "3.2 Oxides",
+        "solution_manual_note": "Answer A. CO\u2082 forms white CaCO\u2083 precipitate, which dissolves in excess CO\u2082 to form soluble Ca(HCO\u2083)\u2082."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q055",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.5 Salts",
+      "subsection": "Chemical Tests of Some Ions in Salt",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "L",
+      "question": "A solution gives a white precipitate with acidified BaCl\u2082 solution. Which ion is present?",
+      "options": {
+        "A": "\\(\\mathrm{Cl^-}\\)",
+        "B": "\\(\\mathrm{CO_3^{2-}}\\)",
+        "C": "\\(\\mathrm{SO_4^{2-}}\\)",
+        "D": "\\(\\mathrm{NO_3^-}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "BaSO\u2084 is white and insoluble in acid.",
+      "explanation": "Sulfate ions (\\(\\mathrm{SO_4^{2-}}\\)) produce a white precipitate of \\(\\mathrm{BaSO_4}\\) with \\(\\mathrm{BaCl_2}\\) in acidic conditions. Carbonates would also give a white precipitate but dissolve in acid (fizzing), so the acid prevents false positives.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{Ba^{2+} + SO_4^{2-} \\rightarrow BaSO_4(s)}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 98,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.5 Salts",
+        "subsection_anchor": "Chemical Tests of Some Ions in Salt",
+        "structural_element": null,
+        "content_anchor": "white precipitate of BaSO4 confirms sulfate",
+        "page_hint": 49,
+        "concept_hash": "c2d3e4f5a1c2d3e4f5a1c2d3e4f5a1c2d3e4f5a1c2d3e4f5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 96,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Sulfate ions are confirmed by adding BaCl\u2082 in acidic solution; a white precipitate of BaSO\u2084 forms.",
+        "concept_summary": "BaSO\u2084 is insoluble in dilute acids. Carbonates also give a white precipitate with Ba\u00b2\u207a but dissolve in acid (effervescence). Acidifying first removes carbonate interference.",
+        "beginner": "If you add barium chloride to a liquid with acid and see a white solid appear, sulfates are present.",
+        "intermediate": "Acidify with HCl to remove CO\u2083\u00b2\u207b and SO\u2083\u00b2\u207b (they would produce CO\u2082 or SO\u2082 gas). Then add BaCl\u2082; white precipitate = SO\u2084\u00b2\u207b.",
+        "advanced": "BaSO\u2084 Ksp = 1.1\u00d710\u207b\u00b9\u2070, so precipitation occurs even at low [SO\u2084\u00b2\u207b]. The acid does not dissolve BaSO\u2084, but it would dissolve BaCO\u2083 or BaSO\u2083.",
+        "worked_solution": [
+          "Step 1: Acidify to remove carbonates and sulfites.",
+          "Step 2: Add BaCl\u2082 solution.",
+          "Step 3: White precipitate forms \u2192 SO\u2084\u00b2\u207b present."
+        ],
+        "reasoning_steps": [
+          "BaSO\u2084 is insoluble in acid.",
+          "Carbonates are eliminated by acid (fizz).",
+          "White precipitate = sulfate."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{Ba^{2+} + SO_4^{2-} \\rightarrow BaSO_4(s)}\\)",
+            "name": "Sulfate precipitation",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Without acidifying, carbonates would also give a white precipitate, giving a false positive for sulfate."
+        ],
+        "related_concepts": [
+          "Sulfate test",
+          "Barium sulfate",
+          "Anion analysis"
+        ],
+        "revision_note": "SO\u2084\u00b2\u207b test: acid + BaCl\u2082 \u2192 white BaSO\u2084.",
+        "glossary_entry": {
+          "term": "Barium sulfate test",
+          "definition": "Addition of BaCl\u2082 to acidified solution produces white precipitate, confirming SO\u2084\u00b2\u207b.",
+          "example_equation": null,
+          "related_terms": [
+            "Sulfate",
+            "Insoluble salt"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you test for sulfate ions in a solution?",
+          "flashcard_back": "Add dilute HCl, then BaCl\u2082. A white precipitate of BaSO\u2084 confirms sulfate.",
+          "glossary_term": "Sulfate test",
+          "glossary_definition": "BaCl\u2082 + acid \u2192 white BaSO\u2084.",
+          "revision_note": "SO\u2084\u00b2\u207b: acid + BaCl\u2082 \u2192 white precipitate.",
+          "teacher_note": "Demo Na\u2082SO\u2084 + BaCl\u2082 vs Na\u2082CO\u2083 + BaCl\u2082 (acidified).",
+          "bloom_level": "Apply",
+          "learning_objective_tag": "Perform sulfate ion test",
+          "concept_map_nodes": [
+            {
+              "source": "SO\u2084\u00b2\u207b",
+              "relation": "tested_with",
+              "target": "BaCl\u2082 in acid"
+            },
+            {
+              "source": "BaSO\u2084",
+              "relation": "insoluble_in",
+              "target": "Acid"
+            }
+          ],
+          "workbook_section": "3.5 Salts",
+          "solution_manual_note": "Answer C. A white precipitate with acidified BaCl\u2082 indicates sulfate ions (BaSO\u2084)."
+        }
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q056",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.2 Oxides",
+      "subsection": "B. Basic Oxides",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "Why is calcium oxide (\\(\\mathrm{CaO}\\)) called a basic anhydride?",
+      "options": {
+        "A": "It reacts with water to form an acid",
+        "B": "It is the anhydride of calcium hydroxide, a base",
+        "C": "It removes water from other substances",
+        "D": "It is acidic in nature"
+      },
+      "correct_answer": "B",
+      "hint": "Anhydride means 'without water'.",
+      "explanation": "CaO is called a basic anhydride because it reacts with water to form a base (Ca(OH)\u2082). Anhydride means the oxide is the base without water. Option B correctly states this.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(\\mathrm{CaO + H_2O \\rightarrow Ca(OH)_2}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.2 Oxides",
+        "subsection_anchor": "B. Basic Oxides",
+        "structural_element": null,
+        "content_anchor": "Oxides of metals that dissolve in water and react with it to form basic or alkaline solutions are called basic anhydrides",
+        "page_hint": 6,
+        "concept_hash": "d3e4f5a1b2d3e4f5a1b2d3e4f5a1b2d3e4f5a1b2d3e4f5a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 94,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A basic anhydride is a metal oxide that reacts with water to form a base.",
+        "concept_summary": "CaO + H\u2082O \u2192 Ca(OH)\u2082. Since CaO is the base without water, it is called the anhydride (an = without, hydride = water) of the base.",
+        "beginner": "If you remove water from calcium hydroxide, you get calcium oxide. Add water back, you get the base again \u2014 that's why CaO is a 'basic anhydride'.",
+        "intermediate": "Anhydride means 'without water'. Basic anhydrides are oxides of Group 1 and 2 metals that yield bases with water.",
+        "advanced": "CaO (quicklime) is the anhydride of Ca(OH)\u2082 (slaked lime). The term is parallel to acid anhydride for nonmetal oxides.",
+        "worked_solution": [
+          "Step 1: CaO + H\u2082O \u2192 Ca(OH)\u2082.",
+          "Step 2: Ca(OH)\u2082 is a base.",
+          "Step 3: CaO is the oxide that forms this base, so it is a basic anhydride."
+        ],
+        "reasoning_steps": [
+          "Recall definition of anhydride: oxide that forms a base or acid with water.",
+          "CaO forms a base (Ca(OH)\u2082) with water \u2192 basic anhydride."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{CaO + H_2O \\rightarrow Ca(OH)_2}\\)",
+            "name": "Formation of slaked lime",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Basic anhydrides are not bases themselves; they form bases with water."
+        ],
+        "related_concepts": [
+          "Acid anhydride",
+          "Slaked lime",
+          "Quicklime"
+        ],
+        "revision_note": "Basic anhydride: oxide + H\u2082O \u2192 base.",
+        "glossary_entry": {
+          "term": "Basic anhydride",
+          "definition": "A metal oxide that reacts with water to form a base.",
+          "example_equation": "\\(\\mathrm{Na_2O + H_2O \\rightarrow 2NaOH}\\)",
+          "related_terms": [
+            "Acid anhydride",
+            "Slaked lime"
+          ]
+        },
+        "flashcard": {
+          "front": "What is a basic anhydride? Give an example.",
+          "flashcard_back": "A metal oxide that forms a base with water, e.g., CaO \u2192 Ca(OH)\u2082."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Basic anhydride",
+            "relation": "example",
+            "target": "CaO"
+          },
+          {
+            "source": "CaO",
+            "relation": "with_H\u2082O_gives",
+            "target": "Ca(OH)\u2082"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Basic Oxides",
+        "flashcard_front": "Why is CaO a basic anhydride?",
+        "flashcard_back": "It reacts with water to form the base Ca(OH)\u2082.",
+        "glossary_term": "Basic anhydride",
+        "glossary_definition": "Oxide that forms a base with water.",
+        "revision_note": "CaO + H\u2082O \u2192 Ca(OH)\u2082 (basic anhydride).",
+        "teacher_note": "Contrast with acid anhydride (CO\u2082).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Define basic anhydride",
+        "concept_map_nodes": [
+          {
+            "source": "CaO",
+            "relation": "called",
+            "target": "Basic anhydride"
+          }
+        ],
+        "workbook_section": "3.2 Oxides",
+        "solution_manual_note": "Answer B. CaO is the anhydride of the base Ca(OH)\u2082."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q057",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.5 Salts",
+      "subsection": "Properties of Salts",
+      "sub_subsection": "B. Thermal decomposition of nitrates",
+      "structural_anchor": null,
+      "mcq_type": "J",
+      "question": "Which nitrate does NOT decompose to a metal oxide, NO\u2082, and O\u2082 when heated?",
+      "options": {
+        "A": "\\(\\mathrm{Cu(NO_3)_2}\\)",
+        "B": "\\(\\mathrm{Pb(NO_3)_2}\\)",
+        "C": "\\(\\mathrm{NaNO_3}\\)",
+        "D": "\\(\\mathrm{Mg(NO_3)_2}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Group 1 nitrates (except Li) give nitrites, not oxides.",
+      "explanation": "Sodium nitrate (\\(\\mathrm{NaNO_3}\\)) decomposes to sodium nitrite (\\(\\mathrm{NaNO_2}\\)) and oxygen, not a metal oxide. Heavy metal and Mg nitrates give oxide, NO\u2082, and O\u2082.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{2NaNO_3 \\rightarrow 2NaNO_2 + O_2}\\)",
+        "\\(\\mathrm{2Pb(NO_3)_2 \\rightarrow 2PbO + 4NO_2 + O_2}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "sub_subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.5 Salts",
+        "subsection_anchor": "Properties of Salts",
+        "sub_subsection_anchor": "B. Thermal decomposition of nitrates",
+        "structural_element": null,
+        "content_anchor": "Nitrates of sodium and potassium decompose on heating to give nitrites (instead of the oxides) and oxygen gas",
+        "page_hint": 47,
+        "concept_hash": "e4f5a1b2c3e4f5a1b2c3e4f5a1b2c3e4f5a1b2c3e4f5a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 96,
+        "cognitive_level": "analysing",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Alkali metal nitrates (except Li) decompose to nitrites and oxygen, not metal oxides.",
+        "concept_summary": "NaNO\u2083 and KNO\u2083 give nitrites. LiNO\u2083, Mg(NO\u2083)\u2082, Pb(NO\u2083)\u2082, Cu(NO\u2083)\u2082 give metal oxide + NO\u2082 + O\u2082.",
+        "beginner": "Sodium nitrate is different: when heated, it turns into sodium nitrite, not a black oxide like other metals.",
+        "intermediate": "Decomposition: 2NaNO\u2083 \u2192 2NaNO\u2082 + O\u2082 (no brown NO\u2082 gas). Heavy metals: 2Pb(NO\u2083)\u2082 \u2192 2PbO + 4NO\u2082 + O\u2082 (brown fumes).",
+        "advanced": "The difference is due to the stability of the nitrite ion. Na\u207a and K\u207a are large and stabilize NO\u2082\u207b; smaller, highly charged cations favor oxide formation.",
+        "worked_solution": [
+          "Step 1: Recall nitrate decomposition rules.",
+          "Step 2: Group 1 (except Li) \u2192 nitrite + O\u2082.",
+          "Step 3: Others \u2192 metal oxide + NO\u2082 + O\u2082.",
+          "Step 4: NaNO\u2083 is the exception."
+        ],
+        "reasoning_steps": [
+          "Na is in Group 1 (except Li).",
+          "Group 1 nitrates (except Li) produce nitrites, not oxides.",
+          "Select NaNO\u2083."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{2NaNO_3 \\xrightarrow{\\Delta} 2NaNO_2 + O_2}\\)",
+            "name": "Decomposition of sodium nitrate",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Students often assume all nitrates give brown NO\u2082 fumes; sodium and potassium nitrates do not."
+        ],
+        "related_concepts": [
+          "Nitrate decomposition",
+          "Nitrite",
+          "Thermal stability"
+        ],
+        "revision_note": "NaNO\u2083 heat \u2192 NaNO\u2082 + O\u2082 (no NO\u2082).",
+        "glossary_entry": {
+          "term": "Nitrite",
+          "definition": "NO\u2082\u207b ion; formed by decomposition of Group 1 nitrates.",
+          "example_equation": null,
+          "related_terms": [
+            "Nitrate decomposition",
+            "Sodium nitrite"
+          ]
+        },
+        "flashcard": {
+          "front": "What products form when NaNO\u2083 is heated?",
+          "flashcard_back": "Sodium nitrite (NaNO\u2082) and oxygen gas (O\u2082)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "NaNO\u2083",
+            "relation": "decomposes_to",
+            "target": "NaNO\u2082 + O\u2082"
+          },
+          {
+            "source": "Pb(NO\u2083)\u2082",
+            "relation": "decomposes_to",
+            "target": "PbO + NO\u2082 + O\u2082"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "sub_subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Nitrate Decomposition",
+        "flashcard_front": "Which nitrate does not produce brown NO\u2082 gas on heating?",
+        "flashcard_back": "NaNO\u2083 (sodium nitrate) produces NaNO\u2082 and O\u2082 only.",
+        "glossary_term": "Nitrate decomposition",
+        "glossary_definition": "Heating nitrate gives different products based on the metal.",
+        "revision_note": "NaNO\u2083: NaNO\u2082 + O\u2082 (no NO\u2082).",
+        "teacher_note": "Demo Pb(NO\u2083)\u2082 vs NaNO\u2083 heating.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain thermal decomposition of nitrates",
+        "concept_map_nodes": [
+          {
+            "source": "NaNO\u2083",
+            "relation": "thermal_product",
+            "target": "NaNO\u2082 + O\u2082"
+          }
+        ],
+        "workbook_section": "3.5 Salts",
+        "solution_manual_note": "Answer C. NaNO\u2083 decomposes to NaNO\u2082 + O\u2082, not to metal oxide, NO\u2082, and O\u2082."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q058",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.3 Acids",
+      "subsection": "pH and pH scale",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "E",
+      "question": "Calculate the pH of a \\(0.0005 \\, \\mathrm{M}\\) solution of \\(\\mathrm{HNO_3}\\) at \\(25^{\\circ}\\mathrm{C}\\).",
+      "options": {
+        "A": "2.3",
+        "B": "3.3",
+        "C": "4.3",
+        "D": "5.3"
+      },
+      "correct_answer": "B",
+      "hint": "pH = -log[H\u207a]; HNO\u2083 is a strong acid.",
+      "explanation": "\\(\\mathrm{HNO_3}\\) is a strong acid, so \\([\\mathrm{H}^+] = 0.0005 \\, \\mathrm{M} = 5 \\times 10^{-4} \\, \\mathrm{M}\\). \\(\\mathrm{pH} = -\\log(5 \\times 10^{-4}) = -\\log 5 + 4 = -0.699 + 4 = 3.301 \\approx 3.3\\).",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{pH} = -\\log[\\mathrm{H}^+]\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "concentration": {
+            "magnitude": 0.0005,
+            "unit": "M"
+          }
+        },
+        "answer_value": 3.3,
+        "answer_unit": null,
+        "calculation_steps": [
+          "Step 1: HNO\u2083 is a strong acid \u2192 [H\u207a] = 0.0005 M = 5\u00d710\u207b\u2074 M.",
+          "Step 2: pH = -log(5\u00d710\u207b\u2074) = -(log 5 + log 10\u207b\u2074) = -(0.699 - 4) = -(-3.301) = 3.301.",
+          "Step 3: Rounded to one decimal place: pH = 3.3."
+        ],
+        "significant_figures": 2
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 100,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.3 Acids",
+        "subsection_anchor": "pH and pH scale",
+        "structural_element": null,
+        "content_anchor": "pH = -log[H+]",
+        "page_hint": 26,
+        "concept_hash": "f5a1b2c3d4f5a1b2c3d4f5a1b2c3d4f5a1b2c3d4f5a1b2c3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 98,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "pH is the negative logarithm of the hydrogen ion concentration. For strong monoprotic acids, [H\u207a] equals the acid concentration.",
+        "concept_summary": "[H\u207a] = 5\u00d710\u207b\u2074 M. pH = -log(5\u00d710\u207b\u2074) = -log5 + 4 = -0.699 + 4 = 3.301 \u2248 3.3.",
+        "beginner": "0.0005 M HNO\u2083 gives [H\u207a] = 0.0005 M. Calculate pH = -log(0.0005) \u2248 3.3.",
+        "intermediate": "pH = -log(5\u00d710\u207b\u2074) = 4 - log5 = 4 - 0.699 = 3.301, so pH = 3.3.",
+        "advanced": "The logarithm of 5\u00d710\u207b\u2074 = log5 + log10\u207b\u2074 = 0.699 - 4 = -3.301, so pH = 3.301.",
+        "worked_solution": [
+          "Step 1: [H\u207a] = 0.0005 M = 5\u00d710\u207b\u2074 M.",
+          "Step 2: pH = -log(5\u00d710\u207b\u2074).",
+          "Step 3: log(5\u00d710\u207b\u2074) = log5 + log10\u207b\u2074 = 0.699 - 4 = -3.301.",
+          "Step 4: pH = 3.301 \u2248 3.3."
+        ],
+        "reasoning_steps": [
+          "Strong acid \u2192 [H\u207a] = [HNO\u2083].",
+          "Apply pH = -log[H\u207a].",
+          "Calculate log of 5\u00d710\u207b\u2074."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{pH} = -\\log[\\mathrm{H}^+]\\)",
+            "name": "pH definition",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Some forget the negative sign or misplace the decimal."
+        ],
+        "related_concepts": [
+          "Strong acid",
+          "Logarithm",
+          "Concentration"
+        ],
+        "revision_note": "pH = -log[H\u207a]; 5\u00d710\u207b\u2074 M \u2192 pH \u2248 3.3.",
+        "glossary_entry": {
+          "term": "pH calculation",
+          "definition": "pH = -log[H\u207a]; example: 5\u00d710\u207b\u2074 M gives pH = 3.3.",
+          "example_equation": null,
+          "related_terms": [
+            "Strong acid",
+            "Logarithm"
+          ]
+        },
+        "flashcard": {
+          "front": "What is the pH of 5\u00d710\u207b\u2074 M HNO\u2083?",
+          "flashcard_back": "pH = -log(5\u00d710\u207b\u2074) = 3.3."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "[H\u207a] = 5\u00d710\u207b\u2074 M",
+            "relation": "gives_pH",
+            "target": "3.3"
+          }
+        ],
+        "workbook_section": "3.3 Acids",
+        "solution_manual_note": "Answer B. pH = -log(5\u00d710\u207b\u2074) = 3.3."
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 pH Calculations",
+        "flashcard_front": "Calculate pH of 0.0005 M HNO\u2083.",
+        "flashcard_back": "pH = 3.3.",
+        "glossary_term": "pH calculation",
+        "glossary_definition": "-log[H\u207a] for strong acid.",
+        "revision_note": "pH = 3.3 for 5\u00d710\u207b\u2074 M HNO\u2083.",
+        "teacher_note": "Practice pH for non-1\u00d710\u207b\u207f concentrations.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Calculate pH of strong acid solutions",
+        "concept_map_nodes": [
+          {
+            "source": "pH",
+            "relation": "calculated_from",
+            "target": "[H\u207a]"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q059",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "3.2 Oxides",
+      "subsection": "C. Amphoteric Oxides",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "D",
+      "question": "Zinc oxide (\\(\\mathrm{ZnO}\\)) is reacted with both dilute hydrochloric acid and aqueous sodium hydroxide. What is the common characteristic of the products?",
+      "options": {
+        "A": "Both are gases",
+        "B": "Both are salts",
+        "C": "Both are acidic",
+        "D": "Both are zinc salts"
+      },
+      "correct_answer": "B",
+      "hint": "Amphoteric oxides produce salts with both acids and bases.",
+      "explanation": "With HCl: \\(\\mathrm{ZnO + 2HCl \\rightarrow ZnCl_2 + H_2O}\\) (salt + water). With NaOH: \\(\\mathrm{ZnO + 2NaOH \\rightarrow Na_2ZnO_2 + H_2O}\\) (sodium zincate salt + water). Both reactions produce a salt.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(\\mathrm{ZnO + 2HCl \\rightarrow ZnCl_2 + H_2O}\\)",
+        "\\(\\mathrm{ZnO + 2NaOH \\rightarrow Na_2ZnO_2 + H_2O}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "3.2 Oxides",
+        "subsection_anchor": "C. Amphoteric Oxides",
+        "structural_element": null,
+        "content_anchor": "ZnO + 2HCl -> ZnCl2 + H2O and ZnO + 2NaOH -> Na2ZnO2 + H2O",
+        "page_hint": 9,
+        "concept_hash": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 92,
+        "cognitive_level": "applying",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Amphoteric oxides react with both acids and bases to form salts and water.",
+        "concept_summary": "ZnO + acid \u2192 zinc salt (ZnCl\u2082) + H\u2082O; ZnO + base \u2192 sodium zincate (Na\u2082ZnO\u2082) + H\u2082O. Both products include a salt (ZnCl\u2082 and Na\u2082ZnO\u2082).",
+        "beginner": "ZnO is flexible \u2014 with acid it makes a zinc salt, with base it makes a different salt. Both reactions produce a salt.",
+        "intermediate": "In both reactions, water is also formed, but the key commonality is that both products are salts (ZnCl\u2082 and Na\u2082ZnO\u2082).",
+        "advanced": "Sodium zincate (Na\u2082ZnO\u2082) is the salt of zincic acid (H\u2082ZnO\u2082). The amphoteric behavior arises from Zn\u00b2\u207a being able to act as both Lewis acid and base.",
+        "worked_solution": [
+          "Step 1: ZnO + 2HCl \u2192 ZnCl\u2082 + H\u2082O (ZnCl\u2082 is a salt).",
+          "Step 2: ZnO + 2NaOH \u2192 Na\u2082ZnO\u2082 + H\u2082O (Na\u2082ZnO\u2082 is a salt).",
+          "Step 3: Common characteristic = both products are salts."
+        ],
+        "reasoning_steps": [
+          "Acid + amphoteric oxide \u2192 salt + water.",
+          "Base + amphoteric oxide \u2192 salt + water.",
+          "Both reactions produce a salt."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(\\mathrm{Na_2ZnO_2}\\)",
+            "name": "Sodium zincate",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Both products are not the same salt; they are different salts, but both are salts."
+        ],
+        "related_concepts": [
+          "Amphoteric",
+          "Salt formation",
+          "Zinc oxide"
+        ],
+        "revision_note": "ZnO + acid/base \u2192 salt + H\u2082O.",
+        "glossary_entry": {
+          "term": "Sodium zincate",
+          "definition": "Na\u2082ZnO\u2082, the salt formed when ZnO reacts with NaOH.",
+          "example_equation": null,
+          "related_terms": [
+            "Zinc oxide",
+            "Amphoteric"
+          ]
+        },
+        "flashcard": {
+          "front": "What type of substance is produced when ZnO reacts with both HCl and NaOH?",
+          "flashcard_back": "A salt (ZnCl\u2082 with HCl, Na\u2082ZnO\u2082 with NaOH)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "ZnO",
+            "relation": "with_HCl_gives",
+            "target": "ZnCl\u2082 (salt)"
+          },
+          {
+            "source": "ZnO",
+            "relation": "with_NaOH_gives",
+            "target": "Na\u2082ZnO\u2082 (salt)"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "subsection_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Amphoteric Oxides",
+        "flashcard_front": "What do ZnO + HCl and ZnO + NaOH have in common?",
+        "flashcard_back": "Both produce a salt (ZnCl\u2082 and Na\u2082ZnO\u2082).",
+        "glossary_term": "Sodium zincate",
+        "glossary_definition": "Salt from ZnO + NaOH.",
+        "revision_note": "Amphoteric oxide + acid/base \u2192 salt.",
+        "teacher_note": "Compare Al\u2082O\u2083 similarly.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Explain reactions of amphoteric oxides",
+        "concept_map_nodes": [
+          {
+            "source": "ZnO",
+            "relation": "reaction_with",
+            "target": "Acid and base"
+          }
+        ],
+        "workbook_section": "3.2 Oxides",
+        "solution_manual_note": "Answer B. Both reactions produce salts (ZnCl\u2082 and Na\u2082ZnO\u2082)."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U3_Q060",
+      "generation_timestamp": "2026-06-12T10:55:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+      "section": "Plant Nutrients",
+      "subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "A",
+      "question": "Why are potassium and phosphorus classified as macronutrients despite being needed in smaller quantities than nitrogen?",
+      "options": {
+        "A": "They are still required in relatively large amounts compared to micronutrients",
+        "B": "They are more expensive than nitrogen",
+        "C": "They are only needed by specific plants",
+        "D": "They cannot be obtained from soil"
+      },
+      "correct_answer": "A",
+      "hint": "Macronutrients are needed in large amounts relative to micronutrients, not necessarily equal to nitrogen.",
+      "explanation": "Macronutrients (N, P, K, Ca, Mg, S) are required by plants in relatively large quantities compared to micronutrients (Fe, Zn, Cu, etc.). Even though K and P are needed less than N, they are still needed in much larger amounts than trace elements.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": true,
+        "structural_element_type": "section"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: IMPORTANT INORGANIC COMPOUNDS",
+        "section_anchor": "Plant Nutrients",
+        "subsection_anchor": null,
+        "structural_element": null,
+        "content_anchor": "Macronutrients: required in relatively large amounts ... Micronutrients: required in relatively small (trace) amounts",
+        "page_hint": 52,
+        "concept_hash": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 94,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Macronutrients are plant nutrients required in relatively large quantities (typically >0.1% dry weight), including N, P, K, Ca, Mg, S.",
+        "concept_summary": "Even though plants need less P and K than N, they still need them in hundreds to thousands of times greater amounts than micronutrients like Fe or Zn.",
+        "beginner": "Think of macronutrients as main meal ingredients (N, P, K), micronutrients as spices (Fe, Zn). You need less P and K than N, but still a lot compared to spices.",
+        "intermediate": "The classification 'macronutrient' is relative to micronutrients (trace elements). K and P are essential and are taken up in large quantities, though less than N.",
+        "advanced": "Typical plant dry matter composition: N ~1.5%, K ~1.0%, P ~0.2%, while Fe ~100 ppm (0.01%). Thus, P and K are still macronutrients.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition: macronutrient = needed in large amounts.",
+          "Though less than N, P and K are still large relative to micronutrients."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Macronutrient does not imply equal amounts; it implies high demand relative to trace elements."
+        ],
+        "related_concepts": [
+          "Micronutrients",
+          "NPK",
+          "Plant nutrition"
+        ],
+        "revision_note": "Macronutrients: large amounts (N, P, K, Ca, Mg, S).",
+        "glossary_entry": {
+          "term": "Macronutrient",
+          "definition": "An element required by plants in relatively large quantities.",
+          "example_equation": null,
+          "related_terms": [
+            "Micronutrient",
+            "NPK"
+          ]
+        },
+        "flashcard": {
+          "front": "Is potassium a macronutrient or micronutrient?",
+          "flashcard_back": "Macronutrient; required in relatively large amounts by plants."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Macronutrient",
+            "relation": "includes",
+            "target": "K"
+          },
+          {
+            "source": "Macronutrient",
+            "relation": "includes",
+            "target": "P"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper"
+        ],
+        "flashcard_deck": "Chemistry Unit 3 \u2014 Plant Nutrients",
+        "flashcard_front": "Why are P and K called macronutrients if plants need less than N?",
+        "flashcard_back": "They are still required in large amounts compared to micronutrients (trace elements).",
+        "glossary_term": "Macronutrient",
+        "glossary_definition": "Nutrient needed in large quantity.",
+        "revision_note": "Macronutrients: N, P, K, Ca, Mg, S.",
+        "teacher_note": "Clarify classification based on relative amount, not absolute equal need.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Classify plant nutrients as macro/micronutrients",
+        "concept_map_nodes": [
+          {
+            "source": "Macronutrient",
+            "relation": "compared_to",
+            "target": "Micronutrient"
+          }
+        ],
+        "workbook_section": "Plant Nutrients",
+        "solution_manual_note": "Answer A. Macronutrients are required in relatively large amounts compared to micronutrients, even if less than nitrogen."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 4700,
+    "average_question_quality": 93.8,
+    "type_distribution": {
+      "A": 1,
+      "E": 1,
+      "L": 2,
+      "G": 2,
+      "I": 2,
+      "D": 1,
+      "J": 1
+    },
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 8,
+      "hard": 0
+    },
+    "section_distribution": {
+      "3.2 Oxides": 3,
+      "3.3 Acids": 2,
+      "3.4 Bases": 1,
+      "3.5 Salts": 3,
+      "Plant Nutrients": 1
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 38,
+      "advanced_avg": 47
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

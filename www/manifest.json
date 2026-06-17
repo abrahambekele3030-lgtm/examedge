@@ -1,0 +1,41 @@
+{
+  "name": "ExamEdge",
+  "short_name": "ExamEdge",
+  "description": "Ethiopian University Entrance Examination preparation platform.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["education"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Practice Mode",
+      "short_name": "Practice",
+      "url": "./index.html#practice",
+      "description": "Jump into practice questions"
+    },
+    {
+      "name": "Exam Mode",
+      "short_name": "Exam",
+      "url": "./index.html#exam",
+      "description": "Start a timed exam"
+    }
+  ]
+}

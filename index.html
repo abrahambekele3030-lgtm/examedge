@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ExamEdge – A high-performance Ethiopian University Entrance Examination preparation platform for Biology, Chemistry, Mathematics, and Physics.">
+  <title>ExamEdge – Ethiopian University Entrance Exam Prep</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#3b82f6">
+
+  <!-- MathJax for LaTeX -->
+  <script>
+    window.MathJax = {
+      loader: {
+        load: ['[tex]/noerrors', '[tex]/noundefined', 'a11y/semantic-enrich', 'a11y/explorer', 'ui/safe']
+      },
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        tags: 'ams',
+        packages: {'[+]': ['noerrors', 'noundefined']}
+      },
+      chtml: {
+        matchFontHeight: false,
+        displayAlign: 'left',
+        displayIndent: '1em'
+      },
+      options: { 
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        enableEnrichment: true,
+        enableComplexity: true,
+        enableExplorer: true,
+        a11y: {
+          speech: true,
+          braille: true,
+          subtitles: true
+        },
+        safeOptions: {
+          allow: { URLs: 'safe', classes: 'safe', cssIDs: 'safe', styles: 'safe' }
+        }
+      },
+      startup: { typeset: false }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" defer></script>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <rect x="4" y="4" width="18" height="18" rx="4" fill="var(--accent-primary)"/>
+          <rect x="26" y="4" width="18" height="18" rx="4" fill="var(--accent-secondary)" opacity="0.7"/>
+          <rect x="4" y="26" width="18" height="18" rx="4" fill="var(--accent-secondary)" opacity="0.7"/>
+          <rect x="26" y="26" width="18" height="18" rx="4" fill="var(--accent-primary)"/>
+        </svg>
+        <span>ExamEdge</span>
+      </div>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar" id="loader-bar"></div>
+      </div>
+      <p class="loader-status" id="loader-status">Loading question bank...</p>
+    </div>
+  </div>
+
+  <!-- App Shell -->
+  <div id="app" class="hidden">
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
+            <rect x="4" y="4" width="18" height="18" rx="4" fill="var(--accent-primary)"/>
+            <rect x="26" y="4" width="18" height="18" rx="4" fill="var(--accent-secondary)" opacity="0.7"/>
+            <rect x="4" y="26" width="18" height="18" rx="4" fill="var(--accent-secondary)" opacity="0.7"/>
+            <rect x="26" y="26" width="18" height="18" rx="4" fill="var(--accent-primary)"/>
+          </svg>
+          <span class="logo-text">ExamEdge</span>
+        </div>
+        <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 12h18M3 6h18M3 18h18"/>
+          </svg>
+        </button>
+      </div>
+
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-view="practice" id="nav-practice">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          <span>Practice</span>
+        </button>
+        <button class="nav-item" data-view="exam" id="nav-exam">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          <span>Exam Mode</span>
+        </button>
+        <button class="nav-item" data-view="wrong" id="nav-wrong">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+          <span>Mistakes</span>
+          <span class="badge" id="wrong-badge">0</span>
+        </button>
+        <button class="nav-item" data-view="bookmarks" id="nav-bookmarks">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+          <span>Bookmarks</span>
+          <span class="badge" id="bookmark-badge">0</span>
+        </button>
+        <button class="nav-item" data-view="flashcards" id="nav-flashcards">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+          <span>Flashcards</span>
+        </button>
+        <button class="nav-item" data-view="search" id="nav-search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span>Search</span>
+        </button>
+        <button class="nav-item" data-view="stats" id="nav-stats">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          <span>Statistics</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          <span>Toggle Theme</span>
+        </button>
+
+        <div class="font-size-controls">
+          <button id="btn-font-dec" title="Decrease font size">A-</button>
+          <button id="btn-font-inc" title="Increase font size">A+</button>
+        </div>
+
+        <div class="sidebar-goal">
+          <div class="goal-ring" id="goal-ring-container">
+            <svg viewBox="0 0 36 36">
+              <circle class="goal-ring-bg" cx="18" cy="18" r="16"></circle>
+              <circle class="goal-ring-fill" id="goal-ring-fill" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100"></circle>
+            </svg>
+            <span class="goal-text" id="goal-text">0/20</span>
+          </div>
+          <div class="goal-label">Daily Goal</div>
+        </div>
+
+        <div class="sidebar-stats-mini">
+          <div class="stat-mini">
+            <span class="stat-mini-value" id="mini-solved">0</span>
+            <span class="stat-mini-label">Solved</span>
+          </div>
+          <div class="stat-mini">
+            <span class="stat-mini-value" id="mini-accuracy">-</span>
+            <span class="stat-mini-label">Accuracy</span>
+          </div>
+          <div class="stat-mini">
+            <span class="stat-mini-value" id="mini-streak">0</span>
+            <span class="stat-mini-label">Streak</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+      <!-- Study Timer (Pomodoro) Floating element -->
+      <div class="study-timer" id="study-timer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span id="study-timer-display">25:00</span>
+      </div>
+
+      <!-- ========== PRACTICE VIEW ========== -->
+      <div id="view-practice" class="view active">
+        <!-- Filter Bar -->
+        <div class="filter-bar" id="filter-bar">
+          <button class="filter-toggle-mobile" id="btn-mobile-filter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+            Filters
+          </button>
+          <div class="filter-row" id="filter-row-container">
+            <!-- Custom Select: Subject -->
+            <div class="custom-select-wrapper" id="wrapper-filter-subject">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Subjects</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-subject" class="filter-select" style="display:none;">
+                <option value="">All Subjects</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Grade -->
+            <div class="custom-select-wrapper" id="wrapper-filter-grade">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Grades</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-grade" class="filter-select" style="display:none;">
+                <option value="">All Grades</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Unit -->
+            <div class="custom-select-wrapper" id="wrapper-filter-unit">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Units</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-unit" class="filter-select" style="display:none;">
+                <option value="">All Units</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Section -->
+            <div class="custom-select-wrapper" id="wrapper-filter-section">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Sections</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-section" class="filter-select" style="display:none;">
+                <option value="">All Sections</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Difficulty -->
+            <div class="custom-select-wrapper" id="wrapper-filter-difficulty">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">Any Difficulty</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-difficulty" class="filter-select" style="display:none;">
+                <option value="">Any Difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+            </div>
+
+            <!-- Custom Select: Status -->
+            <div class="custom-select-wrapper" id="wrapper-filter-status">
+              <div class="custom-select-display" tabindex="0">
+                <span class="custom-select-text">All Questions</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+              </div>
+              <div class="custom-select-dropdown"></div>
+              <select id="filter-status" class="filter-select" style="display:none;">
+                <option value="">All Questions</option>
+                <option value="unanswered">Unanswered</option>
+                <option value="correct">Correct</option>
+                <option value="wrong">Wrong</option>
+                <option value="bookmarked">Bookmarked</option>
+                <option value="revision">Must Revise</option>
+              </select>
+            </div>
+            <button class="filter-btn" id="btn-grid-view">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              Grid
+            </button>
+            <button class="filter-btn" id="btn-random">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+              Random
+            </button>
+          </div>
+          <div class="filter-info">
+            <span id="question-count-label">Loading...</span>
+            <div class="progress-mini">
+              <div class="progress-mini-bar" id="progress-mini-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-area">
+          <div class="question-card" id="question-card">
+            <!-- Question Header -->
+            <div class="question-header">
+              <div class="question-meta">
+                <span class="meta-pill subject-pill" id="q-subject"></span>
+                <span class="meta-pill grade-pill" id="q-grade"></span>
+                <span class="meta-pill unit-pill" id="q-unit"></span>
+                <span class="meta-pill difficulty-pill" id="q-difficulty"></span>
+                <span class="meta-pill q-id-pill" id="q-id"></span>
+              </div>
+              <div class="question-actions">
+                <button class="action-btn" id="btn-bookmark" title="Bookmark (B)">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg>
+                </button>
+                <button class="action-btn" id="btn-revise" title="Mark for Revision (R)">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </button>
+                <button class="action-btn" id="btn-hint" title="Show Hint (H)">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                </button>
+
+                <button class="action-btn" id="btn-copy-toggle" title="Copy">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                </button>
+                <button class="action-btn" id="btn-note" title="Quick Note">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                  <span class="note-dot hidden" id="note-dot"></span>
+                </button>
+                <button class="action-btn" id="btn-tts" title="Read Aloud">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 010 14.14"/><path d="M15.54 8.46a5 5 0 010 7.07"/></svg>
+                </button>
+                <button class="action-btn ask-ai-btn" id="btn-ask-ai" title="Ask AI">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="12" y1="10" x2="12" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/></svg>
+                  Ask AI
+                </button>
+              </div>
+            </div>
+
+            <!-- Hint Toast -->
+            <div class="hint-toast hidden" id="hint-toast"></div>
+
+            <!-- Question Section Label -->
+            <div class="question-section" id="q-section-label" style="display:none"></div>
+
+            <!-- Question Body -->
+            <div class="question-text" id="q-text"></div>
+
+            <!-- Visual Area (tables, diagrams, etc.) -->
+            <div class="visual-area hidden" id="q-visual"></div>
+
+            <!-- Options -->
+            <div class="options-grid" id="q-options">
+              <button class="option-btn" id="opt-A" data-option="A">
+                <span class="option-letter">A</span>
+                <span class="option-text" id="opt-A-text"></span>
+              </button>
+              <button class="option-btn" id="opt-B" data-option="B">
+                <span class="option-letter">B</span>
+                <span class="option-text" id="opt-B-text"></span>
+              </button>
+              <button class="option-btn" id="opt-C" data-option="C">
+                <span class="option-letter">C</span>
+                <span class="option-text" id="opt-C-text"></span>
+              </button>
+              <button class="option-btn" id="opt-D" data-option="D">
+                <span class="option-letter">D</span>
+                <span class="option-text" id="opt-D-text"></span>
+              </button>
+            </div>
+
+            <!-- Result Banner -->
+            <div class="result-banner hidden" id="result-banner">
+              <div class="result-icon" id="result-icon"></div>
+              <div class="result-text" id="result-text"></div>
+            </div>
+
+            <!-- Explanation Panel -->
+            <div class="explanation-panel hidden" id="explanation-panel">
+              <div class="explanation-tabs">
+                <button class="exp-tab active" data-tab="main">Explanation</button>
+                <button class="exp-tab" data-tab="tiered">Deep Dive</button>
+                <button class="exp-tab" data-tab="flashcard">Flashcard</button>
+                <button class="exp-tab" data-tab="concepts">Concepts</button>
+              </div>
+              <div class="explanation-content" id="exp-main">
+                <div class="exp-definition" id="exp-definition"></div>
+                <div class="exp-body" id="exp-body"></div>
+                <div class="exp-misconceptions" id="exp-misconceptions"></div>
+              </div>
+              <div class="explanation-content hidden" id="exp-tiered">
+                <div class="tiered-levels" id="exp-tiered-content"></div>
+              </div>
+              <div class="explanation-content hidden" id="exp-flashcard">
+                <div class="flashcard-display" id="exp-flashcard-display"></div>
+              </div>
+              <div class="explanation-content hidden" id="exp-concepts">
+                <div class="concepts-list" id="exp-concepts-list"></div>
+              </div>
+            </div>
+
+            <!-- AI Panel -->
+            <div class="ai-panel hidden" id="ai-panel">
+              <div class="ai-panel-header">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+                <span>AI Assist</span>
+                <button class="ai-close" id="ai-close">×</button>
+              </div>
+              <div class="ai-buttons">
+                <button class="ai-btn" data-action="explain">💡 Explain Question</button>
+                <button class="ai-btn" data-action="correct">✅ Explain Correct</button>
+                <button class="ai-btn" data-action="wrong">❌ Why Others Wrong</button>
+                <button class="ai-btn" data-action="similar">🔄 Related Concepts</button>
+                <button class="ai-btn" data-action="easier">⬇️ Simpler</button>
+                <button class="ai-btn" data-action="harder">⬆️ Advanced</button>
+              </div>
+              <div class="ai-output" id="ai-output"></div>
+            </div>
+          </div>
+
+          <!-- Navigation Controls -->
+          <div class="nav-controls">
+            <button class="nav-btn" id="btn-prev" title="Previous (←)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+              <span>Prev</span>
+            </button>
+
+            <div class="nav-center">
+              <div class="question-jump">
+                <span class="jump-label">Q</span>
+                <input type="number" id="jump-input" class="jump-input" min="1" placeholder="—">
+                <span class="jump-sep">/</span>
+                <span id="jump-total">0</span>
+              </div>
+            </div>
+
+            <div class="nav-right-btns">
+              <button class="action-btn ai-toggle-btn" id="btn-ai-toggle" title="AI Assist">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+              </button>
+            </div>
+
+            <button class="nav-btn nav-btn-next" id="btn-next" title="Next (→ or Enter)">
+              <span>Next</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+
+          <!-- Keyboard Shortcuts Hint -->
+          <div class="shortcuts-hint">
+            <span class="key-hint"><kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>D</kbd> Select</span>
+            <span class="key-hint"><kbd>↵</kbd> Next</span>
+            <span class="key-hint"><kbd>←</kbd><kbd>→</kbd> Navigate</span>
+            <span class="key-hint"><kbd>H</kbd> Hint</span>
+            <span class="key-hint"><kbd>R</kbd> Revise</span>
+            <span class="key-hint"><kbd>S</kbd> Search</span>
+            <span class="key-hint"><kbd>?</kbd> Shortcuts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== EXAM VIEW ========== -->
+      <div id="view-exam" class="view">
+        <div class="exam-setup" id="exam-setup">
+          <div class="exam-setup-card">
+            <h1 class="exam-setup-title">Exam Mode</h1>
+            <p class="exam-setup-desc">Simulate real entrance exams with timed conditions and instant feedback</p>
+            <div class="exam-options">
+              <div class="exam-option-group">
+                <label class="option-label">Exam Type</label>
+                <div class="exam-type-btns">
+                  <button class="exam-type-btn active" data-type="mixed" id="exam-type-mixed">Mixed</button>
+                  <button class="exam-type-btn" data-type="subject" id="exam-type-subject">By Subject</button>
+                  <button class="exam-type-btn" data-type="unit" id="exam-type-unit">By Unit</button>
+                  <button class="exam-type-btn" data-type="wrong" id="exam-type-wrong">Mistakes Only</button>
+                  <button class="exam-type-btn" data-type="revision" id="exam-type-revision">Must Revise</button>
+                </div>
+              </div>
+              <div class="exam-option-group" id="exam-subject-group" style="display:none">
+                <label class="option-label">Subject</label>
+                <select class="filter-select" id="exam-subject-select"></select>
+              </div>
+              <div class="exam-option-group" id="exam-unit-group" style="display:none">
+                <label class="option-label">Grade &amp; Unit</label>
+                <select class="filter-select" id="exam-grade-select"></select>
+                <select class="filter-select" id="exam-unit-select"></select>
+              </div>
+              <div class="exam-option-group">
+                <label class="option-label">Number of Questions</label>
+                <div class="count-input-row">
+                  <button class="count-btn" data-count="10">10</button>
+                  <button class="count-btn" data-count="20">20</button>
+                  <button class="count-btn" data-count="30">30</button>
+                  <button class="count-btn" data-count="50">50</button>
+                  <button class="count-btn" data-count="100">100</button>
+                  <input type="number" class="count-custom" id="exam-count" value="20" min="5" max="200">
+                </div>
+              </div>
+              <div class="exam-option-group">
+                <label class="option-label">Time Limit</label>
+                <div class="count-input-row">
+                  <button class="count-btn" data-time="0">No Limit</button>
+                  <button class="count-btn" data-time="30">30 min</button>
+                  <button class="count-btn" data-time="45">45 min</button>
+                  <button class="count-btn" data-time="60">60 min</button>
+                  <button class="count-btn" data-time="90">90 min</button>
+                  <input type="number" class="count-custom" id="exam-time" value="30" min="0" max="180"> <span style="color:var(--text-muted);font-size:0.85rem">min</span>
+                </div>
+              </div>
+              <div class="exam-option-group">
+                <label class="option-label">Difficulty</label>
+                <div class="exam-type-btns">
+                  <button class="exam-type-btn active" data-diff="any" id="exam-diff-any">Any</button>
+                  <button class="exam-type-btn" data-diff="easy" id="exam-diff-easy">Easy</button>
+                  <button class="exam-type-btn" data-diff="medium" id="exam-diff-medium">Medium</button>
+                  <button class="exam-type-btn" data-diff="hard" id="exam-diff-hard">Hard</button>
+                </div>
+              </div>
+            </div>
+            <button class="start-exam-btn" id="btn-start-exam">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Start Exam
+            </button>
+          </div>
+        </div>
+
+        <!-- Active Exam -->
+        <div class="exam-active hidden" id="exam-active">
+          <div class="exam-header">
+            <div class="exam-progress-info">
+              <span id="exam-q-counter">Q 1 / 20</span>
+              <div class="exam-progress-bar">
+                <div class="exam-progress-fill" id="exam-progress-fill"></div>
+              </div>
+            </div>
+            <div class="exam-timer" id="exam-timer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span id="timer-display">30:00</span>
+            </div>
+            <button class="end-exam-btn" id="btn-end-exam">End Exam</button>
+          </div>
+          <div class="exam-question-card" id="exam-question-card">
+            <div class="exam-q-meta" id="exam-q-meta" style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:0.75rem"></div>
+            <div class="question-text" id="exam-q-text"></div>
+            <div class="options-grid" id="exam-q-options">
+              <button class="option-btn" id="exam-opt-A" data-option="A"><span class="option-letter">A</span><span class="option-text" id="exam-opt-A-text"></span></button>
+              <button class="option-btn" id="exam-opt-B" data-option="B"><span class="option-letter">B</span><span class="option-text" id="exam-opt-B-text"></span></button>
+              <button class="option-btn" id="exam-opt-C" data-option="C"><span class="option-letter">C</span><span class="option-text" id="exam-opt-C-text"></span></button>
+              <button class="option-btn" id="exam-opt-D" data-option="D"><span class="option-letter">D</span><span class="option-text" id="exam-opt-D-text"></span></button>
+            </div>
+            <div class="exam-nav-row">
+              <button class="nav-btn" id="exam-btn-prev">← Prev</button>
+              <div class="exam-q-dots" id="exam-q-dots"></div>
+              <button class="nav-btn nav-btn-next" id="exam-btn-next">Next →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exam Results -->
+        <div class="exam-results hidden" id="exam-results">
+          <div class="results-card">
+            <div class="results-header">
+              <div class="results-score-ring">
+                <svg viewBox="0 0 120 120" class="score-ring-svg">
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="var(--bg-3)" stroke-width="10"/>
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="var(--accent-primary)" stroke-width="10"
+                    stroke-dasharray="314" stroke-dashoffset="314" id="score-ring-fill"
+                    stroke-linecap="round" transform="rotate(-90 60 60)"/>
+                </svg>
+                <div class="score-text">
+                  <span class="score-percent" id="results-percent">0%</span>
+                  <span class="score-label">Score</span>
+                </div>
+              </div>
+              <div class="results-stats-grid">
+                <div class="results-stat"><span class="rs-val" id="rs-correct">0</span><span class="rs-label">Correct</span></div>
+                <div class="results-stat"><span class="rs-val" id="rs-wrong">0</span><span class="rs-label">Wrong</span></div>
+                <div class="results-stat"><span class="rs-val" id="rs-skipped">0</span><span class="rs-label">Skipped</span></div>
+                <div class="results-stat"><span class="rs-val" id="rs-time">0:00</span><span class="rs-label">Time</span></div>
+              </div>
+            </div>
+            <div class="results-review" id="results-review"></div>
+            <div class="results-actions">
+              <button class="start-exam-btn" id="btn-new-exam" style="width:auto;padding:0.75rem 2rem">New Exam</button>
+              <button class="nav-btn" id="btn-review-wrong-exam">Review Mistakes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== WRONG QUESTIONS VIEW ========== -->
+      <div id="view-wrong" class="view">
+        <div class="list-view-header">
+          <h1>Wrong Questions</h1>
+          <div class="list-actions">
+            <button class="filter-btn" id="btn-practice-wrong">Practice All Mistakes</button>
+            <button class="filter-btn" id="btn-clear-wrong" style="background:rgba(239,68,68,0.15);color:#f87171">Clear All</button>
+          </div>
+        </div>
+        <div class="list-tabs">
+          <button class="list-tab active" data-wrong-tab="all">All Mistakes</button>
+          <button class="list-tab" data-wrong-tab="recent">Recent</button>
+          <button class="list-tab" data-wrong-tab="frequent">Most Missed</button>
+        </div>
+        <div class="questions-list" id="wrong-questions-list"></div>
+      </div>
+
+      <!-- ========== BOOKMARKS VIEW ========== -->
+      <div id="view-bookmarks" class="view">
+        <div class="list-view-header">
+          <h1>Bookmarks &amp; Revision</h1>
+          <div class="list-actions">
+            <button class="filter-btn" id="btn-practice-bookmarks">Practice Bookmarks</button>
+            <button class="filter-btn" id="btn-practice-revision">Practice Must Revise</button>
+          </div>
+        </div>
+        <div class="list-tabs">
+          <button class="list-tab active" data-bookmark-tab="bookmarks">Bookmarked</button>
+          <button class="list-tab" data-bookmark-tab="revision">Must Revise</button>
+        </div>
+        <div class="questions-list" id="bookmarks-list"></div>
+      </div>
+
+      <!-- ========== FLASHCARDS VIEW ========== -->
+      <div id="view-flashcards" class="view">
+        <div class="list-view-header">
+          <h1>Flashcards</h1>
+          <div class="list-actions">
+            <select class="filter-select" id="fc-subject-filter"></select>
+            <button class="filter-btn" id="btn-start-flashcards">Start Session</button>
+          </div>
+        </div>
+        <div class="flashcard-session hidden" id="flashcard-session">
+          <div class="fc-card" id="fc-card">
+            <div class="fc-front" id="fc-front"></div>
+            <div class="fc-back hidden" id="fc-back"></div>
+            <div class="fc-flip-hint">Click to reveal answer</div>
+          </div>
+          <div class="fc-controls">
+            <button class="nav-btn" id="fc-prev">← Prev</button>
+            <span id="fc-counter">1 / 10</span>
+            <button class="nav-btn nav-btn-next" id="fc-next">Next →</button>
+          </div>
+        </div>
+        <div class="flashcard-grid" id="flashcard-grid"></div>
+      </div>
+
+      <!-- ========== SEARCH VIEW ========== -->
+      <div id="view-search" class="view">
+        <div class="search-hero">
+          <h1>Search Questions</h1>
+          <div class="search-input-wrap">
+            <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="search-input" class="search-input" placeholder="Search questions, topics, keywords, formulas...">
+            <span class="search-count" id="search-count"></span>
+          </div>
+          <div class="search-filters">
+            <select class="filter-select" id="search-subject">
+              <option value="">All Subjects</option>
+            </select>
+            <select class="filter-select" id="search-difficulty">
+              <option value="">Any Difficulty</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+        </div>
+        <div class="search-results" id="search-results"></div>
+      </div>
+
+      <!-- ========== STATS VIEW ========== -->
+      <div id="view-stats" class="view">
+        <div class="stats-header">
+          <h1>Your Statistics</h1>
+          <div class="stats-actions" style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+            <button class="filter-btn" id="btn-export-data" style="background: var(--bg-3)">Export Data</button>
+            <label class="filter-btn" style="background: var(--bg-3); cursor: pointer; margin: 0;">
+              Import Data
+              <input type="file" id="btn-import-data" accept=".json" style="display: none">
+            </label>
+            <button class="filter-btn" id="btn-reset-stats" style="background:rgba(239,68,68,0.15);color:#f87171;font-size:0.8rem">Reset Progress</button>
+          </div>
+        </div>
+
+        <div class="stats-overview">
+          <div class="stat-card">
+            <div class="stat-card-icon">📚</div>
+            <div class="stat-card-val" id="stat-total-solved">0</div>
+            <div class="stat-card-label">Questions Solved</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">🎯</div>
+            <div class="stat-card-val" id="stat-accuracy">—</div>
+            <div class="stat-card-label">Accuracy</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">🔥</div>
+            <div class="stat-card-val" id="stat-streak">0</div>
+            <div class="stat-card-label">Current Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">🏆</div>
+            <div class="stat-card-val" id="stat-best-streak">0</div>
+            <div class="stat-card-label">Best Streak</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">⚡</div>
+            <div class="stat-card-val" id="stat-total-q">0</div>
+            <div class="stat-card-label">Total Questions</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">⏳</div>
+            <div class="stat-card-val" id="stat-remaining">0</div>
+            <div class="stat-card-label">Remaining</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon">❌</div>
+            <div class="stat-card-val" id="stat-wrong-count">0</div>
+            <div class="stat-card-label">Wrong Questions</div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stats-section">
+            <h2>Performance by Subject</h2>
+            <div id="stats-by-subject"></div>
+          </div>
+          <div class="stats-section">
+            <h2>Weakest Topics</h2>
+            <div id="stats-weak-topics"></div>
+          </div>
+          <div class="stats-section">
+            <h2>Strongest Topics</h2>
+            <div id="stats-strong-topics"></div>
+          </div>
+          <div class="stats-section">
+            <h2>Difficulty Breakdown</h2>
+            <div id="stats-difficulty"></div>
+          </div>
+          <div class="stats-section full-width">
+            <h2>Recent Activity</h2>
+            <div id="stats-recent"></div>
+          </div>
+          <div class="stats-section full-width">
+            <h2>Exam History</h2>
+            <div id="stats-exams"></div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Keyboard Shortcut Overlay -->
+  <div class="shortcuts-overlay hidden" id="shortcuts-overlay">
+    <div class="shortcuts-modal">
+      <h2>Keyboard Shortcuts</h2>
+      <button class="ai-close" id="close-shortcuts">×</button>
+      <div class="shortcuts-grid">
+        <div><kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>D</kbd> — Select option</div>
+        <div><kbd>Enter</kbd> or <kbd>→</kbd> — Next question (after answering)</div>
+        <div><kbd>←</kbd> — Previous question</div>
+        <div><kbd>Space</kbd> — Next question (if answered)</div>
+        <div><kbd>H</kbd> — Toggle hint</div>
+        <div><kbd>B</kbd> — Select B / Bookmark (if already answered)</div>
+        <div><kbd>R</kbd> — Mark for revision</div>
+        <div><kbd>S</kbd> — Search online</div>
+        <div><kbd>Esc</kbd> — Close overlays</div>
+        <div><kbd>?</kbd> — This panel</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Question Grid Modal -->
+  <div class="shortcuts-overlay hidden" id="q-grid-overlay">
+    <div class="shortcuts-modal" style="max-width: 800px; padding: 1.5rem">
+      <h2 style="margin-bottom: 1rem">Question Grid <span id="q-grid-count" style="font-size:0.9rem;color:var(--text-muted);font-weight:normal;margin-left:8px"></span></h2>
+      <button class="ai-close" id="close-q-grid">×</button>
+      <div class="q-grid-container" id="q-grid-container"></div>
+    </div>
+  </div>
+
+  <!-- Mobile Bottom Nav Bar: Menu-only -->
+  <div class="mobile-bottom-nav">
+    <button class="bottom-nav-item" id="m-nav-menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <span>Menu</span>
+    </button>
+  </div>
+
+  <!-- Mobile Sidebar Overlay (for Menu button) -->
+  <div class="mobile-sidebar-overlay hidden" id="mobile-sidebar-overlay"></div>
+
+  <!-- ============================================================ -->
+  <!-- AI PROMPT SHEET                                              -->
+  <!-- ============================================================ -->
+  <div class="bottom-sheet-overlay hidden" id="ai-sheet-overlay">
+    <div class="bottom-sheet" id="ai-prompt-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-header">
+        <h3 class="sheet-title">Ask AI</h3>
+        <button class="sheet-close" id="ai-sheet-close" aria-label="Close">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <p class="sheet-subtitle">Choose a prompt style:</p>
+      <div class="prompt-options" id="prompt-options">
+        <button class="prompt-option-card" data-prompt="explain">
+          <span class="prompt-icon">💡</span>
+          <div>
+            <div class="prompt-title">Explain this question</div>
+            <div class="prompt-desc">Clear, detailed explanation of the concept</div>
+          </div>
+        </button>
+        <button class="prompt-option-card" data-prompt="options">
+          <span class="prompt-icon">🔢</span>
+          <div>
+            <div class="prompt-title">Explain each option</div>
+            <div class="prompt-desc">Break down why each option is right or wrong</div>
+          </div>
+        </button>
+        <button class="prompt-option-card" data-prompt="steps">
+          <span class="prompt-icon">🪜</span>
+          <div>
+            <div class="prompt-title">Step-by-step solution</div>
+            <div class="prompt-desc">Walk me through the solution process</div>
+          </div>
+        </button>
+        <button class="prompt-option-card" data-prompt="correct">
+          <span class="prompt-icon">✅</span>
+          <div>
+            <div class="prompt-title">Why is this correct?</div>
+            <div class="prompt-desc">Focus on why the correct answer is right</div>
+          </div>
+        </button>
+        <button class="prompt-option-card" data-prompt="hint">
+          <span class="prompt-icon">🎯</span>
+          <div>
+            <div class="prompt-title">Give me a hint only</div>
+            <div class="prompt-desc">Push me in the right direction, no full answer</div>
+          </div>
+        </button>
+        <button class="prompt-option-card" data-prompt="simple">
+          <span class="prompt-icon">🌐</span>
+          <div>
+            <div class="prompt-title">Simplify (ELI5)</div>
+            <div class="prompt-desc">Explain as simply as possible</div>
+          </div>
+        </button>
+      </div>
+
+      <p class="sheet-subtitle" style="margin-top:1rem;">Then open in:</p>
+      <div class="ai-app-choices">
+        <button class="ai-app-btn" id="ai-choice-share">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share to any app
+        </button>
+        <button class="ai-app-btn" id="ai-choice-copy">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy to clipboard
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- QUICK NOTE SHEET                                             -->
+  <!-- ============================================================ -->
+  <div class="bottom-sheet-overlay hidden" id="note-sheet-overlay">
+    <div class="bottom-sheet" id="note-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-header">
+        <h3 class="sheet-title">📝 Quick Note</h3>
+        <button class="sheet-close" id="note-sheet-close" aria-label="Close">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <p class="sheet-subtitle">Add your personal note for this question:</p>
+      <textarea class="note-textarea" id="note-textarea" placeholder="Write your note here... (auto-saved)" rows="5"></textarea>
+      <div class="note-actions">
+        <button class="note-btn-save" id="note-btn-save">Save Note</button>
+        <button class="note-btn-delete" id="note-btn-delete">Delete Note</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <!-- Main JS -->
+  <script src="js/app.js"></script>
+
+  <!-- PWA Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js')
+          .then(registration => {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, err => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+      });
+    }
+  </script>
+</body>
+</html>

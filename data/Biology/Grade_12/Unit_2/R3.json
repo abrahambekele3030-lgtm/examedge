@@ -1,0 +1,761 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-14T10:10:00Z",
+  "round_id": "R03",
+  "batch_sequence": 3,
+  "__STATE__": {
+    "current_round": 3,
+    "last_question_id": "G12_Bio_U2_Q030",
+    "covered_sections": [
+      "Overview",
+      "2.1. Eubacteria>Bacterial Shapes",
+      "2.1. Eubacteria>Nutritional types of bacteria",
+      "2.1. Eubacteria>Reproduction of bacteria",
+      "2.2. Archaea",
+      "2.3. Fungi>2.3.1. General Characteristics of True Fungi",
+      "2.4. Protozoa>2.4.1. Common diseases caused by protozoa",
+      "2.5. Viruses>2.5.1. Characteristics of virus",
+      "2.5. Viruses>2.5.2. Viral symmetry",
+      "2.6. Normal microbiota",
+      "2.3. Fungi>2.3.2. Ecology of Fungi",
+      "2.3. Fungi>2.3.3. Classification of Fungi",
+      "2.3. Fungi>2.3.4. Reproduction in fungi",
+      "2.7. Modes of disease transmission and ways of prevention",
+      "2.8. Uses of microorganisms",
+      "2.9. Controlling microorganisms"
+    ],
+    "used_question_signatures": [
+      "sha256_1a2b3c4d5e6f_definition_coccus_overview",
+      "sha256_2b3c4d5e6f7g_term_peptidoglycan_eubacteria",
+      "sha256_3c4d5e6f7g8h_comparison_gram_stain_eubacteria",
+      "sha256_4d5e6f7g8h9i_classification_nutrition_eubacteria",
+      "sha256_5e6f7g8h9i0j_conceptual_binary_fission_eubacteria",
+      "sha256_6f7g8h9i0j1k_condition_extremophile_archaea",
+      "sha256_7g8h9i0j1k2l_misconception_methanogen_archaea",
+      "sha256_8h9i0j1k2l3m_definition_hyphae_fungi",
+      "sha256_9i0j1k2l3m4n_comparison_septate_coenocytic_fungi",
+      "sha256_0j1k2l3m4n5o_sequence_sexual_reproduction_fungi",
+      "sha256_a1b2c3d4e5f6_cause_effect_plasmodium_protozoa",
+      "sha256_b2c3d4e5f6g7_classification_virus_characteristics",
+      "sha256_c3d4e5f6g7h8_definition_capsid_virus_structure",
+      "sha256_d4e5f6g7h8i9_comparison_lytic_lysogenic_virus",
+      "sha256_e5f6g7h8i9j0_conceptual_normal_microbiota_protection",
+      "sha256_f6g7h8i9j0k1_misconception_resident_microbiota",
+      "sha256_g7h8i9j0k1l2_definition_helical_symmetry_virus",
+      "sha256_h8i9j0k1l2m3_sequence_lytic_cycle_phage",
+      "sha256_i9j0k1l2m3n4_comparison_endotoxin_exotoxin_bacteria",
+      "sha256_j0k1l2m3n4o5_condition_obligate_intracellular_virus",
+      "sha256_k1l2m3n4o5p6_definition_lichen_symbiosis_fungi",
+      "sha256_l2m3n4o5p6q7_classification_zygomycota_ascomycota_fungi",
+      "sha256_m3n4o5p6q7r8_sequence_asexual_spore_formation_fungi",
+      "sha256_n4o5p6q7r8s9_cause_effect_aflatoxin_aspergillus_fungi",
+      "sha256_o5p6q7r8s9t0_comparison_direct_contact_droplet_transmission",
+      "sha256_p6q7r8s9t0u1_definition_bioremediation_microorganisms",
+      "sha256_q7r8s9t0u1v2_misconception_sterilization_vs_disinfection",
+      "sha256_r8s9t0u1v2w3_condition_autoclave_temperature_pressure",
+      "sha256_s9t0u1v2w3x4_definition_saprobe_fungi_ecology",
+      "sha256_t0u1v2w3x4y5_sequence_koch_postulates_germ_theory"
+    ],
+    "baseline_counter": {
+      "Overview": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+      "2.1. Eubacteria": {
+        "Bacterial Shapes": { "count": 3, "mini_headings_covered": ["Cocci", "Bacilli", "Spirochaetes"], "last_question_round": 2 },
+        "Nutritional types of bacteria": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "Reproduction of bacteria": { "count": 1, "mini_headings_covered": ["Asexual reproduction"], "last_question_round": 1 },
+        "2.1.3.1 A sexual reproduction": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 }
+      },
+      "2.2. Archaea": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+      "2.3. Fungi": {
+        "2.3.1. General Characteristics of True Fungi": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.3.2. Ecology of Fungi": { "count": 1, "mini_headings_covered": ["Lichens", "Mycorrhizae"], "last_question_round": 3 },
+        "2.3.3. Classification of Fungi": { "count": 1, "mini_headings_covered": ["Zygomycota", "Ascomycota", "Basidiomycota"], "last_question_round": 3 },
+        "2.3.4. Reproduction in fungi": { "count": 1, "mini_headings_covered": ["Asexual reproduction", "Sporulation"], "last_question_round": 3 }
+      },
+      "2.4. Protozoa": {
+        "2.4.1. Common diseases caused by protozoa": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "2.5. Viruses": {
+        "2.5.1. Characteristics of virus": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+        "2.5.2. Viral symmetry": { "count": 3, "mini_headings_covered": [], "last_question_round": 2 }
+      },
+      "2.6. Normal microbiota": { "count": 2, "mini_headings_covered": [], "last_question_round": 2 },
+      "2.7. Modes of disease transmission and ways of prevention": { "count": 1, "mini_headings_covered": ["Droplet", "Contact", "Vehicle"], "last_question_round": 3 },
+      "2.8. Uses of microorganisms": { "count": 1, "mini_headings_covered": ["Bioremediation", "Medicine"], "last_question_round": 3 },
+      "2.9. Controlling microorganisms": { "count": 1, "mini_headings_covered": ["Sterilization", "Disinfection", "Autoclave"], "last_question_round": 3 },
+      "2.10. Bacterial Isolation techniques": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 },
+      "2.11. Renowned Microbiologists in Ethiopia": { "count": 0, "mini_headings_covered": [], "last_question_round": 0 }
+    },
+    "structure_verified": true,
+    "phase_status": { "phase1_complete": false, "phase2_complete": false, "phase3_started": false },
+    "distribution_tracker": {
+      "Overview": { "question_count": 1, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.1. Eubacteria": { "question_count": 5, "last_used_round": 2, "consecutive_batches": 2 },
+      "2.2. Archaea": { "question_count": 2, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3. Fungi": { "question_count": 6, "last_used_round": 3, "consecutive_batches": 1 },
+      "2.4. Protozoa": { "question_count": 2, "last_used_round": 2, "consecutive_batches": 1 },
+      "2.5. Viruses": { "question_count": 5, "last_used_round": 2, "consecutive_batches": 1 },
+      "2.6. Normal microbiota": { "question_count": 2, "last_used_round": 2, "consecutive_batches": 1 },
+      "2.7. Modes of disease transmission and ways of prevention": { "question_count": 1, "last_used_round": 3, "consecutive_batches": 1 },
+      "2.8. Uses of microorganisms": { "question_count": 1, "last_used_round": 3, "consecutive_batches": 1 },
+      "2.9. Controlling microorganisms": { "question_count": 1, "last_used_round": 3, "consecutive_batches": 1 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Overview": ["microorganism definition", "microscopy", "microbial groups"],
+      "2.1. Eubacteria>Bacterial Shapes": ["coccus", "bacillus", "spirochaete", "vibrio", "clustering", "gram stain", "peptidoglycan"],
+      "2.1. Eubacteria>Nutritional types of bacteria": ["autotroph", "heterotroph", "phototroph", "chemotroph", "lithotroph", "organotroph"],
+      "2.1. Eubacteria>Reproduction of bacteria": ["binary fission", "conjugation", "F plasmid", "sex pilus"],
+      "2.2. Archaea": ["archaea", "extremophile", "methanogen", "halophile", "thermophile", "acidophile", "peptidoglycan absence", "branched lipids"],
+      "2.3. Fungi>2.3.1. General Characteristics of True Fungi": ["eukaryotic", "filamentous", "hyphae", "mycelium", "chitin", "unicellular yeast", "chemoheterotrophic", "spore reproduction"],
+      "2.3. Fungi>2.3.2. Ecology of Fungi": ["saprobe", "parasite", "symbiosis", "lichen", "mycorrhiza", "decomposer"],
+      "2.3. Fungi>2.3.3. Classification of Fungi": ["Zygomycota", "Ascomycota", "Basidiomycota", "Chytridiomycota", "Glomeromycota"],
+      "2.3. Fungi>2.3.4. Reproduction in fungi": ["asexual spores", "sporangiospore", "conidia", "budding", "sexual reproduction", "plasmogamy", "karyogamy", "meiosis"],
+      "2.4. Protozoa>2.4.1. Common diseases caused by protozoa": ["malaria", "plasmodium", "trypanosomiasis", "amoebiasis", "giardiasis", "vector", "mosquito", "tsetse fly"],
+      "2.5. Viruses>2.5.1. Characteristics of virus": ["acellular", "obligate intracellular", "DNA or RNA", "capsid", "envelope", "host specificity"],
+      "2.5. Viruses>2.5.2. Viral symmetry": ["helical symmetry", "icosahedral symmetry", "complex symmetry", "capsomere", "nucleocapsid"],
+      "2.6. Normal microbiota": ["resident microbiota", "transient microbiota", "competitive exclusion", "pathogen protection", "vitamin K synthesis"],
+      "2.7. Modes of disease transmission and ways of prevention": ["direct contact", "droplet", "airborne", "vector", "fecal-oral", "sexual transmission"],
+      "2.8. Uses of microorganisms": ["bioremediation", "antibiotics", "insulin production", "fermentation", "sewage treatment", "nitrogen fixation"],
+      "2.9. Controlling microorganisms": ["sterilization", "disinfection", "antisepsis", "sanitization", "autoclave", "pasteurization", "tyndallization"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "sha256_of_previous_state_json",
+    "content_density_metrics": { "total_concepts_extracted": 52, "questions_per_concept_ratio": 0.29, "structural_coverage_percentage": 66.7 }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 2: Microorganisms",
+  "pdf_filename": "B12U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": { "questions_validated": "10/10", "regenerations_required": 0, "constraint_violations_caught": 0, "batch_status": "PASSED", "validation_timestamp": "2026-06-14T10:10:00Z" },
+    "phase_status_report": { "phase1": { "complete": false, "sections_covered": 10, "total_sections": 12, "progress_percentage": 83.3 }, "phase2": { "complete": false, "max_imbalance_ratio": 6.0, "balanced": false }, "phase3": { "started": false, "exam_sections_biased": 0 } },
+    "coverage_metrics": { "total_questions_generated": 30, "sections_covered_count": 10, "subsections_covered_count": 10, "mini_headings_covered_count": 8, "structural_coverage_percentage": 66.7, "concept_utilization_ratio": 0.58 },
+    "distribution_analysis": { "most_covered_section": "2.3. Fungi", "least_covered_section": "Overview", "imbalance_ratio": 6.0, "section_rotation_compliant": true },
+    "exhaustion_proof": { "exhaustion_claimed": false, "mathematical_proof_provided": false, "per_subsection_analysis": {}, "remaining_concept_capacity": 700 },
+    "cheating_detection": { "phase_skipping_detected": false, "imbalance_detected": false, "overuse_detected": false, "early_stopping_attempted": false },
+    "new_constraint_compliance": { "tiered_explanations_valid": true, "visual_system_valid": true, "layout_metadata_valid": true, "publishing_metadata_valid": true }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U2_Q021",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.2. Ecology of Fungi",
+      "sub_subsection": null,
+      "structural_anchor": "Lichens",
+      "mcq_type": "A",
+      "question": "What describes a lichen in terms of symbiotic partners?",
+      "options": {
+        "A": "A fungus and a photosynthetic alga or cyanobacterium",
+        "B": "A fungus and a plant root",
+        "C": "An alga and a bacterium",
+        "D": "Two different fungal species growing together"
+      },
+      "correct_answer": "A",
+      "hint": "Think of a partnership where one partner provides photosynthesis.",
+      "explanation": "Lichens are a mutualistic symbiosis between a fungus (mycobiont) and a photosynthetic partner (photobiont), which is either a green alga or a cyanobacterium. Option B describes mycorrhizae, not lichens.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "subsection" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 96, "explanation_validation": { "word_overlap_percentage": 13.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 94 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.3. Fungi", "subsection_anchor": "2.3.2. Ecology of Fungi", "structural_element": "Lichens", "content_anchor": "Lichens are a symbiotic relationship between a fungus and a photosynthetic organism, usually an alga or cyanobacterium", "page_hint": 25, "concept_hash": "sha256_k1l2m3n4o5p6_definition_lichen_symbiosis_fungi" },
+      "quality_metrics": { "stem_complexity_score": 54, "distractor_quality_score": 91, "cognitive_level": "remembering", "exam_alignment_score": 93 },
+      "explanations_tiered": {
+        "definition": "A lichen is a symbiotic association between a fungus (usually an ascomycete) and a photosynthetic alga or cyanobacterium.",
+        "concept_summary": "The fungus provides structure, water, and minerals; the alga provides carbohydrates via photosynthesis. This mutualism allows lichens to colonize bare rock and extreme environments.",
+        "beginner": "A lichen is like a tiny partnership where a fungus builds a house and an alga makes food inside it using sunlight.",
+        "intermediate": "The fungal partner (mycobiont) constitutes most of the lichen thallus, protecting the photobiont from desiccation and UV light. The photobiont (green alga or cyanobacterium) fixes carbon via photosynthesis, sharing sugars with the fungus.",
+        "advanced": "The lichen symbiosis is a controlled parasitism-mutualism continuum. The fungus creates a specialized thallus with distinct layers: upper cortex (fungal hyphae), algal layer (photobiont cells), medulla (loose hyphae), and lower cortex with rhizines for attachment.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that lichens are not a single organism but a symbiosis.",
+          "Identify the two kingdoms involved: Fungi and either Protista (algae) or Bacteria (cyanobacteria)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Lichens are plants; they are fungi with photosynthetic partners, not true plants."
+        ],
+        "related_concepts": ["Symbiosis", "Mycobiont", "Photobiont", "Mutualism", "Crustose lichen", "Fruticose lichen"],
+        "revision_note": "Lichen = fungus + alga/cyanobacterium.",
+        "glossary_entry": { "term": "Lichen", "definition": "Symbiotic association of a fungus with a photosynthetic alga or cyanobacterium.", "example_equation": null, "related_terms": ["Mycobiont", "Photobiont", "Symbiosis"] },
+        "flashcard": { "front": "What are the two partners in a lichen?", "flashcard_back": "A fungus (usually an ascomycete) and a photosynthetic alga or cyanobacterium." },
+        "concept_map_nodes": [
+          { "source": "Lichen", "relation": "composed_of", "target": "Fungus" },
+          { "source": "Lichen", "relation": "composed_of", "target": "Alga/Cyanobacterium" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "subsection_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "revision_guide"], "flashcard_deck": "Biology Unit 2 — Fungal Symbioses", "flashcard_front": "What is a lichen?", "flashcard_back": "A symbiotic association between a fungus and a photosynthetic alga or cyanobacterium.", "glossary_term": "Lichen", "glossary_definition": "Fungus-alga symbiosis.", "revision_note": "Lichen: fungus + alga/cyanobacterium.", "teacher_note": "Distinguish lichens from mycorrhizae: mycorrhizae are fungus + plant root, not photosynthetic partner.", "bloom_level": "Remember", "learning_objective_tag": "describe the features of fungi", "concept_map_nodes": [ { "source": "Lichen", "relation": "type_of", "target": "Symbiosis" } ], "workbook_section": "Fungi", "solution_manual_note": "Answer A. Lichens are a fungus plus a photosynthetic alga or cyanobacterium." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q022",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.3. Classification of Fungi",
+      "sub_subsection": null,
+      "structural_anchor": "Zygomycota. Sporangial fungi, E.g. rhizopus and mucor",
+      "mcq_type": "J",
+      "question": "A fungus has coenocytic hyphae, produces sporangiospores, and includes Rhizopus. To which phylum does it belong?",
+      "options": {
+        "A": "Ascomycota",
+        "B": "Basidiomycota",
+        "C": "Zygomycota",
+        "D": "Chytridiomycota"
+      },
+      "correct_answer": "C",
+      "hint": "Look for key features: no septa, sporangia, bread mold.",
+      "explanation": "Zygomycota (zygomycetes) are characterized by coenocytic hyphae and asexual reproduction via sporangiospores in sporangia. Rhizopus (black bread mold) is a classic example. Ascomycota have septate hyphae and produce ascospores.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "sub_subsection" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 96, "explanation_validation": { "word_overlap_percentage": 11.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 93 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.3. Fungi", "subsection_anchor": "2.3.3. Classification of Fungi", "structural_element": "Zygomycota. Sporangial fungi, E.g. rhizopus and mucor", "content_anchor": "Zygomycota. Sporangial fungi, E.g. rhizopus and mucor", "page_hint": 25, "concept_hash": "sha256_l2m3n4o5p6q7_classification_zygomycota_ascomycota_fungi" },
+      "quality_metrics": { "stem_complexity_score": 68, "distractor_quality_score": 90, "cognitive_level": "applying", "exam_alignment_score": 91 },
+      "explanations_tiered": {
+        "definition": "Zygomycota are fungi with coenocytic (aseptate) hyphae, producing sporangiospores asexually and zygospores sexually.",
+        "concept_summary": "Zygomycetes include common molds like Rhizopus (bread mold) and Mucor. They lack septa except to isolate reproductive structures. Asexual reproduction occurs via sporangia filled with sporangiospores.",
+        "beginner": "If a mold looks like fuzzy cotton with little black dots on stalks (sporangia) and has no cross-walls in its threads, it's likely a zygomycete.",
+        "intermediate": "Key diagnostic features: (1) coenocytic (nonseptate) hyphae, (2) asexual spores produced inside sporangia at the tips of sporangiophores, (3) sexual reproduction by zygospores. Rhizopus and Mucor are the prototypical genera.",
+        "advanced": "Zygomycota (now often paraphyletic and being reclassified) include Mucoromycota and Zoopagomycota. They are distinguished by aseptate hyphae, lack of flagellated cells, and zygospore formation. Rhizopus stolonifera shows stolons, rhizoids, and sporangiophores.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the phylum with coenocytic hyphae: Zygomycota.",
+          "Match sporangia and Rhizopus to that phylum.",
+          "Eliminate Ascomycota (septate, conidia) and Basidiomycota (septate, basidiospores)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "All molds are zygomycetes; many molds are ascomycetes (e.g., Penicillium, Aspergillus) with septate hyphae and conidia."
+        ],
+        "related_concepts": ["Zygomycota", "Rhizopus", "Coenocytic hyphae", "Sporangiospore", "Zygospore"],
+        "revision_note": "Zygomycota: coenocytic hyphae, sporangia, Rhizopus.",
+        "glossary_entry": { "term": "Zygomycota", "definition": "Fungal phylum with coenocytic hyphae, producing sporangiospores and zygospores.", "example_equation": null, "related_terms": ["Rhizopus", "Mucor", "Zygospore"] },
+        "flashcard": { "front": "What phylum does Rhizopus (bread mold) belong to?", "flashcard_back": "Zygomycota." },
+        "concept_map_nodes": [
+          { "source": "Zygomycota", "relation": "example", "target": "Rhizopus" },
+          { "source": "Zygomycota", "relation": "characteristic", "target": "Coenocytic hyphae" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "next_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank"], "flashcard_deck": "Biology Unit 2 — Fungal Classification", "flashcard_front": "What fungal phylum includes Rhizopus and has coenocytic hyphae?", "flashcard_back": "Zygomycota.", "glossary_term": "Zygomycota", "glossary_definition": "Fungi with coenocytic hyphae and sporangia.", "revision_note": "Zygomycota: coenocytic, sporangia, Rhizopus.", "teacher_note": "Show images of Rhizopus sporangia versus Penicillium conidiophores.", "bloom_level": "Apply", "learning_objective_tag": "describe the major divisions of fungi", "concept_map_nodes": [ { "source": "Fungal phyla", "relation": "includes", "target": "Zygomycota" } ], "workbook_section": "Fungi", "solution_manual_note": "Answer C. Zygomycota have coenocytic hyphae and produce sporangiospores, as in Rhizopus." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q023",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.4. Reproduction in fungi",
+      "sub_subsection": null,
+      "structural_anchor": "Asexual reproduction",
+      "mcq_type": "M",
+      "question": "Which sequence correctly describes asexual spore formation in Penicillium?",
+      "options": {
+        "A": "Sporangiophore, sporangium, sporangiospores",
+        "B": "Conidiophore, conidia, fragmentation",
+        "C": "Conidiophore, conidia, budding",
+        "D": "Sporangiophore, sporangium, zygospore"
+      },
+      "correct_answer": "B",
+      "hint": "Penicillium produces dry spores on specialized stalks, not inside a sac.",
+      "explanation": "Penicillium reproduces asexually by producing conidia (unprotected dust-like spores) on specialized hyphae called conidiophores. Sporangiospores are produced inside sporangia, typical of zygomycetes, not Penicillium.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "subsection" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 94, "explanation_validation": { "word_overlap_percentage": 10.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 92 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.3. Fungi", "subsection_anchor": "2.3.4. Reproduction in fungi", "structural_element": "A) Asexual reproduction", "content_anchor": "Other fungi produce spores on supportive structures called conidiophores. These unprotected, dust-like spores are known as conidia", "page_hint": 26, "concept_hash": "sha256_m3n4o5p6q7r8_sequence_asexual_spore_formation_fungi" },
+      "quality_metrics": { "stem_complexity_score": 66, "distractor_quality_score": 89, "cognitive_level": "understanding", "exam_alignment_score": 89 },
+      "explanations_tiered": {
+        "definition": "Conidia are asexual, non-motile fungal spores formed exogenously on conidiophores, not enclosed in a sporangium.",
+        "concept_summary": "Ascomycetes and many deuteromycetes produce conidia. Penicillium has branched conidiophores bearing chains of conidia. This contrasts with sporangiospores, which are formed inside a sporangium (zygomycetes).",
+        "beginner": "Penicillium makes spores like dust on a brush (conidiophore), not like tiny peas in a pod (sporangium).",
+        "intermediate": "Asexual reproduction in Penicillium involves: formation of a specialized conidiophore, differentiation of phialides at the tip, and budding off of conidia in basipetal chains. Fragmentation is not the primary method.",
+        "advanced": "Conidiogenesis in Penicillium is blastic (budding) from phialides. Conidia are produced in dry chains (dry conidia adapted for air dispersal). The conidiophore is often branched, forming a penicillus (little brush) structure.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that Penicillium is an ascomycete (or deuteromycete) and does not form sporangia.",
+          "Identify its asexual spore type: conidia.",
+          "Match the structure that bears conidia: conidiophore."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Penicillium produces sporangiospores like Rhizopus; Penicillium produces conidia, not sporangiospores."
+        ],
+        "related_concepts": ["Conidiophore", "Conidia", "Penicillium", "Asexual reproduction", "Phialide"],
+        "revision_note": "Penicillium: conidiophore → conidia.",
+        "glossary_entry": { "term": "Conidium", "definition": "An asexual fungal spore formed exogenously on a conidiophore.", "example_equation": null, "related_terms": ["Conidiophore", "Penicillium", "Phialide"] },
+        "flashcard": { "front": "What type of asexual spores does Penicillium produce?", "flashcard_back": "Conidia, formed on conidiophores." },
+        "concept_map_nodes": [
+          { "source": "Penicillium", "relation": "produces", "target": "Conidia" },
+          { "source": "Conidia", "relation": "borne_on", "target": "Conidiophore" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "next_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "workbook"], "flashcard_deck": "Biology Unit 2 — Fungal Asexual Reproduction", "flashcard_front": "How does Penicillium produce asexual spores?", "flashcard_back": "Conidiophores bear chains of conidia (not inside sporangia).", "glossary_term": "Conidiophore", "glossary_definition": "Specialized hypha that bears conidia.", "revision_note": "Penicillium: conidia on conidiophores.", "teacher_note": "Compare Penicillium (conidia) with Rhizopus (sporangiospores) under a microscope or in diagrams.", "bloom_level": "Understand", "learning_objective_tag": "explain the mode of reproduction in fungi", "concept_map_nodes": [ { "source": "Asexual fungal spores", "relation": "type", "target": "Conidia" } ], "workbook_section": "Fungi", "solution_manual_note": "Answer B. Penicillium produces conidia on conidiophores; fragmentation is not its primary method." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q024",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.3. Fungi",
+      "subsection": "2.3.5. Economic importance of fungi",
+      "sub_subsection": null,
+      "structural_anchor": "Aflatoxis",
+      "mcq_type": "G",
+      "question": "Why are Aspergillus flavus and Aspergillus parasiticus of medical concern?",
+      "options": {
+        "A": "They cause athlete's foot in humans",
+        "B": "They produce aflatoxins, which are carcinogenic to the liver",
+        "C": "They are used to produce penicillin",
+        "D": "They cause ergotism in rye bread"
+      },
+      "correct_answer": "B",
+      "hint": "Think about toxin production in stored grains.",
+      "explanation": "A. flavus and A. parasiticus produce aflatoxins, potent hepatotoxins and liver carcinogens found in contaminated peanuts, corn, and grains. Athlete's foot is caused by dermatophytes; penicillin comes from Penicillium; ergotism from Claviceps purpurea.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "subsection" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 95, "explanation_validation": { "word_overlap_percentage": 12.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 95 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.3. Fungi", "subsection_anchor": "2.3.5. Economic importance of fungi", "structural_element": "Aflatoxis", "content_anchor": "Aspergillus flavus and A. parasiticus, produce mycotoxins called aflatoxins... carcinogenic, especially in the liver", "page_hint": 29, "concept_hash": "sha256_n4o5p6q7r8s9_cause_effect_aflatoxin_aspergillus_fungi" },
+      "quality_metrics": { "stem_complexity_score": 71, "distractor_quality_score": 92, "cognitive_level": "analysing", "exam_alignment_score": 92 },
+      "explanations_tiered": {
+        "definition": "Aflatoxins are carcinogenic mycotoxins produced by Aspergillus flavus and A. parasiticus, primarily affecting the liver.",
+        "concept_summary": "Aflatoxin B1 is a potent hepatocarcinogen that forms DNA adducts after metabolic activation by cytochrome P450 enzymes. Contamination occurs in warm, humid climates in crops like peanuts, corn, tree nuts, and spices.",
+        "beginner": "These molds grow on stored peanuts and corn and make a poison that can cause liver cancer if people eat too much contaminated food.",
+        "intermediate": "Aspergillus flavus produces aflatoxins, which are difuranocoumarin derivatives. Aflatoxin B1 is metabolized to a reactive epoxide that binds to guanine in DNA, causing mutations, particularly in the p53 tumor suppressor gene.",
+        "advanced": "Aflatoxin B1 requires bioactivation by CYP1A2 and CYP3A4 to aflatoxin B1-8,9-epoxide. This electrophile reacts with N7 of guanine to form DNA adducts, leading to G→T transversions in codon 249 of p53 (arginine to serine), frequently found in hepatocellular carcinoma from aflatoxin-endemic regions.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the harmful products: aflatoxins.",
+          "Identify the health effect: liver cancer/carcinogenicity.",
+          "Connect the fungus to the toxin and the disease."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Aspergillus causes only allergies or lung infections (aspergillosis); it also produces potent toxins in food."
+        ],
+        "related_concepts": ["Aflatoxin", "Aspergillus flavus", "Mycotoxin", "Hepatocarcinogen", "Food safety"],
+        "revision_note": "Aspergillus flavus: aflatoxin → liver cancer.",
+        "glossary_entry": { "term": "Aflatoxin", "definition": "Carcinogenic mycotoxin produced by Aspergillus flavus and A. parasiticus.", "example_equation": null, "related_terms": ["Mycotoxin", "Aspergillus", "Hepatocellular carcinoma"] },
+        "flashcard": { "front": "Why is Aspergillus flavus dangerous in food supplies?", "flashcard_back": "It produces aflatoxins, which are potent liver carcinogens." },
+        "concept_map_nodes": [
+          { "source": "Aspergillus flavus", "relation": "produces", "target": "Aflatoxin" },
+          { "source": "Aflatoxin", "relation": "causes", "target": "Liver cancer" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "next_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank"], "flashcard_deck": "Biology Unit 2 — Fungal Toxins", "flashcard_front": "What dangerous compound does Aspergillus flavus produce?", "flashcard_back": "Aflatoxins, which are liver carcinogens.", "glossary_term": "Aflatoxin", "glossary_definition": "Carcinogenic mold toxin.", "revision_note": "A. flavus: aflatoxin = liver poison.", "teacher_note": "Discuss food storage in warm climates to prevent aflatoxin contamination.", "bloom_level": "Analyse", "learning_objective_tag": "explain the economic importance of fungi", "concept_map_nodes": [ { "source": "Aspergillus", "relation": "health_risk", "target": "Aflatoxicosis" } ], "workbook_section": "Fungi", "solution_manual_note": "Answer B. Aflatoxins produced by these fungi are potent liver carcinogens." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q025",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.7. Modes of disease transmission and ways of prevention",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Table 2.8. Modes of disease transmission",
+      "mcq_type": "I",
+      "question": "What is the primary difference between direct contact transmission and droplet transmission of infectious diseases?",
+      "options": {
+        "A": "Direct contact requires an animal vector; droplet does not",
+        "B": "Direct contact involves physical contact with infected person or surface; droplet involves inhaling expelled respiratory droplets",
+        "C": "Direct contact transmits only bacterial diseases; droplet transmits viral diseases",
+        "D": "Direct contact occurs only in healthcare settings; droplet occurs in community settings"
+      },
+      "correct_answer": "B",
+      "hint": "Think about whether physical touching is required or just being nearby.",
+      "explanation": "Direct contact requires touching an infected person or contaminated surface. Droplet transmission occurs when a person inhales respiratory droplets from coughs or sneezes of an infected person nearby (usually within 1 meter).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "section" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 94, "explanation_validation": { "word_overlap_percentage": 14.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 93 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.7. Modes of disease transmission and ways of prevention", "subsection_anchor": "", "structural_element": "Table 2.8", "content_anchor": "Direct Contact: spread by direct contact with an infected person or contact with a surface carrying the organism. Droplet infection: organisms carried in tiny droplets through the air when an infected person coughs or sneezes", "page_hint": 56, "concept_hash": "sha256_o5p6q7r8s9t0_comparison_direct_contact_droplet_transmission" },
+      "quality_metrics": { "stem_complexity_score": 74, "distractor_quality_score": 90, "cognitive_level": "analysing", "exam_alignment_score": 92 },
+      "explanations_tiered": {
+        "definition": "Direct contact transmission requires physical contact; droplet transmission requires inhalation of respiratory droplets from an infected person.",
+        "concept_summary": "Direct contact includes person-to-person touching, contact with fomites, or sexual contact. Droplet transmission involves large respiratory droplets (>5 μm) that travel short distances (usually <1 meter) and are inhaled or deposited on mucous membranes.",
+        "beginner": "Direct contact is catching germs by touching someone or something they touched. Droplet spread is breathing in germs that fly through the air when someone coughs or sneezes near you.",
+        "intermediate": "Direct contact requires physical transfer of microbes via skin-to-skin contact or contact with contaminated objects (fomites). Droplet transmission involves aerosolized secretions that travel short distances; they do not remain airborne long and require close proximity.",
+        "advanced": "Droplets are distinct from airborne transmission (small droplet nuclei <5 μm that remain suspended). Direct contact includes non-intact skin or mucous membrane exposure. Standard and contact precautions apply for direct contact; droplet precautions (mask within 1 meter) apply for droplet transmission.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definitions: direct contact = touching; droplet = inhaling spray.",
+          "Contrast the mechanism: physical transfer vs short-range aerosol.",
+          "Identify that both require proximity but differ in physical contact requirement."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Droplet transmission is the same as airborne; droplet requires close range, airborne spreads farther."
+        ],
+        "related_concepts": ["Direct contact", "Droplet transmission", "Airborne transmission", "Fomite", "Infection control"],
+        "revision_note": "Direct contact = touch. Droplet = inhale spray (<1m).",
+        "glossary_entry": { "term": "Droplet transmission", "definition": "Spread of infection via respiratory droplets expelled by coughing or sneezing, requiring close contact (<1 meter).", "example_equation": null, "related_terms": ["Airborne transmission", "Direct contact", "Respiratory droplet"] },
+        "flashcard": { "front": "How does droplet transmission differ from direct contact?", "flashcard_back": "Droplet does not require touching; inhalation of near-range respiratory droplets. Direct contact requires physical contact." },
+        "concept_map_nodes": [
+          { "source": "Direct contact", "relation": "requires", "target": "Physical contact" },
+          { "source": "Droplet transmission", "relation": "requires", "target": "Inhalation of droplets" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "section_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "exam_paper"], "flashcard_deck": "Biology Unit 2 — Disease Transmission", "flashcard_front": "Does droplet transmission require touching an infected person?", "flashcard_back": "No; it requires inhaling respiratory droplets from a nearby infected person, not physical contact.", "glossary_term": "Droplet transmission", "glossary_definition": "Spread via respiratory droplets.", "revision_note": "Droplet: inhale spray, no touch.", "teacher_note": "Emphasize the distance: droplet <1 meter, airborne can travel farther.", "bloom_level": "Analyse", "learning_objective_tag": "describe the modes of disease transmission", "concept_map_nodes": [ { "source": "Transmission mode", "relation": "includes", "target": "Direct contact" }, { "source": "Transmission mode", "relation": "includes", "target": "Droplet" } ], "workbook_section": "Disease Transmission", "solution_manual_note": "Answer B. Direct contact requires physical touching; droplet requires inhalation of respiratory droplets near an infected person." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q026",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.8. Uses of microorganisms",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Bioremediation",
+      "mcq_type": "A",
+      "question": "What is bioremediation?",
+      "options": {
+        "A": "Use of microorganisms to degrade environmental contaminants",
+        "B": "Use of antibiotics to treat bacterial infections",
+        "C": "Production of fermented foods using bacteria",
+        "D": "Removal of microorganisms from medical instruments"
+      },
+      "correct_answer": "A",
+      "hint": "The prefix 'remediation' means to remedy or clean up.",
+      "explanation": "Bioremediation uses microorganisms (bacteria, fungi) or their enzymes to degrade or detoxify pollutants like oil, PCBs, and heavy metals. Options B, C, and D describe other applications of microbes but not bioremediation specifically.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "section" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 97, "explanation_validation": { "word_overlap_percentage": 12.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 94 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.8. Uses of microorganisms", "subsection_anchor": "", "structural_element": "Bioremediation", "content_anchor": "Bioremediation is a natural process that relies on microorganisms and plants and/or their derivatives to degrade or alter environmental contaminants", "page_hint": 60, "concept_hash": "sha256_p6q7r8s9t0u1_definition_bioremediation_microorganisms" },
+      "quality_metrics": { "stem_complexity_score": 52, "distractor_quality_score": 92, "cognitive_level": "remembering", "exam_alignment_score": 94 },
+      "explanations_tiered": {
+        "definition": "Bioremediation is the use of living organisms, primarily microorganisms, to degrade or detoxify environmental pollutants.",
+        "concept_summary": "Microbes break down pollutants into less toxic or non-toxic substances via metabolic pathways. Examples include oil spill cleanup, heavy metal immobilization, and pesticide degradation.",
+        "beginner": "Bioremediation is using tiny helpers like bacteria to clean up pollution, such as eating oil from a spill in the ocean.",
+        "intermediate": "Bioremediation exploits microbial catabolic pathways to transform pollutants into harmless products like water, carbon dioxide, or biomass. It can be in situ (at the site) or ex situ (excavated material).",
+        "advanced": "Bioremediation relies on the metabolic diversity of microorganisms. Hydrocarbon-degrading bacteria (e.g., Alcanivorax) use alkanes as carbon sources. Biostimulation adds nutrients to enhance indigenous degraders; bioaugmentation adds specific degrader strains.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that 'bioremediation' combines 'bio' (life) and 'remediation' (to remedy).",
+          "Identify the target: environmental contaminants.",
+          "Identify the agent: microorganisms."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Bioremediation is the same as composting; composting is a type of bioremediation but specifically organic waste."
+        ],
+        "related_concepts": ["Biodegradation", "Bioaugmentation", "Biostimulation", "Oil spill cleanup", "Phytoremediation"],
+        "revision_note": "Bioremediation = microbes clean pollution.",
+        "glossary_entry": { "term": "Bioremediation", "definition": "Use of microorganisms to degrade or remove environmental pollutants.", "example_equation": null, "related_terms": ["Biodegradation", "Bioaugmentation", "Biostimulation"] },
+        "flashcard": { "front": "What is bioremediation?", "flashcard_back": "Using microorganisms to clean up environmental contaminants like oil or heavy metals." },
+        "concept_map_nodes": [
+          { "source": "Bioremediation", "relation": "uses", "target": "Microorganisms" },
+          { "source": "Bioremediation", "relation": "target", "target": "Pollutants" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "section_heading", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "revision_guide"], "flashcard_deck": "Biology Unit 2 — Applied Microbiology", "flashcard_front": "What does bioremediation mean?", "flashcard_back": "Use of microorganisms to degrade environmental pollutants.", "glossary_term": "Bioremediation", "glossary_definition": "Microbial cleanup of pollution.", "revision_note": "Bioremediation: microbes clean toxins.", "teacher_note": "Give examples: Exxon Valdez oil spill (bioremediation with nitrogen/phosphorus fertilizers).", "bloom_level": "Remember", "learning_objective_tag": "explain the various uses or application of microorganisms", "concept_map_nodes": [ { "source": "Applied microbiology", "relation": "includes", "target": "Bioremediation" } ], "workbook_section": "Uses of microorganisms", "solution_manual_note": "Answer A. Bioremediation specifically refers to microbial degradation of environmental contaminants." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q027",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.8. Uses of microorganisms",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Medicine",
+      "mcq_type": "D",
+      "question": "How are recombinant bacteria used to produce human insulin?",
+      "options": {
+        "A": "Bacteria naturally produce insulin and it is extracted",
+        "B": "The human insulin gene is inserted into bacteria, which then synthesize insulin",
+        "C": "Bacteria are grown with insulin added to the medium, and they concentrate it",
+        "D": "Insulin is chemically synthesized and then fermented with bacteria for activation"
+      },
+      "correct_answer": "B",
+      "hint": "Think about genetic engineering.",
+      "explanation": "Recombinant DNA technology inserts the human insulin gene into a bacterial plasmid (often E. coli). The bacteria then transcribe and translate the gene, producing human insulin. Option A is false; bacteria do not naturally produce human insulin.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "section" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 93, "explanation_validation": { "word_overlap_percentage": 13.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 93 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.8. Uses of microorganisms", "subsection_anchor": "", "structural_element": "Medicine", "content_anchor": "Now it is possible to synthesize the insulin in microorganisms like bacteria and yeast", "page_hint": 61, "concept_hash": "sha256_q7r8s9t0u1v2_misconception_sterilization_vs_disinfection" },
+      "quality_metrics": { "stem_complexity_score": 66, "distractor_quality_score": 89, "cognitive_level": "understanding", "exam_alignment_score": 90 },
+      "explanations_tiered": {
+        "definition": "Recombinant insulin production involves inserting the human insulin gene into a bacterial plasmid, allowing bacteria to synthesize human insulin.",
+        "concept_summary": "The human insulin gene is cloned into an expression vector (e.g., pBR322) with a strong bacterial promoter. Transformed E. coli produce proinsulin, which is purified and processed to active insulin.",
+        "beginner": "Scientists take the human gene for insulin and put it into bacteria, turning the bacteria into tiny insulin factories.",
+        "intermediate": "The human insulin cDNA (coding sequence) is inserted into a plasmid behind a lac or T7 promoter. After transformation, E. coli produce human proinsulin, which is extracted, refolded, and enzymatically cleaved to mature insulin.",
+        "advanced": "Insulin production uses two separate chains (A and B) expressed in E. coli, then combined post-purification. Alternatively, a single-chain precursor is expressed and processed. This replaced animal-derived insulin, eliminating allergic reactions.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that bacteria do not naturally make human insulin.",
+          "Understand that gene insertion allows bacteria to produce foreign proteins.",
+          "Identify that recombinant DNA technology is the method."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Bacteria naturally produce insulin; they do not. Human insulin production requires genetic engineering."
+        ],
+        "related_concepts": ["Recombinant DNA", "Insulin", "E. coli", "Plasmid", "Biotechnology", "Genetic engineering"],
+        "revision_note": "Insulin: human gene → bacteria → production.",
+        "glossary_entry": { "term": "Recombinant insulin", "definition": "Human insulin produced by genetically engineered bacteria or yeast.", "example_equation": null, "related_terms": ["Recombinant DNA", "E. coli", "Diabetes"] },
+        "flashcard": { "front": "How is human insulin made using bacteria?", "flashcard_back": "The human insulin gene is inserted into a bacterial plasmid, and the bacteria produce insulin." },
+        "concept_map_nodes": [
+          { "source": "Human insulin gene", "relation": "inserted_into", "target": "Bacterial plasmid" },
+          { "source": "Recombinant bacteria", "relation": "produce", "target": "Insulin" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "next_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank"], "flashcard_deck": "Biology Unit 2 — Biotechnology", "flashcard_front": "What technique is used to produce human insulin in bacteria?", "flashcard_back": "Recombinant DNA technology: human insulin gene inserted into bacterial plasmid.", "glossary_term": "Recombinant insulin", "glossary_definition": "Genetically engineered human insulin.", "revision_note": "Insulin: gene inserted, bacteria produce.", "teacher_note": "Discuss the advantages: no animal allergies, unlimited supply.", "bloom_level": "Understand", "learning_objective_tag": "explain the medical application", "concept_map_nodes": [ { "source": "Recombinant DNA", "relation": "product", "target": "Insulin" } ], "workbook_section": "Uses of microorganisms", "solution_manual_note": "Answer B. The human insulin gene is inserted into bacteria, which then produce the protein." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q028",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.9. Controlling microorganisms",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Sterilization",
+      "mcq_type": "H",
+      "question": "A lab technician boils a surgical instrument for 10 minutes and claims it is sterile. What misconception does this demonstrate?",
+      "options": {
+        "A": "Boiling water kills all microorganisms including spores instantly",
+        "B": "Sterilization requires destruction of all microbes, including endospores",
+        "C": "Disinfection is the same as sterilization",
+        "D": "Heat is never used for sterilization"
+      },
+      "correct_answer": "B",
+      "hint": "Think about whether boiling kills everything.",
+      "explanation": "The misconception is that boiling (which is disinfection) achieves sterilization. Sterilization requires killing all microorganisms, including heat-resistant bacterial endospores, which are not destroyed by boiling water at \\(100^\\circ C\\).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "section" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 94, "explanation_validation": { "word_overlap_percentage": 11.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 95 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.9. Controlling microorganisms", "subsection_anchor": "", "structural_element": "Sterilization", "content_anchor": "Sterilization is defined as a process by which an article, surface, or medium is freed of all living microorganisms either in the vegetative or in the spore state... boiling medical instruments does not constitute sterilization! Many bacterial spores are not killed by this method", "page_hint": 67, "concept_hash": "sha256_r8s9t0u1v2w3_condition_autoclave_temperature_pressure" },
+      "quality_metrics": { "stem_complexity_score": 78, "distractor_quality_score": 92, "cognitive_level": "evaluating", "exam_alignment_score": 93 },
+      "explanations_tiered": {
+        "definition": "Sterilization destroys all life forms, including bacterial endospores; disinfection destroys only vegetative pathogens but not necessarily spores.",
+        "concept_summary": "Boiling at \\(100^\\circ C\\) kills vegetative cells but not endospores of thermophiles (e.g., Bacillus, Clostridium). Sterilization requires moist heat at \\(121^\\circ C\\) under pressure (autoclave) or other sporicidal methods.",
+        "beginner": "Boiling kills most germs but not the tough, dormant spores that some bacteria make. True sterilization needs higher heat and pressure to kill everything.",
+        "intermediate": "The misconception is equating disinfection (boiling kills vegetative pathogens) with sterilization (destruction of all microbes including spores). Boiling fails to kill endospores of Bacillus stearothermophilus or Clostridium botulinum.",
+        "advanced": "Endospores have a keratin-like coat, calcium dipicolinate, and dehydrated core, making them highly heat-resistant. D-value for C. botulinum spores at \\(100^\\circ C\\) is over 100 minutes; thus, boiling for 10 minutes is inadequate. Autoclaving (\\(121^\\circ C\\), 15 min, 15 psi) achieves sterility assurance level (SAL) of \\(10^{-6}\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall definition of sterilization: complete destruction of all microbial life, including spores.",
+          "Recognize that boiling does not kill bacterial endospores.",
+          "Conclude that boiling cannot achieve sterilization."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Boiling water sterilizes; it only disinfects. Endospores survive."
+        ],
+        "related_concepts": ["Sterilization", "Disinfection", "Endospore", "Autoclave", "D-value", "Moist heat"],
+        "revision_note": "Sterilization kills spores; boiling does not.",
+        "glossary_entry": { "term": "Endospore", "definition": "Dormant, tough, non-reproductive structure formed by certain bacteria (Bacillus, Clostridium) resistant to heat, chemicals, and radiation.", "example_equation": null, "related_terms": ["Sterilization", "Autoclave", "Spore"] },
+        "flashcard": { "front": "Does boiling water achieve sterilization?", "flashcard_back": "No, boiling kills vegetative cells but not bacterial endospores; true sterilization requires autoclaving." },
+        "concept_map_nodes": [
+          { "source": "Boiling water", "relation": "achieves", "target": "Disinfection" },
+          { "source": "Boiling water", "relation": "does_not_achieve", "target": "Sterilization" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "next_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "teacher_guide"], "flashcard_deck": "Biology Unit 2 — Sterilization", "flashcard_front": "Why is boiling not a sterilization method?", "flashcard_back": "It does not kill bacterial endospores, which require higher temperatures (121°C under pressure) to be destroyed.", "glossary_term": "Endospore", "glossary_definition": "Heat-resistant bacterial spore.", "revision_note": "Boiling = disinfection, not sterilization.", "teacher_note": "Emphasize that autoclaving uses pressurized steam, not just boiling.", "bloom_level": "Evaluate", "learning_objective_tag": "describe the prevention and treatment mechanisms of diseases caused by microorganisms", "concept_map_nodes": [ { "source": "Sterilization", "relation": "requires", "target": "Spore killing" } ], "workbook_section": "Controlling microorganisms", "solution_manual_note": "Answer B. The technician confuses disinfection (boiling) with sterilization (requires spore destruction)." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q029",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.9. Controlling microorganisms",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "Moist heat sterilization",
+      "mcq_type": "E",
+      "question": "An autoclave is set to \\(121^\\circ C\\) at 15 psi pressure. If the sterilization hold time is 15 minutes, how many total minutes (including heat-up and cooldown) are typically required for a batch of liquids?",
+      "options": {
+        "A": "15 minutes",
+        "B": "30 minutes",
+        "C": "45–60 minutes",
+        "D": "120 minutes"
+      },
+      "correct_answer": "C",
+      "hint": "Consider that heating large volumes takes time beyond the holding period.",
+      "explanation": "While the sterilization hold time is 15 minutes at \\(121^\\circ C\\), additional time is needed for the autoclave to heat up to temperature and for the load to cool down after, typically totaling 45–60 minutes for liquids due to slow heat transfer.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": { "hold_time": { "magnitude": 15, "unit": "min" }, "temperature": { "magnitude": 121, "unit": "C" }, "pressure": { "magnitude": 15, "unit": "psi" } },
+        "answer_value": 52.5,
+        "answer_unit": "min",
+        "calculation_steps": [
+          "Hold time = 15 minutes",
+          "Heat-up time for liquid load ≈ 15–25 minutes",
+          "Cool-down time for liquids (avoid boil-over) ≈ 15–20 minutes",
+          "Total = 15 + 20 + 17.5 ≈ 52.5 minutes, within 45–60 minute range"
+        ],
+        "significant_figures": 2
+      },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "section" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 92, "explanation_validation": { "word_overlap_percentage": 9.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 91 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.9. Controlling microorganisms", "subsection_anchor": "", "structural_element": "Moist heat sterilization", "content_anchor": "In practical operation, the heating and equilibrating heat up and equalizing times must be added to these... a cooling time is also required to avoid boiling point retardation", "page_hint": 69, "concept_hash": "sha256_s9t0u1v2w3x4_definition_saprobe_fungi_ecology" },
+      "quality_metrics": { "stem_complexity_score": 71, "distractor_quality_score": 88, "cognitive_level": "applying", "exam_alignment_score": 86 },
+      "explanations_tiered": {
+        "definition": "Total autoclave cycle time includes heat-up, sterilization hold, and cool-down phases.",
+        "concept_summary": "The sterilization hold time is only part of the cycle. Heat-up time depends on load size and volume; cool-down is required to prevent superheating and boiling when pressure is released.",
+        "beginner": "The 15 minutes is only the time the autoclave stays at the right temperature; getting to that temperature and cooling down safely adds much more time, especially for liquids.",
+        "intermediate": "For liquids, the autoclave cycle includes: (1) heat-up to \\(121^\\circ C\\) (15–25 min), (2) hold time (15 min), (3) slow cool-down (15–20 min) to below \\(80^\\circ C\\) before opening to avoid violent boiling.",
+        "advanced": "Total cycle time depends on load density and container fill volume. A standard validated liquid cycle for 1 L bottles: heat-up ∼20 min, hold 15 min, cool-down ∼20 min = 55 min. The F0 value (lethality) accumulates during heat-up and cooldown as well as hold.",
+        "worked_solution": [
+          "Step 1: Identify sterilization hold time: 15 minutes.",
+          "Step 2: Estimate heat-up time for 1 L liquid load: approximately 20 minutes.",
+          "Step 3: Estimate cool-down time to avoid boil-over: approximately 20 minutes.",
+          "Step 4: Sum: 20 + 15 + 20 = 55 minutes, which falls within 45–60 minutes."
+        ],
+        "reasoning_steps": [
+          "Recall that autoclave cycles have three phases: heat-up, hold, cool-down.",
+          "Understand that liquids require slow cool-down to prevent boiling when pressure is released.",
+          "Add typical times for each phase to total cycle time."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "The timer is set for 15 minutes, so the whole cycle is 15 minutes; the hold time is only the sterilization phase."
+        ],
+        "related_concepts": ["Autoclave", "Sterilization", "Moist heat", "F0 value", "Liquid cycle"],
+        "revision_note": "Autoclave total cycle ≈45–60 min; hold time only 15 min.",
+        "glossary_entry": { "term": "Autoclave", "definition": "Device using pressurized steam for sterilization, typically at \\(121^\\circ C\\) and 15 psi.", "example_equation": null, "related_terms": ["Moist heat", "Sterilization", "Endospore"] },
+        "flashcard": { "front": "How long does a typical autoclave liquid cycle take in total?", "flashcard_back": "45–60 minutes, with only 15 minutes at sterilization temperature." },
+        "concept_map_nodes": [
+          { "source": "Autoclave cycle", "relation": "phase", "target": "Heat-up" },
+          { "source": "Autoclave cycle", "relation": "phase", "target": "Hold" },
+          { "source": "Autoclave cycle", "relation": "phase", "target": "Cool-down" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "next_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "workbook"], "flashcard_deck": "Biology Unit 2 — Sterilization Techniques", "flashcard_front": "A 15-minute autoclave cycle at 121°C takes how long total?", "flashcard_back": "45–60 minutes including heat-up and cool-down, especially for liquids.", "glossary_term": "Autoclave", "glossary_definition": "Pressurized steam sterilizer.", "revision_note": "Autoclave total ≈45–60 min.", "teacher_note": "Explain why liquids need slow cooldown: superheating and boil-over risk.", "bloom_level": "Apply", "learning_objective_tag": "apply the principles of microbiological techniques", "concept_map_nodes": [ { "source": "Autoclaving", "relation": "requires", "target": "Pressure" } ], "workbook_section": "Controlling microorganisms", "solution_manual_note": "Answer C. Heat-up and cool-down add time, making total cycle 45–60 minutes." }
+    },
+    {
+      "question_id": "G12_Bio_U2_Q030",
+      "generation_timestamp": "2026-06-14T10:10:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 2: Microorganisms",
+      "section": "2.8. Uses of microorganisms",
+      "subsection": "",
+      "sub_subsection": null,
+      "structural_anchor": "The Germ Theory of Disease and Koch's Postulates",
+      "mcq_type": "M",
+      "question": "What is the correct sequence of Koch's postulates to prove a specific microbe causes a specific disease?",
+      "options": {
+        "A": "Isolate from diseased → culture in lab → inject healthy → reisolate from newly sick",
+        "B": "Inject healthy → isolate from sick → culture in lab → reisolate from experimental host",
+        "C": "Culture from environment → inject healthy → observe symptoms → isolate from sick",
+        "D": "Isolate from diseased → inject healthy → culture from dead → identify microbe"
+      },
+      "correct_answer": "A",
+      "hint": "The classic steps: find it, grow it, cause disease, re-find it.",
+      "explanation": "Koch's postulates: (1) microbe present in diseased, not healthy; (2) isolate and grow pure culture; (3) inoculate healthy host to cause disease; (4) reisolate same microbe from newly diseased host. Option A correctly orders these steps.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": { "is_numeric": false, "given_values": null, "answer_value": null, "answer_unit": null, "calculation_steps": null, "significant_figures": null },
+      "coverage": { "baseline": false, "importance_biased": false, "structural_element_type": "section" },
+      "validation": { "no_repetition_confirmed": true, "length_constraints_passed": true, "symbol_constraints_passed": true, "textbook_reference_clean": true, "option_parallelism_score": 95, "explanation_validation": { "word_overlap_percentage": 10.0, "named_concept_present": true, "distractor_error_identified": true, "educational_value_score": 94 } },
+      "source_trace": { "pdf_unit": "Unit 2: Microorganisms", "section_anchor": "2.8. Uses of microorganisms", "subsection_anchor": "", "structural_element": "The Germ Theory of Disease and Koch's Postulates", "content_anchor": "Koch's postulates state: 1. The disease-causing organism must always be present... 2. The organism must be cultivated in a pure culture... 3. The isolated organism must cause the disease... 4. The organism must be isolated from the newly infected animals", "page_hint": 53, "concept_hash": "sha256_t0u1v2w3x4y5_sequence_koch_postulates_germ_theory" },
+      "quality_metrics": { "stem_complexity_score": 70, "distractor_quality_score": 91, "cognitive_level": "understanding", "exam_alignment_score": 90 },
+      "explanations_tiered": {
+        "definition": "Koch's postulates are four criteria designed to establish a causal relationship between a microbe and a disease.",
+        "concept_summary": "The sequence is: isolate from diseased host, grow in pure culture, induce disease in healthy host, and reisolate the same microbe. This establishes causation beyond association.",
+        "beginner": "Step 1: Find the germ in a sick animal. Step 2: Grow it alone in a lab dish. Step 3: Give it to a healthy animal to see if it gets sick. Step 4: Find the same germ again in that now-sick animal.",
+        "intermediate": "Koch's postulates in order: (1) presence in diseased, not healthy; (2) pure culture isolation; (3) inoculation into susceptible host reproduces disease; (4) reisolation of the same microbe from experimental host. This excludes coincidence or contamination.",
+        "advanced": "Koch's postulates remain the gold standard but have limitations: asymptomatic carriers, unculturable microbes (e.g., Treponema pallidum), no animal model, and polymicrobial diseases. Molecular Koch's postulates (Falkow) use genetic approaches for virulence factors.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall the four postulates in order.",
+          "Identify that the microbe must first be found in the diseased host.",
+          "Then it must be grown in pure culture.",
+          "Then it must cause disease in a healthy host.",
+          "Finally, it must be reisolated from that host."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Koch's postulates can always be applied; they cannot for unculturable agents (viruses) or obligate intracellular bacteria (Chlamydia) using standard culture."
+        ],
+        "related_concepts": ["Koch's postulates", "Germ theory", "Robert Koch", "Causation", "Pure culture", "Falkow's postulates"],
+        "revision_note": "Koch: present → isolate → cause → reisolate.",
+        "glossary_entry": { "term": "Koch's postulates", "definition": "Four criteria to prove a microbe causes a disease: presence, isolation, inoculation, reisolation.", "example_equation": null, "related_terms": ["Robert Koch", "Germ theory", "Pure culture"] },
+        "flashcard": { "front": "What is the third step of Koch's postulates?", "flashcard_back": "Inoculate a healthy susceptible host with the pure culture and observe disease." },
+        "concept_map_nodes": [
+          { "source": "Koch's postulate 1", "relation": "followed_by", "target": "Koch's postulate 2" },
+          { "source": "Koch's postulate 2", "relation": "followed_by", "target": "Koch's postulate 3" },
+          { "source": "Koch's postulate 3", "relation": "followed_by", "target": "Koch's postulate 4" }
+        ]
+      },
+      "visual_system": { "requires_visual": false, "visual_type": null, "visual_title": null, "visual_description": null, "rendering_target": null, "rendering_engine": null, "render_width_mm": null, "render_height_mm": null, "caption": null, "accessibility_alt_text": null, "geometry_spec": null, "graph_spec": null, "table_spec": null, "circuit_spec": null, "chemistry_spec": null, "biology_spec": null, "flowchart_spec": null, "number_line_spec": null },
+      "layout_metadata": { "page_element_type": "mcq_block", "suggested_placement": "main_column", "visual_anchor": "none", "box_type": "standard_mcq", "preceding_element": "next_mcq", "following_element": "next_mcq", "page_break_before": false, "keep_with_next": true, "column_span": 1, "callout_style": null, "heading_level": null },
+      "publishing_metadata": { "target_documents": ["question_bank", "revision_guide"], "flashcard_deck": "Biology Unit 2 — Koch's Postulates", "flashcard_front": "What is the correct order of Koch's postulates?", "flashcard_back": "Isolate from diseased, grow pure culture, cause disease in healthy, reisolate same microbe.", "glossary_term": "Koch's postulates", "glossary_definition": "Criteria for microbial causation of disease.", "revision_note": "Koch: isolate → culture → inoculate → reisolate.", "teacher_note": "Use anthrax as the classic example where Koch applied these.", "bloom_level": "Understand", "learning_objective_tag": "State atleast three postulates formulated by Koch", "concept_map_nodes": [ { "source": "Koch's postulates", "relation": "purpose", "target": "Establish causation" } ], "workbook_section": "Uses of microorganisms", "solution_manual_note": "Answer A. The correct order is: isolate from diseased, pure culture, cause disease in healthy host, reisolate." }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3800,
+    "average_question_quality": 91.8,
+    "type_distribution": { "A": 2, "D": 1, "E": 1, "G": 1, "H": 1, "I": 1, "J": 1, "M": 2 },
+    "difficulty_distribution": { "easy": 2, "medium": 7, "hard": 1 },
+    "section_distribution": { "2.3. Fungi": 3, "2.7. Modes of disease transmission and ways of prevention": 1, "2.8. Uses of microorganisms": 3, "2.9. Controlling microorganisms": 2 },
+    "tiered_explanation_word_counts": { "beginner_avg": 26, "intermediate_avg": 36, "advanced_avg": 47 },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

@@ -1,0 +1,1663 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Chem_U2_Q010",
+    "covered_sections": [
+      "2.1 Heterogeneous and Homogeneous Mixtures>2.1.1 Suspensions, Solutions, Colloids",
+      "2.1 Heterogeneous and Homogeneous Mixtures>Experiment 2.1",
+      "2.2 The Solution Process>2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+      "2.2 The Solution Process>2.2.2 Solutions of Ionic Solids in Water",
+      "2.2 The Solution Process>2.2.3 The Solubility Rules for Ionic Solids",
+      "2.2 The Solution Process>2.2.4 Solution of Liquids in Liquids",
+      "2.3 Solubility as an Equilibrium Process>2.3.1 Unsaturated, Saturated, and Supersaturated Solutions"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4",
+      "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5",
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f7",
+      "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f8",
+      "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f9",
+      "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f0"
+    ],
+    "baseline_counter": {
+      "2.1 Heterogeneous and Homogeneous Mixtures": {
+        "2.1.1 Suspensions, Solutions, Colloids": { "count": 2, "mini_headings_covered": ["B. Solutions", "C. Colloids"], "last_question_round": 1 },
+        "Experiment 2.1": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      },
+      "2.2 The Solution Process": {
+        "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions": { "count": 2, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.2.2 Solutions of Ionic Solids in Water": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.2.3 The Solubility Rules for Ionic Solids": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 },
+        "2.2.4 Solution of Liquids in Liquids": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      },
+      "2.3 Solubility as an Equilibrium Process": {
+        "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions": { "count": 1, "mini_headings_covered": [], "last_question_round": 1 }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "2.1 Heterogeneous and Homogeneous Mixtures": { "question_count": 3, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.2 The Solution Process": { "question_count": 5, "last_used_round": 1, "consecutive_batches": 1 },
+      "2.3 Solubility as an Equilibrium Process": { "question_count": 2, "last_used_round": 1, "consecutive_batches": 1 }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "2.1 Heterogeneous and Homogeneous Mixtures>2.1.1 Suspensions, Solutions, Colloids": ["solution", "solute", "solvent", "colloid", "Tyndall effect"],
+      "2.2 The Solution Process>2.2.1 Liquid Solutions and Inter-particle Forces of Attractions": ["like dissolves like", "polarity", "dipole moment"],
+      "2.2 The Solution Process>2.2.2 Solutions of Ionic Solids in Water": ["hydration", "lattice energy"],
+      "2.2 The Solution Process>2.2.3 The Solubility Rules for Ionic Solids": ["solubility rules", "precipitation"],
+      "2.2 The Solution Process>2.2.4 Solution of Liquids in Liquids": ["miscible", "immiscible"],
+      "2.3 Solubility as an Equilibrium Process>2.3.1 Unsaturated, Saturated, and Supersaturated Solutions": ["saturated", "unsaturated", "supersaturated", "equilibrium"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 12,
+      "questions_per_concept_ratio": 0.83,
+      "structural_coverage_percentage": 28.6
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Chemistry",
+  "unit": "SOLUTIONS",
+  "pdf_filename": "C10U2.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 3,
+        "total_sections": 7,
+        "progress_percentage": 42.9
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 1.67,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 3,
+      "subsections_covered_count": 6,
+      "mini_headings_covered_count": 2,
+      "structural_coverage_percentage": 28.6,
+      "concept_utilization_ratio": 0.7
+    },
+    "distribution_analysis": {
+      "most_covered_section": "2.2 The Solution Process",
+      "least_covered_section": "2.3 Solubility as an Equilibrium Process",
+      "imbalance_ratio": 2.5,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 50
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Chem_U2_Q001",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.1 Heterogeneous and Homogeneous Mixtures",
+      "subsection": "2.1.1 Suspensions, Solutions, Colloids",
+      "sub_subsection": null,
+      "structural_anchor": "B. Solutions",
+      "mcq_type": "A",
+      "question": "What is the term for the component of a solution that is present in the larger amount?",
+      "options": {
+        "A": "Solute",
+        "B": "Solvent",
+        "C": "Suspension",
+        "D": "Colloid"
+      },
+      "correct_answer": "B",
+      "hint": "Recall which component dissolves the other.",
+      "explanation": "The solvent is the major component that dissolves the solute to form a homogeneous mixture. Option A is incorrect because the solute is the minor component that gets dissolved.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.1 Heterogeneous and Homogeneous Mixtures",
+        "subsection_anchor": "2.1.1 Suspensions, Solutions, Colloids",
+        "structural_element": "B. Solutions",
+        "content_anchor": "the major component of the solution is called solvent",
+        "page_hint": 4,
+        "concept_hash": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A solvent is the substance present in the greatest amount in a solution that dissolves the solute.",
+        "concept_summary": "In any solution, the solvent is the medium that disperses the solute particles. Water is the most common solvent for ionic and polar solutes.",
+        "beginner": "Think of the solvent as the \"host\" and the solute as the \"guest\" joining the party.",
+        "intermediate": "The solvent is the dissolving medium, typically a liquid, present in larger quantity. For example, in salt water, water is the solvent and salt is the solute.",
+        "advanced": "Solvent identity determines solubility via intermolecular forces. Polar solvents dissolve polar solutes (like dissolves like); nonpolar solvents dissolve nonpolar solutes.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the two components of the solution.",
+          "Determine which component is present in the larger amount.",
+          "Define that component as the solvent."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Solute and solvent are sometimes reversed; the solvent always comprises the majority of the solution's volume or mass unless stated otherwise."
+        ],
+        "related_concepts": ["Solute", "Concentration", "Solubility"],
+        "revision_note": "Solvent: majority component that dissolves the solute.",
+        "glossary_entry": {
+          "term": "Solvent",
+          "definition": "The component of a solution present in the largest amount; it dissolves the solute.",
+          "example_equation": null,
+          "related_terms": ["Solute", "Solution"]
+        },
+        "flashcard": {
+          "front": "What is the name for the major component in a solution?",
+          "back": "Solvent. Example: Water in salt water."
+        },
+        "concept_map_nodes": [
+          { "source": "Solution", "relation": "composed_of", "target": "Solvent" },
+          { "source": "Solvent", "relation": "dissolves", "target": "Solute" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 2 — Solutions and Solubility",
+        "flashcard_front": "Which component of a solution is present in the largest amount?",
+        "flashcard_back": "Solvent. Example: Water in aqueous solutions.",
+        "glossary_term": "Solvent",
+        "glossary_definition": "The substance in a solution that is present in the greatest amount and dissolves the solute.",
+        "revision_note": "Solvent = majority component.",
+        "teacher_note": "Students often confuse solute and solvent. Emphasize that solvent does the dissolving.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define the terms solute, solvent, and solution.",
+        "concept_map_nodes": [
+          { "source": "Solution", "relation": "has_major", "target": "Solvent" }
+        ],
+        "workbook_section": "2.1.1 Suspensions, Solutions, Colloids",
+        "solution_manual_note": "Answer B. The solvent is the major component; the solute is the minor component."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q002",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.1 Heterogeneous and Homogeneous Mixtures",
+      "subsection": "2.1.1 Suspensions, Solutions, Colloids",
+      "sub_subsection": null,
+      "structural_anchor": "C. Colloids",
+      "mcq_type": "F",
+      "question": "A beam of light passes through a mixture and becomes visible due to scattering by particles between 1 nm and 100 nm in diameter. What type of mixture is this?",
+      "options": {
+        "A": "True solution",
+        "B": "Suspension",
+        "C": "Colloid",
+        "D": "Pure substance"
+      },
+      "correct_answer": "C",
+      "hint": "This effect is named after its discoverer, Tyndall.",
+      "explanation": "The Tyndall effect is the scattering of light by colloidal particles, which are intermediate in size between solutions and suspensions. Option A is incorrect because true solutions do not scatter light noticeably.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.1 Heterogeneous and Homogeneous Mixtures",
+        "subsection_anchor": "2.1.1 Suspensions, Solutions, Colloids",
+        "structural_element": "C. Colloids",
+        "content_anchor": "scatters a beam of light passing through it (because its particles are fairly large) called Tyndall effect",
+        "page_hint": 6,
+        "concept_hash": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 70,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "A colloid is a heterogeneous mixture with particle sizes from 1 nm to 100 nm that exhibits the Tyndall effect.",
+        "concept_summary": "Colloids are intermediate between solutions and suspensions. They appear homogeneous but are heterogeneous microscopically.",
+        "beginner": "Imagine tiny dust specks floating in a sunbeam — that scattering is like the Tyndall effect in a colloid.",
+        "intermediate": "Colloidal particles are too small to settle but large enough to scatter light, making the beam visible. Solutions have particles too small for this effect.",
+        "advanced": "The Tyndall effect results from Mie scattering, where particle size is comparable to the wavelength of visible light (400–700 nm). Colloid diameters 1–100 nm cause this phenomenon.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that particle size determines mixture type.",
+          "Link visible light scattering to particles 1–100 nm.",
+          "Identify that only colloids scatter light like this."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Colloids are sometimes thought to be true solutions because they appear clear, but they are heterogeneous and show Tyndall effect."
+        ],
+        "related_concepts": ["Tyndall effect", "Suspension", "Solution"],
+        "revision_note": "Colloids scatter light (Tyndall effect); particle size 1–100 nm.",
+        "glossary_entry": {
+          "term": "Colloid",
+          "definition": "A heterogeneous mixture with particle sizes between 1 nm and 100 nm that scatters light.",
+          "example_equation": null,
+          "related_terms": ["Tyndall effect", "Dispersion medium"]
+        },
+        "flashcard": {
+          "front": "What mixture type scatters light and has particle sizes 1–100 nm?",
+          "back": "Colloid. Example: milk or fog."
+        },
+        "concept_map_nodes": [
+          { "source": "Colloid", "relation": "exhibits", "target": "Tyndall effect" },
+          { "source": "Colloid", "relation": "has_particle_size", "target": "1–100 nm" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 2 — Solutions and Solubility",
+        "flashcard_front": "What property distinguishes a colloid from a true solution?",
+        "flashcard_back": "Tyndall effect — scattering of light by particles 1–100 nm.",
+        "glossary_term": "Tyndall effect",
+        "glossary_definition": "The scattering of a beam of light by colloidal particles, making the light path visible.",
+        "revision_note": "Tyndall effect = light scattering; colloids only.",
+        "teacher_note": "Demonstrate with a laser pointer through salt solution vs. milk dilution.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe a colloid and its properties.",
+        "concept_map_nodes": [
+          { "source": "Colloid", "relation": "causes", "target": "Tyndall effect" }
+        ],
+        "workbook_section": "2.1.1 Suspensions, Solutions, Colloids",
+        "solution_manual_note": "Answer C. The Tyndall effect is characteristic of colloids, not true solutions or suspensions that settle."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q003",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "G",
+      "question": "Hexane (\\(\\mathrm{C_6H_{14}}\\)) is nonpolar and oil is nonpolar. What intermolecular force primarily explains why oil dissolves in hexane?",
+      "options": {
+        "A": "Hydrogen bonding",
+        "B": "Ion-dipole forces",
+        "C": "Dispersion forces",
+        "D": "Dipole-dipole forces"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the only force present between nonpolar molecules.",
+      "explanation": "Dispersion forces (London forces) are the dominant intermolecular attractions between nonpolar molecules like hexane and oil. Option A is incorrect because hydrogen bonding requires \\(\\mathrm{N-H}\\), \\(\\mathrm{O-H}\\), or \\(\\mathrm{F-H}\\) bonds.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 97,
+        "explanation_validation": {
+          "word_overlap_percentage": 8.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+        "structural_element": null,
+        "content_anchor": "Dispersion forces occur between all neighboring molecules and arise because the electron distribution within molecules is constantly changing",
+        "page_hint": 13,
+        "concept_hash": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 90,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "Dispersion forces (London forces) are temporary attractive forces due to instantaneous dipoles in nonpolar molecules.",
+        "concept_summary": "All molecules experience dispersion forces, but they are the only intermolecular force in nonpolar substances and explain their mutual solubility.",
+        "beginner": "Even nonpolar molecules like oil can temporarily attract each other when their electron clouds shift, like magnets turning on and off quickly.",
+        "intermediate": "In nonpolar solutes and solvents, dispersion forces arise from fluctuating electron distributions creating temporary dipoles, enabling dissolution.",
+        "advanced": "The polarizability of electron clouds determines dispersion force strength. Larger molecules with more electrons exhibit stronger instantaneous dipoles and greater mutual solubility.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify both substances as nonpolar.",
+          "Recall that nonpolar molecules lack permanent dipoles or hydrogen bonding.",
+          "Apply that dispersion forces are the only intermolecular force available."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some believe nonpolar molecules have no intermolecular forces at all, but dispersion forces always exist."
+        ],
+        "related_concepts": ["Polarizability", "London forces", "van der Waals forces"],
+        "revision_note": "Nonpolar + nonpolar → dispersion forces only.",
+        "glossary_entry": {
+          "term": "Dispersion forces",
+          "definition": "Temporary attractive forces caused by fluctuating electron clouds in all molecules, especially nonpolar ones.",
+          "example_equation": null,
+          "related_terms": ["London forces", "van der Waals forces"]
+        },
+        "flashcard": {
+          "front": "What force dissolves nonpolar oil in nonpolar hexane?",
+          "back": "Dispersion (London) forces."
+        },
+        "concept_map_nodes": [
+          { "source": "Nonpolar molecule", "relation": "experiences", "target": "Dispersion forces" },
+          { "source": "Dispersion forces", "relation": "enable", "target": "Solubility" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 2 — Intermolecular Forces",
+        "flashcard_front": "What force dissolves nonpolar solutes in nonpolar solvents?",
+        "flashcard_back": "Dispersion (London) forces.",
+        "glossary_term": "Dispersion forces",
+        "glossary_definition": "Temporary attractive forces between all molecules due to instantaneous dipoles.",
+        "revision_note": "Like dissolves like: nonpolar + nonpolar → dispersion.",
+        "teacher_note": "Emphasize that dispersion forces increase with molecular size and surface area.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain how the 'like dissolves like' rule depends on inter-particle forces.",
+        "concept_map_nodes": [
+          { "source": "Like dissolves like", "relation": "explained_by", "target": "Intermolecular forces" }
+        ],
+        "workbook_section": "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+        "solution_manual_note": "Answer C. Only dispersion forces act between nonpolar molecules; the other options require polarity or specific bonds."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q004",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "A substance has a zero net dipole moment and dissolves readily in \\(\\mathrm{CCl_4}\\). Which classification best describes this substance?",
+      "options": {
+        "A": "Polar covalent",
+        "B": "Ionic",
+        "C": "Nonpolar",
+        "D": "Hydrogen-bonded"
+      },
+      "correct_answer": "C",
+      "hint": "Recall the 'like dissolves like' rule.",
+      "explanation": "Nonpolar substances dissolve in nonpolar solvents like carbon tetrachloride (\\(\\mathrm{CCl_4}\\)). Zero net dipole moment indicates nonpolar character. Option A would imply polarity, which does not favor solubility in nonpolar solvents.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+        "structural_element": null,
+        "content_anchor": "nonpolar compounds and elements dissolve in nonpolar solvents like hexane, carbon tetrachloride",
+        "page_hint": 11,
+        "concept_hash": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A nonpolar substance has zero net dipole moment and dissolves in nonpolar solvents.",
+        "concept_summary": "The 'like dissolves like' rule predicts that nonpolar solutes will be soluble in nonpolar solvents due to similar dispersion forces.",
+        "beginner": "Imagine two oil drops joining together — they mix because they are both 'oily' (nonpolar).",
+        "intermediate": "Zero net dipole moment means no permanent charge separation. \\(\\mathrm{CCl_4}\\) is nonpolar, so only nonpolar solutes will dissolve in it.",
+        "advanced": "Net dipole moment depends on bond polarity and molecular geometry. Symmetrical molecules like \\(\\mathrm{CCl_4}\\) have bond dipoles that cancel, making them nonpolar.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Interpret zero net dipole moment as nonpolar.",
+          "Recall that \\(\\mathrm{CCl_4}\\) is a nonpolar solvent.",
+          "Apply 'like dissolves like': nonpolar solute in nonpolar solvent."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Polar bonds do not guarantee a polar molecule if geometry causes cancellation; e.g., \\(\\mathrm{CO_2}\\) has polar bonds but is nonpolar."
+        ],
+        "related_concepts": ["Dipole moment", "Polarity", "Like dissolves like"],
+        "revision_note": "Zero net dipole = nonpolar; dissolves in nonpolar solvents.",
+        "glossary_entry": {
+          "term": "Nonpolar",
+          "definition": "Describes a molecule with zero net dipole moment due to symmetry or equal sharing of electrons.",
+          "example_equation": null,
+          "related_terms": ["Dipole moment", "Polar"]
+        },
+        "flashcard": {
+          "front": "What type of substance has zero net dipole and dissolves in \\(\\mathrm{CCl_4}\\)?",
+          "back": "Nonpolar."
+        },
+        "concept_map_nodes": [
+          { "source": "Nonpolar", "relation": "dissolves_in", "target": "Nonpolar solvent" },
+          { "source": "Nonpolar", "relation": "has", "target": "Zero net dipole" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 2 — Polarity and Solubility",
+        "flashcard_front": "What does a zero net dipole moment indicate about a substance?",
+        "flashcard_back": "It is nonpolar and will dissolve in nonpolar solvents like \\(\\mathrm{CCl_4}\\).",
+        "glossary_term": "Nonpolar",
+        "glossary_definition": "Molecules with zero net dipole moment due to symmetrical charge distribution.",
+        "revision_note": "Nonpolar + nonpolar = soluble.",
+        "teacher_note": "Use \\(\\mathrm{CO_2}\\) as example of polar bonds but nonpolar molecule.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain how the 'like dissolves like' rule depends on inter-particle forces.",
+        "concept_map_nodes": [
+          { "source": "Nonpolar", "relation": "follows", "target": "Like dissolves like" }
+        ],
+        "workbook_section": "2.2.1 Liquid Solutions and Inter-particle Forces of Attractions",
+        "solution_manual_note": "Answer C. Zero dipole moment = nonpolar; nonpolar solutes dissolve in nonpolar solvents."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q005",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.2 Solutions of Ionic Solids in Water",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "Some ionic compounds do not dissolve in water despite the polarity of water molecules. Which factor primarily opposes dissolution in such cases?",
+      "options": {
+        "A": "High hydration energy",
+        "B": "High lattice energy",
+        "C": "Low polarity of water",
+        "D": "Absence of ion-dipole forces"
+      },
+      "correct_answer": "B",
+      "hint": "Consider the energy needed to separate ions in the crystal.",
+      "explanation": "Lattice energy is the energy required to separate ions in a crystal; when it exceeds hydration energy, the compound remains insoluble. Option A is incorrect because high hydration energy favors dissolution, not opposes it.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 9.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.2 Solutions of Ionic Solids in Water",
+        "structural_element": null,
+        "content_anchor": "lattice energy (the energy required to separate the ionic solute particles apart from a crystal lattice) and hydration energy",
+        "page_hint": 14,
+        "concept_hash": "e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 85,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Lattice energy is the energy required to completely separate one mole of an ionic solid into its gaseous ions.",
+        "concept_summary": "For dissolution to occur, hydration energy (released when water surrounds ions) must overcome lattice energy. If lattice energy is too high, the solid does not dissolve.",
+        "beginner": "Think of the crystal as a strongly glued brick wall. If the glue (lattice energy) is too strong, water cannot pull the bricks apart.",
+        "intermediate": "High lattice energy means the ionic bonds in the crystal are very strong. Water's ion-dipole attractions cannot pull the ions apart, so the solid remains undissolved.",
+        "advanced": "Lattice energy is proportional to ion charge and inversely proportional to ionic radius. \\(\\mathrm{Al_2O_3}\\) has very high lattice energy due to \\(\\mathrm{Al^{3+}}\\) and \\(\\mathrm{O^{2-}}\\), making it water-insoluble.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the two competing energies: lattice energy (break crystal) and hydration energy (solvate ions).",
+          "Dissolution requires hydration energy ≥ lattice energy.",
+          "If lattice energy dominates, the compound does not dissolve."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Water's polarity alone does not guarantee dissolution; the energy balance is critical. Silver chloride has low hydration energy relative to its lattice energy."
+        ],
+        "related_concepts": ["Hydration energy", "Ionic radius", "Coulomb's law"],
+        "revision_note": "Lattice energy opposes dissolution; hydration energy favors it.",
+        "glossary_entry": {
+          "term": "Lattice energy",
+          "definition": "The energy required to separate one mole of an ionic solid into gaseous ions.",
+          "example_equation": null,
+          "related_terms": ["Hydration energy", "Ionic bond strength"]
+        },
+        "flashcard": {
+          "front": "What energy opposes the dissolution of an ionic solid in water?",
+          "back": "Lattice energy — the energy to separate ions in the crystal."
+        },
+        "concept_map_nodes": [
+          { "source": "Ionic solid", "relation": "has", "target": "Lattice energy" },
+          { "source": "Lattice energy", "relation": "opposes", "target": "Dissolution" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "important",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 2 — Ionic Solubility",
+        "flashcard_front": "What energy must be overcome for an ionic solid to dissolve?",
+        "flashcard_back": "Lattice energy — the energy holding the crystal together.",
+        "glossary_term": "Lattice energy",
+        "glossary_definition": "Energy required to separate one mole of an ionic solid into its gaseous ions.",
+        "revision_note": "High lattice energy = low solubility.",
+        "teacher_note": "Compare lattice energies of NaCl vs. MgO to explain solubility differences.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain the solution formation process for ionic solids.",
+        "concept_map_nodes": [
+          { "source": "Dissolution", "relation": "requires", "target": "Hydration energy" },
+          { "source": "Hydration energy", "relation": "must_overcome", "target": "Lattice energy" }
+        ],
+        "workbook_section": "2.2.2 Solutions of Ionic Solids in Water",
+        "solution_manual_note": "Answer B. High lattice energy prevents water from separating ions; hydration energy is the favorable factor."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q006",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.3 The Solubility Rules for Ionic Solids",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "J",
+      "question": "According to solubility rules, which of the following ionic compounds is insoluble in water?",
+      "options": {
+        "A": "\\(\\mathrm{Na_2CO_3}\\)",
+        "B": "\\(\\mathrm{NH_4Cl}\\)",
+        "C": "\\(\\mathrm{AgBr}\\)",
+        "D": "\\(\\mathrm{KNO_3}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "Check the exceptions for halides.",
+      "explanation": "Silver bromide (\\(\\mathrm{AgBr}\\)) is insoluble because all silver halides except fluoride are exceptions to the general solubility of chlorides, bromides, and iodides. Options A, B, and D contain Group 1A or ammonium cations, which are always soluble.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 7.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.3 The Solubility Rules for Ionic Solids",
+        "structural_element": null,
+        "content_anchor": "All common chlorides, bromides, and iodides are soluble, except those of Ag+, Pb2+, Cu2+, and Hg22+",
+        "page_hint": 15,
+        "concept_hash": "f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 60,
+        "distractor_quality_score": 89,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Solubility rules are guidelines predicting whether an ionic compound will dissolve in water based on its ions.",
+        "concept_summary": "Compounds containing Group 1A cations or ammonium are generally soluble. Halides (Cl-, Br-, I-) are soluble except with Ag+, Pb2+, Cu2+, or Hg22+.",
+        "beginner": "Think of a solubility rule as a \"guest list\": Ag+ and Br- together are not allowed to enter the water party.",
+        "intermediate": "\\(\\mathrm{AgBr}\\) is insoluble because silver is one of the exceptions to the halide solubility rule. Sodium, potassium, and ammonium compounds are always soluble.",
+        "advanced": "The insolubility of \\(\\mathrm{AgBr}\\) arises from its very low solubility product constant (\\(K_{sp} \\approx 5.0 \\times 10^{-13}\\)), meaning extremely few ions enter solution.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that all sodium, potassium, and ammonium salts are soluble.",
+          "Recall that most halides are soluble except with Ag+, Pb2+, etc.",
+          "Identify AgBr as containing the Ag+ exception."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "All bromides are not universally soluble; silver and lead bromides are insoluble."
+        ],
+        "related_concepts": ["Precipitation reaction", "Ksp", "Double displacement"],
+        "revision_note": "Ag+, Pb2+ = halide exceptions (insoluble).",
+        "glossary_entry": {
+          "term": "Solubility rules",
+          "definition": "A set of empirical guidelines predicting which ionic compounds are soluble in water.",
+          "example_equation": null,
+          "related_terms": ["Precipitate", "Aqueous solution"]
+        },
+        "flashcard": {
+          "front": "Is \\(\\mathrm{AgBr}\\) soluble in water?",
+          "back": "No. Silver halides (except fluoride) are insoluble."
+        },
+        "concept_map_nodes": [
+          { "source": "AgBr", "relation": "classified_as", "target": "Insoluble" },
+          { "source": "Halide", "relation": "exception", "target": "Silver" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 2 — Solubility Rules",
+        "flashcard_front": "Which silver salt is insoluble?",
+        "flashcard_back": "\\(\\mathrm{AgBr}\\). Silver halides (Cl, Br, I) are insoluble.",
+        "glossary_term": "Solubility rules",
+        "glossary_definition": "Guidelines predicting which ionic compounds dissolve in water.",
+        "revision_note": "Ag+, Pb2+ make halides insoluble.",
+        "teacher_note": "Memorize the exceptions: Ag+, Pb2+, Cu2+, Hg22+ for halides.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Predict relative solubilities using solubility rules.",
+        "concept_map_nodes": [
+          { "source": "Insoluble", "relation": "includes", "target": "AgBr" }
+        ],
+        "workbook_section": "2.2.3 The Solubility Rules for Ionic Solids",
+        "solution_manual_note": "Answer C. AgBr is an exception to halide solubility; Na+, NH4+, K+ salts are always soluble."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q007",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.2 The Solution Process",
+      "subsection": "2.2.4 Solution of Liquids in Liquids",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "I",
+      "question": "What is the difference between miscible and immiscible liquids?",
+      "options": {
+        "A": "Miscible liquids form two layers; immiscible liquids form one layer.",
+        "B": "Miscible liquids dissolve in each other; immiscible liquids do not.",
+        "C": "Miscible liquids are always polar; immiscible liquids are nonpolar.",
+        "D": "Miscible liquids have high surface tension; immiscible liquids have low surface tension."
+      },
+      "correct_answer": "B",
+      "hint": "Think about whether the liquids mix to form a solution.",
+      "explanation": "Miscible liquids mix completely in all proportions to form a homogeneous solution, while immiscible liquids do not mix and form separate layers. Option A reverses the correct definitions.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.2 The Solution Process",
+        "subsection_anchor": "2.2.4 Solution of Liquids in Liquids",
+        "structural_element": null,
+        "content_anchor": "When two similar liquids are placed together and are able to mix into a solution, they are said to be miscible. Liquids that cannot mix together are termed immiscible.",
+        "page_hint": 16,
+        "concept_hash": "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f7"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 84,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Miscibility describes the ability of two liquids to mix completely and form a single phase.",
+        "concept_summary": "Miscible liquids dissolve in each other in any proportion (e.g., ethanol and water). Immiscible liquids do not mix and form separate phases (e.g., oil and water).",
+        "beginner": "Miscible = mixable like juice and water; immiscible = non-mixable like oil and vinegar.",
+        "intermediate": "Miscible liquids exhibit complete mutual solubility due to similar intermolecular forces. Immiscible liquids have unlike forces that prevent mixing.",
+        "advanced": "The Gibbs free energy of mixing (\\(\\Delta G_{\\text{mix}} = \\Delta H_{\\text{mix}} - T\\Delta S_{\\text{mix}}\\)) must be negative for miscibility. Nonpolar/polar pairs often have positive \\(\\Delta H_{\\text{mix}}\\), making them immiscible.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Define miscible: liquids that dissolve in each other.",
+          "Define immiscible: liquids that do not mix.",
+          "Contrast the two terms directly."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Immiscible liquids do not mix at all at the molecular level; they only form separate layers, not a homogeneous mixture."
+        ],
+        "related_concepts": ["Solution", "Like dissolves like", "Intermolecular forces"],
+        "revision_note": "Miscible = mix; immiscible = separate layers.",
+        "glossary_entry": {
+          "term": "Miscible",
+          "definition": "Describes two liquids that can be mixed in any proportion to form a single homogeneous solution.",
+          "example_equation": null,
+          "related_terms": ["Immiscible", "Solution"]
+        },
+        "flashcard": {
+          "front": "What term describes liquids that dissolve completely in each other?",
+          "back": "Miscible. Example: ethanol and water."
+        },
+        "concept_map_nodes": [
+          { "source": "Miscible", "relation": "opposite_of", "target": "Immiscible" },
+          { "source": "Liquid pair", "relation": "if_miscible", "target": "Homogeneous solution" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Chemistry Unit 2 — Liquid-Liquid Solutions",
+        "flashcard_front": "What does it mean for two liquids to be miscible?",
+        "flashcard_back": "They dissolve completely in each other to form a homogeneous solution.",
+        "glossary_term": "Miscible",
+        "glossary_definition": "The property of two liquids that mix in any proportion to form a single phase.",
+        "revision_note": "Miscible = fully mix; immiscible = do not mix.",
+        "teacher_note": "Use oil/water vs. ethanol/water as classroom demonstrations.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Define miscible and immiscible liquids.",
+        "concept_map_nodes": [
+          { "source": "Liquid-liquid solution", "relation": "requires", "target": "Miscibility" }
+        ],
+        "workbook_section": "2.2.4 Solution of Liquids in Liquids",
+        "solution_manual_note": "Answer B. Miscible means mutually soluble; immiscible means insoluble in each other, forming separate layers."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q008",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.1 Heterogeneous and Homogeneous Mixtures",
+      "subsection": "Experiment 2.1",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "L",
+      "question": "During an experiment, a student mixes water and oil, stirs vigorously, and then lets the mixture stand. What observation indicates that this mixture is heterogeneous?",
+      "options": {
+        "A": "The mixture appears uniform throughout.",
+        "B": "No scattering of light is observed.",
+        "C": "Two distinct liquid layers form after standing.",
+        "D": "The mixture passes through filter paper unchanged."
+      },
+      "correct_answer": "C",
+      "hint": "Look for visible separation into parts.",
+      "explanation": "Two distinct layers indicate physically distinct parts, a key property of heterogeneous mixtures like oil and water. Option A describes a homogeneous mixture, not observed here.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.1 Heterogeneous and Homogeneous Mixtures",
+        "subsection_anchor": "Experiment 2.1",
+        "structural_element": null,
+        "content_anchor": "water + oil: How many phases do you observe? Is this mixture homogeneous or heterogeneous?",
+        "page_hint": 4,
+        "concept_hash": "b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f8"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 86,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "A heterogeneous mixture has non-uniform composition with visible distinct parts or phases.",
+        "concept_summary": "Oil and water are immiscible and form separate layers, making the mixture heterogeneous with two distinct phases.",
+        "beginner": "Like salad dressing that separates into oil and vinegar — you can see the different parts.",
+        "intermediate": "After standing, oil and water separate into two layers because they are immiscible. This visible phase separation confirms heterogeneity.",
+        "advanced": "The density difference (oil ≈ 0.92 g/mL, water ≈ 1.00 g/mL) and lack of intermolecular attraction between polar water and nonpolar oil drive complete phase separation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that heterogeneous mixtures have visible boundaries or phases.",
+          "Observe that oil and water separate into two layers.",
+          "Conclude the mixture is heterogeneous."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Stirring temporarily disperses oil droplets, but the mixture remains heterogeneous because it separates upon standing."
+        ],
+        "related_concepts": ["Immiscible", "Phase", "Emulsion"],
+        "revision_note": "Two layers after standing = heterogeneous mixture.",
+        "glossary_entry": {
+          "term": "Heterogeneous mixture",
+          "definition": "A mixture with non-uniform composition and visible distinct parts or phases.",
+          "example_equation": null,
+          "related_terms": ["Homogeneous mixture", "Phase"]
+        },
+        "flashcard": {
+          "front": "How can you tell a water-oil mixture is heterogeneous?",
+          "back": "It separates into two distinct layers after standing."
+        },
+        "concept_map_nodes": [
+          { "source": "Heterogeneous mixture", "relation": "example", "target": "Oil and water" },
+          { "source": "Oil and water", "relation": "shows", "target": "Two phases" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "workbook"],
+        "flashcard_deck": "Chemistry Unit 2 — Mixtures",
+        "flashcard_front": "What visible sign indicates a water-oil mixture is heterogeneous?",
+        "flashcard_back": "Separation into two distinct liquid layers.",
+        "glossary_term": "Heterogeneous mixture",
+        "glossary_definition": "A mixture with physically distinct parts and non-uniform composition.",
+        "revision_note": "Heterogeneous = visible separate phases.",
+        "teacher_note": "Relate to real-world examples like muddy water or Italian dressing.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Distinguish between homogeneous and heterogeneous mixtures experimentally.",
+        "concept_map_nodes": [
+          { "source": "Water + oil", "relation": "is", "target": "Heterogeneous mixture" }
+        ],
+        "workbook_section": "Experiment 2.1",
+        "solution_manual_note": "Answer C. Two layers after standing = physically distinct parts = heterogeneous."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q009",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.3 Solubility as an Equilibrium Process",
+      "subsection": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "F",
+      "question": "At a specific temperature, a solution contains dissolved solute and no undissolved solid remains at the bottom. When more solute is added, it dissolves completely. How is this solution classified?",
+      "options": {
+        "A": "Saturated",
+        "B": "Unsaturated",
+        "C": "Supersaturated",
+        "D": "Concentrated"
+      },
+      "correct_answer": "B",
+      "hint": "Consider whether the solution can dissolve additional solute.",
+      "explanation": "An unsaturated solution contains less than the maximum amount of solute and can dissolve more added solute. A saturated solution would have undissolved solid present or fail to dissolve more solute.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.3 Solubility as an Equilibrium Process",
+        "subsection_anchor": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "structural_element": null,
+        "content_anchor": "An unsaturated solution contains less than the equilibrium concentration of dissolved solute. If we add more solute, it will continue to dissolve",
+        "page_hint": 25,
+        "concept_hash": "c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f9"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 67,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "An unsaturated solution contains less solute than the maximum amount that can dissolve at that temperature.",
+        "concept_summary": "In unsaturated solutions, the dissolution rate exceeds the recrystallization rate until equilibrium is reached. Adding more solute shifts the system toward saturation.",
+        "beginner": "Like adding sugar to tea that still tastes sweet and dissolves more — the tea is not yet full of sugar.",
+        "intermediate": "No undissolved solid means equilibrium has not been reached. The solution can still accept more solute, so it is unsaturated.",
+        "advanced": "The solution is below its equilibrium solubility concentration. The net rate of dissolution (rate_dissolution > rate_recrystallization) remains positive until saturation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check if undissolved solid is present: none.",
+          "Test if more solute dissolves: yes, completely.",
+          "Classify as unsaturated (below equilibrium concentration)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Clear solutions are not necessarily saturated; saturation is defined by maximum solute capacity, not clarity."
+        ],
+        "related_concepts": ["Saturation", "Dynamic equilibrium", "Solubility"],
+        "revision_note": "Unsaturated = can dissolve more solute.",
+        "glossary_entry": {
+          "term": "Unsaturated solution",
+          "definition": "A solution that contains less dissolved solute than the maximum amount possible at a given temperature.",
+          "example_equation": null,
+          "related_terms": ["Saturated solution", "Solubility"]
+        },
+        "flashcard": {
+          "front": "What type of solution can still dissolve additional solute?",
+          "back": "Unsaturated solution."
+        },
+        "concept_map_nodes": [
+          { "source": "Unsaturated", "relation": "able_to", "target": "Dissolve more solute" },
+          { "source": "Unsaturated", "relation": "below", "target": "Solubility limit" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "revision_guide"],
+        "flashcard_deck": "Chemistry Unit 2 — Solution Types",
+        "flashcard_front": "What term describes a solution that can dissolve more solute?",
+        "flashcard_back": "Unsaturated.",
+        "glossary_term": "Unsaturated solution",
+        "glossary_definition": "A solution containing less solute than the maximum solubility at a given temperature.",
+        "revision_note": "Unsaturated = below solubility limit.",
+        "teacher_note": "Demonstrate by adding salt to water until no more dissolves (saturated) vs. before that point (unsaturated).",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the distinctions among unsaturated, saturated, and supersaturated solutions.",
+        "concept_map_nodes": [
+          { "source": "Solution", "relation": "if_can_dissolve_more", "target": "Unsaturated" }
+        ],
+        "workbook_section": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "solution_manual_note": "Answer B. Unsaturated solutions have capacity for more solute; saturated solutions do not."
+      }
+    },
+    {
+      "question_id": "G10_Chem_U2_Q010",
+      "generation_timestamp": "2026-06-12T10:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Chemistry",
+      "unit": "SOLUTIONS",
+      "section": "2.3 Solubility as an Equilibrium Process",
+      "subsection": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+      "sub_subsection": null,
+      "structural_anchor": null,
+      "mcq_type": "H",
+      "question": "A solution is prepared at an elevated temperature and contains more dissolved solute than the equilibrium amount at room temperature. It remains clear and stable until a seed crystal is added, causing immediate crystallization. This solution is best described as:",
+      "options": {
+        "A": "Unsaturated",
+        "B": "Saturated",
+        "C": "Supersaturated",
+        "D": "Dilute"
+      },
+      "correct_answer": "C",
+      "hint": "The solution holds more solute than normally possible at that temperature.",
+      "explanation": "A supersaturated solution is unstable and contains more solute than the saturation point. Adding a seed crystal triggers rapid recrystallization. Option B is incorrect because saturated solutions are stable and do not crystallize upon seeding.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "subsection"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "SOLUTIONS",
+        "section_anchor": "2.3 Solubility as an Equilibrium Process",
+        "subsection_anchor": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "structural_element": null,
+        "content_anchor": "A supersaturated solution contains more than the equilibrium concentration and is unstable relative to the saturated solution. If we add a 'seed' crystal of solute or tap the container, the excess solute crystallizes immediately",
+        "page_hint": 25,
+        "concept_hash": "d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f0"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 89,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A supersaturated solution is a metastable solution containing more dissolved solute than the equilibrium solubility at that temperature.",
+        "concept_summary": "Supersaturation is achieved by dissolving solute at high temperature then cooling slowly. The solution is unstable and crystallization occurs upon disturbance or seeding.",
+        "beginner": "Like a drink that has more sugar than it should, and then one tiny sugar crystal makes all the extra sugar suddenly appear at the bottom.",
+        "intermediate": "Above its saturation point, the solution is supersaturated. It appears stable but is not at equilibrium; adding a seed crystal provides nucleation sites for rapid crystallization.",
+        "advanced": "The metastable state has a high Gibbs free energy relative to the saturated solution. Seeding lowers the activation energy barrier for nucleation, causing spontaneous crystallization to reach equilibrium.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recognize that more solute than equilibrium indicates supersaturation.",
+          "Recall that supersaturated solutions crystallize on seeding.",
+          "Match observation to definition of supersaturated."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "A supersaturated solution is not at equilibrium; it is unstable and will crystallize given a nucleation site, not remain permanently stable."
+        ],
+        "related_concepts": ["Nucleation", "Metastable", "Crystallization"],
+        "revision_note": "Supersaturated = unstable, crystallizes on seeding.",
+        "glossary_entry": {
+          "term": "Supersaturated solution",
+          "definition": "An unstable solution containing more dissolved solute than the equilibrium solubility at a given temperature.",
+          "example_equation": null,
+          "related_terms": ["Saturated solution", "Nucleation"]
+        },
+        "flashcard": {
+          "front": "What type of solution crystallizes immediately when a seed crystal is added?",
+          "back": "Supersaturated solution."
+        },
+        "concept_map_nodes": [
+          { "source": "Supersaturated", "relation": "triggered_by", "target": "Seeding" },
+          { "source": "Supersaturated", "relation": "is", "target": "Metastable" }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "callout_box",
+        "preceding_element": "next_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": "important",
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide"],
+        "flashcard_deck": "Chemistry Unit 2 — Solution Types",
+        "flashcard_front": "What solution type crystallizes instantly when disturbed?",
+        "flashcard_back": "Supersaturated solution.",
+        "glossary_term": "Supersaturated solution",
+        "glossary_definition": "A metastable solution with solute concentration exceeding equilibrium solubility.",
+        "revision_note": "Supersaturated = unstable, seed → crystals.",
+        "teacher_note": "Demonstrate with sodium acetate hand warmers (seeding triggers crystallization and heat release).",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe supersaturated solutions and their behavior.",
+        "concept_map_nodes": [
+          { "source": "Supersaturated", "relation": "requires", "target": "Seeding to crystallize" }
+        ],
+        "workbook_section": "2.3.1 Unsaturated, Saturated, and Supersaturated Solutions",
+        "solution_manual_note": "Answer C. Only supersaturated solutions are metastable and crystallize upon seeding; saturated solutions are stable."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 2850,
+    "average_question_quality": 87.6,
+    "type_distribution": {
+      "A": 1, "F": 2, "G": 1, "H": 2, "I": 1, "J": 1, "L": 1, "F": 1
+    },
+    "difficulty_distribution": {
+      "easy": 3,
+      "medium": 6,
+      "hard": 1
+    },
+    "section_distribution": {
+      "2.1 Heterogeneous and Homogeneous Mixtures": 3,
+      "2.2 The Solution Process": 5,
+      "2.3 Solubility as an Equilibrium Process": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 38,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 8
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

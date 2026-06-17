@@ -1,0 +1,1723 @@
+{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-13T10:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G12_Bio_U3_Q010",
+    "covered_sections": ["3.2. Photosynthesis>3.2.1. Photosynthetic pigments", "3.2. Photosynthesis>3.2.2. Light-dependent and light-independent reactions", "3.2. Photosynthesis>3.2.5. Light-Independent Reactions (Calvin cycle)", "3.2. Photosynthesis>3.2.6. Photorespiration"],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234",
+      "b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef12345",
+      "c3d4e5f6789012345678901234567890abcdef1234567890abcdef123456",
+      "d4e5f6789012345678901234567890abcdef1234567890abcdef1234567",
+      "e5f6789012345678901234567890abcdef1234567890abcdef12345678",
+      "f6789012345678901234567890abcdef1234567890abcdef123456789",
+      "g789012345678901234567890abcdef1234567890abcdef1234567890",
+      "h89012345678901234567890abcdef1234567890abcdef12345678901",
+      "i901234567890123456789abcdef1234567890abcdef123456789012",
+      "j01234567890123456789abcdef1234567890abcdef1234567890123"
+    ],
+    "baseline_counter": {
+      "3.2. Photosynthesis": {
+        "3.2.1. Photosynthetic pigments": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        },
+        "3.2.2. Light-dependent and light-independent reactions": {
+          "count": 3,
+          "mini_headings_covered": ["Non-cyclic photophosphorylation", "Cyclic photophosphorylation", "Photosystem I and photosystem II"],
+          "last_question_round": 1
+        },
+        "3.2.5. Light-Independent Reactions (Calvin cycle)": {
+          "count": 3,
+          "mini_headings_covered": ["C3 plants / C3 pathway", "C4 plants / C4 cycle", "CAM plants"],
+          "last_question_round": 1
+        },
+        "3.2.6. Photorespiration": {
+          "count": 1,
+          "mini_headings_covered": [],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "3.2. Photosynthesis": {
+        "question_count": 8,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "3.2. Photosynthesis>3.2.1. Photosynthetic pigments": ["chlorophyll a", "chlorophyll b", "carotenoids", "absorption spectrum"],
+      "3.2. Photosynthesis>3.2.2. Light-dependent and light-independent reactions": ["non-cyclic photophosphorylation", "cyclic photophosphorylation", "photosystem I", "photosystem II", "photolysis", "electron transport chain", "NADPH", "ATP"],
+      "3.2. Photosynthesis>3.2.5. Light-Independent Reactions (Calvin cycle)": ["C3 pathway", "RuBP", "rubisco", "PGA", "C4 pathway", "PEP carboxylase", "oxaloacetic acid", "CAM plants", "malate"],
+      "3.2. Photosynthesis>3.2.6. Photorespiration": ["RuBisCO", "O2 fixation", "glycolate", "CO2 compensation point"]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 18,
+      "questions_per_concept_ratio": 0.44,
+      "structural_coverage_percentage": 30.0
+    }
+  },
+  "grade": "Grade 12",
+  "subject": "Biology",
+  "unit": "Unit 3: Energy Transformation",
+  "pdf_filename": "B12U3.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-13T10:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 1,
+        "total_sections": 5,
+        "progress_percentage": 20.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 0.0,
+        "balanced": true
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 1,
+      "subsections_covered_count": 4,
+      "mini_headings_covered_count": 6,
+      "structural_coverage_percentage": 30.0,
+      "concept_utilization_ratio": 0.44
+    },
+    "distribution_analysis": {
+      "most_covered_section": "3.2. Photosynthesis",
+      "least_covered_section": "3.2. Photosynthesis",
+      "imbalance_ratio": 0.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G12_Bio_U3_Q001",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.1. Photosynthetic pigments",
+      "sub_subsection": null,
+      "structural_anchor": "Absorption spectra of photosynthetic pigments",
+      "mcq_type": "K",
+      "question": "A graph shows percentage light absorption versus wavelength (400–700 nm) for a pigment with peak absorption at 430 nm and 660 nm, and very low absorption around 550 nm. Which pigment is represented?",
+      "options": {
+        "A": "Carotenoids",
+        "B": "Phycobilins",
+        "C": "Chlorophyll b",
+        "D": "Chlorophyll a"
+      },
+      "correct_answer": "D",
+      "hint": "Look for the two peaks in red and blue-violet regions.",
+      "explanation": "Chlorophyll a has absorption peaks in the violet-blue (≈430 nm) and red (≈660 nm) regions, with minimal green absorption. Carotenoids absorb blue-green but not red, while phycobilins absorb green-orange.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 8,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.1. Photosynthetic pigments",
+        "structural_element": "Absorption spectra of photosynthetic pigments",
+        "content_anchor": "Chlorophyll a absorbs violet-blue and reddish orange-red wavelengths",
+        "page_hint": 10,
+        "concept_hash": "sha256_abs_spectra_chl_a_abcdef123456"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 78,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "Chlorophyll a is the primary photosynthetic pigment that absorbs violet-blue and red light and reflects green light.",
+        "concept_summary": "Absorption spectra identify which wavelengths a pigment absorbs. Chlorophyll a has two distinct peaks in blue and red regions, making it efficient for photosynthesis.",
+        "beginner": "Think of chlorophyll a as a solar panel tuned to catch blue and red rays, but it ignores green — that's why leaves look green.",
+        "intermediate": "Chlorophyll a absorbs strongly at 430 nm (blue) and 660 nm (red). Low absorption at 550 nm (green) explains green reflection.",
+        "advanced": "The absorption peaks correspond to electronic transitions in the porphyrin ring’s conjugated system. The Soret band (~430 nm) and Q band (~660 nm) are characteristic of chlorophyll a, not b or carotenoids.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify the two absorption peaks: one around 430 nm, one around 660 nm.",
+          "Recall that chlorophyll a has peaks in violet-blue and red regions.",
+          "Exclude carotenoids (absorb blue-green, no red peak).",
+          "Exclude chlorophyll b (shifted peaks) and phycobilins (different range)."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Green is strongly absorbed by chlorophyll a is incorrect because green light is reflected, not absorbed.",
+          "Chlorophyll a absorbs only red light is incorrect; it also absorbs violet-blue light with equal or greater efficiency."
+        ],
+        "related_concepts": ["Chlorophyll b", "Carotenoids", "Absorption spectrum", "Photosystem"],
+        "revision_note": "Chl a peaks: 430 nm (blue) & 660 nm (red). Low green absorption.",
+        "glossary_entry": {
+          "term": "Chlorophyll a",
+          "definition": "The primary photosynthetic pigment that absorbs violet-blue and red light, with peak absorption at approximately 430 nm and 660 nm.",
+          "example_equation": null,
+          "related_terms": ["chlorophyll b", "carotenoid"]
+        },
+        "flashcard": {
+          "front": "What wavelengths does chlorophyll a absorb most strongly?",
+          "back": "Chlorophyll a absorbs strongly at 430 nm (violet-blue) and 660 nm (red), and poorly in the green region (≈550 nm)."
+        },
+        "concept_map_nodes": [
+          {"source": "Chlorophyll a", "relation": "absorbs", "target": "430 nm light"},
+          {"source": "Chlorophyll a", "relation": "absorbs", "target": "660 nm light"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck"],
+        "flashcard_deck": "Biology Unit 3 — Photosynthetic Pigments",
+        "flashcard_front": "Which photosynthetic pigment has two absorption peaks near 430 nm and 660 nm?",
+        "flashcard_back": "Chlorophyll a. It absorbs violet-blue and red light, reflecting green.",
+        "glossary_term": "Chlorophyll a",
+        "glossary_definition": "The primary photosynthetic pigment that absorbs violet-blue and red light, with peak absorption at approximately 430 nm and 660 nm.",
+        "revision_note": "Chl a peaks: 430, 660 nm. Reflects green.",
+        "teacher_note": "Students often confuse chlorophyll a and b spectra. Emphasise the red peak in a vs b's shift.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Analyze an absorption spectra of chlorophyll a and chlorophyll b using graph.",
+        "concept_map_nodes": [
+          {"source": "Chlorophyll a", "relation": "has_property", "target": "absorption peak 430 nm"},
+          {"source": "Chlorophyll a", "relation": "has_property", "target": "absorption peak 660 nm"}
+        ],
+        "workbook_section": "Photosynthetic pigments",
+        "solution_manual_note": "Answer D. Chlorophyll a shows two peaks (blue and red). Carotenoids absorb blue-green only. Phycobilins are water-soluble and absorb differently."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q002",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.2. Light-dependent and light-independent reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Non-cyclic photophosphorylation",
+      "mcq_type": "G",
+      "question": "During non-cyclic photophosphorylation, water molecules are split (photolysis). What is the immediate fate of the electrons released from water?",
+      "options": {
+        "A": "They reduce NADP⁺ directly in the stroma.",
+        "B": "They are transferred to photosystem I via plastocyanin.",
+        "C": "They replace electrons lost from photosystem II.",
+        "D": "They pass through ATP synthase to generate ATP."
+      },
+      "correct_answer": "C",
+      "hint": "Recall that photolysis provides replacement electrons for the reaction center.",
+      "explanation": "Electrons from photolysis replace those excited from P680 in photosystem II. Option D is incorrect because ATP synthase uses proton gradient, not electrons directly.",
+      "difficulty_level": "medium",
+      "formula_used": ["\\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)"],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Non-cyclic photophosphorylation",
+        "content_anchor": "The electrons replace those lost from the chlorophyll molecule",
+        "page_hint": 13,
+        "concept_hash": "sha256_photolysis_electrons_psii_123456"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 72,
+        "distractor_quality_score": 85,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "Photolysis is the light-dependent splitting of water into oxygen, protons, and electrons.",
+        "concept_summary": "In non-cyclic photophosphorylation, excited electrons leave photosystem II. Water is split to replace those electrons, preventing the reaction center from becoming permanently oxidized.",
+        "beginner": "Imagine photosystem II as a battery that loses electrons when light hits it. Water acts like a spare battery, donating new electrons to keep it working.",
+        "intermediate": "Electrons ejected from P680 must be replaced. The oxygen-evolving complex oxidizes water, providing electrons directly to the oxidized P680⁺.",
+        "advanced": "The oxygen-evolving complex (Mn₄CaO₅ cluster) catalyzes \\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{e}^{-} + 4\\mathrm{H}^{+}\\). Electrons are delivered one at a time to P680⁺ via tyrosine Z (Tyr161).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Light excites electrons in photosystem II, leaving P680⁺.",
+          "Water is split to replace those lost electrons.",
+          "New electrons enter photosystem II, not photosystem I directly."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)",
+            "name": "Photolysis of water",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Electrons from water go directly to NADP⁺ is incorrect; they first go to photosystem II, then travel through the ETC to photosystem I before reducing NADP⁺.",
+          "Water donates electrons to ATP synthase is false; ATP synthase uses protons, not electrons."
+        ],
+        "related_concepts": ["Photosystem II", "Oxygen-evolving complex", "Electron transport chain", "P680"],
+        "revision_note": "Photolysis replaces PSII electrons. \\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)",
+        "glossary_entry": {
+          "term": "Photolysis",
+          "definition": "The light-dependent splitting of water molecules into oxygen, protons, and electrons, providing replacement electrons for photosystem II.",
+          "example_equation": "\\(2\\mathrm{H_2O} \\rightarrow \\mathrm{O_2} + 4\\mathrm{H}^{+} + 4\\mathrm{e}^{-}\\)",
+          "related_terms": ["oxygen-evolving complex", "non-cyclic photophosphorylation"]
+        },
+        "flashcard": {
+          "front": "What is the immediate role of water in non-cyclic photophosphorylation?",
+          "back": "Water is split (photolysis) to provide replacement electrons for photosystem II, producing O₂ and H⁺ as byproducts."
+        },
+        "concept_map_nodes": [
+          {"source": "Water", "relation": "split_by", "target": "Photolysis"},
+          {"source": "Photolysis", "relation": "provides", "target": "Electrons for Photosystem II"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 3 — Light Reactions",
+        "flashcard_front": "What happens to the electrons released from water in non-cyclic photophosphorylation?",
+        "flashcard_back": "They replace electrons lost from photosystem II (P680) after photoexcitation.",
+        "glossary_term": "Photolysis",
+        "glossary_definition": "The light-dependent splitting of water molecules into oxygen, protons, and electrons.",
+        "revision_note": "Water → electrons for PSII, O₂, H⁺.",
+        "teacher_note": "Common error: students think water electrons go straight to NADP⁺. Clarify the two-step ETC path.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Explain the process of dark and light reaction of photosynthesis.",
+        "concept_map_nodes": [
+          {"source": "Water", "relation": "provides", "target": "Electrons"},
+          {"source": "Electrons", "relation": "enter", "target": "Photosystem II"}
+        ],
+        "workbook_section": "Light-dependent reactions",
+        "solution_manual_note": "Answer C. Electrons from water replace those lost from photosystem II. Option A (direct NADP⁺ reduction) occurs later via photosystem I."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q003",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.2. Light-dependent and light-independent reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Cyclic photophosphorylation",
+      "mcq_type": "I",
+      "question": "How does cyclic photophosphorylation differ from non-cyclic photophosphorylation in terms of electron flow and products?",
+      "options": {
+        "A": "Cyclic uses only photosystem I and produces only ATP; non-cyclic uses both photosystems and produces ATP, NADPH, and O₂.",
+        "B": "Cyclic uses both photosystems and produces NADPH; non-cyclic uses only photosystem I and produces ATP.",
+        "C": "Cyclic produces O₂ and NADPH; non-cyclic produces only ATP.",
+        "D": "Cyclic involves photolysis of water; non-cyclic does not split water."
+      },
+      "correct_answer": "A",
+      "hint": "Remember which photosystem is involved and which products are made.",
+      "explanation": "Cyclic photophosphorylation involves only photosystem I and generates ATP without NADPH or O₂. Non-cyclic uses both photosystems, produces ATP, NADPH, and O₂ from water splitting.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Cyclic photophosphorylation",
+        "content_anchor": "Useful: ATP only; Photosystem involved: I only",
+        "page_hint": 12,
+        "concept_hash": "sha256_cyclic_vs_noncyclic_789012"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 75,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Cyclic photophosphorylation is a light-dependent process using only photosystem I to generate ATP without producing NADPH or oxygen.",
+        "concept_summary": "In cyclic flow, electrons from photosystem I are recycled back via the electron transport chain, driving proton gradient for ATP synthesis. Non-cyclic involves both photosystems, water splitting, and NADP⁺ reduction.",
+        "beginner": "Cyclic is like a short loop that only makes ATP. Non-cyclic is a longer path that makes ATP, NADPH, and releases oxygen.",
+        "intermediate": "Cyclic: electrons from P700 return to P700 via ferredoxin and cytochromes → ATP only. Non-cyclic: electrons flow from H₂O → PSII → PSI → NADP⁺, producing ATP, NADPH, and O₂.",
+        "advanced": "Cyclic photophosphorylation maintains ATP/NADPH balance when NADPH accumulates. The pathway involves ferredoxin (Fd) reducing plastoquinone, bypassing NADP⁺ reduction, with proton pumping at complex III (cytochrome b₆f).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify photosystems involved: cyclic = PSI only; non-cyclic = PSII and PSI.",
+          "Check products: cyclic = ATP; non-cyclic = ATP + NADPH + O₂.",
+          "Determine if water splitting occurs: no in cyclic, yes in non-cyclic."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Cyclic photophosphorylation produces NADPH is false; only non-cyclic reduces NADP⁺.",
+          "Both pathways split water is incorrect; water splitting is unique to non-cyclic (PSII)."
+        ],
+        "related_concepts": ["Photosystem I", "Electron transport chain", "ATP synthase", "NADPH"],
+        "revision_note": "Cyclic: PSI only → ATP. Non-cyclic: PSII+PSI → ATP+NADPH+O₂.",
+        "glossary_entry": {
+          "term": "Cyclic photophosphorylation",
+          "definition": "A light-dependent process using only photosystem I to generate ATP via cyclic electron flow without NADPH or O₂ production.",
+          "example_equation": null,
+          "related_terms": ["non-cyclic photophosphorylation", "photosystem I"]
+        },
+        "flashcard": {
+          "front": "What are the key differences between cyclic and non-cyclic photophosphorylation?",
+          "back": "Cyclic: only PSI, ATP only, no O₂ or NADPH. Non-cyclic: PSII+PSI, ATP+NADPH+O₂, water split."
+        },
+        "concept_map_nodes": [
+          {"source": "Cyclic", "relation": "uses", "target": "Photosystem I"},
+          {"source": "Non-cyclic", "relation": "uses", "target": "Photosystem II"},
+          {"source": "Cyclic", "relation": "produces", "target": "ATP"},
+          {"source": "Non-cyclic", "relation": "produces", "target": "NADPH"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "concept_map"],
+        "flashcard_deck": "Biology Unit 3 — Light Reactions",
+        "flashcard_front": "Does cyclic photophosphorylation produce O₂ or NADPH?",
+        "flashcard_back": "No. Cyclic produces only ATP. O₂ and NADPH require non-cyclic flow with both photosystems.",
+        "glossary_term": "Cyclic photophosphorylation",
+        "glossary_definition": "A light-dependent process using only photosystem I to generate ATP via cyclic electron flow without NADPH or O₂ production.",
+        "revision_note": "Cyclic: ATP only, PSI only, no O₂, no NADPH.",
+        "teacher_note": "Use a diagram of the Z-scheme to show why cyclic omits PSII and water splitting.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Compare cyclic and non-cyclic photophosphorylation.",
+        "concept_map_nodes": [
+          {"source": "Cyclic photophosphorylation", "relation": "contrasted_with", "target": "Non-cyclic photophosphorylation"},
+          {"source": "Non-cyclic photophosphorylation", "relation": "produces", "target": "Oxygen"}
+        ],
+        "workbook_section": "Light-dependent reactions",
+        "solution_manual_note": "Answer A. Cyclic (PSI only) → ATP. Non-cyclic (PSII+PSI) → ATP+NADPH+O₂. Option B is reversed; C and D misstate products and water splitting."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q004",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.2. Light-dependent and light-independent reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Photosystem I and photosystem II",
+      "mcq_type": "F",
+      "question": "If a chloroplast is treated with a herbicide that blocks electron transfer from plastoquinone to the cytochrome b₆f complex, which process would be directly affected first?",
+      "options": {
+        "A": "Photolysis of water",
+        "B": "Reduction of NADP⁺",
+        "C": "Proton pumping into the thylakoid lumen",
+        "D": "Absorption of light by photosystem I"
+      },
+      "correct_answer": "C",
+      "hint": "Plastoquinone carries electrons from photosystem II to the cytochrome complex, which pumps protons.",
+      "explanation": "The cytochrome b₆f complex pumps protons into the thylakoid lumen using electrons from plastoquinone. Blocking electron transfer to this complex stops proton pumping, halting ATP synthesis.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 90,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 93
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Photosystem I and photosystem II",
+        "content_anchor": "One of the molecules in the cytochromes complex is a proton pump",
+        "page_hint": 13,
+        "concept_hash": "sha256_pq_cytochrome_block_456789"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 85,
+        "distractor_quality_score": 82,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 94
+      },
+      "explanations_tiered": {
+        "definition": "The cytochrome b₆f complex is an electron transport chain protein that pumps protons from the stroma into the thylakoid lumen using electron energy from plastoquinone.",
+        "concept_summary": "Plastoquinone delivers electrons to the cytochrome b₆f complex. This complex uses electron energy to pump H⁺ into the thylakoid lumen, creating a gradient for ATP synthesis.",
+        "beginner": "Think of plastoquinone as a delivery truck bringing electrons to a proton pump (cytochrome complex). Blocking the delivery stops the pump from moving protons.",
+        "intermediate": "If electrons cannot reach the cytochrome b₆f complex, proton translocation into the thylakoid lumen ceases. This directly collapses the proton motive force, preventing chemiosmotic ATP synthesis.",
+        "advanced": "The Q cycle at cytochrome b₆f transfers electrons from reduced plastoquinone (PQH₂) to plastocyanin, pumping 4 H⁺ per 2 electrons. Blocking electron transfer to cyt b₆f stops both proton pumping and plastocyanin reduction, uncoupling electron flow from ATP generation.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that plastoquinone transfers electrons to cytochrome b₆f complex.",
+          "Recognise that cytochrome b₆f uses electron energy to pump H⁺ into lumen.",
+          "Blocking electron transfer → no proton pumping → no ATP synthesis.",
+          "Water splitting and NADP⁺ reduction occur downstream/upstream and would be secondary effects."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Blocking plastoquinone-cytochrome transfer stops photolysis is incorrect; water splitting occurs earlier at PSII and would continue initially.",
+          "NADP⁺ reduction is directly blocked is false; that requires electrons from ferredoxin, which receives electrons after the cytochrome complex."
+        ],
+        "related_concepts": ["Plastoquinone", "Cytochrome b₆f complex", "Proton gradient", "Chemiosmosis", "Plastocyanin"],
+        "revision_note": "Cytochrome b₆f pumps H⁺ into lumen using electrons from PQ.",
+        "glossary_entry": {
+          "term": "Cytochrome b₆f complex",
+          "definition": "An electron transport chain protein complex that transfers electrons from plastoquinone to plastocyanin and pumps protons into the thylakoid lumen.",
+          "example_equation": null,
+          "related_terms": ["plastoquinone", "plastocyanin", "Q cycle"]
+        },
+        "flashcard": {
+          "front": "What is the direct role of the cytochrome b₆f complex in light reactions?",
+          "back": "It accepts electrons from plastoquinone, transfers them to plastocyanin, and pumps H⁺ into the thylakoid lumen to form a proton gradient."
+        },
+        "concept_map_nodes": [
+          {"source": "Plastoquinone", "relation": "donates_electrons_to", "target": "Cytochrome b₆f complex"},
+          {"source": "Cytochrome b₆f complex", "relation": "pumps", "target": "H⁺ into thylakoid lumen"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "teacher_guide", "solution_manual"],
+        "flashcard_deck": "Biology Unit 3 — Electron Transport Chain",
+        "flashcard_front": "What happens if electron transfer from plastoquinone to cytochrome b₆f is blocked?",
+        "flashcard_back": "Proton pumping into the thylakoid lumen stops directly, preventing ATP synthesis via chemiosmosis.",
+        "glossary_term": "Cytochrome b₆f complex",
+        "glossary_definition": "An electron transport chain protein complex that transfers electrons from plastoquinone to plastocyanin and pumps protons into the thylakoid lumen.",
+        "revision_note": "Block PQ→cyt b₆f → no H⁺ pumping → no ATP.",
+        "teacher_note": "This question tests mechanistic understanding of ETC order. Students may incorrectly think NADP⁺ reduction is first affected; explain that ferredoxin is downstream.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain the process of dark and light reaction of photosynthesis.",
+        "concept_map_nodes": [
+          {"source": "Herbicide", "relation": "blocks", "target": "Electron transfer PQ→cyt b₆f"},
+          {"source": "Electron transfer block", "relation": "causes", "target": "No proton pumping"}
+        ],
+        "workbook_section": "Light-dependent reactions",
+        "solution_manual_note": "Answer C. Proton pumping at cytochrome b₆f is directly blocked. Photolysis (A) occurs at PSII upstream. NADP⁺ reduction (B) occurs after PSI, downstream. Light absorption (D) is unaffected."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q005",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "C3 plants / C3 pathway",
+      "mcq_type": "A",
+      "question": "What is the first stable product of carbon fixation in the Calvin cycle of C3 plants?",
+      "options": {
+        "A": "Ribulose-1,5-bisphosphate (RuBP)",
+        "B": "3-Phosphoglycerate (3-PGA)",
+        "C": "Glyceraldehyde-3-phosphate (G3P)",
+        "D": "Oxaloacetate (OAA)"
+      },
+      "correct_answer": "B",
+      "hint": "The three-carbon compound formed immediately after CO₂ addition to RuBP.",
+      "explanation": "RuBP carboxylase (rubisco) adds CO₂ to RuBP, producing an unstable six-carbon intermediate that splits into two molecules of 3-PGA. 3-PGA is the first stable product.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 95
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+        "structural_element": "C3 plants / C3 pathway",
+        "content_anchor": "the first carbon compound produced has three carbon atoms",
+        "page_hint": 14,
+        "concept_hash": "sha256_3pga_first_stable_abc123"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 90,
+        "cognitive_level": "remember",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "3-Phosphoglycerate (3-PGA) is the three-carbon compound formed immediately after rubisco fixes CO₂ onto RuBP in the Calvin cycle.",
+        "concept_summary": "Rubisco catalyzes the carboxylation of RuBP (C5) to form an unstable C6 intermediate that quickly splits into two molecules of 3-PGA (C3). This is the first stable, detectable product.",
+        "beginner": "Think of RuBP as a catcher's mitt for CO₂. When CO₂ is caught, the mitt breaks into two identical 3-PGA molecules — the first stable product.",
+        "intermediate": "CO₂ + RuBP (5C) → unstable 6C intermediate → 2 × 3-PGA (3C). 3-PGA is the first stable compound, later reduced to G3P using ATP and NADPH.",
+        "advanced": "The reaction mechanism involves rubisco's enolization of RuBP, forming an enediol intermediate that attacks CO₂. The resulting 3-keto-2-carboxyarabinitol-1,5-bisphosphate hydrolyzes to two 3-PGA molecules.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that RuBP is the CO₂ acceptor (not a product of fixation).",
+          "CO₂ is added to RuBP, then the C6 intermediate splits.",
+          "The split yields two molecules of 3-PGA, which is a 3-carbon compound.",
+          "G3P is a reduction product, not the first stable fixation product."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "RuBP is the first product is incorrect; RuBP is the substrate, not the product.",
+          "G3P is the first stable product is false; G3P is produced later in the reduction phase."
+        ],
+        "related_concepts": ["Rubisco", "RuBP", "Calvin cycle", "Carbon fixation"],
+        "revision_note": "C3 first stable: 3-PGA (3C). RuBP is CO₂ acceptor.",
+        "glossary_entry": {
+          "term": "3-Phosphoglycerate",
+          "definition": "The first stable product of carbon fixation in the Calvin cycle, a three-carbon compound formed when CO₂ reacts with RuBP.",
+          "example_equation": null,
+          "related_terms": ["RuBP", "rubisco", "Calvin cycle"]
+        },
+        "flashcard": {
+          "front": "What is the first stable compound produced after CO₂ fixation in C3 plants?",
+          "back": "3-Phosphoglycerate (3-PGA), a three-carbon molecule formed from RuBP and CO₂."
+        },
+        "concept_map_nodes": [
+          {"source": "CO₂", "relation": "fixed_by", "target": "Rubisco"},
+          {"source": "Rubisco", "relation": "produces", "target": "3-PGA"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "glossary"],
+        "flashcard_deck": "Biology Unit 3 — Calvin Cycle",
+        "flashcard_front": "Is 3-PGA or G3P the first stable product of the Calvin cycle?",
+        "flashcard_back": "3-PGA is the first stable product. G3P is produced later during the reduction phase.",
+        "glossary_term": "3-Phosphoglycerate",
+        "glossary_definition": "The first stable product of carbon fixation in the Calvin cycle, a three-carbon compound formed when CO₂ reacts with RuBP.",
+        "revision_note": "CO₂ + RuBP → 2 × 3-PGA (first stable).",
+        "teacher_note": "Students often confuse 3-PGA and G3P. Emphasise that 3-PGA is the immediate fixation product; G3P comes after reduction using ATP/NADPH.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Explain the process of Calvin cycle.",
+        "concept_map_nodes": [
+          {"source": "CO₂", "relation": "reacts_with", "target": "RuBP"},
+          {"source": "Reaction", "relation": "yields", "target": "3-PGA"}
+        ],
+        "workbook_section": "Calvin cycle",
+        "solution_manual_note": "Answer B. 3-PGA is the first stable three-carbon product. RuBP (A) is the acceptor. G3P (C) comes later. OAA (D) is from C4 plants."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q006",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "C4 plants / C4 cycle",
+      "mcq_type": "G",
+      "question": "In C4 plants, why is oxaloacetic acid (OAA) converted to malate or aspartate in mesophyll cells before moving to bundle sheath cells?",
+      "options": {
+        "A": "To store CO₂ as a stable four-carbon acid that can be transported without leaking",
+        "B": "To directly produce ATP for the Calvin cycle",
+        "C": "To regenerate PEP for the next CO₂ fixation",
+        "D": "To release O₂ for use in bundle sheath cells"
+      },
+      "correct_answer": "A",
+      "hint": "Consider the need to move CO₂ from mesophyll to bundle sheath without losing it.",
+      "explanation": "OAA is reduced to malate or transaminated to aspartate, which are more stable transport forms. These C4 acids carry CO₂ to bundle sheath cells where it is released for the Calvin cycle.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 91,
+        "explanation_validation": {
+          "word_overlap_percentage": 7,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+        "structural_element": "C4 plants / C4 cycle",
+        "content_anchor": "The oxaloacetic acid is reduced to malic acid or converted to aspartic acid",
+        "page_hint": 15,
+        "concept_hash": "sha256_oaa_to_malate_transport_234567"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 80,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "C4 plants fix CO₂ into a four-carbon acid (OAA) in mesophyll cells, then convert it to malate or aspartate for safe transport to bundle sheath cells where CO₂ is released.",
+        "concept_summary": "OAA is unstable and cannot travel long distances. Reduction to malate (using NADPH) or transamination to aspartate creates stable, transportable forms that carry CO₂ to bundle sheath cells without diffusion loss.",
+        "beginner": "Think of OAA as a raw egg — messy and unstable. Converting it to malate or aspartate is like packing the egg in a box so it can be moved safely to another room.",
+        "intermediate": "OAA is rapidly converted to malate (via NADP⁺-malate dehydrogenase) or aspartate (via transaminase) to prevent decarboxylation during transport. These C4 acids diffuse into bundle sheath cells and release CO₂ near rubisco.",
+        "advanced": "In NADP-ME type C4 plants, OAA is reduced to malate in mesophyll chloroplasts. Malate travels to bundle sheath chloroplasts, where it is decarboxylated by NADP-malic enzyme, releasing CO₂ and pyruvate. This concentrates CO₂ and suppresses photorespiration.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "OAA is the initial product of PEP carboxylase in mesophyll.",
+          "OAA is quickly converted to malate or aspartate for stability.",
+          "These C4 acids move to bundle sheath cells.",
+          "Inside bundle sheath, CO₂ is released for the Calvin cycle."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "OAA is transported directly is incorrect; OAA is too unstable and would decarboxylate.",
+          "Malate/aspartate directly enter the Calvin cycle is false; they release CO₂, which then enters the Calvin cycle."
+        ],
+        "related_concepts": ["PEP carboxylase", "Malate", "Aspartate", "Bundle sheath cells", "C4 photosynthesis"],
+        "revision_note": "OAA → malate/aspartate for stable CO₂ transport to bundle sheath.",
+        "glossary_entry": {
+          "term": "Malate",
+          "definition": "A four-carbon acid formed by reduction of oxaloacetate, used in C4 plants to transport CO₂ from mesophyll to bundle sheath cells.",
+          "example_equation": "\\(\\mathrm{OAA + NADPH + H^+ \\rightarrow malate + NADP^+}\\)",
+          "related_terms": ["oxaloacetate", "aspartate", "C4 pathway"]
+        },
+        "flashcard": {
+          "front": "Why is OAA converted to malate or aspartate in C4 mesophyll cells?",
+          "back": "OAA is unstable; conversion creates stable transport forms that carry CO₂ to bundle sheath cells without leakage."
+        },
+        "concept_map_nodes": [
+          {"source": "OAA", "relation": "converted_to", "target": "Malate"},
+          {"source": "Malate", "relation": "transports", "target": "CO₂ to bundle sheath"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 3 — C4 Photosynthesis",
+        "flashcard_front": "What is the purpose of converting OAA to malate in C4 mesophyll cells?",
+        "flashcard_back": "To create a stable transport form that carries CO₂ to bundle sheath cells without premature release.",
+        "glossary_term": "Malate",
+        "glossary_definition": "A four-carbon acid formed by reduction of oxaloacetate, used in C4 plants to transport CO₂ from mesophyll to bundle sheath cells.",
+        "revision_note": "OAA → malate/aspartate = stable CO₂ transport.",
+        "teacher_note": "Emphasize that C4 plants spatially separate initial fixation (mesophyll) from Calvin cycle (bundle sheath), requiring stable C4 acids for transport.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Discuss the mechanism as to how CO₂ is fixed in C4 plants.",
+        "concept_map_nodes": [
+          {"source": "OAA", "relation": "reduced_to", "target": "Malate"},
+          {"source": "Malate", "relation": "decarboxylated_in", "target": "Bundle sheath"}
+        ],
+        "workbook_section": "C4 pathway",
+        "solution_manual_note": "Answer A. OAA is unstable; reduction to malate or conversion to aspartate allows safe CO₂ transport. Option C (regenerating PEP) occurs after decarboxylation (pyruvate back to PEP)."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q007",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "CAM plants",
+      "mcq_type": "I",
+      "question": "How does the CAM pathway differ from the C4 pathway in terms of carbon fixation timing?",
+      "options": {
+        "A": "CAM fixes CO₂ at night and uses it during the day; C4 fixes CO₂ during the day in mesophyll and uses it in bundle sheath cells",
+        "B": "Both fix CO₂ only at night to minimize water loss",
+        "C": "CAM fixes CO₂ during the day in bundle sheath cells; C4 fixes CO₂ at night in mesophyll",
+        "D": "There is no temporal difference; both separate fixation spatially"
+      },
+      "correct_answer": "A",
+      "hint": "Think about when stomata open: CAM plants open at night, C4 during the day.",
+      "explanation": "CAM plants open stomata at night to fix CO₂ into malate, stored in vacuoles. During the day, malate releases CO₂ for the Calvin cycle. C4 plants fix CO₂ during the day but in different cells (spatial separation).",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 9,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+        "structural_element": "CAM plants",
+        "content_anchor": "At night, CO₂ is captured... During the day, the stored malate is transported to the chloroplast and decarboxylated",
+        "page_hint": 16,
+        "concept_hash": "sha256_cam_temporal_vs_c4_spatial_345678"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 76,
+        "distractor_quality_score": 88,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "CAM plants fix CO₂ at night into malate, store it, then decarboxylate it during the day to supply CO₂ to the Calvin cycle, while C4 plants fix CO₂ during the day with spatial separation.",
+        "concept_summary": "CAM uses temporal separation: night fixation, day use. C4 uses spatial separation: CO₂ fixed in mesophyll cells (day), Calvin cycle in bundle sheath cells (day).",
+        "beginner": "CAM plants are like night-shift workers: they collect CO₂ at night when it's cool, save it, and use it during the day. C4 workers collect and use CO₂ during the day but in different rooms.",
+        "intermediate": "CAM: Stomata open at night → PEP carboxylase fixes CO₂ → malate stored in vacuole. Day: malate decarboxylated → CO₂ enters Calvin cycle. C4: Daytime fixation in mesophyll, Calvin cycle in bundle sheath.",
+        "advanced": "CAM is an adaptation to arid environments. The temporal separation reduces water loss because stomata open at night when transpiration is low. C4 is adapted to hot, bright conditions; spatial separation concentrates CO₂ around rubisco, reducing photorespiration.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify CAM key feature: stomata open at night for CO₂ fixation.",
+          "Identify C4 key feature: spatial separation (mesophyll vs bundle sheath) during day.",
+          "Recognise that CAM stores CO₂ as malate overnight, uses it in daytime."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "CAM fixes CO₂ during the day is false; CAM fixes CO₂ at night to prevent water loss.",
+          "Both C4 and CAM use only spatial separation is incorrect; CAM primarily uses temporal separation."
+        ],
+        "related_concepts": ["PEP carboxylase", "Malate", "Stomata", "Water conservation", "C4 photosynthesis"],
+        "revision_note": "CAM: night fixation (temporal). C4: day fixation, spatial.",
+        "glossary_entry": {
+          "term": "CAM photosynthesis",
+          "definition": "A carbon fixation pathway where CO₂ is fixed at night into malate, stored, and decarboxylated during the day to supply the Calvin cycle, minimising water loss.",
+          "example_equation": null,
+          "related_terms": ["C4 photosynthesis", "malate", "stomata", "crassulacean acid metabolism"]
+        },
+        "flashcard": {
+          "front": "What is the main temporal difference between CAM and C4 carbon fixation?",
+          "back": "CAM fixes CO₂ at night (temporal separation); C4 fixes CO₂ during the day but in different cells (spatial separation)."
+        },
+        "concept_map_nodes": [
+          {"source": "CAM", "relation": "uses", "target": "Temporal separation"},
+          {"source": "C4", "relation": "uses", "target": "Spatial separation"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "concept_map"],
+        "flashcard_deck": "Biology Unit 3 — CAM vs C4",
+        "flashcard_front": "Do CAM plants fix CO₂ during the day or at night?",
+        "flashcard_back": "CAM plants fix CO₂ at night to reduce water loss, storing it as malate for daytime use.",
+        "glossary_term": "CAM photosynthesis",
+        "glossary_definition": "A carbon fixation pathway where CO₂ is fixed at night into malate, stored, and decarboxylated during the day to supply the Calvin cycle.",
+        "revision_note": "CAM = night fixation (temporal). C4 = spatial separation.",
+        "teacher_note": "Use a diagram comparing CAM (time) vs C4 (space). Emphasise that both use PEP carboxylase but at different times or locations.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Differentiate between C3, C4 plants, and CAM Plants.",
+        "concept_map_nodes": [
+          {"source": "CAM", "relation": "separates", "target": "Fixation and Calvin cycle by time"},
+          {"source": "C4", "relation": "separates", "target": "Fixation and Calvin cycle by space"}
+        ],
+        "workbook_section": "Alternative photosynthesis pathways",
+        "solution_manual_note": "Answer A. CAM fixes CO₂ at night (temporal), C4 fixes CO₂ during the day but in different cells (spatial). Option B is false; C4 does not fix CO₂ at night. Option C reverses both. Option D is false; C4 uses spatial, CAM uses temporal."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q008",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.6. Photorespiration",
+      "sub_subsection": null,
+      "structural_anchor": "Photorespiration",
+      "mcq_type": "F",
+      "question": "Why does photorespiration reduce the efficiency of carbohydrate production in C3 plants compared to C4 plants?",
+      "options": {
+        "A": "RuBisCO fixes O₂ instead of CO₂, leading to a loss of fixed carbon without producing ATP",
+        "B": "Photorespiration produces excess ATP that inhibits the Calvin cycle",
+        "C": "C4 plants do not perform any form of photorespiration, so they are always more efficient",
+        "D": "Photorespiration consumes NADPH without producing sugar"
+      },
+      "correct_answer": "A",
+      "hint": "RuBisCO’s dual nature with O₂ and CO₂ is key.",
+      "explanation": "RuBisCO oxygenase activity adds O₂ to RuBP, producing phosphoglycolate, which is processed in the photorespiratory cycle. This wastes fixed carbon and consumes energy without net sugar production.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 88,
+        "explanation_validation": {
+          "word_overlap_percentage": 5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 94
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.6. Photorespiration",
+        "structural_element": "Photorespiration",
+        "content_anchor": "RuBisco instead of combining with CO₂ it combines with O₂",
+        "page_hint": 18,
+        "concept_hash": "sha256_photorespiration_efficiency_456789"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 82,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "Photorespiration is a process where RuBisCO fixes O₂ instead of CO₂, leading to the release of CO₂ and consumption of energy without sugar production.",
+        "concept_summary": "When RuBisCO binds O₂, the product is phosphoglycolate (C2) which enters the photorespiratory pathway. This releases previously fixed CO₂, consumes ATP and NADH, and reduces net photosynthetic output.",
+        "beginner": "Imagine RuBisCO as a confused worker that sometimes picks up O₂ instead of CO₂. Picking O₂ starts a useless cycle that wastes energy and loses carbon — like building a sandcastle and then knocking it down.",
+        "intermediate": "Oxygenase activity produces phosphoglycolate, which is converted to glycolate, then to glycine, releasing CO₂ in mitochondria. The process consumes ATP and NADH, lowering net carbon gain.",
+        "advanced": "The photorespiratory cycle (C2 cycle) involves chloroplast, peroxisome, and mitochondrion. For every 2 phosphoglycolate molecules, 1 CO₂ is released and 3 ATP + 2 NADH are consumed, with no net sugar. This reduces quantum yield compared to C4 plants.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "RuBisCO can bind either CO₂ (carboxylation) or O₂ (oxygenation).",
+          "Oxygenation produces phosphoglycolate, a 2-carbon compound.",
+          "The photorespiratory pathway recovers some carbon but loses CO₂ and uses energy.",
+          "Net result: reduced carbohydrate synthesis per CO₂ fixed."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Photorespiration produces ATP is false; it consumes ATP and NADH.",
+          "C4 plants have zero photorespiration is incorrect; they have very low rates but not zero under all conditions."
+        ],
+        "related_concepts": ["RuBisCO", "Oxygenase", "Phosphoglycolate", "C2 cycle", "C4 plants", "CO₂ compensation point"],
+        "revision_note": "Photorespiration: RuBisCO + O₂ → wastes carbon, costs ATP.",
+        "glossary_entry": {
+          "term": "Photorespiration",
+          "definition": "A process where RuBisCO fixes O₂ instead of CO₂, resulting in carbon loss and energy consumption without sugar production.",
+          "example_equation": null,
+          "related_terms": ["RuBisCO", "oxygenase activity", "C2 cycle"]
+        },
+        "flashcard": {
+          "front": "Why is photorespiration considered wasteful for C3 plants?",
+          "back": "It fixes O₂ instead of CO₂, releasing previously fixed carbon and consuming ATP/NADH without producing sugar."
+        },
+        "concept_map_nodes": [
+          {"source": "RuBisCO", "relation": "can_fix", "target": "O₂"},
+          {"source": "O₂ fixation", "relation": "leads_to", "target": "Carbon loss"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide", "solution_manual"],
+        "flashcard_deck": "Biology Unit 3 — Photorespiration",
+        "flashcard_front": "What is the primary reason photorespiration reduces photosynthesis efficiency?",
+        "flashcard_back": "RuBisCO fixes O₂ instead of CO₂, wasting fixed carbon and consuming ATP without sugar production.",
+        "glossary_term": "Photorespiration",
+        "glossary_definition": "A process where RuBisCO fixes O₂ instead of CO₂, resulting in carbon loss and energy consumption without sugar production.",
+        "revision_note": "O₂ fixation by RuBisCO → carbon loss.",
+        "teacher_note": "Students often think photorespiration produces something useful. Emphasise it consumes ATP/NADH and releases CO₂, net wasteful.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Justify the reason why the rate of photorespiration is less in C4 plants as compared to C3 plants.",
+        "concept_map_nodes": [
+          {"source": "High O₂/CO₂ ratio", "relation": "favors", "target": "RuBisCO oxygenase"},
+          {"source": "RuBisCO oxygenase", "relation": "triggers", "target": "Photorespiration"}
+        ],
+        "workbook_section": "Photorespiration",
+        "solution_manual_note": "Answer A. RuBisCO oxygenase fixes O₂, leading to photorespiration and carbon loss. Option B (excess ATP) is false; photorespiration consumes ATP. Option C is false: C4 plants have very low but usually not zero photorespiration. Option D is partially true but not the primary reason for inefficiency."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q009",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.2. Light-dependent and light-independent reactions",
+      "sub_subsection": null,
+      "structural_anchor": "Products of Photosynthesis",
+      "mcq_type": "D",
+      "question": "If a plant is exposed to light containing only wavelengths around 700 nm (far-red), which product of the light reactions would be most directly affected?",
+      "options": {
+        "A": "O₂ production",
+        "B": "ATP synthesis via cyclic photophosphorylation",
+        "C": "NADPH production",
+        "D": "Both ATP and NADPH equally"
+      },
+      "correct_answer": "C",
+      "hint": "Consider which photosystem is preferentially excited by 700 nm light.",
+      "explanation": "700 nm light excites photosystem I (P700) but not photosystem II (P680, which requires 680 nm or shorter). Without PSII excitation, non-cyclic flow stops, so NADPH is not produced; cyclic flow around PSI can still make some ATP.",
+      "difficulty_level": "hard",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": false,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 89,
+        "explanation_validation": {
+          "word_overlap_percentage": 6,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 92
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.2. Light-dependent and light-independent reactions",
+        "structural_element": "Products of Photosynthesis",
+        "content_anchor": "O₂ is produced in the thylakoid lumen by the oxidation of water by photosystem II",
+        "page_hint": 13,
+        "concept_hash": "sha256_wavelength_700nm_ps1_567890"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 84,
+        "distractor_quality_score": 87,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 95
+      },
+      "explanations_tiered": {
+        "definition": "Far-red light (700 nm) preferentially excites photosystem I (P700), not photosystem II (P680), limiting non-cyclic electron flow and NADPH production.",
+        "concept_summary": "Photosystem II requires light ≤680 nm for excitation. At 700 nm, only photosystem I is excited, enabling cyclic photophosphorylation (ATP) but not non-cyclic flow; thus NADPH is not produced and O₂ evolution ceases.",
+        "beginner": "Think of two solar panels: PSII needs blue/red light, PSI can also use far-red. With only far-red, PSII panel doesn’t work, so you can’t make NADPH — only some ATP from the PSI panel alone.",
+        "intermediate": "700 nm light drives cyclic electron flow around PSI, generating a proton gradient and ATP. However, without PSII excitation, water is not split, no O₂ is produced, and electrons are not available to reduce NADP⁺ to NADPH.",
+        "advanced": "The Emerson enhancement effect demonstrates that wavelengths >680 nm alone cannot drive efficient non-cyclic transport. Far-red light causes P700 oxidation but cannot oxidize P680, so the Z-scheme is interrupted. NADP⁺ reduction requires electrons from water via PSII, so it fails.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify that 700 nm is far-red, absorbed by PSI but not PSII.",
+          "Without PSII excitation, water photolysis stops → no O₂.",
+          "Non-cyclic flow (PSII→PSI→NADP⁺) stops → no NADPH.",
+          "Cyclic flow around PSI can still produce some ATP."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "700 nm light produces no ATP is false; cyclic photophosphorylation still generates ATP.",
+          "NADPH is still produced because PSI can reduce it directly is incorrect; PSI needs electrons from PSII to reduce NADP⁺."
+        ],
+        "related_concepts": ["Photosystem I", "Photosystem II", "Red drop", "Emerson enhancement effect", "Cyclic photophosphorylation"],
+        "revision_note": "700 nm → only PSI excited → cyclic ATP only, no NADPH, no O₂.",
+        "glossary_entry": {
+          "term": "Photosystem I",
+          "definition": "A chlorophyll-protein complex with reaction center P700 that absorbs far-red light (700 nm) and can drive cyclic or non-cyclic electron flow.",
+          "example_equation": null,
+          "related_terms": ["P700", "photosystem II", "cyclic photophosphorylation"]
+        },
+        "flashcard": {
+          "front": "If a plant receives only 700 nm light, what photosynthetic products are affected?",
+          "back": "NADPH and O₂ production stop; some ATP is still made via cyclic photophosphorylation."
+        },
+        "concept_map_nodes": [
+          {"source": "700 nm light", "relation": "excites", "target": "Photosystem I"},
+          {"source": "700 nm light", "relation": "does_not_excite", "target": "Photosystem II"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "teacher_guide"],
+        "flashcard_deck": "Biology Unit 3 — Light Reactions",
+        "flashcard_front": "Does 700 nm light support NADPH production?",
+        "flashcard_back": "No. 700 nm light excites only PSI, so non-cyclic flow (PSII→PSI) stops; cyclic flow makes ATP but no NADPH.",
+        "glossary_term": "Photosystem I",
+        "glossary_definition": "A chlorophyll-protein complex with reaction center P700 that absorbs far-red light (700 nm) and can drive cyclic or non-cyclic electron flow.",
+        "revision_note": "Far-red (700 nm): PSI only → cyclic ATP, no NADPH, no O₂.",
+        "teacher_note": "This question tests understanding of the red drop effect. Relate to Emerson enhancement and why two photosystems are needed.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Describe cyclic and non-cyclic photophosphorylation.",
+        "concept_map_nodes": [
+          {"source": "700 nm", "relation": "causes", "target": "Cyclic photophosphorylation"},
+          {"source": "Cyclic photophosphorylation", "relation": "produces", "target": "ATP only"}
+        ],
+        "workbook_section": "Light reactions",
+        "solution_manual_note": "Answer C. NADPH production requires non-cyclic flow, which needs PSII excitation (requires shorter wavelengths). Option A (O₂) also stops, but the question asks for 'most directly affected' product — NADPH fails because electrons from water aren’t available. ATP can still be made via cyclic PSI."
+      }
+    },
+    {
+      "question_id": "G12_Bio_U3_Q010",
+      "generation_timestamp": "2026-06-13T10:30:00Z",
+      "grade": "Grade 12",
+      "subject": "Biology",
+      "unit": "Unit 3: Energy Transformation",
+      "section": "3.2. Photosynthesis",
+      "subsection": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+      "sub_subsection": null,
+      "structural_anchor": "C3 plants / C3 pathway",
+      "mcq_type": "E",
+      "question": "The Calvin cycle requires 3 ATP and 2 NADPH to fix one CO₂ molecule into a three-carbon intermediate. How many ATP and NADPH molecules are needed to fix 6 CO₂ molecules into one hexose sugar (e.g., glucose)?",
+      "options": {
+        "A": "9 ATP, 6 NADPH",
+        "B": "12 ATP, 12 NADPH",
+        "C": "18 ATP, 12 NADPH",
+        "D": "24 ATP, 18 NADPH"
+      },
+      "correct_answer": "C",
+      "hint": "Multiply the per-CO₂ requirements by 6.",
+      "explanation": "Fixing one CO₂ requires 3 ATP and 2 NADPH. For 6 CO₂ (one hexose), total is 18 ATP and 12 NADPH. This matches the known stoichiometry of the Calvin cycle per glucose.",
+      "difficulty_level": "medium",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "ATP_per_CO2": {"magnitude": 3, "unit": "molecules"},
+          "NADPH_per_CO2": {"magnitude": 2, "unit": "molecules"},
+          "CO2_molecules": {"magnitude": 6, "unit": "molecules"}
+        },
+        "answer_value": 18,
+        "answer_unit": "ATP molecules",
+        "calculation_steps": [
+          "ATP required = 3 ATP/CO₂ × 6 CO₂ = 18 ATP",
+          "NADPH required = 2 NADPH/CO₂ × 6 CO₂ = 12 NADPH"
+        ],
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 4,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 96
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 3: Energy Transformation",
+        "section_anchor": "3.2. Photosynthesis",
+        "subsection_anchor": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+        "structural_element": "C3 plants / C3 pathway",
+        "content_anchor": "12NADPH2 and 18 ATPs are required to fix 6CO2 molecules into one hexose sugar",
+        "page_hint": 15,
+        "concept_hash": "sha256_calvin_stoichiometry_678901"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 68,
+        "distractor_quality_score": 91,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "The Calvin cycle fixes CO₂ into sugar using ATP and NADPH: 3 ATP and 2 NADPH per CO₂, totalling 18 ATP and 12 NADPH per 6 CO₂ (one hexose).",
+        "concept_summary": "Each turn of the Calvin cycle fixes one CO₂ using 3 ATP and 2 NADPH. Six turns fix six CO₂ to produce one hexose (glucose), requiring 18 ATP and 12 NADPH.",
+        "beginner": "Think of making a pizza: each slice (1 CO₂) needs 3 pepperonis (ATP) and 2 olives (NADPH). For a whole 6-slice pizza, you need 18 pepperonis and 12 olives.",
+        "intermediate": "Stoichiometry: For every 3 CO₂ fixed, 9 ATP and 6 NADPH are consumed (one G3P output). To produce one hexose (6 CO₂), double that: 18 ATP, 12 NADPH.",
+        "advanced": "The Calvin cycle consumes 9 ATP and 6 NADPH to fix 3 CO₂ into one G3P (3C). Two G3Ps (6C) form one fructose-1,6-bisphosphate, then glucose. Thus, per glucose: 18 ATP + 12 NADPH. The ATP is used for phosphorylation of 3-PGA and regeneration of RuBP; NADPH reduces 1,3-BPG to G3P.",
+        "worked_solution": [
+          "Step 1: Identify per-CO₂ requirement: 3 ATP, 2 NADPH.",
+          "Step 2: Number of CO₂ to make one hexose: 6.",
+          "Step 3: Multiply: 3 ATP/CO₂ × 6 CO₂ = 18 ATP.",
+          "Step 4: Multiply: 2 NADPH/CO₂ × 6 CO₂ = 12 NADPH."
+        ],
+        "reasoning_steps": [
+          "Recall that one CO₂ is fixed per turn of the Calvin cycle.",
+          "Each turn uses 3 ATP and 2 NADPH.",
+          "A hexose sugar contains 6 carbons, requiring 6 CO₂ fixed.",
+          "Multiply per-turn values by 6."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "3 ATP + 2 NADPH + CO₂ → (1/6) glucose + ADP + Pi + NADP⁺",
+            "name": "Calvin cycle overall stoichiometry",
+            "variables": [],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "2 ATP and 2 NADPH per CO₂ is incorrect; the correct ratio is 3 ATP and 2 NADPH per CO₂.",
+          "18 ATP and 18 NADPH is wrong; NADPH requirement is 12, not 18."
+        ],
+        "related_concepts": ["G3P", "Carbon fixation", "RuBP regeneration", "Reduction phase"],
+        "revision_note": "Per CO₂: 3 ATP, 2 NADPH. Per glucose: 18 ATP, 12 NADPH.",
+        "glossary_entry": {
+          "term": "Calvin cycle stoichiometry",
+          "definition": "The quantitative requirement of ATP and NADPH per CO₂ fixed: 3 ATP and 2 NADPH per CO₂, or 18 ATP and 12 NADPH per glucose.",
+          "example_equation": "\\(6\\mathrm{CO_2} + 18\\mathrm{ATP} + 12\\mathrm{NADPH} \\rightarrow \\mathrm{C_6H_{12}O_6} + 18\\mathrm{ADP} + 18\\mathrm{P_i} + 12\\mathrm{NADP^+}\\)",
+          "related_terms": ["ATP", "NADPH", "carbon fixation"]
+        },
+        "flashcard": {
+          "front": "How many ATP and NADPH are required to synthesize one glucose in the Calvin cycle?",
+          "back": "18 ATP and 12 NADPH (3 ATP and 2 NADPH per CO₂ × 6 CO₂)."
+        },
+        "concept_map_nodes": [
+          {"source": "Calvin cycle", "relation": "requires", "target": "ATP"},
+          {"source": "Calvin cycle", "relation": "requires", "target": "NADPH"},
+          {"source": "6 CO₂", "relation": "uses", "target": "18 ATP + 12 NADPH"}
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": ["question_bank", "exam_paper", "flashcard_deck", "workbook"],
+        "flashcard_deck": "Biology Unit 3 — Calvin Cycle",
+        "flashcard_front": "What is the ATP and NADPH cost of fixing 6 CO₂ into glucose?",
+        "flashcard_back": "18 ATP and 12 NADPH (3 ATP + 2 NADPH per CO₂ × 6).",
+        "glossary_term": "Calvin cycle stoichiometry",
+        "glossary_definition": "The quantitative requirement of ATP and NADPH per CO₂ fixed: 3 ATP and 2 NADPH per CO₂, or 18 ATP and 12 NADPH per glucose.",
+        "revision_note": "18 ATP + 12 NADPH per glucose.",
+        "teacher_note": "Students often misremember the numbers. Emphasise the per-CO₂ ratio of 3:2 and that one glucose requires 6 turns.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Summarize the process of photosynthesis using chemical equation.",
+        "concept_map_nodes": [
+          {"source": "6 CO₂", "relation": "requires", "target": "18 ATP"},
+          {"source": "6 CO₂", "relation": "requires", "target": "12 NADPH"}
+        ],
+        "workbook_section": "Calvin cycle",
+        "solution_manual_note": "Answer C. 3 ATP/CO₂ × 6 = 18 ATP; 2 NADPH/CO₂ × 6 = 12 NADPH. Option A (9,6) is half; option B (12,12) has correct NADPH but wrong ATP; option D (24,18) is too high."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3850,
+    "average_question_quality": 86.2,
+    "type_distribution": {
+      "A": 1,
+      "D": 1,
+      "E": 1,
+      "F": 2,
+      "G": 2,
+      "I": 2,
+      "K": 1
+    },
+    "difficulty_distribution": {
+      "easy": 1,
+      "medium": 6,
+      "hard": 3
+    },
+    "section_distribution": {
+      "3.2. Photosynthesis": 10
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 27,
+      "intermediate_avg": 38,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 0,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 5
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}

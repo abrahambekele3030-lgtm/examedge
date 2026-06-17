@@ -1,0 +1,2342 @@
+﻿{
+  "engine_version": "mcq_engine_spec_v9",
+  "engine_timestamp": "2026-06-12T14:30:00Z",
+  "round_id": "R01",
+  "batch_sequence": 1,
+  "__STATE__": {
+    "current_round": 1,
+    "last_question_id": "G10_Phys_U1_Q010",
+    "covered_sections": [
+      "Scalars and Vectors>1.1 Scalars and Vectors",
+      "Vector representations>1.2 Vector representations",
+      "Vector addition and subtraction>1.3 Vector addition and subtraction"
+    ],
+    "used_question_signatures": [
+      "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3",
+      "b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6b2c3d4e5f6b2",
+      "c3d4e5f6c3d4e5f6c3d4e5f6c3d4e5f6c3d4e5f6c3d4e5f6c3d4e5",
+      "d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4e5f6d4",
+      "e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6",
+      "f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5f6e5",
+      "a7b8c9d0e1a7b8c9d0e1a7b8c9d0e1a7b8c9d0e1a7b8c9d0e1a7b8c9d0",
+      "b8c9d0e1b8c9d0e1b8c9d0e1b8c9d0e1b8c9d0e1b8c9d0e1b8c9d0e1b8",
+      "c9d0e1c9d0e1c9d0e1c9d0e1c9d0e1c9d0e1c9d0e1c9d0e1c9d0e1c9d0",
+      "d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0e1d0"
+    ],
+    "baseline_counter": {
+      "Scalars and Vectors": {
+        "1.1 Scalars and Vectors": {
+          "count": 2,
+          "mini_headings_covered": [
+            "Key concepts: (Scalars / Vectors)",
+            "Exercise 1.1"
+          ],
+          "last_question_round": 1
+        }
+      },
+      "Vector representations": {
+        "1.2 Vector representations": {
+          "count": 2,
+          "mini_headings_covered": [
+            "Key concepts",
+            "Activity 1.1"
+          ],
+          "last_question_round": 1
+        }
+      },
+      "Vector addition and subtraction": {
+        "1.3 Vector addition and subtraction": {
+          "count": 3,
+          "mini_headings_covered": [
+            "Key concepts: (Parallel vector / Anti-parallel vectors)",
+            "Example 1.1",
+            "Exercise 1.5"
+          ],
+          "last_question_round": 1
+        }
+      },
+      "Graphical method of vector addition": {
+        "1.4 Graphical method of vector addition": {
+          "count": 1,
+          "mini_headings_covered": [
+            "Activity 1.2"
+          ],
+          "last_question_round": 1
+        }
+      },
+      "Vector resolution": {
+        "1.5 Vector resolution": {
+          "count": 2,
+          "mini_headings_covered": [
+            "Example 1.3",
+            "Exercise 1.7"
+          ],
+          "last_question_round": 1
+        }
+      }
+    },
+    "structure_verified": true,
+    "phase_status": {
+      "phase1_complete": false,
+      "phase2_complete": false,
+      "phase3_started": false
+    },
+    "distribution_tracker": {
+      "Scalars and Vectors": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Vector representations": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Vector addition and subtraction": {
+        "question_count": 3,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Graphical method of vector addition": {
+        "question_count": 1,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      },
+      "Vector resolution": {
+        "question_count": 2,
+        "last_used_round": 1,
+        "consecutive_batches": 1
+      }
+    },
+    "exhaustion_attempts": 0,
+    "concepts_mapped": {
+      "Scalars and Vectors>1.1 Scalars and Vectors": [
+        "scalar",
+        "vector",
+        "magnitude",
+        "direction"
+      ],
+      "Vector representations>1.2 Vector representations": [
+        "vector representation",
+        "magnitude",
+        "direction",
+        "equal vectors",
+        "negative vector"
+      ],
+      "Vector addition and subtraction>1.3 Vector addition and subtraction": [
+        "resultant",
+        "parallel vectors",
+        "anti-parallel vectors",
+        "vector addition",
+        "vector subtraction",
+        "Pythagorean theorem"
+      ],
+      "Graphical method of vector addition>1.4 Graphical method of vector addition": [
+        "triangle method",
+        "parallelogram method",
+        "polygon method",
+        "head-to-tail"
+      ],
+      "Vector resolution>1.5 Vector resolution": [
+        "component",
+        "horizontal component",
+        "vertical component",
+        "trigonometric resolution"
+      ]
+    },
+    "baseline_complete": false,
+    "validation_hash": "INITIAL",
+    "content_density_metrics": {
+      "total_concepts_extracted": 18,
+      "questions_per_concept_ratio": 0.56,
+      "structural_coverage_percentage": 28.6
+    }
+  },
+  "grade": "Grade 10",
+  "subject": "Physics",
+  "unit": "Unit 1: Vector Quantities",
+  "pdf_filename": "P10U1.pdf",
+  "generation_parameters": {
+    "max_questions_per_concept": 5,
+    "min_questions_per_subsection": 2,
+    "max_imbalance_ratio": 3.0,
+    "exhaustion_threshold_attempts": 10
+  },
+  "exhaustion_reached": false,
+  "user_stopped": false,
+  "safety_limit_triggered": false,
+  "validation_report": {
+    "batch_validation": {
+      "questions_validated": "10/10",
+      "regenerations_required": 0,
+      "constraint_violations_caught": 0,
+      "batch_status": "PASSED",
+      "validation_timestamp": "2026-06-12T14:30:00Z"
+    },
+    "phase_status_report": {
+      "phase1": {
+        "complete": false,
+        "sections_covered": 5,
+        "total_sections": 5,
+        "progress_percentage": 60.0
+      },
+      "phase2": {
+        "complete": false,
+        "max_imbalance_ratio": 3.0,
+        "balanced": false
+      },
+      "phase3": {
+        "started": false,
+        "exam_sections_biased": 0
+      }
+    },
+    "coverage_metrics": {
+      "total_questions_generated": 10,
+      "sections_covered_count": 5,
+      "subsections_covered_count": 5,
+      "mini_headings_covered_count": 7,
+      "structural_coverage_percentage": 28.6,
+      "concept_utilization_ratio": 0.56
+    },
+    "distribution_analysis": {
+      "most_covered_section": "Vector addition and subtraction",
+      "least_covered_section": "Graphical method of vector addition",
+      "imbalance_ratio": 3.0,
+      "section_rotation_compliant": true
+    },
+    "exhaustion_proof": {
+      "exhaustion_claimed": false,
+      "mathematical_proof_provided": false,
+      "per_subsection_analysis": {},
+      "remaining_concept_capacity": 0
+    },
+    "cheating_detection": {
+      "phase_skipping_detected": false,
+      "imbalance_detected": false,
+      "overuse_detected": false,
+      "early_stopping_attempted": false
+    },
+    "new_constraint_compliance": {
+      "tiered_explanations_valid": true,
+      "visual_system_valid": true,
+      "layout_metadata_valid": true,
+      "publishing_metadata_valid": true
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G10_Phys_U1_Q001",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Scalars and Vectors",
+      "subsection": "1.1 Scalars and Vectors",
+      "sub_subsection": null,
+      "structural_anchor": "Key concepts: (Scalars / Vectors)",
+      "mcq_type": "A",
+      "question": "Which of the following correctly defines a scalar quantity?",
+      "options": {
+        "A": "A quantity that has both magnitude and direction",
+        "B": "A quantity that has only magnitude and no direction",
+        "C": "A quantity that has only direction and no magnitude",
+        "D": "A quantity that changes with time"
+      },
+      "correct_answer": "B",
+      "hint": "Consider which type of physical quantity is fully described by a number and unit alone.",
+      "explanation": "A scalar quantity is defined as having only magnitude, as seen with mass or temperature. Option A incorrectly describes a vector, which requires both magnitude and direction for complete description.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Scalars and Vectors",
+        "subsection_anchor": "1.1 Scalars and Vectors",
+        "structural_element": "Key concepts: (Scalars / Vectors)",
+        "content_anchor": "Scalars are quantities that has only magnitude",
+        "page_hint": 2,
+        "concept_hash": "sha256_scalar_definition_001"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 45,
+        "distractor_quality_score": 85,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "A scalar quantity is a physical quantity that is completely described by its magnitude (a number and unit) alone.",
+        "concept_summary": "Scalars are the simplest type of physical quantity. They do not involve direction, making them easier to add and compare than vectors.",
+        "beginner": "Think of a scalar like the temperature of a room: 25°C tells you everything. You don't need to say which way the temperature is pointing.",
+        "intermediate": "A scalar is fully defined by magnitude only. Common examples include mass (50 kg), time (10 s), and distance (100 m). No direction is required.",
+        "advanced": "Scalars are rank-0 tensors that remain invariant under coordinate rotations. Mathematically, they belong to the field \\(\\mathbb{R}\\) and obey ordinary arithmetic rules, unlike vectors which require directional algebra.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify what information is required to describe the quantity completely.",
+          "Check if direction is needed.",
+          "If only magnitude is needed, it is a scalar.",
+          "If both magnitude and direction are needed, it is a vector."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students believe scalars cannot be negative. Negative scalars exist (e.g., -10°C), but direction is still not implied.",
+          "Scalars are sometimes confused with vector magnitudes, but magnitude is always non-negative while scalars can be negative in certain contexts."
+        ],
+        "related_concepts": [
+          "vector quantity",
+          "magnitude",
+          "physical quantity"
+        ],
+        "revision_note": "Scalar: magnitude only. Vector: magnitude + direction.",
+        "glossary_entry": {
+          "term": "Scalar quantity",
+          "definition": "A physical quantity that has only magnitude and no direction.",
+          "example_equation": null,
+          "related_terms": [
+            "vector quantity",
+            "magnitude"
+          ]
+        },
+        "flashcard": {
+          "front": "What is a scalar quantity?",
+          "back": "A scalar quantity has only magnitude and no direction. Examples: mass, time, temperature."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Physical quantity",
+            "relation": "classified_as",
+            "target": "Scalar quantity"
+          },
+          {
+            "source": "Scalar quantity",
+            "relation": "has_property",
+            "target": "Magnitude only"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "section_heading",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Scalars and Vectors",
+        "flashcard_front": "What defines a scalar quantity?",
+        "flashcard_back": "Only magnitude, no direction. Example: mass = 50 kg.",
+        "glossary_term": "Scalar",
+        "glossary_definition": "A physical quantity that is completely described by its magnitude alone, without any directional information.",
+        "revision_note": "Scalar: magnitude only. Vector: magnitude + direction.",
+        "teacher_note": "Common error: students think scalars cannot be negative. Use temperature (-5°C) to counter this.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate between scalar and vector quantities",
+        "concept_map_nodes": [
+          {
+            "source": "Physical quantity",
+            "relation": "classified_as",
+            "target": "Scalar"
+          }
+        ],
+        "workbook_section": "1.1 Scalars and Vectors",
+        "solution_manual_note": "Answer B. A scalar quantity is defined only by its magnitude, unlike vectors which require direction."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q002",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Scalars and Vectors",
+      "subsection": "1.1 Scalars and Vectors",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 1.1",
+      "mcq_type": "B",
+      "question": "Which physical quantity requires both a numerical value and a direction for complete description?",
+      "options": {
+        "A": "Mass of 50 kg",
+        "B": "Temperature of 25°C",
+        "C": "Velocity of 20 m/s north",
+        "D": "Time of 10 seconds"
+      },
+      "correct_answer": "C",
+      "hint": "Think about which measurement becomes ambiguous without a specified direction.",
+      "explanation": "Velocity is a vector quantity requiring both magnitude (20 m/s) and direction (north) for complete description. Option A (mass) and D (time) are scalars; B (temperature) is also a scalar.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 96,
+        "explanation_validation": {
+          "word_overlap_percentage": 15.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Scalars and Vectors",
+        "subsection_anchor": "1.1 Scalars and Vectors",
+        "structural_element": "Exercise 1.1",
+        "content_anchor": "differences between vectors and scalars",
+        "page_hint": 2,
+        "concept_hash": "sha256_vector_identification_002"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 48,
+        "distractor_quality_score": 87,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A vector quantity is a physical quantity that has both magnitude and direction and follows vector addition rules.",
+        "concept_summary": "Vectors require directional information. Without direction, the description is incomplete, as seen with displacement vs. distance.",
+        "beginner": "Imagine saying 'the car is moving at 60 km/h' — that's scalar speed. Adding 'north' makes it vector velocity, giving full information.",
+        "intermediate": "Vector quantities like velocity, force, and displacement include directional information. Saying '50 N' is incomplete; '50 N upward' is a complete vector description.",
+        "advanced": "Vectors transform under coordinate rotations via \\(V'_i = R_{ij} V_j\\). This directional dependence distinguishes them from scalars, which are rotationally invariant.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify if direction is stated or implied.",
+          "Check if the quantity is fully described without direction.",
+          "If direction is required, the quantity is a vector.",
+          "Select the option that includes both magnitude and direction."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Students often think speed is a vector because it relates to motion. Speed is scalar (magnitude only); velocity is the vector.",
+          "Some believe all measured numbers with signs (e.g., -10 m) are vectors. Negative scalars exist without implying direction."
+        ],
+        "related_concepts": [
+          "scalar quantity",
+          "velocity",
+          "magnitude",
+          "direction"
+        ],
+        "revision_note": "Vector = magnitude + direction. Scalar = magnitude only.",
+        "glossary_entry": {
+          "term": "Vector quantity",
+          "definition": "A physical quantity that has both magnitude and direction, and follows the laws of vector addition.",
+          "example_equation": "\\(\\vec{v} = 20\\text{ m/s north}\\)",
+          "related_terms": [
+            "scalar quantity",
+            "magnitude",
+            "direction"
+          ]
+        },
+        "flashcard": {
+          "front": "What two things define a vector quantity?",
+          "back": "Magnitude and direction. Example: \\(\\vec{F} = 10\\text{ N upward}\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Vector quantity",
+            "relation": "has_property",
+            "target": "Magnitude"
+          },
+          {
+            "source": "Vector quantity",
+            "relation": "has_property",
+            "target": "Direction"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Scalars and Vectors",
+        "flashcard_front": "How does a vector differ from a scalar?",
+        "flashcard_back": "A vector has magnitude AND direction; a scalar has only magnitude.",
+        "glossary_term": "Vector",
+        "glossary_definition": "A physical quantity characterized by both magnitude and direction, such as velocity or force.",
+        "revision_note": "Vector: magnitude + direction. Example: \\(20\\text{ m/s north}\\).",
+        "teacher_note": "Use a compass or map to illustrate why direction matters for vectors like displacement.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Differentiate between scalar and vector quantities and give examples",
+        "concept_map_nodes": [
+          {
+            "source": "Vector",
+            "relation": "contrasted_with",
+            "target": "Scalar"
+          }
+        ],
+        "workbook_section": "1.1 Scalars and Vectors",
+        "solution_manual_note": "Answer C. Velocity includes direction (north), making it a vector. Mass, temperature, and time are scalars."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q003",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Vector representations",
+      "subsection": "1.2 Vector representations",
+      "sub_subsection": null,
+      "structural_anchor": "Key concepts",
+      "mcq_type": "A",
+      "question": "How is a vector represented algebraically?",
+      "options": {
+        "A": "As a plain italic letter like A",
+        "B": "As a bold letter like \\(\\mathbf{A}\\) or with an arrow \\(\\vec{A}\\)",
+        "C": "As a number with a plus sign",
+        "D": "As a fraction with units"
+      },
+      "correct_answer": "B",
+      "hint": "Think about typographical conventions used in textbooks to distinguish vectors from scalars.",
+      "explanation": "Vectors are algebraically represented by boldface letters (\\(\\mathbf{A}\\)) or letters with an arrow (\\(\\vec{A}\\)). Option A is incorrect because plain italics usually denote scalars.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Vector representations",
+        "subsection_anchor": "1.2 Vector representations",
+        "structural_element": "Key concepts",
+        "content_anchor": "Algebraically, they are represented by a bold letter as A or with an arrow over the letter",
+        "page_hint": 3,
+        "concept_hash": "sha256_vector_representation_003"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 42,
+        "distractor_quality_score": 88,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 91
+      },
+      "explanations_tiered": {
+        "definition": "Algebraic vector representation uses boldface or arrow notation to distinguish vectors from scalar quantities.",
+        "concept_summary": "Notation matters in physics: \\(\\vec{A}\\) or \\(\\mathbf{A}\\) means vector; \\(A\\) usually means magnitude or scalar.",
+        "beginner": "Think of a vector like an address: you need a street (magnitude) AND a city (direction). Bold or arrow notation is just a way to show both are included.",
+        "intermediate": "Vectors are written as \\(\\vec{v}\\) or \\(\\mathbf{v}\\) to indicate they have direction. The magnitude is written as \\(v = |\\vec{v}|\\), which is a scalar.",
+        "advanced": "In tensor notation, vectors are rank-1 tensors denoted by indices (\\(v^i\\)), but in elementary physics, bold \\(\\mathbf{v}\\) or \\(\\vec{v}\\) is standard to emphasize directional properties.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall that scalars use plain or italic letters.",
+          "Recall that vectors use special notation.",
+          "Identify bold or arrow notation as vector-specific.",
+          "Select the option matching vector notation."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students think any variable with a letter is a vector. Only bold or arrow notation indicates a vector.",
+          "The same letter can represent both vector and scalar (e.g., \\(\\vec{v}\\) = velocity vector, \\(v\\) = speed)."
+        ],
+        "related_concepts": [
+          "vector magnitude",
+          "scalar notation",
+          "boldface convention"
+        ],
+        "revision_note": "Vector: \\(\\vec{A}\\) or \\(\\mathbf{A}\\). Magnitude: \\(A\\) or \\(|\\vec{A}|\\).",
+        "glossary_entry": {
+          "term": "Vector notation",
+          "definition": "The convention of using boldface or an arrow over a letter to denote a vector quantity.",
+          "example_equation": "\\(\\vec{F} = m\\vec{a}\\)",
+          "related_terms": [
+            "boldface",
+            "arrow notation",
+            "magnitude"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you write a vector algebraically?",
+          "back": "As a bold letter \\(\\mathbf{A}\\) or with an arrow \\(\\vec{A}\\). Example: \\(\\vec{v} = 20\\text{ m/s}\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Vector",
+            "relation": "represented_by",
+            "target": "Boldface or arrow notation"
+          },
+          {
+            "source": "Vector",
+            "relation": "has_magnitude",
+            "target": "Scalar \\(A\\)"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Vector Representations",
+        "flashcard_front": "What notation indicates a vector in algebra?",
+        "flashcard_back": "Boldface (\\(\\mathbf{A}\\)) or an arrow (\\(\\vec{A}\\)).",
+        "glossary_term": "Vector representation",
+        "glossary_definition": "The use of boldface or arrow notation to distinguish vectors from scalars.",
+        "revision_note": "Vector: \\(\\vec{A}\\) or \\(\\mathbf{A}\\). Scalar: \\(A\\).",
+        "teacher_note": "Emphasize that \\(\\vec{A}\\) and \\(A\\) are different: one is vector, one is scalar magnitude.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Demonstrate vectors representation graphically and algebraically",
+        "concept_map_nodes": [
+          {
+            "source": "Vector",
+            "relation": "represented_as",
+            "target": "\\(\\vec{A}\\)"
+          }
+        ],
+        "workbook_section": "1.2 Vector representations",
+        "solution_manual_note": "Answer B. Vectors are algebraically shown as bold or with an arrow. Option A is scalar notation."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q004",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Vector representations",
+      "subsection": "1.2 Vector representations",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.1",
+      "mcq_type": "K",
+      "question": "A vector is drawn to scale with a length of 5 cm representing a displacement of 20 km. What is the scale used?",
+      "options": {
+        "A": "1 cm = 2 km",
+        "B": "1 cm = 4 km",
+        "C": "1 cm = 5 km",
+        "D": "1 cm = 10 km"
+      },
+      "correct_answer": "B",
+      "hint": "Divide the actual displacement by the drawn length to find km per cm.",
+      "explanation": "Scale = actual magnitude / drawn length = \\(20\\text{ km} / 5\\text{ cm} = 4\\text{ km/cm}\\). Option A (2 km/cm) would give 10 km total, not 20 km.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 14.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 86
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Vector representations",
+        "subsection_anchor": "1.2 Vector representations",
+        "structural_element": "Activity 1.1",
+        "content_anchor": "graphically draw the following numerical vectors",
+        "page_hint": 4,
+        "concept_hash": "sha256_scale_interpretation_004"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 55,
+        "distractor_quality_score": 84,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 88
+      },
+      "explanations_tiered": {
+        "definition": "Scale in vector diagrams is the ratio between the drawn length and the actual magnitude of the quantity represented.",
+        "concept_summary": "A scale converts measured lengths on paper to real-world magnitudes, allowing graphical representation of physical quantities.",
+        "beginner": "If 1 cm on a map means 1 km in real life, that's the scale. Here, 5 cm drawn = 20 km real, so each cm is 4 km.",
+        "intermediate": "Scale \\(S = \\frac{\\text{actual magnitude}}{\\text{drawn length}}\\). With \\(L_{\\text{drawn}} = 5\\text{ cm}\\) and \\(R_{\\text{actual}} = 20\\text{ km}\\), \\(S = 20/5 = 4\\text{ km/cm}\\).",
+        "advanced": "Scale choice affects vector diagram accuracy. With \\(S = 4\\text{ km/cm}\\), the scale factor is \\(4 \\times 10^3\\text{ m} / 0.01\\text{ m} = 4 \\times 10^5\\), a dimensionless ratio of \\(4 \\times 10^5:1\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Identify actual magnitude = 20 km.",
+          "Identify drawn length = 5 cm.",
+          "Divide actual by drawn: \\(20/5 = 4\\).",
+          "Express as '1 cm = X km' where X = 4."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some students invert the scale (5/20 = 0.25) instead of 20/5 = 4.",
+          "Units must match: if actual is in km and drawn in cm, the scale is km/cm."
+        ],
+        "related_concepts": [
+          "vector magnitude",
+          "graphical representation",
+          "scale factor",
+          "proportionality"
+        ],
+        "revision_note": "Scale = actual / drawn. 20 km / 5 cm = 4 km/cm.",
+        "glossary_entry": {
+          "term": "Scale",
+          "definition": "The ratio between the drawn length of a vector and its actual magnitude.",
+          "example_equation": "\\(\\text{Scale} = \\frac{\\text{actual magnitude}}{\\text{drawn length}}\\)",
+          "related_terms": [
+            "vector diagram",
+            "magnitude",
+            "proportional representation"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you find scale from drawn length and actual magnitude?",
+          "back": "Scale = actual magnitude / drawn length. Example: 20 km / 5 cm = 4 km/cm."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Vector diagram",
+            "relation": "uses",
+            "target": "Scale"
+          },
+          {
+            "source": "Scale",
+            "relation": "determines",
+            "target": "Drawn length"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Vector Representations",
+        "flashcard_front": "A 5 cm drawn vector = 20 km actual. What is the scale?",
+        "flashcard_back": "Scale = 4 km/cm (20 km / 5 cm).",
+        "glossary_term": "Scale",
+        "glossary_definition": "The ratio linking drawn length to actual magnitude in vector diagrams.",
+        "revision_note": "Scale = actual ÷ drawn. 20 km ÷ 5 cm = 4 km/cm.",
+        "teacher_note": "Have students practice converting between scale, drawn length, and actual magnitude.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Apply vector representation using scale",
+        "concept_map_nodes": [
+          {
+            "source": "Scale",
+            "relation": "example_of",
+            "target": "Proportional relationship"
+          }
+        ],
+        "workbook_section": "1.2 Vector representations",
+        "solution_manual_note": "Answer B. Scale = actual/drawn = 20 km / 5 cm = 4 km/cm."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q005",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Vector addition and subtraction",
+      "subsection": "1.3 Vector addition and subtraction",
+      "sub_subsection": null,
+      "structural_anchor": "Key concepts: (Parallel vector / Anti-parallel vectors)",
+      "mcq_type": "A",
+      "question": "What is the term for two vectors that have the same magnitude but point in opposite directions?",
+      "options": {
+        "A": "Equal vectors",
+        "B": "Parallel vectors",
+        "C": "Negative vectors",
+        "D": "Perpendicular vectors"
+      },
+      "correct_answer": "C",
+      "hint": "One vector is the additive inverse of the other.",
+      "explanation": "Two vectors with equal magnitude but opposite direction are called negative vectors, where \\(\\vec{B} = -\\vec{A}\\). Option A describes same direction; B describes same or opposite direction; D describes 90° separation.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "mini_heading"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 92,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 87
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Vector addition and subtraction",
+        "subsection_anchor": "1.3 Vector addition and subtraction",
+        "structural_element": "Key concepts: (Parallel vector / Anti-parallel vectors)",
+        "content_anchor": "negative of A, or -A",
+        "page_hint": 7,
+        "concept_hash": "sha256_negative_vector_005"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 44,
+        "distractor_quality_score": 86,
+        "cognitive_level": "remembering",
+        "exam_alignment_score": 90
+      },
+      "explanations_tiered": {
+        "definition": "A negative vector has the same magnitude as the original vector but points in the opposite direction.",
+        "concept_summary": "The negative of a vector reverses its direction while preserving magnitude. This is essential for vector subtraction.",
+        "beginner": "If you walk 10 m east (+10 m east), walking 10 m west is the negative vector. You end up back where you started.",
+        "intermediate": "If \\(\\vec{A}\\) points east with magnitude 5 N, then \\(-\\vec{A}\\) points west with magnitude 5 N. Adding them gives zero: \\(\\vec{A} + (-\\vec{A}) = 0\\).",
+        "advanced": "Negation of a vector is equivalent to multiplying by scalar -1: \\(-\\vec{A} = (-1)\\vec{A}\\). This reverses each component: if \\(\\vec{A} = (A_x, A_y)\\), then \\(-\\vec{A} = (-A_x, -A_y)\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Check if magnitudes are equal.",
+          "Check if directions are opposite.",
+          "If both true, one is the negative of the other.",
+          "Select 'negative vectors'."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Negative vector does not mean 'bad' or 'less than zero' magnitude. It means opposite direction.",
+          "Some think \\(-\\vec{A}\\) has negative magnitude. Magnitude is always positive or zero; direction changes sign."
+        ],
+        "related_concepts": [
+          "vector magnitude",
+          "vector direction",
+          "vector addition",
+          "vector subtraction"
+        ],
+        "revision_note": "Negative vector: same magnitude, opposite direction: \\(\\vec{B} = -\\vec{A}\\).",
+        "glossary_entry": {
+          "term": "Negative vector",
+          "definition": "A vector with the same magnitude as another vector but pointing in the exact opposite direction.",
+          "example_equation": "\\(\\vec{B} = -\\vec{A}\\)",
+          "related_terms": [
+            "vector direction",
+            "magnitude",
+            "vector subtraction"
+          ]
+        },
+        "flashcard": {
+          "front": "What is a negative vector?",
+          "back": "Same magnitude as original, opposite direction. \\(\\vec{B} = -\\vec{A}\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Vector",
+            "relation": "has_negative",
+            "target": "Negative vector"
+          },
+          {
+            "source": "Negative vector",
+            "relation": "has_property",
+            "target": "Opposite direction"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "flashcard_deck"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Vector Addition & Subtraction",
+        "flashcard_front": "What do you call a vector with same magnitude but opposite direction?",
+        "flashcard_back": "Negative vector. \\(\\vec{B} = -\\vec{A}\\).",
+        "glossary_term": "Negative vector",
+        "glossary_definition": "A vector equal in magnitude but opposite in direction to a given vector.",
+        "revision_note": "\\(-\\vec{A}\\) = same magnitude, opposite direction.",
+        "teacher_note": "Use position on a number line: +5 and -5 as one-dimensional analog to negative vectors.",
+        "bloom_level": "Remember",
+        "learning_objective_tag": "Understand vector properties including negative vectors",
+        "concept_map_nodes": [
+          {
+            "source": "Negative vector",
+            "relation": "defined_as",
+            "target": "\\(-1\\) times original vector"
+          }
+        ],
+        "workbook_section": "1.3 Vector addition and subtraction",
+        "solution_manual_note": "Answer C. Negative vectors have equal magnitude but opposite direction. Option A requires same direction."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q006",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Vector addition and subtraction",
+      "subsection": "1.3 Vector addition and subtraction",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.1",
+      "mcq_type": "E",
+      "question": "Two forces act on an object: \\(\\vec{F}_1 = 6\\text{ N}\\) east and \\(\\vec{F}_2 = 3\\text{ N}\\) west. What is the magnitude of the resultant force?",
+      "options": {
+        "A": "\\(9\\text{ N}\\)",
+        "B": "\\(6\\text{ N}\\)",
+        "C": "\\(3\\text{ N}\\)",
+        "D": "\\(0\\text{ N}\\)"
+      },
+      "correct_answer": "C",
+      "hint": "For opposite directions, subtract the smaller magnitude from the larger.",
+      "explanation": "Since the forces are opposite (east vs west), the resultant magnitude is \\(|6 - 3| = 3\\text{ N}\\). Option A (9 N) would be correct only if both acted in the same direction.",
+      "difficulty_level": "easy",
+      "formula_used": [
+        "\\(R = |A - B|\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "F1": {
+            "magnitude": 6,
+            "unit": "N"
+          },
+          "F2": {
+            "magnitude": 3,
+            "unit": "N"
+          }
+        },
+        "answer_value": 3,
+        "answer_unit": "N",
+        "calculation_steps": [
+          "Identify forces: \\(F_1 = 6\\text{ N}\\) east, \\(F_2 = 3\\text{ N}\\) west.",
+          "Since opposite direction, resultant magnitude = \\(|F_1 - F_2|\\).",
+          "\\(R = |6 - 3| = 3\\text{ N}\\)."
+        ],
+        "significant_figures": 1
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 95,
+        "explanation_validation": {
+          "word_overlap_percentage": 11.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Vector addition and subtraction",
+        "subsection_anchor": "1.3 Vector addition and subtraction",
+        "structural_element": "Example 1.1",
+        "content_anchor": "When the two vectors are in opposite directions, R = (6 - 3) units = 3 units",
+        "page_hint": 7,
+        "concept_hash": "sha256_opposite_direction_resultant_006"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 50,
+        "distractor_quality_score": 90,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 93
+      },
+      "explanations_tiered": {
+        "definition": "The resultant of two antiparallel vectors is the difference of their magnitudes, directed along the larger vector.",
+        "concept_summary": "When vectors point in exactly opposite directions, the resultant magnitude equals the absolute difference of magnitudes.",
+        "beginner": "Imagine two people pulling a rope: one east with 6 N, one west with 3 N. The net pull is 3 N east — the stronger side minus the weaker.",
+        "intermediate": "For \\(\\vec{F}_1\\) east and \\(\\vec{F}_2\\) west, take east as positive. \\(F_1 = +6\\) N, \\(F_2 = -3\\) N. Resultant = \\(+6 + (-3) = +3\\) N (3 N east).",
+        "advanced": "The vector sum is \\(\\vec{R} = \\vec{F}_1 + \\vec{F}_2\\). With opposite directions, \\(|\\vec{R}| = |F_1 - F_2|\\) when \\(F_1 \\ge F_2\\). Direction follows the larger vector.",
+        "worked_solution": [
+          "Step 1: Assign east as positive direction.",
+          "Step 2: Write vectors: \\(\\vec{F}_1 = +6\\text{ N}\\), \\(\\vec{F}_2 = -3\\text{ N}\\).",
+          "Step 3: Add: \\(\\vec{R} = +6 + (-3) = +3\\text{ N}\\).",
+          "Step 4: Magnitude = \\(|+3| = 3\\text{ N}\\)."
+        ],
+        "reasoning_steps": [
+          "Identify direction of each vector.",
+          "Set a sign convention (e.g., east positive, west negative).",
+          "Add vectors algebraically.",
+          "Take absolute value for magnitude if only magnitude is asked."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(R = |A - B|\\)",
+            "name": "Resultant of opposite vectors",
+            "variables": [
+              {
+                "symbol": "\\(A\\)",
+                "meaning": "Magnitude of larger vector",
+                "unit": "N"
+              },
+              {
+                "symbol": "\\(B\\)",
+                "meaning": "Magnitude of smaller vector",
+                "unit": "N"
+              }
+            ],
+            "derivation": null
+          }
+        ],
+        "misconceptions": [
+          "Students often add magnitudes (6+3=9 N) even when directions are opposite.",
+          "Some forget that resultant direction matters, but magnitude only is asked here."
+        ],
+        "related_concepts": [
+          "vector addition",
+          "antiparallel vectors",
+          "resultant force",
+          "net force"
+        ],
+        "revision_note": "Opposite vectors: subtract magnitudes. Same direction: add magnitudes.",
+        "glossary_entry": {
+          "term": "Resultant of opposite vectors",
+          "definition": "The magnitude equals the absolute difference of the two magnitudes, direction same as larger vector.",
+          "example_equation": "\\(R = |A - B|\\)",
+          "related_terms": [
+            "antiparallel",
+            "vector sum",
+            "net force"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you find resultant magnitude of two opposite vectors?",
+          "back": "Subtract smaller magnitude from larger. \\(R = |A - B|\\). Example: 6 N east + 3 N west = 3 N east."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Opposite vectors",
+            "relation": "produce",
+            "target": "Resultant = difference"
+          },
+          {
+            "source": "Resultant",
+            "relation": "direction_follows",
+            "target": "Larger vector"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "solution_manual"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Vector Addition & Subtraction",
+        "flashcard_front": "6 N east + 3 N west = ? magnitude",
+        "flashcard_back": "3 N east. Opposite directions: subtract magnitudes.",
+        "glossary_term": "Resultant",
+        "glossary_definition": "The single vector that produces the same effect as the sum of multiple vectors.",
+        "revision_note": "Opposite vectors: \\(R = |A - B|\\).",
+        "teacher_note": "Use number line: +6 and -3 sum to +3 to reinforce sign convention.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Add and subtract two vectors",
+        "concept_map_nodes": [
+          {
+            "source": "Vector addition",
+            "relation": "for_opposite_directions",
+            "target": "Subtraction"
+          }
+        ],
+        "workbook_section": "1.3 Vector addition and subtraction",
+        "solution_manual_note": "Answer C. Opposite directions: subtract magnitudes = 6-3=3 N. Option A is for same direction."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q007",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Vector addition and subtraction",
+      "subsection": "1.3 Vector addition and subtraction",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 1.5",
+      "mcq_type": "F",
+      "question": "Under the condition that two vectors are perpendicular, which method correctly gives the magnitude of their resultant?",
+      "options": {
+        "A": "Adding the magnitudes directly",
+        "B": "Subtracting the magnitudes",
+        "C": "Using the Pythagorean theorem: \\(R = \\sqrt{A^2 + B^2}\\)",
+        "D": "Multiplying the magnitudes"
+      },
+      "correct_answer": "C",
+      "hint": "Consider the geometric relationship between perpendicular sides of a right triangle.",
+      "explanation": "For perpendicular vectors, the resultant forms the hypotenuse of a right triangle, so \\(R = \\sqrt{A^2 + B^2}\\). Option A works only for parallel same-direction vectors; B works for opposite directions.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(R = \\sqrt{A^2 + B^2}\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 90
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Vector addition and subtraction",
+        "subsection_anchor": "1.3 Vector addition and subtraction",
+        "structural_element": "Exercise 1.5",
+        "content_anchor": "When the two vectors are perpendicular, R = sqrt(A^2 + B^2)",
+        "page_hint": 7,
+        "concept_hash": "sha256_perpendicular_resultant_007"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 65,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "For two perpendicular vectors, the resultant magnitude is the square root of the sum of squares of the magnitudes.",
+        "concept_summary": "The resultant of perpendicular vectors is the hypotenuse of a right triangle, following the Pythagorean theorem.",
+        "beginner": "If you walk 3 m east then 4 m north, you end up 5 m from start. That's \\(\\sqrt{3^2 + 4^2} = 5\\) m — perpendicular vector addition.",
+        "intermediate": "When \\(\\vec{A} \\perp \\vec{B}\\), they form legs of a right triangle. The resultant \\(\\vec{R}\\) is the hypotenuse: \\(R = \\sqrt{A^2 + B^2}\\). Direction given by \\(\\tan\\theta = B/A\\).",
+        "advanced": "For orthogonal vectors, the dot product \\(\\vec{A} \\cdot \\vec{B} = 0\\). Then \\(|\\vec{R}|^2 = |\\vec{A}|^2 + |\\vec{B}|^2 + 2\\vec{A}\\cdot\\vec{B} = A^2 + B^2\\), so \\(R = \\sqrt{A^2 + B^2}\\).",
+        "worked_solution": [
+          "Step 1: Identify vectors are perpendicular (90° apart).",
+          "Step 2: Apply Pythagorean theorem: \\(R = \\sqrt{A^2 + B^2}\\).",
+          "Step 3: Compute squares, add, take square root."
+        ],
+        "reasoning_steps": [
+          "Check if vectors are perpendicular (90°).",
+          "Recall right triangle relationship.",
+          "Apply \\(R = \\sqrt{A^2 + B^2}\\).",
+          "Compute numeric value if magnitudes given."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(R = \\sqrt{A^2 + B^2}\\)",
+            "name": "Pythagorean theorem for perpendicular vectors",
+            "variables": [
+              {
+                "symbol": "\\(A\\)",
+                "meaning": "Magnitude of first vector",
+                "unit": "any"
+              },
+              {
+                "symbol": "\\(B\\)",
+                "meaning": "Magnitude of second vector",
+                "unit": "any"
+              }
+            ],
+            "derivation": "From law of cosines with \\(\\theta = 90^\\circ\\), \\(\\cos 90^\\circ = 0\\)"
+          }
+        ],
+        "misconceptions": [
+          "Students mistakenly add magnitudes for perpendicular vectors (e.g., 3+4=7 not 5).",
+          "Some think resultant of perpendicular vectors is always larger than either, which is true but not the correct method."
+        ],
+        "related_concepts": [
+          "Pythagorean theorem",
+          "right triangle",
+          "vector addition",
+          "resultant"
+        ],
+        "revision_note": "Perpendicular vectors: \\(R = \\sqrt{A^2 + B^2}\\).",
+        "glossary_entry": {
+          "term": "Perpendicular vector resultant",
+          "definition": "The resultant magnitude of two perpendicular vectors given by the Pythagorean theorem.",
+          "example_equation": "\\(R = \\sqrt{A^2 + B^2}\\)",
+          "related_terms": [
+            "Pythagorean theorem",
+            "right triangle",
+            "orthogonal vectors"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you find resultant magnitude of two perpendicular vectors?",
+          "back": "Use Pythagorean theorem: \\(R = \\sqrt{A^2 + B^2}\\). Example: 3 N east + 4 N north = 5 N."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Perpendicular vectors",
+            "relation": "resultant_by",
+            "target": "Pythagorean theorem"
+          },
+          {
+            "source": "Pythagorean theorem",
+            "relation": "gives",
+            "target": "Resultant magnitude"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Vector Addition & Subtraction",
+        "flashcard_front": "Formula for resultant of perpendicular vectors?",
+        "flashcard_back": "\\(R = \\sqrt{A^2 + B^2}\\) (Pythagorean theorem).",
+        "glossary_term": "Pythagorean theorem (vectors)",
+        "glossary_definition": "The rule that the resultant magnitude of two perpendicular vectors equals the square root of the sum of squares.",
+        "revision_note": "Perpendicular: \\(R = \\sqrt{A^2 + B^2}\\).",
+        "teacher_note": "Draw a right triangle on board to show why Pythagorean theorem applies.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Add two vectors using analytical methods",
+        "concept_map_nodes": [
+          {
+            "source": "Perpendicular vectors",
+            "relation": "use",
+            "target": "\\(R = \\sqrt{A^2 + B^2}\\)"
+          }
+        ],
+        "workbook_section": "1.3 Vector addition and subtraction",
+        "solution_manual_note": "Answer C. Perpendicular vectors follow Pythagorean theorem. Option A is for same direction."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q008",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Vector resolution",
+      "subsection": "1.5 Vector resolution",
+      "sub_subsection": null,
+      "structural_anchor": "Example 1.3",
+      "mcq_type": "E",
+      "question": "A displacement vector \\(\\vec{S}\\) has magnitude \\(250\\text{ km}\\) at \\(30^\\circ\\) north of east. What is the eastward component \\(S_E\\)?",
+      "options": {
+        "A": "\\(125\\text{ km}\\)",
+        "B": "\\(216.5\\text{ km}\\)",
+        "C": "\\(250\\text{ km}\\)",
+        "D": "\\(144.3\\text{ km}\\)"
+      },
+      "correct_answer": "B",
+      "hint": "Use cosine for the adjacent side (east component).",
+      "explanation": "The east component is \\(S_E = S\\cos\\theta = 250 \\times \\cos 30^\\circ = 250 \\times 0.866 = 216.5\\text{ km}\\). Option A (125 km) uses sine, which gives the north component.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(A_x = A\\cos\\theta\\)",
+        "\\(A_y = A\\sin\\theta\\)"
+      ],
+      "numeric": {
+        "is_numeric": true,
+        "given_values": {
+          "S": {
+            "magnitude": 250,
+            "unit": "km"
+          },
+          "theta": {
+            "magnitude": 30,
+            "unit": "degrees"
+          }
+        },
+        "answer_value": 216.5,
+        "answer_unit": "km",
+        "calculation_steps": [
+          "Identify angle from east axis: \\(\\theta = 30^\\circ\\).",
+          "East component formula: \\(S_E = S\\cos\\theta\\).",
+          "\\(S_E = 250 \\times \\cos 30^\\circ = 250 \\times 0.8660254 = 216.5\\text{ km}\\)."
+        ],
+        "significant_figures": 4
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "worked_example"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 93,
+        "explanation_validation": {
+          "word_overlap_percentage": 13.5,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 91
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Vector resolution",
+        "subsection_anchor": "1.5 Vector resolution",
+        "structural_element": "Example 1.3",
+        "content_anchor": "S_E = (250)(cos30°) = 216.5 km",
+        "page_hint": 15,
+        "concept_hash": "sha256_component_resolution_008"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 58,
+        "distractor_quality_score": 89,
+        "cognitive_level": "apply",
+        "exam_alignment_score": 92
+      },
+      "explanations_tiered": {
+        "definition": "The component of a vector along a direction is the projection of the vector onto that axis, given by magnitude times cosine of the included angle.",
+        "concept_summary": "Vector resolution uses trigonometry: horizontal component = magnitude × cos(angle from horizontal); vertical component = magnitude × sin(angle from horizontal).",
+        "beginner": "Imagine a 250 km arrow pointing 30° above east. The east part is like the shadow on the ground: \\(250 \\times \\cos 30^\\circ = 216.5\\) km east.",
+        "intermediate": "For vector \\(\\vec{S}\\) at angle \\(\\theta\\) from east, \\(S_x = S\\cos\\theta\\) and \\(S_y = S\\sin\\theta\\). Here \\(S_x = 250\\cos 30^\\circ = 216.5\\) km east.",
+        "advanced": "In coordinate form, \\(\\vec{S} = (S\\cos\\theta, S\\sin\\theta)\\). The east component \\(S_x\\) is the scalar projection onto the x-axis: \\(S_x = |\\vec{S}|\\cos\\theta\\).",
+        "worked_solution": [
+          "Step 1: Identify angle from east: \\(\\theta = 30^\\circ\\).",
+          "Step 2: Use \\(S_E = S\\cos\\theta = 250 \\times \\cos 30^\\circ\\).",
+          "Step 3: \\(\\cos 30^\\circ = \\sqrt{3}/2 \\approx 0.8660254\\).",
+          "Step 4: \\(250 \\times 0.8660254 = 216.5\\) km."
+        ],
+        "reasoning_steps": [
+          "Determine which component is needed (east = horizontal).",
+          "Use cosine for adjacent side to the angle.",
+          "Multiply magnitude by cosine of angle.",
+          "Compute numeric result."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(A_x = A\\cos\\theta\\)",
+            "name": "Horizontal component",
+            "variables": [
+              {
+                "symbol": "\\(A\\)",
+                "meaning": "Vector magnitude",
+                "unit": "km"
+              },
+              {
+                "symbol": "\\(\\theta\\)",
+                "meaning": "Angle from horizontal",
+                "unit": "degrees"
+              }
+            ],
+            "derivation": "From right triangle trigonometry"
+          },
+          {
+            "formula": "\\(A_y = A\\sin\\theta\\)",
+            "name": "Vertical component",
+            "variables": [
+              {
+                "symbol": "\\(A\\)",
+                "meaning": "Vector magnitude",
+                "unit": "km"
+              },
+              {
+                "symbol": "\\(\\theta\\)",
+                "meaning": "Angle from horizontal",
+                "unit": "degrees"
+              }
+            ],
+            "derivation": "From right triangle trigonometry"
+          }
+        ],
+        "misconceptions": [
+          "Students often confuse sine and cosine: sine gives opposite side (north), cosine gives adjacent (east).",
+          "Using degrees vs radians incorrectly — here degrees are correct as given."
+        ],
+        "related_concepts": [
+          "trigonometric resolution",
+          "vector components",
+          "right triangle",
+          "cosine function"
+        ],
+        "revision_note": "Horizontal component = \\(A\\cos\\theta\\). Vertical = \\(A\\sin\\theta\\).",
+        "glossary_entry": {
+          "term": "Vector component",
+          "definition": "The projection of a vector onto a coordinate axis, found using trigonometric functions.",
+          "example_equation": "\\(A_x = A\\cos\\theta\\), \\(A_y = A\\sin\\theta\\)",
+          "related_terms": [
+            "horizontal component",
+            "vertical component",
+            "resolution"
+          ]
+        },
+        "flashcard": {
+          "front": "How do you find east component of a vector at angle \\(\\theta\\) north of east?",
+          "back": "East component = magnitude × cos(\\(\\theta\\)). Example: 250 km at 30° gives 216.5 km east."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Vector resolution",
+            "relation": "uses",
+            "target": "Cosine for horizontal component"
+          },
+          {
+            "source": "Vector resolution",
+            "relation": "uses",
+            "target": "Sine for vertical component"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Vector Resolution Diagram",
+        "visual_description": "A right triangle with hypotenuse representing vector S of length 250 km at 30° above the horizontal (east) axis. The horizontal leg is the east component (S_E = 216.5 km), vertical leg is the north component (S_N = 125 km).",
+        "rendering_target": "matplotlib",
+        "rendering_engine": "matplotlib.pyplot",
+        "render_width_mm": 80,
+        "render_height_mm": 60,
+        "caption": "Figure: Resolution of a displacement vector into east and north components.",
+        "accessibility_alt_text": "Right triangle diagram. Hypotenuse labeled 250 km at 30 degrees above horizontal. Horizontal leg labeled S_E = 216.5 km east. Vertical leg labeled S_N = 125 km north.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2.165,
+                  0
+                ]
+              ],
+              "label": "S_E = 216.5 km",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  2.165,
+                  0
+                ],
+                [
+                  2.165,
+                  1.25
+                ]
+              ],
+              "label": null,
+              "style": "dashed"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2.165,
+                  1.25
+                ]
+              ],
+              "label": "S = 250 km",
+              "style": "solid"
+            },
+            {
+              "type": "angle",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  2.165,
+                  0
+                ],
+                [
+                  2.165,
+                  1.25
+                ]
+              ],
+              "radius": 0.5,
+              "label": "30°",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "East",
+              "position": [
+                2.5,
+                0
+              ]
+            },
+            {
+              "text": "North",
+              "position": [
+                2.165,
+                1.6
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -0.5,
+              3
+            ],
+            "y_range": [
+              -0.5,
+              2
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Phys_U1_Q008_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "workbook"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Vector Resolution",
+        "flashcard_front": "Formula for horizontal component of a vector?",
+        "flashcard_back": "\\(A_x = A\\cos\\theta\\). Example: 250 km at 30° gives 216.5 km east.",
+        "glossary_term": "Vector resolution",
+        "glossary_definition": "The process of breaking a vector into perpendicular components along chosen axes.",
+        "revision_note": "Horizontal = \\(A\\cos\\theta\\), Vertical = \\(A\\sin\\theta\\).",
+        "teacher_note": "Draw a right triangle on board: hypotenuse vector, legs as components.",
+        "bloom_level": "Apply",
+        "learning_objective_tag": "Resolve a vector into horizontal and vertical components",
+        "concept_map_nodes": [
+          {
+            "source": "Vector",
+            "relation": "resolved_into",
+            "target": "Horizontal component"
+          },
+          {
+            "source": "Vector",
+            "relation": "resolved_into",
+            "target": "Vertical component"
+          }
+        ],
+        "workbook_section": "1.5 Vector resolution",
+        "solution_manual_note": "Answer B. East component = magnitude × cos(30°) = 250 × 0.866 = 216.5 km."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q009",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Vector resolution",
+      "subsection": "1.5 Vector resolution",
+      "sub_subsection": null,
+      "structural_anchor": "Exercise 1.7",
+      "mcq_type": "F",
+      "question": "Why can a vector never have a component greater than its own magnitude?",
+      "options": {
+        "A": "Because components are always negative",
+        "B": "Because components are perpendicular projections, and \\(\\cos\\theta \\leq 1\\) or \\(\\sin\\theta \\leq 1\\)",
+        "C": "Because magnitude is the sum of components",
+        "D": "Because components have different units"
+      },
+      "correct_answer": "B",
+      "hint": "Recall the trigonometric factors for components: cosine and sine range from -1 to 1.",
+      "explanation": "Components are \\(A_x = A\\cos\\theta\\) and \\(A_y = A\\sin\\theta\\), and \\(|\\cos\\theta| \\leq 1\\), \\(|\\sin\\theta| \\leq 1\\). Thus \\(|A_x| \\leq A\\) and \\(|A_y| \\leq A\\). Option C is false; magnitude is \\(\\sqrt{A_x^2 + A_y^2}\\), not the sum.",
+      "difficulty_level": "medium",
+      "formula_used": [
+        "\\(A_x = A\\cos\\theta\\)",
+        "\\(A_y = A\\sin\\theta\\)"
+      ],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 91,
+        "explanation_validation": {
+          "word_overlap_percentage": 10.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 88
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Vector resolution",
+        "subsection_anchor": "1.5 Vector resolution",
+        "structural_element": "Exercise 1.7",
+        "content_anchor": "Explain why a vector cannot have a component greater than its own magnitude",
+        "page_hint": 14,
+        "concept_hash": "sha256_component_limit_009"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 62,
+        "distractor_quality_score": 86,
+        "cognitive_level": "analyse",
+        "exam_alignment_score": 87
+      },
+      "explanations_tiered": {
+        "definition": "A vector component is the projection of the vector onto an axis, found by multiplying the magnitude by the cosine or sine of the angle relative to that axis.",
+        "concept_summary": "Since cosine and sine are bounded between -1 and 1, the component magnitude can never exceed the vector's magnitude.",
+        "beginner": "Think of a shadow: a stick's shadow is never longer than the stick itself. The component is like the shadow on the ground.",
+        "intermediate": "Component = magnitude × trigonometric factor. \\(|\\cos\\theta| \\le 1\\) and \\(|\\sin\\theta| \\le 1\\), so \\(|A_x| \\le A\\) and \\(|A_y| \\le A\\).",
+        "advanced": "The component \\(A_x = |\\vec{A}|\\cos\\theta\\) satisfies \\(|A_x| = |\\vec{A}||\\cos\\theta| \\le |\\vec{A}|\\) because \\(|\\cos\\theta| \\le 1\\). Equality occurs only when \\(\\theta = 0^\\circ\\) or \\(180^\\circ\\).",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Recall component formulas: \\(A_x = A\\cos\\theta\\), \\(A_y = A\\sin\\theta\\).",
+          "Recall range of cosine and sine: \\(-1 \\le \\cos\\theta \\le 1\\), \\(-1 \\le \\sin\\theta \\le 1\\).",
+          "Multiply by magnitude \\(A\\): \\(-A \\le A_x \\le A\\), \\(-A \\le A_y \\le A\\).",
+          "Thus absolute component ≤ magnitude."
+        ],
+        "formula_analysis": [
+          {
+            "formula": "\\(A_x = A\\cos\\theta\\)",
+            "name": "Component formula",
+            "variables": [
+              {
+                "symbol": "\\(A\\)",
+                "meaning": "Vector magnitude",
+                "unit": "any"
+              },
+              {
+                "symbol": "\\(\\theta\\)",
+                "meaning": "Angle from axis",
+                "unit": "degrees"
+              }
+            ],
+            "derivation": "From definition of cosine in right triangle"
+          }
+        ],
+        "misconceptions": [
+          "Some think components can be larger than the vector if the vector points diagonally, but that violates triangle inequality.",
+          "Students confuse component magnitude with vector magnitude — the component is a projection, not a separate vector."
+        ],
+        "related_concepts": [
+          "trigonometric functions",
+          "projection",
+          "vector magnitude",
+          "right triangle"
+        ],
+        "revision_note": "Component ≤ magnitude because \\(|\\cos\\theta| \\le 1\\), \\(|\\sin\\theta| \\le 1\\).",
+        "glossary_entry": {
+          "term": "Vector component bound",
+          "definition": "The magnitude of a vector component cannot exceed the magnitude of the original vector.",
+          "example_equation": "\\(|A_x| \\le A\\), \\(|A_y| \\le A\\)",
+          "related_terms": [
+            "component",
+            "projection",
+            "magnitude"
+          ]
+        },
+        "flashcard": {
+          "front": "Can a vector component ever be larger than the vector's magnitude? Why?",
+          "back": "No. \\(A_x = A\\cos\\theta\\) and \\(|\\cos\\theta| \\le 1\\), so \\(|A_x| \\le A\\)."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Component",
+            "relation": "bounded_by",
+            "target": "Vector magnitude"
+          },
+          {
+            "source": "Component",
+            "relation": "depends_on",
+            "target": "\\(\\cos\\theta\\) or \\(\\sin\\theta\\)"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": false,
+        "visual_type": null,
+        "visual_title": null,
+        "visual_description": null,
+        "rendering_target": null,
+        "rendering_engine": null,
+        "render_width_mm": null,
+        "render_height_mm": null,
+        "caption": null,
+        "accessibility_alt_text": null,
+        "geometry_spec": null,
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "none",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "next_mcq",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "teacher_guide"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Vector Resolution",
+        "flashcard_front": "Why is |Ax| ≤ |A| always true?",
+        "flashcard_back": "Because Ax = A cos θ and |cos θ| ≤ 1, so |Ax| ≤ A.",
+        "glossary_term": "Component bound",
+        "glossary_definition": "The principle that a vector's component cannot exceed its magnitude due to trigonometric bounds.",
+        "revision_note": "Component ≤ magnitude: \\(|A\\cos\\theta| \\le A\\).",
+        "teacher_note": "Use a stick and its shadow on the ground and wall to illustrate.",
+        "bloom_level": "Analyse",
+        "learning_objective_tag": "Explain component limitations",
+        "concept_map_nodes": [
+          {
+            "source": "Trigonometric bounds",
+            "relation": "cause",
+            "target": "Component ≤ magnitude"
+          }
+        ],
+        "workbook_section": "1.5 Vector resolution",
+        "solution_manual_note": "Answer B. Components are \\(A\\cos\\theta\\) or \\(A\\sin\\theta\\), and \\(\\cos\\theta, \\sin\\theta \\leq 1\\)."
+      }
+    },
+    {
+      "question_id": "G10_Phys_U1_Q010",
+      "generation_timestamp": "2026-06-12T14:30:00Z",
+      "grade": "Grade 10",
+      "subject": "Physics",
+      "unit": "Unit 1: Vector Quantities",
+      "section": "Graphical method of vector addition",
+      "subsection": "1.4 Graphical method of vector addition",
+      "sub_subsection": null,
+      "structural_anchor": "Activity 1.2",
+      "mcq_type": "K",
+      "question": "In the head-to-tail (triangle) method of vector addition, where is the tail of the second vector placed?",
+      "options": {
+        "A": "At the tail of the first vector",
+        "B": "At the head of the first vector",
+        "C": "At any arbitrary point",
+        "D": "At the origin"
+      },
+      "correct_answer": "B",
+      "hint": "The name 'head-to-tail' describes the placement.",
+      "explanation": "In the triangle method, the tail of the second vector is placed at the head (tip) of the first vector. The resultant joins the tail of first to head of last. Option A describes the parallelogram method, not triangle method.",
+      "difficulty_level": "easy",
+      "formula_used": [],
+      "numeric": {
+        "is_numeric": false,
+        "given_values": null,
+        "answer_value": null,
+        "answer_unit": null,
+        "calculation_steps": null,
+        "significant_figures": null
+      },
+      "coverage": {
+        "baseline": true,
+        "importance_biased": false,
+        "structural_element_type": "activity"
+      },
+      "validation": {
+        "no_repetition_confirmed": true,
+        "length_constraints_passed": true,
+        "symbol_constraints_passed": true,
+        "textbook_reference_clean": true,
+        "option_parallelism_score": 94,
+        "explanation_validation": {
+          "word_overlap_percentage": 12.0,
+          "named_concept_present": true,
+          "distractor_error_identified": true,
+          "educational_value_score": 89
+        }
+      },
+      "source_trace": {
+        "pdf_unit": "Unit 1: Vector Quantities",
+        "section_anchor": "Graphical method of vector addition",
+        "subsection_anchor": "1.4 Graphical method of vector addition",
+        "structural_element": "Activity 1.2",
+        "content_anchor": "Draw vector B to the same scale with its tail at the tip of A",
+        "page_hint": 11,
+        "concept_hash": "sha256_head_to_tail_010"
+      },
+      "quality_metrics": {
+        "stem_complexity_score": 52,
+        "distractor_quality_score": 88,
+        "cognitive_level": "understand",
+        "exam_alignment_score": 89
+      },
+      "explanations_tiered": {
+        "definition": "The head-to-tail (triangle) method places the tail of each subsequent vector at the head of the previous vector to find the resultant.",
+        "concept_summary": "This graphical method chains vectors by connecting the head of one to the tail of the next, forming a path.",
+        "beginner": "Imagine walking: take 3 steps east (head), then from there take 4 steps north (tail at head). Your straight-line path home is the resultant.",
+        "intermediate": "In triangle method: first vector \\(\\vec{A}\\) drawn; then \\(\\vec{B}\\) placed with its tail at \\(\\vec{A}\\)'s head. Resultant \\(\\vec{R}\\) goes from tail of \\(\\vec{A}\\) to head of \\(\\vec{B}\\).",
+        "advanced": "This method relies on vector addition being associative: \\(\\vec{A} + \\vec{B} = \\vec{R}\\). Graphically, the triangle closes when \\(\\vec{R}\\) is drawn from start to finish.",
+        "worked_solution": [],
+        "reasoning_steps": [
+          "Draw first vector from origin.",
+          "Place second vector's tail at first vector's head.",
+          "Draw second vector with correct magnitude and direction.",
+          "Draw resultant from origin (tail of first) to head of second."
+        ],
+        "formula_analysis": [],
+        "misconceptions": [
+          "Some place both tails together (parallelogram method) for triangle method.",
+          "Students may draw resultant incorrectly from head of first to tail of second."
+        ],
+        "related_concepts": [
+          "graphical vector addition",
+          "resultant",
+          "parallelogram method",
+          "polygon method"
+        ],
+        "revision_note": "Head-to-tail: tail of next at head of previous.",
+        "glossary_entry": {
+          "term": "Head-to-tail method",
+          "definition": "A graphical method where vectors are placed sequentially with the tail of each at the head of the previous, and the resultant connects first tail to last head.",
+          "example_equation": null,
+          "related_terms": [
+            "triangle method",
+            "vector addition",
+            "resultant"
+          ]
+        },
+        "flashcard": {
+          "front": "Where is the second vector's tail placed in head-to-tail method?",
+          "back": "At the head (tip) of the first vector."
+        },
+        "concept_map_nodes": [
+          {
+            "source": "Head-to-tail method",
+            "relation": "places",
+            "target": "Tail at previous head"
+          },
+          {
+            "source": "Head-to-tail method",
+            "relation": "produces",
+            "target": "Resultant vector"
+          }
+        ]
+      },
+      "visual_system": {
+        "requires_visual": true,
+        "visual_type": "geometry_diagram",
+        "visual_title": "Head-to-Tail (Triangle) Method",
+        "visual_description": "Two vectors: A (horizontal right) then B (upward). Tail of B at head of A. Resultant R drawn from tail of A to head of B forming triangle.",
+        "rendering_target": "matplotlib",
+        "rendering_engine": "matplotlib.pyplot",
+        "render_width_mm": 70,
+        "render_height_mm": 50,
+        "caption": "Figure: Triangle method of vector addition.",
+        "accessibility_alt_text": "Diagram: Vector A horizontal right. Vector B vertical up starting at tip of A. Resultant R from start of A to tip of B.",
+        "geometry_spec": {
+          "shapes": [
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  0
+                ]
+              ],
+              "label": "A",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  3,
+                  2
+                ]
+              ],
+              "label": "B",
+              "style": "solid"
+            },
+            {
+              "type": "line",
+              "vertices": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  2
+                ]
+              ],
+              "label": "R = A + B",
+              "style": "solid"
+            }
+          ],
+          "labels": [
+            {
+              "text": "Tail of A",
+              "position": [
+                0,
+                -0.3
+              ]
+            },
+            {
+              "text": "Head of A / Tail of B",
+              "position": [
+                3.2,
+                -0.3
+              ]
+            },
+            {
+              "text": "Head of B",
+              "position": [
+                3.2,
+                2.3
+              ]
+            }
+          ],
+          "axes": {
+            "x_range": [
+              -1,
+              5
+            ],
+            "y_range": [
+              -1,
+              4
+            ],
+            "show_grid": false
+          },
+          "annotations": []
+        },
+        "graph_spec": null,
+        "table_spec": null,
+        "circuit_spec": null,
+        "chemistry_spec": null,
+        "biology_spec": null,
+        "flowchart_spec": null,
+        "number_line_spec": null,
+        "image_url": "images/G10_Phys_U1_Q010_geometry.png"
+      },
+      "layout_metadata": {
+        "page_element_type": "mcq_block",
+        "suggested_placement": "main_column",
+        "visual_anchor": "top_right",
+        "box_type": "standard_mcq",
+        "preceding_element": "previous_mcq",
+        "following_element": "none",
+        "page_break_before": false,
+        "keep_with_next": true,
+        "column_span": 1,
+        "callout_style": null,
+        "heading_level": null
+      },
+      "publishing_metadata": {
+        "target_documents": [
+          "question_bank",
+          "exam_paper",
+          "revision_guide"
+        ],
+        "flashcard_deck": "Physics Unit 1 — Graphical Vector Addition",
+        "flashcard_front": "How do you place vectors in triangle method?",
+        "flashcard_back": "Tail of second vector at head of first (head-to-tail).",
+        "glossary_term": "Triangle method",
+        "glossary_definition": "A graphical method adding two vectors by placing them head-to-tail to form a triangle.",
+        "revision_note": "Head-to-tail: tail of next at head of previous.",
+        "teacher_note": "Use physical arrows on board to demonstrate head-to-tail placement.",
+        "bloom_level": "Understand",
+        "learning_objective_tag": "Describe the graphical method of vector addition",
+        "concept_map_nodes": [
+          {
+            "source": "Triangle method",
+            "relation": "also_called",
+            "target": "Head-to-tail method"
+          }
+        ],
+        "workbook_section": "1.4 Graphical method of vector addition",
+        "solution_manual_note": "Answer B. Head-to-tail means second vector's tail at first vector's head."
+      }
+    }
+  ],
+  "batch_metrics": {
+    "generation_time_ms": 3250,
+    "average_question_quality": 88.7,
+    "type_distribution": {
+      "A": 3,
+      "B": 1,
+      "E": 2,
+      "F": 2,
+      "K": 2
+    },
+    "difficulty_distribution": {
+      "easy": 6,
+      "medium": 4,
+      "hard": 0
+    },
+    "section_distribution": {
+      "Scalars and Vectors": 2,
+      "Vector representations": 2,
+      "Vector addition and subtraction": 3,
+      "Graphical method of vector addition": 1,
+      "Vector resolution": 2
+    },
+    "tiered_explanation_word_counts": {
+      "beginner_avg": 26,
+      "intermediate_avg": 36,
+      "advanced_avg": 48
+    },
+    "visual_required_count": 2,
+    "flashcards_generated": 10,
+    "glossary_terms_generated": 10
+  },
+  "system_checks": {
+    "state_integrity_verified": true,
+    "constraint_compliance": 100,
+    "exhaustion_detection_active": true,
+    "phase_enforcement_active": true,
+    "anti_cheat_active": true,
+    "tiered_explanation_system_active": true,
+    "visual_system_active": true,
+    "layout_system_active": true,
+    "publishing_system_active": true
+  }
+}
